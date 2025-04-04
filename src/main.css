@@ -27,3 +27,16 @@ body {
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
   }
+
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background:  var(--retro-ochre);
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: var(--bourdeaux);
+    border-radius: 4px;
+  }

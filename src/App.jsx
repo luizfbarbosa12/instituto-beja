@@ -1,5 +1,6 @@
 import carta_fundadora from "/assets/image-carta-fundadora.png";
 import nuvens from "/assets/ilustracao-nuvens.svg";
+import logo_desenho_beja from "/assets/logo-desenho-beja.svg";
 
 const App = () => {
   return (
@@ -73,9 +74,13 @@ const App = () => {
         </svg>
       </div>
 
-      <div className='py-16 bg-[var(--rose)] flex-1 overflow-y-scroll max-h-[100vh]'>
-        {/* <img src={nuvens} alt="imagem de nuvens douradas no fundo" className="absolute top-0 z-0"/> */}
-        <div className='max-w-[500px] flex flex-col gap-8 mx-auto z-1 bg-[var(--porcelain)] p-10 rounded-3xl '>
+      <div className='py-16 bg-[var(--rose)] flex-1 overflow-y-scroll max-h-[100vh] relative custom-scrollbar'>
+        <img
+          src={nuvens}
+          alt='imagem de nuvens douradas no fundo'
+          className='absolute -top-25 h-100 -left-40'
+        />
+        <div className='max-w-[500px] flex flex-col gap-8 mx-auto z-2 bg-[var(--porcelain)] p-10 rounded-3xl relative'>
           <div className='editorial text-xl flex justify-between'>
             <span>Cristiane Sultani</span>
             <span>(O) Desde 2021</span>
@@ -96,7 +101,7 @@ const App = () => {
             alcançamos nossos resultados e a desigualdade só aumenta. A tão
             falada policrise nos assola e exige que usemos nosso policapital.
             Contudo, mais do que isso, exige que o nosso policapital esteja à
-            disposição da coletividade. 
+            disposição da coletividade.
           </p>{" "}
           <p>
             Tenho insistido em falar da coletivização das nossas
@@ -144,9 +149,22 @@ const App = () => {
             Rio quanto de SP também estão com as portas abertas para cada uma
             das experiências de colaboração.
           </p>
-          <cite className='text-2xl self-end pt-8'>
-            Com gratidão, Cristiane Sultani
-          </cite>
+          <p className='flex flex-col'>
+            Com gratidão,
+            <span>Cristiane Sultani</span>
+          </p>
+          <img
+            src={logo_desenho_beja}
+            alt='Logo da Beja'
+            className='h-20 absolute bottom-0 right-0 px-10 py-4 scale-x-[-1]'
+          />
+        </div>
+        <div className='relative w-full h-32 mt-8'>
+          <img
+            src='/assets/bicicletinha.svg'
+            alt='pessoa numa bicicleta em dourado'
+            className='absolute h-100 bottom-0 z-1'
+          />
         </div>
       </div>
     </div>
