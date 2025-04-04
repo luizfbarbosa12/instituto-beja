@@ -2,14 +2,17 @@
 
 @import "tailwindcss";
 
-/* :root, html, body {
-    font-family: 'EB Garamond';
-} */
-
+:root {
+  --retro-ochre: #b39567;
+  --porcelain: #f7f7f7;
+  --rose: #E8BCD3;
+  --bourdeaux: #1E0301;
+}
 body {
     font-family: 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
+    color: var(--bourdeaux);
   }
 
   .editorial {
