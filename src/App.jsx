@@ -1,6 +1,7 @@
 import carta_fundadora from "/assets/image-carta-fundadora.png";
 import white_logo from "/assets/white-logo-trans.svg";
 import nuvens from "/assets/ilustracao-nuvens.svg";
+
 const App = () => {
   return (
     <div className='flex'>
@@ -14,9 +15,9 @@ const App = () => {
         alt='Logo do instituto beja'
         className='absolute bottom-0'
       />
-      <div className='py-16 bg-[var(--rose)] flex-1 overflow-y-scroll max-h-[100vh]'>
+      <div className='py-16 bg-rose flex-1 overflow-y-scroll max-h-[100vh]'>
         {/* <img src={nuvens} alt="imagem de nuvens douradas no fundo" className="absolute top-0 z-0"/> */}
-        <div className='max-w-[500px] flex flex-col gap-8 mx-auto z-1 bg-[var(--porcelain)] p-10 rounded-3xl '>
+        <div className='max-w-[500px] flex flex-col gap-8 mx-auto z-1 bg-porcelain p-10 rounded-3xl '>
           <div className="editorial text-xl flex justify-between">
             <span>Cristiane Sultani</span>
             <span>(O)

@@ -1,12 +1,20 @@
 
 @import "tailwindcss";
 
+@theme {
+  --color-rose: #E8BCD3;
+  --color-bourdeaux: #1E0301;
+  --color-porcelain: #f7f7f7;
+  --color-retro-ochre: #b39567;
+}
+
 :root {
   --retro-ochre: #b39567;
   --porcelain: #f7f7f7;
   --rose: #E8BCD3;
   --bourdeaux: #1E0301;
 }
+
 body {
     font-family: 'Helvetica', sans-serif;
     margin: 0;
@@ -26,4 +34,10 @@ body {
   .helvetica-bold {
     font-family: 'Helvetica', sans-serif;
     font-weight: bold;
+  }
+
+  .flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
