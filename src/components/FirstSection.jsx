@@ -1,5 +1,5 @@
 import GoldGlobe from '../../public/assets/Ilustracao-2.png'
-import Logo from '../../public/assets/firstSectionLogo.png'
+import LogoFirstSection from '../../public/assets/LogoFirstSection'
 import * as Icon from '@phosphor-icons/react'
 
 const FirstSection = () => {
@@ -25,7 +25,7 @@ const FirstSection = () => {
           </div>
         </div>
 
-        <img src={Logo} alt="" className='col-start-7 row-start-4 z-10 row-span-full col-span-full' />
+        <LogoFirstSection/>
         <img src={GoldGlobe} alt="" className='absolute -right-22 w-[63rem] row-start-2' />
       </div>
     </div>

@@ -1,9 +1,8 @@
-
 @import "tailwindcss";
 
 @theme {
-  --color-rose: #E8BCD3;
-  --color-bourdeaux: #1E0301;
+  --color-rose: #e8bcd3;
+  --color-bourdeaux: #1e0301;
   --color-porcelain: #f7f7f7;
   --color-retro-ochre: #b39567;
 }
@@ -11,46 +10,47 @@
 :root {
   --retro-ochre: #b39567;
   --porcelain: #f7f7f7;
-  --rose: #E8BCD3;
-  --bourdeaux: #1E0301;
+  --rose: #e8bcd3;
+  --bourdeaux: #1e0301;
 }
 
 body {
-    font-family: 'Helvetica', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: var(--bourdeaux);
-  }
+  font-family: "Helvetica", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--bourdeaux);
+}
 
-  .editorial {
-    font-family: 'PP Editorial New', serif;
-  }
+.editorial {
+  font-family: "PP Editorial New", serif;
+}
 
-  .editorial-italic {
-    font-family: 'PP Editorial New', serif;
-    font-style: italic;
-  }
+.editorial-italic {
+  font-family: "PP Editorial New", serif;
+  font-style: italic;
+}
 
-  .helvetica-bold {
-    font-family: 'Helvetica', sans-serif;
-    font-weight: bold;
-  }
+.helvetica-bold {
+  font-family: "Helvetica", sans-serif;
+  font-weight: bold;
+}
 
-  .flex-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-  .custom-scrollbar::-webkit-scrollbar {
-    width: 8px;
-  }
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .custom-scrollbar::-webkit-scrollbar-track {
-    background:  var(--retro-ochre);
-  }
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
 
-  .custom-scrollbar::-webkit-scrollbar-thumb {
-    background-color: var(--bourdeaux);
-    border-radius: 4px;
-  }
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: var(--retro-ochre);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--bourdeaux);
+  border-radius: 4px;
+}
