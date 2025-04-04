@@ -1,7 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'); */
 
 @import "tailwindcss";
 
-:root, html, body {
+/* :root, html, body {
     font-family: 'EB Garamond';
-}
+} */
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .editorial {
+    font-family: 'PP Editorial New', serif;
+  }
+
+  .editorial-italic {
+    font-family: 'PP Editorial New', serif;
+    font-style: italic;
+  }
+
+  .helvetica-bold {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: bold;
+  }
