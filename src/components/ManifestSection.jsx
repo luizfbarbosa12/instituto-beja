@@ -2,14 +2,14 @@ import Bush from '../../public/assets/Ilustracao-3.png'
 
 const ManifestSection = () => {
     return (
-        <div className="relative flex flex-col items-center gap-12 w-full py-50  ">
-            <div className="flex justify-between w-full [&>p]:leading-none px-32 editorial text-2xl">
+        <div className="relative flex flex-col items-center gap-12 w-full py-50 overflow-hidden bg-porcelain">
+            <div className="flex justify-between w-full [&>p]:leading-none px-32 editorial text-2xl z-10">
                 <p>www.<br />institutobeja.org</p>
                 <p>(O)<br />Desde 2021</p>
             </div>
 
-            <div style={{ backgroundImage: "url('/assets/ManifestBg.png')" }} className="w-[74rem] h-[105rem] bg-center bg-cover py-52 px-51">
-                <div className="flex flex-col justify-start h-full gap-12 text-neutral-100">
+            <div style={{ backgroundImage: "url('/assets/ManifestBg.png')" }} className="w-[74rem] h-[105rem] bg-center bg-cover py-52 px-51 z-10">
+                <div className="flex flex-col justify-start h-full gap-12 text-porcelain">
                     <h1 className="text-[64px] editorial">Manifesto Beja</h1>
 
                     <p className="text-2xl leading-10">
@@ -43,7 +43,7 @@ const ManifestSection = () => {
                 </div>
             </div>
 
-            <img src={Bush} alt="Bush image" className='absolute -right-85 bottom-0 -z-10'/>
+            <img src={Bush} alt="Bush image" className='absolute -right-85 bottom-0'/>
         </div> 
   ) 
 } 
