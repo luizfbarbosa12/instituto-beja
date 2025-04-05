@@ -1,4 +1,5 @@
 import BejaHouseSection from "./components/BejaHouseSection";
+import ChangeTheorySection from "./components/ChangeTheorySection";
 import FirstSection from "./components/FirstSection";
 import FounderLetter from "./components/FounderLetter";
 import ManifestSection from "./components/ManifestSection";
@@ -14,6 +15,7 @@ const App = () => {
       <ManifestSection/>
       <MissionValueSection/>
       <BejaHouseSection/>
+      <ChangeTheorySection/>
     </div>
   );
 };
