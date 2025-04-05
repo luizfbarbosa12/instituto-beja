@@ -1,6 +1,6 @@
 
 import Clouds from '../../public/assets/Ilustracao-6.png'
-import Montains from '../../public/assets/Ilustracao-1.png'
+import Mountains from '../../public/assets/Ilustracao-1.png'
 import ProudHand from '../../public/assets/Ilustracao-4.png'
 
 const MissionValueSection = () => {
@@ -30,7 +30,7 @@ const MissionValueSection = () => {
             </div>
         </div>
 
-        <img src={Montains} alt="Mountains image" className='absolute left-0 bottom-0'/>
+        <img src={Mountains} alt="Mountains image" className='absolute left-0 bottom-0'/>
     </div>
   )
 }

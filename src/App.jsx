@@ -1,3 +1,4 @@
+import BejaHouseSection from "./components/BejaHouseSection";
 import FirstSection from "./components/FirstSection";
 import FounderLetter from "./components/FounderLetter";
 import ManifestSection from "./components/ManifestSection";
@@ -12,6 +13,7 @@ const App = () => {
       <RebrandingSection/>
       <ManifestSection/>
       <MissionValueSection/>
+      <BejaHouseSection/>
     </div>
   );
 };
