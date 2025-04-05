@@ -8,7 +8,7 @@ const ChangeTheorySection = () => {
             <h1 className='editorial text-8xl w-[50rem] leading-32'>Evolução da Teoria da Mudança</h1>
         </div>
 
-        <div className='flex flex-col gap-7 w-[62rem] justify-self-end'>
+        <div className='flex flex-col gap-7 w-[62rem]'>
             <div className='flex flex-col items-end text-3xl text-gold editorial leading-12'>
                 <p>“O capital filantrópico é um capital de risco. O Beja toma grandes riscos em prol da aprendizagem. Pois sem experimentação não há inovação.”</p>
                 <p className='text-end text-[1.75rem]'>—  Cristiane Sultani,<br/>
