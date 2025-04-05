@@ -5,6 +5,7 @@
   --color-bourdeaux: #1e0301;
   --color-porcelain: #f7f7f7;
   --color-retro-ochre: #b39567;
+  --color-gold: #9d7d4c;
 }
 
 :root {
@@ -53,4 +54,7 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: var(--bourdeaux);
   border-radius: 4px;
+}
+
+.test {
 }
