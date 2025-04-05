@@ -5,6 +5,7 @@ import FounderLetter from "./components/FounderLetter";
 import ManifestSection from "./components/ManifestSection";
 import MissionValueSection from "./components/MissionValueSection";
 import RebrandingSection from "./components/RebrandingSection";
+import StrategicPillarSection from "./components/StrategicPillarSection";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <MissionValueSection/>
       <BejaHouseSection/>
       <ChangeTheorySection/>
+      <StrategicPillarSection/>
     </div>
   );
 };
