@@ -8,6 +8,7 @@ import ManifestSection from "./components/ManifestSection";
 import MissionValueSection from "./components/MissionValueSection";
 import RebrandingSection from "./components/RebrandingSection";
 import StrategicPillarSection from "./components/StrategicPillarSection";
+import KnowledgeSection from "./components/KnowledgeSection";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <StrategicPillarSection />
       <CMESection />
       <AdvocacySection />
+      <KnowledgeSection/>
     </div>
   );
 };

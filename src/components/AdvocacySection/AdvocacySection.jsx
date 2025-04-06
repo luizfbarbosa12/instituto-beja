@@ -29,7 +29,7 @@ const AdvocacySection = () => {
   ));
 
   return (
-    <div className='flex flex-col items-end w-full overflow-hidden'>
+    <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
       <div className='flex justify-end relative w-full items- bg-bourdeaux text-porcelain pb-45 pl-32'>
         <LogoFirstSection
           style={"fill-porcelain w-65 h-21 relative top-20 left-0"}
@@ -298,8 +298,8 @@ const AdvocacySection = () => {
           <div className='flex flex-col w-full gap-8'>
             <p>
               A partir da parceria com o <strong>Instituto Beja</strong>, a
-              <strong>Serenas</strong> foi convidada a participar – e, a seu
-              modo, revolucionar – o processo de Evolução da Teoria da Mudança.
+              <strong>Serenas</strong> foi convidada a participar - e, a seu
+              modo, revolucionar - o processo de Evolução da Teoria da Mudança.
               Em 2025, elas assumirão conosco a{" "}
               <strong>Orquestração de Sistemas</strong> do <strong>CMe</strong>.
             </p>
@@ -310,7 +310,7 @@ const AdvocacySection = () => {
               Alagoas, em parceria com a Secretaria da Mulher. Também está
               produzindo um guia de prevenção de violências de gênero, em
               colaboração com a Embaixada do Canadá, que será distribuído em
-              mais de 300 escolas do estado. 
+              mais de 300 escolas do estado.
             </strong>
 
             <p>
@@ -566,9 +566,9 @@ const AdvocacySection = () => {
               Para 2025, <strong>A Ponte</strong> planeja implementar sistemas
               para mensurar os resultados de gestão de projetos, utilizando a
               aplicação de aleatorização, estratégia desenhada na reestruturação
-              de sua Teoria de Mudança, e expandirá sua atuação no legislativo
-              com ao incorporar  um terceiro eixo de trabalho, direcionado
-              especificamente aos impactos climáticos. 
+              de sua Teoria de Mudança, e expandirá sua atuação no legislativo
+              com ao incorporar um terceiro eixo de trabalho, direcionado
+              especificamente aos impactos climáticos.
             </p>
           </div>
         </div>
@@ -600,7 +600,7 @@ const AdvocacySection = () => {
             </p>
 
             <p>
-              O <strong>Pacto</strong> baseia sua atuação na{" "}
+              O <strong>Pacto</strong> baseia sua atuação na{" "}
               <strong>articulação</strong>, na <strong>colaboração</strong> e no{" "}
               <strong>uso inteligente de dados</strong>, que orientam as suas
               decisões e ações. A organização reconhece as{" "}
@@ -864,7 +864,7 @@ const AdvocacySection = () => {
               <strong>processo eleitoral</strong>. Em <strong>2024</strong>,
               realizou a{" "}
               <strong>campanha de conscientização e informação</strong>{" "}
-              intitulada <strong>"Sem memória não há futuro"</strong>, marcando
+              intitulada <strong>&quot;Sem memória não há futuro&quot;</strong>, marcando
               os <strong>60 anos do Golpe Militar</strong>, e lançou o{" "}
               <strong>
                 Guia para a democracia: defesa do processo eleitoral
@@ -927,7 +927,7 @@ const AdvocacySection = () => {
             olhar para democracia como algo que precisa ser levado a sério, que
             precisa de investimento e recursos, até ela estar à beira do
             colapso. É uma causa urgente, mas também é preciso mobilizar a rede
-            em relação a projetos que talvez não pareçam 'urgentes'. Trabalhar
+            em relação a projetos que talvez não pareçam &apos;urgentes&apos;. Trabalhar
             de forma mais propositiva e menos defensiva e reativa.”
           </p>
 
@@ -1024,14 +1024,14 @@ const AdvocacySection = () => {
         <div className='flex flex-col gap-8 items-end editorial text-3xl text-retro-ochre leading-12 pt-16'>
           <p>
             “Em 2024, trabalhamos dados e informações a partir de pesquisas
-            consolidadas, como o Censo GIFE, lançado no final de 2023. Usar
+            consolidadas, como o Censo GIFE, lançado no final de 2023. Usar
             dados e informações é uma forma de ir além do convencimento
             normativo, do dever ser. Com bons dados, podemos dizer como as
             coisas são e por que devemos mudar, evidenciando as conquistas mas
-            sobretudo os limites da filantropia."
+            sobretudo os limites da filantropia.&quot;
           </p>
 
-          <p className='w-[70%] text-end'>—  CÁSSIO FRANÇA, Secretário Geral</p>
+          <p className='w-[70%] text-end'>—  CÁSSIO FRANÇA, Secretário Geral</p>
         </div>
 
         <div className='flex gap-16 text-base'>
@@ -1040,7 +1040,7 @@ const AdvocacySection = () => {
               <strong>O Grupo de Institutos Fundações e Empresas (GIFE)</strong>{" "}
               é uma associação que reúne investidores sociais privados do
               Brasil, incluindo empresas, institutos e fundações de diferentes
-              naturezas – seja familiar, independente ou empresarial. Fundado
+              naturezas - seja familiar, independente ou empresarial. Fundado
               como grupo informal em 1989, foi formalizado como organização sem
               fins lucrativos em 1995 e é uma referência nacional no campo do
               investimento social privado.
@@ -1069,10 +1069,10 @@ const AdvocacySection = () => {
             participação no Conselho de Desenvolvimento Econômico Social
             Sustentável do Governo Federal e no Fundo USP Diversa, são
             demonstrações grandiosas da necessidade de corresponsabilidade no
-            desenvolvimento do país como um todo."
+            desenvolvimento do país como um todo.&quot;
           </p>
 
-          <p className='w-[70%] text-end'>—  CÁSSIO FRANÇA, Secretário Geral</p>
+          <p className='w-[70%] text-end'>—  CÁSSIO FRANÇA, Secretário Geral</p>
         </div>
 
         <div className='flex justify-end gap-16 text-base'>

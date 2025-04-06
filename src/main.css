@@ -26,6 +26,7 @@ body {
   box-sizing: border-box;
   color: var(--bourdeaux);
   scroll-behavior: smooth;
+  background-color: var(--porcelain);
 }
 
 .editorial {
@@ -62,4 +63,12 @@ body {
 }
 
 .test {
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--retro-ochre) !important;
+}
+
+.swiper-pagination-horizontal {
+  display: flex !important;
 }
