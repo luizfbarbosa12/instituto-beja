@@ -1,3 +1,4 @@
+import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
 import BejaHouseSection from "./components/BejaHouseSection";
 import ChangeTheorySection from "./components/ChangeTheorySection";
 import CMESection from "./components/CMESection";
@@ -11,15 +12,16 @@ import StrategicPillarSection from "./components/StrategicPillarSection";
 const App = () => {
   return (
     <div>
-      <FirstSection/>
-      <FounderLetter/>
-      <RebrandingSection/>
-      <ManifestSection/>
-      <MissionValueSection/>
-      <BejaHouseSection/>
-      <ChangeTheorySection/>
-      <StrategicPillarSection/>
-      <CMESection/>
+      <FirstSection />
+      <FounderLetter />
+      <RebrandingSection />
+      <ManifestSection />
+      <MissionValueSection />
+      <BejaHouseSection />
+      <ChangeTheorySection />
+      <StrategicPillarSection />
+      <CMESection />
+      <AdvocacySection />
     </div>
   );
 };
