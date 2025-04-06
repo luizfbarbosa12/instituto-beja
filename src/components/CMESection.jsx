@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 import * as Icon from "@phosphor-icons/react";
-import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
 import LineCME from "./../../public/assets/LineCME";
 import LogoCME from "../../public/assets/LogoCME.png";
 import ImageCME from "../../public/assets/ImageCME.png";
 import MapBiomasLogo from "/public/assets/MapBiomas.png";
 import SerenasLogo from "/public/assets/Serenas_logo.svg";
 import DesenrolaLogo from "/public/assets/DesenrolaLogo.png";
+import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
 
 const CMESection = () => {
   const AEPIEMap = AEPIE.map((item, index) => (
