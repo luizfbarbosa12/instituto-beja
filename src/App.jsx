@@ -1,5 +1,6 @@
 import BejaHouseSection from "./components/BejaHouseSection";
 import ChangeTheorySection from "./components/ChangeTheorySection";
+import CMESection from "./components/CMESection";
 import FirstSection from "./components/FirstSection";
 import FounderLetter from "./components/FounderLetter";
 import ManifestSection from "./components/ManifestSection";
@@ -18,6 +19,7 @@ const App = () => {
       <BejaHouseSection/>
       <ChangeTheorySection/>
       <StrategicPillarSection/>
+      <CMESection/>
     </div>
   );
 };
