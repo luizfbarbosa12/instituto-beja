@@ -6,6 +6,11 @@
   --color-porcelain: #f7f7f7;
   --color-retro-ochre: #b39567;
   --color-gold: #9d7d4c;
+  --color-peach: #fce7e4;
+  --color-hot-coral: #f04e37;
+  --color-text-default-black: #1e0301;
+  --color-cyan: #00afad;
+
   --font-serif: "PP Editorial New", serif;
   --font-sans: "Helvetica", sans-serif;
 
@@ -28,6 +33,7 @@ body {
   box-sizing: border-box;
   color: var(--bourdeaux);
   scroll-behavior: smooth;
+  background-color: var(--porcelain);
 }
 
 .editorial {
@@ -64,4 +70,12 @@ body {
 }
 
 .test {
+}
+
+.swiper-pagination-bullet-active {
+  background-color: var(--retro-ochre) !important;
+}
+
+.swiper-pagination-horizontal {
+  display: flex !important;
 }

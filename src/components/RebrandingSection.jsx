@@ -12,7 +12,7 @@ import Post6 from '../../public/assets/RebrandingPost6.png'
 
 const RebrandingSection = () => {
     return (
-        <div className="flex flex-col pt-80 pb-30 gap-64 w-full overflow-hidden bg-porcelain">
+        <div className="flex flex-col pt-40 pb-30 gap-64 w-full overflow-hidden bg-porcelain">
             <div className='flex flex-col gap-[4rem]'>
                 <h1 className="text-8xl editorial px-32">Rebranding</h1>
 
