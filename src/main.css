@@ -6,6 +6,12 @@
   --color-porcelain: #f7f7f7;
   --color-retro-ochre: #b39567;
   --color-gold: #9d7d4c;
+  --font-serif: "PP Editorial New", serif;
+  --font-sans: "Helvetica", sans-serif;
+
+  --breakpoint-desktop: 1512px;
+
+  --container-desktop: var(--breakpoint-desktop);
 }
 
 :root {
