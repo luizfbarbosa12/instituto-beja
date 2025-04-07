@@ -90,7 +90,7 @@ const KnowledgeSection = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className="flex gap-12 px-20">
+        <div className='flex gap-12 px-20'>
           <div className='h-screen text-retro-ochre editorial flex flex-col w-[860px] gap-4'>
             <p className='text-3xl self-end'>“As periferias têm respostas.”</p>
             <cite className='text-2xl self-end'>- PIPA</cite>
