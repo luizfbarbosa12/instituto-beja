@@ -7,6 +7,8 @@ const ImageSlider = ({
   translateYMiddleImg: translateYMiddle,
   ImgWidth,
   ImgHeight,
+  ImgStyle,
+  ButtonStyle,
 }) => {
   const [startIndex, setStartIndex] = useState(arr.length % 2);
   const visibleCount = 11;
@@ -54,8 +56,8 @@ const ImageSlider = ({
                 animate={{ y: isMiddle ? -translateYMiddle : 0, x: 0 }}
                 src={item}
                 alt='Rebranding'
-                className={`shrink-0 ${!isMiddle && "brightness-75"} object-center object-fill`}
-                style={{ width: ImgWidth, height: ImgHeight }}
+                className={`shrink-0 ${!isMiddle && "brightness-75"} object-fill`}
+                style={{ width: ImgWidth, height: ImgHeight, ...ImgStyle }}
                 transition={{ duration: 0.25, ease: "easeOut" }}
               />
             );
@@ -69,13 +71,13 @@ const ImageSlider = ({
       >
         <button
           onClick={prev}
-          className='flex-center size-16 p-3 rounded-full bg-bourdeaux shrink-0 text-porcelain z-50'
+          className={`flex-center size-16 p-3 rounded-full ${ButtonStyle} shrink-0 z-50`}
         >
           <Icon.ArrowLeft className='size-full' />
         </button>
         <button
           onClick={next}
-          className='flex-center size-16 p-3 rounded-full bg-bourdeaux shrink-0 text-porcelain z-50'
+          className={`flex-center size-16 p-3 rounded-full ${ButtonStyle} shrink-0 z-50`}
         >
           <Icon.ArrowRight className='size-full' />
         </button>
