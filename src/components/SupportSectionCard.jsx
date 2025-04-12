@@ -1,6 +1,17 @@
 import { PropTypes } from "prop-types";
 
 export function SupportSectionCard({ title, mainImg, img, subtitle }) {
+  const mainImgMap = Array.isArray(mainImg)
+    ? mainImg.map((item, index) => (
+        <img
+          key={item}
+          src={item}
+          alt={`imagem ${index + 1}`}
+          className='max-w-40 max-h-20 object-contain'
+        />
+      ))
+    : null;
+
   const subImgMap = Array.isArray(img)
     ? img.map((item, index) => (
         <img
@@ -17,7 +28,7 @@ export function SupportSectionCard({ title, mainImg, img, subtitle }) {
       <div className='flex flex-col gap-3 w-fit'>
         <h1 className='text-[20px] uppercase'>{title}</h1>
 
-        <img src={mainImg} alt='Pela democracia' className='max-w-40' />
+        <div className='flex gap-4 items-center'>{mainImgMap}</div>
 
         <div className='w-1/2 h-[1px] bg-gold' />
 
@@ -30,7 +41,7 @@ export function SupportSectionCard({ title, mainImg, img, subtitle }) {
 }
 SupportSectionCard.propTypes = {
   title: PropTypes.string.isRequired,
-  mainImg: PropTypes.string.isRequired,
+  mainImg: PropTypes.arrayOf(PropTypes.string).isRequired,
   img: PropTypes.arrayOf(PropTypes.string).isRequired,
   subtitle: PropTypes.string.isRequired,
 };
