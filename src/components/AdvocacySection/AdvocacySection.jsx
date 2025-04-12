@@ -1,5 +1,5 @@
-import * as Icon from "@phosphor-icons/react";
 import AdvocacyCard from "./AdvocacyCard";
+import * as Icon from "@phosphor-icons/react";
 import UspLogo from "/public/assets/UspLogo.png";
 import IcciLogo from "/public/assets/IcciLogo.png";
 import GifeLogo from "/public/assets/GifeLogo.png";
@@ -864,8 +864,8 @@ const AdvocacySection = () => {
               <strong>processo eleitoral</strong>. Em <strong>2024</strong>,
               realizou a{" "}
               <strong>campanha de conscientização e informação</strong>{" "}
-              intitulada <strong>&quot;Sem memória não há futuro&quot;</strong>, marcando
-              os <strong>60 anos do Golpe Militar</strong>, e lançou o{" "}
+              intitulada <strong>&quot;Sem memória não há futuro&quot;</strong>,
+              marcando os <strong>60 anos do Golpe Militar</strong>, e lançou o{" "}
               <strong>
                 Guia para a democracia: defesa do processo eleitoral
               </strong>
@@ -927,8 +927,8 @@ const AdvocacySection = () => {
             olhar para democracia como algo que precisa ser levado a sério, que
             precisa de investimento e recursos, até ela estar à beira do
             colapso. É uma causa urgente, mas também é preciso mobilizar a rede
-            em relação a projetos que talvez não pareçam &apos;urgentes&apos;. Trabalhar
-            de forma mais propositiva e menos defensiva e reativa.”
+            em relação a projetos que talvez não pareçam &apos;urgentes&apos;.
+            Trabalhar de forma mais propositiva e menos defensiva e reativa.”
           </p>
 
           <p className='w-[70%] text-end'>
@@ -1031,7 +1031,7 @@ const AdvocacySection = () => {
             sobretudo os limites da filantropia.&quot;
           </p>
 
-          <p className='w-[70%] text-end'>—  CÁSSIO FRANÇA, Secretário Geral</p>
+          <p className='w-[70%] text-end'>— CÁSSIO FRANÇA, Secretário Geral</p>
         </div>
 
         <div className='flex gap-16 text-base'>
@@ -1072,7 +1072,7 @@ const AdvocacySection = () => {
             desenvolvimento do país como um todo.&quot;
           </p>
 
-          <p className='w-[70%] text-end'>—  CÁSSIO FRANÇA, Secretário Geral</p>
+          <p className='w-[70%] text-end'>— CÁSSIO FRANÇA, Secretário Geral</p>
         </div>
 
         <div className='flex justify-end gap-16 text-base'>
