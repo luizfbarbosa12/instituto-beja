@@ -1,19 +1,20 @@
-import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
-import BejaHouseSection from "./components/BejaHouseSection";
-import ChangeTheorySection from "./components/ChangeTheorySection";
+import Wrapper from "./components/Wrapper";
 import CMESection from "./components/CMESection";
 import FirstSection from "./components/FirstSection";
 import FounderLetter from "./components/FounderLetter";
-import { InteractionEcosystem } from "./components/InteractionEcosystem";
 import ManifestSection from "./components/ManifestSection";
-import MissionValueSection from "./components/MissionValueSection";
-import RebrandingSection from "./components/RebrandingSection";
-import StrategicPillarSection from "./components/StrategicPillarSection";
 import KnowledgeSection from "./components/KnowledgeSection";
+import BejaHouseSection from "./components/BejaHouseSection";
+import RebrandingSection from "./components/RebrandingSection";
+import ChangeTheorySection from "./components/ChangeTheorySection";
+import MissionValueSection from "./components/MissionValueSection";
+import StrategicPillarSection from "./components/StrategicPillarSection";
+import { InteractionEcosystem } from "./components/InteractionEcosystem";
+import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
 
 const App = () => {
   return (
-    <div>
+    <Wrapper>
       <FirstSection />
       <FounderLetter />
       <RebrandingSection />
@@ -26,7 +27,7 @@ const App = () => {
       <CMESection />
       <AdvocacySection />
       <KnowledgeSection />
-    </div>
+    </Wrapper>
   );
 };
 

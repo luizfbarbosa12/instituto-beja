@@ -32,8 +32,19 @@ body {
   padding: 0;
   box-sizing: border-box;
   color: var(--bourdeaux);
-  scroll-behavior: smooth;
   background-color: var(--porcelain);
+}
+
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
 }
 
 .editorial {
@@ -67,9 +78,6 @@ body {
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: var(--bourdeaux);
   border-radius: 4px;
-}
-
-.test {
 }
 
 .swiper-pagination-bullet-active {

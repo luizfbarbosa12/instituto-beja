@@ -14,6 +14,7 @@ import arrowRight from "/assets/icons/arrow-right.svg";
 import { NoticeContainer } from "./ui/NoticeContainer";
 import { NoticeColumn } from "./ui/NoticeColumn";
 import { Blockquote } from "./ui/Blockote";
+import conector_de_textos from "/assets/conector-de-textos.svg";
 
 const KnowledgeSection = () => {
   return (
@@ -100,7 +101,7 @@ const KnowledgeSection = () => {
           </Swiper>
         </div>
         <div className='flex gap-12 px-20'>
-          <div className='min-h-screen text-retro-ochre editorial flex flex-col w-[860px] gap-4'>
+          <div className='text-retro-ochre editorial flex flex-col w-[860px] gap-4'>
             <p className='text-3xl self-end'>“As periferias têm respostas.”</p>
             <cite className='text-2xl self-end'>- PIPA</cite>
             <img
@@ -123,6 +124,80 @@ const KnowledgeSection = () => {
             privados no Brasil, trazendo maior reconhecimento às especificidades
             e necessidades desses territórios.
           </p>
+        </div>
+        <div className='w-full flex items-center justify-center'>
+          <img
+            src={conector_de_textos}
+            alt='linha conectando textos'
+            className=''
+          />
+        </div>
+        <div className='flex justify-end  gap-12 -mt-3'>
+          <p className='flex flex-col gap-12 w-[472px]'>
+            <span>
+              Em 2024, a <strong>PIPA</strong> ampliou sua equipe e implementou
+              políticas de cuidado que incentivam o desenvolvimento profissional
+              e pessoal dos colaboradores. Entre as iniciativas, destacam-se
+              auxílios complementares para infraestrutura, terapia pessoal e
+              aprendizado de idiomas.
+            </span>
+            <span>
+              Nesse período, a <strong>PIPA</strong> estruturou seu ciclo de
+              avaliação interna, capacitando os profissionais para o uso de
+              softwares de gestão de tarefas e projetos, além de elaborar planos
+              de desenvolvimento individual para cada colaborador. Em parceria
+              com o Instituto <strong>ACP</strong>, articulou a participação de
+              integrantes de sua equipe em mentorias de gestão e liderança da{" "}
+              <strong>ACP</strong>. A colaboração com o Instituto também
+              resultou na criação do primeiro{" "}
+              <strong>
+                Fundo de Desenvolvimento Institucional para Organizações
+                Periféricas (Fundo POP)
+              </strong>
+              , voltado para o fortalecimento institucional de organizações e
+              centros de mobilização social localizados nas favelas e periferias
+              de todo o Brasil.
+            </span>
+          </p>
+          <p className='w-[472px]'>
+            Outro marco importante foi o lançamento, em maio, do Guia das
+            periferias para doadores, um material estruturado para orientar
+            empresas, instituições, financiadores e fundações interessados em
+            reduzir os impactos da desigualdade nos sistemas de doação no
+            Brasil. Organizado em três eixos principais - transparência,
+            pluralidade e desenvolvimento institucional - o guia reflete o
+            compromisso da PIPA em transformar as práticas de doação, promovendo
+            inclusão e justiça social no acesso a recursos.
+          </p>
+        </div>
+        <div className='w-full max-w-6xl ml-auto mt-10 px-4  mb-40'>
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+            onSlideChange={() => console.log("slide change")}
+            onSwiper={(swiper) => console.log(swiper)}
+            pagination={true}
+            modules={[Pagination]}
+            className=' max-w-[990px]'
+          >
+            <SwiperSlide className='editorial text-4xl text-retro-ochre py-20'>
+              &quot;Na aproximação com o Beja, estávamos querendo fortalecer a
+              nossa comunicação, o que culminou com a ativação do GUIA e o nosso
+              processo de construção de narrativas da periferia. Para além de
+              peças audiovisuais, da comunicação e do fortalecimento interno da
+              nossa comunicação, o objetivo era também trazer os atores e
+              projetos que já atuam nas periferias do Brasil para o debate da
+              discussão de democratização da filantropia.
+            </SwiperSlide>
+            <SwiperSlide className='editorial text-4xl text-retro-ochre py-20'>
+              A Pipa roda por cinco regiões do Brasil e traz as narrativas
+              dessas pessoas que estão tocando seus projetos nas suas
+              periferias, nas suas comunidades, para o grande centro de debate
+              da filantropia. Essa aproximação estabelece o apoio institucional
+              dentro do guia.”
+              <cite>- PIPA</cite>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
 
