@@ -280,7 +280,7 @@ const CMESection = () => {
               <div className='flex gap-1 items-center'>
                 <p>Saber Mais Sobre o Centro de Mudanças Exponenciais</p>
                 <div className='flex-center size-4 bg-bourdeaux text-porcelain rounded-full p-0.5 text-[14px]'>
-                  <Icon.ArrowRight className='-rotate-15' />
+                  <Icon.ArrowRight  className='-rotate-15' />
                 </div>
               </div>
             </div>
