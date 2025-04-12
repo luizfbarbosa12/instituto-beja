@@ -10,6 +10,9 @@ import { AgbaraFundAssociation } from "./AgbaraFundAssociation";
 import { IEAEvent } from "./IEAEvent";
 import { LautProject } from "./LautProject";
 import { IdBRProject } from "./IdBRProject";
+import { IgarapeProject } from "./IgarapeProject";
+import { MoreInCommonProject } from "./MoreInCommonProject";
+import { CriaAndTHPSupport } from "./CriaAndTHPSupport";
 
 const KnowledgeSection = () => {
   return (
@@ -200,6 +203,9 @@ const KnowledgeSection = () => {
       <IEAEvent />
       <LautProject />
       <IdBRProject />
+      <IgarapeProject />
+      <MoreInCommonProject />
+      <CriaAndTHPSupport />
     </>
   );
 };

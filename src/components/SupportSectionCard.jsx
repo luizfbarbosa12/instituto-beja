@@ -7,7 +7,7 @@ export function SupportSectionCard({ title, mainImg, img, subtitle }) {
           key={item}
           src={item}
           alt={`imagem ${index + 1}`}
-          className='max-w-40 max-h-20 object-contain'
+          className=' object-contain'
         />
       ))
     : null;
@@ -28,11 +28,12 @@ export function SupportSectionCard({ title, mainImg, img, subtitle }) {
       <div className='flex flex-col gap-3 w-fit'>
         <h1 className='text-[20px] uppercase'>{title}</h1>
 
-        <div className='flex gap-4 items-center'>{mainImgMap}</div>
+        <div className='gap-4 grid grid-flow-col max-w-100'>{mainImgMap}</div>
 
-        <div className='w-1/2 h-[1px] bg-gold' />
-
-        <div className='flex flex-col gap-2 '>{subImgMap}</div>
+        <div className='flex relative flex-col gap-2 w-fit items-start'>
+          <hr className='w-full border-t-1 bg-gold' />
+          {subImgMap}
+        </div>
 
         <p className='font-bold text-[14px] uppercase'>{subtitle}</p>
       </div>
