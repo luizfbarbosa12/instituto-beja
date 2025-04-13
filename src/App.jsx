@@ -7,10 +7,10 @@ import KnowledgeSection from "./components/KnowledgeSection";
 import BejaHouseSection from "./components/BejaHouseSection";
 import RebrandingSection from "./components/RebrandingSection";
 import ChangeTheorySection from "./components/ChangeTheorySection";
-import MissionValueSection from "./components/MissionValueSection";
 import StrategicPillarSection from "./components/StrategicPillarSection";
 import { InteractionEcosystem } from "./components/InteractionEcosystem";
 import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
+import MissionValueSection from "./components/MIssionValueSection/MissionValueSection";
 
 const App = () => {
   return (
