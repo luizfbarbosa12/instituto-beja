@@ -27,7 +27,9 @@ const Wrapper = ({ children, className }) => {
   }, []);
 
   return (
-    <div className={`m-auto flex flex-col max-w-screen-2xl ${className}`}>
+    <div
+      className={`m-auto flex flex-col max-w-screen-2xl max-2xl:px-29 ${className}`}
+    >
       {children}
     </div>
   );

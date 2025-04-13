@@ -2,7 +2,7 @@ import STCard from "./STCard";
 import { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 
-const ScrollTriggerCard = ({ arr }) => {
+const ScrollTriggerList = ({ arr }) => {
   const container = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -33,4 +33,4 @@ const ScrollTriggerCard = ({ arr }) => {
   );
 };
 
-export default ScrollTriggerCard;
+export default ScrollTriggerList;
