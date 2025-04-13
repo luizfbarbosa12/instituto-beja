@@ -5,8 +5,12 @@ import MVCard from "./MVCard";
 
 const MissionValueSection = () => {
   return (
-    <div className='bg-porcelain relative flex flex-col gap-25 py-100 pb-120'>
-      <img src={Clouds} alt='Cloud image' className='absolute right-0 top-0' />
+    <div className='flex flex-col relative bg-porcelain gap-25 py-100 pb-120'>
+      <img
+        src={Clouds}
+        alt='Cloud image'
+        className='absolute -right-29 top-0 w-screen max-w-none'
+      />
 
       <MVCard
         title={"Missão"}
@@ -42,7 +46,7 @@ const MissionValueSection = () => {
       <img
         src={Mountains}
         alt='Mountains image'
-        className='absolute left-0 bottom-0'
+        className='absolute -left-29 bottom-0 w-screen max-w-none'
       />
     </div>
   );
