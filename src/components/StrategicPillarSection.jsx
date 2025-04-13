@@ -1,6 +1,6 @@
 import { SPCardData } from "../data/StrategicPillarData";
 import Pillars from "../../public/assets/PilaresEstrategicos.png";
-import ScrollTriggerCard from "./ScrollTriggerCard/ScrollTriggerCard";
+import ScrollTriggerList from "./ScrollTriggerCard/ScrollTriggerList";
 
 const StrategicPillarSection = () => {
   return (
@@ -22,7 +22,7 @@ const StrategicPillarSection = () => {
       </div>
 
       <div className='flex flex-col w-full  gap-10'>
-        <ScrollTriggerCard arr={SPCardData} />
+        <ScrollTriggerList arr={SPCardData} />
       </div>
     </div>
   );
