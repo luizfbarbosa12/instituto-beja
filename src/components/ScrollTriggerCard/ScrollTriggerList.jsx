@@ -27,7 +27,7 @@ const ScrollTriggerList = ({ arr }) => {
   });
 
   return (
-    <motion.div layout ref={container} className='px-20 '>
+    <motion.div layout ref={container} className=''>
       {cardMap}
     </motion.div>
   );

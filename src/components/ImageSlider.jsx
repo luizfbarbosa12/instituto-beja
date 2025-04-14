@@ -21,11 +21,9 @@ const ImageSlider = ({
 
   const next = () => {
     setStartIndex((prev) => prev + 1);
-    console.log(startIndex);
   };
 
   const prev = () => {
-    console.log(startIndex);
     setStartIndex((prev) => prev - 1);
   };
 

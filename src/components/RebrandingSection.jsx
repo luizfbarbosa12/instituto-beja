@@ -1,6 +1,7 @@
 import Logo from "../../public/assets/LogoRebranding.svg";
 import ImageSlider from "./ImageSlider";
 import { bejaCoverImg, keywordImg } from "../data/RebrandingData";
+import Wrapper from "./Wrapper";
 
 const RebrandingSection = () => {
   const bejaCoverImgMap = bejaCoverImg.map((item, index) => (
@@ -8,38 +9,43 @@ const RebrandingSection = () => {
   ));
 
   return (
-    <div className='flex flex-col gap-66 w-full overflow-hidden bg-porcelain'>
-      <div className='flex flex-col w-full gap-44'>
-        <div className='flex flex-col gap-[4rem]'>
-          <h1 className='text-8xl editorial'>Rebranding</h1>
+    <div className='flex flex-col gap-48 w-full overflow-hidden bg-porcelain'>
+      <Wrapper>
+        <div className='flex flex-col w-full gap-44'>
+          <div className='flex flex-col gap-[4rem]'>
+            <h1 className='text-8xl editorial'>Rebranding</h1>
 
-          <div className='flex items-center gap-40 w-full justify-end'>
-            <img src={Logo} alt='Beja logo' className='size-60' />
+            <div className='flex items-center gap-40 w-full justify-end'>
+              <img src={Logo} alt='Beja logo' className='size-60' />
 
-            <div className='w-[31rem] flex flex-col gap-[3rem] text-xl'>
-              <p>
-                Desenvolver o rebranding do <strong>Instituto Beja </strong>
-                representou mais do que um desafio criativo – foi um mergulho
-                para repensar a forma como nos apresentamos ao mundo. Liderado
-                pela agência <strong>AKQA</strong>, esse processo teve como
-                objetivo criar um espaço visual e narrativo que não apenas
-                inspirasse, mas também convidasse à ação – articulando
-                possibilidades, conectando pessoas e provocando mudanças reais.
-              </p>
-              <p>
-                Guiado pela missão de promover impacto no campo da filantropia,
-                o <strong>Instituto Beja</strong> atua como um organismo vivo,
-                fluido, abrangente e diverso que estimula e promove ambientes
-                para conexões e transformações. Nossa essência está na
-                pluralidade das vozes que nos compõem e nas relações que
-                cultivamos. O desafio consistiu em manter essa riqueza, enquanto
-                criávamos uma comunicação clara, objetiva e capaz de refletir
-                nossa força e autenticidade.
-              </p>
+              <div className='w-[31rem] flex flex-col gap-[3rem] text-xl'>
+                <p>
+                  Desenvolver o rebranding do <strong>Instituto Beja </strong>
+                  representou mais do que um desafio criativo – foi um mergulho
+                  para repensar a forma como nos apresentamos ao mundo. Liderado
+                  pela agência <strong>AKQA</strong>, esse processo teve como
+                  objetivo criar um espaço visual e narrativo que não apenas
+                  inspirasse, mas também convidasse à ação – articulando
+                  possibilidades, conectando pessoas e provocando mudanças
+                  reais.
+                </p>
+                <p>
+                  Guiado pela missão de promover impacto no campo da
+                  filantropia, o <strong>Instituto Beja</strong> atua como um
+                  organismo vivo, fluido, abrangente e diverso que estimula e
+                  promove ambientes para conexões e transformações. Nossa
+                  essência está na pluralidade das vozes que nos compõem e nas
+                  relações que cultivamos. O desafio consistiu em manter essa
+                  riqueza, enquanto criávamos uma comunicação clara, objetiva e
+                  capaz de refletir nossa força e autenticidade.
+                </p>
+              </div>
             </div>
           </div>
         </div>
+      </Wrapper>
 
+      <div className='flex flex-col gap-65 w-full'>
         <div className='w-full flex flex-col items-center editorial h-fit gap-10'>
           <h1 className='text-4xl'>
             A palavra-chave deste rebranding foi oxigenar.
@@ -53,10 +59,8 @@ const RebrandingSection = () => {
             ButtonStyle={"bg-bourdeaux text-porcelain"}
           />
         </div>
-      </div>
 
-      <div className='flex flex-col gap-34 w-full'>
-        <div className='flex justify-between w-full gap-12'>
+        <div className='flex justify-between w-full gap-12 pr-32'>
           <div className='grid absolute left-0 grid-cols-3 grid-rows-2 w-[55rem] h-[46.5rem] [&>img]:h-full [&>img]:w-full [&>img]:object-cover '>
             {bejaCoverImgMap}
           </div>
@@ -91,14 +95,16 @@ const RebrandingSection = () => {
             </div>
           </div>
         </div>
+      </div>
 
+      <Wrapper>
         <div className='flex w-full justify-end'>
           <p className='w-[56rem] text-[2.5rem] editorial text-rose'>
             É o Beja de sempre, agora mais maduro, com uma nova linguagem para
             transformar o futuro que já começou.
           </p>
         </div>
-      </div>
+      </Wrapper>
     </div>
   );
 };
