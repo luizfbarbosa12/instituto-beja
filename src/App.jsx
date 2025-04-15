@@ -12,35 +12,36 @@ import StrategicPillarSection from "./components/StrategicPillarSection";
 import { InteractionEcosystem } from "./components/InteractionEcosystem";
 import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
 import MissionValueSection from "./components/MIssionValueSection/MissionValueSection";
+import PhilanthropySection from "./components/PhilanthropySection/PhilanthropySection";
 
 const App = () => {
-  useEffect(() => {
-    const lenis = new Lenis({
-      lerp: 0.12,
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      smoothWheel: true,
-      wheelMultiplier: 0.8,
-      smoothTouch: false,
-      syncTouch: true,
-      syncTouchLerp: 0.1,
-      round: true,
-    });
+  // useEffect(() => {
+  //   const lenis = new Lenis({
+  //     lerp: 0.12,
+  //     duration: 1.2,
+  //     easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+  //     smoothWheel: true,
+  //     wheelMultiplier: 0.8,
+  //     smoothTouch: false,
+  //     syncTouch: true,
+  //     syncTouchLerp: 0.1,
+  //     round: true,
+  //   });
 
-    const raf = (time) => {
-      lenis.raf(time);
-      requestAnimationFrame(raf);
-    };
-    requestAnimationFrame(raf);
+  //   const raf = (time) => {
+  //     lenis.raf(time);
+  //     requestAnimationFrame(raf);
+  //   };
+  //   requestAnimationFrame(raf);
 
-    return () => {
-      lenis.destroy();
-    };
-  }, []);
+  //   return () => {
+  //     lenis.destroy();
+  //   };
+  // }, []);
 
   return (
     <>
-      <FirstSection />
+      {/* <FirstSection />
       <FounderLetter />
       <RebrandingSection />
       <ManifestSection />
@@ -51,7 +52,8 @@ const App = () => {
       <InteractionEcosystem />
       <CMESection />
       <AdvocacySection />
-      <KnowledgeSection />
+      <KnowledgeSection /> */}
+      <PhilanthropySection />
     </>
   );
 };

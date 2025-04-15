@@ -47,7 +47,7 @@ const ChangeTheorySection = () => {
             ]}
             secondBlock={[
               {
-                key: "first-0",
+                key: "second-0",
                 content: (
                   <>
                     <p>
