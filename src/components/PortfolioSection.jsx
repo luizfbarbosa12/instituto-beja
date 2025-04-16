@@ -34,7 +34,6 @@ export function PortfolioSection() {
           start: "50% 80%",
           end: "top 50%",
           scrub: 4,
-          markers: true,
         },
       });
     },
