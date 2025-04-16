@@ -12,6 +12,7 @@ import StrategicPillarSection from "./components/StrategicPillarSection";
 import { InteractionEcosystem } from "./components/InteractionEcosystem";
 import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
 import MissionValueSection from "./components/MIssionValueSection/MissionValueSection";
+import PhilanthropySection from "./components/PhilanthropySection/PhilanthropySection";
 import { PortfolioSection } from "./components/PortfolioSection";
 
 const App = () => {
@@ -57,6 +58,7 @@ const App = () => {
       <CMESection />
       <AdvocacySection />
       <KnowledgeSection />
+      <PhilanthropySection />
       <PortfolioSection />
     </>
   );
