@@ -12,6 +12,7 @@ import StrategicPillarSection from "./components/StrategicPillarSection";
 import { InteractionEcosystem } from "./components/InteractionEcosystem";
 import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
 import MissionValueSection from "./components/MIssionValueSection/MissionValueSection";
+import { PortfolioSection } from "./components/PortfolioSection";
 
 const App = () => {
   useEffect(() => {
@@ -27,13 +28,17 @@ const App = () => {
       round: true,
     });
 
-    const raf = (time) => {
+    const handleAnimationFrame = (time) => {
       lenis.raf(time);
-      requestAnimationFrame(raf);
     };
-    requestAnimationFrame(raf);
+
+    const animationFrameId = requestAnimationFrame(function loop(time) {
+      handleAnimationFrame(time);
+      requestAnimationFrame(loop);
+    });
 
     return () => {
+      cancelAnimationFrame(animationFrameId);
       lenis.destroy();
     };
   }, []);
@@ -52,6 +57,7 @@ const App = () => {
       <CMESection />
       <AdvocacySection />
       <KnowledgeSection />
+      <PortfolioSection />
     </>
   );
 };
