@@ -7,7 +7,7 @@ const StrategicPillarSection = () => {
   return (
     <Wrapper className={"flex flex-col gap-30"}>
       <div className='flex flex-col gap-38 w-full pt-80'>
-        <h1 className='editorial text-8xl w-[60rem] leading-32 '>
+        <h1 className='editorial text-8xl w-full max-w-[60rem] leading-32 '>
           Pilares Estratégicos
         </h1>
 
