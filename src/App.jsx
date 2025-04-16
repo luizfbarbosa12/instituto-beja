@@ -58,8 +58,8 @@ const App = () => {
       <CMESection />
       <AdvocacySection />
       <KnowledgeSection />
-      <PhilanthropySection />
       <PortfolioSection />
+      <PhilanthropySection />
     </>
   );
 };

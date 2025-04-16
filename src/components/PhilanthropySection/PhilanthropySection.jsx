@@ -52,10 +52,9 @@ const PhilanthropySection = () => {
                       direção de arte de <strong>Batman Zavareze</strong> e
                       equipe. O evento reuniu cerca de 200 convidados. A edição
                       ressaltou a importância de ressignificar a filantropia ao
-                      questionar mimport ImageSlider from './../ImageSlider';
-                      odelos tradicionais e estimular o desaprender das práticas
-                      convencionais, por meio de um enfoque na colaboração e
-                      cocriação.
+                      questionar modelos tradicionais e estimular o desaprender
+                      das práticas convencionais, por meio de um enfoque na
+                      colaboração e cocriação.
                     </p>
 
                     <p>
@@ -82,7 +81,7 @@ const PhilanthropySection = () => {
         </div>
         <Wrapper>
           <div className='flex justify-between gap-50 items-center w-full'>
-            <div className='flex flex-col gap-10 [&>p]:text-5xl [&>p]:leading-14'>
+            <div className='flex flex-col gap-10 [&>p]:text-3xl desktop:[&>p]:text-5xl [&>p]:leading-14'>
               <p className='editorial'>
                 É hora de abrir espaço para novas agendas.
               </p>
@@ -98,7 +97,7 @@ const PhilanthropySection = () => {
               <img
                 src={FilantropandoCCF}
                 alt='Conectando compromisso e futuro'
-                className='shrink-0 min-w-142'
+                className='shrink-0 max-90 desktop:min-w-142'
               />
               <img
                 src={Filantropando2}
