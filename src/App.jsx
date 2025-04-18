@@ -54,10 +54,10 @@ const App = () => {
       <BejaHouseSection />
       <ChangeTheorySection />
       <StrategicPillarSection />
-      <InteractionEcosystem /> */}
-      <CMESection />
-      {/* <AdvocacySection />
-      <KnowledgeSection />
+      <InteractionEcosystem />
+      <CMESection /> */}
+      <AdvocacySection />
+      {/* <KnowledgeSection />
       <PortfolioSection />
       <PhilanthropySection /> */}
     </>
