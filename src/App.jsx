@@ -22,7 +22,7 @@ const App = () => {
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
-      wheelMultiplier: 0.8,
+      wheelMultiplier: 0.5,
       smoothTouch: false,
       syncTouch: true,
       syncTouchLerp: 0.1,
@@ -46,7 +46,7 @@ const App = () => {
 
   return (
     <>
-      <FirstSection />
+      {/* <FirstSection />
       <FounderLetter />
       <RebrandingSection />
       <ManifestSection />
@@ -54,12 +54,12 @@ const App = () => {
       <BejaHouseSection />
       <ChangeTheorySection />
       <StrategicPillarSection />
-      <InteractionEcosystem />
+      <InteractionEcosystem /> */}
       <CMESection />
-      <AdvocacySection />
+      {/* <AdvocacySection />
       <KnowledgeSection />
       <PortfolioSection />
-      <PhilanthropySection />
+      <PhilanthropySection /> */}
     </>
   );
 };
