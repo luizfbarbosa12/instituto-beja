@@ -1,6 +1,6 @@
-import nuvens from "/assets/ilustracao-nuvens.svg";
-import logo_desenho_beja from "/assets/logo-desenho-beja.svg";
-import conector_de_textos from "/assets/conector-de-textos.svg";
+const nuvens = "/assets/ilustracao-nuvens.svg";
+const logo_desenho_beja = "/assets/logo-desenho-beja.svg";
+const conector_de_textos = "/assets/conector-de-textos.svg";
 
 const FounderLetter = () => {
   return (

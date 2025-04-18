@@ -1,13 +1,13 @@
 import SupportSectionCard from "../SupportSectionCard";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
-import JusticaRacial from "/assets/JusticaRacial.png";
-import EquidadeGenero from "/assets/EquidadeGenero.png";
-import THPLogo from "/assets/thp_logo.png";
-import CRIA_LOGO from "/assets/CRIA_LOGO.png";
 import { KnowledgeSubsection } from "./KnowledgeSubsection";
 import { Blockquote } from "../ui/Blockote";
 
+const EquidadeGenero = "/assets/EquidadeGenero.png";
+const JusticaRacial = "/assets/JusticaRacial.png";
+const THPLogo = "/assets/thp_logo.png";
+const CRIA_LOGO = "/assets/CRIA_LOGO.png";
 export function CriaAndTHPSupport() {
   return (
     <KnowledgeSubsection

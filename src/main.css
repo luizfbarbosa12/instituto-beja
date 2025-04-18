@@ -20,6 +20,8 @@
   --breakpoint-desktop: 1512px;
 
   --container-desktop: var(--breakpoint-desktop);
+
+  --text-3xl: 2rem;
 }
 
 :root {

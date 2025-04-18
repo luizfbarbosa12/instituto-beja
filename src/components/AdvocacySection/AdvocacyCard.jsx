@@ -1,5 +1,5 @@
 import { PropTypes } from "prop-types";
-import ProudHand from "/public/assets/Ilustracao-4.png";
+const ProudHand = "/assets/Ilustracao-4.png";
 
 const AdvocacyCard = ({ title, mainImg, img, subtitle }) => {
   const subImgMap = Array.isArray(img)

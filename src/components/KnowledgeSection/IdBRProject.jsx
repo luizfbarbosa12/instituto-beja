@@ -1,9 +1,9 @@
 import SupportSectionCard from "../SupportSectionCard";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
-import JusticaRacial from "/assets/JusticaRacial.png";
-import ID_BRLogo from "/assets/IDE_BR.png";
 import { KnowledgeSubsection } from "./KnowledgeSubsection";
+const JusticaRacial = "/assets/JusticaRacial.png";
+const ID_BRLogo = "/assets/IDE_BR.png";
 
 export function IdBRProject() {
   return (

@@ -1,24 +1,25 @@
 import AdvocacyCard from "./AdvocacyCard";
 import * as Icon from "@phosphor-icons/react";
-import UspLogo from "/public/assets/UspLogo.png";
-import IcciLogo from "/public/assets/IcciLogo.png";
-import GifeLogo from "/public/assets/GifeLogo.png";
-import PonteLogo from "/public/assets/PonteLogo.png";
-import ProudHand from "/public/assets/Ilustracao-4.png";
-import LineCME from "./../../../public/assets/LineCME";
 import { advocacyActions } from "../../data/AdvocacyData";
-import SerenasLogo from "/public/assets/Serenas_logo.svg";
-import JusticaRacial from "/public/assets/JusticaRacial.png";
-import LogoFirstSection from "/public/assets/LogoFirstSection";
-import PelaDemocracia from "/public/assets/PelaDemocracia.png";
-import EquidadeGenero from "/public/assets/EquidadeGenero.png";
-import PelaDemocracia2 from "/public/assets/PelaDemocracia2.png";
-import AliancaAdvocacy from "/public/assets/AliancaAdvocacy.png";
-import PazJusticaImage from "/public/assets/PazJusticaImage.png";
-import MovimentoDoacao from "/public/assets/MovimentoDoacao.png";
-import LatimImpactoLogo from "/public/assets/LatimImpactoLogo.png";
-import FilantropiaSubCard from "/public/assets/FilantropiaSubCard.png";
-import PactoContraFomeLogo from "/public/assets/PactoContraFomeLogo.png";
+import LogoFirstSection from "../LogoFirstSection";
+import LineCME from "../LineCME";
+
+const UspLogo = "/assets/UspLogo.png";
+const IcciLogo = "/assets/IcciLogo.png";
+const GifeLogo = "/assets/GifeLogo.png";
+const PonteLogo = "/assets/PonteLogo.png";
+const ProudHand = "/assets/Ilustracao-4.png";
+const SerenasLogo = "/assets/Serenas_logo.svg";
+const JusticaRacial = "/assets/JusticaRacial.png";
+const PelaDemocracia = "/assets/PelaDemocracia.png";
+const EquidadeGenero = "/assets/EquidadeGenero.png";
+const PelaDemocracia2 = "/assets/PelaDemocracia2.png";
+const AliancaAdvocacy = "/assets/AliancaAdvocacy.png";
+const PazJusticaImage = "/assets/PazJusticaImage.png";
+const MovimentoDoacao = "/assets/MovimentoDoacao.png";
+const LatimImpactoLogo = "/assets/LatimImpactoLogo.png";
+const FilantropiaSubCard = "/assets/FilantropiaSubCard.png";
+const PactoContraFomeLogo = "/assets/PactoContraFomeLogo.png";
 
 const AdvocacySection = () => {
   const advocacyActionsMap = advocacyActions.map((item, index) => (

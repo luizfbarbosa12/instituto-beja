@@ -1,6 +1,6 @@
-import GoldGlobe from "../../public/assets/Ilustracao-2.png";
-import LogoFirstSection from "../../public/assets/LogoFirstSection";
 import * as Icon from "@phosphor-icons/react";
+const GoldGlobe = "/assets/Ilustracao-2.png";
+import LogoFirstSection from "./LogoFirstSection";
 
 const FirstSection = () => {
   return (

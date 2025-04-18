@@ -1,6 +1,6 @@
-import Bush from "/assets/Ilustracao-3.png";
-import Clouds from "/assets/Ilustracao-6.png";
-import ProudHand from "/public/assets/Ilustracao-4.png";
+const Bush = "/assets/Ilustracao-3.png";
+const Clouds = "/assets/Ilustracao-6.png";
+const ProudHand = "/assets/Ilustracao-4.png";
 
 export const SPCardData = [
   {

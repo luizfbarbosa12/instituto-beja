@@ -1,12 +1,13 @@
 import { motion } from "framer-motion";
 import * as Icon from "@phosphor-icons/react";
-import LineCME from "./../../public/assets/LineCME";
-import LogoCME from "../../public/assets/LogoCME.png";
-import ImageCME from "../../public/assets/ImageCME.png";
-import MapBiomasLogo from "/public/assets/MapBiomas.png";
-import SerenasLogo from "/public/assets/Serenas_logo.svg";
-import DesenrolaLogo from "/public/assets/DesenrolaLogo.png";
 import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
+import LineCME from "./LineCME";
+
+const LogoCME = "/assets/LogoCME.png";
+const ImageCME = "/assets/ImageCME.png";
+const MapBiomasLogo = "/assets/MapBiomas.png";
+const SerenasLogo = "/assets/Serenas_logo.svg";
+const DesenrolaLogo = "/assets/DesenrolaLogo.png";
 
 const CMESection = () => {
   const AEPIEMap = AEPIE.map((item, index) => (
@@ -280,7 +281,7 @@ const CMESection = () => {
               <div className='flex gap-1 items-center'>
                 <p>Saber Mais Sobre o Centro de Mudanças Exponenciais</p>
                 <div className='flex-center size-4 bg-bourdeaux text-porcelain rounded-full p-0.5 text-[14px]'>
-                  <Icon.ArrowRight  className='-rotate-15' />
+                  <Icon.ArrowRight className='-rotate-15' />
                 </div>
               </div>
             </div>

@@ -1,7 +1,7 @@
 import { gsap } from "gsap";
-import GoldenDot from "../../../public/assets/golden-dot.png";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
+const GoldenDot = "/assets/golden-dot.png";
 
 export function EcosystemIntermediates() {
   useLayoutEffect(() => {

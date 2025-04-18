@@ -1,8 +1,8 @@
 import * as Icon from "@phosphor-icons/react";
-import Image from "../../public/assets/Ilustracao-8.png";
 import TextBlock from "./TextBlock";
 import Wrapper from "./Wrapper";
 
+const Image = "/assets/Ilustracao-8.png";
 const ChangeTheorySection = () => {
   return (
     <Wrapper className={"pb-120"}>

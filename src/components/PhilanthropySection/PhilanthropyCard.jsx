@@ -1,5 +1,5 @@
 import * as Icon from "@phosphor-icons/react";
-import FilantropandoCardStar from "./../../../public/assets/FilantropandoCardStar";
+import FilantropandoCardStar from "../FilantropandoCardStar";
 
 const PhilanthropyCard = ({
   title,

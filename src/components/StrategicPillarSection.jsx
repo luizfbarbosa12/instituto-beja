@@ -1,7 +1,7 @@
 import { SPCardData } from "../data/StrategicPillarData";
-import Pillars from "../../public/assets/PilaresEstrategicos.png";
 import ScrollTriggerList from "./ScrollTriggerCard/ScrollTriggerList";
 import Wrapper from "./Wrapper";
+const Pillars = "/assets/PilaresEstrategicos.png";
 
 const StrategicPillarSection = () => {
   return (

@@ -1,12 +1,13 @@
 import SupportSectionCard from "../SupportSectionCard";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
-import JusticaRacial from "/assets/JusticaRacial.png";
-import IEALogo from "/assets/instituto-de-estudos-avancados-ieausp.png";
-import BLISLogo from "/assets/BLIS.png";
 import { KnowledgeSubsection } from "./KnowledgeSubsection";
 import { List } from "../ui/List";
 import { ListItem } from "../ui/List/ListItem";
+
+const JusticaRacial = "/assets/JusticaRacial.png";
+const IEALogo = "/assets/instituto-de-estudos-avancados-ieausp.png";
+const BLISLogo = "/assets/BLIS.png";
 
 export function IEAEvent() {
   return (

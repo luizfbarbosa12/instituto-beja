@@ -3,14 +3,14 @@ import TextBlock from "../TextBlock";
 import * as Icon from "@phosphor-icons/react";
 import PhilanthropyCard from "./PhilanthropyCard";
 import ImageSlider from "../../components/ImageSlider";
-import Filantropando2 from "/public/assets/Filantropando2.png";
-import Banner from "/public/assets/FilantropandoSectionBanner.png";
-import FilantropandoCCF from "/public/assets/FilantropandoCCF.png";
-import FilantropandoStar from "/public/assets/FilantropandoStar.png";
-import FilantropiaSlider1 from "/public/assets/FilantropiaSlider1.png";
-import FilantropiaSlider2 from "/public/assets/FilantropiaSlider2.png";
-import FilantropiaSlider3 from "/public/assets/FilantropiaSlider3.png";
-import BubblesFilantropando from "/public/assets/BubblesFilantropando.png";
+const Filantropando2 = "/assets/Filantropando2.png";
+const Banner = "/assets/FilantropandoSectionBanner.png";
+const FilantropandoCCF = "/assets/FilantropandoCCF.png";
+const FilantropandoStar = "/assets/FilantropandoStar.png";
+const FilantropiaSlider1 = "/assets/FilantropiaSlider1.png";
+const FilantropiaSlider2 = "/assets/FilantropiaSlider2.png";
+const FilantropiaSlider3 = "/assets/FilantropiaSlider3.png";
+const BubblesFilantropando = "/assets/BubblesFilantropando.png";
 
 const PhilanthropySection = () => {
   return (
@@ -128,7 +128,7 @@ const PhilanthropySection = () => {
             <h2 className='editorial text-5xl'>Eixo 1</h2>
             <div
               className='w-70 h-7'
-              style={{ backgroundImage: "url('/public/assets/GoldenBG.png')" }}
+              style={{ backgroundImage: "url('/assets/GoldenBG.png')" }}
             ></div>
           </div>
 
@@ -222,7 +222,7 @@ const PhilanthropySection = () => {
             <h2 className='editorial text-5xl'>Eixo 2</h2>
             <div
               className='w-70 h-7'
-              style={{ backgroundImage: "url('/public/assets/GoldenBG.png')" }}
+              style={{ backgroundImage: "url('/assets/GoldenBG.png')" }}
             ></div>
           </div>
 

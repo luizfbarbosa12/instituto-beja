@@ -1,11 +1,7 @@
-import nuvens from "/assets/ilustracao-nuvens.svg";
-import logo_beja_completo from "/assets/logo-beja-completo-svg.svg";
-import logo_pipa from "/assets/logo-pipa.svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { Pagination } from "swiper/modules";
 import "swiper/css/pagination";
-import conector_de_textos from "/assets/conector-de-textos.svg";
 import { AgbaraFundAssociation } from "./AgbaraFundAssociation";
 import { IEAEvent } from "./IEAEvent";
 import { LautProject } from "./LautProject";
@@ -14,6 +10,10 @@ import { IgarapeProject } from "./IgarapeProject";
 import { MoreInCommonProject } from "./MoreInCommonProject";
 import { CriaAndTHPSupport } from "./CriaAndTHPSupport";
 
+const conector_de_textos = "/assets/conector-de-textos.svg";
+const nuvens = "/assets/ilustracao-nuvens.svg";
+const logo_beja_completo = "/assets/logo-beja-completo-svg.svg";
+const logo_pipa = "/assets/logo-pipa.svg";
 const KnowledgeSection = () => {
   return (
     <>

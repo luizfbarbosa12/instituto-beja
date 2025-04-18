@@ -1,8 +1,8 @@
-import Logo from "../../public/assets/LogoRebranding.svg";
 import ImageSlider from "./ImageSlider";
 import { bejaCoverImg, keywordImg } from "../data/RebrandingData";
 import Wrapper from "./Wrapper";
 
+const Logo = "/assets/LogoRebranding.svg";
 const RebrandingSection = () => {
   const bejaCoverImgMap = bejaCoverImg.map((item, index) => (
     <img key={index} src={item} />

@@ -1,9 +1,9 @@
 import SupportSectionCard from "../SupportSectionCard";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
-import Democracia from "/assets/democracia.png";
-import LAUTLogo from "/assets/LAUT.png";
 import { KnowledgeSubsection } from "./KnowledgeSubsection";
+const Democracia = "/assets/democracia.png";
+const LAUTLogo = "/assets/LAUT.png";
 
 export function LautProject() {
   return (

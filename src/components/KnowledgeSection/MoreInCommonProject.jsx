@@ -1,8 +1,8 @@
 import SupportSectionCard from "../SupportSectionCard";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
-import Democracia from "/assets/democracia.png";
-import MoreInCommonLogo from "/assets/more-in-common-logo-header.png";
+const Democracia = "/assets/democracia.png";
+const MoreInCommonLogo = "/assets/more-in-common-logo-header.png";
 import { KnowledgeSubsection } from "./KnowledgeSubsection";
 
 export function MoreInCommonProject() {

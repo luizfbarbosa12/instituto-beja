@@ -2,12 +2,12 @@ import SupportSectionCard from "../SupportSectionCard";
 import { Blockquote } from "../ui/Blockote";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
-import FilantropiaSubCard from "/assets/FilantropiaSubCard.png";
-import JusticaRacial from "/assets/JusticaRacial.png";
-import EquidadeGenero from "/assets/EquidadeGenero.png";
-import Ag from "/assets/agbara_logo.png";
-import arrowRight from "/assets/icons/arrow-right.svg";
 import { KnowledgeSubsection } from "./KnowledgeSubsection";
+const FilantropiaSubCard = "/assets/FilantropiaSubCard.png";
+const JusticaRacial = "/assets/JusticaRacial.png";
+const EquidadeGenero = "/assets/EquidadeGenero.png";
+const Ag = "/assets/agbara_logo.png";
+const arrowRight = "/assets/icons/arrow-right.svg";
 
 export function AgbaraFundAssociation() {
   return (

@@ -1,9 +1,9 @@
 import SupportSectionCard from "../SupportSectionCard";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
-import Democracia from "/assets/democracia.png";
-import IgarapeLogo from "/assets/igarape.png";
 import { KnowledgeSubsection } from "./KnowledgeSubsection";
+const Democracia = "/assets/democracia.png";
+const IgarapeLogo = "/assets/igarape.png";
 
 export function IgarapeProject() {
   return (

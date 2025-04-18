@@ -1,9 +1,9 @@
-import CMECard1 from "/public/assets/CMECard1.png";
-import CMECard2 from "/public/assets/CMECard2.png";
-import CMECard3 from "/public/assets/CMECard3.png";
-import MapBiomasLogo from "/public/assets/MapBiomas.png";
-import SerenasLogo from "/public/assets/Serenas_logo.svg";
-import DesenrolaLogo from "/public/assets/DesenrolaLogo.png";
+const CMECard1 = "/assets/CMECard1.png";
+const CMECard2 = "/assets/CMECard2.png";
+const CMECard3 = "/assets/CMECard3.png";
+const MapBiomasLogo = "/assets/MapBiomas.png";
+const SerenasLogo = "/assets/Serenas_logo.svg";
+const DesenrolaLogo = "/assets/DesenrolaLogo.png";
 
 export const AEPIE = [
   {

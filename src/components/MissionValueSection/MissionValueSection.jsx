@@ -1,6 +1,6 @@
-import Clouds from "/public/assets/Ilustracao-6.png";
-import Mountains from "/public/assets/Ilustracao-1.png";
-import ProudHand from "/public/assets/Ilustracao-4.png";
+const Clouds = "/assets/Ilustracao-6.png";
+const Mountains = "/assets/Ilustracao-1.png";
+const ProudHand = "/assets/Ilustracao-4.png";
 import MVCard from "./MVCard";
 import Wrapper from "../Wrapper";
 

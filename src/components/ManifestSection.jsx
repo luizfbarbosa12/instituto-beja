@@ -1,6 +1,6 @@
-import Bush from "../../public/assets/Ilustracao-3.png";
 import Wrapper from "./Wrapper";
 
+const Bush = "/assets/Ilustracao-3.png";
 const ManifestSection = () => {
   return (
     <div className='relative flex flex-col items-center gap-12 w-full bg-porcelain overflow-hidden'>
