@@ -3,6 +3,10 @@ import * as Icon from "@phosphor-icons/react";
 import { advocacyActions } from "../../data/AdvocacyData";
 import LogoFirstSection from "../LogoFirstSection";
 import LineCME from "../LineCME";
+import BejaLogo from "/assets/BejaLogo.png";
+import PinkBox from "./PinkBox";
+
+const Clouds = "/assets/Ilustracao-6.png";
 
 const UspLogo = "/assets/UspLogo.png";
 const IcciLogo = "/assets/IcciLogo.png";
@@ -20,6 +24,8 @@ const MovimentoDoacao = "/assets/MovimentoDoacao.png";
 const LatimImpactoLogo = "/assets/LatimImpactoLogo.png";
 const FilantropiaSubCard = "/assets/FilantropiaSubCard.png";
 const PactoContraFomeLogo = "/assets/PactoContraFomeLogo.png";
+const Bush = "/assets/Ilustracao-3.png";
+const FomeZeroAdvocacy = "/assets/FomeZeroAdvocacy.png";
 
 const AdvocacySection = () => {
   const advocacyActionsMap = advocacyActions.map((item, index) => (
@@ -31,6 +37,56 @@ const AdvocacySection = () => {
 
   return (
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
+      <div
+        className='w-full h-screen flex-center flex-col gap-25'
+        style={{ backgroundImage: "url('/assets/AdvocacyFSBG.png')" }}
+      >
+        <img src={BejaLogo} alt='Beja Logo' />
+
+        <h1 className='editorial text-5xl w-225 text-center text-porcelain'>
+          O Portfólio Beja foi organizado conforme os pilares estratégicos
+          apresentados:{" "}
+        </h1>
+      </div>
+
+      <div className='w-full h-screen flex-center bg-retro-ochre gap-10'>
+        <div className='flex flex-col bg-bourdeaux w-94 h-115 rounded-[60px] flex-center relative overflow-hidden'>
+          <h1 className='editorial text-5xl -translate-y-25 text-porcelain'>
+            Advocacy
+          </h1>
+
+          <img
+            src={ProudHand}
+            alt='Mão de orgulho'
+            className='w-40 h-75 absolute bottom-0 right-10'
+          />
+        </div>
+
+        <div className='flex flex-col bg-rose w-94 h-115 rounded-[60px] flex-center relative overflow-hidden'>
+          <h1 className='editorial text-5xl -translate-y-25 text-bourdeaux'>
+            Conhecimento
+          </h1>
+
+          <img
+            src={Clouds}
+            alt='Mão de orgulho'
+            className='max-w-none h-50 absolute bottom-0'
+          />
+        </div>
+
+        <div className='flex flex-col bg-porcelain w-94 h-115 rounded-[60px] flex-center relative  overflow-hidden'>
+          <h1 className='editorial text-5xl -translate-y-25 text-bourdeaux text-center'>
+            Beja Labs / Laboratórios
+          </h1>
+
+          <img
+            src={Bush}
+            alt='Mão de orgulho'
+            className='max-w-none h-60 absolute bottom-0'
+          />
+        </div>
+      </div>
+
       <div className='flex justify-end relative w-full items- bg-bourdeaux text-porcelain pb-45 pl-32'>
         <LogoFirstSection
           style={"fill-porcelain w-65 h-21 relative top-20 left-0"}
@@ -364,7 +420,7 @@ const AdvocacySection = () => {
           </p>
         </div>
 
-        <div className='bg-rose p-15 w-180'>
+        <PinkBox>
           <p>
             <strong>
               Em 2024, a Serenas recebeu o Selo de Igualdade Racial, uma
@@ -378,7 +434,7 @@ const AdvocacySection = () => {
             <strong>Selo Municipal de Direitos Humanos e Diversidades</strong>,
             um tributo.
           </p>
-        </div>
+        </PinkBox>
       </div>
 
       <AdvocacyCard
@@ -561,18 +617,16 @@ const AdvocacySection = () => {
           </p>
         </div>
 
-        <div className='flex justify-end gap-16 text-base'>
-          <div className='flex flex-col w-1/2 gap-8'>
-            <p>
-              Para 2025, <strong>A Ponte</strong> planeja implementar sistemas
-              para mensurar os resultados de gestão de projetos, utilizando a
-              aplicação de aleatorização, estratégia desenhada na reestruturação
-              de sua Teoria de Mudança, e expandirá sua atuação no legislativo
-              com ao incorporar um terceiro eixo de trabalho, direcionado
-              especificamente aos impactos climáticos.
-            </p>
-          </div>
-        </div>
+        <PinkBox>
+          <p>
+            Para 2025, <strong>A Ponte</strong> planeja implementar sistemas
+            para mensurar os resultados de gestão de projetos, utilizando a
+            aplicação de aleatorização, estratégia desenhada na reestruturação
+            de sua Teoria de Mudança, e expandirá sua atuação no legislativo com
+            ao incorporar um terceiro eixo de trabalho, direcionado
+            especificamente aos impactos climáticos.
+          </p>
+        </PinkBox>
       </div>
 
       <AdvocacyCard
@@ -644,7 +698,7 @@ const AdvocacySection = () => {
 
           <p className='w-[70%] text-end'>
             — MARIA SIQUEIRA, Diretora do Instituto e JULIANA MALHEIRO PLASTER,
-            Diretora de Captação do Instituto Pacto Contra a Fome
+            Diretora de Captação
           </p>
         </div>
 
@@ -703,12 +757,14 @@ const AdvocacySection = () => {
 
           <p className='w-[70%] text-end'>
             — MARIA SIQUEIRA, Diretora do Instituto e JULIANA MALHEIRO PLASTER,
-            Diretora de Captação do Instituto Pacto Contra a Fome
+            Diretora de Captação
           </p>
         </div>
 
-        <div className='flex justify-end gap-16 text-base'>
-          <div className='flex flex-col w-1/2 gap-8'>
+        <div className='flex gap-5'>
+          <img src={FomeZeroAdvocacy} className='shrink-0 size-25' />
+
+          <PinkBox>
             <p>
               Toda essa teia de ações e relações repercute diretamente na
               capacidade de o Brasil chegar a <strong>2030</strong> cumprindo o{" "}
@@ -726,7 +782,7 @@ const AdvocacySection = () => {
               seguindo um cuidadoso planejamento que apoiará o foco e a
               amplitude de seus projetos e ações.
             </p>
-          </div>
+          </PinkBox>
         </div>
       </div>
 
@@ -830,6 +886,22 @@ const AdvocacySection = () => {
               <Icon.ArrowRight className='-rotate-15' />
             </div>
           </div>
+        </div>
+
+        <div className='flex flex-col gap-8 items-end editorial text-3xl text-retro-ochre leading-12 pt-16'>
+          <p>
+            “O apoio do Beja foi muito importante para que o Pacto pudesse
+            sistematizar as suas ações. Muitas vezes as organizações produzem
+            uma série de inovações, mas não conseguem sistematizá-las para que
+            possam ser vistas e pensadas por outras pessoas. A sistematização de
+            estratégias e formas de trabalho é importante para ampliar o debate
+            e impactar cada vez mais.”
+          </p>
+
+          <p className='w-[70%] text-end'>
+            — MARGARIDA GORECKI, Coordenação de Desenvolvimento Institucional e
+            Operações
+          </p>
         </div>
 
         <div className='flex gap-16 text-base'>
@@ -1076,17 +1148,15 @@ const AdvocacySection = () => {
           <p className='w-[70%] text-end'>— CÁSSIO FRANÇA, Secretário Geral</p>
         </div>
 
-        <div className='flex justify-end gap-16 text-base'>
-          <div className='flex flex-col w-1/2 gap-8'>
-            <p>
-              Nosso compromisso é assegurar que o <strong>GIFE</strong> continue
-              cumprindo sua missão de estimular o diálogo entre seus membros,
-              apoiar o desenvolvimento de novos atores no campo do investimento
-              social privado e impulsionar a geração de conteúdos e
-              conhecimentos relevantes que colaborem para o avanço do setor.
-            </p>
-          </div>
-        </div>
+        <PinkBox>
+          <p>
+            Nosso compromisso é assegurar que o <strong>GIFE</strong> continue
+            cumprindo sua missão de estimular o diálogo entre seus membros,
+            apoiar o desenvolvimento de novos atores no campo do investimento
+            social privado e impulsionar a geração de conteúdos e conhecimentos
+            relevantes que colaborem para o avanço do setor.
+          </p>
+        </PinkBox>
       </div>
 
       <AdvocacyCard
