@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { motion, useTransform } from "framer-motion";
 
-const STCard = ({
+const PESTCard = ({
   cssOverride,
   idx,
   range,
@@ -66,4 +66,4 @@ const STCard = ({
   );
 };
 
-export default STCard;
+export default PESTCard;

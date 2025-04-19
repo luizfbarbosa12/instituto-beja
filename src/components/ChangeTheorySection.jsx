@@ -5,7 +5,7 @@ import Wrapper from "./Wrapper";
 const Image = "/assets/Ilustracao-8.png";
 const ChangeTheorySection = () => {
   return (
-    <Wrapper className={"pb-120"}>
+    <Wrapper className={"pb-120 pt-60"}>
       <div className='flex flex-col items-end w-full gap-16 relative'>
         <div className='w-full'>
           <h1 className='editorial text-8xl w-[50rem] leading-32'>
@@ -85,7 +85,7 @@ const ChangeTheorySection = () => {
       <img
         src={Image}
         alt='Ilustração'
-        className='absolute w-[42rem] h-[42rem] -left-10'
+        className='absolute w-[42rem] h-[42rem] left-[50%] translate-x-[-50%] pt-25'
       />
     </Wrapper>
   );

@@ -1,8 +1,8 @@
-import STCard from "./STCard";
+import PESTCard from "./PESTCard";
 import { useRef } from "react";
 import { motion, useScroll } from "framer-motion";
 
-const ScrollTriggerList = ({ arr }) => {
+const PEScrollTriggerList = ({ arr }) => {
   const container = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -14,7 +14,7 @@ const ScrollTriggerList = ({ arr }) => {
     const targetScale = 1 - (arr.length - index) * 0.07;
 
     return (
-      <STCard
+      <PESTCard
         key={index}
         idx={index}
         cssOverride={item}
@@ -33,4 +33,4 @@ const ScrollTriggerList = ({ arr }) => {
   );
 };
 
-export default ScrollTriggerList;
+export default PEScrollTriggerList;

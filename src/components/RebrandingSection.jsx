@@ -13,12 +13,12 @@ const RebrandingSection = () => {
       <Wrapper>
         <div className='flex flex-col w-full gap-44'>
           <div className='flex flex-col gap-[4rem]'>
-            <h1 className='text-8xl editorial'>Rebranding</h1>
+            <h1 className='text-8xl editorial w-[100vw]'>Rebranding</h1>
 
             <div className='flex items-center gap-40 w-full justify-end'>
               <img src={Logo} alt='Beja logo' className='size-60' />
 
-              <div className='w-[31rem] flex flex-col gap-[3rem] text-xl'>
+              <div className='w-[31rem] flex flex-col gap-[3rem] text-md'>
                 <p>
                   Desenvolver o rebranding do <strong>Instituto Beja </strong>
                   representou mais do que um desafio criativo – foi um mergulho
@@ -66,7 +66,7 @@ const RebrandingSection = () => {
           </div>
 
           <div className='flex w-full justify-end'>
-            <div className='flex flex-col relative right-0 text-xl w-[28.5rem] gap-10'>
+            <div className='flex flex-col relative right-0 text-md w-[28.5rem] gap-10'>
               <p>
                 Nosso foco estava em revitalizar a marca, explorando caminhos
                 criativos para contar quem somos e o que nos torna únicos. Em um
@@ -98,7 +98,7 @@ const RebrandingSection = () => {
       </div>
 
       <Wrapper>
-        <div className='flex w-full justify-end'>
+        <div className='flex w-full justify-end pb-30'>
           <p className='w-[56rem] text-[2.5rem] editorial text-rose'>
             É o Beja de sempre, agora mais maduro, com uma nova linguagem para
             transformar o futuro que já começou.

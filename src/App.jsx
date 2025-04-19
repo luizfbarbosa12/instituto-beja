@@ -11,9 +11,14 @@ import ChangeTheorySection from "./components/ChangeTheorySection";
 import StrategicPillarSection from "./components/StrategicPillarSection";
 import { InteractionEcosystem } from "./components/InteractionEcosystem";
 import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
-import MissionValueSection from "./components/MIssionValueSection/MissionValueSection";
+import MissionValueSection from "./components/MissionValueSection/MissionValueSection";
 import PhilanthropySection from "./components/PhilanthropySection/PhilanthropySection";
 import { PortfolioSection } from "./components/PortfolioSection";
+import FinalSection from "./components/FinalSection/FinalSection";
+import BalancoTable from "./components/Balance/Balance";
+import balance from "./data/balance.json";
+import Expediente from "./components/Expediente/Expediente";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -22,7 +27,7 @@ const App = () => {
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
       smoothWheel: true,
-      wheelMultiplier: 0.8,
+      wheelMultiplier: 0.5,
       smoothTouch: false,
       syncTouch: true,
       syncTouchLerp: 0.1,
@@ -60,6 +65,10 @@ const App = () => {
       <KnowledgeSection />
       <PortfolioSection />
       <PhilanthropySection />
+      <FinalSection />
+      <BalancoTable data={balance} />
+      <Expediente />
+      <Footer />
     </>
   );
 };
