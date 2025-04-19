@@ -9,12 +9,33 @@ import { IdBRProject } from "./IdBRProject";
 import { IgarapeProject } from "./IgarapeProject";
 import { MoreInCommonProject } from "./MoreInCommonProject";
 import { CriaAndTHPSupport } from "./CriaAndTHPSupport";
+import 'swiper/css/scrollbar';
+import { Scrollbar } from 'swiper/modules';
+
+
 
 const conector_de_textos = "/assets/conector-de-textos.svg";
 const nuvens = "/assets/ilustracao-nuvens.svg";
 const logo_beja_completo = "/assets/logo-beja-completo-svg.svg";
 const logo_pipa = "/assets/logo-pipa.svg";
 const KnowledgeSection = () => {
+  const fases = [
+    {
+      titulo: "Fase 1 - Composição do status quo e seus silêncios",
+      descricao:
+        "Esta etapa tem como objetivo traçar, em uma perspectiva histórica, os modos pelos quais a filantropia, a justiça social e a democracia se aproximaram e se opuseram nos diferentes modelos de filantropia que se estabeleceram no Brasil ao longo do tempo. Será dada atenção especial às disputas entre esses modelos, examinando os princípios que os fundamentam e os conflitos que emergem dessas divergências. O foco está em identificar os silenciamentos que resultaram da predominância de determinadas definições de filantropia, quais são seus objetivos e quais são suas responsabilidades em detrimento de outras abordagens. A meta é iluminar como essas escolhas moldam as práticas filantrópicas no país, destacando os impactos das exclusões históricas e conceituais no desenvolvimento do setor.",
+    },
+    {
+      titulo: "Fase 2 - Análise crítica e histórica",
+      descricao:
+        "Nesta etapa, o objetivo é contribuir para a consolidação de uma teoria política da filantropia no Brasil. Apesar da importância do tema, são escassos os estudos acadêmicos, particularmente no campo da filosofia e da teoria política, que abordem a filantropia de forma crítica e aprofundada. Enquanto há alguma literatura sobre  a evolução histórica, o escopo e o surgimento da filantropia, especialmente nos Estados Unidos e em partes da Europa, pouco se tem produzido sobre a formulação de um modelo de filantropia adequado a países do Sul Global. O desenvolvimento de tal modelo exige um movimento normativo e histórico que posicione a filantropia brasileira no contexto das sobrevidas - ou seja, nas continuidades da escravidão, da colonialidade e de suas formas persistentes de opressão, desigualdades e hierarquizações injustificáveis.",
+    },
+    {
+      titulo: "Fase 3 – Por uma teoria política da filantropia no Brasil",
+      descricao:
+        "Nesta etapa, o foco é consolidar os achados da pesquisa, analisando as formas pelas quais a filantropia, a justiça social e a democracia se aproximaram e se antagonizaram nos modelos de filantropia ao longo da história brasileira. O impacto esperado é a criação de um ambiente rico em trocas de conhecimento e análises substanciais, promovendo a valorização da formação teórica e prática no campo da filantropia. Os seminários e os resultados obtidos serão amplamente divulgados e compartilhados, contribuindo para a construção de uma nova teoria política filantrópica no Brasil - que poderá, inclusive, influenciar práticas globais, a partir da perspectiva do Sul Global.",
+    },
+  ];
   return (
     <>
       <div className='min-h-screen bg-rose flex justify-center items-center relative'>
@@ -453,10 +474,9 @@ const KnowledgeSection = () => {
             — RAISSA VENTURA, Pesquisadora
           </cite>
         </div>
-        <div className='w-full overflow-hidden py-8'>
-          <div className='flex overflow-x-auto pb-6 hide-scrollbar  custom-horizontal-scrollbar'>
+        {/* <div className='w-full overflow-hidden py-8'>
+          <div className='flex overflow-x-auto pb-6 hide-scrollbar custom-horizontal-scrollbar'>
             <div className='flex gap-4 px-6'>
-              {/* Phase 1 */}
               <div className='bg-transparent border border-gray-300 rounded-3xl p-16 shadow-sm w-[867px] flex-shrink-0'>
                 <h2 className='text-3xl font-medium mb-4'>
                   Fase 1 — Composição do status quo e seus silêncios
@@ -479,7 +499,6 @@ const KnowledgeSection = () => {
                 </p>
               </div>
 
-              {/* Phase 2 */}
               <div className='bg-transparent border border-gray-300 rounded-3xl p-16 shadow-sm w-[867px] flex-shrink-0'>
                 <h2 className='editorial text-3xl font-medium mb-4'>
                   Fase 2 — Análise crítica e histórica
@@ -502,7 +521,6 @@ const KnowledgeSection = () => {
                 </p>
               </div>
 
-              {/* Phase 3 */}
               <div className='bg-transparent border border-gray-300 rounded-3xl p-16 shadow-sm w-[867px] flex-shrink-0'>
                 <h2 className='text-3xl font-medium mb-4'>
                   Fase 3 — Por uma teoria política da filantropia no Brasil
@@ -524,7 +542,29 @@ const KnowledgeSection = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+        <section className='w-full px-4 py-20 flex justify-center'>
+          <Swiper
+            scrollbar={{
+              hide: true,
+            }}
+            modules={[Scrollbar]}
+            pagination={{ clickable: true }}
+            centeredSlides={true}
+            slidesPerView={2}
+            spaceBetween={20}
+            className='w-[100vw] '
+          >
+            {fases.map((fase, index) => (
+              <SwiperSlide key={index}>
+                <div className='bg-transparent border border-gray-300 rounded-3xl h-[400px] p-16 shadow-sm flex-shrink-0'>
+                  <h3 className='text-xl font-bold mb-4'>{fase.titulo}</h3>
+                  <p className='text-base text-bourdeaux'>{fase.descricao}</p>
+                </div>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        </section>
         <div className='max-w-3xl mx-auto py-12 px-4'>
           <div className='text-center mb-10'>
             <p className='text-md mb-6 text-left'>
@@ -669,7 +709,7 @@ const KnowledgeSection = () => {
           </div>
         </div>
         <div className='flex justify-end mt-16 '>
-          <div className='w-full md:w-1/2 bg-rose p-6 rounded'>
+          <div className='w-full md:w-1/2 bg-rose p-6 rounded mr-20'>
             <p className='text-md p-12'>
               Para o primeiro semestre de 2025, o modelo de oficinas de leitura
               aplicado em 2024 será ajustado. A nova proposta vai alternar
