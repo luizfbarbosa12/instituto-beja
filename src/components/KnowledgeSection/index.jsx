@@ -453,7 +453,7 @@ const KnowledgeSection = () => {
             — RAISSA VENTURA, Pesquisadora
           </cite>
         </div>
-        <div className='w-full overflow-hidden py-8 ml-[400px]'>
+        <div className='w-full overflow-hidden py-8'>
           <div className='flex overflow-x-auto pb-6 hide-scrollbar  custom-horizontal-scrollbar'>
             <div className='flex gap-4 px-6'>
               {/* Phase 1 */}

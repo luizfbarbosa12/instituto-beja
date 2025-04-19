@@ -14,6 +14,9 @@ import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
 import MissionValueSection from "./components/MIssionValueSection/MissionValueSection";
 import PhilanthropySection from "./components/PhilanthropySection/PhilanthropySection";
 import { PortfolioSection } from "./components/PortfolioSection";
+import FinalSection from "./components/FinalSection/FinalSection";
+import BalancoTable from "./components/Balance/Balance";
+import balance from "./data/balance.json";
 
 const App = () => {
   useEffect(() => {
@@ -46,7 +49,7 @@ const App = () => {
 
   return (
     <>
-      {/* <FirstSection />
+      <FirstSection />
       <FounderLetter />
       <RebrandingSection />
       <ManifestSection />
@@ -55,11 +58,13 @@ const App = () => {
       <ChangeTheorySection />
       <StrategicPillarSection />
       <InteractionEcosystem />
-      <CMESection /> */}
+      <CMESection />
       <AdvocacySection />
-      {/* <KnowledgeSection />
+      <KnowledgeSection />
       <PortfolioSection />
-      <PhilanthropySection /> */}
+      <PhilanthropySection />
+      <FinalSection />
+      <BalancoTable data={balance}/>
     </>
   );
 };
