@@ -1,5 +1,14 @@
+import { cn } from "@/lib/utils";
 import { ReactNode } from "react";
 
-export function NoticeContainer({ children }: { children: ReactNode }) {
-  return <div className='flex gap-16 text-base'>{children}</div>;
+export function NoticeContainer({
+  className,
+  children,
+}: {
+  className?: string;
+  children: ReactNode;
+}) {
+  return (
+    <div className={cn("flex text-base gap-16", className)}>{children}</div>
+  );
 }
