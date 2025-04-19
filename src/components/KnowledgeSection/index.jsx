@@ -9,10 +9,8 @@ import { IdBRProject } from "./IdBRProject";
 import { IgarapeProject } from "./IgarapeProject";
 import { MoreInCommonProject } from "./MoreInCommonProject";
 import { CriaAndTHPSupport } from "./CriaAndTHPSupport";
-import 'swiper/css/scrollbar';
-import { Scrollbar } from 'swiper/modules';
-
-
+import "swiper/css/scrollbar";
+import { Scrollbar } from "swiper/modules";
 
 const conector_de_textos = "/assets/conector-de-textos.svg";
 const nuvens = "/assets/ilustracao-nuvens.svg";

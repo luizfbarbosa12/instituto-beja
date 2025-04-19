@@ -5,7 +5,7 @@ const FinalSection = () => {
         Investimento de Impacto
       </h1>
 
-       <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 pl-70'>
+      <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 pl-70'>
         <div className='space-y-6 '>
           <p className='text-md leading-relaxed'>
             <span className='font-bold'>O Instituto Beja</span> está firmemente
@@ -62,7 +62,7 @@ const FinalSection = () => {
         </div>
       </div>
 
-       <div className='py-12 overflow-x-auto custom-horizontal-scrollbar pl-70 w-full'>
+      <div className='py-12 overflow-x-auto custom-horizontal-scrollbar pl-70 w-full'>
         <div className='flex flex-row gap-6 px-4'>
           <div className='border border-gray-300 rounded-3xl p-[70px] w-[630px] bg-transparent flex-shrink-0'>
             <div className='mb-6 h-12'>

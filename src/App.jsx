@@ -66,9 +66,9 @@ const App = () => {
       <PortfolioSection />
       <PhilanthropySection />
       <FinalSection />
-      <BalancoTable data={balance}/>
+      <BalancoTable data={balance} />
       <Expediente />
-      <Footer/>
+      <Footer />
     </>
   );
 };
