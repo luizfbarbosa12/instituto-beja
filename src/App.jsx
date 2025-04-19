@@ -17,6 +17,8 @@ import { PortfolioSection } from "./components/PortfolioSection";
 import FinalSection from "./components/FinalSection/FinalSection";
 import BalancoTable from "./components/Balance/Balance";
 import balance from "./data/balance.json";
+import Expediente from "./components/Expediente/Expediente";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -65,6 +67,8 @@ const App = () => {
       <PhilanthropySection />
       <FinalSection />
       <BalancoTable data={balance}/>
+      <Expediente />
+      <Footer/>
     </>
   );
 };
