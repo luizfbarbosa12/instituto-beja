@@ -11,7 +11,7 @@ import ChangeTheorySection from "./components/ChangeTheorySection";
 import StrategicPillarSection from "./components/StrategicPillarSection";
 import { InteractionEcosystem } from "./components/InteractionEcosystem";
 import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
-import MissionValueSection from "./components/MIssionValueSection/MissionValueSection";
+import MissionValueSection from "./components/MissionValueSection/MissionValueSection";
 import PhilanthropySection from "./components/PhilanthropySection/PhilanthropySection";
 import { PortfolioSection } from "./components/PortfolioSection";
 import FinalSection from "./components/FinalSection/FinalSection";
