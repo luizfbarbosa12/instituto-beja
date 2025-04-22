@@ -1,5 +1,5 @@
-const Clouds = "/assets/Ilustracao-6.png";
-const Mountains = "/assets/Ilustracao-1.png";
+const Clouds = "/assets/ilustracao-nuvens.png";
+const Mountains = "/assets/Ilustracao-1.webp";
 const ProudHand = "/assets/Ilustracao-4.png";
 import MVCard from "./MVCard";
 import Wrapper from "../Wrapper";

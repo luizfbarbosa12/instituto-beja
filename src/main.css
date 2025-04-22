@@ -40,16 +40,25 @@ body {
   background-color: var(--porcelain);
 }
 
-html.lenis {
+html.lenis,
+html.lenis body {
   height: auto;
 }
 
 .lenis.lenis-smooth {
-  scroll-behavior: auto;
+  scroll-behavior: auto !important;
 }
 
 .lenis.lenis-smooth [data-lenis-prevent] {
   overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
 }
 
 .editorial {
@@ -105,8 +114,7 @@ html.lenis {
   background: var(--bourdeaux);
 }
 
-
 .custom-horizontal-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color:  var(--bourdeaux) var(--retro-ochre);
+  scrollbar-color: var(--bourdeaux) var(--retro-ochre);
 }

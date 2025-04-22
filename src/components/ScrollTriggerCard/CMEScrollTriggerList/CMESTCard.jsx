@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { motion } from "framer-motion";
+import { Divide } from "lucide-react";
 
 const CMESTCard = ({ cssOverride, idx, data, paddingTop, imgSize }) => {
   const container = useRef(null);
@@ -29,9 +30,11 @@ const CMESTCard = ({ cssOverride, idx, data, paddingTop, imgSize }) => {
             <div className='flex w-full justify-between items-center'>
               <div className='w-150 flex flex-col gap-3'>
                 {Array.isArray(data.text) ? (
-                  data.text.map((item, index) => <p key={index}>{item}</p>)
+                  data.text.map((item, index) => (
+                    <Divide key={index}>{item}</Divide>
+                  ))
                 ) : (
-                  <p>{data.text}</p>
+                  <div>{data.text}</div>
                 )}
               </div>
 

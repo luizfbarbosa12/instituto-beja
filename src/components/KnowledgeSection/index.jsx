@@ -13,7 +13,7 @@ import "swiper/css/scrollbar";
 import { Scrollbar } from "swiper/modules";
 
 const conector_de_textos = "/assets/conector-de-textos.svg";
-const nuvens = "/assets/ilustracao-nuvens.svg";
+const nuvens = "/assets/ilustracao-nuvens.png";
 const logo_beja_completo = "/assets/logo-beja-completo-svg.svg";
 const logo_pipa = "/assets/logo-pipa.svg";
 const KnowledgeSection = () => {

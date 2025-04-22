@@ -1,24 +1,39 @@
 import Lenis from "lenis";
-import { useEffect } from "react";
-import CMESection from "./components/CMESection";
+import { useEffect, lazy } from "react";
 import FirstSection from "./components/FirstSection";
-import FounderLetter from "./components/FounderLetter";
-import ManifestSection from "./components/ManifestSection";
-import KnowledgeSection from "./components/KnowledgeSection";
-import BejaHouseSection from "./components/BejaHouseSection";
-import RebrandingSection from "./components/RebrandingSection";
-import ChangeTheorySection from "./components/ChangeTheorySection";
-import StrategicPillarSection from "./components/StrategicPillarSection";
-import { InteractionEcosystem } from "./components/InteractionEcosystem";
-import AdvocacySection from "./components/AdvocacySection/AdvocacySection";
-import MissionValueSection from "./components/MissionValueSection/MissionValueSection";
-import PhilanthropySection from "./components/PhilanthropySection/PhilanthropySection";
-import { PortfolioSection } from "./components/PortfolioSection";
-import FinalSection from "./components/FinalSection/FinalSection";
-import BalancoTable from "./components/Balance/Balance";
 import balance from "./data/balance.json";
-import Expediente from "./components/Expediente/Expediente";
-import Footer from "./components/Footer/Footer";
+
+const PortfolioSection = lazy(() => import("./components/PortfolioSection"));
+const InteractionEcosystem = lazy(
+  () => import("./components/InteractionEcosystem"),
+);
+const ChangeTheorySection = lazy(
+  () => import("./components/ChangeTheorySection"),
+);
+const CMESection = lazy(() => import("./components/CMESection"));
+const BejaHouseSection = lazy(() => import("./components/BejaHouseSection"));
+const StrategicPillarSection = lazy(
+  () => import("./components/StrategicPillarSection"),
+);
+const MissionValueSection = lazy(
+  () => import("./components/MissionValueSection/MissionValueSection"),
+);
+const PhilanthropySection = lazy(
+  () => import("./components/PhilanthropySection/PhilanthropySection"),
+);
+const AdvocacySection = lazy(
+  () => import("./components/AdvocacySection/AdvocacySection"),
+);
+const FinalSection = lazy(
+  () => import("./components/FinalSection/FinalSection"),
+);
+const BalancoTable = lazy(() => import("./components/Balance/Balance"));
+const Expediente = lazy(() => import("./components/Expediente/Expediente"));
+const FounderLetter = lazy(() => import("./components/FounderLetter"));
+const RebrandingSection = lazy(() => import("./components/RebrandingSection"));
+const ManifestSection = lazy(() => import("./components/ManifestSection"));
+const KnowledgeSection = lazy(() => import("./components/KnowledgeSection"));
+const Footer = lazy(() => import("./components/Footer/Footer"));
 
 const App = () => {
   useEffect(() => {

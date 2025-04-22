@@ -3,7 +3,7 @@ const Expediente = () => {
     <div className='bg-rose p-8 md:p-12 min-h-screen relative'>
       <div className='absolute left-0 bottom-0 w-1/2 h-full pointer-events-none'>
         <img
-          src='/assets/folhas.svg'
+          src='/assets/folhas.png'
           alt='Decorative golden leaf pattern'
           className='w-full h-full object-contain object-left-bottom'
         />

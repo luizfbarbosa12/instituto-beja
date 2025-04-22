@@ -1,4 +1,4 @@
-const nuvens = "/assets/ilustracao-nuvens.svg";
+const nuvens = "/assets/ilustracao-6-5.webp";
 const logo_desenho_beja = "/assets/logo-desenho-beja.svg";
 const conector_de_textos = "/assets/conector-de-textos.svg";
 
@@ -11,7 +11,7 @@ const FounderLetter = () => {
           <img
             src={nuvens}
             alt='imagem de nuvens douradas no fundo'
-            className='absolute -top-25 h-100 -left-40'
+            className='absolute w-full h-auto -top-20 right-0'
           />
           <div className='max-w-[1028px] flex flex-col gap-8 mx-auto z-2 bg-[var(--porcelain)] pl-21 pt-21 pb-21 pr-68 rounded-3xl relative'>
             <div className='editorial text-xl absolute right-20'>

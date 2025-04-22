@@ -6,7 +6,7 @@ import { PortfolioReputationBuild } from "./PortfolioReputationBuild";
 import { PortfolioSectionVentTransition } from "./PortfolioSectionVentTransition";
 import { PortfolioToriba } from "./PortfolioToriba";
 
-export function PortfolioSection() {
+export default function PortfolioSection() {
   return (
     <div>
       <PortfolioSectionVentTransition />

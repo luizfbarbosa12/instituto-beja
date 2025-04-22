@@ -1,8 +1,9 @@
 import * as Icon from "@phosphor-icons/react";
-const GoldGlobe = "/assets/Ilustracao-2.png";
 import LogoFirstSection from "./LogoFirstSection";
+import { memo } from "react";
 
 const FirstSection = () => {
+  const GoldGlobe = "/assets/cutedGoldGlobe.webp";
   return (
     <div className='bg-bourdeaux w-full overflow-hidden pb-30'>
       <div className='flex w-full justify-between px-10 pt-4'>
@@ -28,7 +29,6 @@ const FirstSection = () => {
             </p>
           </div>
         </div>
-
         <LogoFirstSection
           style={
             "currentColor fill-porcelain h-[280px] w-[820px] col-start-7 row-start-3 z-10 "
@@ -36,7 +36,9 @@ const FirstSection = () => {
         />
         <img
           src={GoldGlobe}
-          alt=''
+          fetchPriority='high'
+          loading='eager'
+          alt='Gold Globe'
           className='absolute -right-22 w-[63rem] row-start-2'
         />
       </div>
@@ -44,4 +46,4 @@ const FirstSection = () => {
   );
 };
 
-export default FirstSection;
+export default memo(FirstSection);

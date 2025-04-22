@@ -2,8 +2,9 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useLayoutEffect } from "react";
 
-const GoldenDot = "/assets/golden-dot.png";
 export function EcosystemSocialOrganizations() {
+  const GoldenDot = "/assets/golden-dot.png";
+
   useLayoutEffect(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.set("#social-organizations .dot-container", { opacity: 0, y: -10 });

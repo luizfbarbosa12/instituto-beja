@@ -5,7 +5,7 @@ import Wrapper from "./Wrapper";
 const Logo = "/assets/LogoRebranding.svg";
 const RebrandingSection = () => {
   const bejaCoverImgMap = bejaCoverImg.map((item, index) => (
-    <img key={index} src={item} />
+    <img key={index} src={item} alt='' />
   ));
 
   return (

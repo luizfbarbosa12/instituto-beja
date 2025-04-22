@@ -6,7 +6,7 @@ import LineCME from "../LineCME";
 import BejaLogo from "/assets/BejaLogo.png";
 import PinkBox from "./PinkBox";
 
-const Clouds = "/assets/Ilustracao-6.png";
+const Clouds = "/assets/ilustracao-nuvens.png";
 
 const UspLogo = "/assets/UspLogo.png";
 const IcciLogo = "/assets/IcciLogo.png";
@@ -24,7 +24,7 @@ const MovimentoDoacao = "/assets/MovimentoDoacao.png";
 const LatimImpactoLogo = "/assets/LatimImpactoLogo.png";
 const FilantropiaSubCard = "/assets/FilantropiaSubCard.png";
 const PactoContraFomeLogo = "/assets/PactoContraFomeLogo.png";
-const Bush = "/assets/Ilustracao-3.png";
+const Bush = "/assets/folhas.png";
 const FomeZeroAdvocacy = "/assets/FomeZeroAdvocacy.png";
 
 const AdvocacySection = () => {
@@ -811,21 +811,17 @@ const AdvocacySection = () => {
 
           <div className='flex flex-col w-full gap-8'>
             <p>
-              <p>
-                Esse <strong>ambiente diverso</strong> possibilita a colaboração
-                de atores com diferentes agendas, visões e identidades
-                políticas, de maneira a unirem forças para o{" "}
-                <strong>
-                  fortalecimento de processos e instituições democráticas
-                </strong>
-                . Isso significa a{" "}
-                <strong>
-                  garantia de direitos e liberdades constitucionais
-                </strong>
-                , o <strong>aprofundamento de valores democráticos</strong> na
-                sociedade brasileira, que se vê diante da{" "}
-                <strong>atual crise global das democracias</strong>.
-              </p>
+              Esse <strong>ambiente diverso</strong> possibilita a colaboração
+              de atores com diferentes agendas, visões e identidades políticas,
+              de maneira a unirem forças para o{" "}
+              <strong>
+                fortalecimento de processos e instituições democráticas
+              </strong>
+              . Isso significa a{" "}
+              <strong>garantia de direitos e liberdades constitucionais</strong>
+              , o <strong>aprofundamento de valores democráticos</strong> na
+              sociedade brasileira, que se vê diante da{" "}
+              <strong>atual crise global das democracias</strong>.
             </p>
           </div>
         </div>
@@ -865,13 +861,11 @@ const AdvocacySection = () => {
 
           <div className='flex flex-col w-full gap-8'>
             <p>
-              <p>
-                O <strong>Pacto pela Democracia</strong> também desempenha um
-                papel crucial durante os <strong>processos eleitorais</strong>,
-                atuando de forma incisiva para garantir que as{" "}
-                <strong>eleições ocorram de maneira segura</strong> e que os{" "}
-                <strong>resultados sejam respeitados</strong>.
-              </p>
+              O <strong>Pacto pela Democracia</strong> também desempenha um
+              papel crucial durante os <strong>processos eleitorais</strong>,
+              atuando de forma incisiva para garantir que as{" "}
+              <strong>eleições ocorram de maneira segura</strong> e que os{" "}
+              <strong>resultados sejam respeitados</strong>.
             </p>
           </div>
         </div>

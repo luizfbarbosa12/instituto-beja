@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-const nuvens = "/assets/ilustracao-nuvens.svg";
+const nuvens = "/assets/ilustracao-nuvens.png";
 
 export function KnowledgeSubsection({ children, supportSectionCard, title }) {
   return (

@@ -3,7 +3,7 @@ import { EcosystemEndSection } from "./EcosystemEndSection";
 import { EcosystemIntermediates } from "./EcosystemIntermediates";
 import { EcosystemSocialOrganizations } from "./EcosystemSocialOrganizations";
 
-export function InteractionEcosystem() {
+export default function InteractionEcosystem() {
   return (
     <div className='py-[320px] bg-porcelain'>
       <div className='px-[132px] flex flex-col gap-14'>

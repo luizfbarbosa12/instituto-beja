@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-const seeding = "/assets/Ilustracao-3.png";
+const seeding = "/assets/folhas.png";
 
 interface PortfolioSubsectionProps {
   children: React.ReactNode;

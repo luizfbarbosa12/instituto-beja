@@ -5,7 +5,7 @@ import { ListSubItem } from "../ui/List/ListSubItem";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
 
-const seeding = "/assets/Ilustracao-3.png";
+const seeding = "/assets/folhas.png";
 const illustration = "/assets/Ilustracao-8.png";
 
 export function PortfolioNarratives() {

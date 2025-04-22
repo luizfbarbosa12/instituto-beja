@@ -1,10 +1,10 @@
+import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useLayoutEffect } from "react";
 const GoldenDot = "/assets/golden-dot.png";
 
 export function EcosystemCapitalProviders() {
-  useLayoutEffect(() => {
+  useGSAP(() => {
     gsap.registerPlugin(ScrollTrigger);
     gsap.set("#capital-providers .dot-container", { opacity: 0, y: -10 });
     gsap.set("#capital-providers .text-item", { opacity: 0, y: 20 });
@@ -122,12 +122,7 @@ export function EcosystemCapitalProviders() {
         scrub: true,
       },
     });
-
-    // Limpeza ao desmontar o componente
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
+  });
 
   return (
     <div

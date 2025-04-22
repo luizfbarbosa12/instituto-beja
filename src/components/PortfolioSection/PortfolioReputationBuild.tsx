@@ -1,7 +1,7 @@
 import { List } from "../ui/List";
 import { ListItem } from "../ui/List/ListItem";
 
-const seeding = "/assets/Ilustracao-3.png";
+const seeding = "/assets/folhas.png";
 
 export function PortfolioReputationBuild() {
   return (

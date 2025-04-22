@@ -1,5 +1,5 @@
-const Bush = "/assets/Ilustracao-3.png";
-const Clouds = "/assets/Ilustracao-6.png";
+const Bush = "/assets/folhas.png";
+const Clouds = "/assets/ilustracao-nuvens.png";
 const ProudHand = "/assets/Ilustracao-4.png";
 
 export const SPCardData = [
