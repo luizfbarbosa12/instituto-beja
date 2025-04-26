@@ -57,10 +57,10 @@ const FounderLetter = () => {
           height: "100%",
           opacity: 1,
           y: 0,
-          stagger: 0.3,
+          stagger: 0.5,
           scrollTrigger: {
             trigger: ".letter",
-            start: "top 60%",
+            start: "top 40%",
             end: "top 0%",
             scrub: 1,
           },
