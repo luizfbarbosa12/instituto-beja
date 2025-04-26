@@ -2,6 +2,7 @@ import Lenis from "lenis";
 import { useEffect, lazy } from "react";
 import FirstSection from "./components/FirstSection";
 import balance from "./data/balance.json";
+import CMESection from "./components/CMESection";
 
 const PortfolioSection = lazy(() => import("./components/PortfolioSection"));
 const InteractionEcosystem = lazy(
@@ -10,7 +11,7 @@ const InteractionEcosystem = lazy(
 const ChangeTheorySection = lazy(
   () => import("./components/ChangeTheorySection"),
 );
-const CMESection = lazy(() => import("./components/CMESection"));
+// const CMESection = lazy(() => import("./components/CMESection"));
 const BejaHouseSection = lazy(() => import("./components/BejaHouseSection"));
 const StrategicPillarSection = lazy(
   () => import("./components/StrategicPillarSection"),

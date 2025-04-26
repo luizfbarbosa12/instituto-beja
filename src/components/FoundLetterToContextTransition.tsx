@@ -130,11 +130,6 @@ export function FoundLetterToContextTransition() {
               </p>
             </NoticeColumn>
           </NoticeContainer>
-          {/* <img
-            src={conector_de_textos}
-            alt='linha conectando dois textos diferentes'
-            className='not-desktop:hidden w-full max-w-250 self-end -translate-x-1/6'
-          /> */}
            <svg
             xmlns='http://www.w3.org/2000/svg'
             width='1000'
