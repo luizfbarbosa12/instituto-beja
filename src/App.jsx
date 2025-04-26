@@ -2,6 +2,8 @@ import Lenis from "lenis";
 import { useEffect, lazy } from "react";
 import FirstSection from "./components/FirstSection";
 import balance from "./data/balance.json";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
 
 const PortfolioSection = lazy(() => import("./components/PortfolioSection"));
 const InteractionEcosystem = lazy(
@@ -35,28 +37,18 @@ const ManifestSection = lazy(() => import("./components/ManifestSection"));
 const KnowledgeSection = lazy(() => import("./components/KnowledgeSection"));
 const Footer = lazy(() => import("./components/Footer/Footer"));
 
+gsap.registerPlugin(useGSAP);
+
 const App = () => {
   useEffect(() => {
-    const lenis = new Lenis({
-      lerp: 0.12,
-      duration: 1.2,
-      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
-      smoothWheel: true,
-      wheelMultiplier: 0.5,
-      smoothTouch: false,
-      syncTouch: true,
-      syncTouchLerp: 0.1,
-      round: true,
-    });
+    const lenis = new Lenis();
 
     const handleAnimationFrame = (time) => {
       lenis.raf(time);
+      requestAnimationFrame(handleAnimationFrame);
     };
 
-    const animationFrameId = requestAnimationFrame(function loop(time) {
-      handleAnimationFrame(time);
-      requestAnimationFrame(loop);
-    });
+    const animationFrameId = requestAnimationFrame(handleAnimationFrame);
 
     return () => {
       cancelAnimationFrame(animationFrameId);
