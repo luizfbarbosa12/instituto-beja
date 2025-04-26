@@ -1,5 +1,8 @@
-import LineCME from "./LineCME";
-import TextBlock from "./TextBlock";
+import LineCME from "./LineCME.js";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+import TextBlock from "./TextBlock.js";
 import { motion } from "framer-motion";
 import LogoCME from "/assets/LogoCME.png";
 import ImageCME from "/assets/ImageCME.png";
@@ -9,11 +12,44 @@ import CMEGrafico2 from "/assets/CMEGrafico2.png";
 import MapBiomasLogo from "/assets/MapBiomas.png";
 import SerenasLogo from "/assets/Serenas_logo.svg";
 import DesenrolaLogo from "/assets/DesenrolaLogo.png";
-import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.jsx";
-import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.jsx";
-import Wrapper from "./Wrapper.jsx";
+import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
+import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.js";
+import { useRef } from "react";
+import Wrapper from "./Wrapper.js";
 
 const CMESection = () => {
+
+    const svgLineRef = useRef(null);
+      gsap.registerPlugin(useGSAP, ScrollTrigger);
+
+       useGSAP(
+          () => {
+
+            if (svgLineRef.current) {
+              const path = svgLineRef.current as SVGPathElement;
+
+              const pathLength = path.getTotalLength();
+
+              gsap.set(path, {
+                strokeDasharray: pathLength,
+                strokeDashoffset: pathLength
+              });
+
+              gsap.to(path, {
+                strokeDashoffset: 0,
+                duration: 1,
+                ease: "power1.inOut",
+                scrollTrigger: {
+                  trigger: path,
+                  start: "top 80%",
+                  end: "bottom 10%",
+                  scrub: true,
+                }
+              });
+            }
+          },
+        );
+
   const VTCMEmap = VTCME.map((item, index) => (
     <div
       key={index}
@@ -112,7 +148,7 @@ const CMESection = () => {
             </div>
 
             <div className='flex h-54 w-full relative'>
-              <LineCME style='absolute -top-5' />
+              <LineCME style='absolute -top-5' ref={svgLineRef} />
             </div>
 
             <div className='flex gap-16 text-base'>

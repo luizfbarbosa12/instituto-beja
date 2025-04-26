@@ -2,7 +2,25 @@ import { useRef } from "react";
 import { motion } from "framer-motion";
 import { Divide } from "lucide-react";
 
-const CMESTCard = ({ cssOverride, idx, data, paddingTop, imgSize }) => {
+import { MotionValue } from "framer-motion";
+
+type CMESTCardProps = {
+  idx: number;
+  cssOverride: any;
+  range: number[];
+  targetScale: number;
+  targetProgress: MotionValue<number>;
+  data: {
+    title: { name: string; color: string };
+    text: string | string[];
+    img: string;
+    bgColor: string;
+    textColor: string;
+  };
+  paddingTop: string;
+  imgSize: string;
+};
+const CMESTCard = ({ cssOverride, idx, data, paddingTop, imgSize }: CMESTCardProps) => {
   const container = useRef(null);
 
   return (

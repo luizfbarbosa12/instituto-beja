@@ -1,4 +1,5 @@
 import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import { NoticeContainer } from "./ui/NoticeContainer";
@@ -7,6 +8,7 @@ export function FoundLetterToContextTransition() {
   const conector_de_textos = "/assets/conector-de-textos.svg";
 
   const container = useRef(null);
+  const svgLineRef = useRef(null);
 
   useGSAP(
     () => {
@@ -23,6 +25,34 @@ export function FoundLetterToContextTransition() {
           },
         },
       );
+    },
+    { scope: container },
+  );
+
+  useGSAP(
+    () => {
+      if (svgLineRef.current) {
+        const path = svgLineRef.current as SVGPathElement;
+
+        const pathLength = path.getTotalLength();
+
+        gsap.set(path, {
+          strokeDasharray: pathLength,
+          strokeDashoffset: pathLength,
+        });
+
+        gsap.to(path, {
+          strokeDashoffset: 0,
+          duration: 1,
+          ease: "power1.inOut",
+          scrollTrigger: {
+            trigger: path,
+            start: "top 80%",
+            end: "bottom 10%",
+            scrub: true,
+          },
+        });
+      }
     },
     { scope: container },
   );
@@ -96,11 +126,21 @@ export function FoundLetterToContextTransition() {
               </p>
             </NoticeColumn>
           </NoticeContainer>
-          <img
-            src={conector_de_textos}
-            alt='linha conectando dois textos diferentes'
+          <svg
+            xmlns='http://www.w3.org/2000/svg'
+            width='1000'
+            height='250'
+            viewBox='0 0 1000 250'
+            fill='none'
             className='not-desktop:hidden w-full max-w-250 self-end -translate-x-1/6'
-          />
+          >
+            <path
+              d='M914 0V93.4271H1V249H146.185'
+              stroke='#1E0301'
+              strokeWidth='2'
+              ref={svgLineRef}
+            />
+          </svg>
           <NoticeContainer className='desktop:-mt-12 max-w-250 self-end'>
             <NoticeColumn>
               <p>

@@ -1,8 +1,14 @@
 import { useRef } from "react";
-import CMESTCard from "./CMESTCard";
 import { motion, useInView, useScroll } from "framer-motion";
+import CMESTCard from "./CMESTCard";
 
-const CMEScrollTriggerList = ({ arr, title, paddingTop, imgSize }) => {
+type CMEScrollTriggerListProps = {
+  arr: any[];
+  title?: string;
+  paddingTop: string;
+  imgSize: string;
+};
+const CMEScrollTriggerList = ({ arr, title, paddingTop, imgSize }: CMEScrollTriggerListProps) => {
   const container = useRef(null);
   const mapContainer = useRef(null);
 
