@@ -3,35 +3,26 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import { NoticeContainer } from "./ui/NoticeContainer";
 import { NoticeColumn } from "./ui/NoticeColumn";
-
 export function FoundLetterToContextTransition() {
   const conector_de_textos = "/assets/conector-de-textos.svg";
 
-  gsap.registerPlugin(useGSAP);
   const container = useRef(null);
 
   useGSAP(
     () => {
-      gsap.to(".ball", {
-        transformOrigin: "center top",
-        scale: 2,
-        scrollTrigger: {
-          trigger: ".ball",
-          start: "top 50%",
-          end: "top 0%",
-          scrub: 1,
+      gsap.fromTo(
+        ".ball",
+        { scale: 1, transformOrigin: "center top" },
+        {
+          scale: 2,
+          scrollTrigger: {
+            trigger: container.current,
+            start: "top 50%",
+            end: "top 0%",
+            scrub: 1,
+          },
         },
-      });
-
-      gsap.to(".seeding", {
-        y: -10,
-        scrollTrigger: {
-          trigger: ".vent-container",
-          start: "50% 80%",
-          end: "top 50%",
-          scrub: 4,
-        },
-      });
+      );
     },
     { scope: container },
   );
@@ -51,7 +42,7 @@ export function FoundLetterToContextTransition() {
       >
         <div className='ball rounded-t-[100vw] absolute w-full h-full bg-porcelain overflow-hidden' />
 
-        <div className='vent-container min-h-screen z-1 relative mt-180 overflow-hidden flex flex-col mx-25'>
+        <div className='vent-container min-h-screen z-1 relative mt-140 overflow-hidden flex flex-col mx-25'>
           <h1 className='editorial text-6xl pb-14 self-start'>Contexto</h1>
           <h2 className='text-4xl text-rose editorial flex self-end flex-col max-w-250 ml-55 pb-22.5'>
             Este documento sintetiza as investigações, interações, descobertas e

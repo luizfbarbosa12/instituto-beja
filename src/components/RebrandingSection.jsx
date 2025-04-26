@@ -9,7 +9,7 @@ const RebrandingSection = () => {
   ));
 
   return (
-    <div className='flex flex-col gap-48 w-full overflow-hidden bg-porcelain'>
+    <div className='flex flex-col gap-48 mt-75 w-full overflow-hidden bg-porcelain'>
       <Wrapper>
         <div className='flex flex-col w-full gap-44'>
           <div className='flex flex-col gap-[4rem]'>

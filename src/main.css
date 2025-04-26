@@ -18,8 +18,10 @@
   --font-sans: "Helvetica", sans-serif;
 
   --breakpoint-desktop: 1400px;
+  --breakpoint-tablet: 900px;
 
   --container-desktop: var(--breakpoint-desktop);
+  --container-tablet: var(--breakpoint-tablet);
 
   --text-3xl: 2rem;
 }
