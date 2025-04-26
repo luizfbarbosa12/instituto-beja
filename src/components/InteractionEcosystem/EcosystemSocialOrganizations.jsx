@@ -1,138 +1,129 @@
+import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useLayoutEffect } from "react";
+import { useRef } from "react";
 
 export function EcosystemSocialOrganizations() {
   const GoldenDot = "/assets/golden-dot.png";
+  const container = useRef(null);
 
-  useLayoutEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.set("#social-organizations .dot-container", { opacity: 0, y: -10 });
-    gsap.set("#social-organizations .text-item", { opacity: 0, y: 20 });
-    const line = document.querySelector("#social-organizations .timeline-path");
-    const length = line.getTotalLength();
-    gsap.set("#social-organizations .timeline-path", {
-      opacity: 1,
-      strokeDasharray: length,
-      strokeDashoffset: length,
-    });
+  useGSAP(
+    () => {
+      gsap.set(".dot-container", { opacity: 0, y: -10 });
+      gsap.set(".text-item", { opacity: 0, y: 20 });
+      const line = container.current.querySelector(".timeline-path");
+      const length = line.getTotalLength();
+      gsap.set(".timeline-path", {
+        opacity: 1,
+        strokeDasharray: length,
+        strokeDashoffset: length,
+      });
 
-    // Linhas
-    gsap.to("#social-organizations .timeline-path", {
-      opacity: 1,
-      strokeDashoffset: 0,
-      scrollTrigger: {
-        trigger: ".social-organizations",
-        start: "top 400px",
-        end: "top -2000px",
-        scrub: true,
-      },
-    });
+      gsap.to(".timeline-path", {
+        opacity: 1,
+        strokeDashoffset: 0,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 50%",
+          end: "bottom 80%",
+          scrub: 1,
+        },
+      });
 
-    // Criar animações individuais para cada elemento
-    // Primeiro ponto e texto
-    gsap.to("#social-organizations .dot-1", {
-      opacity: 1,
-      y: 0,
-      ease: "circ.in",
-      duration: 0.5,
-      scrollTrigger: {
-        trigger: ".social-organizations",
-        start: "top 560px",
-        end: "top 460px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-1", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#social-organizations .text-1", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".social-organizations",
-        start: "top 560px",
-        end: "top 460px",
-        scrub: true,
-      },
-    });
+      gsap.to(".text-1", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Segundo ponto e texto
-    gsap.to("#social-organizations .dot-2", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".social-organizations",
-        start: "top 100px",
-        end: "top 0px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-2", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "13% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#social-organizations .text-2", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".social-organizations",
-        start: "top 100px",
-        end: "top 0px",
-        scrub: true,
-      },
-    });
+      gsap.to(".text-2", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "13% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Terceiro ponto e texto
-    gsap.to("#social-organizations .dot-3", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".social-organizations",
-        start: "top -550px",
-        end: "top -650px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-3", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "37% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#social-organizations .text-3", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".social-organizations",
-        start: "top -550px",
-        end: "top -650px",
-        scrub: true,
-      },
-    });
+      gsap.to(".text-3", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "37% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Quarto ponto e texto
-    gsap.to("#social-organizations .dot-4", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".social-organizations",
-        start: "top -1550px",
-        end: "top -1650px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-4", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "70% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#social-organizations .text-4", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".social-organizations",
-        start: "top -1550px",
-        end: "top -1650px",
-        scrub: true,
-      },
-    });
-
-    // Limpeza ao desmontar o componente
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
+      gsap.to(".text-4", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "70% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
+    },
+    { scope: container },
+  );
 
   return (
     <div
       id='social-organizations'
+      ref={container}
       className='social-organizations h-[3000px] mx-auto max-w-desktop relative flex flex-col gap-14'
     >
       <div className='sticky top-20 flex flex-col mb-64 w-full'>

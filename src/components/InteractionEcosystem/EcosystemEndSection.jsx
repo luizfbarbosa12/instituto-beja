@@ -1,219 +1,209 @@
+import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useLayoutEffect } from "react";
+import { useRef } from "react";
 
 const GoldenDot = "/assets/golden-dot.png";
+
 export function EcosystemEndSection() {
-  useLayoutEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.set("#end-section .dot-container", { opacity: 0, y: 10 });
-    gsap.set("#end-section .dot-container-reverse", { opacity: 0, y: -10 });
-    const line1 = document.querySelector("#end-section .timeline-path.path-1");
-    const length1 = line1.getTotalLength();
-    gsap.set("#end-section .timeline-path.path-1", {
-      opacity: 1,
-      strokeDasharray: length1,
-      strokeDashoffset: length1,
-    });
-    const line2 = document.querySelector("#end-section .timeline-path.path-2");
-    const length2 = line2.getTotalLength();
-    gsap.set("#end-section .timeline-path.path-2", {
-      opacity: 1,
-      strokeDasharray: length2,
-      strokeDashoffset: length2,
-    });
-    const line3 = document.querySelector("#end-section .timeline-path.path-3");
-    const length3 = line3.getTotalLength();
-    gsap.set("#end-section .timeline-path.path-3", {
-      opacity: 1,
-      strokeDasharray: length3,
-      strokeDashoffset: length3,
-    });
+  const container = useRef(null);
+  useGSAP(
+    () => {
+      gsap.set(".dot-container", { opacity: 0, y: 10 });
+      gsap.set(".dot-container-reverse", { opacity: 0, y: -10 });
+      const line1 = document.querySelector(".path-1");
+      const length1 = line1.getTotalLength();
+      gsap.set(".path-1", {
+        opacity: 1,
+        strokeDasharray: length1,
+        strokeDashoffset: length1,
+      });
+      const line2 = document.querySelector(".path-2");
+      const length2 = line2.getTotalLength();
+      gsap.set(".path-2", {
+        opacity: 1,
+        strokeDasharray: length2,
+        strokeDashoffset: length2,
+      });
+      const line3 = document.querySelector(".path-3");
+      const length3 = line3.getTotalLength();
+      gsap.set(".path-3", {
+        opacity: 1,
+        strokeDasharray: length3,
+        strokeDashoffset: length3,
+      });
 
-    // Linhas
-    gsap.to("#end-section .path-1", {
-      opacity: 1,
-      strokeDashoffset: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 100%",
-        end: "+=1800px",
-        scrub: 1,
-      },
-    });
-    gsap.to("#end-section .path-2", {
-      opacity: 1,
-      strokeDashoffset: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 100%",
-        end: "+=2000px",
-        scrub: 2,
-      },
-    });
-    gsap.to("#end-section .path-3", {
-      opacity: 1,
-      strokeDashoffset: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 100%",
-        end: "+=1900px",
-        scrub: 3,
-      },
-    });
+      gsap.to(".path-1", {
+        opacity: 1,
+        strokeDashoffset: 0,
+        duration: 1.5,
+        delay: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    // Criar animações individuais para cada elemento
-    // Primeiro path
-    gsap.to("#end-section .dot-1-1", {
-      opacity: 1,
-      y: 0,
-      ease: "circ.in",
-      duration: 0.5,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 100%",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-1-1", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    gsap.to("#end-section .dot-1-2", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 920px",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-1-2", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    gsap.to("#end-section .dot-1-3", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 180px",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-1-3", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 0.9,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    gsap.to("#end-section .dot-1-4", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top -400px",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-1-4", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 1.4,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    // Segundo path
-    gsap.to("#end-section .dot-2-1", {
-      opacity: 1,
-      y: 0,
-      ease: "circ.in",
-      duration: 0.5,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 100%",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".path-2", {
+        opacity: 1,
+        strokeDashoffset: 0,
+        duration: 1.5,
+        delay: 1.3,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    gsap.to("#end-section .dot-2-2", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 820px",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-2-1", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 1,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    gsap.to("#end-section .dot-2-3", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 380px",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-2-2", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 1.3,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    gsap.to("#end-section .dot-2-4", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top -600px",
-        end: "-=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-2-3", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 1.7,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    // Segundo path
-    gsap.to("#end-section .dot-3-1", {
-      opacity: 1,
-      y: 0,
-      ease: "circ.in",
-      duration: 0.5,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 100%",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-2-4", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 2.1,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    gsap.to("#end-section .dot-3-2", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 920px",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".path-3", {
+        opacity: 1,
+        strokeDashoffset: 0,
+        duration: 1.5,
+        delay: 2.8,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    gsap.to("#end-section .dot-3-3", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top 350px",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-3-1", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 2.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    gsap.to("#end-section .dot-3-4", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".end-section",
-        start: "top -420px",
-        end: "+=100px",
-        scrub: 1,
-      },
-    });
+      gsap.to(".dot-3-2", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 2.8,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
 
-    // Limpeza ao desmontar o componente
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
+      gsap.to(".dot-3-3", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 3.2,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
+
+      gsap.to(".dot-3-4", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        delay: 3.8,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 80%",
+        },
+      });
+    },
+    { scope: container },
+  );
 
   return (
     <div
       id='end-section'
-      className='end-section h-[3000px] mx-auto max-w-desktop relative flex flex-col gap-14'
+      ref={container}
+      className='end-section mx-auto max-w-desktop relative flex flex-col gap-14'
     >
       <div className='sticky top-1/3 flex flex-col w-full'>
         <div className='px-12 desktop:px-[194px] mb-50'>

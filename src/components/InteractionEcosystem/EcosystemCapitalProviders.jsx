@@ -1,133 +1,130 @@
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from "react";
 const GoldenDot = "/assets/golden-dot.png";
 
 export function EcosystemCapitalProviders() {
-  useGSAP(() => {
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.set("#capital-providers .dot-container", { opacity: 0, y: -10 });
-    gsap.set("#capital-providers .text-item", { opacity: 0, y: 20 });
-    const line = document.querySelector(".timeline-path");
-    const length = line.getTotalLength();
-    gsap.set("#capital-providers .timeline-path", {
-      opacity: 1,
-      strokeDasharray: length,
-      strokeDashoffset: length,
-    });
+  const container = useRef(null);
 
-    // Linhas
-    gsap.to("#capital-providers .timeline-path", {
-      opacity: 1,
-      strokeDashoffset: 0,
-      scrollTrigger: {
-        trigger: ".animation-container-capital",
-        start: "top 58%",
-        end: "bottom 1200px",
-        scrub: true,
-      },
-    });
+  useGSAP(
+    () => {
+      gsap.set(".dot-container", { opacity: 0, y: -10 });
+      gsap.set(".text-item", { opacity: 0, y: 20 });
+      const line = container.current.querySelector(".timeline-path");
+      const length = line.getTotalLength();
+      gsap.set(".timeline-path", {
+        opacity: 1,
+        strokeDasharray: length,
+        strokeDashoffset: length,
+      });
 
-    // Criar animações individuais para cada elemento
-    // Primeiro ponto e texto
-    gsap.to("#capital-providers .dot-1", {
-      opacity: 1,
-      y: 0,
-      ease: "circ.in",
-      duration: 0.5,
-      scrollTrigger: {
-        trigger: ".animation-container-capital",
-        start: "top 560px",
-        end: "top 460px",
-        scrub: true,
-      },
-    });
+      gsap.to(".timeline-path", {
+        opacity: 1,
+        strokeDashoffset: 0,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 50%",
+          end: "bottom 100%",
+          scrub: true,
+        },
+      });
 
-    gsap.to("#capital-providers .text-1", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".animation-container-capital",
-        start: "top 560px",
-        end: "top 460px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-1", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Segundo ponto e texto
-    gsap.to("#capital-providers .dot-2", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".animation-container-capital",
-        start: "top 240px",
-        end: "top 140px",
-        scrub: true,
-      },
-    });
+      gsap.to(".text-1", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#capital-providers .text-2", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".animation-container-capital",
-        start: "top 240px",
-        end: "top 140px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-2", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "10% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Terceiro ponto e texto
-    gsap.to("#capital-providers .dot-3", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".animation-container-capital",
-        start: "top -580px",
-        end: "top -680px",
-        scrub: true,
-      },
-    });
+      gsap.to(".text-2", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "10% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#capital-providers .text-3", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".animation-container-capital",
-        start: "top -580px",
-        end: "top -680px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-3", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "40% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Quarto ponto e texto
-    gsap.to("#capital-providers .dot-4", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".animation-container-capital",
-        start: "top -1300px",
-        end: "top -1400px",
-        scrub: true,
-      },
-    });
+      gsap.to(".text-3", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "40% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#capital-providers .text-4", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".animation-container-capital",
-        start: "top -1300px",
-        end: "top -1400px",
-        scrub: true,
-      },
-    });
-  });
+      gsap.to(".dot-4", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "65% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      gsap.to(".text-4", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "65% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
+    },
+    { scope: container },
+  );
 
   return (
     <div
       id='capital-providers'
-      className='animation-container-capital h-[3000px] mx-auto max-w-desktop relative flex flex-col gap-14'
+      ref={container}
+      className='animation-container-capital h-[2000px] mx-auto max-w-desktop relative flex flex-col gap-14'
     >
       <div className='sticky top-20 mb-64 w-full'>
         <div className='relative flex flex-col items-start gap-4 w-fit'>

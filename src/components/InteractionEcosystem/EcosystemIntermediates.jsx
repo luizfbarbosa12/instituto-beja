@@ -1,137 +1,129 @@
+import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useLayoutEffect } from "react";
+import { useRef } from "react";
 const GoldenDot = "/assets/golden-dot.png";
 
 export function EcosystemIntermediates() {
-  useLayoutEffect(() => {
-    gsap.registerPlugin(ScrollTrigger);
-    gsap.set("#intermediates .dot-container", { opacity: 0, y: -10 });
-    gsap.set("#intermediates .text-item", { opacity: 0, y: 20 });
-    const line = document.querySelector(".timeline-path");
-    const length = line.getTotalLength();
-    gsap.set("#intermediates .timeline-path", {
-      opacity: 1,
-      strokeDasharray: length,
-      strokeDashoffset: length,
-    });
+  const container = useRef(null);
 
-    // Linhas
-    gsap.to("#intermediates .timeline-path", {
-      opacity: 1,
-      strokeDashoffset: 0,
-      scrollTrigger: {
-        trigger: ".intermediates",
-        start: "top 400px",
-        end: "bottom 1200px",
-        scrub: true,
-      },
-    });
+  useGSAP(
+    () => {
+      gsap.set(".dot-container", { opacity: 0, y: -10 });
+      gsap.set(".text-item", { opacity: 0, y: 20 });
+      const line = container.current.querySelector(".timeline-path");
+      const length = line.getTotalLength();
+      gsap.set(".timeline-path", {
+        opacity: 1,
+        strokeDasharray: length,
+        strokeDashoffset: length,
+      });
 
-    // Criar animações individuais para cada elemento
-    // Primeiro ponto e texto
-    gsap.to("#intermediates .dot-1", {
-      opacity: 1,
-      y: 0,
-      ease: "circ.in",
-      duration: 0.5,
-      scrollTrigger: {
-        trigger: ".intermediates",
-        start: "top 560px",
-        end: "top 460px",
-        scrub: true,
-      },
-    });
+      gsap.to(".timeline-path", {
+        opacity: 1,
+        strokeDashoffset: 0,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 50%",
+          end: "bottom 80%",
+          scrub: 1,
+        },
+      });
 
-    gsap.to("#intermediates .text-1", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".intermediates",
-        start: "top 560px",
-        end: "top 460px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-1", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Segundo ponto e texto
-    gsap.to("#intermediates .dot-2", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".intermediates",
-        start: "top 300px",
-        end: "top 200px",
-        scrub: true,
-      },
-    });
+      gsap.to(".text-1", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "top 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#intermediates .text-2", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".intermediates",
-        start: "top 300px",
-        end: "top 200px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-2", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "13% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Terceiro ponto e texto
-    gsap.to("#intermediates .dot-3", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".intermediates",
-        start: "top 100px",
-        end: "top -0px",
-        scrub: true,
-      },
-    });
+      gsap.to(".text-2", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "13% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#intermediates .text-3", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".intermediates",
-        start: "top 100px",
-        end: "top -0px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-3", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "35% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Quarto ponto e texto
-    gsap.to("#intermediates .dot-4", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".intermediates",
-        start: "top -100px",
-        end: "top -200px",
-        scrub: true,
-      },
-    });
+      gsap.to(".text-3", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "35% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    gsap.to("#intermediates .text-4", {
-      opacity: 1,
-      y: 0,
-      scrollTrigger: {
-        trigger: ".intermediates",
-        start: "top -100px",
-        end: "top -200px",
-        scrub: true,
-      },
-    });
+      gsap.to(".dot-4", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "65% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
 
-    // Limpeza ao desmontar o componente
-    return () => {
-      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
-    };
-  }, []);
+      gsap.to(".text-4", {
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: container.current,
+          start: "65% 50%",
+          toggleActions: "play none none reverse",
+        },
+      });
+    },
+    { scope: container },
+  );
 
   return (
     <div
       id='intermediates'
+      ref={container}
       className='intermediates h-[2000px] mx-auto max-w-desktop relative flex flex-col gap-14'
     >
       <div className='sticky top-20 flex flex-col mb-64 w-full'>
