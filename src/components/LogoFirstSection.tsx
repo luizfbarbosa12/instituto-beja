@@ -1,7 +1,7 @@
-const LogoFirstSection = ({ style }: { style: string }) => {
+const LogoFirstSection = ({ className }: { className: string }) => {
   return (
     <svg
-      className={style}
+      className={className}
       id='Layer_1'
       xmlns='http://www.w3.org/2000/svg'
       version='1.1'

@@ -1,13 +1,27 @@
 import * as Icon from "@phosphor-icons/react";
-import LogoFirstSection from "./LogoFirstSection";
 import { memo } from "react";
 
-const FirstSection = () => {
-  const GoldGlobe = "/assets/cutedGoldGlobe.webp";
+const GoldGlobe = "/assets/cutedGoldGlobe.webp";
+
+function DownloadButton() {
   return (
-    <div className='bg-bourdeaux w-full overflow-hidden pb-30'>
-      <div className='flex w-full justify-between px-10 pt-4'>
-        <p className='editorial text-porcelain text-4xl w-[19rem] leading-14'>
+    <div className='flex items-center gap-2 z-10 px-8'>
+      <div className='h-8 w-8 tablet:h-10 tablet:w-10 rounded-full bg-rose p-2 flex-center'>
+        <Icon.ArrowDown className='size-8 tablet:*:size-10' />
+      </div>
+
+      <p className='text-base leading-[100%] text-rose'>
+        Faça Download do Relatório Anual 2024 em PDF aqui.
+      </p>
+    </div>
+  );
+}
+
+const FirstSection = () => {
+  return (
+    <div className='bg-bourdeaux w-full flex flex-col min-h-screen relative overflow-hidden'>
+      <div className='flex w-full justify-between px-8 tablet:px-10 pt-15 tablet:pt-4'>
+        <p className='mt-4 tablet:mt-0 editorial text-porcelain text-2xl leading-[100%] tablet:text-4xl tablet:max-w-75 max-w-50 tablet:leading-14'>
           Relatório Anual 2024
         </p>
 
@@ -17,31 +31,21 @@ const FirstSection = () => {
         </div>
       </div>
 
-      <div className='relative w-full h-screen grid grid-cols-50 grid-rows-50'>
-        <div className='flex flex-col col-span-full row-span-full pl-10 w-[31rem] gap-[12rem] row-start-34'>
-          <div className='flex items-center gap-2 z-10'>
-            <div className='size-10 rounded-full bg-rose p-2 flex-center'>
-              <Icon.ArrowDown className='size-full' />
-            </div>
-
-            <p className='text-rose'>
-              Faça Download do Relatório Anual 2024 em PDF aqui.
-            </p>
-          </div>
-        </div>
-        <LogoFirstSection
-          style={
-            "currentColor fill-porcelain h-[280px] w-[820px] col-start-7 row-start-3 z-10 "
-          }
+      <div className='relative w-full h-[64vh] tablet:h-[40vh] flex mt-16 '>
+        <img
+          src='/assets/LOGO-16.png'
+          alt='Logo Beja Labs'
+          className='absolute w-full z-10 -mt-8 max-w-250'
         />
         <img
           src={GoldGlobe}
           fetchPriority='high'
           loading='eager'
           alt='Gold Globe'
-          className='absolute -right-22 w-[63rem] row-start-2'
+          className='absolute h-[60vh] w-auto max-w-fit top-2 -right-40 tablet:-right-22 tablet:h-[70vh]'
         />
       </div>
+      <DownloadButton />
     </div>
   );
 };

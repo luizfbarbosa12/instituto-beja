@@ -48,9 +48,7 @@ export function AdvocacySectionVentTransition() {
 
       <div className='vent-container min-h-screen z-1 relative mt-80'>
         <div className='flex justify-end relative w-full text-porcelain pb-45 pl-32'>
-          <LogoFirstSection
-            style={"fill-porcelain w-65 h-21 relative top-20 left-0"}
-          />
+          <LogoFirstSection className='fill-porcelain w-65 h-21 relative top-20 left-0' />
 
           <h1 className='flex items-center text-9xl editorial h-screen'>
             Advocacy
