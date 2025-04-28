@@ -1,10 +1,10 @@
 import AdvocacyCard from "./AdvocacyCard";
 import * as Icon from "@phosphor-icons/react";
 import { advocacyActions } from "../../data/AdvocacyData";
-import LogoFirstSection from "../LogoFirstSection";
 import LineCME from "../LineCME";
 import BejaLogo from "/assets/BejaLogo.png";
 import PinkBox from "./PinkBox";
+import { AdvocacySectionVentTransition } from "./AdvocacySectionVentTransition";
 
 const Clouds = "/assets/ilustracao-nuvens.png";
 
@@ -38,7 +38,7 @@ const AdvocacySection = () => {
   return (
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
       <div
-        className='w-full h-screen flex-center flex-col gap-25'
+        className='w-full h-screen flex-center flex-col gap-25 bg-no-repeat bg-cover bg-center'
         style={{ backgroundImage: "url('/assets/AdvocacyFSBG.png')" }}
       >
         <img src={BejaLogo} alt='Beja Logo' />
@@ -87,21 +87,7 @@ const AdvocacySection = () => {
         </div>
       </div>
 
-      <div className='flex justify-end relative w-full items- bg-bourdeaux text-porcelain pb-45 pl-32'>
-        <LogoFirstSection
-          style={"fill-porcelain w-65 h-21 relative top-20 left-0"}
-        />
-
-        <h1 className='flex items-center text-9xl editorial h-screen'>
-          Advocacy
-        </h1>
-
-        <img
-          src={ProudHand}
-          alt=''
-          className='relative w-170 h-270 -bottom-46'
-        />
-      </div>
+      <AdvocacySectionVentTransition />
 
       <AdvocacyCard
         title='Associação'

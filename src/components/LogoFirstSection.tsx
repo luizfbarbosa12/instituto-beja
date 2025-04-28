@@ -1,9 +1,7 @@
-import PropTypes from "prop-types";
-
-const LogoFirstSection = ({ style }) => {
+const LogoFirstSection = ({ style }: { style: string }) => {
   return (
     <svg
-      className={`${style} `}
+      className={style}
       id='Layer_1'
       xmlns='http://www.w3.org/2000/svg'
       version='1.1'
@@ -64,10 +62,6 @@ const LogoFirstSection = ({ style }) => {
       />
     </svg>
   );
-};
-
-LogoFirstSection.propTypes = {
-  style: PropTypes.string.isRequired,
 };
 
 export default LogoFirstSection;

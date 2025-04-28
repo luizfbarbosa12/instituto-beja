@@ -8,12 +8,16 @@ const EspacoBeja3 = "/assets/EspacoBeja3.png";
 const BejaHouseSection = () => {
   return (
     <div className='flex flex-col relative rounded-[70px]'>
-      <div className='relative w-full left-0'>
-        <img src={EspacoBeja} alt='Espaço Beja image' className='' />
+      <div className='relative w-full left-0 overflow-hidden'>
+        <img
+          src={EspacoBeja}
+          alt='Espaço Beja image'
+          className='object-center w-full h-full'
+        />
       </div>
 
       <Wrapper>
-        <div className='flex flex-col gap-[3.7rem] py-[6.5rem]'>
+        <div className='flex flex-col gap-[3.7rem] pt-18 pb-60'>
           <h1 className='editorial text-8xl'>Casa Beja</h1>
 
           <TextBlock
