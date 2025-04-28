@@ -9,12 +9,12 @@ import { IdBRProject } from "./IdBRProject";
 import { IgarapeProject } from "./IgarapeProject";
 import { MoreInCommonProject } from "./MoreInCommonProject";
 import { CriaAndTHPSupport } from "./CriaAndTHPSupport";
+import { KnowledgeSectionVentTransition } from "./KnowledgeSectionVentTransition";
 import "swiper/css/scrollbar";
 import { Scrollbar } from "swiper/modules";
 
 const conector_de_textos = "/assets/conector-de-textos.svg";
 const nuvens = "/assets/ilustracao-nuvens.png";
-const logo_beja_completo = "/assets/logo-beja-completo-svg.svg";
 const logo_pipa = "/assets/logo-pipa.svg";
 const KnowledgeSection = () => {
   const fases = [
@@ -36,25 +36,8 @@ const KnowledgeSection = () => {
   ];
   return (
     <>
-      <div className='min-h-screen bg-rose flex justify-center items-center relative'>
-        <img
-          src={logo_beja_completo}
-          alt='logo da beja no topo esquerdo'
-          className='h-15 absolute top-20 left-20'
-        />
-        <h1 className='text-9xl editorial relative z-2 pb-10'>Conhecimento</h1>
-        <img
-          src={nuvens}
-          alt='nuvens douradas no fundo'
-          className='absolute -bottom-50'
-        />
-        {/* semicircle */}
-        <div className='absolute w-full -top-90 flex items-center justify-center -z-4'>
-          <div className='w-full aspect-[2/1] overflow-hidden'>
-            <div className='w-full h-[400%] rounded-full bg-[var(--rose)] '></div>
-          </div>
-        </div>
-      </div>
+      <KnowledgeSectionVentTransition />
+
       {/* pipa */}
 
       <div className='min-h-screen pt-20'>
