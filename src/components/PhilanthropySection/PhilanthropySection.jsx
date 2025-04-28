@@ -3,6 +3,9 @@ import TextBlock from "../TextBlock";
 import * as Icon from "@phosphor-icons/react";
 import PhilanthropyCard from "./PhilanthropyCard";
 import ImageSlider from "../../components/ImageSlider";
+import { useGSAP } from "@gsap/react";
+import gsap from "gsap";
+import { useRef } from "react";
 const Filantropando2 = "/assets/Filantropando2.png";
 const Banner = "/assets/FilantropandoSectionBanner.png";
 const FilantropandoCCF = "/assets/FilantropandoCCF.png";
@@ -12,7 +15,49 @@ const FilantropiaSlider2 = "/assets/FilantropiaSlider2.png";
 const FilantropiaSlider3 = "/assets/FilantropiaSlider3.png";
 const BubblesFilantropando = "/assets/BubblesFilantropando.png";
 
+gsap.registerPlugin(useGSAP);
+
 const PhilanthropySection = () => {
+  const axisContainer = useRef(null);
+  useGSAP(
+    () => {
+      gsap.fromTo(
+        ".axis-1 .axis-line",
+        {
+          transformOrigin: "center top",
+          height: 20,
+        },
+        {
+          height: "100%",
+          scrollTrigger: {
+            trigger: ".axis-1",
+            start: "top 30%",
+            end: "bottom 20%",
+            scrub: 0.5,
+            markers: true,
+          },
+        },
+      );
+      gsap.fromTo(
+        ".axis-2 .axis-line",
+        {
+          transformOrigin: "center top",
+          height: 20,
+        },
+        {
+          height: "100%",
+          scrollTrigger: {
+            trigger: ".axis-2",
+            start: "top 30%",
+            end: "bottom 20%",
+            scrub: 0.5,
+            markers: true,
+          },
+        },
+      );
+    },
+    { scope: axisContainer },
+  );
   return (
     <div className='flex flex-col h-fit gap-26 bg-light-peach'>
       <img src={Banner} alt='Falando sobre filantropia' className='w-full' />
@@ -119,7 +164,7 @@ const PhilanthropySection = () => {
       </div>
 
       <Wrapper>
-        <div className='flex flex-col gap-30'>
+        <div ref={axisContainer} className='flex flex-col gap-30'>
           <p className='editorial text-3xl'>
             A 3ª edição foi organizada em torno de dois eixos principais:
           </p>
@@ -132,8 +177,14 @@ const PhilanthropySection = () => {
             ></div>
           </div>
 
-          <div className='flex justify-end w-full'>
-            <div className='flex flex-col gap-25 w-[62rem]'>
+          <div className='axis-1 flex justify-end w-full gap-5'>
+            <div className='w-70 flex justify-end'>
+              <div className='axis-line relative'>
+                <hr className='border-none bg-bourdeaux relative h-full w-px' />
+                <span className='absolute right-1/2 translate-x-1/2 bg-bourdeaux block bottom-0 w-3 h-3 rounded-full' />
+              </div>
+            </div>
+            <div className='flex flex-col gap-25'>
               <div className='flex flex-col gap-12'>
                 <h1 className='editorial text-4xl'>
                   A filantropia e os futuros possíveis, futuros emergentes,
@@ -226,8 +277,14 @@ const PhilanthropySection = () => {
             ></div>
           </div>
 
-          <div className='flex justify-end w-full'>
-            <div className='flex flex-col gap-25 w-[62rem]'>
+          <div className='axis-2 flex justify-end w-full gap-5'>
+            <div className='w-70 flex justify-end'>
+              <div className='axis-line relative'>
+                <hr className='border-none bg-bourdeaux relative h-full w-px' />
+                <span className='absolute right-1/2 translate-x-1/2 bg-bourdeaux block bottom-0 w-3 h-3 rounded-full' />
+              </div>
+            </div>
+            <div className='flex flex-col gap-25'>
               <div className='flex flex-col gap-12'>
                 <h1 className='editorial text-4xl'>
                   Tecnologia para Transformar
@@ -315,7 +372,7 @@ const PhilanthropySection = () => {
         </div>
       </Wrapper>
 
-      <div className='flex relative flex-col w-full py-95  items-center bg-gold-ember overflow-y-hidden'>
+      <div className='flex relative flex-col w-full py-95 items-center bg-gold-ember overflow-y-hidden'>
         <img
           src={BubblesFilantropando}
           className='absolute -top-20 -left-30 rotate-360'

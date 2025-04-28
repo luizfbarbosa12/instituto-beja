@@ -50,7 +50,7 @@ const KnowledgeSection = () => {
           />
         </div>
 
-        <div className=' pl-32'>
+        <div className='pl-32'>
           <img src={logo_pipa} alt='logo da pipa' />
         </div>
         <div className='flex flex-col justify-start items-left gap-4 w-[min-content] mx-auto'>
