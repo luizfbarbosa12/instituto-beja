@@ -63,7 +63,6 @@ const FounderLetter = () => {
             start: "top 30%",
             end: "top 0%",
             scrub: 1,
-            markers: true,
           },
         },
       );
@@ -80,7 +79,6 @@ const FounderLetter = () => {
             start: "top 30%",
             end: "top 0%",
             scrub: 1,
-            markers: true,
           },
         },
       );
@@ -146,7 +144,7 @@ const FounderLetter = () => {
             <h1 className='font-bold text-4xl w-50 not-tablet:leading-10 tablet:text-8xl editorial mt-50 tablet:w-2/3'>
               Carta da Fundadora
             </h1>
-            <div className='letter-text flex flex-col gap-8 tablet:w-2/3 not-tablet:pb-50'>
+            <div className='letter-text text-sm leading-[160%] tablet:text-base flex flex-col gap-8 tablet:w-2/3 not-tablet:pb-50'>
               <p>
                 Estamos vivendo um profundo momento de transição geracional não
                 só humana mas também planetária. As notícias diárias sobre
@@ -157,7 +155,7 @@ const FounderLetter = () => {
                 necessidade de adaptação climática para simples sobrevivência.
                 Ainda assim, temos sido lentos na mudança de rumos e, arrisco a
                 dizer, muitas vezes até passivos.
-              </p>{" "}
+              </p>
               <p>
                 A fórmula não é complexa: o que está em vigor não funciona mais;
                 não alcançamos nossos resultados e a desigualdade só aumenta. A
@@ -177,12 +175,12 @@ const FounderLetter = () => {
                 colaborar “stricto sensu”, o que significa participar
                 ativamente, cooperar, construir junto com nossos pares e outros
                 atores. E somente em 2024, conseguimos vislumbrar este tão
-                desejado caminho de co-construção, atingindo um objetivo ainda
+                desejado caminho de coconstrução, atingindo um objetivo ainda
                 maior, com parcerias globais em favorecimento do Sul Global.
               </p>
               <p>
                 Entendo, porém, que estamos só no começo e precisamos de
-                reforço. Para co-criar, é necessário desapego. E desapego só é
+                reforço. Para cocriar, é necessário desapego. E desapego só é
                 possível com o sentimento de amor. Se a filantropia significa
                 amor à humanidade - e eu acrescentaria amor ao Planeta também -,
                 atualizando as nossas necessidades e o termo ao presente
@@ -207,14 +205,16 @@ const FounderLetter = () => {
               </p>
               <p>
                 Todos os nossos pares podem participar dos nossos Laboratórios e
-                do Centro de Mudanças Exponenciais, explicados um a um no
-                decorrer desse documento, das mais variadas formas. As Casas
+                do Centro para Mudanças Exponenciais (CMe), explicados um a um
+                no decorrer desse documento, das mais variadas formas. As Casas
                 Beja tanto do Rio quanto de SP também estão com as portas
                 abertas para cada uma das experiências de colaboração.
               </p>
               <p className='flex flex-col'>
                 Com gratidão,
-                <span>Cristiane Sultani</span>
+                <span className='text-base tablet:text-xl'>
+                  Cristiane Sultani
+                </span>
               </p>
             </div>
             <img
