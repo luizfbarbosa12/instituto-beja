@@ -237,10 +237,6 @@ const FounderLetter = () => {
       </div>
       {/* respiro dourado */}
       <FoundLetterToContextTransition />
-      {/* contexto */}
-      <div className='bg-[var(--porcelain)] z-10 relative border border-porcelain flex flex-col items-end px-32'>
-        <div className='max-w-250 flex flex-col gap-8 justify-end items-end flex-1 '></div>
-      </div>
     </>
   );
 };

@@ -9,6 +9,13 @@ export function NoticeContainer({
   children: ReactNode;
 }) {
   return (
-    <div className={cn("flex text-base gap-16", className)}>{children}</div>
+    <div
+      className={cn(
+        "flex not-tablet:flex-col text-base gap-4 tablet:gap-16",
+        className,
+      )}
+    >
+      {children}
+    </div>
   );
 }

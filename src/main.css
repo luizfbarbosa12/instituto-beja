@@ -40,6 +40,11 @@ body {
   box-sizing: border-box;
   color: var(--bourdeaux);
   background-color: var(--porcelain);
+  @apply subpixel-antialiased;
+}
+
+strong {
+  @apply font-bold;
 }
 
 html.lenis,

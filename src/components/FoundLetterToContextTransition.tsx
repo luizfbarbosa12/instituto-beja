@@ -57,11 +57,11 @@ export function FoundLetterToContextTransition() {
 
   return (
     <>
-      <div className='bg-retro-ochre pb-58 flex-1 editorial text-6xl flex items-start pt-30 justify-start text-left relative'>
-        <p className='max-w-[1084px] ml-50 flex flex-col gap-8 text-porcelain'>
-          <span>Neste relatório anual,</span>
-          <span>convidamos você a explorar</span>
-          <span>as ações do Instituto Beja em 2024.</span>
+      <div className='bg-retro-ochre pb-58 flex-1 editorial flex items-start pt-30 justify-start text-left relative'>
+        <p className='max-w-68 text-3xl leading-[160%] tablet:text-6xl tablet:max-w-[1084px] mx-7 tablet:mx-32 flex flex-col gap-8 text-porcelain'>
+          Neste relatório anual, <br className='hidden tablet:inline' />
+          convidamos você a explorar <br className='hidden tablet:inline' /> as
+          ações do Instituto Beja em 2024.
         </p>
       </div>
       <div
@@ -70,9 +70,11 @@ export function FoundLetterToContextTransition() {
       >
         <div className='ball rounded-t-[100vw] absolute w-full h-full bg-porcelain overflow-hidden' />
 
-        <div className='vent-container min-h-screen z-1 relative mt-140 overflow-hidden flex flex-col mx-25'>
-          <h1 className='editorial text-6xl pb-14 self-start'>Contexto</h1>
-          <h2 className='text-4xl text-rose editorial flex self-end flex-col max-w-250 ml-55 pb-22.5'>
+        <div className='vent-container mb-9 tablet:mb-16 min-h-screen z-1 relative mt-60 tablet:mt-140 overflow-hidden flex flex-col mx-4.5 tablet:mx-25'>
+          <h1 className='editorial text-[28px] leading-[65px] tablet:text-6xl tablet:pb-14 self-start'>
+            Contexto
+          </h1>
+          <h2 className='py-7.5 px-2.5 text-base tablet:text-4xl text-rose editorial flex self-end flex-col max-w-250 tablet:ml-55 tablet:pb-22.5'>
             Este documento sintetiza as investigações, interações, descobertas e
             reflexões coletivas ao longo dos três anos que nos inspiram
             diariamente a desafiar modelos ultrapassados para a prática de uma
@@ -201,7 +203,7 @@ export function FoundLetterToContextTransition() {
                   equitativa, por meio do uso estratégico e eficiente de
                   recursos filantrópicos, visando sempre seu efeito
                   multiplicador.
-                </strong>
+                </strong>{" "}
                 Esse compromisso segue orientando cada passo, agora fortalecido
                 por uma estrutura mais robusta e uma visão ainda mais clara
                 sobre como gerar impacto sistêmico.
