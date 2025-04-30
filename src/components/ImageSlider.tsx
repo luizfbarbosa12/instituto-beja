@@ -1,13 +1,16 @@
-import { useState } from "react";
+import { CSSProperties, useState } from "react";
 import * as Icon from "@phosphor-icons/react";
-import { AnimatePresence, motion, MotionStyle } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
+import { cn } from "@/lib/utils";
 
 interface ImageSliderProps {
   arr: string[];
   translateYMiddleImg: number;
   ImgWidth: number | string;
   ImgHeight: number | string;
-  imgStyle?: MotionStyle;
+  imgStyle?: CSSProperties;
+  imgClassName?: string;
+  buttonsClassName?: string;
   ButtonStyle?: string;
   className?: string;
 }
@@ -17,6 +20,8 @@ const ImageSlider = ({
   translateYMiddleImg: translateYMiddle,
   ImgWidth,
   ImgHeight,
+  imgClassName,
+  buttonsClassName,
   imgStyle,
   ButtonStyle,
   className,
@@ -65,7 +70,10 @@ const ImageSlider = ({
                 animate={{ y: isMiddle ? -translateYMiddle : 0, x: 0 }}
                 src={item}
                 alt='Rebranding'
-                className={`shrink-0 ${!isMiddle && "brightness-75"} object-fill`}
+                className={cn(
+                  `shrink-0 ${!isMiddle && "brightness-75"} object-cover aspect-video`,
+                  imgClassName,
+                )}
                 style={{ width: ImgWidth, height: ImgHeight, ...imgStyle }}
                 transition={{ duration: 0.25, ease: "easeOut" }}
               />
@@ -75,7 +83,7 @@ const ImageSlider = ({
       </motion.div>
 
       <div
-        className='flex justify-between'
+        className={cn("flex justify-between", buttonsClassName)}
         style={{ marginTop: `-${translateYMiddle / 1.3}px`, width: ImgWidth }}
       >
         <button

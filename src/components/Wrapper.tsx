@@ -7,12 +7,8 @@ type WrapperProps = {
 
 const Wrapper = ({ children, className }: WrapperProps) => {
   return (
-    <div
-      className={cn("mx-6 desktop:mx-0 tablet:mx-29 flex-1 w-full", className)}
-    >
-      <div className='desktop:mx-auto max-w-full w-full desktop:max-w-desktop'>
-        {children}
-      </div>
+    <div className={cn("flex-1 mx-6", className)}>
+      <div className='desktop:mx-auto desktop:max-w-desktop'>{children}</div>
     </div>
   );
 };

@@ -9,8 +9,8 @@ const MissionValueSection = () => {
     <div className='relative not-tablet:pt-20'>
       <img src={Clouds} alt='Cloud image' className='absolute z-10 right-0' />
 
-      <Wrapper>
-        <div className='flex flex-col relative bg-porcelain gap-25 py-50 tablet:py-100'>
+      <Wrapper className='mx-6'>
+        <div className='flex flex-col relative bg-porcelain gap-25 py-40 tablet:py-100'>
           <MVCard
             title={"Missão"}
             text={
@@ -18,7 +18,7 @@ const MissionValueSection = () => {
             }
           />
 
-          <div className='flex w-full justify-end'>
+          <div className='flex justify-end'>
             <MVCard
               title={"Visão"}
               text={
@@ -27,7 +27,7 @@ const MissionValueSection = () => {
             ></MVCard>
           </div>
 
-          <div className='flex w-full relative'>
+          <div className='flex  relative'>
             <img
               src={ProudHand}
               alt='Proud hand image'

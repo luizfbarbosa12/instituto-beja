@@ -1,10 +1,8 @@
-import Wrapper from "./Wrapper";
-
 const Bush = "/assets/folhas.png";
 const ManifestSection = () => {
   return (
     <div className='relative flex flex-col items-center gap-12 w-full bg-porcelain overflow-hidden pb-40'>
-      <Wrapper className={"z-10 mx-0"}>
+      <div className={"z-10 mx-0 w-full"}>
         <div className='flex justify-between [&>p]:leading-none editorial text-2xl pb-7 mx-6'>
           <p>
             www.
@@ -20,7 +18,7 @@ const ManifestSection = () => {
 
         <div
           style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
-          className='flex w-full py-24 tablet:py-48 tablet:w-[74rem] tablet:h-[105rem] bg-center bg-cover z-10'
+          className='flex w-full py-32 tablet:py-48 tablet:w-[74rem] tablet:h-[105rem] bg-center bg-cover z-10'
         >
           <div className='flex flex-col justify-start h-full w-full px-6 tablet:pl-50 gap-5 tablet:gap-12 text-porcelain'>
             <h1 className='text-[28px] text-6xl editorial'>Manifesto Beja</h1>
@@ -73,7 +71,7 @@ const ManifestSection = () => {
             </p>
           </div>
         </div>
-      </Wrapper>
+      </div>
 
       <img
         src={Bush}

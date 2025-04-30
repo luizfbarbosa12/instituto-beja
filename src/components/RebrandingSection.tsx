@@ -20,7 +20,7 @@ const RebrandingSection = () => {
 
   return (
     <div className='flex flex-col gap-8 tablet:gap-48 mt-22.5 tablet:mt-75 w-full overflow-hidden bg-porcelain'>
-      <Wrapper>
+      <Wrapper className='mx-6'>
         <div className='flex flex-col w-full gap-6 tablet:gap-44'>
           <div className='flex flex-col gap-[4rem]'>
             <h1 className='tablet:text-8xl editorial text-[28px] leading-[65px] tablet:leading-none'>
