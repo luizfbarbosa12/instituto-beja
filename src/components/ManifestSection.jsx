@@ -22,7 +22,7 @@ const ManifestSection = () => {
           style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
           className='flex w-full py-24 tablet:py-48 tablet:w-[74rem] tablet:h-[105rem] bg-center bg-cover z-10'
         >
-          <div className='flex flex-col justify-start h-full w-full px-6 tablet:pl-50 gap-12 text-porcelain'>
+          <div className='flex flex-col justify-start h-full w-full px-6 tablet:pl-50 gap-5 tablet:gap-12 text-porcelain'>
             <h1 className='text-[28px] text-6xl editorial'>Manifesto Beja</h1>
 
             <p className='text-sm leading-[160%] tablet:text-2xl tablet:leading-10'>
@@ -69,7 +69,6 @@ const ManifestSection = () => {
               oxigenando processos, espaços e relações.
               <br />
               <br />
-              <br />
               Beja. Oxigenando a filantropia desde 2021.
             </p>
           </div>
@@ -79,7 +78,7 @@ const ManifestSection = () => {
       <img
         src={Bush}
         alt='Bush image'
-        className='absolute not-tablet:-rotate-30 scale-130 -bottom-10 -right-0 tablet:-right-90 tablet:bottom-0 pointer-events-none'
+        className='absolute  not-tablet:scale-130 bottom-12 -right-30 tablet:-right-90 tablet:bottom-0 pointer-events-none'
       />
     </div>
   );
