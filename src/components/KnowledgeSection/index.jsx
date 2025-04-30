@@ -1,7 +1,5 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import { Pagination } from "swiper/modules";
-import "swiper/css/pagination";
 import { AgbaraFundAssociation } from "./AgbaraFundAssociation";
 import { IEAEvent } from "./IEAEvent";
 import { LautProject } from "./LautProject";
@@ -10,6 +8,8 @@ import { IgarapeProject } from "./IgarapeProject";
 import { MoreInCommonProject } from "./MoreInCommonProject";
 import { CriaAndTHPSupport } from "./CriaAndTHPSupport";
 import { KnowledgeSectionVentTransition } from "./KnowledgeSectionVentTransition";
+import "swiper/css";
+import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Scrollbar } from "swiper/modules";
 
@@ -71,8 +71,6 @@ const KnowledgeSection = () => {
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
             pagination={true}
             modules={[Pagination]}
             className=' max-w-[990px]'
@@ -182,8 +180,6 @@ const KnowledgeSection = () => {
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
             pagination={true}
             modules={[Pagination]}
             className=' max-w-[990px]'
@@ -246,8 +242,6 @@ const KnowledgeSection = () => {
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
             pagination={true}
             modules={[Pagination]}
             className=' max-w-[990px]'
@@ -301,8 +295,6 @@ const KnowledgeSection = () => {
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
             pagination={true}
             modules={[Pagination]}
             className=' max-w-[990px]'
@@ -439,8 +431,6 @@ const KnowledgeSection = () => {
           <Swiper
             spaceBetween={50}
             slidesPerView={1}
-            onSlideChange={() => console.log("slide change")}
-            onSwiper={(swiper) => console.log(swiper)}
             pagination={true}
             modules={[Pagination]}
             className=' max-w-[990px]'

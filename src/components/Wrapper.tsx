@@ -6,7 +6,7 @@ type WrapperProps = {
 const Wrapper = ({ children, className }: WrapperProps) => {
   return (
     <div
-      className={`max-w-full max-2xl:px-29 desktop:max-w-desktop desktop:mx-auto ${className}`}
+      className={`max-w-full px-6 tablet:px-29 desktop:max-w-desktop desktop:mx-auto ${className}`}
     >
       {children}
     </div>
