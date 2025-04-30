@@ -3,9 +3,9 @@ import Wrapper from "./Wrapper";
 const Bush = "/assets/folhas.png";
 const ManifestSection = () => {
   return (
-    <div className='relative flex flex-col items-center gap-12 w-full bg-porcelain overflow-hidden'>
-      <Wrapper className={"z-10"}>
-        <div className='flex justify-between w-full [&>p]:leading-none editorial text-2xl'>
+    <div className='relative flex flex-col items-center gap-12 w-full bg-porcelain overflow-hidden pb-40'>
+      <Wrapper className={"z-10 mx-0"}>
+        <div className='flex justify-between [&>p]:leading-none editorial text-2xl pb-7 mx-6'>
           <p>
             www.
             <br />
@@ -20,12 +20,12 @@ const ManifestSection = () => {
 
         <div
           style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
-          className='flex py-48 w-[74rem] h-[105rem] bg-center bg-cover z-10'
+          className='flex w-full py-24 tablet:py-48 tablet:w-[74rem] tablet:h-[105rem] bg-center bg-cover z-10'
         >
-          <div className='flex flex-col justify-start h-full pl-50 gap-12 text-porcelain'>
-            <h1 className='text-6xl editorial'>Manifesto Beja</h1>
+          <div className='flex flex-col justify-start h-full w-full px-6 tablet:pl-50 gap-12 text-porcelain'>
+            <h1 className='text-[28px] text-6xl editorial'>Manifesto Beja</h1>
 
-            <p className='text-2xl leading-10'>
+            <p className='text-sm leading-[160%] tablet:text-2xl tablet:leading-10'>
               Para mudar o mundo, é preciso vontade.
               <br />
               Recursos. Questionamentos.
@@ -79,7 +79,7 @@ const ManifestSection = () => {
       <img
         src={Bush}
         alt='Bush image'
-        className='absolute -right-90 bottom-0 pointer-events-none'
+        className='absolute not-tablet:-rotate-30 scale-130 -bottom-10 -right-0 tablet:-right-90 tablet:bottom-0 pointer-events-none'
       />
     </div>
   );
