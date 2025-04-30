@@ -18,7 +18,7 @@ const ManifestSection = () => {
 
         <div
           style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
-          className='flex w-full py-32 tablet:py-48 tablet:w-[74rem] tablet:h-[105rem] bg-center bg-cover z-10'
+          className='flex w-full py-48 tablet:py-48 tablet:w-full bg-size-[auto_100%] not-tablet:bg-position-[-100px_0] bg-no-repeat z-10'
         >
           <div className='flex flex-col justify-start h-full w-full px-6 tablet:pl-50 gap-5 tablet:gap-12 text-porcelain'>
             <h1 className='text-[28px] text-6xl editorial'>Manifesto Beja</h1>
