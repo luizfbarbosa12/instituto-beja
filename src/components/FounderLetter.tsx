@@ -235,8 +235,6 @@ const FounderLetter = () => {
           className='absolute h-100 bottom-0 z-1 not-tablet:hidden'
         />
       </div>
-      {/* respiro dourado */}
-      <FoundLetterToContextTransition />
     </>
   );
 };

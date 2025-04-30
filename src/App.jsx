@@ -4,6 +4,7 @@ import FirstSection from "./components/FirstSection";
 import balance from "./data/balance.json";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import { FoundLetterToContextTransition } from "./components/FoundLetterToContextTransition";
 
 const PortfolioSection = lazy(() => import("./components/PortfolioSection"));
 const InteractionEcosystem = lazy(
@@ -60,6 +61,7 @@ const App = () => {
     <>
       <FirstSection />
       <FounderLetter />
+      <FoundLetterToContextTransition />
       <RebrandingSection />
       <ManifestSection />
       <MissionValueSection />
