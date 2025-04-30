@@ -1,20 +1,28 @@
+import gsap from "gsap";
 import Lenis from "lenis";
-import { useEffect, lazy } from "react";
-import FirstSection from "./components/FirstSection";
 import balance from "./data/balance.json";
 import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
 import { FoundLetterToContextTransition } from "./components/FoundLetterToContextTransition";
+import { useEffect, lazy } from "react";
+import FirstSection from "./components/FirstSection";
 
+const Footer = lazy(() => import("./components/Footer/Footer"));
+const Expediente = lazy(() => import("./components/Expediente/Expediente"));
+const CMESection = lazy(() => import("./components/CMESection"));
+const BalancoTable = lazy(() => import("./components/Balance/Balance"));
+const FounderLetter = lazy(() => import("./components/FounderLetter"));
+const ManifestSection = lazy(() => import("./components/ManifestSection"));
+const BejaHouseSection = lazy(() => import("./components/BejaHouseSection"));
 const PortfolioSection = lazy(() => import("./components/PortfolioSection"));
+const KnowledgeSection = lazy(() => import("./components/KnowledgeSection"));
+const RebrandingSection = lazy(() => import("./components/RebrandingSection"));
+
 const InteractionEcosystem = lazy(
   () => import("./components/InteractionEcosystem"),
 );
 const ChangeTheorySection = lazy(
   () => import("./components/ChangeTheorySection"),
 );
-const CMESection = lazy(() => import("./components/CMESection"));
-const BejaHouseSection = lazy(() => import("./components/BejaHouseSection"));
 const StrategicPillarSection = lazy(
   () => import("./components/StrategicPillarSection"),
 );
@@ -30,13 +38,6 @@ const AdvocacySection = lazy(
 const FinalSection = lazy(
   () => import("./components/FinalSection/FinalSection"),
 );
-const BalancoTable = lazy(() => import("./components/Balance/Balance"));
-const Expediente = lazy(() => import("./components/Expediente/Expediente"));
-const FounderLetter = lazy(() => import("./components/FounderLetter"));
-const RebrandingSection = lazy(() => import("./components/RebrandingSection"));
-const ManifestSection = lazy(() => import("./components/ManifestSection"));
-const KnowledgeSection = lazy(() => import("./components/KnowledgeSection"));
-const Footer = lazy(() => import("./components/Footer/Footer"));
 
 gsap.registerPlugin(useGSAP);
 
