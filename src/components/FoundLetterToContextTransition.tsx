@@ -3,13 +3,16 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import { NoticeContainer } from "./ui/NoticeContainer";
 import { NoticeColumn } from "./ui/NoticeColumn";
+import { ScrollTrigger } from "gsap/all";
 
+gsap.registerPlugin(useGSAP);
 export function FoundLetterToContextTransition() {
   const container = useRef(null);
   const svgLineRef = useRef(null);
 
   useGSAP(
     () => {
+      gsap.registerPlugin(ScrollTrigger);
       gsap.fromTo(
         ".ball",
         { scale: 1, transformOrigin: "center top" },
@@ -23,12 +26,6 @@ export function FoundLetterToContextTransition() {
           },
         },
       );
-    },
-    { scope: container },
-  );
-
-  useGSAP(
-    () => {
       if (svgLineRef.current) {
         const path = svgLineRef.current as SVGPathElement;
 

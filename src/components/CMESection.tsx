@@ -16,39 +16,36 @@ import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
 import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.js";
 import { useRef } from "react";
 import Wrapper from "./Wrapper.js";
+gsap.registerPlugin(useGSAP);
 
 const CMESection = () => {
+  const svgLineRef = useRef(null);
+  gsap.registerPlugin(ScrollTrigger);
 
-    const svgLineRef = useRef(null);
-      gsap.registerPlugin(useGSAP, ScrollTrigger);
+  useGSAP(() => {
+    if (svgLineRef.current) {
+      const path = svgLineRef.current as SVGPathElement;
 
-       useGSAP(
-          () => {
+      const pathLength = path.getTotalLength();
 
-            if (svgLineRef.current) {
-              const path = svgLineRef.current as SVGPathElement;
+      gsap.set(path, {
+        strokeDasharray: pathLength,
+        strokeDashoffset: pathLength,
+      });
 
-              const pathLength = path.getTotalLength();
-
-              gsap.set(path, {
-                strokeDasharray: pathLength,
-                strokeDashoffset: pathLength
-              });
-
-              gsap.to(path, {
-                strokeDashoffset: 0,
-                duration: 1,
-                ease: "power1.inOut",
-                scrollTrigger: {
-                  trigger: path,
-                  start: "top 80%",
-                  end: "bottom 10%",
-                  scrub: true,
-                }
-              });
-            }
-          },
-        );
+      gsap.to(path, {
+        strokeDashoffset: 0,
+        duration: 1,
+        ease: "power1.inOut",
+        scrollTrigger: {
+          trigger: path,
+          start: "top 80%",
+          end: "bottom 10%",
+          scrub: true,
+        },
+      });
+    }
+  });
 
   const VTCMEmap = VTCME.map((item, index) => (
     <div

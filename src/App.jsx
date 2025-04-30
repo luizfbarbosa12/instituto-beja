@@ -2,6 +2,7 @@ import gsap from "gsap";
 import Lenis from "lenis";
 import balance from "./data/balance.json";
 import { useGSAP } from "@gsap/react";
+import { FoundLetterToContextTransition } from "./components/FoundLetterToContextTransition";
 import { useEffect, lazy } from "react";
 import FirstSection from "./components/FirstSection";
 
@@ -61,6 +62,7 @@ const App = () => {
     <>
       <FirstSection />
       <FounderLetter />
+      <FoundLetterToContextTransition />
       <RebrandingSection />
       <ManifestSection />
       <MissionValueSection />

@@ -8,7 +8,7 @@ const BalancoTable = ({ data }) => {
           <table className='w-full border-collapse'>
             <thead>
               <tr className='bg-bourdeaux text-white '>
-                <th className='py-3 px-4 text-left text-md'>PROJETO</th>
+                <th className='py-3 px-4 text-left text-lg'>PROJETO</th>
                 <th className='py-3 px-4 text-right'>
                   TOTAL DO
                   <br />

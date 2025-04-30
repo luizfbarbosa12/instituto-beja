@@ -10,4 +10,5 @@ const Post6 = "/assets/RebrandingPost6.png";
 
 export const keywordImg = [Image3, Image2, Image1, Image3, Image2, Image1];
 
-export const bejaCoverImg = [Post1, Post2, Post3, Post4, Post5, Post6];
+export const bejaCoverImgs = [Post1, Post2, Post3, Post4, Post5, Post6];
+export const bejaCoverImgsMobile = [Post6, Post2, Post3, Post4, Post5, Post1];

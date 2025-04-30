@@ -1,15 +1,26 @@
 import { useState } from "react";
 import * as Icon from "@phosphor-icons/react";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, MotionStyle } from "framer-motion";
+
+interface ImageSliderProps {
+  arr: string[];
+  translateYMiddleImg: number;
+  ImgWidth: number | string;
+  ImgHeight: number | string;
+  imgStyle?: MotionStyle;
+  ButtonStyle?: string;
+  className?: string;
+}
 
 const ImageSlider = ({
   arr,
   translateYMiddleImg: translateYMiddle,
   ImgWidth,
   ImgHeight,
-  ImgStyle,
+  imgStyle,
   ButtonStyle,
-}) => {
+  className,
+}: ImageSliderProps) => {
   const [startIndex, setStartIndex] = useState(arr.length % 2);
   const visibleCount = 11;
 
@@ -27,7 +38,7 @@ const ImageSlider = ({
     setStartIndex((prev) => prev - 1);
   };
 
-  const mod = (n, m) => ((n % m) + m) % m;
+  const mod = (n: number, m: number): number => ((n % m) + m) % m;
 
   const visibleImages = [];
   for (let i = 0; i < visibleCount; i++) {
@@ -38,7 +49,7 @@ const ImageSlider = ({
   return (
     <motion.div
       layout
-      className={`flex flex-col w-full pb-1 flex-center justify-center items-center overflow-hidden`}
+      className={`${className} flex flex-col w-full pb-1 tablet:flex-center justify-center items-center overflow-hidden `}
       style={{ paddingTop: `${translateYMiddle}px` }}
     >
       <motion.div layout className='flex gap-4 justify-center'>
@@ -55,7 +66,7 @@ const ImageSlider = ({
                 src={item}
                 alt='Rebranding'
                 className={`shrink-0 ${!isMiddle && "brightness-75"} object-fill`}
-                style={{ width: ImgWidth, height: ImgHeight, ...ImgStyle }}
+                style={{ width: ImgWidth, height: ImgHeight, ...imgStyle }}
                 transition={{ duration: 0.25, ease: "easeOut" }}
               />
             );
@@ -69,13 +80,13 @@ const ImageSlider = ({
       >
         <button
           onClick={prev}
-          className={`flex-center size-16 p-3 rounded-full ${ButtonStyle} shrink-0 z-50`}
+          className={`flex-center size-16 p-3 rounded-full ${ButtonStyle} shrink-0 z-50 hover:opacity-90 transition-opacity cursor-pointer`}
         >
           <Icon.ArrowLeft className='size-full' />
         </button>
         <button
           onClick={next}
-          className={`flex-center size-16 p-3 rounded-full ${ButtonStyle} shrink-0 z-50`}
+          className={`flex-center size-16 p-3 rounded-full ${ButtonStyle} shrink-0 z-50 hover:opacity-90 transition-opacity cursor-pointer`}
         >
           <Icon.ArrowRight className='size-full' />
         </button>

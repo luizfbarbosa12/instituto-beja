@@ -2,14 +2,16 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import LogoFirstSection from "../LogoFirstSection";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const ProudHand = "/assets/Ilustracao-4.png";
-
+gsap.registerPlugin(useGSAP);
 export function AdvocacySectionVentTransition() {
   const container = useRef(null);
 
   useGSAP(
     () => {
+      gsap.registerPlugin(ScrollTrigger);
       gsap.from(".seeding", {
         x: "50%",
         y: "100%",

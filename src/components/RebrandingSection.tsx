@@ -1,24 +1,40 @@
 import ImageSlider from "./ImageSlider";
-import { bejaCoverImg, keywordImg } from "../data/RebrandingData";
+import {
+  bejaCoverImgs,
+  bejaCoverImgsMobile,
+  keywordImg,
+} from "../data/RebrandingData";
 import Wrapper from "./Wrapper";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselDots,
+  CarouselItem,
+} from "./ui/carousel";
 
 const Logo = "/assets/LogoRebranding.svg";
 const RebrandingSection = () => {
-  const bejaCoverImgMap = bejaCoverImg.map((item, index) => (
-    <img key={index} src={item} alt='' />
+  const bejaCoverImagesMap = bejaCoverImgs.map((item, index) => (
+    <img className='select-none' key={index} src={item} alt='' />
   ));
 
   return (
-    <div className='flex flex-col gap-48 mt-75 w-full overflow-hidden bg-porcelain'>
+    <div className='flex flex-col gap-8 tablet:gap-48 mt-22.5 tablet:mt-75 w-full overflow-hidden bg-porcelain'>
       <Wrapper>
-        <div className='flex flex-col w-full gap-44'>
+        <div className='flex flex-col w-full gap-6 tablet:gap-44'>
           <div className='flex flex-col gap-[4rem]'>
-            <h1 className='text-8xl editorial w-[100vw]'>Rebranding</h1>
+            <h1 className='tablet:text-8xl editorial text-[28px] leading-[65px] tablet:leading-none'>
+              Rebranding
+            </h1>
 
-            <div className='flex items-center gap-40 w-full justify-end'>
-              <img src={Logo} alt='Beja logo' className='size-60' />
+            <div className='flex tablet:items-center flex-col tablet:flex-row gap-10 tablet:gap-40 w-full justify-end'>
+              <img
+                src={Logo}
+                alt='Beja logo'
+                className='self-center size-50 tablet:size-60'
+              />
 
-              <div className='w-[31rem] flex flex-col gap-[3rem] text-md'>
+              <div className='tablet:w-[31rem] flex flex-col text-bourdeaux gap-[3rem] text-xs leading-[160%] tablet:text-lg'>
                 <p>
                   Desenvolver o rebranding do <strong>Instituto Beja </strong>
                   representou mais do que um desafio criativo – foi um mergulho
@@ -45,28 +61,42 @@ const RebrandingSection = () => {
         </div>
       </Wrapper>
 
-      <div className='flex flex-col gap-65 w-full'>
-        <div className='w-full flex flex-col items-center editorial h-fit gap-10'>
-          <h1 className='text-4xl'>
+      <div className='flex flex-col gap-14 tablet:gap-65 w-full'>
+        <div className='w-full flex flex-col tablet:items-center editorial h-fit gap-14 tablet:gap-10'>
+          <h1 className='text-2xl not-tablet:max-w-75 not-tablet:px-6 leading-[160%] tablet:text-4xl'>
             A palavra-chave deste rebranding foi oxigenar.
           </h1>
 
           <ImageSlider
             arr={keywordImg}
-            translateYMiddleImg={"80"}
+            translateYMiddleImg={80}
             ImgWidth={"43rem"}
             ImgHeight={"23rem"}
             ButtonStyle={"bg-bourdeaux text-porcelain"}
+            className='not-tablet:hidden'
           />
         </div>
 
-        <div className='flex justify-between w-full gap-12 pr-32'>
-          <div className='grid absolute left-0 grid-cols-3 grid-rows-2 w-[55rem] h-[46.5rem] [&>img]:h-full [&>img]:w-full [&>img]:object-cover '>
-            {bejaCoverImgMap}
-          </div>
+        <div className='flex justify-between flex-col tablet:flex-row w-full gap-12 mx-auto'>
+          <Carousel className='tablet:hidden' opts={{ align: "center" }}>
+            <CarouselContent className='w-full'>
+              {bejaCoverImgsMobile.map((item, index) => (
+                <CarouselItem
+                  className='items-center justify-center flex'
+                  key={index}
+                >
+                  <img src={item} alt='' />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselDots />
+          </Carousel>
 
-          <div className='flex w-full justify-end'>
-            <div className='flex flex-col relative right-0 text-md w-[28.5rem] gap-10'>
+          <div className='flex w-full justify-center'>
+            <div className='hidden tablet:grid tablet:grid-cols-3 desktop:grid-cols-3 grid-rows-2 [&>img]:h-full [&>img]:w-full [&>img]:object-cover '>
+              {bejaCoverImagesMap}
+            </div>
+            <div className='flex flex-col relative right-0 text-xs leading-[160%] tablet:text-lg mx-6 tablet:w-[28.5rem] gap-10 text-bourdeaux'>
               <p>
                 Nosso foco estava em revitalizar a marca, explorando caminhos
                 criativos para contar quem somos e o que nos torna únicos. Em um
@@ -99,7 +129,7 @@ const RebrandingSection = () => {
 
       <Wrapper>
         <div className='flex w-full justify-end pb-30'>
-          <p className='w-[56rem] text-[2.5rem] editorial text-rose'>
+          <p className='tablet:w-[56rem] text-lg leading-[160%] tablet:text-[2.5rem] editorial text-rose'>
             É o Beja de sempre, agora mais maduro, com uma nova linguagem para
             transformar o futuro que já começou.
           </p>

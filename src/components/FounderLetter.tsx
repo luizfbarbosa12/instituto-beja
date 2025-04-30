@@ -2,17 +2,17 @@ import { useRef } from "react";
 import { FoundLetterToContextTransition } from "./FoundLetterToContextTransition";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 const nuvens = "/assets/ilustracao-6-5.webp";
 const logo_desenho_beja = "/assets/logo-desenho-beja.svg";
+gsap.registerPlugin(useGSAP);
 
 const FounderLetter = () => {
-  gsap.registerPlugin(useGSAP);
-  gsap.registerPlugin(ScrollTrigger);
   const letterContainerRef = useRef(null);
 
   useGSAP(
     () => {
+      gsap.registerPlugin(ScrollTrigger);
       gsap.fromTo(
         ".letter",
         {
@@ -235,8 +235,6 @@ const FounderLetter = () => {
           className='absolute h-100 bottom-0 z-1 not-tablet:hidden'
         />
       </div>
-      {/* respiro dourado */}
-      <FoundLetterToContextTransition />
     </>
   );
 };
