@@ -6,7 +6,7 @@ import Wrapper from "../Wrapper";
 
 const MissionValueSection = () => {
   return (
-    <div className='relative not-tablet:pt-20'>
+    <div className='relative not-tablet:pt-20 tablet:pt-40'>
       <img src={Clouds} alt='Cloud image' className='absolute z-10 right-0' />
 
       <Wrapper className='mx-6'>

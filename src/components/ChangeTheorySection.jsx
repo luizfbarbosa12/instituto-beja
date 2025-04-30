@@ -12,7 +12,7 @@ const ChangeTheorySection = () => {
           Evolução da Teoria da Mudança
         </h1>
 
-        <div className='flex flex-col gap-7 tablet:gap-14 tablet:justify-self-end'>
+        <div className='flex flex-col gap-7 tablet:gap-14 tablet:justify-self-end max-w-250'>
           <div className='flex flex-col items-end font-serif text-base leading-relaxed tablet:text-3xl text-gold tablet:leading-12'>
             <p>
               “O capital filantrópico é um capital de risco. O Beja toma grandes

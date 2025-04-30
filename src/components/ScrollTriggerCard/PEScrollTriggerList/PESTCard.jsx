@@ -29,7 +29,7 @@ const PESTCard = ({
           color: data.textColor,
         }}
       >
-        <h1 className='editorial text-[28px] not-tablet:leading-[65px] text-6xl'>
+        <h1 className='editorial text-[28px] not-tablet:leading-[65px] tablet:text-[65px]'>
           {data.title}
         </h1>
 

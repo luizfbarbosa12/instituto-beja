@@ -16,11 +16,11 @@ const ManifestSection = () => {
           </p>
         </div>
 
-        <div
-          style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
-          className='flex w-full py-48 tablet:py-48 tablet:w-full bg-size-[auto_100%] not-tablet:bg-position-[-100px_0] bg-no-repeat z-10'
-        >
-          <div className='flex flex-col justify-start h-full w-full px-6 tablet:pl-50 gap-5 tablet:gap-12 text-porcelain'>
+        <div className='flex w-full tablet:w-full z-10'>
+          <div
+            style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
+            className='flex items-center bg-size-[auto_100%] bg-position-[70%_50%] bg-no-repeat py-48 flex-col justify-center h-full w-full px-6 gap-5 tablet:gap-12 text-porcelain'
+          >
             <h1 className='text-[28px] text-6xl editorial'>Manifesto Beja</h1>
 
             <p className='text-sm leading-[160%] tablet:text-2xl tablet:leading-10'>
