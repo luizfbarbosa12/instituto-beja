@@ -452,7 +452,7 @@ const KnowledgeSection = () => {
                 <h2 className='text-3xl font-medium mb-4'>
                   Fase 1 — Composição do status quo e seus silêncios
                 </h2>
-                <p className='text-md leading-relaxed'>
+                <p className='text-lg leading-relaxed'>
                   Esta etapa tem como objetivo traçar, em uma perspectiva
                   histórica, os modos pelos quais a filantropia, a justiça
                   social e a democracia se encontraram e se separaram nos
@@ -474,7 +474,7 @@ const KnowledgeSection = () => {
                 <h2 className='editorial text-3xl font-medium mb-4'>
                   Fase 2 — Análise crítica e histórica
                 </h2>
-                <p className='text-md leading-relaxed'>
+                <p className='text-lg leading-relaxed'>
                   Nesta etapa, o objetivo é contribuir para a consolidação de
                   uma teoria política da filantropia no Brasil a partir da
                   importância do tema, sua relevância e estudos acadêmicos,
@@ -496,7 +496,7 @@ const KnowledgeSection = () => {
                 <h2 className='text-3xl font-medium mb-4'>
                   Fase 3 — Por uma teoria política da filantropia no Brasil
                 </h2>
-                <p className='text-md leading-relaxed'>
+                <p className='text-lg leading-relaxed'>
                   Nesta etapa, o foco é consolidar os achados da pesquisa,
                   analisando as formas pelas quais a filantropia, a justiça
                   social e a democracia se encontraram e se antagonizaram nos
@@ -538,7 +538,7 @@ const KnowledgeSection = () => {
         </section>
         <div className='max-w-3xl mx-auto py-12 px-4'>
           <div className='text-center mb-10'>
-            <p className='text-md mb-6 text-left'>
+            <p className='text-lg mb-6 text-left'>
               Por meio da parceria iniciada em 2024 com o Instituto Beja, têm
               sido realizados ciclos de leitura com convidados, visando
               consolidar os termos que constituem um repertório sobre justiça
@@ -605,7 +605,7 @@ const KnowledgeSection = () => {
         </div>
         <div className='max-w-3xl mx-auto py-12 px-4'>
           <div className='text-center mb-10'>
-            <p className='text-md mb-6 text-left'>
+            <p className='text-lg mb-6 text-left'>
               A lacuna a que nos referimos atraiu uma alta procura, resultando
               em mais de 200 inscrições. Em resposta, o CEBRAP enviou um
               questionário para compreender o perfil dos interessados, recebendo
@@ -681,7 +681,7 @@ const KnowledgeSection = () => {
         </div>
         <div className='flex justify-end mt-16 '>
           <div className='w-full md:w-1/2 bg-rose p-6 rounded mr-20'>
-            <p className='text-md p-12'>
+            <p className='text-lg p-12'>
               Para o primeiro semestre de 2025, o modelo de oficinas de leitura
               aplicado em 2024 será ajustado. A nova proposta vai alternar
               oficinas de leitura com palestras conduzidas por convidados,

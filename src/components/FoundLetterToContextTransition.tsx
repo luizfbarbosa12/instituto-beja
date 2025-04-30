@@ -4,6 +4,7 @@ import { useRef } from "react";
 import { NoticeContainer } from "./ui/NoticeContainer";
 import { NoticeColumn } from "./ui/NoticeColumn";
 import { ScrollTrigger } from "gsap/all";
+
 gsap.registerPlugin(useGSAP);
 export function FoundLetterToContextTransition() {
   const container = useRef(null);
@@ -25,12 +26,6 @@ export function FoundLetterToContextTransition() {
           },
         },
       );
-    },
-    { scope: container },
-  );
-
-  useGSAP(
-    () => {
       if (svgLineRef.current) {
         const path = svgLineRef.current as SVGPathElement;
 
