@@ -102,6 +102,7 @@ const FounderLetter = () => {
       gsap.fromTo(
         ".beja-logo",
         {
+          bottom: "78%",
           rotate: "-90deg",
         },
         {
