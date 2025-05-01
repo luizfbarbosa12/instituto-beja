@@ -5,7 +5,11 @@ const GoldGlobe = "/assets/cutedGoldGlobe.webp";
 
 function DownloadButton() {
   return (
-    <div className='flex items-center gap-2 z-10 px-8'>
+    <a
+      href='/BEJA_Relatorio-PT.pdf'
+      download
+      className='flex items-center gap-2 z-10 px-8'
+    >
       <div className='h-8 w-8 tablet:h-10 tablet:w-10 rounded-full bg-rose p-2 flex-center'>
         <Icon.ArrowDown className='size-8 tablet:*:size-10' />
       </div>
@@ -13,7 +17,7 @@ function DownloadButton() {
       <p className='text-base leading-[100%] text-rose'>
         Faça Download do Relatório Anual 2024 em PDF aqui.
       </p>
-    </div>
+    </a>
   );
 }
 

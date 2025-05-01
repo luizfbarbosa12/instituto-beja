@@ -2,7 +2,6 @@ import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { useRef } from "react";
 const GoldenDot = "/assets/golden-dot.png";
-
 export function EcosystemCapitalProviders() {
   const container = useRef(null);
 
@@ -185,26 +184,26 @@ export function EcosystemCapitalProviders() {
             </svg>
 
             {/* Textos */}
-            <div className='text-item text-1 absolute top-[0%] left-[0%] max-w-[396px]'>
-              <h2 className='text-3xl leading-relaxed font-serif text-[#1a0505]'>
+            <div className='text-item text-1 absolute top-[10%] tablet:top-[0%] left-[0%] max-w-50 lg:max-w-[396px]'>
+              <h2 className='text-xl lg:text-3xl leading-relaxed font-serif text-[#1a0505]'>
                 Filantropos nacionais e internacionais
               </h2>
             </div>
 
-            <div className='text-item text-2 absolute top-[100%] left-[15%] max-w-[351px]'>
-              <h2 className='text-3xl leading-relaxed font-serif text-[#1a0505]'>
+            <div className='text-item text-2 absolute top-[120%] lg:top-[100%] left-[15%] max-w-[351px]'>
+              <h2 className='text-xl lg:text-3xl leading-relaxed font-serif text-[#1a0505]'>
                 Potenciais filantropos
               </h2>
             </div>
 
-            <div className='text-item text-3 absolute top-[20%] right-[20%] max-w-[400px]'>
-              <h2 className='text-3xl leading-relaxed font-serif text-[#1a0505]'>
+            <div className='text-item text-3 absolute top-[35%] lg:top-[20%] right-[20%] max-w-[400px]'>
+              <h2 className='text-xl lg:text-3xl leading-relaxed font-serif text-[#1a0505]'>
                 Empresários e investidores
               </h2>
             </div>
 
-            <div className='text-item text-4 absolute top-[125%] right-[0%] max-w-[468px]'>
-              <h2 className='text-3xl leading-relaxed font-serif text-[#1a0505]'>
+            <div className='text-item text-4 absolute top-[150%] lg:top-[125%] right-[15%] lg:right-[0%] max-w-50 lg:max-w-[468px]'>
+              <h2 className='text-xl lg:text-3xl leading-relaxed font-serif text-[#1a0505]'>
                 Fundações, Institutos e organizações provedoras de capital
               </h2>
             </div>

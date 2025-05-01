@@ -1,6 +1,5 @@
 import LineCME from "./LineCME.js";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import TextBlock from "./TextBlock.js";
 import { motion } from "framer-motion";
@@ -18,37 +17,32 @@ import { useRef } from "react";
 import Wrapper from "./Wrapper.js";
 
 const CMESection = () => {
+  const svgLineRef = useRef(null);
 
-    const svgLineRef = useRef(null);
-      gsap.registerPlugin(useGSAP, ScrollTrigger);
+  useGSAP(() => {
+    if (svgLineRef.current) {
+      const path = svgLineRef.current as SVGPathElement;
 
-       useGSAP(
-          () => {
+      const pathLength = path.getTotalLength();
 
-            if (svgLineRef.current) {
-              const path = svgLineRef.current as SVGPathElement;
+      gsap.set(path, {
+        strokeDasharray: pathLength,
+        strokeDashoffset: pathLength,
+      });
 
-              const pathLength = path.getTotalLength();
-
-              gsap.set(path, {
-                strokeDasharray: pathLength,
-                strokeDashoffset: pathLength
-              });
-
-              gsap.to(path, {
-                strokeDashoffset: 0,
-                duration: 1,
-                ease: "power1.inOut",
-                scrollTrigger: {
-                  trigger: path,
-                  start: "top 80%",
-                  end: "bottom 10%",
-                  scrub: true,
-                }
-              });
-            }
-          },
-        );
+      gsap.to(path, {
+        strokeDashoffset: 0,
+        duration: 1,
+        ease: "power1.inOut",
+        scrollTrigger: {
+          trigger: path,
+          start: "top 80%",
+          end: "bottom 10%",
+          scrub: true,
+        },
+      });
+    }
+  });
 
   const VTCMEmap = VTCME.map((item, index) => (
     <div

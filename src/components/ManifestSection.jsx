@@ -1,11 +1,9 @@
-import Wrapper from "./Wrapper";
-
 const Bush = "/assets/folhas.png";
 const ManifestSection = () => {
   return (
-    <div className='relative flex flex-col items-center gap-12 w-full bg-porcelain overflow-hidden'>
-      <Wrapper className={"z-10"}>
-        <div className='flex justify-between w-full [&>p]:leading-none editorial text-2xl'>
+    <div className='relative flex flex-col items-center gap-12 w-full bg-porcelain overflow-hidden pb-40'>
+      <div className={"z-10 mx-0 w-full"}>
+        <div className='flex justify-between [&>p]:leading-none editorial text-2xl pb-7 mx-6'>
           <p>
             www.
             <br />
@@ -18,14 +16,14 @@ const ManifestSection = () => {
           </p>
         </div>
 
-        <div
-          style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
-          className='flex py-48 w-[74rem] h-[105rem] bg-center bg-cover z-10'
-        >
-          <div className='flex flex-col justify-start h-full pl-50 gap-12 text-porcelain'>
-            <h1 className='text-6xl editorial'>Manifesto Beja</h1>
+        <div className='flex w-full tablet:w-full z-10'>
+          <div
+            style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
+            className='flex items-center bg-size-[auto_100%] bg-position-[70%_50%] bg-no-repeat py-48 flex-col justify-center h-full w-full px-6 gap-5 tablet:gap-12 text-porcelain'
+          >
+            <h1 className='text-[28px] text-6xl editorial'>Manifesto Beja</h1>
 
-            <p className='text-2xl leading-10'>
+            <p className='text-sm leading-[160%] tablet:text-2xl tablet:leading-10'>
               Para mudar o mundo, é preciso vontade.
               <br />
               Recursos. Questionamentos.
@@ -69,17 +67,16 @@ const ManifestSection = () => {
               oxigenando processos, espaços e relações.
               <br />
               <br />
-              <br />
               Beja. Oxigenando a filantropia desde 2021.
             </p>
           </div>
         </div>
-      </Wrapper>
+      </div>
 
       <img
         src={Bush}
         alt='Bush image'
-        className='absolute -right-90 bottom-0 pointer-events-none'
+        className='absolute  not-tablet:scale-130 bottom-12 -right-30 tablet:-right-90 tablet:bottom-0 pointer-events-none'
       />
     </div>
   );

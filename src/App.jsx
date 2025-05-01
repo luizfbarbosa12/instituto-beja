@@ -2,8 +2,10 @@ import gsap from "gsap";
 import Lenis from "lenis";
 import balance from "./data/balance.json";
 import { useGSAP } from "@gsap/react";
+import { FoundLetterToContextTransition } from "./components/FoundLetterToContextTransition";
 import { useEffect, lazy } from "react";
 import FirstSection from "./components/FirstSection";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const Footer = lazy(() => import("./components/Footer/Footer"));
 const Expediente = lazy(() => import("./components/Expediente/Expediente"));
@@ -39,6 +41,7 @@ const FinalSection = lazy(
 );
 
 gsap.registerPlugin(useGSAP);
+gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
   useEffect(() => {
@@ -61,6 +64,7 @@ const App = () => {
     <>
       {/* <FirstSection />
       <FounderLetter />
+      <FoundLetterToContextTransition />
       <RebrandingSection />
       <ManifestSection />
       <MissionValueSection />

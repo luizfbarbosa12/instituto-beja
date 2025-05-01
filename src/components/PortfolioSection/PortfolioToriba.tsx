@@ -32,10 +32,10 @@ export function PortfolioToriba() {
           Como desenhar futuros mais justos e disruptivos?
         </h4>
         <p className='max-w-[520px]'>
-          O Instituto Toriba acredita no poder transformador das histórias que
-          contamos sobre o futuro. Elas moldam nossas ações no presente. Por
-          meio de pesquisas, alfabetização em futuros e construção de
-          narrativas, o Instituto atua para catalisar transformações sociais.
+          O <strong>Instituto Toriba</strong> acredita no poder transformador
+          das histórias que contamos sobre o futuro. Elas moldam nossas ações no
+          presente. Por meio de pesquisas, alfabetização em futuros e construção
+          de narrativas, o Instituto atua para catalisar transformações sociais.
           Através de processos colaborativos que reúnem ativistas, artistas,
           comunicadores e pensadores visionários, criam-se espaços para que
           novas histórias possam emergir – uma oportunidade única de reimaginar

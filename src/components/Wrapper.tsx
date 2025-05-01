@@ -1,3 +1,5 @@
+import { cn } from "@/lib/utils";
+
 type WrapperProps = {
   children: React.ReactNode;
   className?: string;
@@ -5,10 +7,8 @@ type WrapperProps = {
 
 const Wrapper = ({ children, className }: WrapperProps) => {
   return (
-    <div
-      className={`max-w-full max-2xl:px-29 desktop:max-w-desktop desktop:mx-auto ${className}`}
-    >
-      {children}
+    <div className={cn("flex-1 mx-6", className)}>
+      <div className='desktop:mx-auto desktop:max-w-desktop'>{children}</div>
     </div>
   );
 };

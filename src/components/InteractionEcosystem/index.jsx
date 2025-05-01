@@ -11,7 +11,7 @@ export default function InteractionEcosystem() {
           Ecossistema de Interações
         </h2>
         <p className='font-sans text-base leading-relaxed max-w-138'>
-          Por meio da colaboração e da co-construção de estratégias, cultivamos
+          Por meio da colaboração e da coconstrução de estratégias, cultivamos
           espaços de diálogo ativo, incentivando a escuta atenta e o suporte
           mútuo. Esses espaços se fortalecem com a troca de conhecimentos,
           recursos e práticas inovadoras para o setor. A interação neste

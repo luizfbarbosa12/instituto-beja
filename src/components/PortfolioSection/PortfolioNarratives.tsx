@@ -135,7 +135,7 @@ export function PortfolioNarratives() {
           embasam a estratégia do <strong>Lab</strong> para 2025.
         </p>
         <Blockquote
-          author='MARILIA DUQUE, Consultora, Mentora e Pesquisadora da interface tecnologia e envelhecimento'
+          author='MARILIA DUQUE, Consultora, Mentora e Pesquisadora da Interface Tecnologia e Envelhecimento'
           text=' "Impulsionar mudanças em políticas públicas, normas sociais e
           dinâmicas de mercado para promover um envelhecimento saudável, ativo e
           com propósito. Mobilizar a sociedade como um todo para enfrentar os

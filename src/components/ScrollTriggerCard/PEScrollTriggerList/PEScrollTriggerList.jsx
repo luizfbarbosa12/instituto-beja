@@ -11,7 +11,7 @@ const PEScrollTriggerList = ({ arr }) => {
   });
 
   const cardMap = arr.map((item, index) => {
-    const targetScale = 1 - (arr.length - index) * 0.07;
+    const targetScale = 1;
 
     return (
       <PESTCard

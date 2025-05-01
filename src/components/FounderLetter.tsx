@@ -1,14 +1,10 @@
 import { useRef } from "react";
-import { FoundLetterToContextTransition } from "./FoundLetterToContextTransition";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
 const nuvens = "/assets/ilustracao-6-5.webp";
 const logo_desenho_beja = "/assets/logo-desenho-beja.svg";
 
 const FounderLetter = () => {
-  gsap.registerPlugin(useGSAP);
-  gsap.registerPlugin(ScrollTrigger);
   const letterContainerRef = useRef(null);
 
   useGSAP(
@@ -51,13 +47,13 @@ const FounderLetter = () => {
       );
 
       gsap.fromTo(
-        ".letter",
+        ".letter-bg",
         {
           height: "500px",
-          scale: 1,
+          transformOrigin: "top",
         },
         {
-          height: "auto",
+          height: "100%",
           scrollTrigger: {
             trigger: ".letter",
             start: "top 30%",
@@ -91,7 +87,6 @@ const FounderLetter = () => {
           y: "100%",
         },
         {
-          height: "100%",
           opacity: 1,
           y: 0,
           stagger: 0.5,
@@ -107,6 +102,7 @@ const FounderLetter = () => {
       gsap.fromTo(
         ".beja-logo",
         {
+          bottom: "78%",
           rotate: "-90deg",
         },
         {
@@ -137,7 +133,8 @@ const FounderLetter = () => {
             alt='imagem de nuvens douradas no fundo'
             className='absolute w-full h-auto -top-20 right-0'
           />
-          <div className='letter overflow-hidden max-w-[1028px] h-auto flex flex-col gap-8 mx-auto z-2 bg-porcelain px-12 tablet:px-21 pt-21 pb-21 rounded-3xl relative'>
+          <div className='letter overflow-hidden max-w-[1028px] h-auto flex flex-col gap-8 mx-auto z-2 px-12 tablet:px-21 pt-21 pb-21 relative'>
+            <div className='-z-1 inset-0 bg-porcelain absolute letter-bg rounded-3xl'></div>
             <div className='editorial text-xl leading-6 absolute right-8 tablet:right-20'>
               <span>(O) Desde 2021</span>
             </div>
@@ -235,8 +232,6 @@ const FounderLetter = () => {
           className='absolute h-100 bottom-0 z-1 not-tablet:hidden'
         />
       </div>
-      {/* respiro dourado */}
-      <FoundLetterToContextTransition />
     </>
   );
 };

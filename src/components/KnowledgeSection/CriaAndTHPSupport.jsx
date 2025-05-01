@@ -45,12 +45,11 @@ export function CriaAndTHPSupport() {
 
         <NoticeColumn>
           <p>
-            O projeto teve início em <strong>2023</strong>, com a proposta de
-            desenvolver uma experiência piloto e testar sua reaplicação ao longo
-            de um período de 5 anos. Um dos principais objetivos é capacitar
-            jovens e adolescentes para atuarem como apoio comunitário,
-            permitindo que repliquem a experiência como Agentes de Saúde na
-            Adolescência.
+            O projeto teve início em 2023, com a proposta de desenvolver uma
+            experiência piloto e testar sua reaplicação ao longo de um período
+            de 5 anos. Um dos principais objetivos é capacitar jovens e
+            adolescentes para atuarem como apoio comunitário, permitindo que
+            repliquem a experiência como Agentes de Saúde na Adolescência.
           </p>
           <p>
             Até 2024, o <strong>CRIA</strong> concentrou suas atividades em

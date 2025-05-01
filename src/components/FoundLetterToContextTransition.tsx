@@ -23,12 +23,6 @@ export function FoundLetterToContextTransition() {
           },
         },
       );
-    },
-    { scope: container },
-  );
-
-  useGSAP(
-    () => {
       if (svgLineRef.current) {
         const path = svgLineRef.current as SVGPathElement;
 

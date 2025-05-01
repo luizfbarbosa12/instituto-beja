@@ -35,7 +35,7 @@ export function PortfolioLetter() {
             acredito que é obrigação da filantropia ocupar esse espaço de
             conscientização e inovação."
           </p>
-          <p> Cristiane Sultani - Fundadora e Presidente</p>
+          <p>CRISTIANE SULTANI - Fundadora e Presidente</p>
         </div>
         <div className='flex items-end justify-end pr-20 pb-12'>
           <img

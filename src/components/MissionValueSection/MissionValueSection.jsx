@@ -6,11 +6,11 @@ import Wrapper from "../Wrapper";
 
 const MissionValueSection = () => {
   return (
-    <div className='relative'>
+    <div className='relative not-tablet:pt-20 tablet:pt-40'>
       <img src={Clouds} alt='Cloud image' className='absolute z-10 right-0' />
 
-      <Wrapper>
-        <div className='flex flex-col relative bg-porcelain gap-25 py-100'>
+      <Wrapper className='mx-6'>
+        <div className='flex flex-col relative bg-porcelain gap-25 py-40 tablet:py-100'>
           <MVCard
             title={"Missão"}
             text={
@@ -18,22 +18,22 @@ const MissionValueSection = () => {
             }
           />
 
-          <div className='flex w-full justify-end relative'>
-            <img
-              src={ProudHand}
-              alt='Proud hand image'
-              className='absolute h-[46rem] w-[29rem] left-0 top-10'
-            />
-
+          <div className='flex justify-end'>
             <MVCard
               title={"Visão"}
               text={
                 "Promover o impacto positivo no campo da filantropia fomentando a inovação, colaboração, eficácia e engajamento da sociedade civil, do setor privado e do governo para resolução de problemas sistêmicos."
               }
-            />
+            ></MVCard>
           </div>
 
-          <div className='flex w-full'>
+          <div className='flex  relative'>
+            <img
+              src={ProudHand}
+              alt='Proud hand image'
+              className='absolute h-68 tablet:h-[46rem] left-0 top-6 tablet:top-12 -translate-y-1/1'
+            />
+
             <MVCard
               title={"Valores"}
               text={

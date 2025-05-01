@@ -1,7 +1,8 @@
 {
   "name": "vite-project",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "homepage": "https://www.institutobeja.com/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,11 +14,14 @@
   "dependencies": {
     "@gsap/react": "^2.1.2",
     "@phosphor-icons/react": "^2.1.7",
+    "@radix-ui/react-slot": "^1.2.0",
     "@tailwindcss/vite": "^4.1.2",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.6.3",
     "gsap": "^3.12.7",
+    "i18next": "^25.0.2",
     "lenis": "^1.2.3",
     "lucide-react": "^0.488.0",
     "motion": "^12.7.3",

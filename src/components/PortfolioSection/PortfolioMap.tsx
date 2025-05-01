@@ -61,7 +61,7 @@ export function PortfolioMap() {
         </List>
         <p className='max-w-[472px] mt-28'>
           Para ampliar o alcance e engajamento, foi lançado um site exclusivo
-          contendo insights detalhados, um mapa interativo e relatórios
+          contendo <em>insights</em> detalhados, um mapa interativo e relatórios
           disponíveis para download.
         </p>
         <List title='Plataformas de engajamento:'>
@@ -84,9 +84,11 @@ export function PortfolioMap() {
           </ListItem>
         </List>
         <p className='max-w-[472px] mt-28'>
-          Educação foi identificada pelo ecossistema como uma das principais
-          barreiras para uma sociedade participativa e equitativa para todas as
-          idades.
+          <strong>
+            Educação foi identificada pelo ecossistema como uma das principais
+            barreiras
+          </strong>{" "}
+          para uma sociedade participativa e equitativa para todas as idades.
         </p>
         <List title='O tema educação emergiu relacionado à: '>
           <ListItem>Educação Formal</ListItem>

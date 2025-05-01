@@ -6,7 +6,6 @@ const logo_beja_completo = "/assets/logo-beja-completo-svg.svg";
 const nuvens = "/assets/ilustracao-6-2.png";
 
 export function KnowledgeSectionVentTransition() {
-  gsap.registerPlugin(useGSAP);
   const container = useRef(null);
 
   useGSAP(

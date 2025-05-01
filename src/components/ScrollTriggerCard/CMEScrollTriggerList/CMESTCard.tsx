@@ -20,7 +20,13 @@ type CMESTCardProps = {
   paddingTop: string;
   imgSize: string;
 };
-const CMESTCard = ({ cssOverride, idx, data, paddingTop, imgSize }: CMESTCardProps) => {
+const CMESTCard = ({
+  cssOverride,
+  idx,
+  data,
+  paddingTop,
+  imgSize,
+}: CMESTCardProps) => {
   const container = useRef(null);
 
   return (

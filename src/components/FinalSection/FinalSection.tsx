@@ -10,7 +10,7 @@ const FinalSection = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 pl-70'>
           <div className='space-y-6 '>
-            <p className='text-md leading-relaxed'>
+            <p className='text-lg leading-relaxed'>
               <span className='font-bold'>O Instituto Beja</span> está
               firmemente comprometido com a promoção de mudanças sociais e
               ambientais positivas e sustentáveis. Para isso, dedicamos parte de
@@ -21,7 +21,7 @@ const FinalSection = () => {
               positivos.
             </p>
 
-            <p className='text-md leading-relaxed'>
+            <p className='text-lg leading-relaxed'>
               Recentemente, decidimos compartilhar nossa carteira de
               investimentos, com o objetivo de inspirar o ecossistema
               filantrópico a seguir um caminho semelhante. A iniciativa busca
@@ -29,7 +29,7 @@ const FinalSection = () => {
               resultados econômicos com soluções sociais e ambientais.
             </p>
 
-            <p className='text-md leading-relaxed'>
+            <p className='text-lg leading-relaxed'>
               Além das doações, o{" "}
               <span className='font-bold'>Instituto Beja</span> adota uma
               estratégia diversificada de alocamento dos recursos enquanto não
@@ -41,7 +41,7 @@ const FinalSection = () => {
           </div>
 
           <div className='space-y-6'>
-            <p className='text-md leading-relaxed'>
+            <p className='text-lg leading-relaxed'>
               Investimos em fundos de investimento direcionados às áreas de
               tecnologia, meio ambiente e educação, que buscam tanto retorno
               financeiro quanto impacto social e ambiental. Adicionalmente,
@@ -59,7 +59,7 @@ const FinalSection = () => {
               a eficácia de nossas ações.
             </p>
 
-            <p className='text-md leading-relaxed'>
+            <p className='text-lg leading-relaxed'>
               Ao compartilhar nossa abordagem, buscamos inspirar outras
               fundações e institutos a adotarem estratégias que conciliem
               impacto social e ambiental com a rentabilidade financeira.

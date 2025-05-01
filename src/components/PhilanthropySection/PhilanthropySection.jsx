@@ -15,8 +15,6 @@ const FilantropiaSlider2 = "/assets/FilantropiaSlider2.png";
 const FilantropiaSlider3 = "/assets/FilantropiaSlider3.png";
 const BubblesFilantropando = "/assets/BubblesFilantropando.png";
 
-gsap.registerPlugin(useGSAP);
-
 const PhilanthropySection = () => {
   const axisContainer = useRef(null);
   useGSAP(
@@ -319,8 +317,8 @@ const PhilanthropySection = () => {
                         content: (
                           <>
                             <p>
-                              As Big Techs têm ditado as regras sobre como
-                              articulamos pensamentos e conexões em redes,
+                              As <em>Big Techs</em> têm ditado as regras sobre
+                              como articulamos pensamentos e conexões em redes,
                               muitas vezes sob uma perspectiva desumanizadora. A
                               corrida e a disparidade entre diferentes
                               abordagens para regulamentar uma base ética das

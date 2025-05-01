@@ -6,8 +6,6 @@ import { TextAnimate } from "../magicui/text-animate";
 const BejaLogo = "/assets/LOGO-16.png";
 const SeedingGold = "/assets/seeding-gold.png";
 
-gsap.registerPlugin(useGSAP);
-
 export function PortfolioSectionVentTransition() {
   const container = useRef(null);
 

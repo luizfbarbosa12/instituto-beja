@@ -3,7 +3,6 @@ import { gsap } from "gsap";
 import { useRef } from "react";
 
 const GoldenDot = "/assets/golden-dot.png";
-
 export function EcosystemEndSection() {
   const container = useRef(null);
   useGSAP(

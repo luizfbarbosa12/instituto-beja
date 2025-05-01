@@ -32,10 +32,11 @@ export function IEAEvent() {
             </strong>
             , promovido pelo Instituto de{" "}
             <strong>
-              Estudos Avançados da Universidade de São Paulo (IEA–USP) e Centro
-              de Estudos de Cultura Contemporânea (CEDEC)
-            </strong>
-            , ofereceu um espaço de profunda reflexão sobre as interseções entre
+              Estudos Avançados da Universidade de São Paulo (IEA-USP)
+            </strong>{" "}
+            e{" "}
+            <strong>Centro de Estudos de Cultura Contemporânea (CEDEC)</strong>,
+            ofereceu um espaço de profunda reflexão sobre as interseções entre
             esses temas, estruturado a partir de uma abordagem transnacional e
             interdisciplinar. Com o objetivo de investigar conexões históricas e
             contemporâneas entre os diferentes contextos das Américas, o evento
@@ -49,10 +50,10 @@ export function IEAEvent() {
           <p>
             Entre os dias <strong>25 e 29 de novembro de 2024</strong>, o{" "}
             <strong>Instituto Beja</strong> teve a honra de organizar uma série
-            de encontros com{" "}
+            de encontros com <strong>Trevor Smith</strong>,{" "}
             <strong>
-              Trevor Smith, um dos mais renomados especialistas internacionais
-              em reparações históricas e narrativas de justiça racial
+              um dos mais renomados especialistas internacionais em reparações
+              históricas e narrativas de justiça racial
             </strong>
             . Durante sua primeira visita ao Brasil, Trevor apresentou o
             conceito inovador de world-making, uma prática transformadora que
@@ -68,10 +69,13 @@ export function IEAEvent() {
           <NoticeColumn>
             <p>
               {" "}
-              O colóquio teve duração de 4 dias, incluindo 11 mesas redondas, 14
-              minicursos e 160 Grupos de Trabalho (GTs). As discussões abordaram
-              questões como racismo, vigilância, controle social, práticas
-              abolicionistas, reparação histórica e colonialidade.
+              O colóquio teve duração de 4 dias, incluindo{" "}
+              <strong>
+                11 mesas redondas, 14 minicursos e 160 Grupos de Trabalho (GTs)
+              </strong>
+              . As discussões abordaram questões como racismo, vigilância,
+              controle social, práticas abolicionistas, reparação histórica e
+              colonialidade.
             </p>
             <hr className='border-retro-ochre border-3 ' />
           </NoticeColumn>

@@ -1,4 +1,3 @@
-
 type LineCMEProps = {
   style: string;
   ref: React.Ref<SVGPathElement>;
@@ -22,6 +21,5 @@ const LineCME = ({ style, ref }: LineCMEProps) => {
     </svg>
   );
 };
-
 
 export default LineCME;
