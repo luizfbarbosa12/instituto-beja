@@ -59,7 +59,6 @@ const FounderLetter = () => {
             start: "top 30%",
             end: "top 0%",
             scrub: 1,
-            markers: true,
           },
         },
       );
