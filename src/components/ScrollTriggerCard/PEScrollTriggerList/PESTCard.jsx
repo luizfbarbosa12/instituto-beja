@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useTransform } from "framer-motion";
-import { calcClamp } from "../../../data/AdvocacyData";
+import { calcClamp } from "./../../../data/Utils";
 
 const PESTCard = ({
   cssOverride,
