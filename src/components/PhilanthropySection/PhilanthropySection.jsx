@@ -317,8 +317,8 @@ const PhilanthropySection = () => {
                         content: (
                           <>
                             <p>
-                              As <em>Big Techs</em> têm ditado as regras sobre como
-                              articulamos pensamentos e conexões em redes,
+                              As <em>Big Techs</em> têm ditado as regras sobre
+                              como articulamos pensamentos e conexões em redes,
                               muitas vezes sob uma perspectiva desumanizadora. A
                               corrida e a disparidade entre diferentes
                               abordagens para regulamentar uma base ética das

@@ -1231,7 +1231,14 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                  Com aproximadamente 220 membros, a rede reúne uma diversidade de atores, incluindo famílias, family offices, corporações, fundações doadoras, organizações multilaterais, instituições acadêmicas e aceleradoras. Presente em mais de 16 países, a Latimpacto desempenha um papel fundamental ao conectar investidores, gestores e organizações comprometidas com a filantropia e o impacto socioambiental, ampliando a força desse ecossistema na região.
+                    Com aproximadamente 220 membros, a rede reúne uma
+                    diversidade de atores, incluindo famílias, family offices,
+                    corporações, fundações doadoras, organizações multilaterais,
+                    instituições acadêmicas e aceleradoras. Presente em mais de
+                    16 países, a Latimpacto desempenha um papel fundamental ao
+                    conectar investidores, gestores e organizações comprometidas
+                    com a filantropia e o impacto socioambiental, ampliando a
+                    força desse ecossistema na região.
                   </p>
                 </>
               ),

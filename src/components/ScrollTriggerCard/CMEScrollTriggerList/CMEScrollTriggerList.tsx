@@ -8,7 +8,12 @@ type CMEScrollTriggerListProps = {
   paddingTop: string;
   imgSize: string;
 };
-const CMEScrollTriggerList = ({ arr, title, paddingTop, imgSize }: CMEScrollTriggerListProps) => {
+const CMEScrollTriggerList = ({
+  arr,
+  title,
+  paddingTop,
+  imgSize,
+}: CMEScrollTriggerListProps) => {
   const container = useRef(null);
   const mapContainer = useRef(null);
 

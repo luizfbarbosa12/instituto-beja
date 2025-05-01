@@ -84,9 +84,11 @@ export function PortfolioMap() {
           </ListItem>
         </List>
         <p className='max-w-[472px] mt-28'>
-          <strong>Educação foi identificada pelo ecossistema como uma das principais
-          barreiras</strong> para uma sociedade participativa e equitativa para todas as
-          idades.
+          <strong>
+            Educação foi identificada pelo ecossistema como uma das principais
+            barreiras
+          </strong>{" "}
+          para uma sociedade participativa e equitativa para todas as idades.
         </p>
         <List title='O tema educação emergiu relacionado à: '>
           <ListItem>Educação Formal</ListItem>
