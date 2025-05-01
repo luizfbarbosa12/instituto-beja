@@ -148,3 +148,11 @@ html.lenis body {
   scrollbar-width: thin;
   scrollbar-color: var(--bourdeaux) var(--retro-ochre);
 }
+
+.responsive-title {
+  font-size: clamp(1.75rem, 5vw + 1rem, 4rem);
+}
+
+.responsive-subtitle {
+  font-size: clamp(18px, 2vw + 8px, 32px);
+}
