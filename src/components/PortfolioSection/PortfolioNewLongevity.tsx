@@ -27,7 +27,7 @@ export function PortfolioNewLongevity() {
     >
       <Blockquote
         text='“A velhice precisa ser tratada no plural, não há uma única forma de se envelhecer, principalmente num cenário como o brasileiro, marcado por extrema desigualdade social. Nova Longevidade: o Lab precisa estar atento a essas questões da desigualdade porque não se trata apenas de envelhecer bem, contribuindo para a sociedade, com saúde, dignidade, com autonomia, propósito e com colaboração intergeracional. No Brasil essas questões estão marcadas pela desigualdade social.”'
-        author='MARILIA DUQUE, Consultora, Mentora e Pesquisadora da interface tecnologia e envelhecimento'
+        author='MARILIA DUQUE, Consultora, Mentora e Pesquisadora da Interface Tecnologia e Envelhecimento'
       />
       <NoticeContainer>
         <NoticeColumn>

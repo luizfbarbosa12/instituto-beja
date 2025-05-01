@@ -24,40 +24,20 @@ export function CriaAndTHPSupport() {
       <NoticeContainer>
         <NoticeColumn>
           <p>
-            A proposta do <strong>CRIA</strong> é desenvolver uma tecnologia
-            social inovadora para a implantação de um programa de
-            desenvolvimento infantil. O objetivo é planejar, gerir e oferecer
-            apoio psicológico a jovens e adolescentes do{" "}
-            <strong>Espaço CRIA</strong>, criando condições para um
-            desenvolvimento pleno e saudável, especialmente no contexto da
-            maternidade e da primeira infância. O foco de atuação está em
-            pequenas e remotas comunidades, promovendo o bem-estar integral e
-            ampliando suas oportunidades de crescimento e desenvolvimento.
+          A proposta do <strong>CRIA</strong> é desenvolver uma tecnologia social inovadora para a implantação de um programa de desenvolvimento infantil. O objetivo é planejar, gerir e oferecer apoio psicológico a jovens e adolescentes do <strong>Espaço CRIA</strong>, criando condições para um desenvolvimento pleno e saudável, especialmente no contexto da maternidade e da primeira infância. O foco de atuação está em pequenas e remotas comunidades, promovendo o bem-estar integral e ampliando suas oportunidades de crescimento e desenvolvimento.
           </p>
           <p>
-            As atividades são realizadas junto à comunidade, por meio de rodas
-            de conversa e dinâmicas interativas que abordam temas essenciais,
-            como pré-natal, parto, segurança alimentar, marcos do
-            desenvolvimento infantil, a importância do brincar, amamentação,
-            emoções, desafios nas relações familiares e parentalidade.
+          As atividades são realizadas junto à comunidade, por meio de rodas de conversa e dinâmicas interativas que abordam temas essenciais, como pré-natal, parto, segurança alimentar, marcos do desenvolvimento infantil, a importância do brincar, amamentação, emoções, desafios nas relações
+          familiares e parentalidade.
           </p>
         </NoticeColumn>
 
         <NoticeColumn>
           <p>
-            O projeto teve início em <strong>2023</strong>, com a proposta de
-            desenvolver uma experiência piloto e testar sua reaplicação ao longo
-            de um período de 5 anos. Um dos principais objetivos é capacitar
-            jovens e adolescentes para atuarem como apoio comunitário,
-            permitindo que repliquem a experiência como Agentes de Saúde na
-            Adolescência.
+          O projeto teve início em 2023, com a proposta de desenvolver uma experiência piloto e testar sua reaplicação ao longo de um período de 5 anos. Um dos principais objetivos é capacitar jovens e adolescentes para atuarem como apoio comunitário, permitindo que repliquem a experiência como Agentes de Saúde na Adolescência.
           </p>
           <p>
-            Até 2024, o <strong>CRIA</strong> concentrou suas atividades em
-            Pedra Furada, um povoado localizado no Município de Santa Luzia do
-            Itanhy, na região sul de Sergipe. Essa comunidade apresenta desafios
-            significativos, com raras manifestações de afeto e alta incidência
-            de casos de violência doméstica.
+          Até 2024, o <strong>CRIA</strong> concentrou suas atividades em Pedra Furada, um povoado localizado no Município de Santa Luzia do Itanhy, na região sul de Sergipe. Essa comunidade apresenta desafios significativos, com raras manifestações de afeto e alta incidência de casos de violência doméstica.
           </p>
         </NoticeColumn>
       </NoticeContainer>
