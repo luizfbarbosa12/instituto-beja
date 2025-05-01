@@ -1,19 +1,8 @@
 import { useRef } from "react";
-import { motion, useInView, useScroll } from "framer-motion";
 import CMESTCard from "./CMESTCard";
+import { motion, useInView, useScroll } from "framer-motion";
 
-type CMEScrollTriggerListProps = {
-  arr: any[];
-  title?: string;
-  paddingTop: string;
-  imgSize: string;
-};
-const CMEScrollTriggerList = ({
-  arr,
-  title,
-  paddingTop,
-  imgSize,
-}: CMEScrollTriggerListProps) => {
+const CMEScrollTriggerList = ({ arr, title, paddingTop, imgSize }) => {
   const container = useRef(null);
   const mapContainer = useRef(null);
 
@@ -47,7 +36,7 @@ const CMEScrollTriggerList = ({
   return (
     <div ref={container} className='relative'>
       <div
-        className={`${MapIsInView ? "sticky top-0" : "static"} z-10 py-10 transition-all bg-peach w-full duration-300`}
+        className={`${MapIsInView ? "sticky top-0" : "static"} z-10 py-5 transition-all bg-peach w-full duration-300`}
       >
         <h1 className={`text-hot-coral text-5xl font-bold w-200 leading-20`}>
           {title}

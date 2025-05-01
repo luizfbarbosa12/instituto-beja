@@ -12,9 +12,9 @@ import MapBiomasLogo from "/assets/MapBiomas.png";
 import SerenasLogo from "/assets/Serenas_logo.svg";
 import DesenrolaLogo from "/assets/DesenrolaLogo.png";
 import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
-import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.js";
 import { useRef } from "react";
 import Wrapper from "./Wrapper.js";
+import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList";
 
 const CMESection = () => {
   const svgLineRef = useRef(null);
@@ -71,7 +71,7 @@ const CMESection = () => {
         />
       </div>
 
-      <Wrapper>
+      <div className='flex flex-col px-32'>
         <div className='flex flex-col gap-18 pt-16 items-end'>
           <h1 className='editorial text-hot-coral text-6xl w-full'>
             Centro para Mudanças Exponenciais (CMe)
@@ -262,7 +262,7 @@ const CMESection = () => {
             <img src={CMEGrafico} alt='Gráfico CME' />
           </div>
 
-          <div className='flex flex-col w-full px-22'>
+          <div className='flex flex-col w-full'>
             <CMEScrollTriggerList
               arr={AEPIE}
               title={"Orquestrando o Ecossistema para a Mudança Exponencial"}
@@ -408,11 +408,11 @@ const CMESection = () => {
             <CMEScrollTriggerList
               arr={CMEPartners}
               paddingTop='pt-40 '
-              imgSize={"w-95 h-70"}
+              imgSize={"w-67 h-52"}
             />
           </div>
         </div>
-      </Wrapper>
+      </div>
     </div>
   );
 };

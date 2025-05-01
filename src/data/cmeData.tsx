@@ -2,9 +2,9 @@
 const CMECard1 = "/assets/CMECard1.png";
 const CMECard2 = "/assets/CMECard2.png";
 const CMECard3 = "/assets/CMECard3.png";
-const MapBiomasLogo = "/assets/MapBiomas.png";
-const SerenasLogo = "/assets/Serenas_logo.svg";
-const DesenrolaLogo = "/assets/DesenrolaLogo.png";
+const MapBiomasLogo = "/assets/MapBiomas.svg";
+const SerenasLogo = "/assets/SerenasLogo.svg";
+const DesenrolaLogo = "/assets/DesenrolaLogo.svg";
 
 export const AEPIE = [
   {

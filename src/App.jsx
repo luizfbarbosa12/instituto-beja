@@ -69,18 +69,18 @@ const App = () => {
       <ManifestSection />
       <MissionValueSection />
       <BejaHouseSection />
-      <ChangeTheorySection /> */}
+      <ChangeTheorySection />
       <StrategicPillarSection />
-      <InteractionEcosystem />
+      <InteractionEcosystem /> */}
       <CMESection />
-      <AdvocacySection />
+      {/* <AdvocacySection />
       <KnowledgeSection />
       <PortfolioSection />
       <PhilanthropySection />
       <FinalSection />
       <BalancoTable data={balance} />
       <Expediente />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
