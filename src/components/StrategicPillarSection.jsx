@@ -5,7 +5,7 @@ const Pillars = "/assets/PilaresEstrategicos.png";
 
 const StrategicPillarSection = () => {
   return (
-    <div className={"flex flex-col gap-20 tablet:gap-30"}>
+    <div className={"flex flex-col gap-80"}>
       <Wrapper>
         <div className='flex flex-col gap-7 tablet:gap-38 pt-22.5 tablet:pt-80'>
           <h1 className='editorial text-[28px] leading-[65px] tablet:text-8xl max-w-[60rem] tablet:leading-32 '>
@@ -26,6 +26,7 @@ const StrategicPillarSection = () => {
           </div>
         </div>
       </Wrapper>
+
       <div className='flex flex-col w-full gap-10 pb-8'>
         <PEScrollTriggerList arr={SPCardData} />
       </div>

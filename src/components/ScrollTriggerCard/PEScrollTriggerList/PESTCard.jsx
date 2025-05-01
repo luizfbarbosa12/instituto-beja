@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { motion, useTransform } from "framer-motion";
 import { calcClamp } from "./../../../data/Utils";
+import useMediaQuery from "./../../../hooks/useMediaQuery";
 
 const PESTCard = ({
   cssOverride,
@@ -12,20 +13,23 @@ const PESTCard = ({
 }) => {
   const container = useRef(null);
 
-  const cardScale = useTransform(targetProgress, range, [1, targetScale]);
+  // const cardScale = useTransform(targetProgress, range, [1, targetScale]);
+
+  const mdScreen = useMediaQuery("(max-width:1081px)");
 
   return (
     <motion.div
       layout
       ref={container}
-      className='h-screen flex-center py-20 sticky top-0 w-full'
+      className='h-screen flex-center pt-55 sticky top-0 w-full'
     >
       <motion.div
         layout
-        className={`flex flex-col relative w-full min-h-190 rounded-[4rem] p-22.5 gap-6.5 ${cssOverride}`}
+        className={`flex flex-col relative w-full h-244 rounded-[4rem] p-22.5 gap-6.5 ${cssOverride} max-1080:p-5 max-1080:pt-10 max-1080:rounded-3xl`}
         style={{
-          top: `calc(-10% + ${idx * 10.9}rem)`,
-          // scale: cardScale,
+          top: !mdScreen
+            ? `calc(-10% + ${idx * 12}rem)`
+            : `calc(-10% + ${idx * 7}rem)`,
           backgroundColor: data.bgColor,
           color: data.textColor,
         }}
@@ -39,10 +43,10 @@ const PESTCard = ({
 
         <motion.div
           layout
-          className='flex w-full gap-20 max-1080:flex-col max-1080:gap-10'
+          className='flex w-full gap-20 max-1080:flex-col max-1080:gap-5'
         >
           <p
-            className='editorial w-full leading-12'
+            className='editorial w-full leading-12 max-768:leading-8'
             style={{ fontSize: `clamp(${calcClamp(18, 32)})` }}
           >
             {data.subtitle}
@@ -64,11 +68,16 @@ const PESTCard = ({
           />
 
           <ul
-            className={`flex flex-col gap-7 text-2xl list-disc list-inside marker:text-4xl w-fit z-10`}
             style={{ "--tw-marker-color": data.lineColor }}
+            className={`flex flex-col gap-7 text-2xl list-disc list-inside marker:text-4xl w-fit z-10 max-1080:gap-3`}
           >
             {data.list.map((item, index) => (
-              <li key={index}>{item}</li>
+              <li
+                key={index}
+                style={{ fontSize: `clamp(${calcClamp(12, 32)})` }}
+              >
+                {item}
+              </li>
             ))}
           </ul>
         </div>
@@ -76,7 +85,7 @@ const PESTCard = ({
         <img
           src={data.img}
           alt='Imagem de uma mão'
-          className='absolute bottom-0 right-40  w-fit h-[24rem] max-1080:brightness-50'
+          className='absolute bottom-0 right-0  w-fit h-[24rem] max-1080:brightness-50'
         />
       </motion.div>
     </motion.div>

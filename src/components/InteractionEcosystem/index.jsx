@@ -5,7 +5,7 @@ import { EcosystemSocialOrganizations } from "./EcosystemSocialOrganizations";
 
 export default function InteractionEcosystem() {
   return (
-    <div className='py-[320px] bg-porcelain'>
+    <div className='py-[320px] bg-porcelain pt-150'>
       <div className='px-[132px] flex flex-col gap-14'>
         <h2 className='font-serif text-bourdeaux text-8xl leading-[130px]'>
           Ecossistema de Interações
