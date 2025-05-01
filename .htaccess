@@ -1,0 +1,6 @@
+# JavaScript & TypeScript MIME Types
+AddType application/javascript .js .mjs .jsx .ts .tsx
+AddType text/javascript .js .mjs .jsx .ts .tsx
+
+# JSON MIME Type
+AddType application/json .json
