@@ -18,7 +18,7 @@ const PartnerSection = ({
       />
 
       <div className='flex flex-col gap-18 w-[66rem] max-[1325px]:w-full max-[650px]:gap-4'>
-        <h1 className='editorial text-6xl flex-wrap w-[70%] leading-20 max-[1100px]:w-full max-md:text-5xl max-md:leading-15 max-sm:text-2xl max-sm:leading-10'>
+        <h1 className='editorial text-6xl flex-wrap w-[70%] leading-20 max-[1100px]:w-full max-md:text-5xl max-md:leading-15 max-sm:text-2xl max-sm:leading-7'>
           {partnerName}
         </h1>
 

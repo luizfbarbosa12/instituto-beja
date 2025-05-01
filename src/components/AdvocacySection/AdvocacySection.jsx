@@ -5,6 +5,7 @@ import GoldenQuote from "./GoldenQuote";
 import { Images } from "../../assets/Index";
 import * as Icon from "@phosphor-icons/react";
 import PartnerSection from "./PartnerSection";
+import FastTravelCard from "./FastTravelCard";
 import { advocacyActions } from "../../data/AdvocacyData";
 import { AdvocacySectionVentTransition } from "./AdvocacySectionVentTransition";
 
@@ -19,53 +20,56 @@ const AdvocacySection = () => {
   return (
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
       <div
-        className='w-full h-screen flex-center flex-col gap-25 bg-no-repeat bg-cover bg-center'
         style={{ backgroundImage: "url('/assets/AdvocacyFSBG.png')" }}
+        className='flex-center flex-col w-full min-h-screen gap-25 bg-no-repeat bg-cover bg-center 
+        max-1024:px-8 
+        max-768:px-6 max-768:gap-14'
       >
-        <img src={Images.Logos.BejaLogo} alt='Beja Logo' />
+        <img
+          alt='Beja Logo'
+          src={Images.Logos.BejaLogo}
+          className='max-1366:size-[12rem] max-640:size-[6rem]'
+        />
 
-        <h1 className='editorial text-5xl w-225 text-center text-porcelain'>
+        <h1 className='editorial text-5xl max-w-225 leading-15 text-center text-porcelain max-1025:w-full max-768:text-4xl max-768:leading-12 max-640:text-lg max-640:leading-normal'>
           O Portfólio Beja foi organizado conforme os pilares estratégicos
           apresentados:{" "}
         </h1>
       </div>
 
-      <div className='w-full h-screen flex-center bg-retro-ochre gap-10'>
-        <div className='flex flex-col bg-bourdeaux w-94 h-115 rounded-[60px] flex-center relative overflow-hidden'>
-          <h1 className='editorial text-5xl -translate-y-25 text-porcelain'>
-            Advocacy
-          </h1>
+      <div
+        className='flex gap w-full max-h-screen h-full items-center justify-center bg-retro-ochre gap-10 py-40 
+                    max-1280:px-10 
+                    max-1160:px-8 
+                    max-1024:flex-col max-1024:py-10 
+                    max-640:px-5 max-420:px-2 max-640:gap-4 max-640:justify-start max-640:'
+      >
+        <FastTravelCard
+          title={"Advocacy"}
+          img={Images.Ilustracoes.ProudHand}
+          className={"bg-bourdeaux text-porcelain"}
+          imgConfig={
+            "w-40 h-75 absolute bottom-0 right-10 max-1080:h-60 max-1080:right-0 max-1024:right-20 max-768:w-35 max-768:h-55 max-640:w-20 max-640:h-25 max-500:right-10"
+          }
+        />
 
-          <img
-            src={Images.Ilustracoes.ProudHand}
-            alt='Mão de orgulho'
-            className='w-40 h-75 absolute bottom-0 right-10'
-          />
-        </div>
+        <FastTravelCard
+          title={"Conhecimento"}
+          img={Images.Ilustracoes.Clouds}
+          className={"bg-rose text-bourdeaux"}
+          imgConfig={
+            "max-w-none h-50 absolute bottom-0 max-1080:h-60 max-1080:right-0 max-950:h-50 max-844:h-40 max-640:h-20 max-460:h-15 max-460:w-50"
+          }
+        />
 
-        <div className='flex flex-col bg-rose w-94 h-115 rounded-[60px] flex-center relative overflow-hidden'>
-          <h1 className='editorial text-5xl -translate-y-25 text-bourdeaux'>
-            Conhecimento
-          </h1>
-
-          <img
-            src={Images.Ilustracoes.Clouds}
-            alt='Mão de orgulho'
-            className='max-w-none h-50 absolute bottom-0'
-          />
-        </div>
-
-        <div className='flex flex-col bg-porcelain w-94 h-115 rounded-[60px] flex-center relative  overflow-hidden'>
-          <h1 className='editorial text-5xl -translate-y-25 text-bourdeaux text-center'>
-            Beja Labs / Laboratórios
-          </h1>
-
-          <img
-            src={Images.Ilustracoes.Bush}
-            alt='Mão de orgulho'
-            className='max-w-none h-60 absolute bottom-0'
-          />
-        </div>
+        <FastTravelCard
+          title={"Beja Labs / Laboratórios"}
+          img={Images.Ilustracoes.Bush}
+          className={"bg-porcelain text-bourdeaux"}
+          imgConfig={
+            "max-w-none h-60 absolute bottom-0 max-1080:right-20 max-950:h-50 max-844:h-40 max-768:right-10 max-640:h-30 max-460:right-5 max-380:h-25"
+          }
+        />
       </div>
 
       <AdvocacySectionVentTransition />

@@ -19,11 +19,33 @@
 
   --breakpoint-desktop: 1400px;
   --breakpoint-tablet: 900px;
-
   --container-desktop: var(--breakpoint-desktop);
   --container-tablet: var(--breakpoint-tablet);
-
   --text-3xl: 2rem;
+
+  --breakpoint-1600: 100.063rem;
+  --breakpoint-1536: 96.063rem;
+  --breakpoint-1440: 90.063rem;
+  --breakpoint-1366: 85.438rem;
+  --breakpoint-1280: 80.063rem;
+  --breakpoint-1200: 75.063rem;
+  --breakpoint-1160: 72.563rem;
+  --breakpoint-1080: 67.563rem;
+  --breakpoint-1024: 64.063rem;
+  --breakpoint-950: 59.438rem;
+  --breakpoint-912: 57.063rem;
+  --breakpoint-896: 56.063rem;
+  --breakpoint-844: 52.813rem;
+  --breakpoint-768: 48.063rem;
+  --breakpoint-680: 42.563rem;
+  --breakpoint-640: 40.063rem;
+  --breakpoint-580: 36.313rem;
+  --breakpoint-540: 33.813rem;
+  --breakpoint-500: 31.313rem;
+  --breakpoint-460: 28.813rem;
+  --breakpoint-420: 26.313rem;
+  --breakpoint-380: 23.813rem;
+  --breakpoint-360: 22.563rem;
 }
 
 :root {
