@@ -21,7 +21,7 @@ export function PortfolioReputationBuild() {
         </h3>
         <p className='max-w-[472px] mt-10'>
           O mapeamento do ecossistema desempenhou um papel fundamental no
-          fortalecimento da reputação do Lab. Ele ampliou oportunidades de
+          fortalecimento da reputação do <strong>Lab</strong>. Ele ampliou oportunidades de
           conexão e abriu frentes de colaboração, consolidando sua presença no
           campo da inovação social para a longevidade.
         </p>
@@ -29,22 +29,22 @@ export function PortfolioReputationBuild() {
           <ListItem>
             Entrevistas estratégicas: realizadas com representantes de órgãos
             públicos, setor privado, academia e iniciativas sociais. Entre os
-            participantes estão a Secretaria Nacional de Direitos da Pessoa
+            participantes estão a <em>Secretaria Nacional de Direitos da Pessoa
             Idosa, Grupo RD Saúde, Talento Sênior e Fórum Gerações e Futuro do
-            Trabalho, entre outros.
+            Trabalho, entre outros.</em>
           </ListItem>
           <ListItem>
             Conexões com organizações relevantes: parcerias estabelecidas com
-            instituições como SESC, Sanofi, Insper, FGV EAESP, MedSênior, Sírio
+            instituições como <em>SESC, Sanofi, Insper, FGV EAESP, MedSênior, Sírio
             Libanês, Catalyst 2030, BID, ThinkOlga, Ministério Público de
-            Pernambuco, entre outros.
+            Pernambuco</em>, entre outros.
           </ListItem>
           <ListItem>
-            Colaboração com empreendedores da rede Ashoka: engajamento com
+            Colaboração com empreendedores da rede <em>Ashoka</em>: engajamento com
             empreendedores que atuam com longevidade, incluindo Gabriela
-            Agustini (Olabi), João Souza (Fa.vela), João Paulo Nogueira
-            (Cuidador de Confiança), Sérgio Serapião (Labora), Karen Worcman
-            (Museu da Pessoa), entre outros.
+            Agustini (<em>Olabi</em>), João Souza (<em>Fa.vela</em>), João Paulo Nogueira
+            (<em>Cuidador de Confiança</em>), Sérgio Serapião (<em>Labora</em>), Karen Worcman
+            (<em>Museu da Pessoa</em>), entre outros.
           </ListItem>
         </List>
         <List className='mt-28' title='Presença em eventos externos:'>

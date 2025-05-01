@@ -25,40 +25,22 @@ export function IEAEvent() {
       <NoticeContainer>
         <NoticeColumn>
           <p>
-            O{" "}
-            <strong>
-              Colóquio Colonialidade, Racialidade, Punição e Reparação nas
-              Américas
-            </strong>
-            , promovido pelo Instituto de{" "}
-            <strong>
-              Estudos Avançados da Universidade de São Paulo (IEA–USP) e Centro
-              de Estudos de Cultura Contemporânea (CEDEC)
-            </strong>
-            , ofereceu um espaço de profunda reflexão sobre as interseções entre
-            esses temas, estruturado a partir de uma abordagem transnacional e
-            interdisciplinar. Com o objetivo de investigar conexões históricas e
-            contemporâneas entre os diferentes contextos das Américas, o evento
-            examinou de que forma o legado colonial continua a moldar as
-            dinâmicas raciais, os sistemas de punição e os desafios relacionados
-            à justiça social na atualidade.
+            O <strong>Colóquio Colonialidade, Racialidade, Punição e Reparação nas
+            Américas</strong>, promovido pelo Instituto de <strong>Estudos Avançados da
+            Universidade de São Paulo (IEA-USP)</strong> e <strong>Centro de Estudos de Cultura
+            Contemporânea (CEDEC)</strong>, ofereceu um espaço de profunda reflexão sobre
+            as interseções entre esses temas, estruturado a partir de uma
+            abordagem transnacional e interdisciplinar. Com o objetivo de
+            investigar conexões históricas e contemporâneas entre os diferentes
+            contextos das Américas, o evento examinou de que forma o legado
+            colonial continua a moldar as dinâmicas raciais, os sistemas de
+            punição e os desafios relacionados à justiça social na atualidade.
           </p>
         </NoticeColumn>
 
         <NoticeColumn>
           <p>
-            Entre os dias <strong>25 e 29 de novembro de 2024</strong>, o{" "}
-            <strong>Instituto Beja</strong> teve a honra de organizar uma série
-            de encontros com{" "}
-            <strong>
-              Trevor Smith, um dos mais renomados especialistas internacionais
-              em reparações históricas e narrativas de justiça racial
-            </strong>
-            . Durante sua primeira visita ao Brasil, Trevor apresentou o
-            conceito inovador de world-making, uma prática transformadora que
-            busca reimaginar as estruturas sociais e econômicas existentes. O
-            objetivo é desmantelar o capitalismo racial e fortalecer alianças
-            estratégicas entre movimentos negros e indígenas.
+          Entre os dias <strong>25 e 29 de novembro de 2024</strong>, o <strong>Instituto Beja</strong> teve a honra de organizar uma série de encontros com <strong>Trevor Smith</strong>, <strong>um dos mais renomados especialistas internacionais em reparações históricas e narrativas de justiça racial</strong>. Durante sua primeira visita ao Brasil, Trevor apresentou o conceito inovador de world-making, uma prática transformadora que busca reimaginar as estruturas sociais e econômicas existentes. O objetivo é desmantelar o capitalismo racial e fortalecer alianças estratégicas entre movimentos negros e indígenas.
           </p>
         </NoticeColumn>
       </NoticeContainer>
@@ -68,8 +50,8 @@ export function IEAEvent() {
           <NoticeColumn>
             <p>
               {" "}
-              O colóquio teve duração de 4 dias, incluindo 11 mesas redondas, 14
-              minicursos e 160 Grupos de Trabalho (GTs). As discussões abordaram
+              O colóquio teve duração de 4 dias, incluindo <strong>11 mesas redondas, 14
+              minicursos e 160 Grupos de Trabalho (GTs)</strong>. As discussões abordaram
               questões como racismo, vigilância, controle social, práticas
               abolicionistas, reparação histórica e colonialidade.
             </p>

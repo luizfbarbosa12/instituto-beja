@@ -114,18 +114,7 @@ const KnowledgeSection = () => {
             />
           </div>
           <p className='flex w-[472px]'>
-            A atuação da PIPA concentra-se na criação de ferramentas que
-            conectem coletivos e movimentos periféricos brasileiros a
-            investimentos sociais privados e à filantropia em âmbito global. A
-            organização também trabalha ativamente na construção de parcerias e
-            na incidência junto a organizações filantrópicas e investidores
-            sociais privados, promovendo a reavaliação de suas estruturas e
-            práticas de financiamento para torná-las mais inclusivas e eficazes.
-            A PIPA também desempenha um papel fundamental na racialização do
-            debate, destacando as periferias como protagonistas na construção de
-            soluções planejadas pela filantropia e pelos investimentos sociais
-            privados no Brasil, trazendo maior reconhecimento às especificidades
-            e necessidades desses territórios.
+          A atuação da <strong>PIPA</strong> concentra-se na criação de ferramentas que conectem coletivos e movimentos periféricos brasileiros a investimentos sociais privados e à filantropia em âmbito global. A organização também trabalha ativamente na construção de parcerias e na incidência junto a organizações filantrópicas e investidores sociais privados, promovendo a reavaliação de suas estruturas e práticas de financiamento para torná-las mais inclusivas e eficazes. A PIPA também desempenha um papel fundamental na racialização do debate, destacando as periferias como protagonistas na construção de soluções planejadas pela filantropia e pelos investimentos sociais privados no Brasil, trazendo maior reconhecimento às especificidades e necessidades desses territórios.
           </p>
         </div>
         <div className='w-full flex items-center justify-center'>
@@ -406,23 +395,10 @@ const KnowledgeSection = () => {
             </p>
             <p className='w-[472px] flex flex-col gap-12'>
               <span>
-                O ponto central dessa colaboração foi a realização de um
-                <strong>Seminário de Pesquisa</strong>, estruturado em uma
-                rotina de encontros híbridos - virtuais e presenciais, para
-                participantes localizados fora de São Paulo - organizados no
-                formato de
-                <strong>Oficinas de Formação</strong>. Os encontros tiveram como
-                finalidade estudar a filantropia em profundidade e criar termos,
-                definições e esquemas analíticos que, em um futuro próximo,
-                possibilitem repensar e reimaginar o significado da filantropia
-                sob a ótica do Sul Global.
+              O ponto central dessa colaboração foi a realização de um <strong>Seminário de Pesquisa</strong>, estruturado em uma rotina de encontros híbridos - virtuais e presenciais, para participantes localizados fora de São Paulo - organizados no formato de <strong>Oficinas de Formação</strong>. Os encontros tiveram como finalidade estudar a filantropia em profundidade e criar termos, definições e esquemas analíticos que, em um futuro próximo, possibilitem repensar e reimaginar o significado da filantropia sob a ótica do Sul Global.
               </span>{" "}
               <span>
-                Por meio da parceria iniciada em 2024 com o{" "}
-                <strong>Instituto Beja</strong>, têm sido realizados ciclos de
-                leitura com convidados, visando consolidar os termos que
-                construam um repertório sobre justiça capaz de enfrentar os
-                desafios específicos do Sul Global.
+              Por meio da parceria iniciada em 2024 com o <strong>Instituto Beja</strong>, têm sido realizados ciclos de leitura com convidados, visando consolidar os termos que construam um repertório sobre justiça capaz de enfrentar os desafios específicos do Sul Global.
               </span>
             </p>
           </div>
@@ -539,10 +515,7 @@ const KnowledgeSection = () => {
         <div className='max-w-3xl mx-auto py-12 px-4'>
           <div className='text-center mb-10'>
             <p className='text-lg mb-6 text-left'>
-              Por meio da parceria iniciada em 2024 com o Instituto Beja, têm
-              sido realizados ciclos de leitura com convidados, visando
-              consolidar os termos que constituem um repertório sobre justiça
-              capaz de enfrentar os desafios específicos do Sul Global.
+            Por meio da parceria iniciada em 2024 com o Instituto Beja, têm sido realizados ciclos de leitura com convidados, visando consolidar os termos que construam um repertório sobre justiça capaz de enfrentar os desafios específicos do Sul Global.
             </p>
 
             <div className='w-full h-px bg-retro-ochre my-6'></div>
