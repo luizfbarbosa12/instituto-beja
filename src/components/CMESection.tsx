@@ -1,6 +1,5 @@
 import LineCME from "./LineCME.js";
 import gsap from "gsap";
-import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import TextBlock from "./TextBlock.js";
 import { motion } from "framer-motion";
@@ -16,11 +15,9 @@ import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
 import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.js";
 import { useRef } from "react";
 import Wrapper from "./Wrapper.js";
-gsap.registerPlugin(useGSAP);
 
 const CMESection = () => {
   const svgLineRef = useRef(null);
-  gsap.registerPlugin(ScrollTrigger);
 
   useGSAP(() => {
     if (svgLineRef.current) {

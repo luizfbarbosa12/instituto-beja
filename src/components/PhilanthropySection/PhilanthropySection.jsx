@@ -6,7 +6,6 @@ import ImageSlider from "../../components/ImageSlider";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import { useRef } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 const Filantropando2 = "/assets/Filantropando2.png";
 const Banner = "/assets/FilantropandoSectionBanner.png";
 const FilantropandoCCF = "/assets/FilantropandoCCF.png";
@@ -16,13 +15,10 @@ const FilantropiaSlider2 = "/assets/FilantropiaSlider2.png";
 const FilantropiaSlider3 = "/assets/FilantropiaSlider3.png";
 const BubblesFilantropando = "/assets/BubblesFilantropando.png";
 
-gsap.registerPlugin(useGSAP);
-
 const PhilanthropySection = () => {
   const axisContainer = useRef(null);
   useGSAP(
     () => {
-      gsap.registerPlugin(ScrollTrigger);
       gsap.fromTo(
         ".axis-1 .axis-line",
         {

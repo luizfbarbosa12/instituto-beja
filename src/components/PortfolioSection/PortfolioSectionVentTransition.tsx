@@ -2,19 +2,15 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import { TextAnimate } from "../magicui/text-animate";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const BejaLogo = "/assets/LOGO-16.png";
 const SeedingGold = "/assets/seeding-gold.png";
-
-gsap.registerPlugin(useGSAP);
 
 export function PortfolioSectionVentTransition() {
   const container = useRef(null);
 
   useGSAP(
     () => {
-      gsap.registerPlugin(ScrollTrigger);
       gsap.from(".seeding", {
         x: "50%",
         y: "100%",

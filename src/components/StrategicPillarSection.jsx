@@ -16,7 +16,7 @@ const StrategicPillarSection = () => {
             <img src={Pillars} alt='Pilares Estratégicos' />
             <p className='tablet:max-w-[29.5rem] text-base'>
               Nossos três pilares estratégicos –{" "}
-              <strong>advocacy, conhecimento e laboratórios</strong> – são as
+              <strong>Advocacy, Conhecimento e Laboratórios</strong> – são as
               forças motrizes que orientaram nossas ações ao longo de 2024.
               Funcionaram como lentes de estudos, práticas e experimentações,
               sustentando as reflexões do Beja sobre os modos de fazer

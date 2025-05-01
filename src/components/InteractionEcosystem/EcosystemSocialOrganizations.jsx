@@ -1,8 +1,6 @@
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useRef } from "react";
-gsap.registerPlugin(useGSAP);
 
 export function EcosystemSocialOrganizations() {
   const GoldenDot = "/assets/golden-dot.png";
@@ -10,7 +8,6 @@ export function EcosystemSocialOrganizations() {
 
   useGSAP(
     () => {
-      gsap.registerPlugin(ScrollTrigger);
       gsap.set(".dot-container", { opacity: 0, y: -10 });
       gsap.set(".text-item", { opacity: 0, y: 20 });
       const line = container.current.querySelector(".timeline-path");

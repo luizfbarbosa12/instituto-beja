@@ -1,20 +1,15 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const logo_beja_completo = "/assets/logo-beja-completo-svg.svg";
 const nuvens = "/assets/ilustracao-6-2.png";
 
-gsap.registerPlugin(useGSAP);
-
 export function KnowledgeSectionVentTransition() {
-  gsap.registerPlugin(useGSAP);
   const container = useRef(null);
 
   useGSAP(
     () => {
-      gsap.registerPlugin(ScrollTrigger);
       gsap.from(".seeding", {
         x: "50%",
         y: "100%",
