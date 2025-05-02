@@ -10,7 +10,7 @@ const MissionValueSection = () => {
       <img src={Clouds} alt='Cloud image' className='absolute z-10 right-0' />
 
       <Wrapper className='mx-6'>
-        <div className='flex flex-col relative bg-porcelain gap-25 py-40 tablet:py-100'>
+        <div className='flex flex-col relative bg-porcelain gap-25 py-40 tablet:pt-100'>
           <MVCard
             title={"Missão"}
             text={
@@ -44,11 +44,7 @@ const MissionValueSection = () => {
         </div>
       </Wrapper>
 
-      <img
-        src={Mountains}
-        alt='Mountains image'
-        className='absolute right-0 bottom-0'
-      />
+      <img src={Mountains} alt='Mountains image' className='right-0 bottom-0' />
     </div>
   );
 };

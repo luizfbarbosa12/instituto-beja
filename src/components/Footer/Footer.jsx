@@ -3,22 +3,38 @@ const Footer = () => {
     <div className='bg-bourdeaux text-white py-16 px-8 md:px-12 relative pb-30'>
       <div className='container mx-auto flex flex-col md:flex-row justify-between'>
         <div className='mb-8 md:mb-0'>
-          <p className='font-serif mb-2'>
+          <p className='font-serif tablet:text-[28px] tablet:leading-[25px] mb-2'>
             www.
             <br />
             instutobeja.org
           </p>
 
-          <div className='mt-16 space-y-2'>
-            <p className='font-serif'>/institutobeja</p>
-            <p className='font-serif'>@institutobeja</p>
-            <p className='font-serif'>contato@institutobeja.org</p>
+          <div className='mt-16 flex flex-col text-3xl leading-relaxed pl-22.5 gap-2'>
+            <a
+              href='https://br.linkedin.com/company/institutobeja'
+              target='_blank'
+              rel='noreferrer noopener'
+              className='font-serif'
+            >
+              /institutobeja
+            </a>
+            <a
+              href='https://www.instagram.com/institutobeja/'
+              target='_blank'
+              rel='noreferrer noopener'
+              className='font-serif'
+            >
+              @institutobeja
+            </a>
+            <a href='mailto:contato@institutobeja.org' className='font-serif'>
+              contato@institutobeja.org
+            </a>
           </div>
         </div>
 
         <div className='flex flex-col items-end'>
           <div className='text-right mb-12'>
-            <p className='font-serif'>
+            <p className='font-serif tablet:text-[28px] tablet:leading-[25px]'>
               (O)
               <br />
               Desde 2021

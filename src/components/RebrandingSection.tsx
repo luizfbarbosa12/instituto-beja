@@ -92,7 +92,7 @@ const RebrandingSection = () => {
             <CarouselDots />
           </Carousel>
 
-          <div className='flex w-full justify-center'>
+          <div className='flex w-full gap-4 justify-center'>
             <div className='hidden tablet:grid tablet:grid-cols-3 desktop:grid-cols-3 grid-rows-2 [&>img]:h-full [&>img]:w-full [&>img]:object-cover '>
               {bejaCoverImagesMap}
             </div>

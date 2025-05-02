@@ -47,9 +47,9 @@ export function PortfolioSectionVentTransition() {
         <img
           src={BejaLogo}
           alt='Logo da Beja'
-          className='absolute left-0 top-0'
+          className='absolute h-[158px] left-0 top-0'
         />
-        <div className='seeding flex justify-center absolute -bottom-2 -translate-x-1/2'>
+        <div className='seeding w-full flex justify-center absolute -bottom-2 -translate-x-1/2'>
           <img src={SeedingGold} alt='Muda dourada' />
         </div>
         <TextAnimate className='absolute top-1/2 left-1/2 w-full flex justify-center -translate-x-1/2 -translate-y-1/2 font-serif text-white lg:text-8xl text-6xl desktop:text-9xl leading-[160%]'>

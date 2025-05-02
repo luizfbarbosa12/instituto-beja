@@ -5,7 +5,7 @@ import Wrapper from "./Wrapper";
 
 const EspacoBeja = "/assets/EspacoBeja.png";
 const EspacoBeja2 = "/assets/EspacoBeja2.png";
-const EspacoBeja3 = "/assets/EspacoBeja3.png";
+const EspacoBeja3 = "/assets/EspacoBeja3.jpg";
 const BejaHouseSection = () => {
   return (
     <div className='flex flex-col relative rounded-[70px]'>

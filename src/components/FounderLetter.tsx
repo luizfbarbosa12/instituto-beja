@@ -106,6 +106,7 @@ const FounderLetter = () => {
           rotate: "-90deg",
         },
         {
+          bottom: "2.5rem",
           rotate: "270deg",
           scrollTrigger: {
             trigger: ".letter",
