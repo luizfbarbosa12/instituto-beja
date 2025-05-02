@@ -3,7 +3,7 @@ import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
 import { KnowledgeSubsection } from "./KnowledgeSubsection";
 
-const Filantropia = "/assets/Filantropia.png";
+const Filantropia = "/assets/FilantropiaSubCard.png";
 const Idis = "/assets/idis_logo.png";
 export function IDIS() {
   return (
