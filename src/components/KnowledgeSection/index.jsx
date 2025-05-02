@@ -13,6 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { Scrollbar } from "swiper/modules";
 import { AppCIVICO } from "./APPCivico";
+import { IDIS } from "./IDIS";
 
 const conector_de_textos = "/assets/conector-de-textos.svg";
 const nuvens = "/assets/ilustracao-nuvens.png";
@@ -700,6 +701,7 @@ const KnowledgeSection = () => {
       <MoreInCommonProject />
       <CriaAndTHPSupport />
       <AppCIVICO />
+      <IDIS />
     </>
   );
 };
