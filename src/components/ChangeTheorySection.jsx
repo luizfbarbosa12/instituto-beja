@@ -1,7 +1,7 @@
-import * as Icon from "@phosphor-icons/react";
 import Wrapper from "./Wrapper";
 import { NoticeContainer } from "./ui/NoticeContainer";
 import { NoticeColumn } from "./ui/NoticeColumn";
+import { ArrowRightLink } from "./ui/ArrowRightLink";
 
 const Image = "/assets/Ilustracao-8.png";
 const ChangeTheorySection = () => {
@@ -55,14 +55,9 @@ const ChangeTheorySection = () => {
               anterior:
             </p>
 
-            <div className='flex items-center gap-2'>
-              <p className='text-xs tablet:text-sm text-neutral-700'>
-                Acessar o Relatório Anual de 2023
-              </p>
-              <div className='size-4 rounded-full p-0.5 bg-bourdeaux'>
-                <Icon.ArrowRight className='size-full text-porcelain fill-porcelain -rotate-25' />
-              </div>
-            </div>
+            <ArrowRightLink href='https://institutobeja.org/wp-content/uploads/2024/02/Relatório-Anual-Instituto-Beja-2023-PT.pdf'>
+              Acessar o Relatório Anual de 2023
+            </ArrowRightLink>
           </div>
         </div>
       </div>

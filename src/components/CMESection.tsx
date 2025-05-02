@@ -13,8 +13,8 @@ import SerenasLogo from "/assets/Serenas_logo.svg";
 import DesenrolaLogo from "/assets/DesenrolaLogo.png";
 import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
 import { useRef } from "react";
-import Wrapper from "./Wrapper.js";
 import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList";
+import { ArrowRightLink } from "./ui/ArrowRightLink.js";
 
 const CMESection = () => {
   const svgLineRef = useRef(null);
@@ -336,12 +336,12 @@ const CMESection = () => {
                             Conheça mais sobre o Centro de Mudanças Exponenciais
                           </h1>
 
-                          <div className='flex gap-1 items-center'>
-                            <p>Acessar site Centro de Mudanças Exponenciais</p>
-                            <div className='flex-center size-4 bg-bourdeaux text-porcelain rounded-full p-0.5 text-[14px]'>
-                              <Icon.ArrowRight className='-rotate-15' />
-                            </div>
-                          </div>
+                          <ArrowRightLink
+                            iconClassName='fill-rose'
+                            href='https://centreforexponentialchange.org/pt-br/brazil/'
+                          >
+                            Acessar site Centro de Mudanças Exponenciais
+                          </ArrowRightLink>
                         </div>
                       </>
                     ),

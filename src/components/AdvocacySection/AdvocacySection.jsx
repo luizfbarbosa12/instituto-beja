@@ -3,11 +3,11 @@ import LineCME from "../LineCME";
 import TextBlock from "./../TextBlock";
 import GoldenQuote from "./GoldenQuote";
 import { Images } from "../../assets/Index";
-import * as Icon from "@phosphor-icons/react";
 import PartnerSection from "./PartnerSection";
 import FastTravelCard from "./FastTravelCard";
 import { advocacyActions } from "../../data/AdvocacyData";
 import { AdvocacySectionVentTransition } from "./AdvocacySectionVentTransition";
+import { ArrowRightLink } from "../ui/ArrowRightLink";
 
 const AdvocacySection = () => {
   const advocacyActionsMap = advocacyActions.map((item, index) => (
@@ -908,12 +908,9 @@ const AdvocacySection = () => {
             Conheça o Relatório sobre a atuação do Pacto na eleição de 2022.
           </h1>
 
-          <div className='flex gap-1 items-center max-md:text-sm max-md:leading-6 max-sm:text-[10px] max-sm:leading-4'>
-            <h1>Saber Mais Sobre o Centro de Mudanças Exponenciais</h1>
-            <div className='flex-center size-4 bg-bourdeaux text-porcelain rounded-full p-0.5 text-[14px] max-sm:size-3'>
-              <Icon.ArrowRight className='-rotate-15' />
-            </div>
-          </div>
+          <ArrowRightLink href='https://relatorio20212022.pactopelademocracia.org.br/'>
+            Acessar Relatório do Pacto na eleição de 2022
+          </ArrowRightLink>
         </div>
 
         <GoldenQuote

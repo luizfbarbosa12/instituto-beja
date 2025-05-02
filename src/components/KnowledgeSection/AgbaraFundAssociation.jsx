@@ -1,4 +1,5 @@
 import SupportSectionCard from "../SupportSectionCard";
+import { ArrowRightLink } from "../ui/ArrowRightLink";
 import { Blockquote } from "../ui/Blockote";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
@@ -7,7 +8,6 @@ const FilantropiaSubCard = "/assets/FilantropiaSubCard.png";
 const JusticaRacial = "/assets/JusticaRacial.png";
 const EquidadeGenero = "/assets/EquidadeGenero.png";
 const Ag = "/assets/agbara_logo.png";
-const arrowRight = "/assets/icons/arrow-right.svg";
 
 export function AgbaraFundAssociation() {
   return (
@@ -50,15 +50,9 @@ export function AgbaraFundAssociation() {
             <h4 className='font-serif text-gold text-2xl leading-relaxed'>
               Conheça o estudo completo e compartilhe-o.
             </h4>
-            <a
-              href='https://google.com.br'
-              target='_blank'
-              rel='noopener noreferrer'
-              className='flex gap-1 items-center hover:underline text-sm leading-relaxed'
-            >
-              <span>Acessar aqui o Estudo Completo</span>
-              <img src={arrowRight} alt='Seta para direita acima' />
-            </a>
+            <ArrowRightLink href='https://fundoagbara.org.br/wp-content/uploads/2024/11/Diagnostico-acerca-de-filantropia-e-raca-no-Brasil.pdf?fbclid=PAZXh0bgNhZW0CMTEAAaby0073qhpeGV6XpFjzJcDcCY_p5GD3fesev-PG9Wfq6jG1VjTqsSDvAAU_aem_IT4-nq7aP96lp8QpvDRMbg'>
+              Acessar aqui o Estudo Completo
+            </ArrowRightLink>
           </div>
         </NoticeColumn>
 
