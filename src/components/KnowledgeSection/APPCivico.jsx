@@ -2,7 +2,6 @@ import SupportSectionCard from "../SupportSectionCard";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
 import { KnowledgeSubsection } from "./KnowledgeSubsection";
-import { Blockquote } from "../ui/Blockote";
 import { ArrowRightLink } from "../ui/ArrowRightLink";
 
 const Democracia = "/assets/democracia.png";
@@ -75,39 +74,6 @@ export function AppCIVICO() {
           </div>
         </NoticeColumn>
       </NoticeContainer>
-      <Blockquote
-        text='"Mulheres estão sempre fazendo a diferença, mas a gente também precisa da participação dos homens.”'
-        author='RAIANE RIBEIRO, Coordenadora'
-      />
-      <NoticeContainer>
-        <NoticeColumn>
-          <p>
-            O <strong>CRIA</strong> organizou, em Pedra Furada, um encontro de
-            casais como primeiro contato e para divulgação de suas ações, com
-            foco especial nos homens da comunidade. O objetivo foi engajar
-            membros que tradicionalmente não participavam dos projetos do{" "}
-            <strong>Espaço CRIA</strong>, ainda em construção, ou de atividades
-            coletivas e comunitárias. A ação buscou fortalecer casais,
-            independentemente do tempo de relacionamento – 5 meses ou 35 anos –,
-            reconhecendo que a maternidade tem início com a relação entre o
-            casal. O evento contou com a participação de 15 casais.
-          </p>
-        </NoticeColumn>
-
-        <NoticeColumn>
-          <p>
-            A partir de 2024, o <strong>CRIA</strong> entra em uma nova fase de
-            sistematização das ações implementadas, consolidando aprendizados e
-            promovendo um teste piloto para reaplicação do conhecimento
-            adquirido pelos jovens Agentes de Saúde na Adolescência em outras
-            comunidades vizinhas de Pedra Furada.
-          </p>
-        </NoticeColumn>
-      </NoticeContainer>
-      <Blockquote
-        text='“Joice Kelly chegou ao CRIA e quase não falava nada, apenas chorava. Ela teve uma infância muito difícil, sem carinho e afeto, sem brincadeiras e, dentro do CRIA, ela conheceu a técnica de massagem de bebês Shantala. Ela se apropriou da técnica e vem atuando com muita confiança nessa área. Depois de aprender a Shantala, ela deu um abraço em seu pai pela primeira vez! Além da Shantala, ela também se interessa pelas plantas medicinais e por isso foi apelidada de a curandeira do CRIA”'
-        author='RAIANE RIBEIRO, Coordenadora'
-      />
     </KnowledgeSubsection>
   );
 }
