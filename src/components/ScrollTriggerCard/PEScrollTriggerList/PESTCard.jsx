@@ -1,35 +1,32 @@
 import { useRef } from "react";
-import { motion, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import { calcClamp } from "./../../../data/Utils";
 import useMediaQuery from "./../../../hooks/useMediaQuery";
+import { cn } from "./../../../lib/utils";
 
-const PESTCard = ({
-  cssOverride,
-  idx,
-  range,
-  targetScale,
-  targetProgress,
-  data,
-}) => {
+const PESTCard = ({ cssOverride, idx, data }) => {
   const container = useRef(null);
 
-  // const cardScale = useTransform(targetProgress, range, [1, targetScale]);
-
-  const mdScreen = useMediaQuery("(max-width:1081px)");
+  const mdScreen = useMediaQuery("(max-width:900px)");
 
   return (
     <motion.div
       layout
       ref={container}
-      className='h-screen flex-center pt-55 sticky top-0 w-full'
+      className='sticky top-0 w-full'
+      style={{
+        top: !mdScreen
+          ? `calc(0% + ${idx * 12}rem)`
+          : `calc(0% + ${idx * 7}rem)`,
+      }}
     >
       <motion.div
         layout
-        className={`flex flex-col relative w-full h-244 rounded-[4rem] p-22.5 gap-6.5 ${cssOverride} max-1080:p-5 max-1080:pt-10 max-1080:rounded-3xl`}
+        className={cn(
+          `flex flex-col overflow-hidden relative w-full rounded-[4rem] p-22.5 gap-6.5 max-tablet:p-5 max-tablet:pt-10 max-tablet:rounded-3xl`,
+          cssOverride,
+        )}
         style={{
-          top: !mdScreen
-            ? `calc(-10% + ${idx * 12}rem)`
-            : `calc(-10% + ${idx * 7}rem)`,
           backgroundColor: data.bgColor,
           color: data.textColor,
         }}
@@ -43,7 +40,7 @@ const PESTCard = ({
 
         <motion.div
           layout
-          className='flex w-full gap-20 max-1080:flex-col max-1080:gap-5'
+          className='flex w-full gap-20 max-tablet:flex-col max-tablet:gap-5'
         >
           <p
             className='editorial w-full leading-12 max-768:leading-8'
@@ -69,7 +66,7 @@ const PESTCard = ({
 
           <ul
             style={{ "--tw-marker-color": data.lineColor }}
-            className={`flex flex-col gap-7 text-2xl list-disc list-inside marker:text-4xl w-fit z-10 max-1080:gap-3`}
+            className={`flex flex-col gap-7 text-2xl tablet:pr-20 list-disc list-inside marker:text-4xl w-fit z-10 max-tablet:gap-3 tablet:max-w-1/2`}
           >
             {data.list.map((item, index) => (
               <li
@@ -85,7 +82,7 @@ const PESTCard = ({
         <img
           src={data.img}
           alt='Imagem de uma mão'
-          className='absolute bottom-0 right-0  w-fit h-[24rem] max-1080:brightness-50'
+          className='relative max-tablet:-mb-5 tablet:absolute object-contain bottom-0 right-0 h-80 tablet:w-2/5 tablet:h-auto tablet:max-h-1/2'
         />
       </motion.div>
     </motion.div>

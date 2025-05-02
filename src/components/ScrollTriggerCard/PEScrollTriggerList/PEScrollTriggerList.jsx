@@ -27,7 +27,7 @@ const PEScrollTriggerList = ({ arr }) => {
   });
 
   return (
-    <motion.div layout ref={container} className=''>
+    <motion.div layout ref={container}>
       {cardMap}
     </motion.div>
   );
