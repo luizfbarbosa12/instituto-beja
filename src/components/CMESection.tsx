@@ -1,20 +1,19 @@
-import LineCME from "./LineCME.js";
 import gsap from "gsap";
+import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import TextBlock from "./TextBlock.js";
 import { motion } from "framer-motion";
 import LogoCME from "/assets/LogoCME.png";
 import ImageCME from "/assets/ImageCME.png";
-import * as Icon from "@phosphor-icons/react";
+import AnimatedLine from "./ui/AnimatedLine";
 import CMEGrafico from "/assets/CMEGrafico.png";
 import CMEGrafico2 from "/assets/CMEGrafico2.png";
 import MapBiomasLogo from "/assets/MapBiomas.png";
 import SerenasLogo from "/assets/Serenas_logo.svg";
 import DesenrolaLogo from "/assets/DesenrolaLogo.png";
-import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
-import { useRef } from "react";
-import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList";
 import { ArrowRightLink } from "./ui/ArrowRightLink.js";
+import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
+import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList";
 
 const CMESection = () => {
   const svgLineRef = useRef(null);
@@ -86,7 +85,25 @@ const CMESection = () => {
                     content: (
                       <>
                         <p>
-                        Em 2024, inauguramos o <strong>Centro para Mudanças Exponenciais (CMe)</strong>, uma cocriação brasileira com o <strong>Centre for Exponential Change (C4EC)</strong>. O C4EC é uma rede global de apoio que reacende a imaginação e capacita <strong>Orquestradores de Sistemas</strong>, que catalisam mudanças exponenciais positivas na construção de uma sociedade melhor. Cofundamos o C4EC junto com a <strong> Nilekani Philanthropies (Índia), New Profit (EUA), Skoll Foundation (Global), Waverley Street Foundation (Global) e Yellowwoods (África do Sul)</strong>.
+                          Em 2024, inauguramos o{" "}
+                          <strong>
+                            Centro para Mudanças Exponenciais (CMe)
+                          </strong>
+                          , uma cocriação brasileira com o{" "}
+                          <strong>Centre for Exponential Change (C4EC)</strong>.
+                          O C4EC é uma rede global de apoio que reacende a
+                          imaginação e capacita{" "}
+                          <strong>Orquestradores de Sistemas</strong>, que
+                          catalisam mudanças exponenciais positivas na
+                          construção de uma sociedade melhor. Cofundamos o C4EC
+                          junto com a{" "}
+                          <strong>
+                            {" "}
+                            Nilekani Philanthropies (Índia), New Profit (EUA),
+                            Skoll Foundation (Global), Waverley Street
+                            Foundation (Global) e Yellowwoods (África do Sul)
+                          </strong>
+                          .
                         </p>
                       </>
                     ),
@@ -118,9 +135,7 @@ const CMESection = () => {
               />
             </div>
 
-            <div className='flex h-54 w-full relative'>
-              <LineCME style='absolute -top-5' ref={svgLineRef} />
-            </div>
+            <AnimatedLine />
 
             <div className='flex gap-16 text-base'>
               <TextBlock

@@ -1,12 +1,12 @@
 import "swiper/css";
 import "swiper/css/scrollbar";
 import "swiper/css/pagination";
-import LineCME from "../LineCME";
 import TextBlock from "../TextBlock";
 import TopicList from "../ui/TopicList";
 import { Scrollbar } from "swiper/modules";
 import { Images } from "../../assets/Index";
 import { calcClamp } from "../../data/Utils";
+import AnimatedLine from "../ui/AnimatedLine";
 import PinkBox from "../AdvocacySection/PinkBox";
 import PartnerSection from "../ui/PartnerSection";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -136,7 +136,7 @@ const KnowledgeSection = () => {
           ]}
         />
 
-        <LineCME style={"pr-20"} />
+        <AnimatedLine />
 
         <TextBlock
           className='-mt-20'
@@ -1209,7 +1209,7 @@ const KnowledgeSection = () => {
                     rodas de conversa e dinâmicas interativas que abordam temas
                     essenciais, como pré-natal, parto, segurança alimentar,
                     marcos do desenvolvimento infantil, a importância do
-                    brincar, amamentação, emoções, desafios nas relações
+                    brincar, amamentação, emoções, desafio s nas relações
                     familiares e parentalidade.
                   </p>
                 </>

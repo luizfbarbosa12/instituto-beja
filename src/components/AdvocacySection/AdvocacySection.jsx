@@ -1,14 +1,14 @@
 import PinkBox from "./PinkBox";
-import LineCME from "../LineCME";
 import TextBlock from "./../TextBlock";
 import GoldenQuote from "./GoldenQuote";
 import TopicList from "../ui/TopicList";
 import { Images } from "../../assets/Index";
+import AnimatedLine from "../ui/AnimatedLine";
 import FastTravelCard from "./FastTravelCard";
 import PartnerSection from "../ui/PartnerSection";
 import { advocacyActions, serenasList } from "../../data/AdvocacyData";
 import { AdvocacySectionVentTransition } from "./AdvocacySectionVentTransition";
-import { ArrowRightLink } from "../ui/ArrowRightLink";
+import ExternalLinkContainer from "../ui/ExternalLinkContainer";
 
 const AdvocacySection = () => {
   return (
@@ -78,7 +78,7 @@ const AdvocacySection = () => {
           Images.Secoes.PelaDemocracia2,
           Images.Secoes.FilantropiaSubCard,
         ]}
-        subtitle={"Vigência - 2024 - 2025"}
+        subtitle={"Vigência - 2024"}
         partnerName={"Aliança pelo fortalecimento da sociedade civil"}
       >
         <TextBlock
@@ -136,7 +136,7 @@ const AdvocacySection = () => {
         title={"Apoio Plurianual"}
         mainImg={Images.Logos.UspLogo}
         cardsImg={[Images.Secoes.JusticaRacial]}
-        subtitle={"Vigência - 2024 - 2025"}
+        subtitle={"Vigência - 2023"}
         partnerName={"Endowment: Fundo USP Diversa"}
       >
         <TextBlock
@@ -203,9 +203,7 @@ const AdvocacySection = () => {
           ]}
         />
 
-        <div className='flex h-54 w-full relative'>
-          <LineCME style='absolute -left-40 -top-5' />
-        </div>
+        <AnimatedLine />
 
         <TextBlock
           firstBlock={[
@@ -416,7 +414,8 @@ const AdvocacySection = () => {
             da equidade racial e de gênero. Além disso, pelo terceiro ano
             consecutivo, a Serenas foi reconhecida com o{" "}
             <strong>Selo Municipal de Direitos Humanos e Diversidades</strong>,
-            um tributo.
+            um tributo à consistência de suas iniciativas em defesa da
+            diversidade e dos direitos humanos.
           </p>
         </PinkBox>
       </PartnerSection>
@@ -447,11 +446,11 @@ const AdvocacySection = () => {
                     </strong>{" "}
                     A situação nos municípios é ainda mais alarmante: 955
                     câmaras municipais não possuem sequer uma mulher eleita, de
-                    acordo com dados do Tribunal Superior Eleitoral levantados
-                    pela A Ponte. Vale destacar que a vereança é a principal
-                    porta de entrada para a política, sendo responsável por
-                    iniciar a trajetória de 90% das mulheres que atuam nesse
-                    campo.
+                    acordo com dados do Tribunal Superior Eleitoral{" "}
+                    <strong>levantados pela A Ponte</strong>. Vale destacar que
+                    a vereança é a principal porta de entrada para a política,
+                    sendo responsável por iniciar a trajetória de 90% das
+                    mulheres que atuam nesse campo.
                   </p>
                 </>
               ),
@@ -554,14 +553,16 @@ const AdvocacySection = () => {
                   </p>
 
                   <p>
-                    Outro marco foi o curso <strong>Escola de Reeleição</strong>
-                    , criado após a identificação da baixa taxa de reeleição de
-                    mulheres na política. Das 30 vereadoras acompanhadas, apenas
-                    13 foram reeleitas. O curso, composto por 18 aulas, contou
-                    com a participação de 28 mandatos, totalizando 85
-                    participantes, com uma diversidade regional significativa,
-                    incluindo mais de um terço de representantes do Norte e
-                    Nordeste.
+                    <strong>
+                      Outro marco foi o curso Escola de Reeleição , criado após
+                      a identificação da baixa taxa de reeleição de mulheres na
+                      política. Das 30 vereadoras acompanhadas, apenas 13 foram
+                      reeleitas.
+                    </strong>{" "}
+                    O curso, composto por 18 aulas, contou com a participação de
+                    28 mandatos, totalizando 85 participantes, com uma
+                    diversidade regional significativa, incluindo mais de um
+                    terço de representantes do Norte e Nordeste.
                   </p>
 
                   <p>
@@ -790,7 +791,7 @@ const AdvocacySection = () => {
         title={"Apoio Plurianual"}
         mainImg={Images.Secoes.PelaDemocracia}
         cardsImg={[Images.Secoes.PelaDemocracia2]}
-        subtitle={"Vigência - 2024 A 2026"}
+        subtitle={"Vigência - 2024 A 2027"}
         partnerName={"Pacto pela Democracia"}
       >
         <TextBlock
@@ -836,7 +837,7 @@ const AdvocacySection = () => {
 
         <GoldenQuote
           text={
-            "“A defesa da democracia é uma pauta que precisa ser continuamente trabalhada, não é possível relaxar. Ela é uma base que precisa estar estável para que todas as outras pautas avancem.”"
+            "A defesa da democracia é uma pauta que precisa ser continuamente trabalhada, não é possível relaxar. Ela é uma base que precisa estar estável para que todas as outras pautas avancem."
           }
           autor={
             "— MARGARIDA GORECKI, Coordenação de Desenvolvimento Institucional e Operações"
@@ -881,15 +882,13 @@ const AdvocacySection = () => {
           ]}
         />
 
-        <div className='w-full py-8'>
-          <h1 className='editorial text-2xl text-retro-ochre max-md:text-sm max-md:leading-6 max-sm:text-base max-sm:leading-4'>
-            Conheça o Relatório sobre a atuação do Pacto na eleição de 2022.
-          </h1>
-
-          <ArrowRightLink href='https://relatorio20212022.pactopelademocracia.org.br/'>
-            Acessar Relatório do Pacto na eleição de 2022
-          </ArrowRightLink>
-        </div>
+        <ExternalLinkContainer
+          title={
+            "Conheça o Relatório sobre a atuação do Pacto na eleição de 2022."
+          }
+          subtitle={"Acessar Relatório do Pacto na eleição de 2022"}
+          link={"https://relatorio20212022.pactopelademocracia.org.br/"}
+        />
 
         <GoldenQuote
           text={
@@ -1222,11 +1221,14 @@ const AdvocacySection = () => {
                     Com aproximadamente 220 membros, a rede reúne uma
                     diversidade de atores, incluindo famílias, family offices,
                     corporações, fundações doadoras, organizações multilaterais,
-                    instituições acadêmicas e aceleradoras. Presente em mais de
-                    16 países, a Latimpacto desempenha um papel fundamental ao
-                    conectar investidores, gestores e organizações comprometidas
-                    com a filantropia e o impacto socioambiental, ampliando a
-                    força desse ecossistema na região.
+                    instituições acadêmicas e aceleradoras.{" "}
+                    <strong>
+                      Presente em mais de 16 países, a Latimpacto desempenha um
+                      papel fundamental ao conectar investidores, gestores e
+                      organizações comprometidas com a filantropia e o impacto
+                      socioambiental, ampliando a força desse ecossistema na
+                      região.
+                    </strong>
                   </p>
                 </>
               ),

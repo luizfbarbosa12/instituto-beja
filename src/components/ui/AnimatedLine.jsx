@@ -1,8 +1,8 @@
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 
-const LineCME = ({ style }: { style: string }) => {
-  const pathRef = useRef<SVGPathElement>(null);
+const AnimatedLine = ({ style }) => {
+  const pathRef = useRef(null);
   const containerRef = useRef(null);
 
   const { scrollYProgress } = useScroll({
@@ -13,7 +13,7 @@ const LineCME = ({ style }: { style: string }) => {
   const pathLength = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <div ref={containerRef} className='relative -left-10'>
+    <div ref={containerRef} className='relative'>
       <svg
         width='915'
         height='250'
@@ -36,4 +36,4 @@ const LineCME = ({ style }: { style: string }) => {
   );
 };
 
-export default LineCME;
+export default AnimatedLine;
