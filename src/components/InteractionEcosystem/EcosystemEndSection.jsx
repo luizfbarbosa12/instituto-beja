@@ -40,7 +40,6 @@ export function EcosystemEndSection() {
           start: "top 80%",
           end: "50% 50%",
           scrub: 1,
-          markers: true,
         },
       });
 
@@ -96,7 +95,6 @@ export function EcosystemEndSection() {
           start: "top 78%",
           end: "50% 50%",
           scrub: 1,
-          markers: true,
         },
       });
 
@@ -152,7 +150,6 @@ export function EcosystemEndSection() {
           start: "top 82%",
           end: "50% 50%",
           scrub: 1,
-          markers: true,
         },
       });
 
