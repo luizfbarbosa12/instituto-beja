@@ -124,20 +124,20 @@ export function EcosystemIntermediates() {
     <div
       id='intermediates'
       ref={container}
-      className='intermediates h-[2000px] mx-auto max-w-desktop relative flex flex-col gap-14'
+      className='animation-container-capital h-250 tablet:h-[2000px] mx-auto max-w-desktop relative flex flex-col gap-14'
     >
-      <div className='sticky top-20 flex flex-col mb-64 w-full'>
-        <div className='relative flex flex-col items-end self-end gap-4 w-fit'>
-          <h3 className='mr-[175px] font-serif text-bourdeaux text-left text-5xl'>
+      <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full flex flex-col'>
+        <div className='relative flex flex-col items-end  self-end gap-4 tablet:w-fit w-3/4'>
+          <h3 className='tablet:mr-[175px] font-serif text-bourdeaux text-left text-xl self-start leading-none tablet:text-5xl not-tablet:max-w-49'>
             Intermediários e Parceiros Estratégicos
           </h3>
-          <span className='bg-retro-ochre h-8 w-full' />
+          <span className='bg-retro-ochre h-4 tablet:h-8 w-full' />
         </div>
 
-        <div className='px-12 desktop:px-[194px] mt-[calc(169px+40px)] mb-50'>
-          <div className='relative flex flex-col'>
+        <div className='max-w-9/10 desktop:px-[194px] mt-20 tablet:mt-50 mb-25 tablet:mb-50'>
+          <div className='relative flex mx-12'>
             <svg
-              className='w-full max-w-[90%] relative top-0 left-0'
+              className='w-full relative top-0 left-0'
               viewBox='0 0 750 60'
               fill='none'
               xmlns='http://www.w3.org/2000/svg'
@@ -185,26 +185,26 @@ export function EcosystemIntermediates() {
             </svg>
 
             {/* Textos */}
-            <div className='text-item text-1 absolute -top-14 lg:-top-20 -left-[2%] max-w-[160px] lg:max-w-[272px]'>
-              <h2 className='text-xl lg:text-3xl leading-relaxed font-serif text-retro-ochre'>
+            <div className='text-item text-1 absolute top-2 tablet:top-0 -left-[2%] w-full max-w-4/10 tablet:max-w-7/20'>
+              <h2 className='ts-10/32 tablet:text-3xl -translate-y-1/1 leading-relaxed font-serif text-retro-ochre'>
                 Associações e redes de filantropia
               </h2>
             </div>
 
-            <div className='text-item text-2 absolute -bottom-10 lg:-bottom-10 left-[15%] max-w-[351px]'>
-              <h2 className='text-xl lg:text-3xl leading-relaxed font-serif text-retro-ochre'>
+            <div className='text-item text-2 absolute -bottom-4 tablet:-bottom-14 left-4/20 w-full max-w-4/10 tablet:max-w-5/10'>
+              <h2 className='ts-10/32 tablet:text-3xl leading-relaxed font-serif text-retro-ochre'>
                 Articuladores do setor
               </h2>
             </div>
 
-            <div className='text-item text-3 absolute -top-14 lg:-top-20 right-3/10 lg:right-[15%] max-w-[180px] lg:max-w-[400px]'>
-              <h2 className='text-xl lg:text-3xl leading-relaxed font-serif text-retro-ochre'>
+            <div className='text-item text-3 absolute top-2 tablet:-top-0 left-6/10 tablet:left-5/10 max-w-3/10 tablet:max-w-12/30'>
+              <h2 className='ts-10/32 tablet:text-3xl -translate-y-1/1 leading-relaxed font-serif text-retro-ochre'>
                 Influenciadores e meios de comunicação
               </h2>
             </div>
 
-            <div className='text-item text-4 absolute -bottom-10 right-[0%] max-w-[468px]'>
-              <h2 className='text-xl lg:text-3xl leading-relaxed font-serif text-retro-ochre'>
+            <div className='text-item text-4 absolute -bottom-4 tablet:-bottom-14 left-20/30 tablet:23/30 w-full max-w-3/10 tablet:max-w-4/10'>
+              <h2 className='ts-10/32 tablet:text-3xl translate-x-1/2 leading-relaxed font-serif text-retro-ochre'>
                 Poder Público
               </h2>
             </div>

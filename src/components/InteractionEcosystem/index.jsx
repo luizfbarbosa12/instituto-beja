@@ -20,7 +20,7 @@ export default function InteractionEcosystem() {
         </p>
       </div>
 
-      <div className='mt-[120px]'>
+      <div className='mt-14 tablet:mt-[120px]'>
         <EcosystemCapitalProviders />
         <EcosystemIntermediates />
         <EcosystemSocialOrganizations />

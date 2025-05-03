@@ -156,3 +156,78 @@ html.lenis body {
 .responsive-subtitle {
   font-size: clamp(18px, 2vw + 8px, 32px);
 }
+
+@utility ts-* {
+  --min: --value(integer, number);
+  --max: --modifier(integer, number);
+  --min-ts: 1.25;
+  --max-ts: 1.333;
+  --min-vp: 480; /* 30rem */
+  --max-vp: 2560; /* 160rem */
+
+  /* Calculate the fluid typescale */
+  --scale-diff: calc(var(--max-ts) - var(--min-ts));
+  --vp-diff: calc(var(--max-vp) - var(--min-vp));
+
+  /* Calculate the viewport unit multiplier */
+  --vi-multiplier: calc((var(--max) - var(--min)) / var(--vp-diff));
+
+  /* Calculate the base offset */
+  --base-offset: calc(var(--min) - (var(--vi-multiplier) * var(--min-vp)));
+
+  /* Calculate font sizes in rem */
+  --min-font-size: calc(var(--min) / 16 * 1rem);
+  --max-font-size: calc(var(--max) / 16 * 1rem);
+
+  @supports (font-size: clamp(1rem, 1vi, 1rem)) {
+    font-size: clamp(
+      var(--min-font-size),
+      calc((var(--vi-multiplier) * 100vi) + (var(--base-offset) / 16 * 1rem)),
+      var(--max-font-size)
+    );
+  }
+
+  @supports not (font-size: clamp(1rem, 1vi, 1rem)) {
+    font-size: var(--min-font-size);
+
+    @media screen and (min-width: var(--breakpoint-sm)) {
+      font-size: calc((var(--vi-multiplier) * 640 + var(--base-offset)) / 16 * 1rem);
+    }
+
+    @media screen and (min-width: var(--breakpoint-md)) {
+      font-size: calc((var(--vi-multiplier) * 768 + var(--base-offset)) / 16 * 1rem);
+    }
+
+    @media screen and (min-width: var(--breakpoint-lg)) {
+      font-size: calc((var(--vi-multiplier) * 1024 + var(--base-offset)) / 16 * 1rem);
+    }
+
+    @media screen and (min-width: var(--breakpoint-xl)) {
+      font-size: calc((var(--vi-multiplier) * 1280 + var(--base-offset)) / 16 * 1rem);
+    }
+
+    @media screen and (min-width: var(--breakpoint-2xl)) {
+      font-size: calc((var(--vi-multiplier) * 1440 + var(--base-offset)) / 16 * 1rem);
+    }
+
+    @media screen and (min-width: var(--breakpoint-3xl)) {
+      font-size: calc((var(--vi-multiplier) * 1520 + var(--base-offset)) / 16 * 1rem);
+    }
+
+    @media screen and (min-width: var(--breakpoint-4xl)) {
+      font-size: calc((var(--vi-multiplier) * 1680 + var(--base-offset)) / 16 * 1rem);
+    }
+
+    @media screen and (min-width: var(--breakpoint-5xl)) {
+      font-size: calc((var(--vi-multiplier) * 1920 + var(--base-offset)) / 16 * 1rem);
+    }
+
+    @media screen and (min-width: var(--breakpoint-6xl)) {
+      font-size: calc((var(--vi-multiplier) * 2240 + var(--base-offset)) / 16 * 1rem);
+    }
+
+    @media screen and (min-width: var(--breakpoint-7xl)) {
+      font-size: var(--max-font-size);
+    }
+  }
+}
