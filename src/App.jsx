@@ -72,14 +72,10 @@ const App = () => {
       <ChangeTheorySection />
       <StrategicPillarSection />
       <InteractionEcosystem />
-<<<<<<< Updated upstream
       <CMESection />
-=======
-      <CMESection /> */}
->>>>>>> Stashed changes
       <AdvocacySection />
       <KnowledgeSection />
-      {/* <PortfolioSection />
+      <PortfolioSection />
       <PhilanthropySection />
       <FinalSection />
       <BalancoTable data={balance} />

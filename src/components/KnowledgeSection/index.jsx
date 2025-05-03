@@ -5,10 +5,6 @@ import LineCME from "../LineCME";
 import TextBlock from "../TextBlock";
 import TopicList from "../ui/TopicList";
 import { Scrollbar } from "swiper/modules";
-<<<<<<< Updated upstream
-import { AppCIVICO } from "./APPCivico";
-import { IDIS } from "./IDIS";
-=======
 import { Images } from "../../assets/Index";
 import { calcClamp } from "../../data/Utils";
 import PinkBox from "../AdvocacySection/PinkBox";
@@ -18,7 +14,6 @@ import GoldenQuoteSlider from "../ui/GoldenQuoteSlider";
 import ExternalLinkContainer from "../ui/ExternalLinkContainer";
 import { fases, KnowledgeData } from "../../data/KnowledgeData";
 import { KnowledgeSectionVentTransition } from "./KnowledgeSectionVentTransition";
->>>>>>> Stashed changes
 
 const KnowledgeSection = () => {
   return (
@@ -1209,18 +1204,6 @@ const KnowledgeSection = () => {
                     crescimento e desenvolvimento.
                   </p>
 
-<<<<<<< Updated upstream
-      <AgbaraFundAssociation />
-      <IEAEvent />
-      <LautProject />
-      <IdBRProject />
-      <IgarapeProject />
-      <MoreInCommonProject />
-      <CriaAndTHPSupport />
-      <AppCIVICO />
-      <IDIS />
-    </>
-=======
                   <p>
                     As atividades são realizadas junto à comunidade, por meio de
                     rodas de conversa e dinâmicas interativas que abordam temas
@@ -1895,7 +1878,6 @@ const KnowledgeSection = () => {
         />
       </PartnerSection>
     </div>
->>>>>>> Stashed changes
   );
 };
 

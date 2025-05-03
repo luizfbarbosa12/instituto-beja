@@ -4,11 +4,7 @@ import TextBlock from "./../TextBlock";
 import GoldenQuote from "./GoldenQuote";
 import TopicList from "../ui/TopicList";
 import { Images } from "../../assets/Index";
-<<<<<<< Updated upstream
-import PartnerSection from "./PartnerSection";
-=======
 import * as Icon from "@phosphor-icons/react";
->>>>>>> Stashed changes
 import FastTravelCard from "./FastTravelCard";
 import PartnerSection from "../ui/PartnerSection";
 import { advocacyActions, serenasList } from "../../data/AdvocacyData";
