@@ -86,30 +86,7 @@ const CMESection = () => {
                     content: (
                       <>
                         <p>
-                          Em 2024, inauguramos o{" "}
-                          <strong>
-                            Centro para Mudanças Exponenciais (CMe)
-                          </strong>
-                          , hub Brasil do{" "}
-                          <strong>Centre for Exponential Change (C4eC)</strong>,
-                          uma iniciativa global criada para promover colaboração
-                          e soluções transformadoras no Sul Global.
-                        </p>
-                        <p>
-                          <strong>O C4eC</strong> é fruto de uma cocriação entre
-                          Rohini Nilekani Philanthropies, Skoll Foundation, New
-                          Profit, Waverley Street Foundation,{" "}
-                          <strong>Instituto Beja</strong> e liderado pela
-                          Societal Thinking.
-                        </p>
-                        <p>
-                          A missão do <strong>C4eC</strong> é fomentar a
-                          cooperação para gerar novos modelos e padrões e
-                          oferecer respostas aos problemas sistêmicos,
-                          utilizando tecnologias éticas e responsáveis -
-                          incluindo a inteligência artificial - como ferramentas
-                          para escalar a justiça social e ambiental, com foco em
-                          tornar as pessoas protagonistas dessas mudanças.
+                        Em 2024, inauguramos o <strong>Centro para Mudanças Exponenciais (CMe)</strong>, uma cocriação brasileira com o <strong>Centre for Exponential Change (C4EC)</strong>. O C4EC é uma rede global de apoio que reacende a imaginação e capacita <strong>Orquestradores de Sistemas</strong>, que catalisam mudanças exponenciais positivas na construção de uma sociedade melhor. Cofundamos o C4EC junto com a <strong> Nilekani Philanthropies (Índia), New Profit (EUA), Skoll Foundation (Global), Waverley Street Foundation (Global) e Yellowwoods (África do Sul)</strong>.
                         </p>
                       </>
                     ),
