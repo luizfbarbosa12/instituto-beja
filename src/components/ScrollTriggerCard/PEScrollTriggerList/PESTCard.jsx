@@ -33,7 +33,10 @@ const PESTCard = ({ cssOverride, idx, data }) => {
       >
         <h1
           className='editorial'
-          style={{ fontSize: `clamp(${calcClamp(28, 64)})` }}
+          style={{
+            fontSize: `clamp(${calcClamp(28, 64)})`,
+            lineHeight: `clamp(${calcClamp(28 * 1.5, 64 * 1.5)})`,
+          }}
         >
           {data.title}
         </h1>
@@ -44,7 +47,10 @@ const PESTCard = ({ cssOverride, idx, data }) => {
         >
           <p
             className='editorial w-full leading-12 max-768:leading-8'
-            style={{ fontSize: `clamp(${calcClamp(18, 32)})` }}
+            style={{
+              fontSize: `clamp(${calcClamp(18 * 1.5, 32 * 1.5)})`,
+              lineHeight: `clamp(${calcClamp(18 * 1.5, 32 * 1.5)})`,
+            }}
           >
             {data.subtitle}
           </p>
@@ -52,7 +58,10 @@ const PESTCard = ({ cssOverride, idx, data }) => {
           <motion.p
             layout
             className='w-full leading-6 z-10'
-            style={{ fontSize: `clamp(${calcClamp(12, 18)})` }}
+            style={{
+              fontSize: `clamp(${calcClamp(12, 18)})`,
+              lineHeight: `clamp(${calcClamp(12 * 1.5, 18 * 1.5)})`,
+            }}
           >
             {data.text}
           </motion.p>
@@ -71,7 +80,10 @@ const PESTCard = ({ cssOverride, idx, data }) => {
             {data.list.map((item, index) => (
               <li
                 key={index}
-                style={{ fontSize: `clamp(${calcClamp(12, 32)})` }}
+                style={{
+                  fontSize: `clamp(${calcClamp(12, 32)})`,
+                  lineHeight: `clamp(${calcClamp(12 * 1.5, 32 * 1.5)})`,
+                }}
               >
                 {item}
               </li>

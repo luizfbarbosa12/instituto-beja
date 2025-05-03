@@ -2,21 +2,20 @@ import PinkBox from "./PinkBox";
 import LineCME from "../LineCME";
 import TextBlock from "./../TextBlock";
 import GoldenQuote from "./GoldenQuote";
+import TopicList from "../ui/TopicList";
 import { Images } from "../../assets/Index";
+<<<<<<< Updated upstream
 import PartnerSection from "./PartnerSection";
+=======
+import * as Icon from "@phosphor-icons/react";
+>>>>>>> Stashed changes
 import FastTravelCard from "./FastTravelCard";
-import { advocacyActions } from "../../data/AdvocacyData";
+import PartnerSection from "../ui/PartnerSection";
+import { advocacyActions, serenasList } from "../../data/AdvocacyData";
 import { AdvocacySectionVentTransition } from "./AdvocacySectionVentTransition";
 import { ArrowRightLink } from "../ui/ArrowRightLink";
 
 const AdvocacySection = () => {
-  const advocacyActionsMap = advocacyActions.map((item, index) => (
-    <div key={index} className='flex items-center gap-5'>
-      <div className='size-5 bg-retro-ochre rounded-full shrink-0' />
-      <p className='text-2xl editorial'>{item}</p>
-    </div>
-  ));
-
   return (
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
       <div
@@ -75,6 +74,9 @@ const AdvocacySection = () => {
       <AdvocacySectionVentTransition />
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Associação"}
         mainImg={Images.Secoes.AliancaAdvocacy}
         cardsImg={[
@@ -124,20 +126,18 @@ const AdvocacySection = () => {
           ]}
         />
 
-        <div className='flex flex-col gap-10 pt-5'>
-          <div className='flex flex-col gap-4'>
-            <div className='h-0.5 w-2/3 bg-retro-ochre' />
-            <h1 className='text-[2rem] font-bold w-[80%] editorial pl-2'>
-              O Instituto Beja, enquanto Secretaria Executiva, é responsável por
-              toda a gestão da Aliança, incluindo:
-            </h1>
-          </div>
-
-          <ul className='flex flex-col gap-11 pl-2'>{advocacyActionsMap}</ul>
-        </div>
+        <TopicList
+          title={
+            " O Instituto Beja, enquanto Secretaria Executiva, é responsável por toda a gestão da Aliança, incluindo:"
+          }
+          list={advocacyActions}
+        />
       </PartnerSection>
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
         mainImg={Images.Logos.UspLogo}
         cardsImg={[Images.Secoes.JusticaRacial]}
@@ -264,6 +264,9 @@ const AdvocacySection = () => {
       </PartnerSection>
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
         mainImg={Images.Logos.SerenasLogo}
         cardsImg={[Images.Secoes.JusticaRacial, Images.Secoes.EquidadeGenero]}
@@ -318,39 +321,10 @@ const AdvocacySection = () => {
           ]}
         />
 
-        <div className='flex flex-col gap-8'>
-          <div className='h-0.5 w-2/3 bg-retro-ochre' />
-          <h1 className='text-[2rem] w-full editorial pl-2'>
-            A Serenas trabalha em duas frentes principais:
-          </h1>
-
-          <ul className='flex flex-col gap-11 pl-2'>
-            <div className='flex items-center gap-5'>
-              <div className='size-5 bg-retro-ochre rounded-full shrink-0' />
-              <p className='text-2xl editorial leading-10'>
-                <span className='text-retro-ochre uppercase'>
-                  Educar para prevenir
-                </span>{" "}
-                apoia políticas educacionais para implementação da perspectiva
-                de prevenção de violência de gênero e a promoção de relações
-                saudáveis, articulando parcerias com as secretarias de educação
-                e saúde para interromper ciclos intergeracionais de violência.
-              </p>
-            </div>
-            <div className='flex items-center gap-5'>
-              <div className='size-5 bg-retro-ochre rounded-full shrink-0' />
-              <p className='text-2xl editorial leading-10'>
-                <span className='text-retro-ochre uppercase'>
-                  Qualificar para acolher
-                </span>{" "}
-                habilita os atores que atendem sobreviventes de violência, como
-                lideranças locais, assistentes sociais desde 2024, integrantes
-                da polícia civil, ampliando a prevenção da violência
-                institucional.
-              </p>
-            </div>
-          </ul>
-        </div>
+        <TopicList
+          title={"A Serenas trabalha em duas frentes principais:"}
+          list={serenasList}
+        />
 
         <GoldenQuote
           text={
@@ -453,6 +427,9 @@ const AdvocacySection = () => {
       </PartnerSection>
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
         mainImg={Images.Logos.PonteLogo}
         cardsImg={[Images.Secoes.PelaDemocracia2, Images.Secoes.EquidadeGenero]}
@@ -650,6 +627,9 @@ const AdvocacySection = () => {
       </PartnerSection>
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
         mainImg={Images.Logos.PactoContraFomeLogo}
         cardsImg={[Images.Secoes.JusticaRacial]}
@@ -809,6 +789,9 @@ const AdvocacySection = () => {
       </PartnerSection>
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
         mainImg={Images.Secoes.PelaDemocracia}
         cardsImg={[Images.Secoes.PelaDemocracia2]}
@@ -1070,6 +1053,9 @@ const AdvocacySection = () => {
       </PartnerSection>
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Projeto Apoiado"}
         mainImg={Images.Logos.IcciLogo}
         cardsImg={[Images.Secoes.PelaDemocracia2, Images.Secoes.JusticaRacial]}
@@ -1126,6 +1112,9 @@ const AdvocacySection = () => {
       </PartnerSection>
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Associação e Apoio Plurianual"}
         mainImg={Images.Logos.GifeLogo}
         cardsImg={[Images.Secoes.FilantropiaSubCard]}
@@ -1201,6 +1190,9 @@ const AdvocacySection = () => {
       </PartnerSection>
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Associação"}
         mainImg={Images.Logos.LatimImpactoLogo}
         cardsImg={[Images.Secoes.FilantropiaSubCard]}
@@ -1249,6 +1241,9 @@ const AdvocacySection = () => {
       </PartnerSection>
 
       <PartnerSection
+        section={"Advocacy"}
+        sectionImg={Images.Ilustracoes.ProudHand}
+        sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Associação"}
         mainImg={Images.Secoes.MovimentoDoacao}
         cardsImg={[Images.Secoes.FilantropiaSubCard]}

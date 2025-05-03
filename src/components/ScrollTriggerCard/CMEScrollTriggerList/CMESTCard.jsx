@@ -24,8 +24,11 @@ const CMESTCard = ({ cssOverride, idx, data, paddingTop, imgSize }) => {
             className={`flex flex-col gap-10 ${data.bgColor} px-21 py-13 rounded-[3.75rem]`}
           >
             <h1
-              className={`uppercase text-3xl ${data.title.color} font-bold`}
-              style={{ fontSize: `clamp(${calcClamp(20, 48)})` }}
+              className={`uppercase ${data.title.color} font-bold`}
+              style={{
+                fontSize: `clamp(${calcClamp(20, 48)})`,
+                lineHeight: `clamp(${calcClamp(20 * 1.5, 48 * 1.5)})`,
+              }}
             >
               {data.title.name}
             </h1>
@@ -35,7 +38,12 @@ const CMESTCard = ({ cssOverride, idx, data, paddingTop, imgSize }) => {
                 {Array.isArray(data.text) ? (
                   data.text.map((item, index) => <p key={index}>{item}</p>)
                 ) : (
-                  <p style={{ fontSize: `clamp(${calcClamp(12, 16)})` }}>
+                  <p
+                    style={{
+                      fontSize: `clamp(${calcClamp(12, 16)})`,
+                      lineHeight: `clamp(${calcClamp(12 * 1.5, 16 * 1.5)})`,
+                    }}
+                  >
                     {data.text}
                   </p>
                 )}

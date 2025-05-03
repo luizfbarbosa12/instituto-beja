@@ -6,3 +6,8 @@ export const advocacyActions = [
   "Promoção de articulações com outras organizações do setor;",
   "Condução de plenárias mensais e workshops voltados ao aprimoramento do setor.",
 ];
+
+export const serenasList = [
+  "Educar para prevenir apoia políticas educacionais para implementação da perspectiva de prevenção de violência de gênero e a promoção de relações saudáveis, articulando parcerias com as secretarias de educação e saúde para interromper ciclos intergeracionais de violência.",
+  "Qualificar para acolher habilita os atores que atendem sobreviventes de violência, como lideranças locais, assistentes sociais desde 2024, integrantes da polícia civil, ampliando a prevenção da violência institucional.",
+];
