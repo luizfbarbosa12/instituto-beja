@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { ArrowRight } from "lucide-react";
 import { ReactNode } from "react";
+import { calcClamp } from "../../data/Utils";
 
 export function ArrowRightLink({
   className,
@@ -18,7 +19,11 @@ export function ArrowRightLink({
       href={href}
       target='_blank'
       rel='noreferrer noopener'
-      className={"group flex gap-2 items-start"}
+      className={"group flex gap-2 items-center"}
+      style={{
+        fontSize: `clamp(${calcClamp(8, 14)})`,
+        lineHeight: `clamp(${calcClamp(8 * 1.5, 14 * 1.5)})`,
+      }}
     >
       <span
         className={cn("text-xs tablet:text-sm text-neutral-700", className)}

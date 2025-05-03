@@ -1,4 +1,4 @@
-export const calcClamp = (minValue, maxValue) => {
+export const calcClamp = (minValue: number, maxValue: number) => {
   let diff = maxValue - minValue;
   let interval = 1512 - 320;
 

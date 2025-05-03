@@ -1,5 +1,5 @@
 import { calcClamp } from "../../data/Utils";
-import * as Icon from "@phosphor-icons/react";
+import { ArrowRightLink } from "./ArrowRightLink";
 
 const ExternalLinkContainer = ({ title, subtitle, link }) => {
   return (
@@ -14,24 +14,7 @@ const ExternalLinkContainer = ({ title, subtitle, link }) => {
         {title}
       </h1>
 
-      <a
-        href={link}
-        target='_blank'
-        rel='noopener noreferrer'
-        className='flex gap-2 items-center'
-      >
-        <p
-          style={{
-            fontSize: `clamp(${calcClamp(8, 14)})`,
-            lineHeight: `clamp(${calcClamp(8 * 1.5, 14 * 1.5)})`,
-          }}
-        >
-          {subtitle}
-        </p>
-        <div className='flex-center bg-bourdeaux rounded-full p-1 size-4'>
-          <Icon.ArrowRight className='fill-porcelain rotate-340' />
-        </div>
-      </a>
+      <ArrowRightLink href={link}>{subtitle}</ArrowRightLink>
     </div>
   );
 };
