@@ -34,11 +34,13 @@ export function EcosystemEndSection() {
       gsap.to(".path-1", {
         opacity: 1,
         strokeDashoffset: 0,
-        duration: 1.5,
         delay: 0.5,
         scrollTrigger: {
           trigger: container.current,
           start: "top 80%",
+          end: "50% 50%",
+          scrub: 1,
+          markers: true,
         },
       });
 
@@ -48,7 +50,8 @@ export function EcosystemEndSection() {
         duration: 0.5,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 90%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -56,10 +59,10 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 0.5,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 72%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -67,10 +70,10 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 0.9,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 52%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -78,21 +81,22 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 1.4,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 38%",
+          toggleActions: "play none none reverse",
         },
       });
-
       gsap.to(".path-2", {
         opacity: 1,
         strokeDashoffset: 0,
-        duration: 1.5,
-        delay: 1.3,
+        delay: 0.5,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 78%",
+          end: "50% 50%",
+          scrub: 1,
+          markers: true,
         },
       });
 
@@ -100,10 +104,10 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 1,
         scrollTrigger: {
           trigger: container.current,
           start: "top 80%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -111,10 +115,10 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 1.3,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 68%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -122,10 +126,10 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 1.7,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 62%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -133,21 +137,22 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 2.1,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 32%",
+          toggleActions: "play none none reverse",
         },
       });
-
       gsap.to(".path-3", {
         opacity: 1,
         strokeDashoffset: 0,
-        duration: 1.5,
-        delay: 2.8,
+        delay: 0.5,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 82%",
+          end: "50% 50%",
+          scrub: 1,
+          markers: true,
         },
       });
 
@@ -155,10 +160,10 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 2.5,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 85%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -166,10 +171,10 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 2.8,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 75%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -177,10 +182,10 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 3.2,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 58%",
+          toggleActions: "play none none reverse",
         },
       });
 
@@ -188,10 +193,10 @@ export function EcosystemEndSection() {
         opacity: 1,
         y: 0,
         duration: 0.5,
-        delay: 3.8,
         scrollTrigger: {
           trigger: container.current,
-          start: "top 80%",
+          start: "top 38%",
+          toggleActions: "play none none reverse",
         },
       });
     },
