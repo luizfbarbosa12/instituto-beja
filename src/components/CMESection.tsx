@@ -13,7 +13,7 @@ import SerenasLogo from "/assets/Serenas_logo.svg";
 import DesenrolaLogo from "/assets/DesenrolaLogo.png";
 import { ArrowRightLink } from "./ui/ArrowRightLink.js";
 import { AEPIE, CMEPartners, VTCME } from "../data/cmeData.js";
-import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList";
+import CMEScrollTriggerList from "./ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.jsx";
 
 const CMESection = () => {
   const svgLineRef = useRef(null);
@@ -272,7 +272,7 @@ const CMESection = () => {
               <div className='w-full overflow-hidden'>
                 <motion.div
                   drag='x'
-                  dragConstraints={{ left: -800, right: 0 }}
+                  dragConstraints={{ left: (VTCME.length * 115 + (VTCME.length - 1) * 16 - window.innerWidth + 64), right: 0 }}
                   className='flex w-full gap-4 pl-100'
                 >
                   {VTCMEmap}
