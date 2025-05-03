@@ -4,7 +4,6 @@ import TextBlock from "./../TextBlock";
 import GoldenQuote from "./GoldenQuote";
 import TopicList from "../ui/TopicList";
 import { Images } from "../../assets/Index";
-import * as Icon from "@phosphor-icons/react";
 import FastTravelCard from "./FastTravelCard";
 import PartnerSection from "../ui/PartnerSection";
 import { advocacyActions, serenasList } from "../../data/AdvocacyData";
@@ -16,8 +15,8 @@ const AdvocacySection = () => {
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
       <div
         style={{ backgroundImage: "url('/assets/AdvocacyFSBG.png')" }}
-        className='flex-center flex-col w-full min-h-screen gap-25 bg-no-repeat bg-cover bg-center 
-        max-1024:px-8 
+        className='flex-center flex-col w-full min-h-screen gap-25 bg-no-repeat bg-cover bg-center
+        max-1024:px-8
         max-768:px-6 max-768:gap-14'
       >
         <img
@@ -33,10 +32,10 @@ const AdvocacySection = () => {
       </div>
 
       <div
-        className='flex gap w-full max-h-screen h-full items-center justify-center bg-retro-ochre gap-10 py-40 
-                    max-1280:px-10 
-                    max-1160:px-8 
-                    max-1024:flex-col max-1024:py-10 
+        className='flex gap w-full max-h-screen h-full items-center justify-center bg-retro-ochre gap-10 py-40
+                    max-1280:px-10
+                    max-1160:px-8
+                    max-1024:flex-col max-1024:py-10
                     max-640:px-5 max-420:px-2 max-640:gap-4 max-640:justify-start max-640:'
       >
         <FastTravelCard
