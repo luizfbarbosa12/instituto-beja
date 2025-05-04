@@ -126,7 +126,7 @@ export function EcosystemIntermediates() {
       ref={container}
       className='animation-container-capital h-250 tablet:h-[2000px] mx-auto max-w-desktop relative flex flex-col gap-14'
     >
-      <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full flex flex-col'>
+      <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full overflow-x-hidden flex flex-col'>
         <div className='relative flex flex-col items-end  self-end gap-4 tablet:w-fit w-3/4'>
           <h3 className='tablet:mr-[175px] font-serif text-bourdeaux text-left text-xl self-start leading-none tablet:text-5xl not-tablet:max-w-49'>
             Intermediários e Parceiros Estratégicos

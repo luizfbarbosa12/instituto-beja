@@ -125,7 +125,7 @@ export function EcosystemCapitalProviders() {
       ref={container}
       className='animation-container-capital h-250 tablet:h-[2000px] mx-auto max-w-desktop relative flex flex-col gap-14'
     >
-      <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full'>
+      <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full overflow-x-hidden'>
         <div className='relative flex flex-col items-start self-start gap-4 tablet:w-fit w-3/4'>
           <h3 className='tablet:ml-[175px] font-serif text-bourdeaux text-left text-xl self-end leading-none tablet:text-5xl'>
             Provedores de Capital
@@ -197,7 +197,7 @@ export function EcosystemCapitalProviders() {
             </div>
 
             <div className='text-item text-3 absolute -top-2 tablet:-top-4 left-9/10 w-full max-w-4/10 tablet:max-w-6/10'>
-              <h2 className='ts-10/32 tablet:text-3xl leading-relaxed font-serif text-[#1a0505]'>
+              <h2 className='ts-10/32 tablet:text-3xl -translate-x-1/2 leading-relaxed font-serif text-[#1a0505]'>
                 Empresários e investidores
               </h2>
             </div>

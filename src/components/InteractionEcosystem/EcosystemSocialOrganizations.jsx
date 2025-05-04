@@ -126,7 +126,7 @@ export function EcosystemSocialOrganizations() {
       ref={container}
       className='h-250 tablet:h-[2000px] mx-auto max-w-desktop relative flex flex-col gap-14'
     >
-      <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full'>
+      <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full overflow-x-hidden'>
         <div className='relative flex flex-col items-start self-start gap-4 tablet:w-fit w-3/4'>
           <h3 className='tablet:ml-[175px] font-serif text-bourdeaux text-left text-xl self-end leading-none tablet:text-5xl'>
             Organizações Sociais
@@ -204,8 +204,8 @@ export function EcosystemSocialOrganizations() {
               </h2>
             </div>
 
-            <div className='text-item text-4 absolute top-1/2 left-9/10 w-full max-w-2/10 tablet:max-w-3/10'>
-              <h2 className='ts-10/32 tablet:text-3xl leading-relaxed font-serif text-rose'>
+            <div className='text-item text-4 absolute top-1/2 left-23/20 w-full max-w-2/10 tablet:max-w-3/10'>
+              <h2 className='ts-10/32 tablet:text-3xl -translate-x-1/1 leading-relaxed font-serif text-rose'>
                 Organizações sociais de base
               </h2>
             </div>
