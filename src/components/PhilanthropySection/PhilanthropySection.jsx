@@ -1,22 +1,16 @@
-import Wrapper from "../Wrapper";
-import TextBlock from "../TextBlock";
-import * as Icon from "@phosphor-icons/react";
-import PhilanthropyCard from "./PhilanthropyCard";
-import ImageSlider from "../../components/ImageSlider";
-import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
+import Axle from "./Axle";
 import { useRef } from "react";
-const Filantropando2 = "/assets/Filantropando2.png";
-const Banner = "/assets/FilantropandoSectionBanner.png";
-const FilantropandoCCF = "/assets/FilantropandoCCF.png";
-const FilantropandoStar = "/assets/FilantropandoStar.png";
-const FilantropiaSlider1 = "/assets/FilantropiaSlider1.png";
-const FilantropiaSlider2 = "/assets/FilantropiaSlider2.png";
-const FilantropiaSlider3 = "/assets/FilantropiaSlider3.png";
-const BubblesFilantropando = "/assets/BubblesFilantropando.png";
+import TextBlock from "../TextBlock";
+import { useGSAP } from "@gsap/react";
+import { Images } from "../../assets/Index";
+import { calcClamp } from "../../data/Utils";
+import ImageSlider from "../../components/ImageSlider";
+import ExternalLinkContainer from "./../ui/ExternalLinkContainer";
 
 const PhilanthropySection = () => {
   const axisContainer = useRef(null);
+
   useGSAP(
     () => {
       gsap.fromTo(
@@ -54,14 +48,53 @@ const PhilanthropySection = () => {
     },
     { scope: axisContainer },
   );
+
+  const firstCardList = [
+    {
+      title: "Painel 1",
+      subtitle: "Filantropia e futuros ancestrais",
+      text: "Com Josimara Baré em diálogo com Geci Karuri-Sebina, mediado por Paula Miraglia",
+      link: "https://www.youtube.com/watch?v=Dj_hPbwo090",
+      bgColor: "bg-gold-ember",
+      starColor: "fill-copper",
+    },
+    {
+      title: "Painel 2",
+      subtitle: "Infraestruturas de Imaginação",
+      text: "Com Yoanna Okwesa em diálogo com Ondřej Liska, mediado por Paula Miraglia",
+      link: "https://www.youtube.com/watch?v=qhl6yX23MKs",
+      bgColor: "bg-copper",
+      starColor: "fill-gold-ember",
+    },
+  ];
+  const secondCardList = [
+    {
+      title: "Painel 3",
+      subtitle: "Filantropia no mundo da Inteligência Artificial",
+      text: "Com Sanjay Purohit em diálogo com Nishant Shah e Nina Santos, mediado por Paula Miraglia",
+      link: "https://www.youtube.com/watch?v=QvbkvITW3cM",
+      bgColor: "bg-gold-ember",
+      starColor: "fill-copper",
+    },
+  ];
+
   return (
-    <div className='flex flex-col h-fit gap-26 bg-light-peach'>
-      <img src={Banner} alt='Falando sobre filantropia' className='w-full' />
+    <div className='flex flex-col bg-light-peach'>
+      <img
+        src={Images.Filantropando.FilantropandoBanner}
+        alt='Falando sobre filantropia'
+        className='w-full'
+      />
 
-      <Wrapper>
-        <div className='flex flex-col gap-15 pb-26'>
-          <h1 className='text-8xl editorial'>Filantropando</h1>
+      <div className='flex flex-col justify-start gap-15 w-full pt-15 pb-30 px-32 max-1280:px-16 max-1280:gap-14 max-896:px-8 max-896:gap-12 max-640:px-5 max-640:gap-4 max-640:pt-10 max-640:pb-15'>
+        <h1
+          className='editorial'
+          style={{ fontSize: `clamp(${calcClamp(28, 96)})` }}
+        >
+          Filantropando
+        </h1>
 
+        <div className='w-full flex justify-end'>
           <TextBlock
             firstBlock={[
               {
@@ -110,301 +143,185 @@ const PhilanthropySection = () => {
             ]}
           />
         </div>
-      </Wrapper>
+      </div>
 
-      <div className='flex items-center relative gap-15 flex-col bg-gold-ember w-full'>
-        <div className='w-full'>
+      <div className='flex items-center relative flex-col bg-gold-ember w-full px-32 max-1280:px-16 max-896:px-8 max-640:px-5'>
+        <div className='w-full flex justify-center relative overflow-hidden'>
           <img
-            src={BubblesFilantropando}
+            src={Images.Filantropando.BubblesFilantropando}
             alt='Bolinhas'
-            className='relative top-0 left-1/3'
+            className='object-contain rotate-10 -top-30 relative'
+            style={{
+              width: `clamp(${calcClamp(506 / 2, 506)})`,
+              height: `clamp(${calcClamp(400 / 2, 400)})`,
+            }}
           />
         </div>
-        <Wrapper>
-          <div className='flex justify-between gap-50 items-center w-full'>
-            <div className='flex flex-col gap-10 [&>p]:text-3xl desktop:[&>p]:text-5xl [&>p]:leading-14'>
-              <p className='editorial'>
-                É hora de abrir espaço para novas agendas.
-              </p>
-              <p className='editorial'>
-                É hora de desconstruir, reaprender e cocriar.
-              </p>
-              <p className='editorial'>
-                É hora de oxigenar o ecossistema da filantropia.
-              </p>
-            </div>
 
-            <div className='flex flex-col items-center'>
-              <img
-                src={FilantropandoCCF}
-                alt='Conectando compromisso e futuro'
-                className='shrink-0 max-90 desktop:min-w-142'
-              />
-              <img
-                src={Filantropando2}
-                alt='Filantropando boas ações'
-                className='max-w-90'
-              />
-            </div>
+        <div
+          style={{ gap: `clamp(${calcClamp(5, 50)})` }}
+          className='flex justify-between items-center w-full'
+        >
+          <div
+            style={{
+              fontSize: `clamp(${calcClamp(14, 48)})`,
+              lineHeight: `clamp(${calcClamp(14 * 1.2, 48 * 1.2)})`,
+            }}
+            className='flex flex-col gap-10'
+          >
+            <p className='editorial'>
+              É hora de abrir espaço para novas agendas.
+            </p>
+            <p className='editorial'>
+              É hora de desconstruir, reaprender e cocriar.
+            </p>
+            <p className='editorial'>
+              É hora de oxigenar o ecossistema da filantropia.
+            </p>
           </div>
-        </Wrapper>
 
-        <div className='flex items-center relative pb-10 w-full justify-start'>
+          <div className='flex flex-col'>
+            <img
+              src={Images.Filantropando.FilantropandoCCF}
+              alt='Conectando compromisso e futuro'
+              className='shrink-0'
+              style={{
+                width: `clamp(${calcClamp(190, 568)})`,
+                height: `clamp(${calcClamp(100, 307)})`,
+              }}
+            />
+            <img
+              src={Images.Filantropando.FilantropandoBoasAcoes}
+              alt='Filantropando boas ações'
+              className='shrink-0'
+              style={{
+                width: `clamp(${calcClamp(91, 360)})`,
+                height: `clamp(${calcClamp(28, 110)})`,
+              }}
+            />
+          </div>
+        </div>
+
+        <div
+          style={{ height: `clamp(${calcClamp(400 / 2, 400)})` }}
+          className='w-full flex justify-center relative'
+        >
           <img
-            src={BubblesFilantropando}
+            src={Images.Filantropando.BubblesFilantropando}
             alt='Bolinhas'
-            className='relative top-0 -left-40 rotate-240'
+            className='object-contain rotate-240 -left-[30%] -bottom-8 absolute'
+            style={{
+              width: `clamp(${calcClamp(506 / 2, 506)})`,
+              height: `clamp(${calcClamp(400 / 2, 400)})`,
+            }}
           />
-          <img src={FilantropandoStar} alt='Estrela' className='size-25' />
+
+          <img
+            style={{
+              width: `clamp(${calcClamp(34, 110)})`,
+              height: `clamp(${calcClamp(34, 110)})`,
+            }}
+            src={Images.Filantropando.FilantropandoStar}
+            alt='Estrela'
+            className='relative right-20 top-10 max-640:right-0'
+          />
         </div>
       </div>
 
-      <Wrapper>
-        <div ref={axisContainer} className='flex flex-col gap-30'>
-          <p className='editorial text-3xl'>
-            A 3ª edição foi organizada em torno de dois eixos principais:
-          </p>
+      <div
+        ref={axisContainer}
+        style={{ gap: `clamp(${calcClamp(30, 120)})` }}
+        className='flex flex-col gap-30 py-40 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:py-20 max-640:py-15'
+      >
+        <h1
+          style={{
+            fontSize: `clamp(${calcClamp(18, 32)})`,
+            lineHeight: `clamp(${calcClamp(18 * 1.2, 32 * 1.2)})`,
+          }}
+          className='editorial text-3xl'
+        >
+          A 3ª edição foi organizada em torno de dois eixos principais:
+        </h1>
 
-          <div className='flex flex-col'>
-            <h2 className='editorial text-5xl'>Eixo 1</h2>
-            <div
-              className='w-70 h-7'
-              style={{ backgroundImage: "url('/assets/GoldenBG.png')" }}
-            ></div>
-          </div>
-
-          <div className='axis-1 flex justify-end w-full gap-5'>
-            <div className='w-70 flex justify-end'>
-              <div className='axis-line relative'>
-                <hr className='border-none bg-bourdeaux relative h-full w-px' />
-                <span className='absolute right-1/2 translate-x-1/2 bg-bourdeaux block bottom-0 w-3 h-3 rounded-full' />
-              </div>
-            </div>
-            <div className='flex flex-col gap-25'>
-              <div className='flex flex-col gap-12'>
-                <h1 className='editorial text-4xl'>
-                  A filantropia e os futuros possíveis, futuros emergentes,
-                  futuros ancestrais
-                </h1>
-
-                <p className='editorial text-2xl'>
-                  Como eu não pensei nisso antes? O que mais é preciso
-                  apreender?
-                </p>
-              </div>
-
-              <div className='flex gap-12'>
-                <div className='flex flex-col gap-10'>
-                  <PhilanthropyCard
-                    title={"Painel 1"}
-                    subtitle={"Filantropia e Futuros Ancestrais"}
-                    bgColor={"bg-gold-ember"}
-                    starColor={"[#E57435]"}
-                    text={
-                      <p>
-                        Com <strong>Josimara Baré</strong> em diálogo com{" "}
-                        <strong>Geci Karuri-Sebina</strong>, mediado por{" "}
-                        <strong>Paula Miraglia</strong>
-                      </p>
-                    }
-                  />
-
-                  <PhilanthropyCard
-                    title={"Painel 2"}
-                    subtitle={"Infraestruturas de Imaginação"}
-                    bgColor={"bg-[#E57435]"}
-                    starColor={"gold-ember"}
-                    text={
-                      <p>
-                        Com <strong>Yoanna Okwesa</strong> em diálogo com{" "}
-                        <strong>Ondřej Liska</strong>, mediado por{" "}
-                        <strong>Paula Miraglia</strong>
-                      </p>
-                    }
-                  />
-                </div>
-
-                <div>
-                  <TextBlock
-                    firstBlock={[
-                      {
-                        key: "first-0",
-                        content: (
-                          <>
-                            <p>
-                              O olhar para o futuro, já presente nas práticas
-                              ancestrais, nos convida a abraçar mudanças
-                              significativas e adotar valores que refletem uma
-                              compreensão mais diversa e abrangente das
-                              necessidades da sociedade. Este eixo desafia a
-                              perpetuação de narrativas dominantes, instigando a
-                              criação de uma multiplicidade de perspectivas que
-                              reimagina a história como nossa história.
-                            </p>
-                            <p>
-                              Esse movimento destaca temas frequentemente
-                              invisibilizados, que demandam maior atenção e
-                              aprofundamento, e propõe uma descentralização da
-                              tomada de decisão. Ao sair de uma perspectiva
-                              individual para uma visão compartilhada de
-                              responsabilidades, somos convidados a acolher o
-                              desconforto que acompanha as mudanças coletivas.
-                              Isso exige: compreender as dinâmicas de poder que
-                              moldam as relações sociais e econômicas; coragem
-                              para assumir riscos; romper paradigmas e expandir
-                              referências e construção de uma representatividade
-                              mais equitativa.
-                            </p>
-                          </>
-                        ),
-                      },
-                    ]}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className='flex flex-col'>
-            <h2 className='editorial text-5xl'>Eixo 2</h2>
-            <div
-              className='w-70 h-7'
-              style={{ backgroundImage: "url('/assets/GoldenBG.png')" }}
-            ></div>
-          </div>
-
-          <div className='axis-2 flex justify-end w-full gap-5'>
-            <div className='w-70 flex justify-end'>
-              <div className='axis-line relative'>
-                <hr className='border-none bg-bourdeaux relative h-full w-px' />
-                <span className='absolute right-1/2 translate-x-1/2 bg-bourdeaux block bottom-0 w-3 h-3 rounded-full' />
-              </div>
-            </div>
-            <div className='flex flex-col gap-25'>
-              <div className='flex flex-col gap-12'>
-                <h1 className='editorial text-4xl'>
-                  Tecnologia para Transformar
-                </h1>
-
-                <p className='editorial text-2xl'>
-                  Tecnologia a serviço de quem?
-                </p>
-              </div>
-
-              <div className='flex gap-12'>
-                <div className='flex flex-col gap-10'>
-                  <PhilanthropyCard
-                    title={"Painel 3"}
-                    subtitle={"Filantropia no mundo da Inteligência Artificial"}
-                    bgColor={"bg-gold-ember"}
-                    starColor={"[#E57435]"}
-                    text={
-                      <p>
-                        Com <strong>Sanjay Purohit</strong> em diálogo com
-                        <strong>Nishant Shah</strong> e{" "}
-                        <strong>Nina Santos</strong>, mediado por{" "}
-                        <strong>Paula Miraglia</strong>
-                      </p>
-                    }
-                  />
-                </div>
-
-                <div>
-                  <TextBlock
-                    firstBlock={[
-                      {
-                        key: "first-0",
-                        content: (
-                          <>
-                            <p>
-                              As <em>Big Techs</em> têm ditado as regras sobre
-                              como articulamos pensamentos e conexões em redes,
-                              muitas vezes sob uma perspectiva desumanizadora. A
-                              corrida e a disparidade entre diferentes
-                              abordagens para regulamentar uma base ética das
-                              tecnologias digitais ao redor do mundo expõem
-                              disputas de influência, bem como lacunas de
-                              representatividade cultural e social. Ademais,
-                              perpetuam desigualdades no acesso e na educação
-                              digital.
-                            </p>
-
-                            <p>
-                              A interação da filantropia com ferramentas
-                              tecnológicas enfrenta, de forma contundente, os
-                              desafios dessa desigualdade. O que um dia chamamos
-                              de &quot;futurismo&quot; hoje exige a
-                              desconstrução de ideias de um futuro
-                              descontextualizado, vazio de pessoas e de suas
-                              realidades dinâmicas e diversas.
-                            </p>
-
-                            <p>
-                              As tecnologias digitais não são neutras. Elas
-                              moldam nossa percepção sobre nós mesmos, sobre o
-                              mundo e sobre como nos relacionamos com ele.
-                              Também transformam dinâmicas de poder,
-                              subjetividades e experiências humanas,
-                              especialmente em contextos de governança, direitos
-                              humanos e políticas de gênero. Se ainda debatemos
-                              a falta de uma crítica sólida ao status quo que
-                              homogeniza países e culturas do ponto de vista de
-                              organizações do Norte Global, surge a questão:{" "}
-                              <strong>
-                                como podemos simplificar e reumanizar a
-                                tecnologia e a inovação, com mudanças
-                                exponenciais?
-                              </strong>
-                            </p>
-                          </>
-                        ),
-                      },
-                    ]}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Wrapper>
-
-      <div className='flex relative flex-col w-full py-95 items-center bg-gold-ember overflow-y-hidden'>
-        <img
-          src={BubblesFilantropando}
-          className='absolute -top-20 -left-30 rotate-360'
+        <Axle
+          axle={"Eixo 1"}
+          title={
+            "A filantropia e os futuros possíveis, futuros emergentes, futuros ancestrais"
+          }
+          subtitle={
+            "Como eu não pensei nisso antes? O que mais é preciso apreender?"
+          }
+          cards={firstCardList}
+          text={[
+            "O olhar para o futuro, já presente nas práticas ancestrais, nos convida a abraçar mudanças significativas e adotar valores que refletem uma compreensão mais diversa e abrangente das necessidades da sociedade. Este eixo desafia a perpetuação de narrativas dominantes, instigando a criação de uma multiplicidade de perspectivas que reimagina a história como nossa história.",
+            "Esse movimento destaca temas frequentemente invisibilizados, que demandam maior atenção e aprofundamento, e propõe uma descentralização da tomada de decisão. Ao sair de uma perspectiva individual para uma visão compartilhada de responsabilidades, somos convidados a acolher o desconforto que acompanha as mudanças coletivas. Isso exige: compreender as dinâmicas de poder que moldam as relações sociais e econômicas; coragem para assumir riscos; romper paradigmas e expandir referências e construção de uma representatividade mais equitativa.",
+          ]}
+          link={"https://www.youtube.com/watch?v=Dj_hPbwo090"}
         />
 
-        <div className='flex flex-col gap-26'>
+        <Axle
+          axle={"Eixo 2"}
+          title={"Tecnologia para Transformar"}
+          subtitle={"Tecnologia a serviço de quem?"}
+          cards={secondCardList}
+          text={[
+            "As Big Techs ditam as regras sobre pensamentos e conexões em redes, sob uma perspectiva desumanizadora. A disparidade nas abordagens para regulamentar a ética digital expõe disputas de influência e lacunas de representatividade cultural, perpetuando desigualdades no acesso e educação digital.",
+            "A interação entre filantropia e tecnologia enfrenta desafios de desigualdade. O que chamávamos de 'futurismo' agora exige desconstruir visões de futuro descontextualizadas, vazias de realidades humanas diversas. Tecnologias digitais não são neutras - moldam percepções, relações e dinâmicas de poder.",
+            "Em contextos de governança e direitos humanos, as tecnologias transformam subjetividades e experiências. Diante da crítica insuficiente ao status quo que homogeneiza culturas a partir do Norte Global, questiona-se: como reumanizar a tecnologia e inovação em meio a mudanças exponenciais?",
+          ]}
+          link={"https://www.youtube.com/watch?v=QvbkvITW3cM"}
+        />
+      </div>
+
+      <div className='flex items-center relative flex-col bg-gold-ember w-full'>
+        <div className='w-full flex justify-center relative overflow-hidden  px-32 max-1280:px-16 max-896:px-8 max-640:px-5'>
+          <img
+            src={Images.Filantropando.BubblesFilantropando}
+            alt='Bolinhas'
+            className='object-contain rotate-10 -top-30 relative'
+            style={{
+              width: `clamp(${calcClamp(506 / 2, 506)})`,
+              height: `clamp(${calcClamp(400 / 2, 400)})`,
+            }}
+          />
+        </div>
+
+        <div className='flex flex-col gap-26 w-full'>
           <ImageSlider
-            arr={[FilantropiaSlider1, FilantropiaSlider2, FilantropiaSlider3]}
-            translateYMiddleImg={"80"}
+            arr={[
+              Images.Filantropando.FilantropiaSlider1,
+              Images.Filantropando.FilantropiaSlider2,
+              Images.Filantropando.FilantropiaSlider3,
+            ]}
+            translateYMiddleImg={"60"}
             ImgWidth={"35rem"}
             ImgHeight={"23rem"}
             ButtonStyle={"bg-aged-oak text-gold-ember"}
           />
 
-          <Wrapper>
-            <div>
-              <h1 className='editorial text-3xl'>
-                Conheça a relatoria completa do Filantropia 2024
-              </h1>
-
-              <div className='flex items-center gap-2'>
-                <a className='font-bold'>Assistia aqui</a>
-                <div
-                  className={`size-4 flex-center bg-aged-oak p-0.5 rounded-full`}
-                >
-                  <Icon.ArrowRight className={`text-gold-ember rotate-335`} />
-                </div>
-              </div>
-            </div>
-          </Wrapper>
+          <div className='px-32 max-1280:px-16 max-896:px-8 max-640:px-5'>
+            <ExternalLinkContainer
+              title={"Conheça a relatoria completa do Filantropando 2024"}
+              subtitle={"Acesse aqui"}
+              link={"https://relatorio.filantropando.org/"}
+            />
+          </div>
         </div>
 
-        <img
-          src={BubblesFilantropando}
-          className='absolute -bottom-20 right-0 rotate-180'
-        />
+        <div
+          style={{ height: `clamp(${calcClamp(400 / 2, 400)})` }}
+          className='w-full flex justify-center relative px-32 max-1280:px-16 max-896:px-8 max-640:px-5'
+        >
+          <img
+            src={Images.Filantropando.BubblesFilantropando}
+            alt='Bolinhas'
+            className='object-contain rotate-240 -left-[30%] -bottom-8 absolute'
+            style={{
+              width: `clamp(${calcClamp(506 / 2, 506)})`,
+              height: `clamp(${calcClamp(400 / 2, 400)})`,
+            }}
+          />
+        </div>
       </div>
     </div>
   );

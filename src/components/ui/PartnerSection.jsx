@@ -13,7 +13,7 @@ const PartnerSection = ({
   subtitle,
 }) => {
   return (
-    <div className='flex flex-col gap-16 w-full px-32 items-end max-[1280px]:px-16 max-[880px]:px-8 max-[650px]:px-5 max-sm:gap-8 pt-10'>
+    <div className='flex flex-col gap-16 w-full px-32 items-end max-1280:px-16 max-896:px-8 max-640:px-5 max-640:gap-8 pt-10'>
       <PartnerCard
         section={section}
         sectionImg={sectionImg}

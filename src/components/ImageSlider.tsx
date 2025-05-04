@@ -2,6 +2,7 @@ import { CSSProperties, useState } from "react";
 import * as Icon from "@phosphor-icons/react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
+import { calcClamp } from "@/data/Utils";
 
 interface ImageSliderProps {
   arr: string[];
@@ -54,7 +55,7 @@ const ImageSlider = ({
   return (
     <motion.div
       layout
-      className={`${className} flex flex-col w-full pb-1 tablet:flex-center justify-center items-center overflow-hidden `}
+      className={`${className} flex flex-col w-full pb-1 justify-center items-center overflow-hidden `}
       style={{ paddingTop: `${translateYMiddle}px` }}
     >
       <motion.div layout className='flex gap-4 justify-center'>
@@ -74,7 +75,11 @@ const ImageSlider = ({
                   `shrink-0 ${!isMiddle && "brightness-75"} object-cover aspect-video`,
                   imgClassName,
                 )}
-                style={{ width: ImgWidth, height: ImgHeight, ...imgStyle }}
+                style={{
+                  width: `clamp(${calcClamp(250, 564)})`,
+                  height: `clamp(${calcClamp(160, 376)})`,
+                  ...imgStyle,
+                }}
                 transition={{ duration: 0.25, ease: "easeOut" }}
               />
             );
@@ -83,18 +88,33 @@ const ImageSlider = ({
       </motion.div>
 
       <div
-        className={cn("flex justify-between", buttonsClassName)}
-        style={{ marginTop: `-${translateYMiddle / 1.3}px`, width: ImgWidth }}
+        className={cn(
+          "flex justify-between max-1440:px-4 max-1366:px-8 max-1160:px-12 max-1080:px-16 max-950:px-20 max-844:px-24 max-768:px-26 max-640:px-28 max-580:px-30 max-540:px-34 max-420:px-36 max-380:px-38",
+          buttonsClassName,
+        )}
+        style={{
+          marginTop: `-${translateYMiddle / 1.3}px`,
+          width: ImgWidth,
+        }}
       >
         <button
           onClick={prev}
-          className={`flex-center size-16 p-3 rounded-full ${ButtonStyle} shrink-0 z-50 hover:opacity-90 transition-opacity cursor-pointer`}
+          style={{
+            width: `clamp(${calcClamp(28, 64)})`,
+            height: `clamp(${calcClamp(28, 64)})`,
+          }}
+          className={`flex-center p-3 rounded-full ${ButtonStyle} shrink-0 z-50 hover:opacity-90 transition-opacity cursor-pointer max-768:p-2`}
         >
           <Icon.ArrowLeft className='size-full' />
         </button>
+
         <button
           onClick={next}
-          className={`flex-center size-16 p-3 rounded-full ${ButtonStyle} shrink-0 z-50 hover:opacity-90 transition-opacity cursor-pointer`}
+          style={{
+            width: `clamp(${calcClamp(28, 64)})`,
+            height: `clamp(${calcClamp(28, 64)})`,
+          }}
+          className={`flex-center p-3 rounded-full ${ButtonStyle} shrink-0 z-50 hover:opacity-90 transition-opacity cursor-pointer max-768:p-2`}
         >
           <Icon.ArrowRight className='size-full' />
         </button>

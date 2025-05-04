@@ -43,4 +43,14 @@ export const Images = {
     FomeZeroAdvocacy: "/assets/FomeZeroAdvocacy.png",
     FilantropiaSubCard: "/assets/FilantropiaSubCard.svg",
   },
+  Filantropando: {
+    FilantropandoCCF: "/assets/FilantropandoCCF.svg",
+    FilantropandoStar: "/assets/FilantropandoStar.svg",
+    FilantropiaSlider1: "/assets/FilantropiaSlider1.svg",
+    FilantropiaSlider2: "/assets/FilantropiaSlider2.svg",
+    FilantropiaSlider3: "/assets/FilantropiaSlider3.svg",
+    FilantropandoBanner: "/assets/FilantropandoBanner.svg",
+    BubblesFilantropando: "/assets/BubblesFilantropando.png",
+    FilantropandoBoasAcoes: "/assets/FilantropandoBoasAcoes.svg",
+  },
 };

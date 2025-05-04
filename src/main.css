@@ -15,6 +15,7 @@
   --color-gold-ember: #ffab0b;
   --color-aged-oak: #715a24;
   --color-gray-200: #d9d9d9;
+  --color-copper: #e57435;
   --font-serif: "PP Editorial New", serif;
   --font-sans: "Helvetica", sans-serif;
 
@@ -191,39 +192,57 @@ html.lenis body {
     font-size: var(--min-font-size);
 
     @media screen and (min-width: var(--breakpoint-sm)) {
-      font-size: calc((var(--vi-multiplier) * 640 + var(--base-offset)) / 16 * 1rem);
+      font-size: calc(
+        (var(--vi-multiplier) * 640 + var(--base-offset)) / 16 * 1rem
+      );
     }
 
     @media screen and (min-width: var(--breakpoint-md)) {
-      font-size: calc((var(--vi-multiplier) * 768 + var(--base-offset)) / 16 * 1rem);
+      font-size: calc(
+        (var(--vi-multiplier) * 768 + var(--base-offset)) / 16 * 1rem
+      );
     }
 
     @media screen and (min-width: var(--breakpoint-lg)) {
-      font-size: calc((var(--vi-multiplier) * 1024 + var(--base-offset)) / 16 * 1rem);
+      font-size: calc(
+        (var(--vi-multiplier) * 1024 + var(--base-offset)) / 16 * 1rem
+      );
     }
 
     @media screen and (min-width: var(--breakpoint-xl)) {
-      font-size: calc((var(--vi-multiplier) * 1280 + var(--base-offset)) / 16 * 1rem);
+      font-size: calc(
+        (var(--vi-multiplier) * 1280 + var(--base-offset)) / 16 * 1rem
+      );
     }
 
     @media screen and (min-width: var(--breakpoint-2xl)) {
-      font-size: calc((var(--vi-multiplier) * 1440 + var(--base-offset)) / 16 * 1rem);
+      font-size: calc(
+        (var(--vi-multiplier) * 1440 + var(--base-offset)) / 16 * 1rem
+      );
     }
 
     @media screen and (min-width: var(--breakpoint-3xl)) {
-      font-size: calc((var(--vi-multiplier) * 1520 + var(--base-offset)) / 16 * 1rem);
+      font-size: calc(
+        (var(--vi-multiplier) * 1520 + var(--base-offset)) / 16 * 1rem
+      );
     }
 
     @media screen and (min-width: var(--breakpoint-4xl)) {
-      font-size: calc((var(--vi-multiplier) * 1680 + var(--base-offset)) / 16 * 1rem);
+      font-size: calc(
+        (var(--vi-multiplier) * 1680 + var(--base-offset)) / 16 * 1rem
+      );
     }
 
     @media screen and (min-width: var(--breakpoint-5xl)) {
-      font-size: calc((var(--vi-multiplier) * 1920 + var(--base-offset)) / 16 * 1rem);
+      font-size: calc(
+        (var(--vi-multiplier) * 1920 + var(--base-offset)) / 16 * 1rem
+      );
     }
 
     @media screen and (min-width: var(--breakpoint-6xl)) {
-      font-size: calc((var(--vi-multiplier) * 2240 + var(--base-offset)) / 16 * 1rem);
+      font-size: calc(
+        (var(--vi-multiplier) * 2240 + var(--base-offset)) / 16 * 1rem
+      );
     }
 
     @media screen and (min-width: var(--breakpoint-7xl)) {
