@@ -44,21 +44,21 @@ gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);
 
 const App = () => {
-  // useEffect(() => {
-  //   const lenis = new Lenis();
+  useEffect(() => {
+    const lenis = new Lenis();
 
-  //   const handleAnimationFrame = (time) => {
-  //     lenis.raf(time);
-  //     requestAnimationFrame(handleAnimationFrame);
-  //   };
+    const handleAnimationFrame = (time) => {
+      lenis.raf(time);
+      requestAnimationFrame(handleAnimationFrame);
+    };
 
-  //   const animationFrameId = requestAnimationFrame(handleAnimationFrame);
+    const animationFrameId = requestAnimationFrame(handleAnimationFrame);
 
-  //   return () => {
-  //     cancelAnimationFrame(animationFrameId);
-  //     lenis.destroy();
-  //   };
-  // }, []);
+    return () => {
+      cancelAnimationFrame(animationFrameId);
+      lenis.destroy();
+    };
+  }, []);
 
   return (
     <>
