@@ -205,7 +205,7 @@ const Expediente = () => {
               <p className='mb-1'>
                 UX writing, Design, Diagramação, Desenvolvimento website:
               </p>
-              <p className='font-bold'>Rede Afeta</p>
+              <p className='font-bold'>Rede Afeta\</p>
             </div>
           </div>
         </div>
