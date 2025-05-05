@@ -19,8 +19,6 @@ interface ImageSliderProps {
 const ImageSlider = ({
   arr,
   translateYMiddleImg: translateYMiddle,
-  ImgWidth,
-  ImgHeight,
   imgClassName,
   buttonsClassName,
   imgStyle,
@@ -88,13 +86,10 @@ const ImageSlider = ({
       </motion.div>
 
       <div
-        className={cn(
-          "flex justify-between max-1440:px-4 max-1366:px-8 max-1160:px-12 max-1080:px-16 max-950:px-20 max-844:px-24 max-768:px-26 max-640:px-28 max-580:px-30 max-540:px-34 max-420:px-36 max-380:px-38",
-          buttonsClassName,
-        )}
+        className={cn("flex justify-between", buttonsClassName)}
         style={{
           marginTop: `-${translateYMiddle / 1.3}px`,
-          width: ImgWidth,
+          width: `clamp(${calcClamp(250, 564)})`,
         }}
       >
         <button

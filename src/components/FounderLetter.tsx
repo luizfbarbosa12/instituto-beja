@@ -9,113 +9,193 @@ const FounderLetter = () => {
 
   useGSAP(
     () => {
-      gsap.fromTo(
-        ".letter",
-        {
-          opacity: 0.7,
-          y: 200,
-        },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 1,
-          scrollTrigger: {
-            trigger: letterContainerRef.current,
-            start: "0px 50%",
-            end: "0px 20%",
-            scrub: 2,
-          },
-        },
-      );
+      const matchMedia = gsap.matchMedia(letterContainerRef);
 
-      gsap.fromTo(
-        ".content",
-        {
-          paddingLeft: "32px",
-          paddingRight: "32px",
-        },
-        {
-          paddingLeft: "0px",
-          paddingRight: "0px",
-          duration: 0.5,
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            toggleActions: "play none none reverse",
+      matchMedia.add("screen and (max-width: 900px)", () => {
+        gsap.fromTo(
+          ".letter",
+          {
+            opacity: 0.7,
+            y: 200,
           },
-        },
-      );
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            scrollTrigger: {
+              trigger: letterContainerRef.current,
+              start: "0px 50%",
+              end: "0px 20%",
+              scrub: 2,
+            },
+          },
+        );
 
-      gsap.fromTo(
-        ".letter-bg",
-        {
-          height: "500px",
-          transformOrigin: "top",
-        },
-        {
-          height: "100%",
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            end: "top 0%",
-            scrub: 1,
+        gsap.fromTo(
+          ".letter",
+          {
+            scale: 0.9,
+            transformOrigin: "center top",
           },
-        },
-      );
+          {
+            scale: 1,
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 50%",
+              end: "top 0%",
+              scrub: 2,
+            },
+          },
+        );
 
-      gsap.fromTo(
-        ".bike-mobile",
-        {
-          y: 300,
-        },
-        {
-          y: 0,
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            end: "top 0%",
-            scrub: 1,
+        gsap.fromTo(
+          ".letter-bg",
+          {
+            height: "350px",
+            transformOrigin: "top",
           },
-        },
-      );
+          {
+            height: "100%",
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 30%",
+              end: "top 0%",
+              scrub: 1,
+            },
+          },
+        );
 
-      gsap.fromTo(
-        ".letter-text p",
-        {
-          transformOrigin: "top",
-          opacity: 0,
-          y: "100%",
-        },
-        {
-          opacity: 1,
-          y: 0,
-          stagger: 0.5,
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            end: "top 0%",
-            scrub: 1,
+        gsap.fromTo(
+          ".bike-mobile",
+          {
+            y: 300,
           },
-        },
-      );
+          {
+            y: 0,
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 30%",
+              end: "top 0%",
+              scrub: 1,
+            },
+          },
+        );
 
-      gsap.fromTo(
-        ".beja-logo",
-        {
-          bottom: "78%",
-          rotate: "-90deg",
-        },
-        {
-          bottom: "2.5rem",
-          rotate: "270deg",
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            end: "top 0%",
-            scrub: 2,
+        gsap.fromTo(
+          ".letter-text p",
+          {
+            transformOrigin: "top",
+            opacity: 0,
+            y: "100%",
           },
-        },
-      );
+          {
+            opacity: 1,
+            y: 0,
+            stagger: 0.5,
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 30%",
+              end: "top 0%",
+              scrub: 1,
+            },
+          },
+        );
+
+        gsap.fromTo(
+          ".beja-logo",
+          {
+            top: "18rem",
+            rotate: "-90deg",
+          },
+          {
+            top: "90%",
+            rotate: "270deg",
+            delay: 1,
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 30%",
+              end: "top 0%",
+              scrub: 2,
+            },
+          },
+        );
+      });
+
+      matchMedia.add("screen and (min-width: 901px)", () => {
+        gsap.fromTo(
+          ".letter",
+          {
+            opacity: 0.7,
+            y: 200,
+          },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            scrollTrigger: {
+              trigger: letterContainerRef.current,
+              start: "0px 30%",
+              end: "0px 20%",
+              scrub: 2,
+            },
+          },
+        );
+
+        gsap.fromTo(
+          ".letter-bg",
+          {
+            height: "500px",
+            transformOrigin: "top",
+          },
+          {
+            height: "100%",
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 30%",
+              end: "top 0%",
+              scrub: 1,
+            },
+          },
+        );
+
+        gsap.fromTo(
+          ".letter-text p",
+          {
+            transformOrigin: "top",
+            opacity: 0,
+            y: "100%",
+          },
+          {
+            opacity: 1,
+            y: 0,
+            stagger: 0.5,
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 30%",
+              end: "top 0%",
+              scrub: 1,
+            },
+          },
+        );
+
+        gsap.fromTo(
+          ".beja-logo",
+          {
+            bottom: "78%",
+            rotate: "-90deg",
+          },
+          {
+            bottom: "2.5rem",
+            rotate: "270deg",
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 30%",
+              end: "top 0%",
+              scrub: 2,
+            },
+          },
+        );
+      });
     },
     {
       scope: letterContainerRef,
@@ -128,18 +208,18 @@ const FounderLetter = () => {
         ref={letterContainerRef}
         className='relative flex overflow-clip min-h-screen'
       >
-        <div className='content not-tablet:pt-80 tablet:py-16 px-5 bg-rose flex-1 relative mx-auto'>
+        <div className='content not-tablet:pt-80 tablet:py-16 px-0 tablet:px-5 bg-rose flex-1 relative mx-auto'>
           <img
             src={nuvens}
             alt='imagem de nuvens douradas no fundo'
             className='absolute w-full h-auto -top-20 right-0'
           />
-          <div className='letter overflow-hidden max-w-[1028px] h-auto flex flex-col gap-8 mx-auto z-2 px-12 tablet:px-21 pt-21 pb-21 relative'>
+          <div className='letter overflow-hidden max-w-[1028px] h-auto flex flex-col gap-8 mx-auto z-2 px-6 tablet:px-21 pt-21 pb-21 relative'>
             <div className='-z-1 inset-0 bg-porcelain absolute letter-bg rounded-3xl'></div>
             <div className='editorial text-xl leading-6 absolute right-8 tablet:right-20'>
               <span>(O) Desde 2021</span>
             </div>
-            <h1 className='font-bold text-4xl w-50 not-tablet:leading-10 tablet:text-8xl editorial mt-50 tablet:w-2/3'>
+            <h1 className='font-bold text-4xl w-50 not-tablet:leading-10 tablet:text-8xl editorial mt-27.5 tablet:mt-50 tablet:w-2/3'>
               Carta da Fundadora
             </h1>
             <div className='letter-text text-sm leading-[160%] tablet:text-base flex flex-col gap-8 tablet:w-2/3 not-tablet:pb-50'>
@@ -218,7 +298,7 @@ const FounderLetter = () => {
             <img
               src={logo_desenho_beja}
               alt='Logo da Beja'
-              className='beja-logo h-18 tablet:h-32 absolute bottom-10 right-8 tablet:right-20'
+              className='beja-logo h-12 tablet:h-32 absolute right-8 tablet:right-20'
             />
             <img
               src='/assets/bicicletinha.svg'

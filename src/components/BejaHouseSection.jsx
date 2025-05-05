@@ -65,10 +65,9 @@ const BejaHouseSection = () => {
         <ImageSlider
           arr={[EspacoBeja, EspacoBeja2, EspacoBeja3]}
           translateYMiddleImg={"80"}
-          imgClassName='w-2/3 tablet:w-[47rem] tablet:h-[31rem]'
           imgStyle={{ borderRadius: "40px", overflow: "hidden" }}
           ButtonStyle={"text-retro-ochre bg-porcelain"}
-          buttonsClassName={"tablet:w-[47rem] w-2/3"}
+          buttonsClassName={"w-2/3 tablet:w-2/5"}
         />
       </div>
     </div>
