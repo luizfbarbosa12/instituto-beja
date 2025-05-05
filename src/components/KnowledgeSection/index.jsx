@@ -365,6 +365,7 @@ const KnowledgeSection = () => {
           ]}
         />
       </PartnerSection>
+
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}

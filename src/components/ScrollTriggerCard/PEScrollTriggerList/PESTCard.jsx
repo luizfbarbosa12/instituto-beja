@@ -1,13 +1,22 @@
 import { useRef } from "react";
-import { motion } from "framer-motion";
+import { motion, useTransform } from "framer-motion";
 import { calcClamp } from "./../../../data/Utils";
 import useMediaQuery from "./../../../hooks/useMediaQuery";
 import { cn } from "./../../../lib/utils";
 
-const PESTCard = ({ cssOverride, idx, data }) => {
+const PESTCard = ({
+  cssOverride,
+  idx,
+  data,
+  targetScale,
+  targetProgress,
+  range,
+}) => {
   const container = useRef(null);
 
   const mdScreen = useMediaQuery("(max-width:900px)");
+
+  const cardScale = useTransform(targetProgress, range, [1, targetScale]);
 
   return (
     <motion.div
@@ -15,8 +24,9 @@ const PESTCard = ({ cssOverride, idx, data }) => {
       ref={container}
       className='sticky top-0 w-full'
       style={{
+        scale: cardScale,
         top: !mdScreen
-          ? `calc(0% + ${idx * 12}rem)`
+          ? `calc(0% + ${idx * 5}rem)`
           : `calc(0% + ${idx * 7}rem)`,
       }}
     >

@@ -8,23 +8,25 @@ const PartnerSection = ({
   sectionImg,
   sectionImgStyle,
   title,
-  mainImg,
-  cardsImg,
+  partnerImg,
+  subCards,
   subtitle,
 }) => {
   return (
-    <div className='flex flex-col gap-16 w-full px-32 items-end max-1280:px-16 max-896:px-8 max-640:px-5 max-640:gap-8 pt-10'>
+    <div
+      className={`flex flex-col gap-16 w-full pb-25 px-32 items-end max-1280:px-16 max-896:px-8 max-640:px-5 max-640:gap-8 max-640:pb-15`}
+    >
       <PartnerCard
         section={section}
         sectionImg={sectionImg}
         sectionImgStyle={sectionImgStyle}
         title={title}
-        mainImg={mainImg}
-        img={cardsImg}
+        partnerImg={partnerImg}
+        subCards={subCards}
         subtitle={subtitle}
       />
 
-      <div className='flex flex-col gap-18 w-[66rem] max-[1325px]:w-full max-[650px]:gap-4'>
+      <div className='flex flex-col gap-18 w-[66rem] max-[1325px]:w-full max-640:gap-8'>
         <h1
           style={{
             fontSize: `clamp(${calcClamp(24, 64)})`,

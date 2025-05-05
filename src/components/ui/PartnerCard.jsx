@@ -5,12 +5,12 @@ const PartnerCard = ({
   sectionImg,
   sectionImgStyle,
   title,
-  mainImg,
-  img,
+  partnerImg,
+  subCards,
   subtitle,
 }) => {
-  const subImgMap = Array.isArray(img)
-    ? img.map((item, index) => (
+  const subImgMap = Array.isArray(subCards)
+    ? subCards.map((item, index) => (
         <img
           key={item}
           src={item}
@@ -20,9 +20,11 @@ const PartnerCard = ({
       ))
     : null;
 
+  console.log(partnerImg);
+
   return (
     <div className='flex flex-col w-full'>
-      <div className='flex gap-4 justify-end items-center w-full py-25 max-sm:py-8 max-sm:gap-2'>
+      <div className='flex gap-4 justify-end items-center w-full py-25 max-640:py-8 max-sm:gap-2'>
         <h1
           style={{
             fontSize: `clamp(${calcClamp(12, 36)})`,
@@ -55,14 +57,19 @@ const PartnerCard = ({
           {title}
         </h1>
 
-        <img
-          src={mainImg}
-          alt='Pela democracia'
-          style={{
-            width: `clamp(${calcClamp(86, 128)})`,
-            height: `clamp(${calcClamp(62, 92)})`,
-          }}
-        />
+        <div className='flex'>
+          {partnerImg?.map((item, index) => (
+            <img
+              key={index}
+              src={item}
+              alt='Pela democracia'
+              style={{
+                width: `clamp(${calcClamp(86, 128)})`,
+                height: `clamp(${calcClamp(62, 92)})`,
+              }}
+            />
+          ))}
+        </div>
 
         <div className='w-1/2 h-[1px] bg-gold' />
 

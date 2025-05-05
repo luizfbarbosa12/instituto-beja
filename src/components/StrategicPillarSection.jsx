@@ -1,7 +1,7 @@
-import { SPCardData } from "../data/StrategicPillarData";
-import PEScrollTriggerList from "./ScrollTriggerCard/PEScrollTriggerList/PEScrollTriggerList";
 import Wrapper from "./Wrapper";
 const Pillars = "/assets/PilaresEstrategicos.png";
+import { SPCardData } from "../data/StrategicPillarData";
+import PEScrollTriggerList from "./ScrollTriggerCard/PEScrollTriggerList/PEScrollTriggerList";
 
 const StrategicPillarSection = () => {
   return (

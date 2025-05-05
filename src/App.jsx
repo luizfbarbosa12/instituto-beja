@@ -1,15 +1,16 @@
 import gsap from "gsap";
 import Lenis from "lenis";
-import balance from "./data/balance.json";
 import { useGSAP } from "@gsap/react";
-import { FoundLetterToContextTransition } from "./components/FoundLetterToContextTransition";
 import { useEffect, lazy } from "react";
-import FirstSection from "./components/FirstSection";
+import balance from "./data/balance.json";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import FirstSection from "./components/FirstSection";
+import { FoundLetterToContextTransition } from "./components/FoundLetterToContextTransition";
+import BejaLabs from "./components/BejaLabs/BejaLabs";
 
 const Footer = lazy(() => import("./components/Footer/Footer"));
-const Expediente = lazy(() => import("./components/Expediente/Expediente"));
 const CMESection = lazy(() => import("./components/CMESection"));
+const Expediente = lazy(() => import("./components/Expediente/Expediente"));
 const BalancoTable = lazy(() => import("./components/Balance/Balance"));
 const FounderLetter = lazy(() => import("./components/FounderLetter"));
 const ManifestSection = lazy(() => import("./components/ManifestSection"));
@@ -62,7 +63,7 @@ const App = () => {
 
   return (
     <>
-      <FirstSection />
+      {/* <FirstSection />
       <FounderLetter />
       <FoundLetterToContextTransition />
       <RebrandingSection />
@@ -74,13 +75,13 @@ const App = () => {
       <InteractionEcosystem />
       <CMESection />
       <AdvocacySection />
-      <KnowledgeSection />
-      <PortfolioSection />
-      <PhilanthropySection />
+      <KnowledgeSection /> */}
+      <BejaLabs />
+      {/* <PhilanthropySection />
       <FinalSection />
       <BalancoTable data={balance} />
       <Expediente />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

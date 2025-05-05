@@ -19,7 +19,7 @@ const GoldenQuoteSlider = ({ arr, cite }) => {
   ));
 
   return (
-    <div className='w-full flex flex-col py-10'>
+    <div className='w-full flex flex-col py-10 max-640:py-5'>
       <Swiper
         spaceBetween={50}
         slidesPerView={1}
@@ -33,7 +33,7 @@ const GoldenQuoteSlider = ({ arr, cite }) => {
       <cite
         style={{
           fontSize: `clamp(${calcClamp(14, 28)})`,
-          lineHeight: `clamp(${calcClamp(14 * 1.3, 28 * 1.3)})`,
+          lineHeight: `clamp(${calcClamp(14 * 1.2, 28 * 1.2)})`,
         }}
         className='editorial text-retro-ochre w-full text-right'
       >
