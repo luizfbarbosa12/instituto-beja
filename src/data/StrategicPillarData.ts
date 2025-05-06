@@ -39,7 +39,7 @@ export const SPCardData = [
     title: "Beja Labs / Laboratórios",
     subtitle:
       "Incubadora de projetos filantrópicos e de impacto escaláveis, replicáveis e mensuráveis",
-    text: "O objetivo deste pilar dedicado à experimentação conjunta,  é desenvolver e apoiar projetos filantrópicos com  múltiplos atores e seus diferentes  policapitais, voltados a promover transformações profundas e relevantes no Brasil. Essa atuação é viabilizada  pelo suporte à medição de impacto, pela sistematização de práticas que possibilitam a replicação de iniciativas bem-sucedidas e pela incorporação de novas tecnologias para ampliar a escala das ações. As experiências e aprendizados decorrentes desses laboratórios também devem contribuir para discussões e pesquisas relativos ao pilar de conhecimento, além de oferecer subsídios a pleitos do pilar de advocacy.",
+    text: "O objetivo deste pilar dedicado à experimentação conjunta, é desenvolver e apoiar projetos filantrópicos com múltiplos atores e seus diferentes policapitais, voltados a promover transformações profundas e relevantes no Brasil. Essa atuação é viabilizada pelo suporte à medição de impacto, pela sistematização de práticas que possibilitam a replicação de iniciativas bem-sucedidas e pela incorporação de novas tecnologias para ampliar a escala das ações. As experiências e aprendizados decorrentes desses laboratórios também devem contribuir para discussões e pesquisas relativos ao pilar de conhecimento, além de oferecer subsídios a pleitos do pilar de advocacy.",
     list: [
       "Ambiente de colaboração e aprendizagem",
       "Acelerar, medir e escalar modelos",

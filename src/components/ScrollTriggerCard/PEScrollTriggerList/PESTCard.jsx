@@ -22,21 +22,26 @@ const PESTCard = ({
     <motion.div
       layout
       ref={container}
-      className='sticky top-0 w-full'
+      className='sticky top-0 w-full pt-2'
       style={{
         scale: cardScale,
         top: !mdScreen
-          ? `calc(0% + ${idx * 5}rem)`
-          : `calc(0% + ${idx * 7}rem)`,
+          ? `calc(0% + ${idx * 3}rem)`
+          : `calc(0% + ${idx * 2}rem)`,
       }}
     >
       <motion.div
         layout
         className={cn(
-          `flex flex-col overflow-hidden relative w-full rounded-[4rem] p-22.5 gap-6.5 max-tablet:p-5 max-tablet:pt-10 max-tablet:rounded-3xl`,
+          `flex flex-col overflow-hidden relative w-full rounded-[60px] gap-6.5 h-200 max-950:rounded-4xl max-768:h-160 max-640:rounded-2xl`,
           cssOverride,
         )}
         style={{
+          paddingLeft: `clamp(${calcClamp(28, 64)})`,
+          paddingRight: `clamp(${calcClamp(28, 64)})`,
+          paddingTop: `clamp(${calcClamp(28, 64)})`,
+          paddingBottom: `clamp(${calcClamp(28, 64)})`,
+
           backgroundColor: data.bgColor,
           color: data.textColor,
         }}
@@ -44,8 +49,8 @@ const PESTCard = ({
         <h1
           className='editorial'
           style={{
-            fontSize: `clamp(${calcClamp(28, 64)})`,
-            lineHeight: `clamp(${calcClamp(28 * 1.5, 64 * 1.5)})`,
+            fontSize: `clamp(${calcClamp(20, 48)})`,
+            lineHeight: `clamp(${calcClamp(20 * 1.3, 48 * 1.3)})`,
           }}
         >
           {data.title}
@@ -53,13 +58,13 @@ const PESTCard = ({
 
         <motion.div
           layout
-          className='flex w-full gap-20 max-tablet:flex-col max-tablet:gap-5'
+          className='flex w-full gap-20 max-768:flex-col max-768:gap-5'
         >
           <p
             className='editorial w-full leading-12 max-768:leading-8'
             style={{
-              fontSize: `clamp(${calcClamp(18 * 1.5, 32 * 1.5)})`,
-              lineHeight: `clamp(${calcClamp(18 * 1.5, 32 * 1.5)})`,
+              fontSize: `clamp(${calcClamp(14, 28)})`,
+              lineHeight: `clamp(${calcClamp(14 * 1.3, 28 * 1.3)})`,
             }}
           >
             {data.subtitle}
@@ -69,8 +74,8 @@ const PESTCard = ({
             layout
             className='w-full leading-6 z-10'
             style={{
-              fontSize: `clamp(${calcClamp(12, 18)})`,
-              lineHeight: `clamp(${calcClamp(12 * 1.5, 18 * 1.5)})`,
+              fontSize: `clamp(${calcClamp(12, 16)})`,
+              lineHeight: `clamp(${calcClamp(12 * 1.3, 16 * 1.3)})`,
             }}
           >
             {data.text}
@@ -85,13 +90,13 @@ const PESTCard = ({
 
           <ul
             style={{ "--tw-marker-color": data.lineColor }}
-            className={`flex flex-col gap-7 text-2xl tablet:pr-20 list-disc list-inside marker:text-4xl w-fit z-10 max-tablet:gap-3 tablet:max-w-1/2`}
+            className={`flex flex-col gap-2 list-disc list-inside w-fit z-10`}
           >
             {data.list.map((item, index) => (
               <li
                 key={index}
                 style={{
-                  fontSize: `clamp(${calcClamp(12, 32)})`,
+                  fontSize: `clamp(${calcClamp(12, 28)})`,
                   lineHeight: `clamp(${calcClamp(12 * 1.5, 32 * 1.5)})`,
                 }}
               >
@@ -104,7 +109,10 @@ const PESTCard = ({
         <img
           src={data.img}
           alt='Imagem de uma mão'
-          className='relative max-tablet:-mb-5 tablet:absolute object-contain bottom-0 right-0 h-80 tablet:w-2/5 tablet:h-auto tablet:max-h-1/2'
+          className='absolute object-contain -bottom-5 right-0 max-1280:opacity-75'
+          style={{
+            height: `clamp(${calcClamp(188, 422)})`,
+          }}
         />
       </motion.div>
     </motion.div>

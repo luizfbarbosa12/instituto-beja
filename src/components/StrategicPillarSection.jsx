@@ -27,7 +27,7 @@ const StrategicPillarSection = () => {
         </div>
       </Wrapper>
 
-      <div className='flex flex-col w-full gap-10 pb-8'>
+      <div className='flex flex-col w-full gap-10 pb-8 px-16 max-950:px-4 max-640:px-0'>
         <PEScrollTriggerList arr={SPCardData} />
       </div>
     </div>
