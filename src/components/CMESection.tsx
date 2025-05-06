@@ -272,7 +272,14 @@ const CMESection = () => {
               <div className='w-full overflow-hidden'>
                 <motion.div
                   drag='x'
-                  dragConstraints={{ left: (VTCME.length * 115 + (VTCME.length - 1) * 16 - window.innerWidth + 64), right: 0 }}
+                  dragConstraints={{
+                    left:
+                      VTCME.length * 115 +
+                      (VTCME.length - 1) * 16 -
+                      window.innerWidth +
+                      64,
+                    right: 0,
+                  }}
                   className='flex w-full gap-4 pl-100'
                 >
                   {VTCMEmap}
