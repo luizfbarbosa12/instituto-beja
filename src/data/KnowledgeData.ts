@@ -67,5 +67,4 @@ export const fases = [
     descricao:
       "Nesta etapa, o foco é consolidar os achados da pesquisa, analisando as formas pelas quais a filantropia, a justiça social e a democracia se aproximaram e se antagonizaram nos modelos de filantropia ao longo da história brasileira. O impacto esperado é a criação de um ambiente rico em trocas de conhecimento e análises substanciais, promovendo a valorização da formação teórica e prática no campo da filantropia. Os seminários e os resultados obtidos serão amplamente divulgados e compartilhados, contribuindo para a construção de uma nova teoria política filantrópica no Brasil - que poderá, inclusive, influenciar práticas globais, a partir da perspectiva do Sul Global.",
   },
-  {},
 ];

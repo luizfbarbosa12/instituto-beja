@@ -3,21 +3,20 @@ import "swiper/css/scrollbar";
 import "swiper/css/pagination";
 import TextBlock from "../TextBlock";
 import TopicList from "../ui/TopicList";
-import { Scrollbar } from "swiper/modules";
 import { Images } from "../../assets/Index";
 import { calcClamp } from "../../data/Utils";
 import AnimatedLine from "../ui/AnimatedLine";
 import PinkBox from "../AdvocacySection/PinkBox";
 import PartnerSection from "../ui/PartnerSection";
-import { Swiper, SwiperSlide } from "swiper/react";
 import GoldenQuoteSlider from "../ui/GoldenQuoteSlider";
 import ExternalLinkContainer from "../ui/ExternalLinkContainer";
-import { fases, KnowledgeData } from "../../data/KnowledgeData";
+import { KnowledgeData } from "../../data/KnowledgeData";
 import { KnowledgeSectionVentTransition } from "./KnowledgeSectionVentTransition";
+import { KnowledgeSectionHorizontalScrollCarousel } from "./HorizontallScrollCarousel";
 
 const KnowledgeSection = () => {
   return (
-    <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
+    <div className='pb-90'>
       <KnowledgeSectionVentTransition />
 
       <PartnerSection
@@ -456,26 +455,7 @@ const KnowledgeSection = () => {
           cite={"Rissa Ventura, Pesquisadora"}
         />
 
-        <Swiper
-          scrollbar={{
-            hide: true,
-          }}
-          modules={[Scrollbar]}
-          pagination={{ clickable: true }}
-          centeredSlides={false}
-          slidesPerView={2}
-          spaceBetween={20}
-          className='w-screen'
-        >
-          {fases.map((fase, index) => (
-            <SwiperSlide key={index}>
-              <div className='bg-transparent border border-gray-300 rounded-3xl h-[400px] p-16 shadow-sm flex-shrink-0'>
-                <h3 className='text-xl font-bold mb-4'>{fase.titulo}</h3>
-                <p className='text-base text-bourdeaux'>{fase.descricao}</p>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        <KnowledgeSectionHorizontalScrollCarousel />
 
         <TextBlock
           firstBlock={[
