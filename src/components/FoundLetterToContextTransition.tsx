@@ -158,14 +158,14 @@ export function FoundLetterToContextTransition() {
                 aprendizado contínuo e aprofundou o impacto das ações,
                 consolidando ainda mais a atuação do Instituto.
               </p>
-            </NoticeColumn>
-            <NoticeColumn>
               <p>
                 O desenvolvimento institucional também se refletiu no
                 estabelecimento de novas parcerias e na expansão das conexões
                 com o Sul Global, fundamentadas em confiança, compromisso e
                 colaboração.
               </p>
+            </NoticeColumn>
+            <NoticeColumn>
               <p>
                 Essa rede fortalece iniciativas duradouras, promovendo um ciclo
                 contínuo de trocas de experiências, essenciais para sustentar o
