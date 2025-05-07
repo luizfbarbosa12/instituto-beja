@@ -1,11 +1,11 @@
 const Expediente = () => {
   return (
     <div className='bg-rose p-8 md:p-12 min-h-screen relative'>
-      <div className='absolute left-0 bottom-0 w-1/2 h-full pointer-events-none'>
+       <div className="absolute bottom-0 w-1/2 h-full pointer-events-none right-0 md:left-0">
         <img
-          src='/assets/folhas.png'
-          alt='Decorative golden leaf pattern'
-          className='w-full h-full object-contain object-left-bottom'
+          src="/assets/folhas.png"
+          alt="Decorative golden leaf pattern"
+          className="w-full h-full object-contain object-right-bottom md:object-left-bottom"
         />
       </div>
 
