@@ -75,7 +75,7 @@ const ImageSlider = ({
                 )}
                 style={{
                   width: `clamp(${calcClamp(250, 564)})`,
-                  height: `clamp(${calcClamp(160, 376)})`,
+                  height: "auto",
                   ...imgStyle,
                 }}
                 transition={{ duration: 0.25, ease: "easeOut" }}

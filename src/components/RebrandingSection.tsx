@@ -11,6 +11,9 @@ import {
   CarouselDots,
   CarouselItem,
 } from "./ui/carousel";
+import { NoticeContainer } from "./ui/NoticeContainer";
+import { NoticeColumn } from "./ui/NoticeColumn";
+import { SectionTitle } from "./ui/SectionTitle";
 
 const Logo = "/assets/LogoRebranding.svg";
 const RebrandingSection = () => {
@@ -20,21 +23,20 @@ const RebrandingSection = () => {
 
   return (
     <div className='flex flex-col gap-8 tablet:gap-48 mt-22.5 tablet:mt-75 w-full overflow-hidden bg-porcelain'>
-      <Wrapper className='mx-6'>
-        <div className='flex flex-col w-full gap-6 tablet:gap-44'>
-          <div className='flex flex-col gap-[4rem]'>
-            <h1 className='tablet:text-8xl editorial text-[28px] leading-[65px] tablet:leading-none'>
-              Rebranding
-            </h1>
+      <div className='flex flex-col w-full gap-6 tablet:gap-44'>
+        <div className='flex flex-col gap-[4rem] tablet:mx-25'>
+          <SectionTitle title='Rebranding' />
 
-            <div className='flex tablet:items-center flex-col tablet:flex-row gap-10 tablet:gap-40 w-full justify-end'>
-              <img
-                src={Logo}
-                alt='Beja logo'
-                className='self-center size-50 tablet:size-60'
-              />
-
-              <div className='tablet:w-[31rem] flex flex-col text-bourdeaux gap-[3rem] text-xs leading-[160%] tablet:text-lg'>
+          <div className='flex tablet:items-center flex-col tablet:flex-row gap-10 tablet:gap-40 w-full justify-end'>
+            <NoticeContainer className='max-w-250 self-end'>
+              <NoticeColumn>
+                <img
+                  src={Logo}
+                  alt='Beja logo'
+                  className='self-center size-50 tablet:size-60'
+                />
+              </NoticeColumn>
+              <NoticeColumn>
                 <p>
                   Desenvolver o rebranding do <strong>Instituto Beja </strong>
                   representou mais do que um desafio criativo – foi um mergulho
@@ -55,11 +57,11 @@ const RebrandingSection = () => {
                   riqueza, enquanto criávamos uma comunicação clara, objetiva e
                   capaz de refletir nossa força e autenticidade.
                 </p>
-              </div>
-            </div>
+              </NoticeColumn>
+            </NoticeContainer>
           </div>
         </div>
-      </Wrapper>
+      </div>
 
       <div className='flex flex-col gap-14 tablet:gap-65 w-full'>
         <div className='w-full flex flex-col tablet:items-center editorial h-fit gap-14 tablet:gap-10'>

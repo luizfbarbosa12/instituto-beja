@@ -3,6 +3,7 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import { NoticeContainer } from "./ui/NoticeContainer";
 import { NoticeColumn } from "./ui/NoticeColumn";
+import { SectionTitle } from "./ui/SectionTitle";
 
 export function FoundLetterToContextTransition() {
   const container = useRef(null);
@@ -65,15 +66,14 @@ export function FoundLetterToContextTransition() {
         <div className='ball rounded-t-[100vw] absolute w-full h-full bg-porcelain overflow-hidden' />
 
         <div className='vent-container mb-9 tablet:mb-16 min-h-screen z-1 relative mt-60 tablet:mt-140 overflow-hidden flex flex-col mx-4.5 tablet:mx-25'>
-          <h1 className='editorial text-[28px] leading-[65px] tablet:text-6xl tablet:pb-14 self-start'>
-            Contexto
-          </h1>
-          <h2 className='py-7.5 px-2.5 text-base tablet:text-4xl text-rose editorial flex self-end flex-col max-w-250 tablet:ml-55 tablet:pb-22.5'>
+          <SectionTitle title='Contexto' className='tablet:pb-14' />
+
+          <h3 className='py-7.5 px-2.5 text-base tablet:text-4xl text-rose editorial flex self-end flex-col max-w-250 tablet:ml-55 tablet:pb-22.5'>
             Este documento sintetiza as investigações, interações, descobertas e
             reflexões coletivas ao longo dos três anos que nos inspiram
             diariamente a desafiar modelos ultrapassados para a prática de uma
             filantropia que gostamos de denominar como “oxigenada”.
-          </h2>
+          </h3>
           <NoticeContainer className='max-w-250 self-end'>
             <NoticeColumn>
               <p>
