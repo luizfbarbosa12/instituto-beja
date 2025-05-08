@@ -1,7 +1,5 @@
 /* eslint-disable react/jsx-key */
-const CMECard1 = "/assets/CMECard1.png";
-const CMECard2 = "/assets/CMECard2.png";
-const CMECard3 = "/assets/CMECard3.png";
+import { Images } from "../assets/Index";
 const MapBiomasLogo = "/assets/MapBiomas.svg";
 const SerenasLogo = "/assets/SerenasLogo.svg";
 const DesenrolaLogo = "/assets/DesenrolaLogo.svg";
@@ -10,7 +8,7 @@ export const AEPIE = [
   {
     bgColor: "bg-white",
     text: "Ampliando os esforços de Orquestradores de Sistemas no Brasil por meio da construção de caminhos que potencializam as forças de diversos atores e colaboradoras locais e globais para enfrentar os desafios sociais do nosso contexto.",
-    img: CMECard1,
+    img: Images.CME.CmeMiniWheel1,
     title: {
       color: "text-cyan",
       name: "Catalisando efeitos de rede",
@@ -19,7 +17,7 @@ export const AEPIE = [
   {
     bgColor: "bg-[#FFECFD]",
     text: "Criando um ambiente em que atores de diferentes setores no Brasil — da sociedade civil, academia e setor público ao setor privado e fundações — possam se reunir para desenvolver soluções escaláveis. Isso se dá por meio da inovação e do uso estratégico das capacidades e recursos já existentes no sistema.",
-    img: CMECard2,
+    img: Images.CME.CmeMiniWheel2,
     title: {
       color: "text-[#E679E0]",
       name: "Cocriando com atores societais",
@@ -28,7 +26,7 @@ export const AEPIE = [
   {
     bgColor: "bg-[#FFCBC4]",
     text: "No tempo em que vivemos, tecnologias digitais como Bens Públicos Digitais e Infraestruturas Públicas Digitais — em forma de plataformas, protocolos e Inteligência Artificial (IA) — desempenham um papel essencial na geração de impacto em escala. Recursos abertos e compartilhados, como conhecimento, ferramentas, dados e redes, aceleram o desenvolvimento de capacidades e a oferta de serviços eficazes para comunidades vulnerabilizadas e historicamente marginalizadas.",
-    img: CMECard3,
+    img: Images.CME.CmeMiniWheel3,
     title: {
       color: "text-hot-coral",
       name: "Alavancando capacidades compartilhadas",
@@ -60,6 +58,36 @@ export const VTCME = [
 ];
 
 export const CMEPartners = [
+  {
+    bgColor: "bg-[#FFCBC4]",
+    img: DesenrolaLogo,
+    title: {
+      color: "text-hot-coral",
+      name: "Desenrola e não me enrola",
+    },
+    text: [
+      <p>
+        Desenvolve jornalismo comunitário e educação antirracista e midiática em
+        favelas e periferias urbanas, para construir ecossistemas informacionais
+        para combater as desigualdades digitais e informacionais.
+      </p>,
+
+      <strong>
+        Criado em 2013 por moradores das periferias, seu trabalho descentraliza
+        a produção de conhecimento e impulsiona o engajamento cívico, criando
+        soluções inovadoras para enfrentar a desinformação, segregação digital e
+        exclusão midiática.
+      </strong>,
+
+      <p>
+        Ao desenvolver tecnologias escaláveis que possibilitam a educação
+        midiática, oportunidades de emprego e acesso a informações de melhor
+        qualidade, o <strong>Desenrola</strong> exerce um papel vital na
+        promoção de ecossistemas informacionais inclusivos que reduzem
+        desigualdades e fortalecem a democracia.
+      </p>,
+    ],
+  },
   {
     bgColor: "bg-porcelain",
     img: MapBiomasLogo,
@@ -135,34 +163,18 @@ export const CMEPartners = [
       </p>,
     ],
   },
-  {
-    bgColor: "bg-[#FFCBC4]",
-    img: DesenrolaLogo,
-    title: {
-      color: "text-hot-coral",
-      name: "Desenrola e não me enrola",
-    },
-    text: [
-      <p>
-        Desenvolve jornalismo comunitário e educação antirracista e midiática em
-        favelas e periferias urbanas, para construir ecossistemas informacionais
-        para combater as desigualdades digitais e informacionais.
-      </p>,
+];
 
-      <strong>
-        Criado em 2013 por moradores das periferias, seu trabalho descentraliza
-        a produção de conhecimento e impulsiona o engajamento cívico, criando
-        soluções inovadoras para enfrentar a desinformação, segregação digital e
-        exclusão midiática.
-      </strong>,
+export const cmeActionList = [
+  "Formalizou uma parceria global com o Centre for Exponential Change (C4EC)",
+  "Construiu e lançou o Centro para Mudanças Exponenciais (CMe) em São Paulo, em novembro",
+  "Realizou diálogos profundos com financiadores e especialistas durante o Filantropando e, posteriormente, no CMe",
+  "Engajou Orquestradores de Sistemas no Brasil para selecionar as jornadas iniciais do CMe",
+  "Selecionou o primeiro grupo de Orquestradores de Sistemas e iniciou suas jornadas de mudança exponencial",
+];
 
-      <p>
-        Ao desenvolver tecnologias escaláveis que possibilitam a educação
-        midiática, oportunidades de emprego e acesso a informações de melhor
-        qualidade, o <strong>Desenrola</strong> exerce um papel vital na
-        promoção de ecossistemas informacionais inclusivos que reduzem
-        desigualdades e fortalecem a democracia.
-      </p>,
-    ],
-  },
+export const OSList = [
+  Images.Logos.MapBiomasLogo,
+  Images.Logos.SerenasLogo,
+  Images.Logos.DesenrolaLogo,
 ];

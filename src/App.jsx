@@ -9,7 +9,7 @@ import { FoundLetterToContextTransition } from "./components/FoundLetterToContex
 import BejaLabs from "./components/BejaLabs/BejaLabs";
 
 const Footer = lazy(() => import("./components/Footer/Footer"));
-const CMESection = lazy(() => import("./components/CMESection"));
+const CMESection = lazy(() => import("./components/CMeSection/CMESection"));
 const Expediente = lazy(() => import("./components/Expediente/Expediente"));
 const BalancoTable = lazy(() => import("./components/Balance/Balance"));
 const FounderLetter = lazy(() => import("./components/FounderLetter"));
@@ -63,7 +63,7 @@ const App = () => {
 
   return (
     <>
-      <FirstSection />
+      {/* <FirstSection />
       <FounderLetter />
       <FoundLetterToContextTransition />
       <RebrandingSection />
@@ -72,16 +72,16 @@ const App = () => {
       <BejaHouseSection />
       <ChangeTheorySection />
       <StrategicPillarSection />
-      <InteractionEcosystem />
+      <InteractionEcosystem /> */}
       <CMESection />
-      <AdvocacySection />
+      {/* <AdvocacySection />
       <KnowledgeSection />
       <BejaLabs />
       <PhilanthropySection />
       <FinalSection />
       <BalancoTable data={balance} />
       <Expediente />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

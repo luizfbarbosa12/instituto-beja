@@ -10,7 +10,11 @@ const Axle = ({ axle, title, subtitle, cards, text, link }) => {
     offset: ["start end", "end start"],
   });
 
-  const height = useTransform(scrollYProgress, [0, 0.5], ["0%", "100%"]);
+  const heightAnimation = useTransform(
+    scrollYProgress,
+    [0, 0.5],
+    ["0%", "100%"],
+  );
 
   return (
     <div
@@ -45,7 +49,7 @@ const Axle = ({ axle, title, subtitle, cards, text, link }) => {
             style={{ gap: `clamp(${calcClamp(22, 48)})` }}
           >
             <motion.div
-              style={{ height }}
+              style={{ height: heightAnimation }}
               className='absolute -left-3 top-0 w-[1px] bg-bourdeaux rounded origin-top'
             >
               <div className='absolute -left-[3px] bottom-0 size-2 rounded-full bg-bourdeaux' />

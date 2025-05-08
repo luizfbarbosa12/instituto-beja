@@ -13,9 +13,8 @@ const PEScrollTriggerList = ({ arr }) => {
   const mdScreen = useMediaQuery("(max-width:768px)");
 
   const cardMap = arr.map((item, index) => {
-    // A escala do card atual deve ser reduzida quando o PRÓXIMO card chegar na metade
     const targetScale =
-      index === arr.length - 1 ? 1 : 1 - (arr.length - index - 1) * 0.03; // Ajuste progressivo
+      index === arr.length - 1 ? 1 : 1 - (arr.length - index - 1) * 0.03;
 
     return (
       <PESTCard
@@ -23,8 +22,8 @@ const PEScrollTriggerList = ({ arr }) => {
         idx={index}
         cssOverride={item}
         range={[
-          (index + (!mdScreen ? 1.6 : 1.9)) / arr.length, // Início: quando próximo card entra
-          (index + (!mdScreen ? 1.8 : 2.1)) / arr.length, // Fim: quando próximo card está na metade
+          (index + (!mdScreen ? 1.6 : 1.9)) / arr.length,
+          (index + (!mdScreen ? 1.8 : 2.1)) / arr.length,
         ]}
         targetScale={targetScale}
         targetProgress={scrollYProgress}

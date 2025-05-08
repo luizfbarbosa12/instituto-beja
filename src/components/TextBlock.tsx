@@ -10,7 +10,7 @@ type TextBlockProps = {
 const TextBlock = ({ firstBlock, secondBlock, className }: TextBlockProps) => {
   return (
     <div
-      className={`flex justify-end gap-12 max-w-264 max-[650px]:flex-col max-[650px]:gap-8 max-sm:gap-4 ${className}`}
+      className={`flex justify-end gap-12 max-w-264 max-640:flex-col max-640:gap-4 ${className}`}
     >
       {firstBlock && (
         <div
@@ -26,7 +26,7 @@ const TextBlock = ({ firstBlock, secondBlock, className }: TextBlockProps) => {
                 fontSize: `clamp(${calcClamp(12, 16)})`,
                 lineHeight: `clamp(${calcClamp(12 * 1.5, 16 * 1.5)})`,
               }}
-              className='flex flex-col w-full gap-8'
+              className='flex flex-col w-full gap-8 max-640:gap-4'
               key={key}
             >
               {content}
@@ -41,7 +41,7 @@ const TextBlock = ({ firstBlock, secondBlock, className }: TextBlockProps) => {
             fontSize: `clamp(${calcClamp(12, 16)})`,
             lineHeight: `clamp(${calcClamp(12 * 1.5, 16 * 1.5)})`,
           }}
-          className='w-1/2  max-[650px]:w-full '
+          className='w-1/2 max-[650px]:w-full '
         >
           {secondBlock.map(({ key, content }) => (
             <div
@@ -49,7 +49,7 @@ const TextBlock = ({ firstBlock, secondBlock, className }: TextBlockProps) => {
                 fontSize: `clamp(${calcClamp(12, 16)})`,
                 lineHeight: `clamp(${calcClamp(12 * 1.5, 16 * 1.5)})`,
               }}
-              className='flex flex-col w-full gap-8'
+              className='flex flex-col w-full gap-8 max-640:gap-4'
               key={key}
             >
               {content}

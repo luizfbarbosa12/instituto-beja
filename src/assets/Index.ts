@@ -17,6 +17,8 @@ export const Images = {
     IgapareLogo: "/assets/IgapareLogo.svg",
     CiraTHPLogo: "/assets/CiraTHPLogo.svg",
     SerenasLogo: "/assets/Serenas_logo.svg",
+    DesenrolaLogo: "/assets/DesenrolaLogo.svg",
+    MapBiomasLogo: "/assets/MapBiomasLogo.svg",
     ATAHUALPALogo: "/assets/ATAHUALPALogo.svg",
     AppCivicoLogo: "/assets/AppCivicoLogo.svg",
     ItauViverMais: "/assets/ItauViverMais.svg",
@@ -61,5 +63,13 @@ export const Images = {
   BejaLabs: {
     MapeamentoBrasil: "/assets/MapeamentoBrasil.svg",
     Globe: "/assets/Ilustracao-8.png",
+  },
+  CME: {
+    CentroME: "/assets/LogoCME.svg",
+    CMEWheel: "/assets/CMEWheel.svg",
+    CMEGrafico: "/assets/CMEGrafico.svg",
+    CmeMiniWheel1: "/assets/CmeMiniWheel1.svg",
+    CmeMiniWheel2: "/assets/CmeMiniWheel2.svg",
+    CmeMiniWheel3: "/assets/CmeMiniWheel3.svg",
   },
 };
