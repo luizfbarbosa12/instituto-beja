@@ -15,7 +15,6 @@ const BalancoTable = lazy(() => import("./components/Balance/Balance"));
 const FounderLetter = lazy(() => import("./components/FounderLetter"));
 const ManifestSection = lazy(() => import("./components/ManifestSection"));
 const BejaHouseSection = lazy(() => import("./components/BejaHouseSection"));
-const PortfolioSection = lazy(() => import("./components/PortfolioSection"));
 const KnowledgeSection = lazy(() => import("./components/KnowledgeSection"));
 const RebrandingSection = lazy(() => import("./components/RebrandingSection"));
 

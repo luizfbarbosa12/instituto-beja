@@ -14,7 +14,7 @@ export function KnowledgeSectionHorizontalScrollCarousel() {
 
   return (
     <div ref={targetRef} className='py-12 h-[220vh] w-full'>
-      <div className='sticky top-20 tablet:top-1/3 flex items-start overflow-hidden'>
+      <div className='sticky top-20 tablet:top-20 flex items-start overflow-hidden'>
         <motion.div
           style={{ x: translatedX }}
           className='pl-70 flex flex-row gap-6 px-4'

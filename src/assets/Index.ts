@@ -6,6 +6,7 @@ export const Images = {
     PipaLogo: "/assets/PipaLogo.svg",
     IcciLogo: "/assets/IcciLogo.svg",
     GifeLogo: "/assets/GifeLogo.svg",
+    BejaLogoAnimadaBranca: "/assets/beja-logo-animada-branca.gif",
     BejaLogo: "/assets/BejaLogo.png",
     IDBRLogo: "/assets/IDBRLogo.svg",
     IDISLogo: "/assets/IDISLogo.svg",

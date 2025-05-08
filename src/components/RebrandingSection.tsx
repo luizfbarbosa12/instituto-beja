@@ -15,14 +15,14 @@ import { NoticeContainer } from "./ui/NoticeContainer";
 import { NoticeColumn } from "./ui/NoticeColumn";
 import { SectionTitle } from "./ui/SectionTitle";
 
-const Logo = "/assets/LogoRebranding.svg";
+const Logo = "/assets/beja-logo-animada-marrom.gif";
 const RebrandingSection = () => {
   const bejaCoverImagesMap = bejaCoverImgs.map((item, index) => (
     <img className='select-none' key={index} src={item} alt='' />
   ));
 
   return (
-    <div className='flex flex-col gap-8 tablet:gap-48 mt-22.5 tablet:mt-75 w-full overflow-hidden bg-porcelain'>
+    <div className='flex flex-col gap-8 tablet:gap-30 mt-22.5 tablet:mt-75 w-full overflow-hidden bg-porcelain'>
       <div className='flex flex-col w-full gap-6 tablet:gap-44'>
         <div className='flex flex-col gap-[4rem] tablet:mx-25'>
           <SectionTitle title='Rebranding' />
@@ -33,7 +33,7 @@ const RebrandingSection = () => {
                 <img
                   src={Logo}
                   alt='Beja logo'
-                  className='self-center size-50 tablet:size-60'
+                  className='self-center size-60 tablet:size-80'
                 />
               </NoticeColumn>
               <NoticeColumn>

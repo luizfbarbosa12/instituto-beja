@@ -15,14 +15,14 @@ const AdvocacySection = () => {
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
       <div
         style={{ backgroundImage: "url('/assets/AdvocacyFSBG.png')" }}
-        className='flex-center flex-col w-full min-h-screen gap-25 bg-no-repeat bg-cover bg-center
+        className='flex-center flex-col w-full min-h-screen gap-6 bg-no-repeat bg-cover bg-center
         max-1024:px-8
-        max-768:px-6 max-768:gap-14'
+        max-768:px-6 max-768:gap-6'
       >
         <img
           alt='Beja Logo'
-          src={Images.Logos.BejaLogo}
-          className='max-1366:size-[12rem] max-640:size-[6rem]'
+          src={Images.Logos.BejaLogoAnimadaBranca}
+          className='max-1366:size-120 max-640:size-60'
         />
 
         <h1 className='editorial text-5xl max-w-225 leading-15 text-center text-porcelain max-1025:w-full max-768:text-4xl max-768:leading-12 max-640:text-lg max-640:leading-normal'>
