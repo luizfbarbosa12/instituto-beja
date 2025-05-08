@@ -14,6 +14,8 @@ import {
 } from "../../data/cmeData.js";
 
 import { ArrowRightLink } from "../ui/ArrowRightLink.js";
+import { NoticeContainer } from "../ui/NoticeContainer.js";
+import { NoticeColumn } from "../ui/NoticeColumn.js";
 
 const CMESection = () => {
   const targetRef1 = useRef(null);
@@ -82,74 +84,57 @@ const CMESection = () => {
         />
       </div>
 
-      <div className='flex flex-col items-end w-full gap-15 pt-20 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:gap-5'>
-        <h1
+      <div className='flex flex-col items-end w-full gap-15 pt-20 px-4.5 tablet:px-25 max-768:gap-5'>
+        <h3
           style={{ fontSize: `clamp(${calcClamp(32, 64)})` }}
           className='text-hot-coral editorial w-full'
         >
           Centro para Mudanças Exponenciais (CMe)
-        </h1>
+        </h3>
+
+        <NoticeContainer className='max-w-250 self-end'>
+          <NoticeColumn>
+            <p>
+              Em 2024, inauguramos o{" "}
+              <strong>Centro para Mudanças Exponenciais (CMe)</strong>, uma
+              cocriação brasileira com o{" "}
+              <strong>Centre for Exponential Change (C4EC)</strong>. O C4EC é
+              uma rede global de apoio que reacende a imaginação e capacita{" "}
+              <strong>Orquestradores de Sistemas</strong>, que catalisam
+              mudanças exponenciais positivas na construção de uma sociedade
+              melhor. Cofundamos o C4EC junto com a{" "}
+              <strong>
+                Nilekani Philanthropies (Índia), New Profit (EUA), Skoll
+                Foundation (Global), Waverley Street Foundation (Global) e
+                Yellowwoods (África do Sul).
+              </strong>
+            </p>
+          </NoticeColumn>
+          <NoticeColumn>
+            <p>
+              No Brasil, o CMe atua como um{" "}
+              <strong>articulador de ecossistemas</strong>, conectando a
+              sociedade civil, o setor privado e o governo para promover
+              transformações sistêmicas dentro do contexto único do país. A
+              abordagem do CMe valoriza a <strong>ação coletiva</strong>e o uso
+              estratégico de <strong>tecnologias digitais</strong>, que, quando
+              desenhadas com cuidado, segurança e inclusão, podem enfrentar os
+              desafios atuais com velocidade, escala e sustentabilidade.
+            </p>
+
+            <p>
+              O CMe conta com um comitê multissetorial de embaixadoras e
+              embaixadores, composto por{" "}
+              <strong>
+                Jéssica Silva, Cristiano Franco, Luca Cavalcanti, Saulo Barreto,
+                Sheila Pires, Silvana Bahia, Thiago Rached, Cristiane Sultani,
+                Sanjay Purohit e Célia Cruz.
+              </strong>
+            </p>
+          </NoticeColumn>
+        </NoticeContainer>
 
         <div className='flex flex-col gap-30 w-[66rem] max-[1325px]:w-full'>
-          <TextBlock
-            firstBlock={[
-              {
-                key: "first-0",
-                content: (
-                  <>
-                    <p>
-                      Em 2024, inauguramos o{" "}
-                      <strong>Centro para Mudanças Exponenciais (CMe)</strong>,
-                      uma cocriação brasileira com o{" "}
-                      <strong>Centre for Exponential Change (C4EC)</strong>. O
-                      C4EC é uma rede global de apoio que reacende a imaginação
-                      e capacita <strong>Orquestradores de Sistemas</strong>,
-                      que catalisam mudanças exponenciais positivas na
-                      construção de uma sociedade melhor. Cofundamos o C4EC
-                      junto com a{" "}
-                      <strong>
-                        Nilekani Philanthropies (Índia), New Profit (EUA), Skoll
-                        Foundation (Global), Waverley Street Foundation (Global)
-                        e Yellowwoods (África do Sul).
-                      </strong>
-                    </p>
-                  </>
-                ),
-              },
-            ]}
-            secondBlock={[
-              {
-                key: "second-0",
-                content: (
-                  <>
-                    <p>
-                      No Brasil, o CMe atua como um{" "}
-                      <strong>articulador de ecossistemas</strong>, conectando a
-                      sociedade civil, o setor privado e o governo para promover
-                      transformações sistêmicas dentro do contexto único do
-                      país. A abordagem do CMe valoriza a{" "}
-                      <strong>ação coletiva</strong>e o uso estratégico de{" "}
-                      <strong>tecnologias digitais</strong>, que, quando
-                      desenhadas com cuidado, segurança e inclusão, podem
-                      enfrentar os desafios atuais com velocidade, escala e
-                      sustentabilidade.
-                    </p>
-
-                    <p>
-                      O CMe conta com um comitê multissetorial de embaixadoras e
-                      embaixadores, composto por{" "}
-                      <strong>
-                        Jéssica Silva, Cristiano Franco, Luca Cavalcanti, Saulo
-                        Barreto, Sheila Pires, Silvana Bahia, Thiago Rached,
-                        Cristiane Sultani, Sanjay Purohit e Célia Cruz.
-                      </strong>
-                    </p>
-                  </>
-                ),
-              },
-            ]}
-          />
-
           <div className='flex flex-col gap-8'>
             <div className='flex flex-col gap-2'>
               <div
