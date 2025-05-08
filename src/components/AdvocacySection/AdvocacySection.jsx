@@ -73,8 +73,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Associação"}
-        mainImg={Images.Secoes.AliancaAdvocacy}
-        cardsImg={[
+        partnerImg={[Images.Secoes.AliancaAdvocacy]}
+        subCards={[
           Images.Secoes.PelaDemocracia2,
           Images.Secoes.FilantropiaSubCard,
         ]}
@@ -134,8 +134,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
-        mainImg={Images.Logos.UspLogo}
-        cardsImg={[Images.Secoes.JusticaRacial]}
+        partnerImg={[Images.Logos.UspLogo]}
+        subCards={[Images.Secoes.JusticaRacial]}
         subtitle={"Vigência - 2023"}
         partnerName={"Endowment: Fundo USP Diversa"}
       >
@@ -261,8 +261,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
-        mainImg={Images.Logos.SerenasLogo}
-        cardsImg={[Images.Secoes.JusticaRacial, Images.Secoes.EquidadeGenero]}
+        partnerImg={[Images.Logos.SerenasLogo]}
+        subCards={[Images.Secoes.JusticaRacial, Images.Secoes.EquidadeGenero]}
         subtitle={"Vigência - 2023 - 2027"}
         partnerName={"Serenas"}
       >
@@ -425,8 +425,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
-        mainImg={Images.Logos.PonteLogo}
-        cardsImg={[Images.Secoes.PelaDemocracia2, Images.Secoes.EquidadeGenero]}
+        partnerImg={[Images.Logos.PonteLogo]}
+        subCards={[Images.Secoes.PelaDemocracia2, Images.Secoes.EquidadeGenero]}
         subtitle={"Vigência - 2023 - 2027"}
         partnerName={"A Ponte"}
       >
@@ -627,8 +627,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
-        mainImg={Images.Logos.PactoContraFomeLogo}
-        cardsImg={[Images.Secoes.JusticaRacial]}
+        partnerImg={[Images.Logos.PactoContraFomeLogo]}
+        subCards={[Images.Secoes.JusticaRacial]}
         subtitle={"Vigência - 2024"}
         partnerName={"Pacto contra a Fome"}
       >
@@ -789,8 +789,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Apoio Plurianual"}
-        mainImg={Images.Secoes.PelaDemocracia}
-        cardsImg={[Images.Secoes.PelaDemocracia2]}
+        partnerImg={[Images.Secoes.PelaDemocracia]}
+        subCards={[Images.Secoes.PelaDemocracia2]}
         subtitle={"Vigência - 2024 A 2027"}
         partnerName={"Pacto pela Democracia"}
       >
@@ -1051,8 +1051,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.IcciLogo}
-        cardsImg={[Images.Secoes.PelaDemocracia2, Images.Secoes.JusticaRacial]}
+        partnerImg={[Images.Logos.IcciLogo]}
+        subCards={[Images.Secoes.PelaDemocracia2, Images.Secoes.JusticaRacial]}
         subtitle={"Vigência - 2024 A 2025"}
         partnerName={"Instituto Cultura, Comunicação e Incidência (ICCI)"}
       >
@@ -1110,8 +1110,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Associação e Apoio Plurianual"}
-        mainImg={Images.Logos.GifeLogo}
-        cardsImg={[Images.Secoes.FilantropiaSubCard]}
+        partnerImg={[Images.Logos.GifeLogo]}
+        subCards={[Images.Secoes.FilantropiaSubCard]}
         subtitle={"Vigência - 2024 A 2028"}
         partnerName={"Grupo de Institutos Fundações e Empresas (GIFE)"}
       >
@@ -1188,8 +1188,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Associação"}
-        mainImg={Images.Logos.LatimImpactoLogo}
-        cardsImg={[Images.Secoes.FilantropiaSubCard]}
+        partnerImg={[Images.Logos.LatimImpactoLogo]}
+        subCards={[Images.Secoes.FilantropiaSubCard]}
         subtitle={"Vigência - 2024"}
         partnerName={"Latimpacto"}
       >
@@ -1242,8 +1242,8 @@ const AdvocacySection = () => {
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
         title={"Associação"}
-        mainImg={Images.Secoes.MovimentoDoacao}
-        cardsImg={[Images.Secoes.FilantropiaSubCard]}
+        partnerImg={[Images.Secoes.MovimentoDoacao]}
+        subCards={[Images.Secoes.FilantropiaSubCard]}
         subtitle={"Vigência - 2024"}
         partnerName={"Movimento por uma Cultura de Doação (MCD)"}
       >

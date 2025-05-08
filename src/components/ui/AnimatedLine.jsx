@@ -13,14 +13,15 @@ const AnimatedLine = ({ style }) => {
   const pathLength = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
-    <div ref={containerRef} className='relative'>
+    <div
+      ref={containerRef}
+      className='relative w-full px-32 max-1280:px-16 max-896:px-8 max-640:px-5'
+    >
       <svg
-        width='915'
-        height='250'
         viewBox='0 0 915 250'
         fill='none'
         xmlns='http://www.w3.org/2000/svg'
-        className={style}
+        className={`${style} w-full pb-15`}
       >
         <motion.path
           ref={pathRef}

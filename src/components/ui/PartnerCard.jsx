@@ -57,7 +57,7 @@ const PartnerCard = ({
           {title}
         </h1>
 
-        <div className='flex'>
+        <div className='flex gap-4'>
           {partnerImg?.map((item, index) => (
             <img
               key={index}
@@ -65,7 +65,7 @@ const PartnerCard = ({
               alt='Pela democracia'
               style={{
                 width: `clamp(${calcClamp(86, 128)})`,
-                height: `clamp(${calcClamp(62, 92)})`,
+                height: `clamp(${calcClamp(62, 80)})`,
               }}
             />
           ))}

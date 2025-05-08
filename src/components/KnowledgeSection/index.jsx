@@ -22,10 +22,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Apoio Plurianual"}
-        mainImg={Images.Logos.PipaLogo}
-        cardsImg={[
+        partnerImg={[Images.Logos.PipaLogo]}
+        subCards={[
           Images.Secoes.FilantropiaSubCard,
           Images.Secoes.JusticaRacial,
         ]}
@@ -135,7 +135,7 @@ const KnowledgeSection = () => {
           ]}
         />
 
-        {/* <AnimatedLine /> */}
+        <AnimatedLine />
 
         <TextBlock
           className='-mt-20'
@@ -310,10 +310,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Pesquisa"}
-        mainImg={Images.Logos.FundacaoJoseLuizLogo}
-        cardsImg={[Images.Secoes.FilantropiaSubCard]}
+        partnerImg={[Images.Logos.FundacaoJoseLuizLogo]}
+        subCards={[Images.Secoes.FilantropiaSubCard]}
         subtitle={"Vigência - 2024 a 2025"}
         partnerName={
           "Fundação José Luiz Egydio Setúbal (FJLES) - Filantropia no Brasil: Trajetórias e experiências de Grandes Doadores"
@@ -368,10 +368,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.CebrabDesjusLogo}
-        cardsImg={[
+        partnerImg={[Images.Logos.CebrabLogo, Images.Logos.DesJusLogo]}
+        subCards={[
           Images.Secoes.PelaDemocracia2,
           Images.Secoes.FilantropiaSubCard,
           Images.Secoes.JusticaRacial,
@@ -543,10 +543,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Apoio Plurianual"}
-        mainImg={Images.Logos.FundoAgbaraLogo}
-        cardsImg={[
+        partnerImg={[Images.Logos.FundoAgbaraLogo]}
+        subCards={[
           Images.Secoes.JusticaRacial,
           Images.Secoes.EquidadeGenero,
           Images.Secoes.FilantropiaSubCard,
@@ -732,10 +732,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Evento"}
-        mainImg={Images.Logos.IEBlisLogo}
-        cardsImg={[Images.Secoes.JusticaRacial]}
+        partnerImg={[Images.Logos.IElogo, Images.Logos.BlisLogo]}
+        subCards={[Images.Secoes.JusticaRacial]}
         subtitle={"Vigência - Novembro de 2024"}
         partnerName={
           "Instituto de Estudos Avançados da Universidade de São Paulo (IEA-USP) e Centro de Estudos de Cultura Contemporânea (CEDEC) - Colóquio Colonialidade, racialidade, punição e reparação nas Américas "
@@ -907,10 +907,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.LautELiberdadeAutoritarismo}
-        cardsImg={[Images.Secoes.PelaDemocracia2]}
+        partnerImg={[Images.Logos.LautELiberdadeAutoritarismo]}
+        subCards={[Images.Secoes.PelaDemocracia2]}
         subtitle={"Vigência - 2024 a 2026"}
         partnerName={
           "LAUT - Centro de Análise da Liberdade e do Autoritarismo (LAUT)"
@@ -980,10 +980,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.IDBRLogo}
-        cardsImg={[Images.Secoes.JusticaRacial]}
+        partnerImg={[Images.Logos.IDBRLogo]}
+        subCards={[Images.Secoes.JusticaRacial]}
         subtitle={"Vigência - 2024 a 2025"}
         partnerName={"Instituto Identidades do Brasil (ID_BR)"}
       >
@@ -1041,10 +1041,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.IgapareLogo}
-        cardsImg={[Images.Secoes.PelaDemocracia2]}
+        partnerImg={[Images.Logos.IgapareLogo]}
+        subCards={[Images.Secoes.PelaDemocracia2]}
         subtitle={"Vigência - 2024 a 2025"}
         partnerName={"Instituto Igarapé"}
       >
@@ -1101,10 +1101,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.MoreInCommonLogo}
-        cardsImg={[Images.Secoes.PelaDemocracia2]}
+        partnerImg={[Images.Logos.MoreInCommonLogo]}
+        subCards={[Images.Secoes.PelaDemocracia2]}
         subtitle={"Vigência - 2024 a 2026"}
         partnerName={"More in Common Brasil"}
       >
@@ -1157,10 +1157,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Apoio plurianual"}
-        mainImg={Images.Logos.CiraTHPLogo}
-        cardsImg={[Images.Secoes.JusticaRacial, Images.Secoes.EquidadeGenero]}
+        partnerImg={[Images.Logos.CriaLogo, Images.Logos.ThpLogo]}
+        subCards={[Images.Secoes.JusticaRacial, Images.Secoes.EquidadeGenero]}
         subtitle={"Vigência - 2022 a 2026"}
         partnerName={
           "CRIA - (Cultivate and Raise Infancy Awareness - Cultive e aumente a consciência da primeira infância, em tradução livre), desenvolvida pelo The Human Project (THP)."
@@ -1282,10 +1282,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.AppCivicoLogo}
-        cardsImg={[Images.Secoes.PelaDemocracia2]}
+        partnerImg={[Images.Logos.AppCivicoLogo, Images.Logos.PolitizeLogo]}
+        subCards={[Images.Secoes.PelaDemocracia2]}
         subtitle={"Vigência - 2022 a 2026"}
         partnerName={"APP Cívico + Politize! - IAgora?"}
       >
@@ -1365,10 +1365,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Pesquisa"}
-        mainImg={Images.Logos.IDISLogo}
-        cardsImg={[Images.Secoes.FilantropiaSubCard]}
+        partnerImg={[Images.Logos.IDISLogo]}
+        subCards={[Images.Secoes.FilantropiaSubCard]}
         subtitle={"Vigência - 2024"}
         partnerName={
           "Instituto para o Desenvolvimento do Investimento Social (IDIS)"
@@ -1414,10 +1414,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Pesquisa"}
-        mainImg={Images.Logos.SITAWILogo}
-        cardsImg={[Images.Secoes.FilantropiaSubCard]}
+        partnerImg={[Images.Logos.SITAWILogo]}
+        subCards={[Images.Secoes.FilantropiaSubCard]}
         subtitle={"Vigência - 2024"}
         partnerName={
           "SITAWI - Famílias de Alto Patrimônio no Brasil - Investimento de Impacto e Filantropia"
@@ -1490,10 +1490,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.ATAHUALPALogo}
-        cardsImg={[
+        partnerImg={[Images.Logos.ATAHUALPALogo]}
+        subCards={[
           Images.Secoes.FilantropiaSubCard,
           Images.Secoes.JusticaRacial,
         ]}
@@ -1557,10 +1557,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.MarAdentroLogo}
-        cardsImg={[Images.Secoes.JusticaRacial]}
+        partnerImg={[Images.Logos.MarAdentroLogo]}
+        subCards={[Images.Secoes.JusticaRacial]}
         subtitle={"Vigência - 2023 a 2025"}
         partnerName={
           "“Pedro e Beja em uma Aventura Animada” - Instituto Mar Adentro"
@@ -1639,10 +1639,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Projeto Apoiado"}
-        mainImg={Images.Logos.CoalizacaoLogo}
-        cardsImg={[
+        partnerImg={[Images.Logos.CoalizacaoLogo]}
+        subCards={[
           Images.Secoes.FilantropiaSubCard,
           Images.Secoes.JusticaRacial,
         ]}
@@ -1724,10 +1724,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Evento Apoiado"}
-        mainImg={Images.Logos.DataPrivacyLogo}
-        cardsImg={[Images.Secoes.PelaDemocracia2]}
+        partnerImg={[Images.Logos.DataPrivacyLogo]}
+        subCards={[Images.Secoes.PelaDemocracia2]}
         subtitle={"Vigência - 2024"}
         partnerName={"Data Privacy Global Conference (DPGC)"}
       >
@@ -1795,10 +1795,10 @@ const KnowledgeSection = () => {
       <PartnerSection
         section={"Conhecimento"}
         sectionImg={Images.Ilustracoes.Clouds}
-        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 90 }}
+        sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={"Evento Apoiado"}
-        mainImg={Images.Logos.YunusLogo}
-        cardsImg={[Images.Secoes.FilantropiaSubCard]}
+        partnerImg={[Images.Logos.YunusLogo]}
+        subCards={[Images.Secoes.FilantropiaSubCard]}
         subtitle={"Vigência - Agosto de 2024"}
         partnerName={
           "Fórum Brasileiro de Negócios Sociais para Empreendedorismo Jovem -Yunus Negócios Sociais Brasil"
