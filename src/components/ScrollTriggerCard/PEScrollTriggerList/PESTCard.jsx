@@ -33,7 +33,7 @@ const PESTCard = ({
       <motion.div
         layout
         className={cn(
-          `flex flex-col overflow-hidden relative w-full rounded-[60px] gap-6.5 h-200 max-950:rounded-4xl max-768:h-160 max-640:rounded-2xl`,
+          `flex flex-col overflow-hidden relative w-full rounded-[60px] gap-6.5 h-200 max-1280:h-185 max-950:rounded-4xl max-768:h-160 max-640:rounded-2xl`,
           cssOverride,
         )}
         style={{

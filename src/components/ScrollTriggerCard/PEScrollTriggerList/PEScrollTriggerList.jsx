@@ -33,7 +33,7 @@ const PEScrollTriggerList = ({ arr }) => {
   });
 
   return (
-    <motion.div layout ref={container}>
+    <motion.div layout ref={container} className='flex flex-col gap-10'>
       {cardMap}
     </motion.div>
   );
