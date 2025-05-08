@@ -8,7 +8,7 @@ function DownloadButton() {
     <a
       href='/BEJA_Relatorio-PT.pdf'
       download
-      className='flex items-center gap-2 tablet:gap-4 z-10 px-8'
+      className='absolute bottom-20 not-tablet:mr-15 tablet:bottom-1/5 flex items-center justify-self-end gap-2 tablet:gap-4 z-10 px-8'
     >
       <div className='h-8 w-8 tablet:h-10 tablet:w-10 rounded-full bg-rose p-2 flex-center'>
         <Icon.ArrowDown className='size-8 tablet:*:size-10' />
@@ -34,11 +34,11 @@ const FirstSection = () => {
         </div>
       </div>
 
-      <div className='relative w-full h-[64vh] tablet:h-[40vh] flex mt-16 '>
+      <div className='relative w-full h-[64vh] left-0 tablet:h-[40vh] flex not-tablet:mt-16 '>
         <img
           src='/assets/LOGO-16.png'
           alt='Logo Beja Labs'
-          className='absolute w-full z-10 -mt-8 max-w-290'
+          className='absolute top-0 w-full z-10 -mt-8 max-w-290'
         />
         <img
           src={GoldGlobe}
