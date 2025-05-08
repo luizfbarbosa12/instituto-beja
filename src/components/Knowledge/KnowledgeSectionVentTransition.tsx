@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
-import { calcClamp } from "./../../data/Utils";
+import { calcClamp } from "../../data/Utils";
 
 const logo_beja_completo = "/assets/logo-beja-completo-svg.svg";
 const nuvens = "/assets/ilustracao-6-2.png";

@@ -1,5 +1,5 @@
+import { calcClamp } from "@/data/Utils";
 import { JSX } from "react";
-import { calcClamp } from "./../data/Utils";
 
 type TextBlockProps = {
   firstBlock?: { key: string; content: JSX.Element }[];

@@ -1,7 +1,7 @@
-import Wrapper from "./Wrapper";
-import { NoticeContainer } from "./ui/NoticeContainer";
-import { NoticeColumn } from "./ui/NoticeColumn";
-import { ArrowRightLink } from "./ui/ArrowRightLink";
+import Wrapper from "../Wrapper";
+import { NoticeColumn } from "../ui/NoticeColumn";
+import { ArrowRightLink } from "../ui/ArrowRightLink";
+import { NoticeContainer } from "../ui/NoticeContainer";
 
 const Image = "/assets/Ilustracao-8.png";
 const ChangeTheorySection = () => {

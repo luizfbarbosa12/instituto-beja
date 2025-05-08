@@ -1,11 +1,11 @@
 import gsap from "gsap";
 import Axle from "./Axle";
 import { useRef } from "react";
-import TextBlock from "../TextBlock";
 import { useGSAP } from "@gsap/react";
+import TextBlock from "../ui/TextBlock";
 import { Images } from "../../assets/Index";
 import { calcClamp } from "../../data/Utils";
-import ImageSlider from "../../components/ImageSlider";
+import ImageSlider from "../Animations/ImageSlider";
 import ExternalLinkContainer from "./../ui/ExternalLinkContainer";
 
 const PhilanthropySection = () => {

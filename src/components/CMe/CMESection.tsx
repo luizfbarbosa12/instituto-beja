@@ -1,11 +1,10 @@
 import { useRef } from "react";
-import TextBlock from "../TextBlock.js";
+import TextBlock from "../ui/TextBlock.js";
 import { calcClamp } from "@/data/Utils.js";
 import { Images } from "../../assets/Index.js";
 import { motion, useScroll, useTransform } from "framer-motion";
 import CMEScrollTriggerList from "../ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.jsx";
 import AnimatedHorizontalScroll from "./../ui/AnimatedHorizontalScroll";
-import ExternalLinkContainer from "./../ui/ExternalLinkContainer";
 import {
   AEPIE,
   cmeActionList,
@@ -13,8 +12,7 @@ import {
   OSList,
   VTCME,
 } from "../../data/cmeData.js";
-import { link } from "fs";
-import { title } from "process";
+
 import { ArrowRightLink } from "../ui/ArrowRightLink.js";
 
 const CMESection = () => {

@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
-import { TextAnimate } from "../magicui/text-animate";
+import { TextAnimate } from "../MagicUi/text-animate";
 
 const BejaLogo = "/assets/LOGO-16.png";
 const SeedingGold = "/assets/seeding-gold.png";

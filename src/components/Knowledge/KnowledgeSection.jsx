@@ -1,12 +1,12 @@
 import "swiper/css";
 import "swiper/css/scrollbar";
 import "swiper/css/pagination";
-import TextBlock from "../TextBlock";
+import PinkBox from "../ui/PinkBox";
+import TextBlock from "../ui/TextBlock";
 import TopicList from "../ui/TopicList";
 import { Images } from "../../assets/Index";
 import { calcClamp } from "../../data/Utils";
 import AnimatedLine from "../ui/AnimatedLine";
-import PinkBox from "../AdvocacySection/PinkBox";
 import PartnerSection from "../ui/PartnerSection";
 import GoldenQuoteSlider from "../ui/GoldenQuoteSlider";
 import ExternalLinkContainer from "../ui/ExternalLinkContainer";

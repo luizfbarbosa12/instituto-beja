@@ -1,4 +1,4 @@
-import SupportSectionCard from "../SupportSectionCard";
+import SupportSectionCard from "../SupportSection/SupportSectionCard";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { NoticeContainer } from "../ui/NoticeContainer";
 import { PortfolioSubsection } from "./PortfolioSubsection";

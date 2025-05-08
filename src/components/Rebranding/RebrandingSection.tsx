@@ -1,19 +1,19 @@
-import ImageSlider from "./ImageSlider";
-import {
-  bejaCoverImgs,
-  bejaCoverImgsMobile,
-  keywordImg,
-} from "../data/RebrandingData";
-import Wrapper from "./Wrapper";
+import Wrapper from "../Wrapper";
+import { NoticeColumn } from "../ui/NoticeColumn";
+import { SectionTitle } from "../ui/SectionTitle";
+import ImageSlider from "../Animations/ImageSlider";
+import { NoticeContainer } from "../ui/NoticeContainer";
 import {
   Carousel,
-  CarouselContent,
-  CarouselDots,
   CarouselItem,
-} from "./ui/carousel";
-import { NoticeContainer } from "./ui/NoticeContainer";
-import { NoticeColumn } from "./ui/NoticeColumn";
-import { SectionTitle } from "./ui/SectionTitle";
+  CarouselDots,
+  CarouselContent,
+} from "../ui/carousel";
+import {
+  keywordImg,
+  bejaCoverImgs,
+  bejaCoverImgsMobile,
+} from "@/data/RebrandingData";
 
 const Logo = "/assets/LogoRebranding.svg";
 const RebrandingSection = () => {

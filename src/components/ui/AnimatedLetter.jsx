@@ -1,8 +1,8 @@
 import gsap from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
-import { Images } from "../assets/Index";
-import { calcClamp } from "../data/Utils";
+import { calcClamp } from "../../data/Utils";
+import { Images } from "./../../assets/Index";
 
 const AnimatedLetter = ({ text }) => {
   const letterContainerRef = useRef(null);

@@ -20,8 +20,6 @@ const PartnerCard = ({
       ))
     : null;
 
-  console.log(partnerImg);
-
   return (
     <div className='flex flex-col w-full'>
       <div className='flex gap-4 justify-end items-center w-full py-25 max-640:py-8 max-sm:gap-2'>

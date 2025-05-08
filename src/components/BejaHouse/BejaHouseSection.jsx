@@ -1,7 +1,7 @@
-import ImageSlider from "./ImageSlider";
-import { NoticeColumn } from "./ui/NoticeColumn";
-import { NoticeContainer } from "./ui/NoticeContainer";
-import Wrapper from "./Wrapper";
+import ImageSlider from "../Animations/ImageSlider";
+import { NoticeColumn } from "../ui/NoticeColumn";
+import { NoticeContainer } from "../ui/NoticeContainer";
+import Wrapper from "../Wrapper";
 
 const EspacoBeja = "/assets/EspacoBeja.png";
 const EspacoBeja2 = "/assets/EspacoBeja2.png";

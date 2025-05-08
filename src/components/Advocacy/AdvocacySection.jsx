@@ -1,6 +1,6 @@
-import PinkBox from "./PinkBox";
-import TextBlock from "./../TextBlock";
-import GoldenQuote from "./GoldenQuote";
+import PinkBox from "../ui/PinkBox";
+import TextBlock from "../ui/TextBlock";
+import GoldenQuote from "../ui/GoldenQuote";
 import TopicList from "../ui/TopicList";
 import { Images } from "../../assets/Index";
 import AnimatedLine from "../ui/AnimatedLine";

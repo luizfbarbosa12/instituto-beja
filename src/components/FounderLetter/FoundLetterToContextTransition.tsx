@@ -1,9 +1,9 @@
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
-import { NoticeContainer } from "./ui/NoticeContainer";
-import { NoticeColumn } from "./ui/NoticeColumn";
-import { SectionTitle } from "./ui/SectionTitle";
+import { useGSAP } from "@gsap/react";
+import { SectionTitle } from "../ui/SectionTitle";
+import { NoticeColumn } from "../ui/NoticeColumn";
+import { NoticeContainer } from "../ui/NoticeContainer";
 
 export function FoundLetterToContextTransition() {
   const container = useRef(null);

@@ -4,42 +4,52 @@ import { useGSAP } from "@gsap/react";
 import { useEffect, lazy } from "react";
 import balance from "./data/balance.json";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import FirstSection from "./components/FirstSection";
-import { FoundLetterToContextTransition } from "./components/FoundLetterToContextTransition";
 import BejaLabs from "./components/BejaLabs/BejaLabs";
+import FirstSection from "./components/FirstSection/FirstSection";
 
 const Footer = lazy(() => import("./components/Footer/Footer"));
-const CMESection = lazy(() => import("./components/CMeSection/CMESection"));
+const CMESection = lazy(() => import("./components/CMe/CMESection"));
 const Expediente = lazy(() => import("./components/Expediente/Expediente"));
 const BalancoTable = lazy(() => import("./components/Balance/Balance"));
-const FounderLetter = lazy(() => import("./components/FounderLetter"));
-const ManifestSection = lazy(() => import("./components/ManifestSection"));
-const BejaHouseSection = lazy(() => import("./components/BejaHouseSection"));
+const FounderLetter = lazy(
+  () => import("./components/FounderLetter/FounderLetter"),
+);
+const ManifestSection = lazy(
+  () => import("./components/Manifest/ManifestSection"),
+);
+const BejaHouseSection = lazy(
+  () => import("./components/BejaHouse/BejaHouseSection"),
+);
 const PortfolioSection = lazy(() => import("./components/PortfolioSection"));
-const KnowledgeSection = lazy(() => import("./components/KnowledgeSection"));
-const RebrandingSection = lazy(() => import("./components/RebrandingSection"));
+const KnowledgeSection = lazy(
+  () => import("./components/Knowledge/KnowledgeSection"),
+);
+const RebrandingSection = lazy(
+  () => import("./components/Rebranding/RebrandingSection"),
+);
 
 const InteractionEcosystem = lazy(
   () => import("./components/InteractionEcosystem"),
 );
 const ChangeTheorySection = lazy(
-  () => import("./components/ChangeTheorySection"),
+  () => import("./components/ChangeTheory/ChangeTheorySection"),
 );
 const StrategicPillarSection = lazy(
-  () => import("./components/StrategicPillarSection"),
+  () => import("./components/StrategicPillar/StrategicPillarSection"),
 );
 const MissionValueSection = lazy(
-  () => import("./components/MissionValueSection/MissionValueSection"),
+  () => import("./components/MissionValue/MissionValueSection"),
 );
 const PhilanthropySection = lazy(
-  () => import("./components/PhilanthropySection/PhilanthropySection"),
+  () => import("./components/Philanthropy/PhilanthropySection"),
 );
 const AdvocacySection = lazy(
-  () => import("./components/AdvocacySection/AdvocacySection"),
+  () => import("./components/Advocacy/AdvocacySection"),
 );
 const FinalSection = lazy(
   () => import("./components/FinalSection/FinalSection"),
 );
+import { FoundLetterToContextTransition } from "./components/FounderLetter/FoundLetterToContextTransition";
 
 gsap.registerPlugin(useGSAP);
 gsap.registerPlugin(ScrollTrigger);

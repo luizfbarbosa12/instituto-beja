@@ -1,6 +1,6 @@
+import gsap from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
-import gsap from "gsap";
 const nuvens = "/assets/ilustracao-6-5.webp";
 const logo_desenho_beja = "/assets/logo-desenho-beja.svg";
 

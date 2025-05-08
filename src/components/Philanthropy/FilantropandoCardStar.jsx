@@ -1,4 +1,4 @@
-import { calcClamp } from "../data/Utils";
+import { calcClamp } from "../../data/Utils";
 
 const FilantropandoCardStar = ({ className }) => {
   return (

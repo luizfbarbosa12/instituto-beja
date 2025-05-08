@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useRef } from "react";
 import { useGSAP } from "@gsap/react";
-import LogoFirstSection from "../LogoFirstSection";
+import LogoFirstSection from "../FirstSection/LogoFirstSection";
 
 const ProudHand = "/assets/Ilustracao-4.png";
 export function AdvocacySectionVentTransition() {
