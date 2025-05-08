@@ -186,7 +186,7 @@ export function EcosystemSocialOrganizations() {
             </svg>
 
             {/* Textos */}
-            <div className='text-item text-1 absolute top-2/4 -left-1/20 tablet:left-0 w-full max-w-2/10 tablet:max-w-3/10'>
+            <div className='text-item text-1 absolute top-2/4 -left-1/20 tablet:-left-6 w-full max-w-2/10 tablet:max-w-3/10'>
               <h2 className='ts-10/32 tablet:text-3xl leading-relaxed font-serif text-rose'>
                 Organizações da sociedade civil
               </h2>

@@ -184,8 +184,8 @@ export function EcosystemCapitalProviders() {
             </svg>
 
             {/* Textos */}
-            <div className='text-item text-1 absolute -top-8 tablet:-top-24 left-[0%] max-w-9/20 tablet:max-w-[396px]'>
-              <h2 className='ts-10/32 tablet:text-3xl leading-relaxed font-serif text-[#1a0505]'>
+            <div className='text-item text-1 absolute top-0 tablet:top-0 left-[0%] max-w-9/20 tablet:max-w-[396px]'>
+              <h2 className='ts-10/32 -translate-y-1/1 tablet:text-3xl leading-relaxed font-serif text-[#1a0505]'>
                 Filantropos nacionais e internacionais
               </h2>
             </div>
@@ -196,13 +196,13 @@ export function EcosystemCapitalProviders() {
               </h2>
             </div>
 
-            <div className='text-item text-3 absolute -top-2 tablet:-top-4 left-9/10 w-full max-w-4/10 tablet:max-w-6/10'>
-              <h2 className='ts-10/32 tablet:text-3xl -translate-x-1/2 leading-relaxed font-serif text-[#1a0505]'>
+            <div className='text-item text-3 absolute top-1/10 tablet:top-1/10 left-9/10 w-full max-w-4/10 tablet:max-w-6/10'>
+              <h2 className='ts-10/32 tablet:text-3xl -translate-y-1/1 -translate-x-1/2 leading-relaxed font-serif text-[#1a0505]'>
                 Empresários e investidores
               </h2>
             </div>
 
-            <div className='text-item text-4 absolute top-1/1 tablet:top-21/20 right-0 w-full max-w-5/10 tablet:max-w-7/10'>
+            <div className='text-item text-4 absolute top-1/1 tablet:top-21/20 right-0 w-full max-w-5/10 tablet:max-w-15/20'>
               <h2 className='ts-10/32 tablet:text-3xl translate-x-1/2 leading-relaxed font-serif text-[#1a0505] w-full '>
                 Fundações, Institutos e organizações provedoras de capital
               </h2>
