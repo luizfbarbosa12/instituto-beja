@@ -29,9 +29,8 @@ const FirstSection = () => {
           Relatório Anual 2024
         </p>
 
-        <div className='size-10 bg-rose rounded-full flex-center flex-col gap-1'>
-          <div className='bg-bourdeaux h-0.5 w-6' />
-          <div className='bg-bourdeaux h-0.5 w-6' />
+        <div className='size-10 bg-rose rounded-full flex-center flex-col gap-1 font-bold'>
+          PT
         </div>
       </div>
 

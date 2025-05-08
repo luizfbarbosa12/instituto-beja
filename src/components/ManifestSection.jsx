@@ -21,7 +21,9 @@ const ManifestSection = () => {
             style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
             className='flex items-center bg-size-[auto_100%] bg-position-[70%_50%] bg-no-repeat py-48 flex-col justify-center h-full w-full px-6 gap-5 tablet:gap-12 text-porcelain'
           >
-            <h1 className='text-[28px] text-6xl editorial'>Manifesto Beja</h1>
+            <h1 className='text-[28px] tablet:text-6xl editorial text-left mr-0 tablet:mr-[85px]'>
+              Manifesto Beja
+            </h1>
 
             <p className='text-sm leading-[160%] tablet:text-2xl tablet:leading-10'>
               Para mudar o mundo, é preciso vontade.
