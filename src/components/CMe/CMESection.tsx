@@ -3,8 +3,8 @@ import TextBlock from "../ui/TextBlock.js";
 import { calcClamp } from "@/data/Utils.js";
 import { Images } from "../../assets/Index.js";
 import { motion, useScroll, useTransform } from "framer-motion";
-import CMEScrollTriggerList from "../ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.jsx";
 import AnimatedHorizontalScroll from "./../ui/AnimatedHorizontalScroll";
+import CMEScrollTriggerList from "../ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.jsx";
 import {
   AEPIE,
   cmeActionList,

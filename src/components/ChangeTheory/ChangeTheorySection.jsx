@@ -1,4 +1,4 @@
-import Wrapper from "../Wrapper";
+import Wrapper from "../ui/Wrapper";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { ArrowRightLink } from "../ui/ArrowRightLink";
 import { NoticeContainer } from "../ui/NoticeContainer";

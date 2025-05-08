@@ -1,4 +1,4 @@
-import Wrapper from "../Wrapper";
+import Wrapper from "../ui/Wrapper";
 const Pillars = "/assets/PilaresEstrategicos.png";
 import { SPCardData } from "./../../data/StrategicPillarData";
 import PEScrollTriggerList from "./../ScrollTriggerCard/PEScrollTriggerList/PEScrollTriggerList";

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import MVCard from "./MVCard";
-import Wrapper from "../Wrapper";
+import Wrapper from "../ui/Wrapper";
 
 const Clouds = "/assets/ilustracao-nuvens.png";
 const Mountains = "/assets/Ilustracao-1.webp";
@@ -15,12 +15,17 @@ const MissionValueSection = () => {
         <div className='flex flex-col relative bg-porcelain gap-25 py-40 tablet:pt-100'>
           <motion.div
             animate={{ y: [0, 8, 0] }}
-            transition={{ duration: 4, repeat: Infinity, repeatType: 'reverse', ease: 'easeInOut' }}
+            transition={{
+              duration: 4,
+              repeat: Infinity,
+              repeatType: "reverse",
+              ease: "easeInOut",
+            }}
           >
             <MVCard
-              title={'Missão'}
+              title={"Missão"}
               text={
-                'Se tornar um Instituto de referência no ecossistema de filantropia, reconhecido por realizar, inspirar e catalisar uma filantropia inovadora, colaborativa e eficaz para destravar alavancas potencializadoras, trazendo impacto real em problemas sistêmicos.'
+                "Se tornar um Instituto de referência no ecossistema de filantropia, reconhecido por realizar, inspirar e catalisar uma filantropia inovadora, colaborativa e eficaz para destravar alavancas potencializadoras, trazendo impacto real em problemas sistêmicos."
               }
             />
           </motion.div>
@@ -28,12 +33,17 @@ const MissionValueSection = () => {
           <div className='flex justify-end'>
             <motion.div
               animate={{ y: [0, 8, 0] }}
-              transition={{ duration: 4, repeat: Infinity, repeatType: 'reverse', ease: 'easeInOut' }}
+              transition={{
+                duration: 4,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "easeInOut",
+              }}
             >
               <MVCard
-                title={'Visão'}
+                title={"Visão"}
                 text={
-                  'Promover o impacto positivo no campo da filantropia fomentando a inovação, colaboração, eficácia e engajamento da sociedade civil, do setor privado e do governo para resolução de problemas sistêmicos.'
+                  "Promover o impacto positivo no campo da filantropia fomentando a inovação, colaboração, eficácia e engajamento da sociedade civil, do setor privado e do governo para resolução de problemas sistêmicos."
                 }
               />
             </motion.div>
@@ -48,12 +58,17 @@ const MissionValueSection = () => {
 
             <motion.div
               animate={{ y: [0, 8, 0] }}
-              transition={{ duration: 4, repeat: Infinity, repeatType: 'reverse', ease: 'easeInOut' }}
+              transition={{
+                duration: 4,
+                repeat: Infinity,
+                repeatType: "reverse",
+                ease: "easeInOut",
+              }}
             >
               <MVCard
-                title={'Valores'}
+                title={"Valores"}
                 text={
-                  'O respeito, a escuta, a empatia, o pertencimento, o acolhimento, a resiliência, a responsabilidade, o sonho, o afeto, a curiosidade e a inovação, atuando em todas essas frentes, interseccionadas com o protagonismo pessoal, mediante o desenvolvimento de autoconsciência e autoconfiança.'
+                  "O respeito, a escuta, a empatia, o pertencimento, o acolhimento, a resiliência, a responsabilidade, o sonho, o afeto, a curiosidade e a inovação, atuando em todas essas frentes, interseccionadas com o protagonismo pessoal, mediante o desenvolvimento de autoconsciência e autoconfiança."
                 }
               />
             </motion.div>

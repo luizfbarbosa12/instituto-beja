@@ -1,4 +1,4 @@
-import Wrapper from "../Wrapper";
+import Wrapper from "../ui/Wrapper";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { SectionTitle } from "../ui/SectionTitle";
 import ImageSlider from "../Animations/ImageSlider";
