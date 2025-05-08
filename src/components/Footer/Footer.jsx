@@ -3,7 +3,6 @@ const Footer = () => {
   return (
     <div className="bg-bourdeaux text-white py-16 px-8 md:px-12">
       <div className="container mx-auto">
-        {/* Top row: domain and date */}
         <div className="flex justify-between items-start">
           <p className="font-serif text-base">
             www.<br />
@@ -15,7 +14,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Bottom row: social links and arrow */}
         <div className="flex justify-between items-center mt-8">
           <div className="flex flex-col space-y-2 text-2xl md:text-3xl font-serif">
             <a
