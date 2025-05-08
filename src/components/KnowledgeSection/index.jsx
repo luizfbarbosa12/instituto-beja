@@ -135,7 +135,7 @@ const KnowledgeSection = () => {
           ]}
         />
 
-        <AnimatedLine />
+        {/* <AnimatedLine /> */}
 
         <TextBlock
           className='-mt-20'

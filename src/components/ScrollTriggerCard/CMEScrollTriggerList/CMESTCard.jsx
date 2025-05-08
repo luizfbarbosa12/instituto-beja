@@ -57,18 +57,17 @@ const CMESTCard = ({
             </h1>
 
             <div className='flex w-full justify-between max-768:flex-col max-768:gap-10'>
-              <div className='w-full flex flex-col gap-8'>
+              <div
+                className='w-full flex flex-col gap-8'
+                style={{
+                  fontSize: `clamp(${calcClamp(12, 16)})`,
+                  lineHeight: `clamp(${calcClamp(12 * 1.3, 16 * 1.3)})`,
+                }}
+              >
                 {Array.isArray(data.text) ? (
                   data.text.map((item, index) => <p key={index}>{item}</p>)
                 ) : (
-                  <p
-                    style={{
-                      fontSize: `clamp(${calcClamp(12, 16)})`,
-                      lineHeight: `clamp(${calcClamp(12 * 1.3, 16 * 1.3)})`,
-                    }}
-                  >
-                    {data.text}
-                  </p>
+                  <p>{data.text}</p>
                 )}
               </div>
 
