@@ -1,15 +1,15 @@
 import { Images } from "../../assets/Index";
 import PartnerSection from "../ui/PartnerSection";
 import GoldenQuoteSlider from "./../ui/GoldenQuoteSlider";
-import TextBlock from "./../TextBlock";
 import TopicList from "./../ui/TopicList";
 import LabSection from "./LabSection";
 import TopicListWithSub from "./../ui/TopicListWithSub";
 import { projects } from "../../data/LabData";
-import PinkBox from "./../AdvocacySection/PinkBox";
+import PinkBox from "../ui/PinkBox";
 import { calcClamp } from "../../data/Utils";
 import { PortfolioSectionVentTransition } from "./../PortfolioSection/PortfolioSectionVentTransition";
-import AnimatedLetter from "../AnimatedLetter";
+import AnimatedLetter from "../ui/AnimatedLetter";
+import TextBlock from "./../ui/TextBlock";
 
 const BejaLabs = () => {
   return (
