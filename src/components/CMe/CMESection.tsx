@@ -63,7 +63,7 @@ const CMESection = () => {
 
   return (
     <div className='flex flex-col bg-peach w-full gap-50 pb-50 max-1280:gap-25 max-768:gap-20'>
-      <div className='flex w-full items-center relative py-32 h-screen px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:justify-center max-768:items-start overflow-x-hidden'>
+      <div className='flex w-full items-center relative py-32 min-h-screen px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:justify-center max-768:items-start overflow-hidden'>
         <img
           src={Images.CME.CentroME}
           alt='Centro de mudanças exponencias'
@@ -71,12 +71,13 @@ const CMESection = () => {
             width: `clamp(${calcClamp(291, 582)})`,
             height: `clamp(${calcClamp(54, 108)})`,
           }}
+          className='max-768:relative max-768:-right-55 max-640:-right-52.5 max-460:-right-50 max-420:-right-45 max-380:-right-40 max-360:-right-36'
         />
 
         <img
           src={Images.CME.CMEWheel}
           alt='Roda CME'
-          className='absolute -top-20 -right-65 max-1280:-top-0 max-768:top-60 max-768:-right-30 max-640:-right-5'
+          className='relative -right-35 max-1280:-right-15 max-1080:-right-0 max-768:top-60 max-768:right-10 max-640:right-20 max-460:right-25'
           style={{
             width: `clamp(${calcClamp(851, 1171)})`,
             height: `clamp(${calcClamp(771, 1062)})`,
@@ -84,8 +85,8 @@ const CMESection = () => {
         />
       </div>
 
-      <div className='flex flex-col items-end w-full gap-15 pt-20 px-4.5 tablet:px-25 max-768:gap-5'>
-        <h3
+      <div className='flex flex-col items-end w-full gap-15 pt-20 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:gap-5'>
+        <h1
           style={{ fontSize: `clamp(${calcClamp(32, 64)})` }}
           className='text-hot-coral editorial w-full'
         >
@@ -239,12 +240,12 @@ const CMESection = () => {
         </div>
       </div>
 
-      <div className='flex flex-col w-full px-32 max-1280:px-16 max-896:px-8 max-640:px-5'>
+      <div className='flex flex-col w-full px-32 max-1280:px-16 max-896:px-8 max-768:px-5'>
         <CMEScrollTriggerList
           arr={AEPIE}
           title={"Orquestrando o Ecossistema para a Mudança Exponencial"}
           paddingTop={
-            "pt-90 max-1280:pt-80 max-360:pt-60 max-460:pt-55 max-950:pt-60 max-640:pt-50"
+            "pt-90 max-1280:pt-80 max-360:pt-60 max-460:pt-55 max-950:pt-60"
           }
         />
       </div>
