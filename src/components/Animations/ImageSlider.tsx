@@ -26,7 +26,7 @@ const ImageSlider = ({
   className,
 }: ImageSliderProps) => {
   const [startIndex, setStartIndex] = useState(arr.length % 2);
-  const visibleCount = 11;
+  const visibleCount = 17;
 
   let extendedArr = [...arr];
 

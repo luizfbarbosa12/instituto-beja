@@ -251,25 +251,23 @@ const PhilanthropySection = () => {
           subtitle={
             "Como eu não pensei nisso antes? O que mais é preciso apreender?"
           }
-          cards={firstCardList}
           text={[
             "O olhar para o futuro, já presente nas práticas ancestrais, nos convida a abraçar mudanças significativas e adotar valores que refletem uma compreensão mais diversa e abrangente das necessidades da sociedade. Este eixo desafia a perpetuação de narrativas dominantes, instigando a criação de uma multiplicidade de perspectivas que reimagina a história como nossa história.",
             "Esse movimento destaca temas frequentemente invisibilizados, que demandam maior atenção e aprofundamento, e propõe uma descentralização da tomada de decisão. Ao sair de uma perspectiva individual para uma visão compartilhada de responsabilidades, somos convidados a acolher o desconforto que acompanha as mudanças coletivas. Isso exige: compreender as dinâmicas de poder que moldam as relações sociais e econômicas; coragem para assumir riscos; romper paradigmas e expandir referências e construção de uma representatividade mais equitativa.",
           ]}
-          link={"https://www.youtube.com/watch?v=Dj_hPbwo090"}
+          data={firstCardList}
         />
 
         <Axle
           axle={"Eixo 2"}
           title={"Tecnologia para Transformar"}
           subtitle={"Tecnologia a serviço de quem?"}
-          cards={secondCardList}
           text={[
             "As Big Techs ditam as regras sobre pensamentos e conexões em redes, sob uma perspectiva desumanizadora. A disparidade nas abordagens para regulamentar a ética digital expõe disputas de influência e lacunas de representatividade cultural, perpetuando desigualdades no acesso e educação digital.",
             "A interação entre filantropia e tecnologia enfrenta desafios de desigualdade. O que chamávamos de 'futurismo' agora exige desconstruir visões de futuro descontextualizadas, vazias de realidades humanas diversas. Tecnologias digitais não são neutras - moldam percepções, relações e dinâmicas de poder.",
             "Em contextos de governança e direitos humanos, as tecnologias transformam subjetividades e experiências. Diante da crítica insuficiente ao status quo que homogeneiza culturas a partir do Norte Global, questiona-se: como reumanizar a tecnologia e inovação em meio a mudanças exponenciais?",
           ]}
-          link={"https://www.youtube.com/watch?v=QvbkvITW3cM"}
+          data={secondCardList}
         />
       </div>
 
@@ -292,6 +290,12 @@ const PhilanthropySection = () => {
               Images.Filantropando.FilantropiaSlider1,
               Images.Filantropando.FilantropiaSlider2,
               Images.Filantropando.FilantropiaSlider3,
+              Images.Filantropando.FilantropandoCard2,
+              Images.Filantropando.FilantropandoCard3,
+              Images.Filantropando.FilantropandoCard4,
+              Images.Filantropando.FilantropandoCard5,
+              Images.Filantropando.FilantropandoCard6,
+              Images.Filantropando.FilantropandoCard7,
             ]}
             translateYMiddleImg={"60"}
             ImgWidth={"35rem"}

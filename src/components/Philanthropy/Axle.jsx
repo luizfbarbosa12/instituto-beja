@@ -3,7 +3,7 @@ import { calcClamp } from "../../data/Utils";
 import PhilanthropyCard from "./PhilanthropyCard";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-const Axle = ({ axle, title, subtitle, cards, text, link }) => {
+const Axle = ({ axle, title, subtitle, text, data }) => {
   const targetRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: targetRef,
@@ -77,7 +77,7 @@ const Axle = ({ axle, title, subtitle, cards, text, link }) => {
               className='flex min-768:flex-col max-768:justify-between max-768:w-full max-768:flex-col'
               style={{ gap: `clamp(${calcClamp(12, 24)})` }}
             >
-              {cards.map((item, index) => (
+              {data.map((item, index) => (
                 <PhilanthropyCard
                   key={index}
                   title={item.title}
@@ -85,7 +85,7 @@ const Axle = ({ axle, title, subtitle, cards, text, link }) => {
                   bgColor={item.bgColor}
                   starColor={item.starColor}
                   text={item.text}
-                  link={link}
+                  link={item.link}
                 />
               ))}
             </div>

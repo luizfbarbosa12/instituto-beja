@@ -1,17 +1,15 @@
-import ImageSlider from "../Animations/ImageSlider";
-import { NoticeColumn } from "../ui/NoticeColumn";
-import { NoticeContainer } from "../ui/NoticeContainer";
 import Wrapper from "../ui/Wrapper";
+import { Images } from "../../assets/Index";
+import { NoticeColumn } from "../ui/NoticeColumn";
+import ImageSlider from "../Animations/ImageSlider";
+import { NoticeContainer } from "../ui/NoticeContainer";
 
-const EspacoBeja = "/assets/EspacoBeja.png";
-const EspacoBeja2 = "/assets/EspacoBeja2.png";
-const EspacoBeja3 = "/assets/EspacoBeja3.jpg";
 const BejaHouseSection = () => {
   return (
     <div className='flex flex-col relative rounded-[70px]'>
       <div className='relative w-full left-0 overflow-hidden'>
         <img
-          src={EspacoBeja}
+          src={Images.BejaHouse.EspacoBeja1}
           alt='Espaço Beja image'
           className='object-center w-full h-full'
         />
@@ -63,7 +61,17 @@ const BejaHouseSection = () => {
           Bem-vindo(a) à Casa Beja!
         </h1>
         <ImageSlider
-          arr={[EspacoBeja, EspacoBeja2, EspacoBeja3]}
+          arr={[
+            Images.BejaHouse.EspacoBeja1,
+            Images.BejaHouse.EspacoBeja2,
+            Images.BejaHouse.BejaHouseCard1,
+            Images.BejaHouse.BejaHouseCard2,
+            Images.BejaHouse.BejaHouseCard3,
+            Images.BejaHouse.BejaHouseCard4,
+            Images.BejaHouse.BejaHouseCard5,
+            Images.BejaHouse.BejaHouseCard6,
+            Images.BejaHouse.BejaHouseCard7,
+          ]}
           translateYMiddleImg={"80"}
           imgStyle={{ borderRadius: "40px", overflow: "hidden" }}
           ButtonStyle={"text-retro-ochre bg-porcelain"}
