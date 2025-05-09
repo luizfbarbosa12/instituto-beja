@@ -29,8 +29,8 @@ const CMEScrollTriggerList = ({ arr, title, paddingTop }) => {
         idx={index}
         cssOverride={item}
         range={[
-          (index + (!mdScreen ? 1.7 : 1.9)) / arr.length,
-          (index + (!mdScreen ? 1.8 : 2.1)) / arr.length,
+          (index + (!mdScreen ? 1.7 : 1.7)) / arr.length,
+          (index + (!mdScreen ? 1.8 : 1.9)) / arr.length,
         ]}
         targetScale={targetScale}
         targetProgress={scrollYProgress}

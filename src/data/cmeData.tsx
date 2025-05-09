@@ -166,11 +166,11 @@ export const CMEPartners = [
 ];
 
 export const cmeActionList = [
-  "Formalizou uma parceria global com o Centre for Exponential Change (C4EC)",
-  "Construiu e lançou o Centro para Mudanças Exponenciais (CMe) em São Paulo, em novembro",
-  "Realizou diálogos profundos com financiadores e especialistas durante o Filantropando e, posteriormente, no CMe",
-  "Engajou Orquestradores de Sistemas no Brasil para selecionar as jornadas iniciais do CMe",
-  "Selecionou o primeiro grupo de Orquestradores de Sistemas e iniciou suas jornadas de mudança exponencial",
+  "Formalizou uma parceria global com o Centre for Exponential Change (C4EC);",
+  "Construiu e lançou o Centro para Mudanças Exponenciais (CMe) em São Paulo, em novembro;",
+  "Realizou diálogos profundos com financiadores e especialistas durante o Filantropando e, posteriormente, no CMe;",
+  "Engajou Orquestradores de Sistemas no Brasil para selecionar as jornadas iniciais do CMe;",
+  "Selecionou o primeiro grupo de Orquestradores de Sistemas e iniciou suas jornadas de mudança exponencial.",
 ];
 
 export const OSList = [

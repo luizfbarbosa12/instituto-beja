@@ -362,15 +362,15 @@ const CMESection = () => {
               fontSize: `clamp(${calcClamp(12, 16)})`,
               lineHeight: `clamp(${calcClamp(12 * 1.5, 16 * 1.5)})`,
             }}
-            className='flex flex-col w-[462px] gap-4 max-950:w-full'
+            className='flex flex-col w-[462px] gap-4 max-1080:w-full'
           >
             <p>
               Em 2024, anunciamos três{" "}
               <strong>Orquestradores de Sistemas</strong> com os quais vamos
               coconstruir jornadas rumo à mudança exponencial. A escolha desses
               Orquestradores foi recebida com reconhecimento e apoio pelo{" "}
-              <strong>Conselho Consultivo Global</strong>
-              do <strong>Centre for Exponential Change</strong>, composto por{" "}
+              <strong>Conselho Consultivo Global</strong> do{" "}
+              <strong>Centre for Exponential Change</strong>, composto por{" "}
               <strong>
                 Nilekani Philanthropies, Skoll Foundation, Waverley Street
                 Foundation, New Profit
