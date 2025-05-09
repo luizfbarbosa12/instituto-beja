@@ -91,7 +91,7 @@ const CMESection = () => {
           className='text-hot-coral editorial w-full'
         >
           Centro para Mudanças Exponenciais (CMe)
-        </h3>
+        </h1>
 
         <NoticeContainer className='max-w-250 self-end'>
           <NoticeColumn>
