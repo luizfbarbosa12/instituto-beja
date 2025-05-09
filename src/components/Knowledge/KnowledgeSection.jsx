@@ -503,9 +503,9 @@ const KnowledgeSection = () => {
                   <p>
                     A lacuna a que nos referimos atraiu uma alta procura,
                     resultando em mais de 200 inscrições. Em resposta, o{" "}
-                    <strong>CEBRAP</strong>
-                    enviou um questionário para compreender o perfil dos
-                    interessados, recebendo 160 respostas.
+                    <strong>CEBRAP</strong> enviou um questionário para
+                    compreender o perfil dos interessados, recebendo 160
+                    respostas.
                   </p>
                 </>
               ),
@@ -564,17 +564,16 @@ const KnowledgeSection = () => {
                 <>
                   <p>
                     Uma pesquisa global realizada pelo{" "}
-                    <strong>Black Feminist Fund</strong>
-                    revelou que mulheres negras recebem apenas 0,1% a 0,3% dos
-                    recursos provenientes da filantropia e do investimento
-                    social privado em todo o mundo. No Brasil, a situação não é
-                    diferente. Com esse cenário em mente, o{" "}
-                    <strong>Fundo Agbara</strong> foi criado em setembro de
-                    2020, tornando-se o primeiro fundo de mulheres negras no
-                    Brasil. Esta iniciativa de impacto social busca fortalecer
-                    mulheres negras e suas comunidades por meio do apoio a
-                    projetos que promovam igualdade étnico-racial, justiça
-                    econômica, social e climática.
+                    <strong>Black Feminist Fund</strong> revelou que mulheres
+                    negras recebem apenas 0,1% a 0,3% dos recursos provenientes
+                    da filantropia e do investimento social privado em todo o
+                    mundo. No Brasil, a situação não é diferente. Com esse
+                    cenário em mente, o <strong>Fundo Agbara</strong> foi criado
+                    em setembro de 2020, tornando-se o primeiro fundo de
+                    mulheres negras no Brasil. Esta iniciativa de impacto social
+                    busca fortalecer mulheres negras e suas comunidades por meio
+                    do apoio a projetos que promovam igualdade étnico-racial,
+                    justiça econômica, social e climática.
                   </p>
 
                   <p>
@@ -781,8 +780,8 @@ const KnowledgeSection = () => {
                 <>
                   <p>
                     Entre os dias <strong>25 e 29 de novembro de 2024</strong>,
-                    o <strong>Instituto Beja</strong>
-                    teve a honra de organizar uma série de encontros com{" "}
+                    o <strong>Instituto Beja</strong> teve a honra de organizar
+                    uma série de encontros com{" "}
                     <strong>
                       Trevor Smith, um dos mais renomados especialistas
                       internacionais em reparações históricas e narrativas de
@@ -867,7 +866,7 @@ const KnowledgeSection = () => {
                   <p>
                     Com o apoio de parceiros como o{" "}
                     <strong>Instituto Toriba</strong> e o{" "}
-                    <strong>BLIS Collective</strong>, e em colaboração com
+                    <strong>BLIS Collective</strong>, e em colaboração com{" "}
                     <strong>
                       Ibirapitanga, Casa Sueli Carneiro, Observatório da
                       Branquitude, Instituto de Estudos da Religião (ISER), Ação
@@ -1226,7 +1225,7 @@ const KnowledgeSection = () => {
 
         <GoldenQuoteSlider
           arr={[
-            "Mulheres estão sempre fazendo a diferença, mas a gente também precisa da participação dos homens.",
+            '"Mulheres estão sempre fazendo a diferença, mas a gente também precisa da participação dos homens."',
           ]}
           cite={"RAIANE RIBEIRO, Coordenadora"}
         />
@@ -1274,7 +1273,7 @@ const KnowledgeSection = () => {
 
         <GoldenQuoteSlider
           arr={[
-            "Joice Kelly chegou ao CRIA e quase não falava nada, apenas chorava. Ela teve uma infância muito difícil, sem carinho e afeto, sem brincadeiras e, dentro do CRIA, ela conheceu a técnica de massagem de bebês Shantala. Ela se apropriou da técnica e vem atuando com muita confiança nessa área. Depois de aprender a Shantala, ela deu um abraço em seu pai pela primeira vez! Além da Shantala, ela também se interessa pelas plantas medicinais e por isso foi apelidada de a curandeira do CRIA",
+            '"Joice Kelly chegou ao CRIA e quase não falava nada, apenas chorava. Ela teve uma infância muito difícil, sem carinho e afeto, sem brincadeiras e, dentro do CRIA, ela conheceu a técnica de massagem de bebês Shantala. Ela se apropriou da técnica e vem atuando com muita confiança nessa área. Depois de aprender a Shantala, ela deu um abraço em seu pai pela primeira vez! Além da Shantala, ela também se interessa pelas plantas medicinais e por isso foi apelidada de a curandeira do CRIA"',
           ]}
           cite={"RAIANE RIBEIRO, Coordenadora"}
         />
@@ -1286,7 +1285,7 @@ const KnowledgeSection = () => {
         title={"Projeto Apoiado"}
         partnerImg={[Images.Logos.AppCivicoLogo, Images.Logos.PolitizeLogo]}
         subCards={[Images.Secoes.PelaDemocracia2]}
-        subtitle={"Vigência - 2022 a 2026"}
+        subtitle={"Vigência - 2024"}
         partnerName={"APP Cívico + Politize! - IAgora?"}
       >
         <TextBlock
@@ -1430,9 +1429,9 @@ const KnowledgeSection = () => {
               content: (
                 <>
                   <p>
-                    A <strong></strong> é uma Organização Social de Interesse
-                    Público (OSCIP) atuante no desenvolvimento de soluções
-                    financeiras inovadoras para promover benefícios
+                    A <strong>Sitawi</strong> é uma Organização Social de
+                    Interesse Público (OSCIP) atuante no desenvolvimento de
+                    soluções financeiras inovadoras para promover benefícios
                     socioambientais positivos, desenvolvendo infraestrutura
                     financeira para a Economia de Impacto desde 2008.
                   </p>
@@ -1442,10 +1441,9 @@ const KnowledgeSection = () => {
                       Famílias de Alto Patrimônio no Brasil - Investimento de
                       Impacto e Filantropia
                     </strong>
-                    , promovida pela
-                    <strong>SITAWI</strong>, apresenta um panorama das práticas
-                    atuais dessas famílias na alocação de recursos voltados ao
-                    benefício social. O estudo buscou{" "}
+                    , promovida pela <strong>SITAWI</strong>, apresenta um
+                    panorama das práticas atuais dessas famílias na alocação de
+                    recursos voltados ao benefício social. O estudo buscou{" "}
                     <strong>
                       entender como essas famílias direcionam seus investimentos
                       para gerar impacto
@@ -1463,10 +1461,12 @@ const KnowledgeSection = () => {
               content: (
                 <>
                   <p>
-                    O levantamento contou com a participação de famílias e
-                    Single Family Offices, Multi-Family Offices,
-                    gestores/assessores de investimento, bem como conselheiros e
-                    outros assessores não financeiros. Os respondentes foram
+                    O levantamento contou com a participação de famílias e{" "}
+                    <span className='italic'>
+                      Single Family Offices, Multi-Family Offices
+                    </span>
+                    , gestores/assessores de investimento, bem como conselheiros
+                    e outros assessores não financeiros. Os respondentes foram
                     questionados sobre a alocação de seus recursos em
                     Investimentos de Impacto e Filantropia, além de suas visões
                     de longo prazo para essas temáticas. A pesquisa também visa
@@ -1659,7 +1659,7 @@ const KnowledgeSection = () => {
                 <>
                   <p>
                     Fundado em 1999, o{" "}
-                    <strong>Instituto de Cidadania Empresarial (ICE)</strong>
+                    <strong>Instituto de Cidadania Empresarial (ICE)</strong>{" "}
                     tem como propósito reunir empresários e investidores em
                     torno de inovações sociais que ampliem seu engajamento
                     pessoal, filantrópico e corporativo. Seu objetivo central é
@@ -1821,7 +1821,7 @@ const KnowledgeSection = () => {
                     evento, <strong>Cristiane Sultani</strong> destacou o papel
                     crucial do capital filantrópico como uma forma de capital de
                     risco, capaz de impulsionar a inovação e promover a
-                    colaboração. Esses elementos são pilares essenciais para uma
+                    colaboração. Esses elementos são pilares essenciais para uma{" "}
                     <strong>filantropia estratégica e transformadora. </strong>
                   </p>
                 </>
@@ -1836,12 +1836,12 @@ const KnowledgeSection = () => {
                   <p>
                     O fórum aconteceu no icônico{" "}
                     <strong>Museu do Amanhã</strong> e foi organizado pelo{" "}
-                    <strong>Yunus Negócios Sociais</strong>, com o apoio do
-                    Somos Um e do SEBRAE, além do patrocínio do{" "}
-                    <strong>Instituto Beja</strong>. O encontro consolidou o{" "}
-                    <strong>#FórumdeNegóciosSociais</strong> como uma plataforma
-                    de referência, promovendo debates sobre como os princípios
-                    dos negócios de impacto podem oferecer{" "}
+                    <strong>Yunus Negócios Sociais</strong>, com o apoio do{" "}
+                    <strong>Somos Um</strong> e do <strong>SEBRAE</strong>, além
+                    do patrocínio do <strong>Instituto Beja</strong>. O encontro
+                    consolidou o <strong>#FórumdeNegóciosSociais</strong> como
+                    uma plataforma de referência, promovendo debates sobre como
+                    os princípios dos negócios de impacto podem oferecer{" "}
                     <strong>soluções sustentáveis e eficazes.</strong>
                   </p>
 

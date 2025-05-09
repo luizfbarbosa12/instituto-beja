@@ -230,7 +230,7 @@ const AdvocacySection = () => {
         title={"Apoio Plurianual"}
         partnerImg={[Images.Logos.SerenasLogo]}
         subCards={[Images.Secoes.JusticaRacial, Images.Secoes.EquidadeGenero]}
-        subtitle={"Vigência - 2023 - 2027"}
+        subtitle={"Vigência - 2023 - 2028"}
         partnerName={"Serenas"}
       >
         <TextBlock
@@ -394,7 +394,7 @@ const AdvocacySection = () => {
         title={"Apoio Plurianual"}
         partnerImg={[Images.Logos.PonteLogo]}
         subCards={[Images.Secoes.PelaDemocracia2, Images.Secoes.EquidadeGenero]}
-        subtitle={"Vigência - 2023 - 2027"}
+        subtitle={"Vigência - 2024 - 2027"}
         partnerName={"A Ponte"}
       >
         <TextBlock
@@ -874,9 +874,13 @@ const AdvocacySection = () => {
                 <>
                   <p>
                     Em 2024, o <strong>Pacto pela Democracia</strong> lançou a{" "}
-                    <strong className='underline'>
+                    <a
+                      href='https://www.democraciaforte.org.br/'
+                      target='_blank'
+                      className='underline font-bold'
+                    >
                       Agenda Democracia Forte
-                    </strong>
+                    </a>
                     , uma iniciativa estruturada em oito pilares fundamentais:
                     Forças de Segurança; Equilíbrio dos Poderes; Sistema
                     Eleitoral; Responsabilização; Participação Social; Educação
@@ -899,17 +903,31 @@ const AdvocacySection = () => {
                   <p>
                     Em 2022, o <strong>Pacto pela Democracia</strong> recebeu o
                     prêmio da{" "}
-                    <strong className='underline'>World Justice Project</strong>{" "}
+                    <a
+                      href='https://worldjusticeproject.org/world-justice-challenge/protect-democracy-safeguarding-integrity-and-rule-law-brazils-2022-election'
+                      target='_blank'
+                      className='underline font-bold'
+                    >
+                      World Justice Project
+                    </a>{" "}
                     em reconhecimento à sua atuação na defesa do processo
                     eleitoral. Em 2024, realizou a campanha de conscientização e
                     informação intitulada{" "}
-                    <strong className='underline'>
-                      &quot;Sem memória não há futuro&quot;
-                    </strong>
+                    <a
+                      href='https://www.semmemorianaohafuturo.org/'
+                      target='_blank'
+                      className='underline font-bold'
+                    >
+                      &quot;Sem memoria não há futuro&quot;
+                    </a>
                     , marcando os 60 anos do Golpe Militar, e lançou o{" "}
-                    <strong className='underline'>
+                    <a
+                      href='https://guias.pactopelademocracia.org.br/'
+                      target='_blank'
+                      className='underline font-bold'
+                    >
                       Guia para a democracia: defesa do processo eleitoral
-                    </strong>{" "}
+                    </a>
                     , para fortalecer a confiança no sistema eleitoral
                     brasileiro .
                   </p>
