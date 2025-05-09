@@ -170,9 +170,10 @@ const AdvocacySection = () => {
           ]}
         />
 
-        <AnimatedLine />
+        <AnimatedLine className='tablet:-mt-20' />
 
         <TextBlock
+          className='tablet:-mt-20'
           firstBlock={[
             {
               key: "first-0",

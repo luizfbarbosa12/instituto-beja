@@ -26,7 +26,7 @@ const PartnerSection = ({
         subtitle={subtitle}
       />
 
-      <div className='flex flex-col gap-18 w-[66rem] max-[1325px]:w-full max-640:gap-8'>
+      <div className='flex flex-col gap-18 w-full max-w-250 max-[1325px]:w-full max-640:gap-8'>
         <h1
           style={{
             fontSize: `clamp(${calcClamp(24, 64)})`,

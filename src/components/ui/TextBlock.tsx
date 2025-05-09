@@ -10,7 +10,7 @@ type TextBlockProps = {
 const TextBlock = ({ firstBlock, secondBlock, className }: TextBlockProps) => {
   return (
     <div
-      className={`flex justify-end gap-12 max-w-264 max-640:flex-col max-640:gap-4 ${className}`}
+      className={`flex justify-end gap-12 max-w-250 max-640:flex-col max-640:gap-4 ${className}`}
     >
       {firstBlock && (
         <div

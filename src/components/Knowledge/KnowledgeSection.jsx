@@ -135,10 +135,10 @@ const KnowledgeSection = () => {
           ]}
         />
 
-        <AnimatedLine />
+        <AnimatedLine className='tablet:-mt-20' />
 
         <TextBlock
-          className='-mt-20'
+          className='tablet:-mt-20'
           firstBlock={[
             {
               key: "first-0",
