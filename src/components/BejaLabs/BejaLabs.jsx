@@ -48,7 +48,7 @@ const BejaLabs = () => {
       >
         <GoldenQuoteSlider
           arr={[
-            "A velhice precisa ser tratada no plural, não há uma única forma de se envelhecer, principalmente num cenário como o brasileiro, marcado por extrema desigualdade social. Nova Longevidade: o Lab precisa estar atento a essas questões da desigualdade porque não se trata apenas de envelhecer bem, contribuindo para a sociedade, com saúde, dignidade, com autonomia, propósito e com colaboração intergeracional. No Brasil essas questões estão marcadas pela desigualdade social.",
+            '"A velhice precisa ser tratada no plural, não há uma única forma de se envelhecer, principalmente num cenário como o brasileiro, marcado por extrema desigualdade social. Nova Longevidade: o Lab precisa estar atento a essas questões da desigualdade porque não se trata apenas de envelhecer bem, contribuindo para a sociedade, com saúde, dignidade, com autonomia, propósito e com colaboração intergeracional. No Brasil essas questões estão marcadas pela desigualdade social."',
           ]}
           cite={
             "MARILIA DUQUE, Consultora, Mentora e Pesquisadora da Interface Tecnologia e Envelhecimento"
@@ -107,7 +107,7 @@ const BejaLabs = () => {
                     que compartilham a mesma visão de construir novas narrativas
                     e paradigmas para a longevidade. O projeto parte da crença
                     de que a confiança e a colaboração são alicerces
-                    fundamentais para alcançar essa transformação
+                    fundamentais para alcançar essa transformação.
                   </p>
                 </>
               ),
@@ -172,77 +172,81 @@ const BejaLabs = () => {
           ]}
         />
 
-        <TextBlock
-          firstBlock={[
-            {
-              key: "first-0",
-              content: (
-                <>
-                  <p>
-                    Para ampliar o alcance e engajamento, foi lançado um site
-                    exclusivo contendo insights detalhados, um mapa interativo e
-                    relatórios disponíveis para download.
-                  </p>
-                </>
-              ),
-            },
-          ]}
-          secondBlock={[
-            {
-              key: "second-0",
-              content: <></>,
-            },
-          ]}
-        />
+        <div className='flex flex-col gap-4'>
+          <TextBlock
+            firstBlock={[
+              {
+                key: "first-0",
+                content: (
+                  <>
+                    <p>
+                      Para ampliar o alcance e engajamento, foi lançado um site
+                      exclusivo contendo insights detalhados, um mapa interativo
+                      e relatórios disponíveis para download.
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+            secondBlock={[
+              {
+                key: "second-0",
+                content: <></>,
+              },
+            ]}
+          />
 
-        <TopicList
-          title={"O tema educação emergiu relacionado à:"}
-          list={[
-            "Entre outubro e dezembro de 2024, o site registrou 942 novos usuários, gerando 2,9 mil de pageviews.",
-            "Até 2 de janeiro de 2025, 134 downloads do relatório foram realizados.",
-            "Campanhas realizadas nas redes sociais, em parceria com Ashoka, Institute Beja e Itaú Viver Mais, alcançaram 23 mil visualizações e 1 mil interações.",
-            "O mapeamento teve 33 menções na mídia, alcançando uma exposição estimada em 500 mil reais em publicidade.",
-          ]}
-        />
+          <TopicList
+            title={"O tema educação emergiu relacionado à:"}
+            list={[
+              "Entre outubro e dezembro de 2024, o site registrou 942 novos usuários, gerando 2,9 mil de pageviews.",
+              "Até 2 de janeiro de 2025, 134 downloads do relatório foram realizados.",
+              "Campanhas realizadas nas redes sociais, em parceria com Ashoka, Institute Beja e Itaú Viver Mais, alcançaram 23 mil visualizações e 1 mil interações.",
+              "O mapeamento teve 33 menções na mídia, alcançando uma exposição estimada em 500 mil reais em publicidade.",
+            ]}
+          />
+        </div>
 
-        <TextBlock
-          firstBlock={[
-            {
-              key: "first-0",
-              content: (
-                <>
-                  <p>
-                    <strong>
-                      Educação foi identificada pelo ecossistema como uma das
-                      principais barreiras
-                    </strong>{" "}
-                    para uma sociedade participativa e equitativa para todas as
-                    idades.
-                  </p>
-                </>
-              ),
-            },
-          ]}
-          secondBlock={[
-            {
-              key: "second-0",
-              content: <></>,
-            },
-          ]}
-        />
+        <div className='flex flex-col gap-4'>
+          <TextBlock
+            firstBlock={[
+              {
+                key: "first-0",
+                content: (
+                  <>
+                    <p>
+                      <strong>
+                        Educação foi identificada pelo ecossistema como uma das
+                        principais barreiras
+                      </strong>{" "}
+                      para uma sociedade participativa e equitativa para todas
+                      as idades.
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+            secondBlock={[
+              {
+                key: "second-0",
+                content: <></>,
+              },
+            ]}
+          />
 
-        <TopicList
-          title={"O tema educação emergiu relacionado à:"}
-          list={[
-            "Educação Formal",
-            "Até 2 de janeiro de 2025, 134 downloads do relatório foram realizados.",
-            "Capacidade de Informação e Decisão",
-            "Aprendizado ao longo da vida",
-            "Formação em Geriatria e Gerontologia",
-            "Educação para Saúde",
-            "Educação para Longevidade",
-          ]}
-        />
+          <TopicList
+            title={"O tema educação emergiu relacionado à:"}
+            list={[
+              "Educação Formal",
+              "Até 2 de janeiro de 2025, 134 downloads do relatório foram realizados.",
+              "Capacidade de Informação e Decisão",
+              "Aprendizado ao longo da vida",
+              "Formação em Geriatria e Gerontologia",
+              "Educação para Saúde",
+              "Educação para Longevidade",
+            ]}
+          />
+        </div>
       </LabSection>
 
       <LabSection
@@ -256,39 +260,41 @@ const BejaLabs = () => {
         topImgStyle={{ w: 221, maxW: 751, h: 193, maxH: 659 }}
         topImgCss={"-left-40"}
       >
-        <TextBlock
-          firstBlock={[
-            {
-              key: "first-0",
-              content: (
-                <>
-                  <p>
-                    O mapeamento do ecossistema desempenhou um papel fundamental
-                    no fortalecimento da reputação do <strong>Lab</strong>. Ele
-                    ampliou oportunidades de conexão e abriu frentes de
-                    colaboração, consolidando sua presença no campo da inovação
-                    social para a longevidade.
-                  </p>
-                </>
-              ),
-            },
-          ]}
-          secondBlock={[
-            {
-              key: "second-0",
-              content: <></>,
-            },
-          ]}
-        />
+        <div className='flex flex-col gap-4'>
+          <TextBlock
+            firstBlock={[
+              {
+                key: "first-0",
+                content: (
+                  <>
+                    <p>
+                      O mapeamento do ecossistema desempenhou um papel
+                      fundamental no fortalecimento da reputação do{" "}
+                      <strong>Lab</strong>. Ele ampliou oportunidades de conexão
+                      e abriu frentes de colaboração, consolidando sua presença
+                      no campo da inovação social para a longevidade.
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+            secondBlock={[
+              {
+                key: "second-0",
+                content: <></>,
+              },
+            ]}
+          />
 
-        <TopicList
-          title={"Principais ações e impactos:"}
-          list={[
-            "Entrevistas estratégicas: realizadas com representantes de órgãos públicos, setor privado, academia e iniciativas sociais. Entre os participantes estão a Secretaria Nacional de Direitos da Pessoa Idosa, Grupo RD Saúde, Talento Sênior e Fórum Gerações e Futuro do Trabalho, entre outros.",
-            "Conexões com organizações relevantes: parcerias estabelecidas com instituições como SESG, Sanofi, Insper, FGV EAESP, MedSênior, Sírio Libanês, Catalyst 2030, BID, ThinkOlga, Ministério Público de Pernambuco, entre outros.",
-            "Colaboração com empreendedores da rede Ashoka: engajamento com empreendedores que atuam com longevidade, incluindo Gabriela Agustini (Olahi), João Souza (Facela), João Paulo Nogueira (Cuidador de Confiança), Sérgio Serapião (Labora), Karen Woreman (Museu da Pessoa), entre outros.",
-          ]}
-        />
+          <TopicList
+            title={"Principais ações e impactos:"}
+            list={[
+              "Entrevistas estratégicas: realizadas com representantes de órgãos públicos, setor privado, academia e iniciativas sociais. Entre os participantes estão a Secretaria Nacional de Direitos da Pessoa Idosa, Grupo RD Saúde, Talento Sênior e Fórum Gerações e Futuro do Trabalho, entre outros.",
+              "Conexões com organizações relevantes: parcerias estabelecidas com instituições como SESG, Sanofi, Insper, FGV EAESP, MedSênior, Sírio Libanês, Catalyst 2030, BID, ThinkOlga, Ministério Público de Pernambuco, entre outros.",
+              "Colaboração com empreendedores da rede Ashoka: engajamento com empreendedores que atuam com longevidade, incluindo Gabriela Agustini (Olahi), João Souza (Facela), João Paulo Nogueira (Cuidador de Confiança), Sérgio Serapião (Labora), Karen Woreman (Museu da Pessoa), entre outros.",
+            ]}
+          />
+        </div>
 
         <TopicList
           title={
@@ -367,41 +373,43 @@ const BejaLabs = () => {
           list={projects}
         />
 
-        <TextBlock
-          firstBlock={[
-            {
-              key: "first-0",
-              content: (
-                <>
-                  <p>
-                    Em 16 de outubro, no Espaço Literat, o Lab Nova Longevidade
-                    realizou seu primeiro círculo de aprendizado, explorando
-                    temas fundamentais, como:
-                  </p>
-                </>
-              ),
-            },
-          ]}
-          secondBlock={[
-            {
-              key: "second-0",
-              content: <></>,
-            },
-          ]}
-        />
+        <div className='flex flex-col gap-4'>
+          <TextBlock
+            firstBlock={[
+              {
+                key: "first-0",
+                content: (
+                  <>
+                    <p>
+                      Em 16 de outubro, no Espaço Literat, o Lab Nova
+                      Longevidade realizou seu primeiro círculo de aprendizado,
+                      explorando temas fundamentais, como:
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+            secondBlock={[
+              {
+                key: "second-0",
+                content: <></>,
+              },
+            ]}
+          />
 
-        <TopicList
-          title={"Principais aprendizados do Lab em 2024"}
-          list={[
-            "Educação para Longevidade",
-            "Cultura do Cuidado",
-            "Inclusão Digital",
-            "Importância da Voz das Comunidades",
-            "Novas Narrativas e Modelos Mentais",
-            "Trabalho e Aprendizagem ao Longo da Vida",
-            "Idadismo",
-          ]}
-        />
+          <TopicList
+            title={"Principais aprendizados do Lab em 2024"}
+            list={[
+              "Educação para Longevidade",
+              "Cultura do Cuidado",
+              "Inclusão Digital",
+              "Importância da Voz das Comunidades",
+              "Novas Narrativas e Modelos Mentais",
+              "Trabalho e Aprendizagem ao Longo da Vida",
+              "Idadismo",
+            ]}
+          />
+        </div>
 
         <PinkBox>
           <p>
@@ -419,7 +427,7 @@ const BejaLabs = () => {
 
         <GoldenQuoteSlider
           arr={[
-            "Impulsionar mudanças em políticas públicas, normas sociais e dinâmicas de mercado para promover um envelhecimento saudável, ativo e com propósito. Mobilizar a sociedade como um todo para enfrentar os desafios e oportunidades do rápido envelhecimento populacional, garantindo qualidade de vida e inclusão para todas as gerações.",
+            '"Impulsionar mudanças em políticas públicas, normas sociais e dinâmicas de mercado para promover um envelhecimento saudável, ativo e com propósito. Mobilizar a sociedade como um todo para enfrentar os desafios e oportunidades do rápido envelhecimento populacional, garantindo qualidade de vida e inclusão para todas as gerações."',
           ]}
           cite={
             "MARILIA DUQUE, Consultora, Mentora e Pesquisadora da Interface Tecnologia e Envelhecimento"
@@ -441,7 +449,7 @@ const BejaLabs = () => {
       >
         <GoldenQuoteSlider
           arr={[
-            "E se, em vez de simplesmente reagir às questões que parecem erradas, nós começássemos a narrar o mundo diferente que queremos ver? Consolidar, a partir do exercício da especulação imaginativa, possibilidades que ainda não estão explícitas, mas que podem se tornar a partir desse exercício, baseado em processos bastante estruturados que a indústria já utiliza para forjar o design de futuros.",
+            '"E se, em vez de simplesmente reagir às questões que parecem erradas, nós começássemos a narrar o mundo diferente que queremos ver? Consolidar, a partir do exercício da especulação imaginativa, possibilidades que ainda não estão explícitas, mas que podem se tornar a partir desse exercício, baseado em processos bastante estruturados que a indústria já utiliza para forjar o design de futuros."',
           ]}
           cite={"GRACIELA SELAIMEN, Fundadora "}
         />
@@ -490,7 +498,7 @@ const BejaLabs = () => {
 
         <GoldenQuoteSlider
           arr={[
-            "Para além de uma visão sistêmica, um fazer sistêmico: é preciso se implicar como parte do problema. Reconhecer que precisamos de pessoas muito diferentes discutindo na mesa, não podem ser as mesmas pessoas de sempre. Precisamos de outros discursos, outras habilidades. Quais as possibilidades de conversas temos quando se juntam vozes muito diferentes que nunca se encontram antes? É preciso ouvir pessoas que estão dispostas a desafiar o status quo, capazes de promover uma verdadeira transformação cultural na filantropia. E este tipo de mudança não é necessariamente mensurável.",
+            '"Para além de uma visão sistêmica, um fazer sistêmico: é preciso se implicar como parte do problema. Reconhecer que precisamos de pessoas muito diferentes discutindo na mesa, não podem ser as mesmas pessoas de sempre. Precisamos de outros discursos, outras habilidades. Quais as possibilidades de conversas temos quando se juntam vozes muito diferentes que nunca se encontram antes? É preciso ouvir pessoas que estão dispostas a desafiar o status quo, capazes de promover uma verdadeira transformação cultural na filantropia. E este tipo de mudança não é necessariamente mensurável."',
           ]}
           cite={"GRACIELA SELAIMEN, Fundadora "}
         />
@@ -548,39 +556,41 @@ const BejaLabs = () => {
           ]}
         />
 
-        <TextBlock
-          firstBlock={[
-            {
-              key: "first-0",
-              content: (
-                <>
-                  <p>
-                    Para buscar respostas e provocar reflexão, o{" "}
-                    <strong>Lab</strong> atua em três dimensões principais: SELF
-                    (indivíduo), ECOSSISTEMAS e INSTITUIÇÕES.
-                  </p>
-                </>
-              ),
-            },
-          ]}
-          secondBlock={[
-            {
-              key: "second-0",
-              content: <></>,
-            },
-          ]}
-        />
+        <div className='flex flex-col gap-4'>
+          <TextBlock
+            firstBlock={[
+              {
+                key: "first-0",
+                content: (
+                  <>
+                    <p>
+                      Para buscar respostas e provocar reflexão, o{" "}
+                      <strong>Lab</strong> atua em três dimensões principais:
+                      SELF (indivíduo), ECOSSISTEMAS e INSTITUIÇÕES.
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+            secondBlock={[
+              {
+                key: "second-0",
+                content: <></>,
+              },
+            ]}
+          />
 
-        <TopicList
-          title={"Com foco em:"}
-          list={[
-            "Expansão de perspectivas",
-            "Exploração de novas linguagens, conceitos e tecnologias",
-            "Criação de conteúdos, storytelling, disputa de narrativas",
-            "Construção de cenários e futuros",
-            "Aplicação de design especulativo",
-          ]}
-        />
+          <TopicList
+            title={"Com foco em:"}
+            list={[
+              "Expansão de perspectivas",
+              "Exploração de novas linguagens, conceitos e tecnologias",
+              "Criação de conteúdos, storytelling, disputa de narrativas",
+              "Construção de cenários e futuros",
+              "Aplicação de design especulativo",
+            ]}
+          />
+        </div>
 
         <TextBlock
           firstBlock={[
