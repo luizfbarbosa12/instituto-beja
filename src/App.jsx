@@ -48,7 +48,7 @@ const App = () => {
 
   return (
     <>
-      {/* <FirstSection />
+      <FirstSection />
       <FounderLetter />
       <FoundLetterToContextTransition />
       <RebrandingSection />
@@ -60,13 +60,13 @@ const App = () => {
       <InteractionEcosystem />
       <CMESection />
       <AdvocacySection />
-      <KnowledgeSection /> */}
+      <KnowledgeSection />
       <BejaLabs />
-      {/* <PhilanthropySection />
+      <PhilanthropySection />
       <FinalSection />
       <BalancoTable data={balance} />
       <Expediente />
-      <Footer /> */}
+      <Footer />
     </>
   );
 };
