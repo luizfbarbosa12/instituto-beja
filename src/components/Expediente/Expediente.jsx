@@ -47,7 +47,7 @@ const Expediente = () => {
             <br />
             Anual 2024
           </h1>
-          <div className="mt-24 md:mt-40">
+          <div className="mt-24 md:mt-60">
             <img
               src="/assets/LOGO_BEJA-puro.svg"
               alt="Instituto Beja"
