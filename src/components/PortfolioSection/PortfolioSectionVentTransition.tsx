@@ -29,6 +29,7 @@ export function PortfolioSectionVentTransition() {
 
       gsap.to(".seeding", {
         y: -10,
+        x: "50%",
         scrollTrigger: {
           trigger: ".vent-container",
           start: "50% 80%",
@@ -41,18 +42,21 @@ export function PortfolioSectionVentTransition() {
   );
 
   return (
-    <div className='flex flex-col overflow-hidden relative' ref={container}>
+    <div
+      className='flex flex-col w-full overflow-hidden relative'
+      ref={container}
+    >
       <div className='ball rounded-t-[100vw] absolute w-full h-full bg-retro-ochre'></div>
-      <div className='vent-container min-h-screen z-1 relative mt-80'>
+      <div className='vent-container not-tablet:h-100 tablet:min-h-screen z-1 relative tablet:mt-80 mt-40'>
         <img
           src={BejaLogo}
           alt='Logo da Beja'
-          className='absolute h-[158px] left-0 top-0'
+          className='absolute h-12 tablet:h-[158px] left-0 top-0'
         />
         <div className='seeding w-full flex justify-center absolute -bottom-2 -translate-x-1/2'>
-          <img src={SeedingGold} alt='Muda dourada' />
+          <img src={SeedingGold} className='h-40' alt='Muda dourada' />
         </div>
-        <TextAnimate className='absolute top-1/2 left-1/2 w-full flex justify-center -translate-x-1/2 -translate-y-1/2 font-serif text-white lg:text-8xl text-6xl desktop:text-9xl leading-[160%]'>
+        <TextAnimate className='absolute top-1/2 left-1/2 w-full flex justify-center -translate-x-1/2 -translate-y-1/2 font-serif text-white lg:text-8xl text-3xl tablet:6xl desktop:text-9xl leading-[160%]'>
           Beja Labs / Laboratórios
         </TextAnimate>
       </div>

@@ -9,113 +9,177 @@ const AnimatedLetter = ({ text }) => {
 
   useGSAP(
     () => {
-      gsap.fromTo(
-        ".letter",
-        {
-          opacity: 0.7,
-          y: 200,
-        },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 1,
-          scrollTrigger: {
-            trigger: letterContainerRef.current,
-            start: "0px 50%",
-            end: "0px 20%",
-            scrub: 2,
-          },
-        },
-      );
+      const matchMedia = gsap.matchMedia(letterContainerRef);
 
-      gsap.fromTo(
-        ".content",
-        {
-          paddingLeft: "32px",
-          paddingRight: "32px",
-        },
-        {
-          paddingLeft: "0px",
-          paddingRight: "0px",
-          duration: 0.5,
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            toggleActions: "play none none reverse",
+      matchMedia.add("screen and (max-width: 900px)", () => {
+        gsap.fromTo(
+          ".letter",
+          {
+            opacity: 0.7,
+            y: 200,
           },
-        },
-      );
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            scrollTrigger: {
+              trigger: letterContainerRef.current,
+              start: "0px 90%",
+              end: "0px 20%",
+              scrub: 2,
+            },
+          },
+        );
 
-      gsap.fromTo(
-        ".letter-bg",
-        {
-          height: "500px",
-          transformOrigin: "top",
-        },
-        {
-          height: "100%",
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            end: "top 0%",
-            scrub: 1,
+        gsap.fromTo(
+          ".letter",
+          {
+            scale: 0.9,
+            transformOrigin: "center top",
           },
-        },
-      );
+          {
+            scale: 1,
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 90%",
+              end: "top 0%",
+              scrub: 2,
+            },
+          },
+        );
 
-      gsap.fromTo(
-        ".bike-mobile",
-        {
-          y: 300,
-        },
-        {
-          y: 0,
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            end: "top 0%",
-            scrub: 1,
+        gsap.fromTo(
+          ".letter-bg",
+          {
+            height: "350px",
+            transformOrigin: "top",
           },
-        },
-      );
+          {
+            height: "100%",
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 50%",
+              end: "top 0%",
+              scrub: 1,
+            },
+          },
+        );
 
-      gsap.fromTo(
-        ".letter-text p",
-        {
-          transformOrigin: "top",
-          opacity: 0,
-          y: "100%",
-        },
-        {
-          opacity: 1,
-          y: 0,
-          stagger: 0.5,
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            end: "top 0%",
-            scrub: 1,
+        gsap.fromTo(
+          ".letter-text p",
+          {
+            transformOrigin: "top",
+            opacity: 0,
+            y: "100%",
           },
-        },
-      );
+          {
+            opacity: 1,
+            y: 0,
+            stagger: 0.5,
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 50%",
+              end: "top 0%",
+              scrub: 1,
+            },
+          },
+        );
 
-      gsap.fromTo(
-        ".beja-logo",
-        {
-          bottom: "78%",
-          rotate: "-90deg",
-        },
-        {
-          bottom: "2.5rem",
-          rotate: "270deg",
-          scrollTrigger: {
-            trigger: ".letter",
-            start: "top 30%",
-            end: "top 0%",
-            scrub: 2,
+        gsap.fromTo(
+          ".beja-logo",
+          {
+            top: "14rem",
+            rotate: "-90deg",
           },
-        },
-      );
+          {
+            top: "90%",
+            rotate: "270deg",
+            delay: 1,
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 50%",
+              end: "top 0%",
+              scrub: 2,
+            },
+          },
+        );
+      });
+
+      matchMedia.add("screen and (min-width: 901px)", () => {
+        gsap.fromTo(
+          ".letter",
+          {
+            opacity: 0.7,
+            y: 200,
+          },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 1,
+            scrollTrigger: {
+              trigger: letterContainerRef.current,
+              start: "0px 30%",
+              end: "0px 20%",
+              scrub: 2,
+            },
+          },
+        );
+
+        gsap.fromTo(
+          ".letter-bg",
+          {
+            height: "500px",
+            transformOrigin: "top",
+          },
+          {
+            height: "100%",
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 30%",
+              end: "top 0%",
+              scrub: 1,
+            },
+          },
+        );
+
+        gsap.fromTo(
+          ".letter-text p",
+          {
+            transformOrigin: "top",
+            opacity: 0,
+            y: "100%",
+          },
+          {
+            opacity: 1,
+            y: 0,
+            stagger: 0.5,
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 25%",
+              end: "top 0%",
+              scrub: 1,
+            },
+          },
+        );
+
+        gsap.fromTo(
+          ".beja-logo",
+          {
+            bottom: "65%",
+            rotate: "-90deg",
+          },
+          {
+            bottom: "2.5rem",
+            rotate: "270deg",
+            scrollTrigger: {
+              trigger: ".letter",
+              start: "top 30%",
+              end: "top 0%",
+              scrub: 2,
+            },
+          },
+        );
+      });
     },
     {
       scope: letterContainerRef,
