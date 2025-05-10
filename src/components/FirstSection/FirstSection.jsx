@@ -1,5 +1,6 @@
 import * as Icon from "@phosphor-icons/react";
 import { memo } from "react";
+import { useTranslation } from "react-i18next";
 
 const GoldGlobe = "/assets/cutedGoldGlobe.webp";
 
@@ -22,6 +23,8 @@ function DownloadButton() {
 }
 
 const FirstSection = () => {
+  const { i18n } = useTranslation();
+
   return (
     <div className='bg-bourdeaux w-full flex flex-col min-h-screen relative overflow-hidden'>
       <div className='flex w-full justify-between px-8 tablet:px-10 pt-15 tablet:pt-4'>
@@ -29,9 +32,14 @@ const FirstSection = () => {
           Relatório Anual 2024
         </p>
 
-        <div className='size-10 bg-rose rounded-full flex-center flex-col gap-1 font-bold'>
-          PT
-        </div>
+        <button
+          onClick={() =>
+            i18n.changeLanguage(i18n.language === "en" ? "pt" : "en")
+          }
+          className='size-10 bg-rose rounded-full flex-center flex-col gap-1 font-bold'
+        >
+          {i18n.language === "en" ? "EN" : "PT"}
+        </button>
       </div>
 
       <div className='relative w-full h-[64vh] left-0 tablet:h-[40vh] flex not-tablet:mt-16 '>

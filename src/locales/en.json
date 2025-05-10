@@ -1,0 +1,28 @@
+{
+  "advocacy": {
+    "title": "O Portfólio Beja foi organizado conforme os pilares estratégicos apresentados:",
+    "logoAlt": "Beja Logo",
+    "sections": {
+      "alliance": {
+        "title": "Association",
+        "subtitle": "Term - 2024",
+        "partnerName": "Aliança pelo fortalecimento da sociedade civil",
+        "firstBlock": {
+          "p1": "<strong>The Aliança para o Fortalecimento da Sociedade Civil</strong> (Alliance for the Strengthening of Civil Society) is a coalition of third sector organizations in their many forms of activity. Its aim is to promote the construction and consolidation of a promising legal, legislative and institutional environment, together with the necessary resources to maximize excellence in the performance of its activities.",
+          "p2": "The <strong>Alliance</strong> articulates and mobilizes public and private actors to build a tax and regulatory environment that is conducive to strengthening civil society organizations. It also works to produce and disseminate data and information of public interest on the subject."
+        },
+        "topicList": {
+          "title": "The Beja Institute, as Executive Secretary, is responsible for the management of the Alliance, including:",
+          "actions": [
+            "Articulating 20 Advocacy organizations and offices to closely follow tax reform;",
+            "Insertion of a large part of the proposals in defense of civil society organizations in the Tax Reform Supplementary Bill;",
+            "Sitting in over 30 regular meetings in Brasilia with government representatives;",
+            "Data collection and development of relevant research;",
+            "Promoting articulation with other organizations in the sector;",
+            "Conducting monthly plenary meetings and sector-improvement workshops."
+          ]
+        }
+      }
+    }
+  }
+}

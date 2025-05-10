@@ -1,0 +1,29 @@
+{
+  "advocacy": {
+    "sections": {
+      "alliance": {
+        "title": "Associação",
+        "subtitle": "Vigência - 2024",
+        "topicList": {
+          "title": "The Beja Institute, as Executive Secretary, is responsible for the management of the Alliance, including:",
+          "actions": [
+            "Articulating 20 Advocacy organizations and offices to closely follow tax reform;",
+            "Insertion of a large part of the proposals in defense of civil society organizations in the Tax Reform Supplementary Bill;",
+            "Sitting in over 30 regular meetings in Brasilia with government representatives;",
+            "Data collection and development of relevant research;",
+            "Promoting articulation with other organizations in the sector;",
+            "Conducting monthly plenary meetings and sector-improvement workshops."
+          ]
+        },
+        "secondBlock": {
+          "p1": "A organização trabalha na capacitação de sistemas de educação e segurança pública nas esferas municipais, estaduais e federais. A incorporação de tecnologias permitirá a expansão de treinamentos, formações e a disseminação do conhecimento gerado em diferentes regiões do Brasil.",
+          "p2": "Outro avanço significativo foi a formação de 20 professores da Academia de Polícia Civil de São Paulo sob uma metodologia focada no acolhimento, reconhecimento e prevenção de violências de gênero. Esses professores aplicarão a metodologia para formar 3 mil novos policiais contratados pelo estado."
+        },
+        "quote": {
+          "text": "A parceria com o Beja é revolucionária para a Serenas, pois o apoio institucional é um recurso que nos permite desenvolver a nossa capacidade de fazer.",
+          "author": "— AMANDA SADALLA, Cofundadora e Diretora Executiva"
+        }
+      }
+    }
+  }
+}

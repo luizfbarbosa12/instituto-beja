@@ -25,6 +25,7 @@ import {
   StrategicPillarSection,
   FoundLetterToContextTransition,
 } from "./components/Index";
+import "./config/i18n";
 
 const App = () => {
   gsap.registerPlugin(useGSAP);

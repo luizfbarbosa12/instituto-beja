@@ -9,8 +9,11 @@ import { advocacyActions, serenasList } from "../../data/AdvocacyData";
 import { AdvocacySectionVentTransition } from "./AdvocacySectionVentTransition";
 import ExternalLinkContainer from "../ui/ExternalLinkContainer";
 import { PortfolioToAdvocacyVentTransition } from "./PortfolioToAdvocacyVentTransition";
+import { Trans, useTranslation } from "react-i18next";
 
 const AdvocacySection = () => {
+  const { t } = useTranslation();
+
   return (
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
       <div
@@ -19,14 +22,13 @@ const AdvocacySection = () => {
       >
         <div className='flex-center flex-col w-full min-h-screen gap-6 max-1024:px-8 max-768:px-6 max-768:gap-6'>
           <img
-            alt='Beja Logo'
+            alt={t("advocacy.logoAlt")}
             src={Images.Logos.BejaLogoAnimadaBranca}
             className='max-1366:size-120 max-640:size-60'
           />
 
           <h1 className='editorial text-5xl max-w-225 leading-15 text-center text-porcelain max-1025:w-full max-768:text-4xl max-768:leading-12 max-640:text-lg max-640:leading-normal'>
-            O Portfólio Beja foi organizado conforme os pilares estratégicos
-            apresentados:{" "}
+            {t("advocacy.title")}
           </h1>
         </div>
 
@@ -39,13 +41,13 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Associação"}
+        title={t("advocacy.sections.alliance.title")}
         partnerImg={[Images.Secoes.AliancaAdvocacy]}
         subCards={[
           Images.Secoes.PelaDemocracia2,
           Images.Secoes.FilantropiaSubCard,
         ]}
-        subtitle={"Vigência - 2024"}
+        subtitle={t("advocacy.sections.alliance.subtitle")}
         partnerName={"Aliança pelo fortalecimento da sociedade civil"}
       >
         <TextBlock
@@ -55,15 +57,17 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>
-                      A Aliança para o Fortalecimento da Sociedade Civil
-                    </strong>{" "}
-                    é uma coalizão de organizações do terceiro setor, em suas
-                    múltiplas formas de atuação. Seu objetivo é promover a
-                    construção e consolidação de um ambiente jurídico,
-                    legislativo e institucional promissor, aliado aos recursos
-                    necessários para potencializar a excelência no desempenho de
-                    suas atividades.
+                    <Trans i18nKey='advocacy.sections.alliance.firstBlock.p1'>
+                      <strong>
+                        A Aliança para o Fortalecimento da Sociedade Civil
+                      </strong>{" "}
+                      é uma coalizão de organizações do terceiro setor, em suas
+                      múltiplas formas de atuação. Seu objetivo é promover a
+                      construção e consolidação de um ambiente jurídico,
+                      legislativo e institucional promissor, aliado aos recursos
+                      necessários para potencializar a excelência no desempenho
+                      de suas atividades.
+                    </Trans>
                   </p>
                 </>
               ),
@@ -89,9 +93,10 @@ const AdvocacySection = () => {
         />
 
         <TopicList
-          title={
-            " O Instituto Beja, enquanto Secretaria Executiva, é responsável por toda a gestão da Aliança, incluindo:"
-          }
+          title={t("advocacy.sections.alliance.topicList.title", {
+            defaultValue:
+              "O Instituto Beja, enquanto Secretaria Executiva, é responsável por toda a gestão da Aliança, incluindo:",
+          })}
           list={advocacyActions}
         />
       </PartnerSection>
