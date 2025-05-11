@@ -713,17 +713,15 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Associação e Apoio Plurianual"}
+        title={t("advocacy.sections.gife.title")}
         partnerImg={[Images.Logos.GifeLogo]}
         subCards={[Images.Secoes.FilantropiaSubCard]}
-        subtitle={"Vigência - 2024 A 2028"}
+        subtitle={t("advocacy.sections.gife.subtitle")}
         partnerName={"Grupo de Institutos Fundações e Empresas (GIFE)"}
       >
         <GoldenQuote
-          text={
-            "Em 2024, trabalhamos dados e informações a partir de pesquisas consolidadas, como o Censo GIFE, lançado no final de 2023. Usar dados e informações é uma forma de ir além do convencimento normativo, do dever ser. Com bons dados, podemos dizer como as coisas são e por que devemos mudar, evidenciando as conquistas mas sobretudo os limites da filantropia."
-          }
-          autor={"CÁSSIO FRANÇA, Secretário Geral"}
+          text={t("advocacy.sections.gife.cite1.text")}
+          autor={t("advocacy.sections.gife.cite1.author")}
         />
 
         <TextBlock
@@ -733,16 +731,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>
-                      O Grupo de Institutos Fundações e Empresas (GIFE)
-                    </strong>{" "}
-                    é uma associação que reúne investidores sociais privados do
-                    Brasil, incluindo empresas, institutos e fundações de
-                    diferentes naturezas - seja familiar, independente ou
-                    empresarial. Fundado como grupo informal em 1989, foi
-                    formalizado como organização sem fins lucrativos em 1995 e é
-                    uma referência nacional no campo do investimento social
-                    privado.
+                    <Trans i18nKey='advocacy.sections.gife.block1.0' />
                   </p>
                 </>
               ),
@@ -754,14 +743,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    A associação desempenha um papel estratégico ao promover
-                    espaços de articulação e reflexão, produzir conteúdos e
-                    conhecimentos sobre o setor, incentivar o engajamento de
-                    novos atores e liderar esforços de advocacy. Um exemplo
-                    disso foi sua atuação na preparação de recomendações para o
-                    G20. Por meio de sua presença em grupos de trabalho, e da
-                    construção de agendas, o GIFE tem contribuído para
-                    fortalecer a atuação do setor filantrópico no Brasil.
+                    <Trans i18nKey='advocacy.sections.gife.block1.1' />
                   </p>
                 </>
               ),
@@ -770,19 +752,13 @@ const AdvocacySection = () => {
         />
 
         <GoldenQuote
-          text={
-            "Acredito que compreender o alcance policapital seja um passo essencial para maior impacto social; a filantropia deve assumir o papel político institucional frente ao setor público e privado. Sua participação no Conselho de Desenvolvimento Econômico Social Sustentável do Governo Federal e no Fundo USP Diversa, são demonstrações grandiosas da necessidade de corresponsabilidade no desenvolvimento do país como um todo."
-          }
-          autor={"CÁSSIO FRANÇA, Secretário Geral"}
+          text={t("advocacy.sections.gife.cite2.text")}
+          autor={t("advocacy.sections.gife.cite2.author")}
         />
 
         <PinkBox>
           <p>
-            Nosso compromisso é assegurar que o <strong>GIFE</strong> continue
-            cumprindo sua missão de estimular o diálogo entre seus membros,
-            apoiar o desenvolvimento de novos atores no campo do investimento
-            social privado e impulsionar a geração de conteúdos e conhecimentos
-            relevantes que colaborem para o avanço do setor.
+            <Trans i18nKey='advocacy.sections.gife.block2.0' />
           </p>
         </PinkBox>
       </PartnerSection>
