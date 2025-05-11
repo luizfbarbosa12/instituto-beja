@@ -767,10 +767,10 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Associação"}
+        title={t("advocacy.sections.latimpacto.title")}
         partnerImg={[Images.Logos.LatimImpactoLogo]}
         subCards={[Images.Secoes.FilantropiaSubCard]}
-        subtitle={"Vigência - 2024"}
+        subtitle={t("advocacy.sections.latimpacto.subtitle")}
         partnerName={"Latimpacto"}
       >
         <TextBlock
@@ -780,13 +780,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    A <strong>Latimpacto</strong> é uma rede que conecta
-                    provedores de capital em toda a América Latina e o Caribe,
-                    com a missão de impulsionar o fluxo de capital humano,
-                    intelectual e financeiro. Seu principal objetivo é
-                    fortalecer o ecossistema de investimento de impacto na
-                    região, potencializando a alocação de recursos para
-                    iniciativas socioambientais e de justiça social.
+                    <Trans i18nKey='advocacy.sections.latimpacto.block1.0' />
                   </p>
                 </>
               ),
@@ -798,17 +792,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Com aproximadamente 220 membros, a rede reúne uma
-                    diversidade de atores, incluindo famílias, family offices,
-                    corporações, fundações doadoras, organizações multilaterais,
-                    instituições acadêmicas e aceleradoras.{" "}
-                    <strong>
-                      Presente em mais de 16 países, a Latimpacto desempenha um
-                      papel fundamental ao conectar investidores, gestores e
-                      organizações comprometidas com a filantropia e o impacto
-                      socioambiental, ampliando a força desse ecossistema na
-                      região.
-                    </strong>
+                    <Trans i18nKey='advocacy.sections.latimpacto.block1.1' />
                   </p>
                 </>
               ),
@@ -821,10 +805,10 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Associação"}
+        title={t("advocacy.sections.mcd.title")}
         partnerImg={[Images.Secoes.MovimentoDoacao]}
         subCards={[Images.Secoes.FilantropiaSubCard]}
-        subtitle={"Vigência - 2024"}
+        subtitle={t("advocacy.sections.mcd.subtitle")}
         partnerName={"Movimento por uma Cultura de Doação (MCD)"}
       >
         <TextBlock
@@ -834,18 +818,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>
-                      O Movimento por uma Cultura de Doação (MCD) é uma rede
-                      aberta e democrática, composta por pessoas e organizações
-                      que, desde 2012, se mobilizam voluntariamente com o
-                      propósito de enraizar a prática da doação como um valor
-                      essencial à cultura brasileira.
-                    </strong>{" "}
-                    Dessa maneira, promove o altruísmo e a solidariedade. Por
-                    meio de campanhas colaborativas, produção de conhecimento e
-                    monitoramento do cenário de doação no Brasil, o{" "}
-                    <strong>MCD</strong> se engaja na construção de agendas
-                    estratégicas, fortalecendo a atuação do setor filantrópico.
+                    <Trans i18nKey='advocacy.sections.mcd.block1.0' />
                   </p>
                 </>
               ),
@@ -857,12 +830,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Por meio de iniciativas como o{" "}
-                    <strong>Monitor de Doação</strong> e a produção de
-                    diretrizes e conhecimento especializado, o{" "}
-                    <strong>MCD</strong> busca ampliar a conscientização
-                    pública. Assim, fomenta uma sociedade mais generosa,
-                    solidária e participativa no apoio a causas sociais.
+                    <Trans i18nKey='advocacy.sections.mcd.block1.' />
                   </p>
                 </>
               ),
