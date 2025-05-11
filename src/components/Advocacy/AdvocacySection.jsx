@@ -675,10 +675,10 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Projeto Apoiado"}
+        title={t("advocacy.sections.icci.title")}
         partnerImg={[Images.Logos.IcciLogo]}
         subCards={[Images.Secoes.PelaDemocracia2, Images.Secoes.JusticaRacial]}
-        subtitle={"Vigência - 2024 A 2025"}
+        subtitle={t("advocacy.sections.icci.subtitle")}
         partnerName={"Instituto Cultura, Comunicação e Incidência (ICCI)"}
       >
         <TextBlock
@@ -688,17 +688,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>
-                      O Instituto Cultura, Comunicação e Incidência (ICCI)
-                    </strong>{" "}
-                    apoia iniciativas de comunicação estratégica focadas em
-                    impulsionar as agendas de clima, democracia e justiça,
-                    criando demanda por políticas públicas e ações privadas que
-                    se traduzam em mudanças concretas e positivas nessas áreas.
-                    O Instituto entende que a comunicação estratégica é um
-                    recurso central no avanço dessas agendas e trabalha para
-                    ajudar a construir um ecossistema de iniciativas robustas,
-                    com alto potencial de produzir mudanças em escala.
+                    <Trans i18nKey='advocacy.sections.icci.block1.0' />
                   </p>
                 </>
               ),
@@ -710,18 +700,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>
-                      O ICCI oferece apoio financeiro, facilita a colaboração
-                      entre iniciativas, conduz pesquisas e promove o debate
-                      sobre a importância da comunicação no campo da filantro
-                      pia.
-                    </strong>{" "}
-                    Busca criar um cenário no qual a sociedade civil,
-                    empresários e atores políticos, dos mais diversos espectros
-                    políticos e ideológicos, reconheçam que ações em prol do
-                    clima, da democracia e da justiça são fundamentais para
-                    impulsionar o desenvolvimento sustentável e inclusivo do
-                    Brasil.
+                    <Trans i18nKey='advocacy.sections.icci.block2.0' />
                   </p>
                 </>
               ),
