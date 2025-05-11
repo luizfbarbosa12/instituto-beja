@@ -1,19 +1,17 @@
 {
   "advocacy": {
-    "title": "O Portfólio Beja foi organizado conforme os pilares estratégicos apresentados:",
+    "title": "The Beja portfolio was organized according to the strategic pillars presented:",
     "logoAlt": "Beja Logo",
     "sections": {
       "alliance": {
         "title": "Association",
         "subtitle": "Term - 2024",
         "partnerName": "Aliança pelo fortalecimento da sociedade civil",
-        "firstBlock": {
-          "p1": "<strong>The Aliança para o Fortalecimento da Sociedade Civil</strong> (Alliance for the Strengthening of Civil Society) is a coalition of third sector organizations in their many forms of activity. Its aim is to promote the construction and consolidation of a promising legal, legislative and institutional environment, together with the necessary resources to maximize excellence in the performance of its activities.",
-          "p2": "The <strong>Alliance</strong> articulates and mobilizes public and private actors to build a tax and regulatory environment that is conducive to strengthening civil society organizations. It also works to produce and disseminate data and information of public interest on the subject."
-        },
+        "p1": "<strong>The Aliança para o Fortalecimento da Sociedade Civil</strong> (Alliance for the Strengthening of Civil Society) is a coalition of third sector organizations in their many forms of activity. Its aim is to promote the construction and consolidation of a promising legal, legislative and institutional environment, together with the necessary resources to maximize excellence in the performance of its activities.",
+        "p2": "The <strong>Alliance</strong> articulates and mobilizes public and private actors to build a tax and regulatory environment that is conducive to strengthening civil society organizations. It also works to produce and disseminate data and information of public interest on the subject.",
         "topicList": {
           "title": "The Beja Institute, as Executive Secretary, is responsible for the management of the Alliance, including:",
-          "actions": [
+          "list": [
             "Articulating 20 Advocacy organizations and offices to closely follow tax reform;",
             "Insertion of a large part of the proposals in defense of civil society organizations in the Tax Reform Supplementary Bill;",
             "Sitting in over 30 regular meetings in Brasilia with government representatives;",
@@ -22,6 +20,89 @@
             "Conducting monthly plenary meetings and sector-improvement workshops."
           ]
         }
+      },
+      "endowment": {
+        "title": "MULTIANNUAL FUNDING",
+        "subtitle": "TERM - 2023",
+        "block1": {
+          "p1": "<strong>Fundo USP Diversa</strong> (Diverse USP Fund) is a special-purpose fund whose mission is to guarantee the financial sustainability needed to offer scholarships that enable students in situations of socioeconomic vulnerability to complete their education with excellence.",
+          "p2": "<strong>The structuring of the Fund began in mid-2023,</strong>, with intense articulation work that included specialized consultancies financed by the Beja Institute, as well as the dedication of a committed team, the University's deaneries and programs. The process culminated in the official launch in March 2024, making it the first specific purpose fund in operation at the <strong>Fundo Patrimonial da USP (USP Heritage Fund).</strong>",
+          "p3": "It is currently the largest fund exclusively dedicated to permanence scholarships, and is being prepared as a model to be replicated at other public universities facing similar challenges.",
+          "p4": "In 2024, <strong>Fundo USP Diversa</strong> made progress in its structuring and fundraising. In order to intensify fundraising, an exclusive department was created to raise funds and liaise with the unrestricted Heritage Fund and the University. This effort focused on mobilizing major philanthropists and companies, which resulted in two institutional events and the creation of the Supporters Committee, made up of Paula Miraglia, Neca Setubal, Cristiane Sultani, Ludhmila Hajjar, Marisa Monte and Stelio Marras. This committee plays an essential role in connecting potential donors and ensuring adherence to the<strong>Fund</strong>s principles. As a result of these actions, patrons - major donors who make significant contributions - have been won over, as well as an expansion in the base of recurring donors and will-based bequests.."
+        },
+        "block2": [
+          "For 2025 and the coming years, <strong>Fundo USP Diversa</strong> intends to continue increasing its visibility, strengthening its brand and expanding its supporter base through strategies aimed at building loyalty among donors at different levels of contribution. This growth will be made possible with the support of startups specialized in raising recurring donations, using technology and innovation to increase engagement and facilitate smaller contributions.",
+          "In addition, expanding strategic partnerships with the University and other organizations will be key to identifying and engaging alumni who connect with the cause. Promoting events and engagement initiatives will also continue to be a strategic pillar, consolidating the<strong>Fund</strong>'s visibility and boosting future fundraising.",
+          "In the long term, the goal is to intensify articulation with the university in order to measure the impact of the scholarships on the academic trajectory of the beneficiaries and on their professional and social development, thus ensuring the continuity and growth of the <strong>Fund</strong>."
+        ]
+      },
+      "serenas": {
+        "title": "MULTIANNUAL FUNDING",
+        "subtitle": "Term - 2023 - 2028",
+        "block1": [
+          "The prevention of violence against girls and women is still not perceived as essential to the education ecosystem, even though a significant part of philanthropic resources is earmarked for this sector. <strong>Serenas</strong> seeks to highlight the impact of gender-based violence on the overall development of girls and boys, on school performance and, consequently, on the progress of the country as a whole.",
+          "The organization was created to understand why, despite robust laws such as the Maria da Penha Law, Brazil still has alarming numbers on violence against girls and women. <strong>Serenas</strong> goal is to ensure that girls and women are free to choose and dream without limits, exercising their rights to dignity, respect and equality in a world free of discrimination and violence.",
+          "The organization works to develop the capabilities of education and public safety systems at the municipal, state and federal levels. The incorporation of technologies will allow for the expansion of training and the dissemination of the knowledge generated in different regions of Brazil."
+        ],
+        "topicList": {
+          "title": "Serenas works on two main fronts:",
+          "list": [
+            "EDUCATE TO PREVENT supports educational policies to implement the perspective of prevention of gender violence and the promotion of healthy relationships, articulating partnerships with the education and health departments to interrupt intergenerational cycles of violence.",
+            "QUALIFY TO SHELTER enables actors who assist survivors of violence, such as local leaders, social workers and, by 2024, members of the police force, expanding the prevention of institutional violence."
+          ]
+        },
+        "cite1": {
+          "text": "The partnership with Beja is revolutionary for Serenas, because institutional support is a resource that allows us to develop our capacity to do. It's a resource that multiplies, because it gives us the capacity to raise more money. With these five years of support, we can hire people with more visibility, moving away from short-term contracts. This allows us to offer training and mental health support to the team.",
+          "author": "AMANDA SADALLA, Cofounder and Executive Director"
+        },
+        "block2": [
+          "Through its partnership with the <strong>Beja Institute</strong>, Serenas has been invited to participate in and, in its own way, revolutionize - the process of evolving the Theory of Change. In 2025, they will take over <strong>CMe's Systems Orchestration</strong> with us.",
+          "In 2024, Serenas achieved significant milestones, including the training of 100 leaders and technicians in the Alagoas Education Department, in partnership with the Women's Affairs Department. It is also producing a guide to preventing gender-based violence, in collaboration with the Canadian Embassy, which will be distributed to more than 300 schools in the state.",
+          "In the city of São Paulo, it trained 30 social workers from the city council, impacting more than 7,000 families who use various public facilities. At the national level, they trained 70 agents who answer more than 500,000 calls a year through the Ligue 180 program - a hotline for women who are victims of violence - in partnership with the Ministry of Women's Affairs and with funding from the UK Embassy.",
+          "Another significant step forward was the <strong>training of 20 teachers at the São Paulo Civil Police Academy in a methodology focused on sheltering, recognizing and preventing gender-based violence.</strong> These teachers will apply the methodology to train 3,000 new police officers hired by the state.",
+          "In addition, the <strong>Beja Institute</strong> and the <strong>Machado Meyer Institute</strong> funded the research project <strong>Bullying and School Violence</strong>. The study seeks to understand the perceptions of teachers, students, leaders and education departments about gender violence, misogyny and LGBTphobia, which will be launched in 2025."
+        ],
+        "cite2": {
+          "text": "In 2025, acting as System Orchestrators with the CMe, we will be able to re-evaluate the ways we do things, think of better and new ways of doing and, from there, try to develop strategies for scaling up Serenas' work. In the challenge of thinking up a new advocacy narrative, we want to bring the issue of violence against girls and women to the center of educational policies.",
+          "author": "AMANDA SADALLA, Cofounder and Executive Director"
+        },
+        "block3": [
+          "<strong>In 2024, Serenas received the Selo de Igualdade Racial (seal of racial equality), an honor that recognizes the composition of its team, made up of more than 60% black women, half of whom hold leadership positions.</strong> This distinction reaffirms the organization's commitment to promoting racial and gender equality. In addition, for the third year running, <strong>Serenas</strong> was recognized with the <strong>Selo Municipal de Direitos Humanos e Diversidades (Municipal Seal of Human Rights and Diversity)</strong>, a tribute to the consistency of its initiatives in defence of diversity and human rights."
+        ]
+      },
+      "ponte": {
+        "title": "MULTIANNUAL FUNDING",
+        "subtitle": "Term - 2024 - 2027",
+        "block1": [
+          "<strong>Brazil ranks among the countries with the worst rates of gender parity in politics in Latin America. In the House of Representatives, women represent only 18% of elected parliamentarians, while in the Senate the figure is even lower, at just 7%.</strong>. The situation in the municipalities is even more alarming: 955 city councils don't even have one elected woman, according to data from the Superior Electoral Court collected by <strong>A Ponte</strong>. It's worth noting that city council is the main gateway to politics, and is responsible for starting the career of 90% of the women who work in this field.",
+          "The <strong>A Ponte</strong> network is made up of more than 60 women experts in 14 areas of public policy such as health, education, public budgeting, public safety and the environment. Created in 2020, the network aims to strengthen the careers of councilwomen and women politicians, increasing representativeness in Brazilian democracy. Its goal is to support elected women and promote universal public policies, based on data and evidence, implemented with technical rigor and aimed at serving the most vulnerable groups."
+        ],
+        "cite1": {
+          "text": "No one is looking at the start of political careers, all the attention is on congress, deputies and senators. But what about councilwomen? Without this attention to the start of their careers, it won't be possible to form a gender-equal congress in the near future.",
+          "author": "AMANDA ALBUQUERQUE, Executive Director"
+        },
+        "block2": [
+          "<strong>A Ponte</strong> Ponte works by offering technical and political support for strategic mandates and positions in both the legislative and executive branches, ensuring that women in leadership positions can make important decisions and influence public policies with a focus on gender equality and the defense of democracy. To date, the organization has supported <strong>32 councilwomen and deputies from 10 different parties, 93% of whom were elected for their first term, covering 13 states in all regions of Brazil</strong>.",
+          "<strong>A Ponte</strong> positions itself as nonpartisan and makes it clear that it does not support candidates who could compromise women's rights, according to its detailed <strong>Charter of Principles</strong>. The organization also declares itself to be mixed, with 60% of its staff made up of black women, and applies racial parity at all levels of its structure.",
+          "<strong>A Ponte</strong> has already had a direct impact on 193 parliamentary mandates, offering technical advice on the drafting and submission of 99 bills, 37 of which have already been approved. It has also provided 71 individual technical consultancies and organized 10 courses and workshops, helping to strengthen the capacities of women in positions of political leadership in Brazil.",
+          "One of its initiatives is the <strong>Maré de PLs</strong> project, now in its 11th edition, which aims to propose and pass qualified bills capable of transforming local realities. Once approved, these projects remain valid regardless of changes in administration, promoting well-founded and lasting public policies. <strong>In 2024, 115 mandates were affected by the support of the network experts, 104 mandates were supported by Maré de PLs, resulting in the approval of 7 Bills.</strong>",
+          "Another milestone was the <strong>Escola de Reeleição (Re-election School) project, created after identifying the low re-election rate of women in politics. Of the 30 women councillors monitored, only 13 were re-elected.</strong> The course, consisting of 18 lessons, was attended by 28 mandates, totaling 85 participants, with a significant regional diversity, including more than a third of representatives from the North and Northeast.",
+          "<strong>A Ponte</strong> also carried out individual bilateral technical assistance and personalized meetings with 15 mandates, provided press consultancy for all the mandates monitored and organized individualized communication workshops for 9 mandates."
+        ],
+        "cite2": {
+          "text": "Through the creation of the 'Alô Jurídico' complaints channel, we have been able to establish direct contact with the complainants so that A Ponte can act quickly and help them efficiently. We were able to articulate an arrest warrant for political violence this year.",
+          "author": "AMANDA ALBUQUERQUE, Executive Director"
+        },
+        "block3": [
+          "<strong>A Ponte</strong> highlights the need for greater coordination between donors, especially in the face of the disappearance of many democracy-strengthening organizations with which they collaborated."
+        ],
+        "cite3": {
+          "text": "Ponte's challenge is even greater because it is an organization that works to strengthen democracy, and is feminist, anti-racist and progressive.",
+          "author": "AMANDA ALBUQUERQUE, Executive Director"
+        },
+        "block4": [
+          "For 2025, <strong>A Ponte</strong> plans to implement systems to measure the results of project management, using the application of randomization, a strategy designed in the restructuring of its Theory of Change, and will expand its work in the legislature by incorporating a third axis of work, aimed specifically at climate impact."
+        ]
       }
     }
   }

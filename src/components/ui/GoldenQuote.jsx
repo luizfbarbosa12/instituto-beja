@@ -19,7 +19,7 @@ const GoldenQuote = ({ text, autor }) => {
         }}
         className='w-[55%] text-end max-lg:w-full'
       >
-        {autor}
+        — {autor}
       </cite>
     </div>
   );

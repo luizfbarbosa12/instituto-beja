@@ -5,7 +5,6 @@ import TopicList from "../ui/TopicList";
 import { Images } from "../../assets/Index";
 import AnimatedLine from "../ui/AnimatedLine";
 import PartnerSection from "../ui/PartnerSection";
-import { advocacyActions, serenasList } from "../../data/AdvocacyData";
 import { AdvocacySectionVentTransition } from "./AdvocacySectionVentTransition";
 import ExternalLinkContainer from "../ui/ExternalLinkContainer";
 import { PortfolioToAdvocacyVentTransition } from "./PortfolioToAdvocacyVentTransition";
@@ -13,6 +12,13 @@ import { Trans, useTranslation } from "react-i18next";
 
 const AdvocacySection = () => {
   const { t } = useTranslation();
+
+  const allianceList = t("advocacy.sections.alliance.topicList.list", {
+    returnObjects: true,
+  });
+  const serenasList = t("advocacy.sections.serenas.topicList.list", {
+    returnObjects: true,
+  });
 
   return (
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
@@ -55,21 +61,9 @@ const AdvocacySection = () => {
             {
               key: "first-0",
               content: (
-                <>
-                  <p>
-                    <Trans i18nKey='advocacy.sections.alliance.firstBlock.p1'>
-                      <strong>
-                        A Aliança para o Fortalecimento da Sociedade Civil
-                      </strong>{" "}
-                      é uma coalizão de organizações do terceiro setor, em suas
-                      múltiplas formas de atuação. Seu objetivo é promover a
-                      construção e consolidação de um ambiente jurídico,
-                      legislativo e institucional promissor, aliado aos recursos
-                      necessários para potencializar a excelência no desempenho
-                      de suas atividades.
-                    </Trans>
-                  </p>
-                </>
+                <p>
+                  <Trans i18nKey='advocacy.sections.alliance.p1' />
+                </p>
               ),
             },
           ]}
@@ -77,27 +71,17 @@ const AdvocacySection = () => {
             {
               key: "second-0",
               content: (
-                <>
-                  <p>
-                    A <strong>Aliança</strong> articula e mobiliza atores
-                    públicos e privados para a construção de um ambiente
-                    tributário e regulatório favorável ao fortalecimento das
-                    organizações da sociedade civil. Além disso, atua na
-                    produção e disseminação de dados e informações de interesse
-                    público relacionados ao tema.
-                  </p>
-                </>
+                <p>
+                  <Trans i18nKey='advocacy.sections.alliance.p2' />
+                </p>
               ),
             },
           ]}
         />
 
         <TopicList
-          title={t("advocacy.sections.alliance.topicList.title", {
-            defaultValue:
-              "O Instituto Beja, enquanto Secretaria Executiva, é responsável por toda a gestão da Aliança, incluindo:",
-          })}
-          list={advocacyActions}
+          title={t("advocacy.sections.alliance.topicList.title")}
+          list={allianceList}
         />
       </PartnerSection>
 
@@ -105,10 +89,10 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Apoio Plurianual"}
+        title={t("advocacy.sections.endowment.title")}
         partnerImg={[Images.Logos.UspLogo]}
         subCards={[Images.Secoes.JusticaRacial]}
-        subtitle={"Vigência - 2023"}
+        subtitle={t("advocacy.sections.endowment.subtitle")}
         partnerName={"Endowment: Fundo USP Diversa"}
       >
         <TextBlock
@@ -118,30 +102,14 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    O Fundo USP Diversa é um fundo de propósito específico cuja
-                    missão é garantir a sustentabilidade financeira necessária
-                    para oferecer bolsas de permanência que possibilitem aos
-                    estudantes em situação de vulnerabilidade socioeconômica
-                    concluir sua formação com excelência.
+                    <Trans i18nKey='advocacy.sections.endowment.block1.p1' />
                   </p>
 
                   <p>
-                    <strong>
-                      A estruturação do Fundo teve início em meados de 2023
-                    </strong>
-                    , com um intenso trabalho de articulação que contou com
-                    consultorias especializadas financiadas pelo Instituto Beja,
-                    além da dedicação de uma equipe comprometida, das
-                    pró-reitorias e de programas da Universidade. O processo
-                    culminou no lançamento oficial em março de 2024, tornando-se
-                    o primeiro fundo de propósito específico em operação no{" "}
-                    <strong>Fundo Patrimonial da USP.</strong>
+                    <Trans i18nKey='advocacy.sections.endowment.block1.p2' />
                   </p>
                   <strong>
-                    Atualmente, é o maior fundo exclusivamente dedicado a bolsas
-                    de permanência, e está sendo preparado como um modelo para
-                    ser replicado em outras universidades públicas que enfrentam
-                    desafios semelhantes.
+                    <Trans i18nKey='advocacy.sections.endowment.block1.p3' />
                   </strong>
                 </>
               ),
@@ -153,21 +121,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Em 2024, o <strong>Fundo USP Diversa</strong> avançou em sua
-                    estruturação e captação de recursos. Para intensificar a
-                    arrecadação, foi criada uma gerência exclusiva voltada à
-                    captação e articulação com o Fundo Patrimonial irrestrito e
-                    a Universidade. Esse esforço esteve concentrado na
-                    mobilização de grandes filantropos e empresas, o que
-                    resultou na realização de dois eventos institucionais e na
-                    criação do Comitê de Apoiadores, composto por Paula
-                    Miraglia, Neca Setubal, Cristiane Sultani, Ludhmila Hajjar,
-                    Marisa Monte e Stelio Marras. Esse comitê desempenha um
-                    papel essencial ao conectar potenciais doadores e garantir a
-                    adesão aos princípios do <strong>Fundo</strong>. Como fruto
-                    dessas ações, foram conquistados patronos - grandes doadores
-                    que fazem contribuições expressivas -, além da expansão na
-                    base de doadores recorrentes e dos legados por testamento.
+                    <Trans i18nKey='advocacy.sections.endowment.block1.p4' />
                   </p>
                 </>
               ),
@@ -185,15 +139,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Para 2025 e os próximos anos, o{" "}
-                    <strong>Fundo USP Diversa</strong> pretende continuar
-                    ampliando sua visibilidade, fortalecendo sua marca e
-                    expandindo sua base de apoiadores, por meio de estratégias
-                    voltadas à fidelização de doadores em diferentes níveis de
-                    contribuição. Esse crescimento será viabilizado com o apoio
-                    de startups especializadas na captação de doações
-                    recorrentes, utilizando tecnologia e inovação para aumentar
-                    o engajamento e facilitar contribuições de menor porte.
+                    <Trans i18nKey='advocacy.sections.endowment.block2.0' />
                   </p>
                 </>
               ),
@@ -205,22 +151,11 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Além disso, a ampliação de parcerias estratégicas com a
-                    Universidade e outras organizações será fundamental para
-                    identificar e engajar ex-alunos que se conectam com a causa.
-                    A promoção de eventos e iniciativas de engajamento também
-                    seguirá sendo um pilar estratégico, consolidando a
-                    visibilidade do <strong>Fundo</strong> e potencializando
-                    futuras arrecadações.
+                    <Trans i18nKey='advocacy.sections.endowment.block2.1' />
                   </p>
 
                   <p>
-                    A longo prazo, o objetivo é intensificar a articulação com a
-                    Universidade para mensurar o impacto das bolsas na
-                    trajetória acadêmica dos beneficiários e em seu
-                    desenvolvimento profissional e social, dessa forma
-                    assegurando a continuidade e o crescimento do{" "}
-                    <strong>Fundo</strong>.
+                    <Trans i18nKey='advocacy.sections.endowment.block2.2' />
                   </p>
                 </>
               ),
@@ -233,10 +168,10 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Apoio Plurianual"}
+        title={t("advocacy.sections.serenas.title")}
         partnerImg={[Images.Logos.SerenasLogo]}
         subCards={[Images.Secoes.JusticaRacial, Images.Secoes.EquidadeGenero]}
-        subtitle={"Vigência - 2023 - 2028"}
+        subtitle={t("advocacy.sections.serenas.subtitle")}
         partnerName={"Serenas"}
       >
         <TextBlock
@@ -246,14 +181,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    A prevenção da violência contra meninas e mulheres ainda não
-                    é percebida como algo essencial para o ecossistema de
-                    Educação, mesmo com uma parte significativa dos recursos da
-                    filantropia destinada a esse setor. A{" "}
-                    <strong>Serenas</strong> busca evidenciar o impacto da
-                    violência de gênero no desenvolvimento geral de meninas e
-                    meninos, no aproveitamento escolar e, consequentemente, no
-                    avanço do país como um todo.
+                    <Trans i18nKey='advocacy.sections.serenas.block1.0' />
                   </p>
                 </>
               ),
@@ -265,21 +193,10 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    A organização foi criada para entender por que, apesar de
-                    leis robustas como a Lei Maria da Penha, o Brasil ainda
-                    apresenta números alarmantes de violência contra meninas e
-                    mulheres. O objetivo da <strong>Serenas</strong> é garantir
-                    que meninas e mulheres sejam livres para escolher e sonhar
-                    sem limites, exercendo seus direitos à dignidade, respeito e
-                    igualdade, em um mundo sem discriminação e violência.
+                    <Trans i18nKey='advocacy.sections.serenas.block1.1' />
                   </p>
                   <p>
-                    A organização trabalha na capacitação de sistemas de
-                    educação e segurança pública nas esferas municipais,
-                    estaduais e federais. A incorporação de tecnologias
-                    permitirá a expansão de treinamentos, formações e a
-                    disseminação do conhecimento gerado em diferentes regiões do
-                    Brasil.
+                    <Trans i18nKey='advocacy.sections.serenas.block1.2' />
                   </p>
                 </>
               ),
@@ -288,15 +205,13 @@ const AdvocacySection = () => {
         />
 
         <TopicList
-          title={"A Serenas trabalha em duas frentes principais:"}
+          title={t("advocacy.sections.serenas.topicList.title")}
           list={serenasList}
         />
 
         <GoldenQuote
-          text={
-            "A parceria com o Beja é revolucionária para a Serenas, pois o apoio institucional é um recurso que nos permite desenvolver a nossa capacidade de fazer. Um recurso que se multiplica, pois a partir dele nós temos a capacidade de captar mais. Com estes cinco anos de apoio, podemos contratar pessoas com mais visibilidade, saindo de contratações com prazos curtos, apenas. Isso nos permite oferecer formação e suporte à saúde mental da equipe."
-          }
-          autor={"— AMANDA SADALLA, Cofundadora e Diretora Executiva"}
+          text={t("advocacy.sections.serenas.cite1.text")}
+          autor={t("advocacy.sections.serenas.cite1.author")}
         />
 
         <TextBlock
@@ -306,32 +221,15 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    A partir da parceria com o <strong>Instituto Beja</strong>,
-                    a <strong>Serenas</strong> foi convidada a participar - e, a
-                    seu modo, revolucionar - o processo de Evolução da Teoria da
-                    Mudança. Em 2025, elas assumirão conosco a{" "}
-                    <strong>Orquestração de Sistemas</strong> do{" "}
-                    <strong>CMe</strong>.
+                    <Trans i18nKey='advocacy.sections.serenas.block2.0' />
                   </p>
 
                   <strong>
-                    Em 2024, a Serenas alcançou marcos significativos, incluindo
-                    a formação de 100 lideranças e técnicos na Secretaria de
-                    Educação de Alagoas, em parceria com a Secretaria da Mulher.
-                    Também está produzindo um guia de prevenção de violências de
-                    gênero, em colaboração com a Embaixada do Canadá, que será
-                    distribuído em mais de 300 escolas do estado.
+                    <Trans i18nKey='advocacy.sections.serenas.block2.1' />
                   </strong>
 
                   <p>
-                    No município de São Paulo, realizou a formação de 30
-                    assistentes sociais da prefeitura, impactando mais de 7 mil
-                    famílias que utilizam diversos equipamentos públicos. Em
-                    âmbito nacional, formaram 70 agentes que atendem mais de 500
-                    mil ligações por ano no programa Ligue 180 – linha de
-                    atendimento a mulheres vítimas de violência –, em parceria
-                    com o Ministério das Mulheres e com o financiamento da
-                    Embaixada do Reino Unido.
+                    <Trans i18nKey='advocacy.sections.serenas.block2.2' />
                   </p>
                 </>
               ),
@@ -343,24 +241,11 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Outro avanço significativo foi a{" "}
-                    <strong>
-                      formação de 20 professores da Academia de Polícia Civil de
-                      São Paulo sob uma metodologia focada no acolhimento,
-                      reconhecimento e prevenção de violências de gênero.
-                    </strong>{" "}
-                    Esses professores aplicarão a metodologia para formar 3 mil
-                    novos policiais contratados pelo estado.
+                    <Trans i18nKey='advocacy.sections.serenas.block2.3' />
                   </p>
 
                   <p>
-                    Adicionalmente, o <strong>Instituto Beja</strong> e o{" "}
-                    <strong>Instituto Machado Meyer</strong> financiaram a
-                    pesquisa <strong>Bullying e Violência Escolar</strong>. O
-                    estudo busca compreender as percepções de professores,
-                    estudantes, lideranças e secretarias de educação sobre
-                    violências de gênero, machismo e LGBTfobia, que será lançado
-                    em 2025.
+                    <Trans i18nKey='advocacy.sections.serenas.block2.4' />
                   </p>
                 </>
               ),
@@ -369,26 +254,13 @@ const AdvocacySection = () => {
         />
 
         <GoldenQuote
-          text={
-            "Em 2025, na atuação como Orquestradores de Sistema junto ao CMe, poderemos reavaliar as formas como fazemos, pensar em melhores e novas formas de fazer para, a partir daí, tentar elaborar estratégias de escala do trabalho da Serenas. No desafio de pensar uma nova narrativa de advocacy, desejamos levar a temática da violência contra meninas e mulheres para o centro das políticas educacionais."
-          }
-          autor={"— AMANDA SADALLA, Cofundadora e Diretora Executiva"}
+          text={t("advocacy.sections.serenas.cite2.text")}
+          autor={t("advocacy.sections.serenas.cite2.author")}
         />
 
         <PinkBox>
           <p>
-            <strong>
-              Em 2024, a Serenas recebeu o Selo de Igualdade Racial, uma
-              honraria que reconhece a composição de sua equipe, formada por
-              mais de 60% de mulheres negras, das quais metade ocupa cargos de
-              liderança.
-            </strong>{" "}
-            Esse destaque reafirma o compromisso da organização com a promoção
-            da equidade racial e de gênero. Além disso, pelo terceiro ano
-            consecutivo, a Serenas foi reconhecida com o{" "}
-            <strong>Selo Municipal de Direitos Humanos e Diversidades</strong>,
-            um tributo à consistência de suas iniciativas em defesa da
-            diversidade e dos direitos humanos.
+            <Trans i18nKey='advocacy.sections.serenas.block3.0' />
           </p>
         </PinkBox>
       </PartnerSection>
@@ -410,20 +282,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>
-                      O Brasil figura entre os países com os piores índices de
-                      paridade de gênero na política da América Latina. Na
-                      Câmara dos Deputados, as mulheres representam apenas 18%
-                      dos parlamentares eleitos, enquanto no Senado esse número
-                      é ainda menor, com apenas 7%.
-                    </strong>{" "}
-                    A situação nos municípios é ainda mais alarmante: 955
-                    câmaras municipais não possuem sequer uma mulher eleita, de
-                    acordo com dados do Tribunal Superior Eleitoral{" "}
-                    <strong>levantados pela A Ponte</strong>. Vale destacar que
-                    a vereança é a principal porta de entrada para a política,
-                    sendo responsável por iniciar a trajetória de 90% das
-                    mulheres que atuam nesse campo.
+                    <Trans i18nKey='advocacy.sections.ponte.block1.0' />
                   </p>
                 </>
               ),
@@ -435,16 +294,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    A rede <strong>A Ponte</strong> é composta por mais de 60
-                    mulheres especialistas em 14 áreas de políticas públicas
-                    como saúde, educação, orçamento público, segurança pública e
-                    meio ambiente. Criada em 2020, a rede tem como propósito
-                    fortalecer a carreira de mulheres vereadoras e deputadas,
-                    ampliando a representatividade na democracia brasileira. Seu
-                    objetivo é apoiar mulheres eleitas e promover políticas
-                    públicas universais, elaboradas com base em dados e
-                    evidências, implementadas com rigor técnico e voltadas para
-                    atender os grupos mais vulneráveis.
+                    <Trans i18nKey='advocacy.sections.ponte.block1.1' />
                   </p>
                 </>
               ),
@@ -453,10 +303,8 @@ const AdvocacySection = () => {
         />
 
         <GoldenQuote
-          text={
-            "Ninguém está olhando para o começo das carreiras políticas, toda a atenção vai para o congresso, deputadas e senadoras. Mas e as vereadoras? Sem essa atenção para o começo de carreira, não é possível formar um congresso com equidade de gênero num futuro próximo."
-          }
-          autor={"— AMANDA SADALLA, Cofundadora e Diretora Executiva"}
+          text={t("advocacy.sections.ponte.cite1.text")}
+          autor={t("advocacy.sections.ponte.cite1.author")}
         />
 
         <TextBlock
@@ -466,39 +314,15 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>A Ponte</strong> atua oferecendo suporte técnico e
-                    político a mandatos e cargos estratégicos, tanto no
-                    legislativo quanto no executivo, assegurando que mulheres em
-                    posições de liderança possam tomar importantes decisões e
-                    influenciar políticas públicas com foco na equidade de
-                    gênero e na defesa da democracia. Até o momento,{" "}
-                    <strong>
-                      {" "}
-                      a organização já apoiou 32 vereadoras e deputadas de 10
-                      partidos diferentes, sendo 93% delas eleitas em seu
-                      primeiro mandato, abrangendo 13 estados de todas as
-                      regiões do Brasil.
-                    </strong>
+                    <Trans i18nKey='advocacy.sections.ponte.block2.0' />
                   </p>
 
                   <p>
-                    <strong>A Ponte</strong> se posiciona como suprapartidária,
-                    e esclarece que não apoia candidaturas que possam
-                    comprometer os direitos das mulheres, conforme sua detalhada{" "}
-                    <strong>Carta de Princípios.</strong> A organização também
-                    se declara mista, com 60% de sua equipe composta por
-                    mulheres negras, e aplica a paridade racial em todos os
-                    níveis de sua estrutura.
+                    <Trans i18nKey='advocacy.sections.ponte.block2.1' />
                   </p>
 
                   <p>
-                    <strong>A Ponte</strong> já impactou diretamente 193
-                    mandatos parlamentares, oferecendo assessoria técnica para a
-                    elaboração e submissão de 99 Projetos de Lei, dos quais 37
-                    já foram aprovados. Ademais, realizou 71 assessorias
-                    técnicas individuais e organizou 10 cursos e workshops,
-                    contribuindo para o fortalecimento das capacidades de
-                    mulheres em posições de liderança política no Brasil.
+                    <Trans i18nKey='advocacy.sections.ponte.block2.2' />
                   </p>
                 </>
               ),
@@ -510,40 +334,15 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Entre suas iniciativas, destaca-se o projeto{" "}
-                    <strong>Maré de PLs</strong>, que já está em sua 11ª edição,
-                    que tem como objetivo a proposição e aprovação de Projetos
-                    de Lei qualificados, capazes de transformar realidades
-                    locais. Uma vez aprovados, esses projetos seguem válidos
-                    independentemente das mudanças de gestão, promovendo
-                    políticas públicas bem fundamentadas e duradouras.{" "}
-                    <strong>
-                      Em 2024, 115 mandatos foram afetados pelo apoio das
-                      especialistas em rede, 104 mandatos foram apoiados pela
-                      Maré de PLs, resultando na aprovação de 7 Projetos de
-                      Leis.
-                    </strong>
+                    <Trans i18nKey='advocacy.sections.ponte.block2.3' />
                   </p>
 
                   <p>
-                    <strong>
-                      Outro marco foi o curso Escola de Reeleição , criado após
-                      a identificação da baixa taxa de reeleição de mulheres na
-                      política. Das 30 vereadoras acompanhadas, apenas 13 foram
-                      reeleitas.
-                    </strong>{" "}
-                    O curso, composto por 18 aulas, contou com a participação de
-                    28 mandatos, totalizando 85 participantes, com uma
-                    diversidade regional significativa, incluindo mais de um
-                    terço de representantes do Norte e Nordeste.
+                    <Trans i18nKey='advocacy.sections.ponte.block2.4' />
                   </p>
 
                   <p>
-                    <strong>A Ponte</strong> também realizou assistências
-                    técnicas individuais bilaterais e encontros personalizados
-                    com 15 mandatos, forneceu assessoria de imprensa para todos
-                    os mandatos acompanhados e organizou workshops
-                    individualizados de comunicação para 9 mandatos.
+                    <Trans i18nKey='advocacy.sections.ponte.block2.5' />
                   </p>
                 </>
               ),
@@ -552,10 +351,8 @@ const AdvocacySection = () => {
         />
 
         <GoldenQuote
-          text={
-            "Conseguimos, através da criação do canal de denúncias ‘Alô Jurídico’, um contato direto com as denunciantes para que A Ponte possa agir rapidamente e auxiliá-las de forma eficiente. Pudemos articular um mandado de prisão por violência política esse ano."
-          }
-          autor={"— AMANDA SADALLA, Cofundadora e Diretora Executiva"}
+          text={t("advocacy.sections.ponte.cite2.text")}
+          autor={t("advocacy.sections.ponte.cite2.author")}
         />
 
         <TextBlock
@@ -565,10 +362,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>A Ponte</strong> destaca a necessidade de maior
-                    coordenação entre os doadores, especialmente diante do
-                    desaparecimento de muitas organizações voltadas ao
-                    fortalecimento da democracia com as quais colaboraram.
+                    <Trans i18nKey='advocacy.sections.ponte.block3.0' />
                   </p>
                 </>
               ),
@@ -577,20 +371,13 @@ const AdvocacySection = () => {
         />
 
         <GoldenQuote
-          text={
-            "O desafio da Ponte é ainda maior por se tratar de uma organização que atua pelo fortalecimento da democracia, que é feminista, antirracista e progressista."
-          }
-          autor={"— AMANDA SADALLA, Cofundadora e Diretora Executiva"}
+          text={t("advocacy.sections.ponte.cite3.text")}
+          autor={t("advocacy.sections.ponte.cite3.author")}
         />
 
         <PinkBox>
           <p>
-            Para 2025, <strong>A Ponte</strong> planeja implementar sistemas
-            para mensurar os resultados de gestão de projetos, utilizando a
-            aplicação de aleatorização, estratégia desenhada na reestruturação
-            de sua Teoria de Mudança, e expandirá sua atuação no legislativo com
-            ao incorporar um terceiro eixo de trabalho, direcionado
-            especificamente aos impactos climáticos.
+            <Trans i18nKey='advocacy.sections.ponte.block4.0' />
           </p>
         </PinkBox>
       </PartnerSection>
@@ -599,10 +386,10 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Apoio Plurianual"}
+        title={t("advocacy.sections.pactoContraFome.title")}
         partnerImg={[Images.Logos.PactoContraFomeLogo]}
         subCards={[Images.Secoes.JusticaRacial]}
-        subtitle={"Vigência - 2024"}
+        subtitle={t("advocacy.sections.pactoContraFome.subtitle")}
         partnerName={"Pacto contra a Fome"}
       >
         <TextBlock
@@ -612,23 +399,11 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>O Pacto</strong> Contra a Fome atua como um
-                    catalisador no ecossistema de combate à fome, unindo
-                    esforços e somando forças com entidades do terceiro setor,
-                    governos, parlamentares, academias e empresas. O objetivo é
-                    erradicar a fome e a insegurança alimentar, realidade que
-                    ainda afeta mais de 64 milhões de brasileiros, segundo o
-                    Instituto Brasileiro Geografia e Estatística (IBGE) . A
-                    iniciativa também busca reduzir o desperdício de alimentos.
+                    <Trans i18nKey='advocacy.sections.pactoContraFome.block1.0' />
                   </p>
 
                   <p>
-                    <strong>O Pacto</strong> baseia sua atuação na articulação,
-                    na colaboração e no uso inteligente de dados, que orientam
-                    as suas decisões e ações. A organização reconhece as
-                    políticas públicas como ferramentas poderosas de mudança
-                    social e acredita no papel da sociedade civil como parceira
-                    dos governos e impulsionadora de transformações relevantes.
+                    <Trans i18nKey='advocacy.sections.pactoContraFome.block1.1' />
                   </p>
                 </>
               ),
@@ -640,17 +415,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    No caminho para alcançar seus objetivos, o{" "}
-                    <strong>
-                      Pacto investiu em parcerias nos estados do Pará e do
-                      Maranhão, voltadas ao fortalecimento do Sistema de
-                      Segurança Alimentar e Nutricional (SISAN), em colaboração
-                      com os governos estaduais. No Ceará, em parceria com o
-                      Governo do Estado, a iniciativa Ceará sem Fome se destaca
-                      como um projeto piloto que integra ações ligadas ao
-                      desperdício de alimentos e à inclusão produtiva,
-                      complementando outros programas do Pacto Contra a Fome.
-                    </strong>
+                    <Trans i18nKey='advocacy.sections.pactoContraFome.block1.2' />
                   </p>
                 </>
               ),
@@ -659,12 +424,8 @@ const AdvocacySection = () => {
         />
 
         <GoldenQuote
-          text={
-            "Fundamental, neste contexto, é também destacar o Projeto Ceasas, realizado em parceria com o Ministério do Desenvolvimento Agrário e Agricultura Familiar, que busca, por meio de um complexo estudo de casos e iniciativas bem-sucedidas, criar modelos de atuação para os bancos de alimentos de todos o país, de forma que eles possam contribuir com efetividade e escala no suporte às famílias em situação de fome e insegurança alimentar. A implementação desse modelo neste ano aconteceu nas duas maiores centrais de abastecimento do Brasil: São Paulo e Minas Gerais."
-          }
-          autor={
-            "— MARIA SIQUEIRA, Diretora do Instituto e JULIANA MALHEIRO PLASTER, Diretora de Captação"
-          }
+          text={t("advocacy.sections.pactoContraFome.cite1.text")}
+          autor={t("advocacy.sections.pactoContraFome.cite1.author")}
         />
 
         <TextBlock
@@ -674,19 +435,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    A atuação em advocacy tem se concentrado em pautas de
-                    políticas públicas que acreditam serem consideradas
-                    essenciais para a promoção de uma alimentação saudável e
-                    adequada, além do combate ao desperdício de alimentos. Entre
-                    os avanços, destaca-se a construção de uma nova proposta de
-                    cesta básica de alimentos, desenvolvida no contexto da
-                    Proposta de Emenda à Constituição da Reforma Tributária no
-                    Congresso Nacional. Essa iniciativa incluiu a definição de
-                    cesta básica saudável e regional. Mais recentemente, com a
-                    regulamentação da Reforma Tributária, foi conquistada uma
-                    importante vitória: a isenção de impostos para produtos
-                    alimentícios, em sua maioria saudáveis e minimamente
-                    processados.
+                    <Trans i18nKey='advocacy.sections.pactoContraFome.block2.0' />
                   </p>
                 </>
               ),
@@ -698,21 +447,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Durante a{" "}
-                    <strong>
-                      Campanha Nacional de Combate ao Desperdício de Alimentos
-                    </strong>{" "}
-                    realizada no segundo semestre de 2024, o{" "}
-                    <strong>Pacto Contra a Fome</strong> atuou como força
-                    mobilizadora, reunindo empresas e governos para
-                    conscientizar a sociedade sobre a importância de diminuir as
-                    perdas alimentares. E, sem dúvida alguma, a segunda edição
-                    do Prêmio Pacto Contra a Fome amplifica a ação.
-                    <strong>
-                      Neste ano, o evento cresceu 63% e alcançou mais de 500
-                      inscritos, premiando 6 instituições de vários estados do
-                      Brasil.
-                    </strong>
+                    <Trans i18nKey='advocacy.sections.pactoContraFome.block2.1' />
                   </p>
                 </>
               ),
@@ -721,12 +456,8 @@ const AdvocacySection = () => {
         />
 
         <GoldenQuote
-          text={
-            "Atuar no combate à fome e ao desperdício de alimentos é, por si só, um grande desafio, dada a complexidade dessas problemáticas. Elas demandam ações multissetoriais e multidisciplinares, que vão desde temas diretamente relacionados, como alimentação escolar e políticas de distribuição de renda, até outros mais transversais, como melhoria da educação e políticas de saúde pública. Além disso, envolvem atores diversos, do setor público e também do privado, grupos de interesse significativos."
-          }
-          autor={
-            "— MARIA SIQUEIRA, Diretora do Instituto e JULIANA MALHEIRO PLASTER, Diretora de Captação"
-          }
+          text={t("advocacy.sections.pactoContraFome.cite2.text")}
+          autor={t("advocacy.sections.pactoContraFome.cite2.author")}
         />
 
         <div className='flex w-full gap-5 max-[880px]:gap-2 max-md:flex-col max-md:items-end'>
@@ -737,21 +468,11 @@ const AdvocacySection = () => {
 
           <PinkBox>
             <p>
-              Toda essa teia de ações e relações repercute diretamente na
-              capacidade de o Brasil chegar a <strong>2030</strong> cumprindo o{" "}
-              <strong>
-                Objetivo de Desenvolvimento Sustentável (ODS 2 – Fome Zero e
-                Agricultura Sustentável)
-              </strong>{" "}
-              relativo à erradicação da fome.
+              <Trans i18nKey='advocacy.sections.pactoContraFome.block3.0' />
             </p>
 
             <p>
-              Em <strong>2025</strong>, o objetivo do{" "}
-              <strong>Pacto Contra a Fome</strong> é crescer de maneira{" "}
-              <strong>estruturada</strong> e <strong>sustentável</strong>,
-              seguindo um cuidadoso planejamento que apoiará o foco e a
-              amplitude de seus projetos e ações.
+              <Trans i18nKey='advocacy.sections.pactoContraFome.block3.1' />
             </p>
           </PinkBox>
         </div>
@@ -761,10 +482,10 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Apoio Plurianual"}
+        title={t("advocacy.sections.pactoPelaDemocracia.title")}
         partnerImg={[Images.Secoes.PelaDemocracia]}
         subCards={[Images.Secoes.PelaDemocracia2]}
-        subtitle={"Vigência - 2024 A 2027"}
+        subtitle={t("advocacy.sections.pactoPelaDemocracia.subtitle")}
         partnerName={"Pacto pela Democracia"}
       >
         <TextBlock
@@ -774,12 +495,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    O <strong>Pacto pela Democracia</strong> é uma coalizão da
-                    sociedade civil que, desde 2018, coordena esforços entre
-                    atores sociais em todo o espectro ideológico. Sua meta é
-                    ampliar a capacidade da sociedade civil de defender e
-                    revigorar a democracia no Brasil, promovendo um espaço
-                    apartidário que reúne mais de 200 organizações.
+                    <Trans i18nKey='advocacy.sections.pactoPelaDemocracia.block1.0' />
                   </p>
                 </>
               ),
@@ -791,16 +507,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>
-                      Esse ambiente diverso possibilita a colaboração de atores
-                      com diferentes agendas, visões e identidades políticas, de
-                      maneira a unirem forças para o fortalecimento de processos
-                      e instituições democráticas.
-                    </strong>{" "}
-                    Isso significa a garantia de direitos e liberdades
-                    constitucionais , o aprofundamento de valores democráticos
-                    na sociedade brasileira, que se vê diante da atual crise
-                    global das democracias.
+                    <Trans i18nKey='advocacy.sections.pactoPelaDemocracia.block1.1' />
                   </p>
                 </>
               ),
@@ -809,12 +516,8 @@ const AdvocacySection = () => {
         />
 
         <GoldenQuote
-          text={
-            "A defesa da democracia é uma pauta que precisa ser continuamente trabalhada, não é possível relaxar. Ela é uma base que precisa estar estável para que todas as outras pautas avancem."
-          }
-          autor={
-            "— MARGARIDA GORECKI, Coordenação de Desenvolvimento Institucional e Operações"
-          }
+          text={t("advocacy.sections.pactoPelaDemocracia.cite1.text")}
+          autor={t("advocacy.sections.pactoPelaDemocracia.cite1.author")}
         />
 
         <TextBlock
@@ -824,15 +527,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Por meio do monitoramento contínuo de ameaças ao sistema
-                    legislativo , o <strong>Pacto pela Democracia</strong>{" "}
-                    organiza grupos de trabalho dedicados a tratar temas
-                    prioritários identificados. Esses grupos colaboram na
-                    formulação de estratégias conjuntas para enfrentar as
-                    questões emergentes. A rede desenvolve uma ampla gama de
-                    iniciativas, incluindo ações de advocacy no legislativo,{" "}
-                    campanhas de comunicação (presenciais e online), além da
-                    produção de conhecimento por meio de estudos e eventos.
+                    <Trans i18nKey='advocacy.sections.pactoPelaDemocracia.block2.0' />
                   </p>
                 </>
               ),
@@ -844,10 +539,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    O <strong>Pacto pela Democracia</strong> também desempenha
-                    um papel crucial durante os processos eleitorais, atuando de
-                    forma incisiva para garantir que as eleições ocorram de
-                    maneira segura e que os resultados sejam respeitados.
+                    <Trans i18nKey='advocacy.sections.pactoPelaDemocracia.block2.1' />
                   </p>
                 </>
               ),
@@ -856,20 +548,16 @@ const AdvocacySection = () => {
         />
 
         <ExternalLinkContainer
-          title={
-            "Conheça o Relatório sobre a atuação do Pacto na eleição de 2022."
-          }
-          subtitle={"Acessar Relatório do Pacto na eleição de 2022"}
+          title={t("advocacy.sections.pactoPelaDemocracia.externalLink.title")}
+          subtitle={t(
+            "advocacy.sections.pactoPelaDemocracia.externalLink.subtitle",
+          )}
           link={"https://relatorio20212022.pactopelademocracia.org.br/"}
         />
 
         <GoldenQuote
-          text={
-            "O apoio do Beja foi muito importante para que o Pacto pudesse sistematizar as suas ações. Muitas vezes as organizações produzem uma série de inovações, mas não conseguem sistematizá-las para que possam ser vistas e pensadas por outras pessoas. A sistematização de estratégias e formas de trabalho é importante para ampliar o debate e impactar cada vez mais."
-          }
-          autor={
-            "— MARGARIDA GORECKI, Coordenação de Desenvolvimento Institucional e Operações"
-          }
+          text={t("advocacy.sections.pactoPelaDemocracia.cite2.text")}
+          autor={t("advocacy.sections.pactoPelaDemocracia.cite2.author")}
         />
 
         <TextBlock
@@ -879,63 +567,48 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Em 2024, o <strong>Pacto pela Democracia</strong> lançou a{" "}
-                    <a
-                      href='https://www.democraciaforte.org.br/'
-                      target='_blank'
-                      className='underline font-bold'
-                    >
-                      Agenda Democracia Forte
-                    </a>
-                    , uma iniciativa estruturada em oito pilares fundamentais:
-                    Forças de Segurança; Equilíbrio dos Poderes; Sistema
-                    Eleitoral; Responsabilização; Participação Social; Educação
-                    Cidadã; Debate Público; e Monitor Internacional. Essa agenda
-                    tem como objetivo promover reflexões e sugerir diretrizes
-                    para proteger a democracia brasileira, tornando-a menos
-                    vulnerável às investidas autoritárias.
+                    <Trans
+                      i18nKey='advocacy.sections.pactoPelaDemocracia.block3.0'
+                      components={[
+                        <a
+                          href='https://www.democraciaforte.org.br/'
+                          key='link'
+                          target='_blank'
+                          rel='noopener noreferrer'
+                          className='underline font-bold'
+                        />,
+                      ]}
+                    />
                   </p>
 
                   <p>
-                    Como parte dessa iniciativa, foram realizadas aulas magnas
-                    conduzidas por especialistas renomados, abordando cada um
-                    dos temas em profundidade. Além disso, o Pacto trabalhou na
-                    elaboração conjunta de propostas de ação para responder aos
-                    desafios identificados em cada eixo. Para ampliar o alcance
-                    da <strong>Agenda</strong>, foi desenvolvida uma campanha de
-                    divulgação do conteúdo.
+                    <Trans i18nKey='advocacy.sections.pactoPelaDemocracia.block3.1' />
                   </p>
 
                   <p>
-                    Em 2022, o <strong>Pacto pela Democracia</strong> recebeu o
-                    prêmio da{" "}
-                    <a
-                      href='https://worldjusticeproject.org/world-justice-challenge/protect-democracy-safeguarding-integrity-and-rule-law-brazils-2022-election'
-                      target='_blank'
-                      className='underline font-bold'
-                    >
-                      World Justice Project
-                    </a>{" "}
-                    em reconhecimento à sua atuação na defesa do processo
-                    eleitoral. Em 2024, realizou a campanha de conscientização e
-                    informação intitulada{" "}
-                    <a
-                      href='https://www.semmemorianaohafuturo.org/'
-                      target='_blank'
-                      className='underline font-bold'
-                    >
-                      &quot;Sem memoria não há futuro&quot;
-                    </a>
-                    , marcando os 60 anos do Golpe Militar, e lançou o{" "}
-                    <a
-                      href='https://guias.pactopelademocracia.org.br/'
-                      target='_blank'
-                      className='underline font-bold'
-                    >
-                      Guia para a democracia: defesa do processo eleitoral
-                    </a>
-                    , para fortalecer a confiança no sistema eleitoral
-                    brasileiro .
+                    <Trans
+                      i18nKey='advocacy.sections.pactoPelaDemocracia.block3.2'
+                      components={[
+                        <a
+                          key='link1'
+                          href='https://worldjusticeproject.org/world-justice-challenge/protect-democracy-safeguarding-integrity-and-rule-law-brazils-2022-election'
+                          target='_blank'
+                          className='underline font-bold'
+                        />,
+                        <a
+                          key='link2'
+                          href='https://www.semmemorianaohafuturo.org/'
+                          target='_blank'
+                          className='underline font-bold'
+                        />,
+                        <a
+                          key='link3'
+                          href='https://guias.pactopelademocracia.org.br/'
+                          target='_blank'
+                          className='underline font-bold'
+                        />,
+                      ]}
+                    />
                   </p>
                 </>
               ),
@@ -947,38 +620,16 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    Outro destaque foi o lançamento do <strong>Confia</strong> ,
-                    um serviço via WhatsApp que mapeia a desinformação sobre o
-                    processo eleitoral . Por meio de mensagens de texto, vídeos,
-                    links ou fotos enviadas a um chatbot, o serviço identifica
-                    notícias falsas e discursos de ódio relacionados às eleições
-                    de 2024. Essas informações são armazenadas para análise,
-                    permitindo a identificação das narrativas e dos grupos que
-                    buscam desestabilizar a democracia . A partir desses dados,
-                    o <strong>Pacto</strong> desenvolve ações e estratégias para
-                    proteger a democracia , tendo em vista principalmente as
-                    eleições presidenciais de 2026.
+                    <Trans i18nKey='advocacy.sections.pactoPelaDemocracia.block3.3' />
                   </p>
 
                   <p>
-                    O <strong>Pacto</strong> também atuou como co-líder do
-                    <strong>
-                      Grupo de Trabalho sobre Governança Democrática, Espaço
-                      Cívico, Anticorrupção
-                    </strong>{" "}
-                    e <strong> Acesso à Justiça</strong>, o fórum de engajamento
-                    da sociedade civil para a reunião do G20 no Brasil, em
-                    novembro de 2024. Em colaboração com outras organizações,
-                    coordenou atividades relacionadas ao{" "}
-                    <strong>
-                      Objetivo de Desenvolvimento Sustentável (ODS 16 – Paz,
-                      Justiça e Instituições Eficazes) .
-                    </strong>
+                    <Trans i18nKey='advocacy.sections.pactoPelaDemocracia.block3.4' />
                   </p>
 
                   <img
                     src={Images.Secoes.PazJusticaImage}
-                    alt='Paz e Justiça'
+                    alt={t("advocacy.sections.pactoPelaDemocracia.image.alt")}
                     className='size-40 max-lg:size-32 max-sm:size-20'
                   />
                 </>
@@ -988,12 +639,8 @@ const AdvocacySection = () => {
         />
 
         <GoldenQuote
-          text={
-            "O grande desafio da rede é a própria causa. As pessoas tendem a não olhar para democracia como algo que precisa ser levado a sério, que precisa de investimento e recursos, até ela estar à beira do colapso. É uma causa urgente, mas também é preciso mobilizar a rede em relação a projetos que talvez não pareçam 'urgentes'. Trabalhar de forma mais propositiva e menos defensiva e reativa."
-          }
-          autor={
-            "— MARGARIDA GORECKI, Coordenação de Desenvolvimento Institucional e Operações"
-          }
+          text={t("advocacy.sections.pactoPelaDemocracia.cite3.text")}
+          autor={t("advocacy.sections.pactoPelaDemocracia.cite3.author")}
         />
 
         <TextBlock
@@ -1003,13 +650,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    <strong>O Pacto pela Democracia</strong> implementou uma
-                    nova governança, expandiu a equipe, e aprovou um novo
-                    estatuto, consolidando estratégias voltadas para o aumento
-                    do investimento na produção de conhecimento. Ademais, criou
-                    uma rede de organizações pró-democracia pelo mundo e
-                    fortaleceu a rede já existente, com o objetivo de ampliar
-                    continuamente a diversidade racial, regional e ideológica.
+                    <Trans i18nKey='advocacy.sections.pactoPelaDemocracia.block4.0' />
                   </p>
                 </>
               ),
@@ -1021,14 +662,7 @@ const AdvocacySection = () => {
               content: (
                 <>
                   <p>
-                    O foco é chegar a 2026 com uma estrutura mais sólida para
-                    enfrentar as próximas eleições presidenciais e legislativas.
-                    Isso inclui atuar com segurança, liberdade e confiança, além
-                    de investir no treinamento da equipe para a gestão da rede.
-                    A iniciativa reflete a convicção de que o desenvolvimento
-                    institucional das organizações do terceiro setor no Brasil
-                    depende fortemente de um apoio institucional robusto, que
-                    permita a edificação e formação das equipes.
+                    <Trans i18nKey='advocacy.sections.pactoPelaDemocracia.block4.1' />
                   </p>
                 </>
               ),
@@ -1110,7 +744,7 @@ const AdvocacySection = () => {
           text={
             "Em 2024, trabalhamos dados e informações a partir de pesquisas consolidadas, como o Censo GIFE, lançado no final de 2023. Usar dados e informações é uma forma de ir além do convencimento normativo, do dever ser. Com bons dados, podemos dizer como as coisas são e por que devemos mudar, evidenciando as conquistas mas sobretudo os limites da filantropia."
           }
-          autor={"— CÁSSIO FRANÇA, Secretário Geral"}
+          autor={"CÁSSIO FRANÇA, Secretário Geral"}
         />
 
         <TextBlock
@@ -1160,7 +794,7 @@ const AdvocacySection = () => {
           text={
             "Acredito que compreender o alcance policapital seja um passo essencial para maior impacto social; a filantropia deve assumir o papel político institucional frente ao setor público e privado. Sua participação no Conselho de Desenvolvimento Econômico Social Sustentável do Governo Federal e no Fundo USP Diversa, são demonstrações grandiosas da necessidade de corresponsabilidade no desenvolvimento do país como um todo."
           }
-          autor={"— CÁSSIO FRANÇA, Secretário Geral"}
+          autor={"CÁSSIO FRANÇA, Secretário Geral"}
         />
 
         <PinkBox>
