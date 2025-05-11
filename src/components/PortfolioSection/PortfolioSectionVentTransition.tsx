@@ -54,7 +54,11 @@ export function PortfolioSectionVentTransition() {
           className='absolute h-12 tablet:h-[158px] left-0 top-0'
         />
         <div className='seeding w-full flex justify-center absolute -bottom-2 -translate-x-1/2'>
-          <img src={SeedingGold} className='h-40' alt='Muda dourada' />
+          <img
+            src={SeedingGold}
+            className='not-tablet:-40'
+            alt='Muda dourada'
+          />
         </div>
         <TextAnimate className='absolute top-1/2 left-1/2 w-full flex justify-center -translate-x-1/2 -translate-y-1/2 font-serif text-white lg:text-8xl text-3xl tablet:6xl desktop:text-9xl leading-[160%]'>
           Beja Labs / Laboratórios
