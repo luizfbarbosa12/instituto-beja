@@ -7,13 +7,11 @@ import { NoticeContainer } from "../ui/NoticeContainer";
 const BejaHouseSection = () => {
   return (
     <div className='flex flex-col relative rounded-[70px]'>
-      <div className='relative w-full left-0 overflow-hidden'>
-        <img
-          src={Images.BejaHouse.EspacoBeja1}
-          alt='Espaço Beja image'
-          className='object-center w-full h-full'
-        />
-      </div>
+      <img
+        src={Images.BejaHouse.EspacoBeja1}
+        alt='Espaço Beja image'
+        className='object-center w-full aspect-video max-h-210 object-cover'
+      />
 
       <Wrapper>
         <div className='flex flex-col gap-6 text-bourdeaux tablet:gap-16 pt-5 tablet:pt-20 pb-5 tablet:pb-60'>

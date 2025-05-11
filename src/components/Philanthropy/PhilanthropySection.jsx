@@ -17,10 +17,10 @@ const PhilanthropySection = () => {
         ".axis-1 .axis-line",
         {
           transformOrigin: "center top",
-          height: 20,
+          scaleY: 0.2,
         },
         {
-          height: "100%",
+          scaleY: 1,
           scrollTrigger: {
             trigger: ".axis-1",
             start: "top 30%",
@@ -33,10 +33,10 @@ const PhilanthropySection = () => {
         ".axis-2 .axis-line",
         {
           transformOrigin: "center top",
-          height: 20,
+          scaleY: 0.2,
         },
         {
-          height: "100%",
+          scaleY: 1,
           scrollTrigger: {
             trigger: ".axis-2",
             start: "top 30%",
