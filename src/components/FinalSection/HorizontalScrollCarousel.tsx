@@ -9,7 +9,7 @@ export function HorizontalScrollCarousel() {
 
   const { scrollYProgress } = useScroll({
     target: targetRef,
-    offset: ["start end", "end start"]
+    offset: ["start center", "end center"] // Ajustado para iniciar no centro
   });
 
   useLayoutEffect(() => {
@@ -27,7 +27,7 @@ export function HorizontalScrollCarousel() {
 
   const translatedX = useTransform(
     scrollYProgress,
-    [0, 0.8],
+    [0, 1], // de 0 a 1 agora com a nova faixa de offset
     [0, -maxX],
     { clamp: true }
   );
