@@ -32,6 +32,7 @@ const MissionValueSection = () => {
 
           <div className='flex justify-end'>
             <motion.div
+            className='pl-24 tablet:pl-64 z-20'
               animate={{ y: [0, 8, 0] }}
               transition={{
                 duration: 4,
