@@ -2,6 +2,11 @@
   "advocacy": {
     "title": "The Beja portfolio was organized according to the strategic pillars presented:",
     "logoAlt": "Beja Logo",
+    "cards": {
+      "advocacy": "Advocacy",
+      "knowledge": "Knowledge",
+      "labs": "Beja Labs / Laboratories"
+    },
     "sections": {
       "alliance": {
         "title": "Association",
@@ -82,7 +87,7 @@
           "author": "AMANDA ALBUQUERQUE, Executive Director"
         },
         "block2": [
-          "<strong>A Ponte</strong> Ponte works by offering technical and political support for strategic mandates and positions in both the legislative and executive branches, ensuring that women in leadership positions can make important decisions and influence public policies with a focus on gender equality and the defense of democracy. To date, the organization has supported <strong>32 councilwomen and deputies from 10 different parties, 93% of whom were elected for their first term, covering 13 states in all regions of Brazil</strong>.",
+          "<strong>A Ponte</strong> works by offering technical and political support for strategic mandates and positions in both the legislative and executive branches, ensuring that women in leadership positions can make important decisions and influence public policies with a focus on gender equality and the defense of democracy. To date, the organization has supported <strong>32 councilwomen and deputies from 10 different parties, 93% of whom were elected for their first term, covering 13 states in all regions of Brazil</strong>.",
           "<strong>A Ponte</strong> positions itself as nonpartisan and makes it clear that it does not support candidates who could compromise women's rights, according to its detailed <strong>Charter of Principles</strong>. The organization also declares itself to be mixed, with 60% of its staff made up of black women, and applies racial parity at all levels of its structure.",
           "<strong>A Ponte</strong> has already had a direct impact on 193 parliamentary mandates, offering technical advice on the drafting and submission of 99 bills, 37 of which have already been approved. It has also provided 71 individual technical consultancies and organized 10 courses and workshops, helping to strengthen the capacities of women in positions of political leadership in Brazil.",
           "One of its initiatives is the <strong>Maré de PLs</strong> project, now in its 11th edition, which aims to propose and pass qualified bills capable of transforming local realities. Once approved, these projects remain valid regardless of changes in administration, promoting well-founded and lasting public policies. <strong>In 2024, 115 mandates were affected by the support of the network experts, 104 mandates were supported by Maré de PLs, resulting in the approval of 7 Bills.</strong>",

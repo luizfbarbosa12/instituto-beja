@@ -3,9 +3,11 @@ import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
 import FastTravelCard from "./FastTravelCard";
 import { Images } from "../../assets/Index";
+import { useTranslation } from "react-i18next";
 
 export function PortfolioToAdvocacyVentTransition() {
   const container = useRef(null);
+  const [t] = useTranslation();
 
   useGSAP(
     () => {
@@ -54,7 +56,7 @@ export function PortfolioToAdvocacyVentTransition() {
                     max-640:px-5 max-420:px-2 max-640:gap-4 max-640:justify-start'
           >
             <FastTravelCard
-              title={"Advocacy"}
+              title={t("advocacy.cards.advocacy")}
               img={Images.Ilustracoes.ProudHand}
               className={"bg-bourdeaux text-porcelain"}
               imgConfig={
@@ -63,7 +65,7 @@ export function PortfolioToAdvocacyVentTransition() {
             />
 
             <FastTravelCard
-              title={"Conhecimento"}
+              title={t("advocacy.cards.knowledge")}
               img={Images.Ilustracoes.Clouds}
               className={"bg-rose text-bourdeaux"}
               imgConfig={
@@ -72,7 +74,7 @@ export function PortfolioToAdvocacyVentTransition() {
             />
 
             <FastTravelCard
-              title={"Beja Labs / Laboratórios"}
+              title={t("advocacy.cards.labs")}
               img={Images.Ilustracoes.Bush}
               className={"bg-porcelain text-bourdeaux"}
               imgConfig={

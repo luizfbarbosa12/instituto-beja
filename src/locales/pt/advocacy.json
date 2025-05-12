@@ -1,6 +1,11 @@
 {
   "advocacy": {
     "title": "O Portfólio Beja foi organizado conforme os pilares estratégicos apresentados:",
+    "cards": {
+      "advocacy": "Advocacy",
+      "knowledge": "Conhecimento",
+      "labs": "Beja Labs / Laboratórios"
+    },
     "logoAlt": "Beja Logo",
     "sections": {
       "alliance": {

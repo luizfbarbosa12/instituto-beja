@@ -269,7 +269,7 @@ const AdvocacySection = () => {
         section={"Advocacy"}
         sectionImg={Images.Ilustracoes.ProudHand}
         sectionImgStyle={{ w: 18, maxW: 52, h: 30, maxH: 82 }}
-        title={"Apoio Plurianual"}
+        title={t("advocacy.sections.ponte.title")}
         partnerImg={[Images.Logos.PonteLogo]}
         subCards={[Images.Secoes.PelaDemocracia2, Images.Secoes.EquidadeGenero]}
         subtitle={"Vigência - 2024 - 2027"}
