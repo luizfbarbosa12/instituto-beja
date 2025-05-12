@@ -3,12 +3,16 @@ import { initReactI18next } from "react-i18next";
 
 import advocacyPT from "../locales/pt/advocacy.json";
 import advocacyEN from "../locales/en/advocacy.json";
+import translationPT from "../locales/pt/translation.json";
+import translationEN from "../locales/en/translation.json";
 
 const pt = {
+  ...translationPT,
   ...advocacyPT,
 };
 
 const en = {
+  ...translationEN,
   ...advocacyEN,
 };
 

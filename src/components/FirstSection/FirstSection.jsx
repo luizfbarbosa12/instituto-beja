@@ -5,9 +5,10 @@ import { useTranslation } from "react-i18next";
 const GoldGlobe = "/assets/cutedGoldGlobe.webp";
 
 function DownloadButton() {
+  const [t] = useTranslation();
   return (
     <a
-      href='/BEJA_Relatorio-PT.pdf'
+      href={t("firstSection.downloadUrl")}
       download
       className='absolute bottom-20 not-tablet:mr-15 tablet:bottom-1/5 flex items-center justify-self-end gap-2 tablet:gap-4 z-10 px-8'
     >
@@ -16,20 +17,20 @@ function DownloadButton() {
       </div>
 
       <p className='text-base leading-[100%] text-rose'>
-        Faça Download do Relatório Anual 2024 em PDF aqui.
+        {t("firstSection.download")}
       </p>
     </a>
   );
 }
 
 const FirstSection = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <div className='bg-bourdeaux w-full flex flex-col min-h-screen relative overflow-hidden'>
       <div className='flex w-full justify-between px-8 tablet:px-10 pt-15 tablet:pt-4'>
         <p className='mt-4 tablet:mt-0 editorial text-porcelain text-2xl leading-[100%] tablet:text-4xl tablet:max-w-75 max-w-50 tablet:leading-14'>
-          Relatório Anual 2024
+          {t("firstSection.title")}
         </p>
 
         <button
@@ -45,14 +46,14 @@ const FirstSection = () => {
       <div className='relative w-full h-[64vh] left-0 tablet:h-[40vh] flex not-tablet:mt-16 '>
         <img
           src='/assets/LOGO-16.png'
-          alt='Logo Beja Labs'
+          alt={t("firstSection.logoAlt")}
           className='absolute top-0 w-full z-10 -mt-8 max-w-290'
         />
         <img
           src={GoldGlobe}
           fetchPriority='high'
           loading='eager'
-          alt='Gold Globe'
+          alt={t("firstSection.globeAlt")}
           className='absolute h-[60vh] w-auto max-w-fit top-2 -right-40 tablet:-right-22 tablet:h-[80vh]'
         />
       </div>
