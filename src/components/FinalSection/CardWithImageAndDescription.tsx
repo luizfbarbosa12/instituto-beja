@@ -20,7 +20,7 @@ export function CardWithImageAndDescription({
       </div>
 
       <h3 className='font-bold text-md mb-2'>{title}</h3>
-      <p className='text-md'>{children}</p>
+      <div className='text-md'>{children}</div>
     </div>
   );
 }

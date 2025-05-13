@@ -65,9 +65,9 @@ const CMESTCard = ({
                 }}
               >
                 {Array.isArray(data.text) ? (
-                  data.text.map((item, index) => <p key={index}>{item}</p>)
+                  data.text.map((item, index) => <div key={index}>{item}</div>)
                 ) : (
-                  <p>{data.text}</p>
+                  <div>{data.text}</div>
                 )}
               </div>
 
