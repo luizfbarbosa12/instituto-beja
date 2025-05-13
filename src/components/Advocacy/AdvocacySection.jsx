@@ -1,14 +1,14 @@
 import PinkBox from "../ui/PinkBox";
 import TextBlock from "../ui/TextBlock";
-import GoldenQuote from "../ui/GoldenQuote";
 import TopicList from "../ui/TopicList";
 import { Images } from "../../assets/Index";
+import GoldenQuote from "../ui/GoldenQuote";
 import AnimatedLine from "../ui/AnimatedLine";
 import PartnerSection from "../ui/PartnerSection";
-import { AdvocacySectionVentTransition } from "./AdvocacySectionVentTransition";
-import ExternalLinkContainer from "../ui/ExternalLinkContainer";
-import { PortfolioToAdvocacyVentTransition } from "./PortfolioToAdvocacyVentTransition";
 import { Trans, useTranslation } from "react-i18next";
+import ExternalLinkContainer from "../ui/ExternalLinkContainer";
+import { AdvocacySectionVentTransition } from "./AdvocacySectionVentTransition";
+import { PortfolioToAdvocacyVentTransition } from "./PortfolioToAdvocacyVentTransition";
 
 const AdvocacySection = () => {
   const { t } = useTranslation();

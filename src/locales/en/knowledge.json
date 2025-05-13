@@ -1,0 +1,797 @@
+{
+  "knowledge": {
+    "name": "Knowledge",
+    "sections": {
+      "pipa": {
+        "title": "Multiannual Funding",
+        "subtitle": "Term — 2024 to 2026",
+        "partnerName": "PIPA",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "<strong>PIPA</strong> is an organization created to democratize access to private social investment and philanthropy in Brazil. Its mission is to be an effective bridge between financiers and collectives, movements and grassroots organizations located in favelas and peripheries. Through diagnostics, tools and actions, PIPA works to ensure that these resources reach the territories in a broad and equitable way, considering the dimensions of race, gender and class."
+            },
+            "ss": {}
+          },
+          "block2": {
+            "fs": {
+              "p1": "\"The Periphery holds the answers.\"",
+              "p2": "— PIPA"
+            },
+            "ss": {
+              "p1": "PIPA's work focuses on creating tools that connect Brazilian peripheral collectives and movements to private social investments and philanthropy at a global level. The organization also works actively to build partnerships and advocacy with philanthropic organizations and private social investors, promoting the re-evaluation of their funding structures and practices to make them more inclusive and effective. PIPA also plays a key role in racializing the debate, highlighting the peripheries as protagonists in the construction of solutions planned by philanthropy and private social investment in Brazil, bringing greater recognition to the peculiarities and needs of these territories."
+            }
+          },
+          "block3": {
+            "fs": {
+              "p1": "In 2024, PIPA expanded its team and implemented care policies that encourage employees' professional and personal development. Initiatives include complementary aid for infrastructure, personal therapy and language learning.",
+              "p2": "During this period, PIPA structured its internal evaluation cycle, trained professionals to use task and project management software, and drew up individual development plans for each employee. In partnership with the <strong>ACP Institute</strong>, it arranged for members of its team to take part in ACP's management and leadership mentoring programs. The collaboration with the Institute also resulted in the creation of the first <strong>Institutional Development Fund for Peripheral Organizations (POP)</strong>, aimed at institutional strengthening of organizations and social mobilization centers located in the favelas and peripheries throughout Brazil."
+            },
+            "ss": {
+              "p1": "Another important milestone was the launch, in May, of the <strong>Guide to the Peripheries for Donors</strong>, a material structured to guide companies, institutions, funders and foundations interested in reducing the impacts of inequality on donation systems in Brazil. Organized around three main axes - <strong>transparency, plurality and institutional development</strong> - the guide reflects PIPA's commitment to transforming donation practices, promoting inclusion and social justice in access to resources."
+            }
+          },
+          "block4": {
+            "fs": {
+              "p1": "In activating the Guide, and in partnership with <strong>NARRA - Political Communication Organization</strong>, it was possible to articulate five regions of Brazil, guaranteeing the participation of the voices and protagonism of actors and agents intrinsically linked to the transformation of their territories. This initiative promoted debates and mobilized projects and actions in various parts of the country, including Manaus (AM), Fortaleza (CE), Cuiabá (MT), Porto Alegre (RS) and Rio de Janeiro (RJ), as well as São Paulo. Participation in the Festival by <strong>Brazilian Association of Fundraisers (ABCR)</strong> was also an important step in disseminating the Guide."
+            },
+            "ss": {
+              "p1": "In collaboration with the <strong>Confluentes</strong> organization, PIPA held the <strong>1st Networked Peripheries meeting</strong> in the Pinheiros district of São Paulo. There was an opportunity to talk directly with leaders of various projects during a fundraising dinner. For PIPA co-founder and strategy and sustainability coordinator Marcelle Decothe, these initiatives have enormous potential to become annual actions, helping to strengthen and continue the impact on the peripheries."
+            }
+          },
+          "block5": {
+            "fs": {
+              "p1": ""
+            },
+            "ss": {
+              "p1": "In partnership with the <strong>Group of Institutes, Foundations and Companies (GIFE)</strong>, PIPA has launched a training cycle dedicated to strengthening black leaders in the <strong>Private Social Investment (ISP)</strong> and <strong>Philanthropy</strong> sector in Brazil. The program, offered online and free of charge, was structured to provide a critical view of philanthropy in the country, addressing relevant topics such as decoloniality, social justice, and the dynamics between philanthropy and the peripheries. The main objective of the training cycle is to train individuals belonging to minority groups, especially black people, LGBTQIA+ people, people from the peripheries and people with disabilities."
+            }
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "PIPA",
+            "quote": [
+              "PIPA is an organization created to democratize access to private social investment and philanthropy in Brazil. Its mission is to be an effective bridge between financiers and collectives, movements and grassroots organizations located in favelas and peripheries. Through diagnostics, tools and actions, PIPA works to ensure that these resources reach the territories in a broad and equitable way, considering the dimensions of race, gender and class.",
+              "Organizations, collectives and grassroots movements from the favelas and peripheries carry out urgent work with a direct social, political and economic impact on their communities and territories. However, they face many challenges in accessing private social investment in Brazil, which operates on the grounds of structural inequalities. The ability to move resources quickly to grassroots movements in Brazil is essential for creating resilient and effective strategies to deal with crises and reduce inequalities in the country.",
+              "Based on this observation, we want to contribute to changing the structures, practices and culture of private social investment in Brazil, promoting the democratization of the transfer of these resources."
+            ]
+          },
+          "quote2": {
+            "cite": "ANDREY CHAGAS, Operations Coordinator",
+            "quote": [
+              "In our approach with Beja, we wanted to strengthen our communication, which culminated in the activation of GUIA and our process of building narratives from the periphery. In addition to audiovisual pieces, communication and the internal bolstering of our communication, the aim was also to bring the actors and projects that already work in Brazil's peripheries into the debate on the democratization of philanthropy.",
+              "Pipa travels through five regions of Brazil and brings the narratives of these people who are developing their projects in the peripheries, in their communities, to the great center of debate on philanthropy. This approach establishes institutional support within the guide."
+            ]
+          },
+          "quote3": {
+            "cite": "MARCELLE DECOTHE, Cofounder and Strategy and sustainability coordinator",
+            "quote": [
+              "In addition to building national strength, PIPA has made international connections. We have developed research into participatory grantmaking funds. We have been debating the decolonization of philanthropy and the dispute over the future of philanthropy from this place, which is the place of an organization on the periphery of the Global South, which is positioning itself to democratize philanthropy in the world.",
+              "Beja's support was very important for consolidating the area of knowledge production and narratives, because very few organizations invest in knowledge production as a tool for advocacy and advancement. Beja's trust and commitment to both the construction of GUIA and its activation, using it as a guiding tool to influence philanthropy and the debate on a broader agenda, is very important. What philanthropy calls philanthropy of trust cannot only be done between peers."
+            ]
+          },
+          "quote4": {
+            "cite": "MARCELLE DECOTHE, Cofounder and Strategy and sustainability coordinator",
+            "quote": [
+              "The impacts caused by PIPA can only be seen in the medium to long term. Impacting philanthropy takes time, it can't be achieved immediately or with just one project. We are a new and young black organization.",
+              "As a result, we feel that we always need to promote a very high-level debate to attract the attention of this group and to make money, but who can sustain this knowledge for the debate while worrying about raising money all the time?"
+            ]
+          }
+        }
+      },
+      "fjles": {
+        "title": "Research",
+        "subtitle": "Term — 2024 to 2025",
+        "partnerName": "Fundação José Luiz Egydio Setúbal (FJLES) - Filantropia no Brasil: Trajetórias e experiências de Grandes Doadores",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "The research <strong>Philanthropy in Brazil: Trajectories and Experiences of Major Donors</strong>, developed by the <strong>José Luiz Egydio Setúbal Foundation (FJLES)</strong>, aimed to investigate the motivations and philanthropic practices of individuals identified as major donors in Brazil."
+            },
+            "ss": {
+              "p1": "The study sought to explore the experiences, knowledge and expectations of these philanthropists, as well as to understand how their actions contribute to strengthening private social investment in the country. The research aims to <strong>offer an in-depth analysis of the motivations and philanthropic behaviors of these donors, while mapping the practices used and the challenges faced.</strong>"
+            }
+          }
+        },
+        "quotes": {}
+      },
+      "cebrap": {
+        "title": "Supported Project",
+        "subtitle": "Term — 2024 to 2025",
+        "partnerName": "Centro Brasileiro de Análise e Planejamento (CEBRAP) - Seminários de Pesquisa em Desigualdades e Justiça (DeSJuS)",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "Seminários de Pesquisa em Desigualdades e Justiça (Desjus) (Research Seminars on Inequalities and Justice) began with the fundamental purpose of creating a meeting space for researchers interested in the political and normative challenges of contemporary societies. The research group is housed at the Núcleo de Estudos Internacionais do Centro Brasileiro de Análise e Planejamento (Center for International Studies of the Brazilian Center for Analysis and Planning) (CEBRAP).",
+              "p2": "The initiative aims to develop a theoretical and analytical framework that makes it possible to reimagine the role of philanthropy in Brazil, from a critical and transformative perspective, with an emphasis on the specificities and challenges of the Global South. The project seeks to promote an innovative dialog about the future of philanthropy, using new vocabularies and concepts that challenge the status quo and expand the possibilities for social impact."
+            },
+            "ss": {
+              "p1": "The centerpiece of this collaboration was a Research Seminar, structured as a series of hybrid meetings - virtual and face-to-face, for participants located outside São Paulo - organized in the format of Training Workshops. The aim of the meetings is to study philanthropy in depth and create terms, definitions and analytical models which, in the near future, will make it possible to rethink and reimagine the meaning of philanthropy from the perspective of the Global South.",
+              "p2": "Through the partnership that began in 2024 with the Beja Institute, reading cycles have been organized with guests, with the aim of consolidating the terms that build a repertoire on justice capable of facing the specific challenges of the Global South."
+            }
+          },
+          "block2": {
+            "fs": {
+              "p1": "Through the partnership that began in 2024 with the Beja Institute, reading cycles have been organized with guests, with the aim of consolidating the terms that build a repertoire on justice capable of facing the specific challenges of the Global South."
+            },
+            "ss": {}
+          },
+          "block3": {
+            "fs": {
+              "p1": "The gap we mentioned attracted high demand, resulting in more than 200 applications. In response, CEBRAP sent out a questionnaire to understand the profile of those interested, receiving 160 responses."
+            },
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "Raissa Ventura, Researcher",
+            "quote": [
+              "“Our goal is to train ourselves and form a network of people who can come to think about philanthropy from the point of view of our toolbox, which is political theory and political philosophy.”"
+            ]
+          },
+          "quote2": {
+            "cite": "Raissa Ventura, Researcher",
+            "quote": [
+              "“To think, to imagine, what philanthropy we want for a democratic and profoundly unequal society. In which, obviously, the state is unable to respond to all social demands.”"
+            ]
+          },
+          "quote3": {
+            "cite": "Raissa Ventura, Researcher",
+            "quote": [
+              "“We need to understand what philanthropy is and isn't funding. We understand philanthropy as a place where the state isn't reaching, where the state isn't playing its role, such as art and high culture. But what about when philanthropy starts funding right-wing and far right movements? And when philanthropy begins to take the place of the state? The problem is that then a plutocracy begins to emerge, the richest will decide which good should be financed without transparency, without responsibility and without popular sovereignty.”"
+            ]
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "These cycles cover topics such as:",
+            "topics": [
+              "Climate (In)justices and their political and normative challenges",
+              "Historical injustices and forms of reparation",
+              "Immigration and border formation in the survival of coloniality",
+              "The challenges of philanthropy in the Global South",
+              "New technologies, digital tools and problems of sovereignty"
+            ]
+          },
+          "list2": {
+            "title": "The analysis revealed some important insights:",
+            "topics": [
+              "The audience is mostly made up of women, with a master's degree as the predominant academic level",
+              "50% of the participants carry out research or work in philanthropy",
+              "73% identified themselves as white, 59% have a master's degree",
+              "50% are carrying out academic research, highlighting a specialized academic profile",
+              "Another relevant finding is that around 64% of participants found out about the workshops through engagement on social media, especially via Instagram"
+            ]
+          }
+        },
+        "pinkBlock": "For the first half of 2025, the model of reading workshops applied in 2024 will be adjusted. The new proposal will alternate reading workshops with guest lectures, strengthening the formation of a network engaged with the theme."
+      },
+      "agbara": {
+        "title": "Multiannual Funding",
+        "subtitle": "Term — 2024 to 2026",
+        "partnerName": "Fundo Agbara – apoio ao Núcleo de Pesquisa e Memória da Mulher Negra (NUPEMN)",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "A global survey conducted by the Black Feminist Fund revealed that black women receive only 0.1% to 0.3% of the resources from philanthropy and private social investment worldwide. In Brazil, the situation is no different. With this scenario in mind, the Agbara Fund was created in September 2020, becoming the first black women's fund in Brazil. This social impact initiative seeks to empower black women and their communities by supporting projects that promote ethno-racial equality, economic, social and climate justice.",
+              "p2": "With a focus on initiatives that contribute to building a Brazil where the black population can live fully emancipated and with their well-being assured, the Agbara Fund concentrates its efforts on supporting grassroots organizations led by black women. In this way, it acts as a tool of resistance against the exclusions and inequalities historically faced by this population."
+            },
+            "ss": {
+              "p1": "The Núcleo de Pesquisa e Memória da Mulher Negra (NUPEMN)(Black Women's Research and Memory Center), linked to the Agbara Fund, aims to research and strengthen philanthropy for black women and support initiatives that influence public policies. This includes democratizing access to private social investment, prioritizing a racial focus in the allocation of resources and promoting the development of a more inclusive and representative philanthropy.",
+              "p2": "As part of this commitment, NUPEMN launched an unprecedented diagnosis on philanthropy and race in Brazil. The study mapped more than 800 black organizations and presented in-depth analyses of social justice and historical reparations. With contributions from experts such as Cida Bento and an exclusive short film, the material is an invitation to reflect and take action to transform the scenario of philanthropy in the country.",
+              "p3": "We are proud to be partners in this transformative research, reinforcing our commitment to racial equity and oxygenating the philanthropic ecosystem."
+            }
+          },
+          "block2": {
+            "fs": {
+              "p1": "The Agbara Fund strengthens our partnerships based on trust and collaboration, highlighting the value of investing in institutional support. This model allows the beneficiary institutions to channel less effort into concerns about the immediate future and more energy into expanding their creativity and power to impact the lives of black women. The time previously spent on fundraising is now directed towards transforming realities and strengthening communities."
+            },
+            "ss": {
+              "p1": "Agbara plays a fundamental role in Brazilian philanthropy, contributing to the democratization of these historically exclusionary spaces. The organization seeks to attract other black institutions to occupy these spheres: \"... because it's a bit embarrassing that we're the only black women in this space.\" This repositions the Agbara Fund in the philanthropic ecosystem in an innovative way."
+            }
+          },
+          "block3": {
+            "fs": {
+              "p1": "The proposal is to reduce the number of actions, while maintaining the diversity of the fronts of action. This approach aims to increase the number of people served and improve communication processes, increasing the impact achieved while concentrating efforts on optimizing the team."
+            },
+            "ss": {
+              "p1": "In addition, it seeks to intensify interactions between partnership agents, encouraging ongoing dialogue and harmonious, collaborative coexistence. This approach contributes to strengthening initiatives, based on active listening practices and reciprocal recognition."
+            }
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "Aline Odara, Executive Director",
+            "quote": [
+              "\"We get this kind of question a lot from other donors: 'Ah! But other institutes already do research, why would you want to do it too?' But two institutes of black people aren't enough, that doesn't represent everything. There are tons of white people institutes.\""
+            ]
+          },
+          "quote2": {
+            "cite": "Aline Odara, Executive Director",
+            "quote": [
+              "\"Black women producing knowledge and safeguarding our memory is also an important emancipatory tool. Solutions have been produced by black women for a long time.\""
+            ]
+          }
+        },
+        "topicList": {},
+        "pinkBlock": ""
+      },
+      "cedec": {
+        "title": "Event",
+        "subtitle": "Term — November 2024",
+        "partnerName": "Instituto de Estudos Avançados da Universidade de São Paulo (IEA–USP) and Centro de Estudos de Cultura Contemporânea (CEDEC) - Colloquium on Coloniality, Raciality, Punishment and Reparations in the Americas",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "Colóquio Colonialidade, Racialidade, Punição e Reparação nas Américas (Colloquium on Coloniality, Raciality, Punishment and Reparations in the Americas), promoted by the Instituto de Estudos Avançados da Universidade de São Paulo (IEA-USP) (Institute for Advanced Studies of the University of São Paulo) and the Centro de Estudos de Cultura Contemporânea (CEDEC) (Center for the Study of Contemporary Culture), offered a space for in-depth reflection on the intersections between these themes, structured from a transnational and interdisciplinary approach. With the aim of investigating historical and contemporary connections between different contexts in the Americas, the event examined how the colonial legacy continues to shape racial dynamics, systems of punishment and challenges related to social justice today."
+            },
+            "ss": {
+              "p1": "Between November 25 and 29, 2024, the Beja Institute had the honor of organizing a series of meetings with Trevor Smith, one of the most renowned international experts on historical reparations and racial justice narratives. During his first visit to Brazil, Trevor presented the innovative concept of world-making, a transformative practice that seeks to reimagine existing social and economic structures. The aim is to dismantle racial capitalism and strengthen strategic alliances between black and indigenous movements."
+            }
+          },
+          "block2": {
+            "fs": {
+              "p1": "The colloquium lasted four days and included 11 round tables, 14 short courses and 160 Work Groups (WGs). The discussions addressed issues such as racism, surveillance, social control, abolitionist practices, historical reparation and coloniality."
+            },
+            "ss": {}
+          },
+          "block3": {
+            "fs": {
+              "p1": "Trevor highlighted his inspiration for the complexities of our historical and racial context and the crucial moment we are living in, with structural racism being widely discussed but still challenged by practical barriers. He stressed the importance of aligning global reparations narratives with local particularities, uniting black and indigenous movements around an agenda that goes beyond financial compensation. The speaker also acknowledged the power of the connections created during his visit and emphasized the need for spaces that promote solidarity and structural transformations, recalling that affection and narrative go hand in hand in building fairer realities."
+            },
+            "ss": {
+              "p1": "With the support of partners such as the Toriba Institute and the BLIS Collective, and in collaboration with Ibirapitanga, Casa Sueli Carneiro, Observatório da Branquitude, Instituto de Estudos da Religião (ISER), Ação da Cidadania and Casa Fluminense, we promoted dialogues that broaden philanthropy's role in strengthening racial and historical justice. This initiative represented a significant step forward by aligning global thinking with Brazilian reality and highlighting the power of transformative narratives.",
+              "p2": "With the support of the Beja Institute, it was possible to secure the participation of 14 organizations in the event, going beyond the traditional limits of academic funding. This collaboration was essential in making it possible for representatives of the Movimento Negro Unificado (Unified Black Movement), the Rede Nacional de Feministas Antiabolicionistas (National Network of Anti-Abolitionist Feminists), the Reparations Project, the Mães de Maio (Mothers of May), Quilombagem and the Rede de Proteção e Resistência contra o Genocídio (Network of Protection and Resistance against Genocide) to attend the event."
+            }
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": ""
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "During the meetings, we reflected on:",
+            "topics": [
+              "Intersectional solidarity: challenges and opportunities for aligning black and indigenous movements in the Brazilian context",
+              "Reparations in Brazil: the importance of ensuring non-repetition and transforming the foundations of structural racism, taking into account the historical and social particularities of our country",
+              "Multigenerational narratives: how to integrate and normalize the reparations agenda into robust and continuous public policies, essential for promoting long-term structural change"
+            ]
+          }
+        },
+        "pinkBlock": ""
+      },
+      "laut": {
+        "title": "Supported Project",
+        "subtitle": "Term — 2024 to 2026",
+        "partnerName": "LAUT - Centro de Análise da Liberdade e do Autoritarismo (LAUT)",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "The <strong>Centro de Análise da Liberdade e do Autoritarismo (LAUT)</strong> (Center for the Analysis of Freedom and Authoritarianism) is an independent, non-partisan institution dedicated to interdisciplinary research on the rule of law, democracy and the defense of fundamental freedoms. Launched in May 2020 as a project incubated at the <strong>Instituto de Defesa do Direito de Defesa (IDDD)</strong> (Institute for the Defense of the Right to Defense), <strong>LAUT</strong> aims to monitor the various manifestations of authoritarianism and repression of freedoms, seeking to strengthen democratic foundations and foster the mobilization of civil society."
+            },
+            "ss": {
+              "p1": "With a focus on producing and disseminating relevant knowledge, the <strong>LAUT</strong> takes an interdisciplinary approach to analyzing and understanding threats to fundamental freedoms. <strong>It stands out for its work in mapping patterns of authoritarianism, promoting de-radicalization strategies and creating conditions for more robust social dialogue. In this way, it contributes to the consolidation of a plural, resilient democracy committed to human rights.</strong>",
+              "p2": "The <strong>LAUT</strong> has launched a Training Center aimed at young researchers, to create opportunities that promote active participation in research projects, analysis methodologies and the communication of results. The program prioritizes inclusion and diversity, offering grants especially destined for black and indigenous candidates."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": ""
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": ""
+          }
+        },
+        "pinkBlock": ""
+      },
+      "idbr": {
+        "title": "Supported Project",
+        "subtitle": "Term — 2024 to 2026",
+        "partnerName": "Instituto Identidades do Brasil (ID_BR)",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "The <strong>Instituto Identidades do Brasil (ID_BR)</strong> (Brazilian Identities Institute) is a non-profit organization that is a pioneer and national reference in the promotion and acceleration of racial equality. It works through creative and innovative approaches, as well as actions structured around four main pillars: data and impact; employability; education; and engagement."
+            },
+            "ss": {
+              "p1": "The <strong>ID_BR</strong> seeks to make the agendas of racial equality, diversity and inclusion more accessible, promoting humanized connections and participating in strategic events. The organization accelerates the transformation of companies and institutions, as well as contributing to career development and valuing the journey of black and indigenous people.",
+              "p2": "In partnership with the <strong>Instituto Beja</strong>, the <strong>ID_BR</strong> also strengthens initiatives related to racial equity, with a focus on diversity and inclusion. <strong>Among its strategies is the development and implementation of innovative technological solutions, such as the creation of Deb, Brazil's first artificial intelligence (AI) focused on ethnic-racial issues.</strong>"
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": ""
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": ""
+          }
+        },
+        "pinkBlock": ""
+      },
+      "igapare": {
+        "title": "Supported Project",
+        "subtitle": "Term — 2024 to 2025",
+        "partnerName": "Instituto Igarapé",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "The <strong>Instituto Igarapé</strong> (Igarapé Institute), founded in 2011, seeks to propose solutions and partnerships for complex global challenges. Its ability to produce knowledge, connect worlds, understand different realities, generate concrete solutions and translate them for an audience that forms opinions and makes decisions, enables it to be uniquely positioned to influence public and corporate policies, from the local to the global level."
+            },
+            "ss": {
+              "p1": "The <strong>Instituto Beja</strong> supports the <strong>Instituto Igarapé</strong> in its mission to positively influence public policies in Brazil and on the global stage. Based on solid research, emerging technologies and strategic communication, Igarapé develops solutions for public safety, climate and digital technology, influencing public and corporate policies in innovative and effective ways.",
+              "p2": "The organization was recognized as the world's leading social policy think tank in 2019, best Human Rights NGO in 2018, and was ranked among the top NGOs in Latin America. Between 2017 and 2023, Igarapé ranked among the best NGOs in Brazil, consolidating its global and regional influence."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": ""
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": ""
+          }
+        },
+        "pinkBlock": ""
+      },
+      "mic": {
+        "title": "Supported Project",
+        "subtitle": "Term — 2024 to 2026",
+        "partnerName": "More in Common Brasil",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "More in Common's mission is to understand the dynamics of polarization, identify points of convergence and unite people to face shared challenges. Through research into polarization and the use of behavioural science, the organization maps the identities and values of different population groups. These insights are applied in collaboration with partners from civil society, philanthropy, government, media and business, promoting initiatives aimed at bridging divides."
+            },
+            "ss": {
+              "p1": "By developing effective and inclusive narratives, <strong>the program assists Brazilian leaders in overcoming polarization, creating spaces for convergence to tackle urgent challenges such as strengthening democracy, promoting social justice and combating climate change</strong>. With an approach based on deep understanding and compelling narratives, <strong>More in Common</strong> seeks to mobilize political and social will around key issues."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": ""
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": ""
+          }
+        },
+        "pinkBlock": ""
+      },
+      "cria": {
+        "title": "Multiannual Funding",
+        "subtitle": "Term — 2022 to 2026",
+        "partnerName": "CRIA - (Cultivate and Raise Infancy Awareness), developed by The Human Project (THP)",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "CRIA's goal is to develop an innovative social technology for the implementation of a child development program. The aim is to plan, manage and offer psychological support to young people and adolescents in the <strong>CRIA Space</strong>, creating conditions for full and healthy development, especially in the context of childbirth and early childhood. The focus is on small and remote communities, promoting their integral well-being and expanding their opportunities for growth and development.",
+              "p2": "The activities are carried out with the community, through round tables and interactive dynamics that address essential topics such as prenatal care, childbirth, food safety, child development milestones, the importance of play, breastfeeding, emotions, challenges in family relationships and parenting."
+            },
+            "ss": {
+              "p1": "The project began in 2023, with the proposal to develop a pilot experience and test its reapplication over a period of 5 years. One of the main objectives is to train young people and adolescents to act as community support, allowing them to replicate the experience as Teenage Health Agents.",
+              "p2": "Until 2024, <strong>CRIA</strong> concentrated its activities in Pedra Furada, a village located in the municipality of Santa Luzia do Itanhy, in the southern region of Sergipe. This community faces significant challenges, with rare manifestations of affection and a high incidence of domestic violence."
+            }
+          },
+          "block2": {
+            "fs": {
+              "p1": "<strong>CRIA</strong> organized a meeting of couples in Pedra Furada as a first contact and to advertise its activities, with a special focus on the men of the community. The aim was to engage members who traditionally didn't take part in the <strong>CRIA Space</strong> projects, which are still under construction, or in collective and community activities. The action sought to strengthen couples, regardless of the length of their relationship - from 5 months to 35 years - recognizing that motherhood begins with the relationship between the couple. The event was attended by 15 couples."
+            },
+            "ss": {
+              "p1": "From 2024, <strong>CRIA</strong> will enter a new phase of systematizing the actions implemented, consolidating the lessons learned and promoting a pilot test to reapply the knowledge acquired by the Teenage Health Agents in other communities close to Pedra Furada."
+            }
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "Raiane Ribeiro, Coordinator",
+            "quote": [
+              "\"Women are always making a difference, but we also need men to participate.\""
+            ]
+          },
+          "quote2": {
+            "cite": "Raiane Ribeiro, Coordinator",
+            "quote": [
+              "\"Joice Kelly arrived at CRIA and hardly spoke a word, she just cried. She had a very difficult childhood, without affection or play, and at CRIA she learned about the Shantala baby massage technique. She took ownership of the technique and has been working with great confidence in this area. After learning Shantala, she hugged her father for the first time! As well as Shantala, she is also interested in medicinal plants, which is why she has been nicknamed CRIA's healer.\""
+            ]
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": ""
+          }
+        },
+        "pinkBlock": ""
+      },
+      "appcivico": {
+        "title": "Supported Project",
+        "subtitle": "Term — 2024",
+        "partnerName": "APP Cívico + Politize! - IAgora?",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "<strong>Politize!</strong> is a civil society organization dedicated to awakening interest in politics and broadening citizen participation in the decision-making spaces that impact the lives of all Brazilians. Its mission is to educate a generation of citizens who are aware of and committed to democracy, bringing political education to anyone, anywhere.",
+              "p2": "The online game <strong>IAgora?</strong> was developed as an innovative approach to combating disinformation, combining inoculation theory with behavioral sciences. Inoculation Theory, proposed by William J. McGuire, suggests that it is possible to strengthen beliefs and attitudes by exposing people to weak counter-arguments or mild versions of counter-arguments. This exposure works like a cognitive \"vaccine\", helping to develop intellectual defenses that make people more resistant to future influences or persuasions. Widely applied in communication, advertising and the fight against disinformation, the theory is an effective tool for promoting critical thinking and protecting against manipulation."
+            },
+            "ss": {
+              "p1": "Since its launch on August 20, 2024, the game has registered around 26,000 hits, made by approximately 5,000 users. The peak number of hits came in the election month (October), with an average time spent on the site of 4 minutes per user. In terms of reach, iagora.org had users in more than 600 Brazilian cities.",
+              "p2": "With the aim of strengthening citizens' cognitive defenses, <strong>IAgora?</strong> supports the technical recognition of manipulations and the creation of psychological resistance against disinformation attempts, especially during electoral periods. This initiative seeks to develop innovative strategies to protect the integrity of information and promote a more critical and engaged citizenry."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": []
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": ""
+          }
+        },
+        "pinkBlock": ""
+      },
+      "idis": {
+        "title": "Research",
+        "subtitle": "Term — 2024",
+        "partnerName": "Instituto para o Desenvolvimento do Investimento Social (IDIS)",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "The <strong>Instituto para o Desenvolvimento do Investimento Social (IDIS)</strong> (Institute for the Development of Social Investment) holds workshops with active philanthropists to create a Theory of Change aimed at engaging new people. These meetings identify motivations, the necessary conditions for transformation and define activities and interventions to achieve their objectives. One example is the workshop <strong>Perspectivas para a Filantropia no Brasil 2024</strong> (Perspectives for Philanthropy in Brazil 2024), which seeks to foster dialog and collaboration in the sector. The results of these initiatives will be systematized in a publication with wide dissemination."
+            },
+            "ss": {}
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": []
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": ""
+          }
+        },
+        "pinkBlock": ""
+      },
+      "sitawi": {
+        "title": "Research",
+        "subtitle": "Term — 2024",
+        "partnerName": "SITAWI - High Net Worth Families in Brazil - Impact Investment and Philanthropy",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "The <strong>Sitawi</strong> is a Social Organization of Public Interest (OSCIP) active in the development of innovative financial solutions to promote positive socio-environmental benefits, developing financial infrastructure for the Impact Economy since 2008.",
+              "p2": "The research <strong>Famílias de Alto Patrimônio no Brasil - Investimento de Impacto e Filantropia</strong> (High Net Worth Families in Brazil - Impact Investment and Philanthropy), promoted by <strong>SITAWI</strong>, presents an overview of the current practices of these families in allocating resources for social benefit. The study sought <strong>to understand how these families direct their investments to generate impact</strong>, as well as exploring their expectations in relation to these initiatives."
+            },
+            "ss": {
+              "p1": "The survey was conducted with the participation of families and <i>Single Family Offices, Multi-Family Offices</i>, investment managers/advisors, as well as board members and other non-financial advisors. Respondents were asked about the allocation of their resources to Impact Investments and Philanthropy, as well as their long-term visions for these themes. The research also aims to identify strategies to strengthen private social investment in Brazil."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": []
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": ""
+          }
+        },
+        "pinkBlock": ""
+      },
+      "atahualpa": {
+        "title": "Supported Project",
+        "subtitle": "Term — 2022",
+        "partnerName": "Praça Atahualpa",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "Since 2022, the <strong>Beja Institute</strong> has been dedicated to the revitalization and renovation of <strong>Praça Atahualpa</strong> in Leblon, as part of the <strong>Adote.Rio</strong> program, an initiative of Rio de Janeiro City Hall aimed at restoring public assets for common use. This space, now revitalized, has become an intergenerational, democratic and safe meeting place, promoted by residents and the surrounding communities.",
+              "p2": "With an approach that values diversity and integrates transversal themes, the square has established itself as a place of coexistence and social well-being. Through a collective effort, events are promoted on commemorative dates, weekly cultural activities and artistic interventions on Saturdays, strengthening community ties."
+            },
+            "ss": {
+              "p1": "<strong>The relationships established with users from different age groups foster an organic growth in intergenerational and racial coexistence. In addition, the space contributes to the development of children's education, complementing learning through educational and cultural initiatives.</strong> These actions have strengthened local security, in partnership with public bodies and civil society, transforming the square into a truly inclusive environment."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": []
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": ""
+          }
+        },
+        "pinkBlock": ""
+      },
+      "maradentro": {
+        "title": "Supported Project",
+        "subtitle": "Term — 2023 to 2025",
+        "partnerName": "“Pedro and Beja in an Animated Adventure” - Instituto Mar Adentro",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "<strong>Pedro and Beja in an Animated Adventure</strong> is an audiovisual series composed of 6 animations of 10 minutes each, and uses Art Education as a tool to address relevant issues in a playful way. Aimed at children and teenagers, the work stimulates the adoption of good habits and promotes the formation of participative and conscious citizens in their communities."
+            },
+            "ss": {
+              "p1": "Due to the success of the 1st season in schools - shown in 44 schools, reaching 17,600 students - and the vast diversity of themes related to citizen education, the Mar Adentro Institute continued the project with the production of the 2nd season."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": []
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "Season 1 → 6 episodes - 10 min/each",
+            "topics": [
+              "Everything in its place",
+              "No waste",
+              "A new smell",
+              "The best gift",
+              "Field goal",
+              "The real hero"
+            ]
+          },
+          "list2": {
+            "title": "Season 2 → 3 episodes - 5 min/each",
+            "topics": ["Self Esteem", "Environment", "Respect and tolerance"]
+          }
+        },
+        "pinkBlock": ""
+      },
+      "coalizacao": {
+        "title": "Supported Project",
+        "subtitle": "Term — 2023 to 2026",
+        "partnerName": "Instituto de Cidadania Empresarial (ICE) - Coalizão pelo Impacto",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "Founded in 1999, the <strong>Instituto de Cidadania Empresarial (ICE)</strong> (Institute of Corporate Citizenship) aims to bring together entrepreneurs and investors around social innovations that broaden their personal, philanthropic and corporate engagement. Its central objective is <strong>to promote social inclusivity and reduce poverty in Brazil</strong> through initiatives that generate significant social impact.",
+              "p2": "Since 2022, <strong>ICE</strong> has led the <strong>Coalizão pelo Impacto</strong> (Coalition for Impact), an initiative supported by the <strong>Beja Institute</strong>, aimed at strengthening the support ecosystem for impact ventures in six strategic cities, representing the five regions of the country: Porto Alegre, Paranaguá, Fortaleza, Belém and Campinas. <strong>The Coalition</strong> is structured by a National Council, made up of supporters, and Local Councils in each participating city."
+            },
+            "ss": {
+              "p1": "The initiative seeks to articulate transformative leaders and implement actions that enhance positive social benefits, especially in low-income communities. It collaborates to strengthen local ecosystems through partnerships with dynamic organizations that support entrepreneurs. The core strategy of the <strong>Coalition</strong> is to mobilize more resources, connecting entrepreneurs and investors to initiatives that combine measurable social impact and financial sustainability.",
+              "p2": "In 2024, during a meeting in Belém, the Councils of <strong>ICE</strong>, the <strong>Coalition</strong> and the region discussed synergies, assessed the progress made since the launch of the initiative and planned the next steps for 2025. One of the main highlights was the recognition of the local progress driven by the Coalition, reinforcing the need for a strategic actor to lead the initiative and provide access to networking, knowledge and funding, strengthening the different dimensions of the program."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": []
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": []
+          }
+        },
+        "pinkBlock": ""
+      },
+      "dpgc": {
+        "title": "Supported Event",
+        "subtitle": "Term — 2024",
+        "partnerName": "Data Privacy Global Conference (DPGC)",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "In 2024, the regulation of new technologies reached a new level in Brazil, driven by a convergence of internal and external factors that put the country at the center of global discussions. Topics such as the municipal elections, Brazil's presidency of the G20, inclusive digital transformation and Artificial Intelligence (AI) regulation stood out as crucial agendas among third sector organizations, the government and companies.",
+              "p2": "The <strong>Data Privacy Global Conference (DPGC)</strong>, organized by <strong>Data Privacy Brasil</strong>, has established itself as one of the most important events in the Global South on privacy and data protection. In its 3rd edition, held on November 25 and 26, 2024 at Faculdade Cásper Líbero in São Paulo - SP, the conference brought together representatives from academia, the market and the government to debate the main challenges and advances in the area."
+            },
+            "ss": {
+              "p1": "The <strong>DPGC</strong> is an event aimed at professionals and other interested parties who want to become more actively involved in discussions about data in the country. The audience was made up of lawyers, information security and software development specialists, decision-makers, digital activists and other professionals working in the field of privacy and data protection.",
+              "p2": "The event sought to establish meaningful connections between digital markets and social justice-oriented democracies. Among the topics discussed were: digital public infrastructure, information integrity, cybersecurity, regulation of artificial intelligence (AI) and strengthening the protection of personal data."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": []
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": []
+          }
+        },
+        "pinkBlock": ""
+      },
+      "yunus": {
+        "title": "Supported Event",
+        "subtitle": "Term — August 2024",
+        "partnerName": "Brazilian Social Business Forum for Youth Entrepreneurship - Yunus Negócios Sociais Brasil",
+        "blocks": {
+          "block1": {
+            "fs": {
+              "p1": "Held in August 2024, the <strong>Fórum Brasileiro de Negócios Sociais para Empreendedorismo Jovem</strong> (Brazilian Social Business Forum for Youth Entrepreneurship) tackled two of the biggest challenges facing contemporary Brazil: youth unemployment and climate change. During the event, <strong>Cristiane Sultani</strong> highlighted the crucial role of philanthropic capital as a form of venture capital, capable of driving innovation and promoting collaboration. These elements are essential pillars for a <strong>strategic and transformative philanthropy.</strong>"
+            },
+            "ss": {
+              "p1": "The forum took place at the iconic <strong>Museu do Amanhã</strong> (Museum of Tomorrow) and was organized by <strong>Yunus Negócios Sociais</strong>, with the support of <strong>Somos Um</strong> and <strong>SEBRAE</strong>, as well as the sponsorship of the <strong>Beja Institute</strong>. The meeting consolidated the <strong>#FórumdeNegóciosSociais</strong> as a reference platform, promoting debates about how the principles of impact businesses can offer <strong>sustainable and effective solutions.</strong>",
+              "p2": "In addition to stimulating strategic discussions, the event empowered young entrepreneurs to lead positive transformations and address urgent social challenges. It was another space for innovation and exchange, where we continue to oxygenate the future of philanthropy and society."
+            }
+          },
+          "block2": {
+            "fs": {},
+            "ss": {}
+          },
+          "block3": {
+            "fs": {},
+            "ss": {}
+          }
+        },
+        "quotes": {
+          "quote1": {
+            "cite": "",
+            "quote": []
+          }
+        },
+        "topicList": {
+          "list1": {
+            "title": "",
+            "topics": []
+          }
+        },
+        "pinkBlock": ""
+      }
+    },
+    "extra": {
+      "knowledge": "Knowledge",
+      "knowStudy": "Read the full study and share it",
+      "accessStudy": "Access the Complete Study here",
+      "knowSite": "Know the IAgora Site?",
+      "accessSite": "Access the IAgora Site here?",
+      "knowSurvey": "Get to know the survey",
+      "accessSurvey": "Access here the survey",
+
+      "phases": [
+        {
+          "title": "Phase 1 - Composition of the status quo and its silences",
+          "description": "This stage aims to trace, from a historical perspective, the ways in which philanthropy, social justice and democracy have both come together and clashed in the different models of philanthropy that have been established in Brazil over time. Special attention will be paid to the differences between these models, examining the principles that underpin them and the conflicts that emerge from these divergences. The focus is on identifying the silences that have resulted from the predominance of certain definitions of philanthropy, what its objectives are and what its responsibilities are, to the detriment of other approaches. The goal is to illuminate how these choices shape philanthropic practices in the country, highlighting the impacts of historical and conceptual exclusions on the development of the sector."
+        },
+        {
+          "title": "Phase 2 - Critical and historical analysis",
+          "description": "In this stage, the goal is to contribute to the consolidation of a political theory of philanthropy in Brazil. Despite the importance of the topic, there are few academic studies, particularly in the field of philosophy and political theory, which approach philanthropy in a critical and in-depth manner. While there is some literature on the historical evolution, scope and emergence of philanthropy, especially in the United States and parts of Europe, little has been produced on the formulation of a model of philanthropy suitable for countries in the Global South. The development of such a model requires a normative and historical movement that positions Brazilian philanthropy in the context of survival - that is, in the continuity of slavery, colonialism and their persistent forms of oppression, inequalities and unjustifiable hierarchies."
+        },
+        {
+          "title": "Phase 3 - For a political theory of philanthropy in Brazil",
+          "description": "At this stage, the focus is on consolidating the findings of the research, analyzing the ways in which philanthropy, social justice and democracy have come together and opposed each other in the models of philanthropy throughout Brazilian history. The expected impact is the creation of an environment rich in exchanges of knowledge and substantial analysis, promoting the valorization of theoretical and practical training in the field of philanthropy. The seminars and the results obtained will be widely disseminated and shared, contributing to the construction of a new philanthropic political theory in Brazil - which could even influence global practices, from the perspective of the Global South."
+        }
+      ]
+    }
+  }
+}

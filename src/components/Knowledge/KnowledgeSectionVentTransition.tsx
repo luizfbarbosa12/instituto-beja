@@ -1,7 +1,8 @@
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
+import { useGSAP } from "@gsap/react";
 import { calcClamp } from "../../data/Utils";
+import { Trans, useTranslation } from "react-i18next";
 
 const logo_beja_completo = "/assets/logo-beja-completo-svg.svg";
 const nuvens = "/assets/ilustracao-6-2.png";
@@ -46,7 +47,7 @@ export function KnowledgeSectionVentTransition() {
           style={{ fontSize: `clamp(${calcClamp(36, 128)})` }}
           className='editorial relative z-2'
         >
-          Conhecimento
+          <Trans i18nKey='knowledge.extra.knowledge' />
         </h1>
         <img
           src={nuvens}
