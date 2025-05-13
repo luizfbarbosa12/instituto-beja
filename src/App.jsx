@@ -49,13 +49,13 @@ const App = () => {
 
   return (
     <>
-      <FirstSection />
+      {/* <FirstSection />
       <FounderLetter />
       <FoundLetterToContextTransition />
-      <RebrandingSection />
+      <RebrandingSection /> */}
       <ManifestSection />
       <MissionValueSection />
-      <BejaHouseSection />
+      {/* <BejaHouseSection />
       <ChangeTheorySection />
       <StrategicPillarSection />
       <InteractionEcosystem />
@@ -67,7 +67,7 @@ const App = () => {
       <FinalSection />
       <BalancoTable data={balance} />
       <Expediente />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
