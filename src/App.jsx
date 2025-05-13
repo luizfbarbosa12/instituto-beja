@@ -49,7 +49,7 @@ const App = () => {
 
   return (
     <>
-      <FirstSection />
+      {/* <FirstSection />
       <FounderLetter />
       <FoundLetterToContextTransition />
       <RebrandingSection />
@@ -58,16 +58,16 @@ const App = () => {
       <BejaHouseSection />
       <ChangeTheorySection />
       <StrategicPillarSection />
-      <InteractionEcosystem />
+      <InteractionEcosystem /> */}
       <CMESection />
-      <AdvocacySection />
+      {/* <AdvocacySection />
       <KnowledgeSection />
       <BejaLabs />
       <PhilanthropySection />
       <FinalSection />
       <BalancoTable data={balance} />
       <Expediente />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };

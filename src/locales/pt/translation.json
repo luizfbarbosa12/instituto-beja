@@ -147,5 +147,107 @@
         ]
       }
     }
+  },
+  "cme": {
+    "title": "Centro para Mudanças Exponenciais (CMe)",
+    "p1": " Em 2024, inauguramos o <strong>Centro para Mudanças Exponenciais (CMe)</strong>, uma cocriação brasileira com o <strong>Centre for Exponential Change (C4EC)</strong>. O C4EC é uma rede global de apoio que reacende a imaginação e capacita <strong>Orquestradores de Sistemas</strong>, que catalisam mudanças exponenciais positivas na construção de uma sociedade melhor. Cofundamos o C4EC junto com a <strong> Nilekani Philanthropies (Índia), New Profit (EUA), Skoll Foundation (Global), Waverley Street Foundation (Global) e Yellowwoods (África do Sul). </strong>",
+    "p2": " No Brasil, o CMe atua como um <strong>articulador de ecossistemas</strong>, conectando a sociedade civil, o setor privado e o governo para promover transformações sistêmicas dentro do contexto único do país. A abordagem do CMe valoriza a <strong>ação coletiva</strong>e o uso estratégico de <strong>tecnologias digitais</strong>, que, quando desenhadas com cuidado, segurança e inclusão, podem enfrentar os desafios atuais com velocidade, escala e sustentabilidade.",
+    "p3": " O CMe conta com um comitê multissetorial de embaixadoras e embaixadores, composto por <strong> Jéssica Silva, Cristiano Franco, Luca Cavalcanti, Saulo Barreto, Sheila Pires, Silvana Bahia, Thiago Rached, Cristiane Sultani, Sanjay Purohit e Célia Cruz. </strong>",
+    "list": {
+      "title": "AÇÕES CENTRAIS DO CMe EM 2024",
+      "list": [
+        "Formalizou uma parceria global com o Centre for Exponential Change (C4EC);",
+        "Construiu e lançou o Centro para Mudanças Exponenciais (CMe) em São Paulo, em novembro;",
+        "Realizou diálogos profundos com financiadores e especialistas durante o Filantropando e, posteriormente, no CMe;",
+        "Engajou Orquestradores de Sistemas no Brasil para selecionar as jornadas iniciais do CMe;",
+        "Selecionou o primeiro grupo de Orquestradores de Sistemas e iniciou suas jornadas de mudança exponencial."
+      ]
+    },
+    "strategic": {
+      "initial": "Nossa estratégia",
+      "title": "Rede de Apoio",
+      "p1": "Financiadores | Especialistas em Tecnologia | Colaboradores | Mentores Academia",
+      "p2": "Possibilitar mudança exponencial com Orquestradores de Sistemas usando o Pensamento Societal",
+      "p3": "Criar impacto em escala societal"
+    },
+    "orchestrating": {
+      "title": "Orquestrando o Ecossistema para a Mudança Exponencial",
+      "card1": {
+        "text": "Ampliando os esforços de Orquestradores de Sistemas no Brasil por meio da construção de caminhos que potencializam as forças de diversos atores e colaboradoras locais e globais para enfrentar os desafios sociais do nosso contexto.",
+        "title": "Catalisando efeitos de rede"
+      },
+      "card2": {
+        "text": "No tempo em que vivemos, tecnologias digitais como Bens Públicos Digitais e Infraestruturas Públicas Digitais — em forma de plataformas, protocolos e Inteligência Artificial (IA) — desempenham um papel essencial na geração de impacto em escala. Recursos abertos e compartilhados, como conhecimento, ferramentas, dados e redes, aceleram o desenvolvimento de capacidades e a oferta de serviços eficazes para comunidades vulnerabilizadas e historicamente marginalizadas.",
+        "title": "Alavancando capacidades compartilhadas"
+      },
+      "card3": {
+        "text": "Criando um ambiente em que atores de diferentes setores no Brasil — da sociedade civil, academia e setor público ao setor privado e fundações — possam se reunir para desenvolver soluções escaláveis. Isso se dá por meio da inovação e do uso estratégico das capacidades e recursos já existentes no sistema.",
+        "title": "Cocriando com atores societais"
+      }
+    },
+    "transformationVision": {
+      "title": "Visão de transformação do CMe",
+      "card1": {
+        "title": "NOVOS PARADIGMAS",
+        "text": "Impulsionar, colaborativamente novos modelos mentais de empreendedores exponenciais, fortalecendo e apoiando a viabilidade de suas soluções para problemas sistêmicos, de forma a gerarem impacto exponencial e global."
+      },
+      "card2": {
+        "title": "NETWORK EFFECT",
+        "text": "Entender os atores e as barreiras que precisamos mover para catalisar e fortalecer o ecossistema que destrava a agenda destes empreendedores."
+      },
+      "card3": {
+        "title": "ECOSSISTEMA LOCAL DE IMPACTO (INFRA-ESTRUTURA) COM TECNOLOGIA",
+        "text": "Criar uma infraestrutura ética que siga protocolos responsáveis para apoiar o ecossistema brasileiro (SOs, network, regulação, academia, fundações) a fazer as melhores escolhas em relação às tecnologias, protótipos, financiamento e implementação em larga escala."
+      },
+      "card4": {
+        "title": "ECOSSISTEMA LOCAL DE IMPACTO (INFRA-ESTRUTURA) COM TECNOLOGIA",
+        "text": "Criar uma grande rede colaborativa que responda rapidamente aos grandes problemas sociais e ambientais com soluções que podem ser aceleradas com o uso de tecnologias responsáveis e trocando globalmente."
+      }
+    },
+    "exponentialJourney": {
+      "title": "Jornada Rumo à Mudança Exponencial",
+      "title2": "Jornada de um Orquestrador de sistema",
+      "p1": "No CMe, caminhamos lado a lado com <strong>Orquestradores de Sistemas</strong> para <strong> aprofundar a compreensão de suas grandes missões </strong>, fazendo perguntas e explorando respostas por meio do Modelo de Pensamento Societal, de forma sistemática, para construir redes de adoção e ecossistemas de inovação alavancados por tecnologias digitais de ponta.",
+      "p2": " Juntos, embarcamos em uma jornada para <strong> Aprender, Reimaginar, Projetar, Construir, Validar, Coordenar e Mobilizar </strong> para alcançar escala com agilidade e sustentabilidade.",
+      "extra": {
+        "siteTitle": "Conheça mais sobre o Centro de Mudanças Exponenciais",
+        "siteCallback": "Acessar site Centro de Mudanças Exponenciais"
+      }
+    },
+
+    "systemOrchestrating": {
+      "title": "Orquestradores de Sistema no Brasil",
+      "subtitle": "Os Orquestradores de Sistemas selecionados são:",
+      "p1": "Em 2024, anunciamos três <strong>Orquestradores de Sistemas</strong> com os quais vamos coconstruir jornadas rumo à mudança exponencial. A escolha desses Orquestradores foi recebida com reconhecimento e apoio pelo <strong>Conselho Consultivo Global</strong> do <strong>Centre for Exponential Change</strong>, composto por <strong>Nilekani Philanthropies, Skoll Foundation, Waverley Street Foundation, New Profit</strong> e <strong>Instituto Beja.</strong>",
+      "p2": "Estamos entusiasmados com essas jornadas de aprendizado, reimaginação e design para promover mudanças exponenciais.",
+      "card": {
+        "title": "a",
+        "card1": {
+          "title": "Desenrola e não me enrola",
+          "text": [
+            "<p>Desenvolve jornalismo comunitário e educação antirracista e midiática em favelas e periferias urbanas, para construir ecossistemas informacionais para combater as desigualdades digitais e informacionais.</p>",
+            "<strong>Criado em 2013 por moradores das periferias, seu trabalho descentraliza a produção de conhecimento e impulsiona o engajamento cívico, criando soluções inovadoras para enfrentar a desinformação, segregação digital e exclusão midiática.</strong>",
+            "<p>Ao desenvolver tecnologias escaláveis que possibilitam a educação midiática, oportunidades de emprego e acesso a informações de melhor qualidade, o <strong>Desenrola</strong> exerce um papel vital na promoção de ecossistemas informacionais inclusivos que reduzem desigualdades e fortalecem a democracia.</p>"
+          ]
+        },
+        "card2": {
+          "title": "MapBiomas",
+          "text": [
+            "<p>Revelar as transformações do território brasileiro por meio da ciência, com precisão, agilidade e qualidade, e tornar acessível o conhecimento sobre a cobertura e o uso da terra, para buscar a conservação e o manejo sustentável dos recursos naturais e bloquear financeiramente práticas ilegais de desmatamento e uso ilegal da terra, como forma de combate às mudanças climáticas.</p>",
+            "<strong>Desde 2015, o MapBiomas está transformando a forma de monitorar a cobertura e o uso da terra no Brasil. Com uma rede de ONGs, universidades e startups de tecnologia, utiliza inteligência artificial e processamento em nuvem para gerar dados abertos e atualizados sobre desmatamento, água e incêndios, desde 1985.</strong>",
+            "<p>A plataforma é aberta, escalável e replicável em diferentes países e contextos, permitindo a integração de novos parceiros e a contribuição da comunidade científica. É gerado conhecimento acessível e preciso sobre as transformações do território para impulsionar a conservação, o manejo sustentável dos recursos naturais e o combate às mudanças climáticas.</p>"
+          ]
+        },
+        "card3": {
+          "title": "Serenas",
+          "text": [
+            "<strong>&quot;Como a tecnologia pode nos ajudar a construir um Brasil seguro para mulheres e meninas de forma ética, responsável e efetiva?&quot;</strong>",
+            "<p>Uma jornada que se soma ao trabalho de uma organização que nasceu para que meninas e mulheres possam ser livres, escolher e sonhar sem limites, exercendo seus direitos à dignidade, respeito e igualdade em um mundo sem discriminação.</p>",
+            "<p><strong>A Serenas</strong> é uma organização sem fins lucrativos que, desde 2021, apoia governos na construção e implementação de políticas educacionais de prevenção de violências contra meninas e mulheres, além da qualificação dos serviços públicos para um atendimento humanizado, intersetorial e efetivo a sobreviventes de violência sexual e doméstica.</p>",
+            "<p>Como a <strong>Serenas</strong>, acreditamos que a transformação exige um trabalho profundo de mudança dos valores e normas sociais que sustentam as violências e isso se dá através da educação das novas gerações e daqueles que atuam no atendimento de vítimas, garantindo um atendimento adequado e respeitoso.</p>"
+          ]
+        }
+      }
+    }
   }
 }

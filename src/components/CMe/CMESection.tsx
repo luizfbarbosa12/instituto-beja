@@ -16,6 +16,8 @@ import {
 import { ArrowRightLink } from "../ui/ArrowRightLink.js";
 import { NoticeContainer } from "../ui/NoticeContainer.js";
 import { NoticeColumn } from "../ui/NoticeColumn.js";
+import { Trans } from "react-i18next";
+import console from "console";
 
 const CMESection = () => {
   const targetRef1 = useRef(null);
@@ -90,47 +92,22 @@ const CMESection = () => {
           style={{ fontSize: `clamp(${calcClamp(32, 64)})` }}
           className='text-hot-coral editorial w-full'
         >
-          Centro para Mudanças Exponenciais (CMe)
+          <Trans i18nKey='cme.title' />
         </h1>
 
         <NoticeContainer className='max-w-250 self-end'>
           <NoticeColumn>
             <p>
-              Em 2024, inauguramos o{" "}
-              <strong>Centro para Mudanças Exponenciais (CMe)</strong>, uma
-              cocriação brasileira com o{" "}
-              <strong>Centre for Exponential Change (C4EC)</strong>. O C4EC é
-              uma rede global de apoio que reacende a imaginação e capacita{" "}
-              <strong>Orquestradores de Sistemas</strong>, que catalisam
-              mudanças exponenciais positivas na construção de uma sociedade
-              melhor. Cofundamos o C4EC junto com a{" "}
-              <strong>
-                Nilekani Philanthropies (Índia), New Profit (EUA), Skoll
-                Foundation (Global), Waverley Street Foundation (Global) e
-                Yellowwoods (África do Sul).
-              </strong>
+              <Trans i18nKey='cme.p1' />
             </p>
           </NoticeColumn>
           <NoticeColumn>
             <p>
-              No Brasil, o CMe atua como um{" "}
-              <strong>articulador de ecossistemas</strong>, conectando a
-              sociedade civil, o setor privado e o governo para promover
-              transformações sistêmicas dentro do contexto único do país. A
-              abordagem do CMe valoriza a <strong>ação coletiva</strong>e o uso
-              estratégico de <strong>tecnologias digitais</strong>, que, quando
-              desenhadas com cuidado, segurança e inclusão, podem enfrentar os
-              desafios atuais com velocidade, escala e sustentabilidade.
+              <Trans i18nKey='cme.p2' />
             </p>
 
             <p>
-              O CMe conta com um comitê multissetorial de embaixadoras e
-              embaixadores, composto por{" "}
-              <strong>
-                Jéssica Silva, Cristiano Franco, Luca Cavalcanti, Saulo Barreto,
-                Sheila Pires, Silvana Bahia, Thiago Rached, Cristiane Sultani,
-                Sanjay Purohit e Célia Cruz.
-              </strong>
+              <Trans i18nKey='cme.p3' />
             </p>
           </NoticeColumn>
         </NoticeContainer>
@@ -146,7 +123,7 @@ const CMESection = () => {
                 className='font-bold text-hot-coral'
                 style={{ fontSize: `clamp(${calcClamp(16, 32)})` }}
               >
-                AÇÕES CENTRAIS DO CMe EM 2024
+                <Trans i18nKey='cme.list.title' />
               </h1>
             </div>
 
@@ -178,20 +155,19 @@ const CMESection = () => {
             }}
             className='uppercase absolute -top-9 py-2 px-3 bg-peach font-bold text-hot-coral max-1366:-top-8 max-1080:-top-7 max-768:-top-6 max-640:-top-5'
           >
-            Nossa estratégia
+            <Trans i18nKey='cme.strategic.initial' />
           </p>
 
           <div className='flex flex-col items-center'>
             <p style={{ fontSize: `clamp(${calcClamp(14, 24)})` }}>
-              Rede de Apoio
+              <Trans i18nKey='cme.strategic.title' />
             </p>
 
             <p
               style={{ fontSize: `clamp(${calcClamp(12, 20)})` }}
               className='text-center'
             >
-              Financiadores | Especialistas em Tecnologia | Colaboradores |
-              Mentores Academia
+              <Trans i18nKey='cme.strategic.p1' />
             </p>
           </div>
 
@@ -213,8 +189,7 @@ const CMESection = () => {
             style={{ fontSize: `clamp(${calcClamp(14, 24)})` }}
             className='text-center'
           >
-            Possibilitar mudança exponencial com Orquestradores de Sistemas
-            usando o Pensamento Societal
+            <Trans i18nKey='cme.strategic.p2' />
           </p>
 
           <div ref={targetRef2} className='h-60 relative'>
@@ -235,7 +210,7 @@ const CMESection = () => {
             className='text-center'
             style={{ fontSize: `clamp(${calcClamp(14, 24)})` }}
           >
-            Criar impacto em escala societal
+            <Trans i18nKey='cme.strategic.p3' />
           </p>
         </div>
       </div>
@@ -243,7 +218,7 @@ const CMESection = () => {
       <div className='flex flex-col w-full px-32 max-1280:px-16 max-896:px-8 max-768:px-5'>
         <CMEScrollTriggerList
           arr={AEPIE}
-          title={"Orquestrando o Ecossistema para a Mudança Exponencial"}
+          title={<Trans i18nKey='cme.orchestrating.title' />}
           paddingTop={
             "pt-90 max-1280:pt-80 max-360:pt-60 max-460:pt-55 max-950:pt-60"
           }
@@ -255,7 +230,7 @@ const CMESection = () => {
           style={{ fontSize: `clamp(${calcClamp(24, 48)})` }}
           className={`text-cyan font-bold w-full`}
         >
-          Visão de Transformação do CMe
+          <Trans i18nKey='cme.transformationVision.title' />,
         </h1>
 
         <AnimatedHorizontalScroll map={VTCMEmap} />
@@ -269,8 +244,9 @@ const CMESection = () => {
           }}
           className={`text-cyan font-bold w-full`}
         >
-          Jornada Rumo à Mudança Exponencial
+          <Trans i18nKey='cme.exponentialJourney.title' />,
         </h1>
+
         <div className='flex flex-col gap-30 w-[66rem] max-[1325px]:w-full'>
           <TextBlock
             firstBlock={[
@@ -279,24 +255,11 @@ const CMESection = () => {
                 content: (
                   <>
                     <p>
-                      No CMe, caminhamos lado a lado com{" "}
-                      <strong>Orquestradores de Sistemas</strong> para{" "}
-                      <strong>
-                        aprofundar a compreensão de suas grandes missões
-                      </strong>
-                      , fazendo perguntas e explorando respostas por meio do
-                      Modelo de Pensamento Societal, de forma sistemática, para
-                      construir redes de adoção e ecossistemas de inovação
-                      alavancados por tecnologias digitais de ponta.
+                      <Trans i18nKey='cme.exponentialJourney.p1' />,
                     </p>
 
                     <p>
-                      Juntos, embarcamos em uma jornada para{" "}
-                      <strong>
-                        Aprender, Reimaginar, Projetar, Construir, Validar,
-                        Coordenar e Mobilizar
-                      </strong>{" "}
-                      para alcançar escala com agilidade e sustentabilidade.
+                      <Trans i18nKey='cme.exponentialJourney.p2' />,
                     </p>
                   </>
                 ),
@@ -315,7 +278,7 @@ const CMESection = () => {
                         }}
                         className={`text-cyan font-bold`}
                       >
-                        Conheça mais sobre o Centro de Mudanças Exponenciais
+                        <Trans i18nKey='cme.exponentialJourney.extra.siteTitle' />
                       </h1>
 
                       <ArrowRightLink
@@ -323,7 +286,8 @@ const CMESection = () => {
                           "https://centreforexponentialchange.org/pt-br/brazil/"
                         }
                       >
-                        Acessar site Centro de Mudanças Exponenciais
+                        <Trans i18nKey='cme.exponentialJourney.extra.siteCallback' />
+                        ,
                       </ArrowRightLink>
                     </div>
                   </>
@@ -339,7 +303,7 @@ const CMESection = () => {
           style={{ fontSize: `clamp(${calcClamp(24, 48)})` }}
           className={`text-cyan font-bold w-full`}
         >
-          Jornada de um Orquestrador de Sistemas
+          <Trans i18nKey='cme.exponentialJourney.title2' />
         </h1>
 
         <img src={Images.CME.CMEGrafico} alt='CME Grafico' />
@@ -353,7 +317,7 @@ const CMESection = () => {
           }}
           className={`text-cyan font-bold w-full`}
         >
-          Orquestradores de sistema do Brasil
+          <Trans i18nKey='cme.systemOrchestrating.title' />
         </h1>
 
         <div className='flex justify-between gap-10 max-1080:flex-col'>
@@ -365,22 +329,11 @@ const CMESection = () => {
             className='flex flex-col w-[462px] gap-4 max-1080:w-full'
           >
             <p>
-              Em 2024, anunciamos três{" "}
-              <strong>Orquestradores de Sistemas</strong> com os quais vamos
-              coconstruir jornadas rumo à mudança exponencial. A escolha desses
-              Orquestradores foi recebida com reconhecimento e apoio pelo{" "}
-              <strong>Conselho Consultivo Global</strong> do{" "}
-              <strong>Centre for Exponential Change</strong>, composto por{" "}
-              <strong>
-                Nilekani Philanthropies, Skoll Foundation, Waverley Street
-                Foundation, New Profit
-              </strong>{" "}
-              e <strong>Instituto Beja.</strong>
+              <Trans i18nKey='cme.systemOrchestrating.p1' />
             </p>
 
             <p>
-              Estamos entusiasmados com essas jornadas de aprendizado,
-              reimaginação e design para promover mudanças exponenciais.
+              <Trans i18nKey='cme.systemOrchestrating.p2' />
             </p>
           </div>
 
@@ -389,7 +342,7 @@ const CMESection = () => {
               className='font-bold text-cyan'
               style={{ fontSize: `clamp(${calcClamp(12, 20)})` }}
             >
-              Os Orquestradores de Sistemas selecionados são:
+              <Trans i18nKey='cme.systemOrchestrating.subtitle' />
             </h1>
 
             <div className='flex gap-4 max-768:gap-2'>

@@ -147,5 +147,105 @@
         ]
       }
     }
+  },
+  "cme": {
+    "title": "Centre for Exponential Change (CMe)",
+    "p1": "In 2024, we inaugurated the <strong>Centre for Exponential Change (CMe)</strong>, a Brazilian co-creation with the <strong>Centre for Exponential Change (C4EC)</strong>. C4EC is a global support network that rekindles imagination and empowers <strong>System Orchestrators</strong> who catalyze positive exponential changes toward building a better society. We co-founded C4EC with <strong>Nilekani Philanthropies (India), New Profit (USA), Skoll Foundation (Global), Waverley Street Foundation (Global) and Yellowwoods (South Africa)</strong>.",
+    "p2": "In Brazil, CMe serves as an <strong>ecosystem builder</strong>, connecting civil society, the private sector and government to promote systemic transformations within the country's unique context. CMe's approach values <strong>collective action</strong> and strategic use of <strong>digital technologies</strong> which, when carefully designed with safety and inclusion in mind, can address current challenges with speed, scale and sustainability.",
+    "p3": "CMe has a multi-sectoral committee of ambassadors including <strong>Jéssica Silva, Cristiano Franco, Luca Cavalcanti, Saulo Barreto, Sheila Pires, Silvana Bahia, Thiago Rached, Cristiane Sultani, Sanjay Purohit and Célia Cruz</strong>.",
+    "list": {
+      "title": "CMe'S KEY ACTIONS IN 2024",
+      "list": [
+        "Formalized a global partnership with the Centre for Exponential Change (C4EC);",
+        "Built and launched the Centre for Exponential Change (CMe) in São Paulo in November;",
+        "Held deep dialogues with funders and experts during Filantropando and later at CMe;",
+        "Engaged System Orchestrators in Brazil to select CMe's initial journeys;",
+        "Selected the first group of System Orchestrators and began their exponential change journeys."
+      ]
+    },
+    "strategic": {
+      "initial": "Our Strategy",
+      "title": "Support Network",
+      "p1": "Funders | Technology Experts | Collaborators | Academic Mentors",
+      "p2": "Enable exponential change with System Orchestrators using Societal Thinking",
+      "p3": "Create impact at societal scale"
+    },
+    "orchestrating": {
+      "title": "Orchestrating the Ecosystem for Exponential Change",
+      "card1": {
+        "text": "Expanding the efforts of System Orchestrators in Brazil by building pathways that leverage the strengths of diverse local and global actors and collaborators to address social challenges in our context.",
+        "title": "Catalyzing network effects"
+      },
+      "card2": {
+        "text": "In our current era, digital technologies like Digital Public Goods and Digital Public Infrastructures - in the form of platforms, protocols and Artificial Intelligence (AI) - play an essential role in generating impact at scale. Open and shared resources like knowledge, tools, data and networks accelerate capability development and delivery of effective services to vulnerable and historically marginalized communities.",
+        "title": "Leveraging shared capabilities"
+      },
+      "card3": {
+        "text": "Creating an environment where actors from different sectors in Brazil - from civil society, academia and the public sector to private sector and foundations - can come together to develop scalable solutions. This happens through innovation and strategic use of existing system capabilities and resources.",
+        "title": "Co-creating with societal actors"
+      }
+    },
+    "transformationVision": {
+      "title": "CMe's Transformation Vision",
+      "card1": {
+        "title": "NEW PARADIGMS",
+        "text": "Collaboratively drive new mental models of exponential entrepreneurs, strengthening and supporting the viability of their solutions to systemic problems, to generate exponential and global impact."
+      },
+      "card2": {
+        "title": "NETWORK EFFECT",
+        "text": "Understand the actors and barriers we need to move to catalyze and strengthen the ecosystem that unlocks these entrepreneurs' agenda."
+      },
+      "card3": {
+        "title": "LOCAL IMPACT ECOSYSTEM (INFRASTRUCTURE) WITH TECHNOLOGY",
+        "text": "Create ethical infrastructure following responsible protocols to support the Brazilian ecosystem (SOs, networks, regulation, academia, foundations) in making the best choices regarding technologies, prototypes, funding and large-scale implementation."
+      },
+      "card4": {
+        "title": "GLOBAL COLLABORATIVE ECOSYSTEM",
+        "text": "Create a large collaborative network that responds quickly to major social and environmental problems with solutions that can be accelerated using responsible technologies and global exchange."
+      }
+    },
+    "exponentialJourney": {
+      "title": "Journey Toward Exponential Change",
+      "title2": "Journey of a Systems Orchestrator",
+      "p1": "At CMe, we walk side by side with <strong>System Orchestrators</strong> to <strong>deepen understanding of their grand missions</strong>, asking questions and exploring answers through the Societal Thinking Model, systematically, to build adoption networks and innovation ecosystems powered by cutting-edge digital technologies.",
+      "p2": "Together, we embark on a journey to <strong>Learn, Reimagine, Design, Build, Validate, Coordinate and Mobilize</strong> to achieve scale with agility and sustainability.",
+      "extra": {
+        "siteTitle": "Learn more about the Centre for Exponential Change",
+        "siteCallback": "Visit Centre for Exponential Change website"
+      }
+    },
+    "systemOrchestrating": {
+      "title": "System Orchestrators in Brazil",
+      "subtitle": "The selected System Orchestrators are:",
+      "p1": "In 2024, we announced three <strong>System Orchestrators</strong> with whom we will co-build journeys toward exponential change. The selection of these Orchestrators was received with recognition and support by the <strong>Global Advisory Council</strong> of the <strong>Centre for Exponential Change</strong>, composed of <strong>Nilekani Philanthropies, Skoll Foundation, Waverley Street Foundation, New Profit</strong> and <strong>Instituto Beja</strong>.",
+      "p2": "We are excited about these journeys of learning, reimagining and designing to promote exponential change.",
+      "cards": {
+        "card1": {
+          "title": "Desenrola e não me enrola",
+          "text": [
+            "<p>Develops community journalism and anti-racist media education in favelas and urban peripheries to build information ecosystems that combat digital and information inequalities.</p>",
+            "<strong>Created in 2013 by residents of the peripheries, their work decentralizes knowledge production and drives civic engagement, creating innovative solutions to confront disinformation, digital segregation and media exclusion.</strong>",
+            "<p>By developing scalable technologies that enable media education, employment opportunities and access to better quality information, <strong>Desenrola</strong> plays a vital role in promoting inclusive information ecosystems that reduce inequalities and strengthen democracy.</p>"
+          ]
+        },
+        "card2": {
+          "title": "MapBiomas",
+          "text": [
+            "<p>Reveals transformations of Brazilian territory through science with precision, speed and quality, making knowledge about land cover and land use accessible to pursue conservation and sustainable management of natural resources and financially block illegal deforestation and land use practices as climate change combat.</p>",
+            "<strong>Since 2015, MapBiomas has been transforming how we monitor land cover and use in Brazil. With a network of NGOs, universities and tech startups, it uses artificial intelligence and cloud processing to generate open, updated data on deforestation, water and fires since 1985.</strong>",
+            "<p>The platform is open, scalable and replicable in different countries and contexts, allowing integration of new partners and scientific community contributions. It generates accessible, accurate knowledge about territorial transformations to drive conservation, sustainable natural resource management and climate change combat.</p>"
+          ]
+        },
+        "card3": {
+          "title": "Serenas",
+          "text": [
+            "<strong>\"How can technology help us build a Brazil that's safe for women and girls in an ethical, responsible and effective way?\"</strong>",
+            "<p>A journey that complements the work of an organization born so girls and women can be free, choose and dream without limits, exercising their rights to dignity, respect and equality in a discrimination-free world.</p>",
+            "<p><strong>Serenas</strong> is a nonprofit that since 2021 has supported governments in building and implementing educational policies to prevent violence against girls and women, plus qualifying public services for humanized, intersectoral and effective care for survivors of sexual and domestic violence.</p>",
+            "<p>Like <strong>Serenas</strong>, we believe transformation requires deep work changing values and social norms that sustain violence through educating new generations and those working with victims, ensuring adequate, respectful care.</p>"
+          ]
+        }
+      }
+    }
   }
 }

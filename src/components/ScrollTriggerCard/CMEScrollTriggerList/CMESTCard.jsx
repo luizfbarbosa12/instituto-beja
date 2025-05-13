@@ -65,9 +65,14 @@ const CMESTCard = ({
                 }}
               >
                 {Array.isArray(data.text) ? (
-                  data.text.map((item, index) => <div key={index}>{item}</div>)
+                  data.text.map((item, index) => (
+                    <div
+                      key={index}
+                      dangerouslySetInnerHTML={{ __html: item }}
+                    />
+                  ))
                 ) : (
-                  <div>{data.text}</div>
+                  <div dangerouslySetInnerHTML={{ __html: data.text }} />
                 )}
               </div>
 
