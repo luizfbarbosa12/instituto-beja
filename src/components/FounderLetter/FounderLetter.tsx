@@ -232,8 +232,8 @@ const FounderLetter = () => {
               {t("letter.title")}
             </h1>
             <div className='letter-text text-sm leading-[160%] tablet:text-base flex flex-col gap-8 tablet:w-2/3 not-tablet:pb-50'>
-              {paragraphs.map((text) => (
-                <p>{text}</p>
+              {paragraphs.map((text, index) => (
+                <p key={index}>{text}</p>
               ))}
               <p className='flex flex-col'>
                 {t("letter.signature")}
