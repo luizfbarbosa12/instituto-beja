@@ -67,5 +67,19 @@
   "manifest": {
     "title": "Manifesto Beja",
     "text": " Para mudar o mundo, é preciso vontade.<br />Recursos. Questionamentos.<br />E quem junte tudo isso.<br />Mas vá além: escute. <br />Troque. Evolua. Inove.<br />Traga um ar diferente para o sistema.<br />Ajude ele a respirar.<br />Que não se conforme.<br />Veja além do status quo.<br />Tenha liberdade e segurança <br />para trazer um novo ponto de vista.<br />Não tenha amarras.<br />E amarre as pontas soltas.<br />Junte quem quer fazer, quem tem recurso,<br />quem tem críticas e oxigena tudo, <br />para que a solução conjunta possa florescer.<br />Que seja o agente da renovação.<br />Aprendamos todos com a natureza: <br />nada cresce sem O2.<br />A vida precisa de ar.<br />E a filantropia, de novos ares.<br />Para isso nasceu o Beja: <br />articular novas possibilidades para a filantropia, <br /> oxigenando processos, espaços e relações. <br /> <br />Beja. Oxigenando a filantropia desde 2021."
+  },
+  "missionValue": {
+    "card1": {
+      "title": "Missão",
+      "text": "Se tornar um Instituto de referência no ecossistema de filantropia, reconhecido por realizar, inspirar e catalisar uma filantropia inovadora, colaborativa e eficaz para destravar alavancas potencializadoras, trazendo impacto real em problemas sistêmicos."
+    },
+    "card2": {
+      "title": "Visão",
+      "text": "Promover o impacto positivo no campo da filantropia fomentando a inovação, colaboração, eficácia e engajamento da sociedade civil, do setor privado e do governo para resolução de problemas sistêmicos."
+    },
+    "card3": {
+      "title": "Valores",
+      "text": "O respeito, a escuta, a empatia, o pertencimento, o acolhimento, a resiliência, a responsabilidade, o sonho, o afeto, a curiosidade e a inovação, atuando em todas essas frentes, interseccionadas com o protagonismo pessoal, mediante o desenvolvimento de autoconsciência e autoconfiança."
+    }
   }
 }

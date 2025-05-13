@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import MVCard from "./MVCard";
 import Wrapper from "../ui/Wrapper";
+import { Trans } from "react-i18next";
 
 const Clouds = "/assets/ilustracao-nuvens.png";
 const Mountains = "/assets/Ilustracao-1.webp";
@@ -21,18 +22,17 @@ const MissionValueSection = () => {
               repeatType: "reverse",
               ease: "easeInOut",
             }}
+            className='z-10'
           >
             <MVCard
-              title={"Missão"}
-              text={
-                "Se tornar um Instituto de referência no ecossistema de filantropia, reconhecido por realizar, inspirar e catalisar uma filantropia inovadora, colaborativa e eficaz para destravar alavancas potencializadoras, trazendo impacto real em problemas sistêmicos."
-              }
+              title={<Trans i18nKey='missionValue.card1.title' />}
+              text={<Trans i18nKey='missionValue.card1.text' />}
             />
           </motion.div>
 
           <div className='flex justify-end'>
             <motion.div
-            className='pl-24 tablet:pl-64 z-20'
+              className='pl-24 tablet:pl-64 z-20'
               animate={{ y: [0, 8, 0] }}
               transition={{
                 duration: 4,
@@ -42,10 +42,8 @@ const MissionValueSection = () => {
               }}
             >
               <MVCard
-                title={"Visão"}
-                text={
-                  "Promover o impacto positivo no campo da filantropia fomentando a inovação, colaboração, eficácia e engajamento da sociedade civil, do setor privado e do governo para resolução de problemas sistêmicos."
-                }
+                title={<Trans i18nKey='missionValue.card2.title' />}
+                text={<Trans i18nKey='missionValue.card2.text' />}
               />
             </motion.div>
           </div>
@@ -65,12 +63,11 @@ const MissionValueSection = () => {
                 repeatType: "reverse",
                 ease: "easeInOut",
               }}
+              className='z-10'
             >
               <MVCard
-                title={"Valores"}
-                text={
-                  "O respeito, a escuta, a empatia, o pertencimento, o acolhimento, a resiliência, a responsabilidade, o sonho, o afeto, a curiosidade e a inovação, atuando em todas essas frentes, interseccionadas com o protagonismo pessoal, mediante o desenvolvimento de autoconsciência e autoconfiança."
-                }
+                title={<Trans i18nKey='missionValue.card3.title' />}
+                text={<Trans i18nKey='missionValue.card3.text' />}
               />
             </motion.div>
           </div>

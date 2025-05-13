@@ -67,5 +67,19 @@
   "manifest": {
     "title": "Beja Manifest",
     "text": " To change the world, you need will. <br /> Resources. Questions. <br /> And someone to put it all together. <br /> But go further: listen. Exchange. <br /> Evolve. Innovate. <br /> Bring a different kind of air into the system. <br /> Help it breathe. <br /> Don't let it conform. <br /> See beyond the status quo. <br /> Have the freedom and security to <br /> bring a new point of view. <br /> Don't be tied down. <br /> And tie up loose ends. <br /> Bring together those who want to do it, <br /> those who have resources, those who have criticisms and <br /> oxygenate everything so that the joint solution can flourish. <br /> Let it be the agent of renewal. <br /> Let's all learn from nature:  <br /> nothing grows without O2. <br /> Life needs air. <br /> And philanthropy needs fresh air. <br /> That's why Beja was born: <br /> articulate new possibilities for philanthropy <br /> oxygenating processes, spaces and relationships.<br /> <br />Beja. Oxygenating philanthropy since 2021."
+  },
+  "missionValue": {
+    "card1": {
+      "title": "Mission",
+      "text": "To promote positive impact in the field of philanthropy by fostering innovation, collaboration, effectiveness and engaging civil society, the private sector and government to solve systemic issues."
+    },
+    "card2": {
+      "title": "Vision",
+      "text": "To become a reference in the philanthropy ecosystem, recognized for conducting, inspiring and catalyzing innovative, collaborative and effective philanthropy to unlock empowering leverages, bringing real impact to systemic problems."
+    },
+    "card3": {
+      "title": "Values",
+      "text": "Respect, listening, empathy, belonging, receptiveness, resilience, responsibility, dreams, affection, curiosity and innovation, acting on all these fronts, intersected with personal protagonism, through the development of self-awareness and self-confidence."
+    }
   }
 }
