@@ -50,7 +50,7 @@ const App = () => {
   return (
     <>
       <FirstSection />
-      {/* <FounderLetter />
+      <FounderLetter />
       <FoundLetterToContextTransition />
       <RebrandingSection />
       <ManifestSection />
@@ -60,14 +60,14 @@ const App = () => {
       <StrategicPillarSection />
       <InteractionEcosystem />
       <CMESection />
-      <AdvocacySection /> */}
+      <AdvocacySection />
       <KnowledgeSection />
-      {/* <BejaLabs />
+      <BejaLabs />
       <PhilanthropySection />
       <FinalSection />
       <BalancoTable data={balance} />
       <Expediente />
-      <Footer /> */}
+      <Footer />
     </>
   );
 };
