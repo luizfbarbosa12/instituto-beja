@@ -88,5 +88,24 @@
     "p2": "It is with great honor that we have incubated the Brazil hub of the <strong>Center for Exponential Change</strong>, reaffirming our commitment to innovation and social impact. This space is a point of convergence between civil society, the private sector and government, joining forces to create collaborations that drive solutions and transform social realities in an effective and inclusive way.",
     "p3": "<strong>Casa Beja</strong> symbolizes <strong>movement, relationships and articulation</strong> - reflecting the essence of our logo, which illustrates the constant dynamic between pillars and the search for balance in human relationships.",
     "final": "Welcome to Casa Beja!"
+  },
+  "changeTheory": {
+    "title": "Evolution of the Theory of Change",
+    "block": {
+      "block1": {
+        "p1": "To make our proposal to influence the field of philanthropy more tangible, we have focused our efforts on a few priority areas, with a view to generating innovations and maximizing impacts. By defining the focus areas, we reaffirm the Institute's calling and highlight the permeability of these agendas as a powerful stimulus to shift the status quo.",
+        "p2": "As our process of evolution unfolds, we want to make this permeability stimulating, visible and applicable, so that priority areas can demonstrate their potential for transformation, without the need for dispute or mediation."
+      }
+    },
+    "quotes": {
+      "quote1": {
+        "cite": "Cristiane Sultani, Founder and President",
+        "text": "\"Philanthropic capital is risk capital. Beja takes big risks for the sake of learning. Because without experimentation there is no innovation.\""
+      }
+    },
+    "extra": {
+      "siteTitle": "The complete vision of our Theory of Change study has been summarized here and can be consulted in greater detail in the previous report:",
+      "siteCallback": "Access the 2023 Annual Report"
+    }
   }
 }

@@ -88,5 +88,24 @@
     "p2": "Com grande honra, incubamos o hub Brasil do <strong>Centro para Mudanças Exponenciais</strong>, reafirmando nosso compromisso com a inovação e com o impacto social. Este espaço é ponto de convergência entre sociedade civil, setor privado e governo, unindo forças para criar colaborações que impulsionam soluções e transformam realidades sociais de maneira eficaz e inclusiva.",
     "p3": "<strong>A Casa Beja</strong> simboliza <strong>movimento, relações e articulação -</strong> refletindo a essência do nosso logo, que ilustra a dinâmica constante entre pilares e a busca por equilíbrio nas relações humanas.",
     "final": "Bem-vindo(a) à Casa Beja!"
+  },
+  "changeTheory": {
+    "title": "Evolução da Teoria da Mudança",
+    "block": {
+      "block1": {
+        "p1": "Para tangibilizar nossa proposta de influenciar o campo da filantropia, direcionamos esforços a alguns temas prioritários, com vistas a gerar inovações e maximizar impactos. Ao definir as áreas focais, reafirmamos a vocação do Instituto e destacamos a permeabilidade dessas pautas como poderoso estímulo para deslocar o status quo.",
+        "p2": "À medida que nosso processo de evolução se desenha, desejamos tornar essa permeabilidade estimulante, visível e aplicável, para que seja possível às temáticas prioritárias demonstrarem seus potenciais de transformação, sem necessidade de disputa ou mediação."
+      }
+    },
+    "quotes": {
+      "quote1": {
+        "cite": "Cristiane Sultani, Fundadora e Presidente",
+        "text": "O capital filantrópico é um capital de risco. O Beja toma grandes riscos em prol da aprendizagem. Pois sem experimentação não há inovação."
+      }
+    },
+    "extra": {
+      "siteTitle": "A visão completa do estudo de nossa Teoria de Mudança foi resumida aqui e pode ser consultada com maiores detalhes no relatório anterior:",
+      "siteCallback": "Acessar o Relatório Anual de 2023"
+    }
   }
 }

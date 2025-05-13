@@ -54,8 +54,8 @@ const App = () => {
       <FoundLetterToContextTransition />
       <RebrandingSection />
       <ManifestSection />
-      <MissionValueSection /> */}
-      <BejaHouseSection />
+      <MissionValueSection />
+      <BejaHouseSection /> */}
       <ChangeTheorySection />
       <StrategicPillarSection />
       <InteractionEcosystem />
