@@ -37,7 +37,7 @@ const FirstSection = () => {
           onClick={() =>
             i18n.changeLanguage(i18n.language === "en" ? "pt" : "en")
           }
-          className='fixed top-4 right-4 size-10 bg-rose rounded-full flex-center flex-col gap-1 font-bold'
+          className='size-10 bg-rose rounded-full flex-center flex-col gap-1 font-bold'
         >
           {i18n.language === "en" ? "EN" : "PT"}
         </button>

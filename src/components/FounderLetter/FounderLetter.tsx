@@ -13,8 +13,6 @@ const FounderLetter = () => {
     returnObjects: true,
   }) as string[];
 
-  console.log(paragraphs);
-
   useGSAP(
     () => {
       const matchMedia = gsap.matchMedia(letterContainerRef);
