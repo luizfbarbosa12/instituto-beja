@@ -8,6 +8,8 @@
   },
   "letter": {
     "title": "Letter from the Founder",
+    "cloudsAlt": "image of golden clouds in the background",
+    "since": "Since 2021",
     "paragraphs": [
       "We are living through a time of profound generational transition that is not only human but also planetary. The daily news about conflicts consumes and affects us. We already know that despite the many steps taken, we still need to do our homework on issues such as racial justice, the path of no return in technological advances, the weakening of democracy, and the urgent need for climate adaptation for our mere survival. Even so, we have been slow to change course and, I would venture to say, often even passive.",
       "The formula is not complex: what is in place no longer works; we are not achieving our goals and inequality is only growing. The oft-cited polycrisis is sweeping over us and demands that we use our polycapital. But more than that, it demands that our polycapital be available to the collective.",
@@ -18,7 +20,34 @@
       "This report is fresh out of the oven because we cooperated. And that's music to our ears. I hope you receive it with an open mind and heart. This report can and should be interpreted as an invitation to change the direction of our deliveries together, with an integrated and consolidated vision of our territorial and global context.",
       "All of our peers can participate in our Labs and in the Center for Exponential Change (CMe), explained individually throughout this document, in a wide variety of ways. The Casa Beja in Rio and São Paulo also have their doors open to each of these collaborative experiences."
     ],
-    "assign": "With gratitude,",
-    "author": "Cristiane Sultani"
+    "signature": "With gratitude,",
+    "author": "Cristiane Sultani",
+    "logoAlt": "Beja Logo",
+    "bikeAlt": "person riding a gold bike"
+  },
+  "context": {
+    "invite": [
+      "In this annual report,",
+      "we invite you to explore",
+      "the Beja Institute's actions in 2024."
+    ],
+    "title": "Context",
+    "subtitle": "This document synthesizes the research, interactions, discoveries and collective reflections over these three years that inspired us on a daily basis to challenge outdated models in order to practice a philanthropy that we like to call “oxygenated”.",
+    "block1": [
+      "In 2024, Beja dedicated itself to deeply understanding the precepts and processes that revitalize the soil on which the philanthropy sector is founded and reinvents itself. The year was marked by the need for agility and objectivity in our adaptability and actions in the face of the demands of social responsibility. We implemented the evolution of the Theory of Change, revised in 2023, taking on the risks and challenges necessary to reshape our practices in an environment where curiosity, empathy, transparency and responsibility remain fundamental values of our governance.",
+      "True to its mission of rethinking paradigms in philanthropy, Beja has continued to promote meetings, dialogues and researches, using increasingly more sophisticated tools to prototype new visions and practices. This commitment to innovation has led to significant advances in the way the Institute builds knowledge and influence in the sector.",
+      "In this context of evolution and growth, one of the major transformations was the adoption of a new, more participative and plural governance model, replacing the figure of a vertical Executive Director with a horizontal Executive Committee. In this case, the Committee was formed by professionals from different professional fields, both internal and external. This group is committed to tackling systemic challenges, reinforcing the values of innovation and collaboration that define the Beja Institute, together with the President of our Administrative Council, who also has a seat.",
+      "The continuous strategic update process has been driven by the founder's own ability to articulate joint actions, expanding the reach and influence of the initiatives supported. As a result, many processes have been catalyzed and impacts potentialized, accelerating systemic changes and strengthening a relevant agenda of social innovation."
+    ],
+    "block2": [
+      "In addition to this structural change, another fundamental advance was the deepening of the polycapital approach of the entire Executive Committee and of the team itself. Made up of different forms of capital - financial, social, intellectual, business and political - polycapital can be leveraged through the use of empathy and listening, which are two of Beja's other vital values, to strengthen the sustainability and autonomy of the initiatives supported. Deeply understanding the demands of our partners is one of our main funding mechanisms, which allows us to apply these varied resources in the best possible way.",
+      "Based on these experiences and learnings, Beja structured its work around three interconnected pillars, which operate in synergy, allowing the knowledge generated, the links made and the practical experiences to feed back into each other. This integrated approach strengthened our continuous learning and deepened the impact of our actions, further consolidating the Institute's work.",
+      "Institutional development has also been reflected in the establishment of new partnerships and the expansion of our connections with the Global South, based on trust, commitment and collaboration.",
+      "This network strengthens long-lasting initiatives, promoting a continuous cycle of experience-sharing, which is essential for sustaining Beja's growth and relevance in the philanthropic landscape.",
+      "As a reflection of this evolution, our manifesto, now consolidated and displayed at the entry to Casa Beja in São Paulo, expresses the Institute's objectives and invites us to reimagine philanthropy, promoting the changes we want to see in the world, starting with ourselves. In step with this reimagining, we developed a new visual identity, which symbolizes the engagement of civil society, the private sector and the government, as well as the desire for constant and dynamic movement, attentive to transformations in the social field.",
+      "Beja's new configuration has demonstrated the natural evolution of a young organization that is already recognized for its ability to drive significant transformations. With only three years of existence, Beja is recognized for its position as an articulator and catalyst for change, deepening dialogues and strategic partnerships with players in the philanthropic ecosystem.",
+      "<strong>What remains unchanged is the core purpose that gave rise to Beja: to contribute to a fairer and more equitable society through the strategic and efficient use of philanthropic resources, always aiming for a multiplicative effect</strong>. This commitment continues to guide our every step, now bolstered by a more robust structure and an even clearer vision of how to generate systemic impact.",
+      "We invite you to explore this fertile soil, full of renewed ideas and strategies. We hope this report will inspire you to new heights."
+    ]
   }
 }
