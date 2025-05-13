@@ -107,5 +107,45 @@
       "siteTitle": "A visão completa do estudo de nossa Teoria de Mudança foi resumida aqui e pode ser consultada com maiores detalhes no relatório anterior:",
       "siteCallback": "Acessar o Relatório Anual de 2023"
     }
+  },
+  "strategicPillar": {
+    "title": "Pilares Estratégicos",
+    "p1": "Nossos três pilares estratégicos – <strong>Advocacy, Conhecimento e Laboratórios</strong> – são as forças motrizes que orientaram nossas ações ao longo de 2024. Funcionaram como lentes de estudos, práticas e experimentações, sustentando as reflexões do Beja sobre os modos de fazer diferente. Sem restringir abordagens, esses pilares condensam instrumentos para nossos exercícios de ação e inovação.",
+    "card": {
+      "card1": {
+        "title": "Advocacy",
+        "subtitle": "Advocacy e engajamento de atores por mudanças sistêmicas na filantropia",
+        "text": "A estratégia de advocacy busca impulsionar mudanças sistêmicas na filantropia por meio da mobilização e articulação de diferentes atores do ecossistema. Para isso, combinamos apoio e coordenação de iniciativas de advocacy com ações estratégicas de engajamento da sociedade civil. Além disso, promovemos espaços de troca e colaboração que fortalecem a atuação conjunta, incentivando a construção de soluções coletivas para desafios estruturais do setor.",
+        "list": [
+          "Apoio e coordenação de ações de advocacy",
+          "Eventos e ações de engajamento de stakeholders e sociedade civil",
+          "Articulação de atores do ecossistema para atuação conjunto"
+        ]
+      },
+      "card2": {
+        "title": "Conhecimento",
+        "subtitle": "Área de estudos, capacitação e discussões sobre Filantropia",
+        "text": "Promover conhecimento, capacitação e novas reflexões é um caminho essencial para entender o panorama de informações e pesquisas, tanto em âmbito nacional quanto internacional. Isso inclui a sistematização de dados existentes e o financiamento de novos estudos necessários ao ecossistema. Além disso, fomentar debates entre as lideranças do setor, facilitando a concepção de novos projetos e parcerias com entidades e instituições brasileiras e estrangeiras para criar jornadas filantrópicas.",
+        "list": [
+          "Desenvolvimento e financiamento de estudos e pesquisas",
+          "Organização e gestão de informações",
+          "Promoção de debates e troca de conhecimento",
+          "Aprendizagem"
+        ]
+      },
+      "card3": {
+        "title": "Beja Labs / Laboratórios",
+        "subtitle": "Incubadora de projetos filantrópicos e de impacto escaláveis, replicáveis e mensuráveis",
+        "text": "O objetivo deste pilar dedicado à experimentação conjunta, é desenvolver e apoiar projetos filantrópicos com múltiplos atores e seus diferentes policapitais, voltados a promover transformações profundas e relevantes no Brasil. Essa atuação é viabilizada pelo suporte à medição de impacto, pela sistematização de práticas que possibilitam a replicação de iniciativas bem-sucedidas e pela incorporação de novas tecnologias para ampliar a escala das ações. As experiências e aprendizados decorrentes desses laboratórios também devem contribuir para discussões e pesquisas relativos ao pilar de conhecimento, além de oferecer subsídios a pleitos do pilar de advocacy.",
+        "list": [
+          "Ambiente de colaboração e aprendizagem",
+          "Acelerar, medir e escalar modelos",
+          "Testar hipóteses e desenvolver protótipos e metodologias",
+          "Desenhar percursos de transformação",
+          "Prototipar novas tecnologias sociais",
+          "Oferta de soluções para receberem investimentos e serem multiplicada"
+        ]
+      }
+    }
   }
 }

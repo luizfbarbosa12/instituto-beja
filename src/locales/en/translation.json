@@ -107,5 +107,45 @@
       "siteTitle": "The complete vision of our Theory of Change study has been summarized here and can be consulted in greater detail in the previous report:",
       "siteCallback": "Access the 2023 Annual Report"
     }
+  },
+  "strategicPillar": {
+    "title": "Strategic Pillars",
+    "p1": "Our three strategic pillars - <strong>Advocacy, Knowledge and Laboratories</strong> - are the driving forces behind our actions throughout 2024. They have acted as lenses for studies, practices and experiments, underpinning Beja's reflections on ways of doing things differently. Without restricting approaches, these pillars condense instruments for our action and innovation exercises.",
+    "card": {
+      "card1": {
+        "title": "Advocacy",
+        "subtitle": "Advocacy and stakeholder engagement for systemic change in philanthropy",
+        "text": "Our advocacy strategy seeks to drive systemic changes in philanthropy by mobilizing and articulating different actors in the ecosystem. To this end, we combine support and coordination of advocacy initiatives with strategic actions to engage civil society. In addition, we promote spaces for exchange and collaboration that strengthen joint action, encouraging the construction of collective solutions to the sector's structural challenges.",
+        "list": [
+          "Support and coordination of advocacy actions",
+          "Events and actions to engage stakeholders and civil society",
+          "Articulation of actors in the ecosystem for joint action"
+        ]
+      },
+      "card2": {
+        "title": "Knowledge",
+        "subtitle": "Area for study, training and discussions on Philanthropy",
+        "text": "Promoting knowledge, training and new thinking is an essential way of understanding the panorama of information and research, both on a national and international level. This includes systematizing existing data and funding new studies needed by the ecosystem. In addition, fostering debates among the sector's leaders, facilitating the conceptualization of new projects and partnerships with entities and institutions both in Brazil and abroad to create philanthropic journeys.",
+        "list": [
+          "Development and financing of studies and research",
+          "Organization and management of information",
+          "Promotion of debates and knowledge exchange",
+          "Learning"
+        ]
+      },
+      "card3": {
+        "title": "Beja Labs / Laboratories",
+        "subtitle": "Incubator of scalable, replicable and measurable philanthropic and impact projects",
+        "text": "The aim of this pillar, dedicated to joint experimentation, is to develop and support philanthropic projects with multiple actors and their different polycapitals, aimed at promoting profound and relevant transformations in Brazil. This approach is made possible by support for impact measurement, the systematization of practices that make it possible to replicate successful initiatives and the incorporation of new technologies to expand the scale of actions. The experiences and lessons learned from these laboratories should also contribute to discussions and research related to the knowledge pillar, as well as providing subsidy for requests from the advocacy pillar.",
+        "list": [
+          "Environment for collaboration and learning",
+          "Accelerate, measure and scale models",
+          "Test hypothesis and develop prototypes and methodologies",
+          "Design transformation pathways",
+          "Prototype new social technologies",
+          "Offer solutions to receive investments and be multiplied"
+        ]
+      }
+    }
   }
 }

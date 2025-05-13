@@ -55,8 +55,8 @@ const App = () => {
       <RebrandingSection />
       <ManifestSection />
       <MissionValueSection />
-      <BejaHouseSection /> */}
-      <ChangeTheorySection />
+      <BejaHouseSection />
+      <ChangeTheorySection /> */}
       <StrategicPillarSection />
       <InteractionEcosystem />
       <CMESection />
