@@ -49,14 +49,14 @@ const App = () => {
 
   return (
     <>
-      {/* <FirstSection />
+      <FirstSection />
       <FounderLetter />
       <FoundLetterToContextTransition />
       <RebrandingSection />
       <ManifestSection />
       <MissionValueSection />
       <BejaHouseSection />
-      <ChangeTheorySection /> */}
+      <ChangeTheorySection />
       <StrategicPillarSection />
       <InteractionEcosystem />
       <CMESection />
