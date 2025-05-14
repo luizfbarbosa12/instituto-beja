@@ -208,7 +208,7 @@ const AnimatedLetter = ({ text }) => {
           </p>
         </div>
 
-        <div className='letter-text text-sm leading-[160%] flex flex-col gap-8  w-[70%] max-768:w-full'>
+        <div className='letter-text text-sm leading-[160%] flex flex-col gap-8 w-[70%] max-768:w-full'>
           {text.map((item, index) => (
             <p
               style={{

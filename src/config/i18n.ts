@@ -5,7 +5,8 @@ import advocacyPT from "../locales/pt/advocacy.json";
 import advocacyEN from "../locales/en/advocacy.json";
 import translationPT from "../locales/pt/translation.json";
 import translationEN from "../locales/en/translation.json";
-
+import bejaLabsPT from "../locales/pt/bejaLabs.json";
+import bejaLabsEN from "../locales/en/bejaLabs.json";
 import knowledgePT from "../locales/pt/knowledge.json";
 import knowledgeEN from "../locales/en/knowledge.json";
 
@@ -13,12 +14,14 @@ const pt = {
   ...translationPT,
   ...advocacyPT,
   ...knowledgePT,
+  ...bejaLabsPT,
 };
 
 const en = {
   ...translationEN,
   ...advocacyEN,
   ...knowledgeEN,
+  ...bejaLabsEN,
 };
 
 i18n.use(initReactI18next).init({

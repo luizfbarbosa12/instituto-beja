@@ -180,6 +180,7 @@
     }
   },
   "cme": {
+    "asset": "",
     "title": "Centre for Exponential Change (CMe)",
     "p1": "In 2024, we inaugurated the <strong>Centre for Exponential Change (CMe)</strong>, a Brazilian co-creation with the <strong>Centre for Exponential Change (C4EC)</strong>. C4EC is a global support network that rekindles imagination and empowers <strong>System Orchestrators</strong> who catalyze positive exponential changes toward building a better society. We co-founded C4EC with <strong>Nilekani Philanthropies (India), New Profit (USA), Skoll Foundation (Global), Waverley Street Foundation (Global) and Yellowwoods (South Africa)</strong>.",
     "p2": "In Brazil, CMe serves as an <strong>ecosystem builder</strong>, connecting civil society, the private sector and government to promote systemic transformations within the country's unique context. CMe's approach values <strong>collective action</strong> and strategic use of <strong>digital technologies</strong> which, when carefully designed with safety and inclusion in mind, can address current challenges with speed, scale and sustainability.",
@@ -204,16 +205,22 @@
     "orchestrating": {
       "title": "Orchestrating the Ecosystem for Exponential Change",
       "card1": {
-        "text": "Expanding the efforts of System Orchestrators in Brazil by building pathways that leverage the strengths of diverse local and global actors and collaborators to address social challenges in our context.",
-        "title": "Catalyzing network effects"
+        "title": "Catalyzing network effects",
+        "text": [
+          "<p>Expanding the efforts of System Orchestrators in Brazil by building pathways that leverage the strengths of diverse local and global actors and collaborators to address social challenges in our context.</p>"
+        ]
       },
       "card2": {
-        "text": "In our current era, digital technologies like Digital Public Goods and Digital Public Infrastructures - in the form of platforms, protocols and Artificial Intelligence (AI) - play an essential role in generating impact at scale. Open and shared resources like knowledge, tools, data and networks accelerate capability development and delivery of effective services to vulnerable and historically marginalized communities.",
-        "title": "Leveraging shared capabilities"
+        "title": "Leveraging shared capabilities",
+        "text": [
+          "<p>In our current era, digital technologies like Digital Public Goods and Digital Public Infrastructures - in the form of platforms, protocols and Artificial Intelligence (AI) - play an essential role in generating impact at scale. Open and shared resources like knowledge, tools, data and networks accelerate capability development and delivery of effective services to vulnerable and historically marginalized communities.</p>"
+        ]
       },
       "card3": {
-        "text": "Creating an environment where actors from different sectors in Brazil - from civil society, academia and the public sector to private sector and foundations - can come together to develop scalable solutions. This happens through innovation and strategic use of existing system capabilities and resources.",
-        "title": "Co-creating with societal actors"
+        "title": "Co-creating with societal actors",
+        "text": [
+          "<p>Creating an environment where actors from different sectors in Brazil - from civil society, academia and the public sector to private sector and foundations - can come together to develop scalable solutions. This happens through innovation and strategic use of existing system capabilities and resources.</p>"
+        ]
       }
     },
     "transformationVision": {

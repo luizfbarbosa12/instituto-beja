@@ -1,9 +1,7 @@
-/* eslint-disable react/jsx-key */
 import { Trans } from "react-i18next";
 import { Images } from "../assets/Index";
 import { t } from "i18next";
-import { text } from "stream/consumers";
-import { title } from "process";
+
 const MapBiomasLogo = "/assets/MapBiomas.svg";
 const SerenasLogo = "/assets/SerenasLogo.svg";
 const DesenrolaLogo = "/assets/DesenrolaLogo.svg";
@@ -11,30 +9,30 @@ const DesenrolaLogo = "/assets/DesenrolaLogo.svg";
 export const AEPIE = [
   {
     bgColor: "bg-white",
-    text: <Trans i18nKey='cme.orchestrating.card1.text' />,
+    text: t("cme.orchestrating.card1.text", {
+      returnObjects: true,
+    }),
     img: Images.CME.CmeMiniWheel1,
-    title: {
-      color: "text-cyan",
-      name: <Trans i18nKey='cme.orchestrating.card1.title' />,
-    },
+    titleColor: "text-cyan",
+    titleName: <Trans i18nKey='cme.orchestrating.card1.title' />,
   },
   {
     bgColor: "bg-[#FFECFD]",
-    text: <Trans i18nKey='cme.orchestrating.card2.text' />,
+    text: t("cme.orchestrating.card2.text", {
+      returnObjects: true,
+    }),
     img: Images.CME.CmeMiniWheel2,
-    title: {
-      color: "text-[#E679E0]",
-      name: <Trans i18nKey='cme.orchestrating.card2.title' />,
-    },
+    titleColor: "text-[#E679E0]",
+    titleName: <Trans i18nKey='cme.orchestrating.card2.title' />,
   },
   {
     bgColor: "bg-[#FFCBC4]",
-    text: <Trans i18nKey='cme.orchestrating.card3.text' />,
+    text: t("cme.orchestrating.card3.text", {
+      returnObjects: true,
+    }),
     img: Images.CME.CmeMiniWheel3,
-    title: {
-      color: "text-hot-coral",
-      name: <Trans i18nKey='cme.orchestrating.card3.title' />,
-    },
+    titleColor: "text-hot-coral",
+    titleName: <Trans i18nKey='cme.orchestrating.card3.title' />,
   },
 ];
 

@@ -11,13 +11,12 @@ import {
   CMEPartners,
   OSList,
   VTCME,
-} from "../../data/cmeData.js";
+} from "../../data/cmeData";
 
 import { ArrowRightLink } from "../ui/ArrowRightLink.js";
 import { NoticeContainer } from "../ui/NoticeContainer.js";
 import { NoticeColumn } from "../ui/NoticeColumn.js";
 import { Trans } from "react-i18next";
-import console from "console";
 
 const CMESection = () => {
   const targetRef1 = useRef(null);
@@ -32,6 +31,8 @@ const CMESection = () => {
     [0.25, 0.75],
     ["0%", "75%"],
   );
+
+  console.log(cmeActionList);
 
   const targetRef2 = useRef(null);
 
