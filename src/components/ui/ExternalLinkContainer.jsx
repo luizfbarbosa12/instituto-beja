@@ -1,7 +1,7 @@
 import { calcClamp } from "../../data/Utils";
 import { ArrowRightLink } from "./ArrowRightLink";
 
-const ExternalLinkContainer = ({ title, subtitle, link, titleOverride }) => {
+const ExternalLinkContainer = ({ title, subtitle, link, className }) => {
   return (
     <div className='flex flex-col gap-2'>
       <h1
@@ -9,7 +9,7 @@ const ExternalLinkContainer = ({ title, subtitle, link, titleOverride }) => {
           fontSize: `clamp(${calcClamp(12, 24)})`,
           lineHeight: `clamp(${calcClamp(12 * 1.5, 24 * 1.5)})`,
         }}
-        className={`editorial text-retro-ochre`}
+        className={`editorial font-bold text-retro-ochre ${className}`}
       >
         {title}
       </h1>

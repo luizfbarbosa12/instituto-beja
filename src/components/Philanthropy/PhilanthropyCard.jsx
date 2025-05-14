@@ -1,6 +1,7 @@
 import { calcClamp } from "../../data/Utils";
 import * as Icon from "@phosphor-icons/react";
 import FilantropandoCardStar from "./FilantropandoCardStar";
+import { useTranslation } from "react-i18next";
 
 const PhilanthropyCard = ({
   title,
@@ -10,6 +11,8 @@ const PhilanthropyCard = ({
   bgColor,
   starColor,
 }) => {
+  const [t] = useTranslation();
+
   return (
     <div
       style={{
@@ -59,7 +62,7 @@ const PhilanthropyCard = ({
               lineHeight: `clamp(${calcClamp(12 * 1.2, 18 * 1.2)})`,
             }}
           >
-            Assista aqui
+            {t("philanthropy.watchHere")}
           </p>
           <div className={`size-4 flex-center bg-aged-oak p-0.5 rounded-full`}>
             <Icon.ArrowRight className={`text-gold-ember rotate-335`} />

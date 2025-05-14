@@ -280,5 +280,65 @@
         }
       }
     }
+  },
+  "philanthropy": {
+    "bannerAlt": "Falando sobre filantropia",
+    "block1": [
+      "O <strong>Instituto Beja</strong> deu início, em 2022, ao movimento <strong>Filantropando</strong> com o objetivo de criar espaços de diálogos concretos sobre as transformações necessárias para impulsionar a filantropia brasileira. Fundamentado na revitalização do ecossistema e na introdução de novas ideias e práticas, o movimento busca estimular a troca e expansão de perspectivas.",
+      "Em 2024, a 3ª edição do <strong>Filantropando</strong> teve como tema central <strong>Imaginar Futuros</strong>, com curadoria do <strong>Instituto Toriba</strong> e direção de arte de <strong>Batman Zavareze</strong> e equipe. O evento reuniu cerca de 200 convidados. A edição ressaltou a importância de ressignificar a filantropia ao questionar modelos tradicionais e estimular o desaprender das práticas convencionais, por meio de um enfoque na colaboração e cocriação.",
+      "A necessidade de imaginar e construir futuros mais disruptivos, que abracem riscos, experimentem novas abordagens, desafiem referências e rompam paradigmas tornou-se uma prioridade emergente no mundo."
+    ],
+    "bubblesAlt": "Bolinhas",
+    "phrases": [
+      "É hora de abrir espaço para novas agendas.",
+      "É hora de desconstruir, reaprender e cocriar.",
+      "É hora de oxigenar o ecossistema da filantropia."
+    ],
+    "ccfAlt": "Conectando compromisso e futuro",
+    "goodActionsAlt": "Filantropando boas ações",
+    "watchHere": "Assista aqui",
+    "cards": [
+      {
+        "title": "Painel 1",
+        "subtitle": "Filantropia e futuros ancestrais",
+        "text": "Com Josimara Baré em diálogo com Geci Karuri-Sebina, mediado por Paula Miraglia"
+      },
+      {
+        "title": "Painel 2",
+        "subtitle": "Infraestruturas de Imaginação",
+        "text": "Com Yoanna Okwesa em diálogo com Ondřej Liska, mediado por Paula Miraglia"
+      },
+      {
+        "title": "Painel 3",
+        "subtitle": "Filantropia no mundo da Inteligência Artificial",
+        "text": "Com Sanjay Purohit em diálogo com Nishant Shah e Nina Santos, mediado por Paula Miraglia"
+      }
+    ],
+    "editionIntro": "A 3ª edição foi organizada em torno de dois eixos principais:",
+    "axis": [
+      {
+        "axis": "Eixo 1",
+        "title": "A filantropia e os futuros possíveis, futuros emergentes, futuros ancestrais",
+        "subtitle": "Como eu não pensei nisso antes? O que mais é preciso apreender?",
+        "texts": [
+          "O olhar para o futuro, já presente nas práticas ancestrais, nos convida a abraçar mudanças significativas e adotar valores que refletem uma compreensão mais diversa e abrangente das necessidades da sociedade. Este eixo desafia a perpetuação de narrativas dominantes, instigando a criação de uma multiplicidade de perspectivas que reimagina a história como nossa história.",
+          "Esse movimento destaca temas frequentemente invisibilizados, que demandam maior atenção e aprofundamento, e propõe uma descentralização da tomada de decisão. Ao sair de uma perspectiva individual para uma visão compartilhada de responsabilidades, somos convidados a acolher o desconforto que acompanha as mudanças coletivas. Isso exige: compreender as dinâmicas de poder que moldam as relações sociais e econômicas; coragem para assumir riscos; romper paradigmas e expandir referências e construção de uma representatividade mais equitativa."
+        ]
+      },
+      {
+        "axis": "Eixo 2",
+        "title": "Como eu não pensei nisso antes? O que mais é preciso apreender?",
+        "subtitle": "Tecnologia a serviço de quem?",
+        "texts": [
+          "As Big Techs ditam as regras sobre pensamentos e conexões em redes, sob uma perspectiva desumanizadora. A disparidade nas abordagens para regulamentar a ética digital expõe disputas de influência e lacunas de representatividade cultural, perpetuando desigualdades no acesso e educação digital.",
+          "A interação entre filantropia e tecnologia enfrenta desafios de desigualdade. O que chamávamos de 'futurismo' agora exige desconstruir visões de futuro descontextualizadas, vazias de realidades humanas diversas. Tecnologias digitais não são neutras - moldam percepções, relações e dinâmicas de poder.",
+          "Em contextos de governança e direitos humanos, as tecnologias transformam subjetividades e experiências. Diante da crítica insuficiente ao status quo que homogeneiza culturas a partir do Norte Global, questiona-se: como reumanizar a tecnologia e inovação em meio a mudanças exponenciais?"
+        ]
+      }
+    ],
+    "externalLink": {
+      "title": "Conheça a relatoria completa do Filantropando 2024",
+      "subtitle": "Acesse aqui"
+    }
   }
 }

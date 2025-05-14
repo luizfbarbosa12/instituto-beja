@@ -7,9 +7,11 @@ import { Images } from "../../assets/Index";
 import { calcClamp } from "../../data/Utils";
 import ImageSlider from "../Animations/ImageSlider";
 import ExternalLinkContainer from "./../ui/ExternalLinkContainer";
+import { Trans, useTranslation } from "react-i18next";
 
 const PhilanthropySection = () => {
   const axisContainer = useRef(null);
+  const [t] = useTranslation();
 
   useGSAP(
     () => {
@@ -51,17 +53,17 @@ const PhilanthropySection = () => {
 
   const firstCardList = [
     {
-      title: "Painel 1",
-      subtitle: "Filantropia e futuros ancestrais",
-      text: "Com Josimara Baré em diálogo com Geci Karuri-Sebina, mediado por Paula Miraglia",
+      title: t("philanthropy.cards.0.title"),
+      subtitle: t("philanthropy.cards.0.subtitle"),
+      text: t("philanthropy.cards.0.text"),
       link: "https://www.youtube.com/watch?v=Dj_hPbwo090",
       bgColor: "bg-gold-ember",
       starColor: "fill-copper",
     },
     {
-      title: "Painel 2",
-      subtitle: "Infraestruturas de Imaginação",
-      text: "Com Yoanna Okwesa em diálogo com Ondřej Liska, mediado por Paula Miraglia",
+      title: t("philanthropy.cards.1.title"),
+      subtitle: t("philanthropy.cards.1.subtitle"),
+      text: t("philanthropy.cards.1.text"),
       link: "https://www.youtube.com/watch?v=qhl6yX23MKs",
       bgColor: "bg-copper",
       starColor: "fill-gold-ember",
@@ -69,9 +71,9 @@ const PhilanthropySection = () => {
   ];
   const secondCardList = [
     {
-      title: "Painel 3",
-      subtitle: "Filantropia no mundo da Inteligência Artificial",
-      text: "Com Sanjay Purohit em diálogo com Nishant Shah e Nina Santos, mediado por Paula Miraglia",
+      title: t("philanthropy.cards.2.title"),
+      subtitle: t("philanthropy.cards.2.subtitle"),
+      text: t("philanthropy.cards.2.text"),
       link: "https://www.youtube.com/watch?v=QvbkvITW3cM",
       bgColor: "bg-gold-ember",
       starColor: "fill-copper",
@@ -82,7 +84,7 @@ const PhilanthropySection = () => {
     <div className='flex flex-col bg-light-peach'>
       <img
         src={Images.Filantropando.FilantropandoBanner}
-        alt='Falando sobre filantropia'
+        alt={t("philanthropy.bannerAlt")}
         className='w-full'
       />
 
@@ -102,13 +104,7 @@ const PhilanthropySection = () => {
                 content: (
                   <>
                     <p>
-                      O <strong>Instituto Beja</strong> deu início, em 2022, ao
-                      movimento <strong>Filantropando</strong> com o objetivo de
-                      criar espaços de diálogos concretos sobre as
-                      transformações necessárias para impulsionar a filantropia
-                      brasileira. Fundamentado na revitalização do ecossistema e
-                      na introdução de novas ideias e práticas, o movimento
-                      busca estimular a troca e expansão de perspectivas.
+                      <Trans i18nKey={"philanthropy.block1.0"} />
                     </p>
                   </>
                 ),
@@ -120,22 +116,11 @@ const PhilanthropySection = () => {
                 content: (
                   <>
                     <p>
-                      Em 2024, a 3ª edição do <strong>Filantropando</strong>{" "}
-                      teve como tema central <strong>Imaginar Futuros</strong>,
-                      com curadoria do <strong>Instituto Toriba</strong> e
-                      direção de arte de <strong>Batman Zavareze</strong> e
-                      equipe. O evento reuniu cerca de 200 convidados. A edição
-                      ressaltou a importância de ressignificar a filantropia ao
-                      questionar modelos tradicionais e estimular o desaprender
-                      das práticas convencionais, por meio de um enfoque na
-                      colaboração e cocriação.
+                      <Trans i18nKey={"philanthropy.block1.1"} />
                     </p>
 
                     <p>
-                      A necessidade de imaginar e construir futuros mais
-                      disruptivos, que abracem riscos, experimentem novas
-                      abordagens, desafiem referências e rompam paradigmas
-                      tornou-se uma prioridade emergente no mundo.
+                      <Trans i18nKey={"philanthropy.block1.2"} />
                     </p>
                   </>
                 ),
@@ -149,7 +134,7 @@ const PhilanthropySection = () => {
         <div className='w-full flex justify-center relative overflow-hidden'>
           <img
             src={Images.Filantropando.BubblesFilantropando}
-            alt='Bolinhas'
+            alt={t("philanthropy.bubblesAlt")}
             className='object-contain rotate-10 -top-30 relative'
             style={{
               width: `clamp(${calcClamp(506 / 2, 506)})`,
@@ -170,20 +155,20 @@ const PhilanthropySection = () => {
             className='flex flex-col gap-10'
           >
             <p className='editorial'>
-              É hora de abrir espaço para novas agendas.
+              <Trans i18nKey={"philanthropy.phrases.0"} />
             </p>
             <p className='editorial'>
-              É hora de desconstruir, reaprender e cocriar.
+              <Trans i18nKey={"philanthropy.phrases.1"} />
             </p>
             <p className='editorial'>
-              É hora de oxigenar o ecossistema da filantropia.
+              <Trans i18nKey={"philanthropy.phrases.2"} />
             </p>
           </div>
 
           <div className='flex flex-col'>
             <img
               src={Images.Filantropando.FilantropandoCCF}
-              alt='Conectando compromisso e futuro'
+              alt={t("philanthropy.ccfAlt")}
               className='shrink-0'
               style={{
                 width: `clamp(${calcClamp(190, 568)})`,
@@ -192,7 +177,7 @@ const PhilanthropySection = () => {
             />
             <img
               src={Images.Filantropando.FilantropandoBoasAcoes}
-              alt='Filantropando boas ações'
+              alt={t("philanthropy.goodActionsAlt")}
               className='shrink-0'
               style={{
                 width: `clamp(${calcClamp(91, 360)})`,
@@ -208,7 +193,7 @@ const PhilanthropySection = () => {
         >
           <img
             src={Images.Filantropando.BubblesFilantropando}
-            alt='Bolinhas'
+            alt={t("philanthropy.bubblesAlt")}
             className='object-contain rotate-240 -left-[30%] -bottom-8 absolute'
             style={{
               width: `clamp(${calcClamp(506 / 2, 506)})`,
@@ -222,7 +207,7 @@ const PhilanthropySection = () => {
               height: `clamp(${calcClamp(34, 110)})`,
             }}
             src={Images.Filantropando.FilantropandoStar}
-            alt='Estrela'
+            alt=''
             className='relative right-20 top-10 max-640:right-0'
           />
         </div>
@@ -240,32 +225,28 @@ const PhilanthropySection = () => {
           }}
           className='editorial text-3xl'
         >
-          A 3ª edição foi organizada em torno de dois eixos principais:
+          <Trans i18nKey={"philanthropy.editionIntro"} />
         </h1>
 
         <Axle
-          axle={"Eixo 1"}
-          title={
-            "A filantropia e os futuros possíveis, futuros emergentes, futuros ancestrais"
-          }
-          subtitle={
-            "Como eu não pensei nisso antes? O que mais é preciso apreender?"
-          }
+          axle={t("philanthropy.axis.0.axis")}
+          title={t("philanthropy.axis.0.title")}
+          subtitle={t("philanthropy.axis.0.subtitle")}
           text={[
-            "O olhar para o futuro, já presente nas práticas ancestrais, nos convida a abraçar mudanças significativas e adotar valores que refletem uma compreensão mais diversa e abrangente das necessidades da sociedade. Este eixo desafia a perpetuação de narrativas dominantes, instigando a criação de uma multiplicidade de perspectivas que reimagina a história como nossa história.",
-            "Esse movimento destaca temas frequentemente invisibilizados, que demandam maior atenção e aprofundamento, e propõe uma descentralização da tomada de decisão. Ao sair de uma perspectiva individual para uma visão compartilhada de responsabilidades, somos convidados a acolher o desconforto que acompanha as mudanças coletivas. Isso exige: compreender as dinâmicas de poder que moldam as relações sociais e econômicas; coragem para assumir riscos; romper paradigmas e expandir referências e construção de uma representatividade mais equitativa.",
+            t("philanthropy.axis.0.texts.0"),
+            t("philanthropy.axis.0.texts.1"),
           ]}
           data={firstCardList}
         />
 
         <Axle
-          axle={"Eixo 2"}
-          title={"Tecnologia para Transformar"}
-          subtitle={"Tecnologia a serviço de quem?"}
+          axle={t("philanthropy.axis.1.axis")}
+          title={t("philanthropy.axis.1.title")}
+          subtitle={t("philanthropy.axis.1.subtitle")}
           text={[
-            "As Big Techs ditam as regras sobre pensamentos e conexões em redes, sob uma perspectiva desumanizadora. A disparidade nas abordagens para regulamentar a ética digital expõe disputas de influência e lacunas de representatividade cultural, perpetuando desigualdades no acesso e educação digital.",
-            "A interação entre filantropia e tecnologia enfrenta desafios de desigualdade. O que chamávamos de 'futurismo' agora exige desconstruir visões de futuro descontextualizadas, vazias de realidades humanas diversas. Tecnologias digitais não são neutras - moldam percepções, relações e dinâmicas de poder.",
-            "Em contextos de governança e direitos humanos, as tecnologias transformam subjetividades e experiências. Diante da crítica insuficiente ao status quo que homogeneiza culturas a partir do Norte Global, questiona-se: como reumanizar a tecnologia e inovação em meio a mudanças exponenciais?",
+            t("philanthropy.axis.1.texts.0"),
+            t("philanthropy.axis.1.texts.1"),
+            t("philanthropy.axis.1.texts.2"),
           ]}
           data={secondCardList}
         />
@@ -275,7 +256,7 @@ const PhilanthropySection = () => {
         <div className='w-full flex justify-center relative overflow-hidden  px-32 max-1280:px-16 max-896:px-8 max-640:px-5'>
           <img
             src={Images.Filantropando.BubblesFilantropando}
-            alt='Bolinhas'
+            alt={t("philanthropy.bubblesAlt")}
             className='object-contain rotate-10 -top-30 relative'
             style={{
               width: `clamp(${calcClamp(506 / 2, 506)})`,
@@ -305,8 +286,9 @@ const PhilanthropySection = () => {
 
           <div className='px-32 max-1280:px-16 max-896:px-8 max-640:px-5'>
             <ExternalLinkContainer
-              title={"Conheça a relatoria completa do Filantropando 2024"}
-              subtitle={"Acesse aqui"}
+              title={t("philanthropy.externalLink.title")}
+              subtitle={t("philanthropy.externalLink.subtitle")}
+              className='text-bourdeaux!'
               link={"https://relatorio.filantropando.org/"}
             />
           </div>
@@ -318,7 +300,7 @@ const PhilanthropySection = () => {
         >
           <img
             src={Images.Filantropando.BubblesFilantropando}
-            alt='Bolinhas'
+            alt={t("philanthropy.bubblesAlt")}
             className='object-contain rotate-240 -left-[30%] -bottom-8 absolute'
             style={{
               width: `clamp(${calcClamp(506 / 2, 506)})`,
