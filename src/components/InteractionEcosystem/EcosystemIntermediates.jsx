@@ -1,10 +1,12 @@
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 const GoldenDot = "/assets/golden-dot.png";
 
 export function EcosystemIntermediates() {
   const container = useRef(null);
+  const [t] = useTranslation();
 
   useGSAP(
     () => {
@@ -129,7 +131,7 @@ export function EcosystemIntermediates() {
       <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full overflow-x-hidden flex flex-col'>
         <div className='relative flex flex-col items-end  self-end gap-4 tablet:w-fit w-3/4'>
           <h3 className='tablet:mr-[175px] font-serif text-bourdeaux text-left text-xl self-start leading-none tablet:text-5xl not-tablet:max-w-49'>
-            Intermediários e Parceiros Estratégicos
+            {t("interactionEcosystem.intermediates.title")}
           </h3>
           <span className='bg-retro-ochre h-4 tablet:h-8 w-full' />
         </div>
@@ -187,25 +189,25 @@ export function EcosystemIntermediates() {
             {/* Textos */}
             <div className='text-item text-1 absolute top-2 tablet:top-0 -left-[2%] w-full max-w-4/10 tablet:max-w-7/20'>
               <h2 className='ts-10/32 tablet:text-3xl -translate-y-1/1 leading-relaxed font-serif text-retro-ochre'>
-                Associações e redes de filantropia
+                {t("interactionEcosystem.intermediates.texts.0")}
               </h2>
             </div>
 
             <div className='text-item text-2 absolute -bottom-4 tablet:-bottom-14 left-4/20 w-full max-w-4/10 tablet:max-w-5/10'>
               <h2 className='ts-10/32 tablet:text-3xl leading-relaxed font-serif text-retro-ochre'>
-                Articuladores do setor
+                {t("interactionEcosystem.intermediates.texts.1")}
               </h2>
             </div>
 
             <div className='text-item text-3 absolute top-2 tablet:-top-0 left-6/10 tablet:left-5/10 max-w-3/10 tablet:max-w-12/30'>
               <h2 className='ts-10/32 tablet:text-3xl -translate-y-1/1 leading-relaxed font-serif text-retro-ochre'>
-                Influenciadores e meios de comunicação
+                {t("interactionEcosystem.intermediates.texts.2")}
               </h2>
             </div>
 
             <div className='text-item text-4 absolute -bottom-4 tablet:-bottom-14 left-20/30 tablet:23/30 w-full max-w-3/10 tablet:max-w-4/10'>
               <h2 className='ts-10/32 tablet:text-3xl translate-x-1/2 leading-relaxed font-serif text-retro-ochre'>
-                Poder Público
+                {t("interactionEcosystem.intermediates.texts.3")}
               </h2>
             </div>
           </div>

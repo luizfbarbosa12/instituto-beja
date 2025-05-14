@@ -514,9 +514,9 @@ const KnowledgeSection = () => {
             {
               key: "first-0",
               content: (
-                <>
+                <p>
                   <Trans i18nKey='knowledge.sections.agbara.blocks.block3.fs.p1' />
-                </>
+                </p>
               ),
             },
           ]}
@@ -562,9 +562,9 @@ const KnowledgeSection = () => {
             {
               key: "second-0",
               content: (
-                <>
+                <p>
                   <Trans i18nKey='knowledge.sections.cedec.blocks.block1.ss.p1' />
-                </>
+                </p>
               ),
             },
           ]}
@@ -575,9 +575,9 @@ const KnowledgeSection = () => {
             {
               key: "first-0",
               content: (
-                <>
+                <p>
                   <Trans i18nKey='knowledge.sections.cedec.blocks.block2.fs.p1' />
-                </>
+                </p>
               ),
             },
           ]}

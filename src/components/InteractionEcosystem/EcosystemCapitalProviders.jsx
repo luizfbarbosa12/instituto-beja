@@ -1,9 +1,11 @@
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 const GoldenDot = "/assets/golden-dot.png";
 export function EcosystemCapitalProviders() {
   const container = useRef(null);
+  const [t] = useTranslation();
 
   useGSAP(
     () => {
@@ -128,7 +130,7 @@ export function EcosystemCapitalProviders() {
       <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full overflow-x-hidden'>
         <div className='relative flex flex-col items-start self-start gap-4 tablet:w-fit w-3/4'>
           <h3 className='tablet:ml-[175px] font-serif text-bourdeaux text-left text-xl self-end leading-none tablet:text-5xl'>
-            Provedores de Capital
+            {t("interactionEcosystem.capitalProviders.title")}
           </h3>
           <span className='bg-bourdeaux h-4 tablet:h-8 w-full' />
         </div>
@@ -186,25 +188,25 @@ export function EcosystemCapitalProviders() {
             {/* Textos */}
             <div className='text-item text-1 absolute top-0 tablet:top-0 left-[0%] max-w-9/20 tablet:max-w-[396px]'>
               <h2 className='ts-10/32 -translate-y-1/1 tablet:text-3xl leading-relaxed font-serif text-[#1a0505]'>
-                Filantropos nacionais e internacionais
+                {t("interactionEcosystem.capitalProviders.texts.0")}
               </h2>
             </div>
 
             <div className='text-item text-2 absolute top-8/10 tablet:top-8/10 left-3/20 max-w-4/10 tablet:max-w-5/10'>
               <h2 className='ts-10/32 tablet:text-3xl leading-relaxed font-serif text-[#1a0505]'>
-                Potenciais filantropos
+                {t("interactionEcosystem.capitalProviders.texts.1")}
               </h2>
             </div>
 
             <div className='text-item text-3 absolute top-1/10 tablet:top-1/10 left-9/10 w-full max-w-4/10 tablet:max-w-6/10'>
               <h2 className='ts-10/32 tablet:text-3xl -translate-y-1/1 -translate-x-1/2 leading-relaxed font-serif text-[#1a0505]'>
-                Empresários e investidores
+                {t("interactionEcosystem.capitalProviders.texts.2")}
               </h2>
             </div>
 
             <div className='text-item text-4 absolute top-1/1 tablet:top-21/20 right-0 w-full max-w-5/10 tablet:max-w-15/20'>
               <h2 className='ts-10/32 tablet:text-3xl translate-x-1/2 leading-relaxed font-serif text-[#1a0505] w-full '>
-                Fundações, Institutos e organizações provedoras de capital
+                {t("interactionEcosystem.capitalProviders.texts.3")}
               </h2>
             </div>
           </div>

@@ -1,10 +1,12 @@
 import { useGSAP } from "@gsap/react";
 import { gsap } from "gsap";
 import { useRef } from "react";
+import { useTranslation } from "react-i18next";
 
 export function EcosystemSocialOrganizations() {
   const GoldenDot = "/assets/golden-dot.png";
   const container = useRef(null);
+  const [t] = useTranslation();
 
   useGSAP(
     () => {
@@ -129,7 +131,7 @@ export function EcosystemSocialOrganizations() {
       <div className='sticky top-1/3 tablet:top-20 mb-16 tablet:mb-64 w-full overflow-x-hidden'>
         <div className='relative flex flex-col items-start self-start gap-4 tablet:w-fit w-3/4'>
           <h3 className='tablet:ml-[175px] font-serif text-bourdeaux text-left text-xl self-end leading-none tablet:text-5xl'>
-            Organizações Sociais
+            {t("interactionEcosystem.socialOrganizations.title")}
           </h3>
           <span className='bg-rose h-4 tablet:h-8 w-full' />
         </div>
@@ -188,25 +190,25 @@ export function EcosystemSocialOrganizations() {
             {/* Textos */}
             <div className='text-item text-1 absolute top-2/4 -left-1/20 tablet:-left-6 w-full max-w-2/10 tablet:max-w-3/10'>
               <h2 className='ts-10/32 tablet:text-3xl leading-relaxed font-serif text-rose'>
-                Organizações da sociedade civil
+                {t("interactionEcosystem.socialOrganizations.texts.0")}
               </h2>
             </div>
 
             <div className='text-item text-2 absolute top-0 left-5/20 w-full max-w-12/20'>
               <h2 className='ts-10/32 -translate-y-1/1 tablet:text-3xl leading-relaxed font-serif text-rose'>
-                Inovadores e empreendedores sociais
+                {t("interactionEcosystem.socialOrganizations.texts.1")}
               </h2>
             </div>
 
             <div className='text-item text-3 absolute top-11/10 left-7/10 w-full max-w-3/10 tablet:max-w-4/10'>
               <h2 className='ts-10/32 tablet:text-3xl -translate-x-1/2 leading-relaxed font-serif text-rose'>
-                Negócios de impacto
+                {t("interactionEcosystem.socialOrganizations.texts.2")}
               </h2>
             </div>
 
             <div className='text-item text-4 absolute top-1/2 left-23/20 w-full max-w-2/10 tablet:max-w-3/10'>
               <h2 className='ts-10/32 tablet:text-3xl -translate-x-1/1 leading-relaxed font-serif text-rose'>
-                Organizações sociais de base
+                {t("interactionEcosystem.socialOrganizations.texts.3")}
               </h2>
             </div>
           </div>

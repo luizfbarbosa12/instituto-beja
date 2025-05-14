@@ -148,6 +148,37 @@
       }
     }
   },
+  "interactionEcosystem": {
+    "title": "Ecossistema de Interações",
+    "subtitle": "Por meio da colaboração e da coconstrução de estratégias, cultivamos espaços de diálogo ativo, incentivando a escuta atenta e o suporte mútuo. Esses espaços se fortalecem com a troca de conhecimentos, recursos e práticas inovadoras para o setor. A interação neste ecossistema nos mantém atentos às capacidades associativas, fundamentais para nossas relações.",
+    "capitalProviders": {
+      "title": "Provedores de Capital",
+      "texts": [
+        "Filantropos nacionais e internacionais",
+        "Potenciais filantropos",
+        "Empresários e investidores",
+        "Fundações, Institutos e organizações provedoras de capital"
+      ]
+    },
+    "intermediates": {
+      "title": "Intermediários e Parceiros Estratégicos",
+      "texts": [
+        "Associações e redes de filantropia",
+        "Articuladores do setor",
+        "Influenciadores e meios de comunicação",
+        "Poder Público"
+      ]
+    },
+    "socialOrganizations": {
+      "title": "Organizações Sociais",
+      "texts": [
+        "Organizações da sociedade civil",
+        "Inovadores e empreendedores sociais",
+        "Negócios de impacto",
+        "Organizações sociais de base"
+      ]
+    }
+  },
   "cme": {
     "title": "Centro para Mudanças Exponenciais (CMe)",
     "p1": " Em 2024, inauguramos o <strong>Centro para Mudanças Exponenciais (CMe)</strong>, uma cocriação brasileira com o <strong>Centre for Exponential Change (C4EC)</strong>. O C4EC é uma rede global de apoio que reacende a imaginação e capacita <strong>Orquestradores de Sistemas</strong>, que catalisam mudanças exponenciais positivas na construção de uma sociedade melhor. Cofundamos o C4EC junto com a <strong> Nilekani Philanthropies (Índia), New Profit (EUA), Skoll Foundation (Global), Waverley Street Foundation (Global) e Yellowwoods (África do Sul). </strong>",
