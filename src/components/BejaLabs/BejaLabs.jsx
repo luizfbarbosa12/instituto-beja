@@ -10,19 +10,20 @@ import { calcClamp } from "../../data/Utils";
 import { PortfolioSectionVentTransition } from "./../PortfolioSection/PortfolioSectionVentTransition";
 import AnimatedLetter from "../ui/AnimatedLetter";
 import TextBlock from "./../ui/TextBlock";
-
+import { useTranslation } from "react-i18next";
 const BejaLabs = () => {
+  const { t } = useTranslation();
+
+  const animatedLetter = t("bejaLabs.animatedLetter", {returnObjects: true});
+  console.log(animatedLetter);
   return (
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
       <PortfolioSectionVentTransition />
 
       <AnimatedLetter
-        text={[
-          `Eu sou a favor do uso do capital social para inovar, porque acredito que é um capital que permite a tomada de riscos. Ele possibilita a experimentação com novas ferramentas ainda não consagradas, novos formatos e tecnologias de pesquisa. Também abre espaço para a apropriação de diferentes modelos de prestação de serviços e para a ocupação de novos territórios.`,
-          `O Instituto Beja tem exatamente esse papel: inovar com capital social privado. E esse é o meu lugar predileto como filantropa. Eu gosto de olhar para o que é diferente. Cada um de nós pode ser protagonista de alguma criação, se formos para esse espaço de laboratório também. Provavelmente, você tem habilidades diferentes das minhas. Sempre brinco na minha casa que minha irmã do meio tem solução para tudo. Eu não sou essa pessoa, mas eu sou a pessoa que vai atrás do sonho, que tem as ideias.`,
-          `Cada ser humano se complementa. Ao mesmo tempo em que nos individualizamos, também coletivizamos nossa individualidade, trazendo esse "policapital" que nos permite pensar diferente. E acredito que é obrigação da filantropia ocupar esse espaço de conscientização e inovação.`,
-          "CRISTIANE SULTANI - Fundadora e Presidente ",
-        ]}
+        text={
+          animatedLetter
+        }
       />
 
       <PartnerSection
