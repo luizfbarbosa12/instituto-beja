@@ -32,8 +32,6 @@ const CMESection = () => {
     ["0%", "75%"],
   );
 
-  console.log(cmeActionList);
-
   const targetRef2 = useRef(null);
 
   const scroll2 = useScroll({

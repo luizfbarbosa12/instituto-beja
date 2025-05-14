@@ -14,8 +14,6 @@ import { PortfolioSectionVentTransition } from "./../PortfolioSection/PortfolioS
 const BejaLabs = () => {
   const { t } = useTranslation();
 
-  const animatedLetter = t("bejaLabs.animatedLetter", { returnObjects: true });
-  console.log(animatedLetter);
   return (
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
       <PortfolioSectionVentTransition />
