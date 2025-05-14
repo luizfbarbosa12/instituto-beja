@@ -6,6 +6,7 @@ import advocacyEN from "../locales/en/advocacy.json";
 import translationPT from "../locales/pt/translation.json";
 import translationEN from "../locales/en/translation.json";
 import bejaLabsPT from "../locales/pt/bejaLabs.json";
+import bejaLabsEN from "../locales/en/bejaLabs.json";
 import knowledgePT from "../locales/pt/knowledge.json";
 import knowledgeEN from "../locales/en/knowledge.json";
 
@@ -20,6 +21,7 @@ const en = {
   ...translationEN,
   ...advocacyEN,
   ...knowledgeEN,
+  ...bejaLabsEN,
 };
 
 i18n.use(initReactI18next).init({
@@ -27,7 +29,7 @@ i18n.use(initReactI18next).init({
     pt: { translation: pt },
     en: { translation: en },
   },
-  fallbackLng: "pt",
+  fallbackLng: "en",
   interpolation: {
     escapeValue: false,
   },
