@@ -47,13 +47,13 @@ const CMESTCard = ({
             className={`flex flex-col ${data.bgColor} gap-4 px-21 py-13 rounded-[60px] max-950:rounded-4xl max-768:gap-4 max-640:rounded-2xl`}
           >
             <h1
-              className={`uppercase ${data.title.color} font-bold`}
+              className={`uppercase ${data.titleColor} font-bold`}
               style={{
                 fontSize: `clamp(${calcClamp(18, 30)})`,
                 lineHeight: `clamp(${calcClamp(16 * 1.3, 30 * 1.3)})`,
               }}
             >
-              {data.title.name}
+              {data.titleName}
             </h1>
 
             <div className='flex w-full justify-between max-768:flex-col max-768:gap-10'>

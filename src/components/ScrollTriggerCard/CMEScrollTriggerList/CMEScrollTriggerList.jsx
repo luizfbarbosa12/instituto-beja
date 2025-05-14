@@ -5,6 +5,7 @@ import useMediaQuery from "../../../hooks/useMediaQuery";
 import { calcClamp } from "../../../data/Utils";
 
 const CMEScrollTriggerList = ({ arr, title, paddingTop }) => {
+  console.log(arr);
   const container = useRef(null);
   const mapContainer = useRef(null);
 
