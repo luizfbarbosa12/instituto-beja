@@ -7,8 +7,8 @@ import { Trans } from "react-i18next";
 const Image = "/assets/Ilustracao-8.png";
 const ChangeTheorySection = () => {
   return (
-    <Wrapper className={"pt-60"}>
-      <div className='flex flex-col items-end gap-16 relative'>
+    <Wrapper className={"pt-60 max-640:pt-15"}>
+      <div className='flex flex-col items-end gap-16 relative max-640:gap-8'>
         <h1 className='self-start editorial tablet:max-w-200 max-w-60 text-[28px] leading-relaxed tablet:leading-none tablet:text-8xl'>
           <Trans i18nKey='changeTheory.title' />
         </h1>
