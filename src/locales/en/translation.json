@@ -348,5 +348,21 @@
       "title": "Access the full report of Filantropando 2024",
       "subtitle": "Access here"
     }
+  },
+  "balance": {
+    "balance": "Balance",
+    "project": "Project",
+    "totalContribuintion": "Total Contribution R$",
+    "2024totalContribuintion": "2024 Total Contribution R$",
+    "start": "Start",
+    "conclusion": "Conclusion",
+    "association": "Association",
+    "mutualAnualFunding": "Multiannual Funding",
+    "supProject": "Supported Project",
+    "research": "Research",
+    "event": "Event",
+    "filantropando": "Philanthropy",
+    "impactInvestment": "Impact Investment",
+    "consulting": "consulting"
   }
 }

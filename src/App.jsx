@@ -2,7 +2,6 @@ import gsap from "gsap";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import { useGSAP } from "@gsap/react";
-import balance from "./data/balance.json";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import BejaLabs from "./components/BejaLabs/BejaLabs";
 import {
@@ -27,6 +26,7 @@ import {
 } from "./components/Index";
 import "./config/i18n";
 import { GlobalStorage } from "./context/GlobalContext";
+import { balance } from "./data/balance";
 
 const App = () => {
   gsap.registerPlugin(useGSAP);
@@ -48,9 +48,11 @@ const App = () => {
     };
   }, []);
 
+  console.log(balance);
+
   return (
     <GlobalStorage>
-      <FirstSection />
+      {/* <FirstSection />
       <FounderLetter />
       <FoundLetterToContextTransition />
       <RebrandingSection />
@@ -65,10 +67,10 @@ const App = () => {
       <KnowledgeSection />
       <BejaLabs />
       <PhilanthropySection />
-      <FinalSection />
+      <FinalSection /> */}
       <BalancoTable data={balance} />
-      <Expediente />
-      <Footer />
+      {/* <Expediente />
+      <Footer /> */}
     </GlobalStorage>
   );
 };
