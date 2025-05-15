@@ -26,7 +26,6 @@ import {
 } from "./components/Index";
 import "./config/i18n";
 import { GlobalStorage } from "./context/GlobalContext";
-import { balance } from "./data/balance";
 
 const App = () => {
   gsap.registerPlugin(useGSAP);
@@ -66,7 +65,7 @@ const App = () => {
       <BejaLabs />
       <PhilanthropySection />
       <FinalSection />
-      <BalancoTable data={balance} />
+      <BalancoTable />
       <Expediente />
       <Footer />
     </GlobalStorage>

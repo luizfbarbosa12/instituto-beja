@@ -1,6 +1,8 @@
+import { useBalance } from "@/data/use-balance";
 import { Trans } from "react-i18next";
 
-const BalancoTable = ({ data }) => {
+const BalancoTable = () => {
+  const data = useBalance();
   return (
     <div className='py-12 px-32 max-1280:px-16 max-950:px-8 max-640:px-5'>
       <div className='flex justify-between gap-5 items-end max-950:flex-col max-950:items-start max-640:gap-0  mb-8'>
