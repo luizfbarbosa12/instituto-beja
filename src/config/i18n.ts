@@ -9,12 +9,15 @@ import bejaLabsPT from "../locales/pt/bejaLabs.json";
 import bejaLabsEN from "../locales/en/bejaLabs.json";
 import knowledgePT from "../locales/pt/knowledge.json";
 import knowledgeEN from "../locales/en/knowledge.json";
+import schedulePT from "../locales/pt/schedule.json";
+import scheduleEN from "../locales/en/schedule.json";
 
 const pt = {
   ...translationPT,
   ...advocacyPT,
   ...knowledgePT,
   ...bejaLabsPT,
+  ...schedulePT,
 };
 
 const en = {
@@ -22,6 +25,7 @@ const en = {
   ...advocacyEN,
   ...knowledgeEN,
   ...bejaLabsEN,
+  ...scheduleEN,
 };
 
 i18n.use(initReactI18next).init({
