@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useContext, useRef } from "react";
 import TextBlock from "../ui/TextBlock.js";
 import { calcClamp } from "@/data/Utils.js";
 import { Images } from "../../assets/Index";
@@ -17,9 +17,12 @@ import { ArrowRightLink } from "../ui/ArrowRightLink.js";
 import { NoticeContainer } from "../ui/NoticeContainer.js";
 import { NoticeColumn } from "../ui/NoticeColumn.js";
 import { Trans } from "react-i18next";
+import { GlobalContext } from "../../context/GlobalContext.jsx";
 
 const CMESection = () => {
   const targetRef1 = useRef(null);
+
+  const { language } = useContext(GlobalContext);
 
   const scroll1 = useScroll({
     target: targetRef1,
@@ -305,7 +308,11 @@ const CMESection = () => {
           <Trans i18nKey='cme.exponentialJourney.title2' />
         </h1>
 
-        <img src={Images.CME.CMEGrafico} alt='CME Grafico' />
+        {language ? (
+          <img src={Images.CME.CMEGrafico} alt='CME Grafico' />
+        ) : (
+          <img src={Images.CME.EngCmeGrafico} alt='CME Grafico' />
+        )}
       </div>
 
       <div className='flex flex-col gap-10 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:gap-5'>

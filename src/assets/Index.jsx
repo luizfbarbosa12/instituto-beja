@@ -101,6 +101,7 @@ export const Images = {
     CentroME: "/assets/LogoCME.svg",
     CMEWheel: "/assets/CMEWheel.svg",
     CMEGrafico: "/assets/CMEGrafico.svg",
+    EngCmeGrafico: "/assets/engCmeGraphic.png",
     CmeMiniWheel1: "/assets/CmeMiniWheel1.svg",
     CmeMiniWheel2: "/assets/CmeMiniWheel2.svg",
     CmeMiniWheel3: "/assets/CmeMiniWheel3.svg",
