@@ -1,4 +1,7 @@
 {
+  "images": {
+    "pelaDemocracia": "/assets/engPelaDemocracia2.svg"
+  },
   "firstSection": {
     "title": "Annual Report 2024",
     "download": "Download the Annual Report 2024 in PDF here.",

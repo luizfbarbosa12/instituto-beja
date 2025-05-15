@@ -9,16 +9,7 @@ const PartnerCard = ({
   subCards,
   subtitle,
 }) => {
-  const subImgMap = Array.isArray(subCards)
-    ? subCards.map((item, index) => (
-        <img
-          key={item}
-          src={item}
-          alt={`Sub imagem ${index + 1}`}
-          className='h-6 w-fit max-sm:h-3'
-        />
-      ))
-    : null;
+  const subImgMap = Array.isArray(subCards) ? subCards : null;
 
   return (
     <div className='flex flex-col w-full'>
@@ -71,7 +62,11 @@ const PartnerCard = ({
 
         <div className='w-1/2 h-[1px] bg-gold' />
 
-        <div className={`flex flex-col gap-2 max-sm:w-30`}>{subImgMap}</div>
+        <div className={`flex flex-col gap-2 max-sm:w-30`}>
+          {subImgMap?.map((Component, index) => (
+            <div key={index}>{Component}</div>
+          ))}
+        </div>
 
         <p
           style={{

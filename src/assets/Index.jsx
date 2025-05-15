@@ -1,3 +1,8 @@
+import ForDemocracy from "./SubCards/ForDemocracy";
+import FilantropandoCard from "./SubCards/Filantropando";
+import EquidadeGeneroCard from "./SubCards/EquidadeGenero";
+import JusticaRacialCard from "./SubCards/JusticaRacial";
+
 export const Images = {
   Logos: {
     IElogo: "/assets/IElogo.svg",
@@ -61,15 +66,15 @@ export const Images = {
     FullClouds: "/assets/FullClouds.svg",
   },
   Secoes: {
-    JusticaRacial: "/assets/JusticaRacial.svg",
+    JusticaRacial: <JusticaRacialCard />,
     PelaDemocracia: "/assets/PelaDemocracia.svg",
-    EquidadeGenero: "/assets/EquidadeGenero.svg",
-    PelaDemocracia2: "/assets/PelaDemocracia2.svg",
+    EquidadeGenero: <EquidadeGeneroCard />,
+    PelaDemocracia2: <ForDemocracy />,
     AliancaAdvocacy: "/assets/AliancaAdvocacy.svg",
     PazJusticaImage: "/assets/PazJusticaImage.png",
     MovimentoDoacao: "/assets/MovimentoDoacao.svg",
     FomeZeroAdvocacy: "/assets/FomeZeroAdvocacy.png",
-    FilantropiaSubCard: "/assets/FilantropiaSubCard.svg",
+    FilantropiaSubCard: <FilantropandoCard />,
   },
   Filantropando: {
     FilantropandoCCF: "/assets/FilantropandoCCF.svg",

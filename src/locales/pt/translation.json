@@ -1,4 +1,7 @@
 {
+  "images": {
+    "pelaDemocracia": "src/assets/engPelaDemocracia2.svg"
+  },
   "firstSection": {
     "title": "Relatório Anual 2024",
     "download": "Faça Download do Relatório Anual 2024 em PDF aqui.",

@@ -26,6 +26,7 @@ import {
   FoundLetterToContextTransition,
 } from "./components/Index";
 import "./config/i18n";
+import { GlobalStorage } from "./context/GlobalContext";
 
 const App = () => {
   gsap.registerPlugin(useGSAP);
@@ -48,7 +49,7 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <GlobalStorage>
       <FirstSection />
       <FounderLetter />
       <FoundLetterToContextTransition />
@@ -68,7 +69,7 @@ const App = () => {
       <BalancoTable data={balance} />
       <Expediente />
       <Footer />
-    </>
+    </GlobalStorage>
   );
 };
 

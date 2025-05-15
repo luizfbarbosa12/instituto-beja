@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import TextBlock from "../ui/TextBlock.js";
 import { calcClamp } from "@/data/Utils.js";
-import { Images } from "../../assets/Index.js";
+import { Images } from "../../assets/Index";
 import { motion, useScroll, useTransform } from "framer-motion";
 import AnimatedHorizontalScroll from "./../ui/AnimatedHorizontalScroll";
 import CMEScrollTriggerList from "../ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.jsx";

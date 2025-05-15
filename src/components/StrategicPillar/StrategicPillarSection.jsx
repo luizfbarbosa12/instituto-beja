@@ -1,10 +1,14 @@
 import { Trans } from "react-i18next";
 import Wrapper from "../ui/Wrapper";
 const Pillars = "/assets/PilaresEstrategicos.png";
+const engStrategicPillar = "/assets/engStrategicPillar.svg";
 import { SPCardData } from "./../../data/StrategicPillarData";
 import PEScrollTriggerList from "./../ScrollTriggerCard/PEScrollTriggerList/PEScrollTriggerList";
+import { useContext } from "react";
+import { GlobalContext } from "./../../context/GlobalContext";
 
 const StrategicPillarSection = () => {
+  const { language } = useContext(GlobalContext);
   return (
     <div className={"flex flex-col gap-80"}>
       <Wrapper>
@@ -14,7 +18,15 @@ const StrategicPillarSection = () => {
           </h1>
 
           <div className='flex flex-col tablet:flex-row items-start justify-end gap-12 tablet:gap-[9rem]'>
-            <img src={Pillars} alt='Pilares Estratégicos' />
+            {language ? (
+              <img src={Pillars} alt='Pilares Estratégicos' />
+            ) : (
+              <img
+                src={engStrategicPillar}
+                alt='Strategic Pillars'
+                className='max-w-[532px] max-h-[572px]'
+              />
+            )}
             <p className='tablet:max-w-[29.5rem] text-base'>
               <Trans i18nKey='strategicPillar.p1' />
             </p>
