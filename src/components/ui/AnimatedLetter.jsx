@@ -1,11 +1,29 @@
 import gsap from "gsap";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useGSAP } from "@gsap/react";
 import { calcClamp } from "../../data/Utils";
 import { Images } from "./../../assets/Index";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import i18n from "../../config/i18n";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const AnimatedLetter = ({ text }) => {
   const letterContainerRef = useRef(null);
+
+  useEffect(() => {
+    const handleLangChange = () => {
+      setTimeout(() => {
+        ScrollTrigger.refresh();
+      }, 100);
+    };
+
+    i18n.on("languageChanged", handleLangChange);
+
+    return () => {
+      i18n.off("languageChanged", handleLangChange);
+    };
+  }, []);
 
   useGSAP(
     () => {
