@@ -58,7 +58,9 @@ const Expediente = () => {
         </div>
 
         <div>
-          <h2 className='text-3xl md:text-4xl font-serif mb-8'>Expediente</h2>
+          <h2 className='text-3xl md:text-4xl font-serif mb-8'>
+            {t("schedule.title")}
+          </h2>
           <div className='space-y-4'>
             <div>
               <p className='font-bold mb-1'>{t("schedule.beja")}</p>

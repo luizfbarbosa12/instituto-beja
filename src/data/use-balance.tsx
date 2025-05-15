@@ -1,13 +1,14 @@
-import { Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 export const useBalance = () => {
+  const [t] = useTranslation();
   return [
     {
       category: "ADVOCACY",
       rows: [
         {
           project: "Aliança pelo Fortalecimento da Sociedade Civil",
-          type: <Trans i18nKey='balance.association' />,
+          type: t("balance.association"),
           totalAmount: "785.352",
           amount2024: "785.352",
           start: "2024",
@@ -15,7 +16,7 @@ export const useBalance = () => {
         },
         {
           project: "Fundo Patrimonial USP Diversa",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "5.972.452",
           amount2024: "334.625",
           start: "2023",
@@ -23,7 +24,7 @@ export const useBalance = () => {
         },
         {
           project: "Serenas",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "1.270.000",
           amount2024: "370.000",
           start: "2024",
@@ -31,7 +32,7 @@ export const useBalance = () => {
         },
         {
           project: "Rede A Ponte",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "800.000",
           amount2024: "200.000",
           start: "2024",
@@ -39,7 +40,7 @@ export const useBalance = () => {
         },
         {
           project: "Instituto Pacto contra a fome",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "500.000",
           amount2024: "500.000",
           start: "2024",
@@ -47,7 +48,7 @@ export const useBalance = () => {
         },
         {
           project: "Pacto pela Democracia",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "600.000",
           amount2024: "200.000",
           start: "2024",
@@ -55,7 +56,7 @@ export const useBalance = () => {
         },
         {
           project: "ICCI - Instituto Cultura, Comunicação e Incidência",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "100.000",
           amount2024: "100.000",
           start: "2024",
@@ -63,7 +64,7 @@ export const useBalance = () => {
         },
         {
           project: "GIFE",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "1.000.000",
           amount2024: "333.333",
           start: "2024",
@@ -71,7 +72,7 @@ export const useBalance = () => {
         },
         {
           project: "Latimpacto",
-          type: <Trans i18nKey='balance.association' />,
+          type: t("balance.association"),
           totalAmount: "75.347",
           amount2024: "75.347",
           start: "2024",
@@ -79,7 +80,7 @@ export const useBalance = () => {
         },
         {
           project: "Movimento Por Uma Cultura de Doação - MCD",
-          type: <Trans i18nKey='balance.association' />,
+          type: t("balance.association"),
           totalAmount: "50.000",
           amount2024: "50.000",
           start: "2024",
@@ -88,11 +89,11 @@ export const useBalance = () => {
       ],
     },
     {
-      category: <Trans i18nKey='knowledge.name' />,
+      category: t("knowledge.name"),
       rows: [
         {
           project: "PIPA",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "240.000",
           amount2024: "120.000",
           start: "2024",
@@ -100,7 +101,7 @@ export const useBalance = () => {
         },
         {
           project: "Fundação José Luiz Egydio Setúbal (FJLES)",
-          type: <Trans i18nKey='balance.research' />,
+          type: t("balance.research"),
           totalAmount: "200.000",
           amount2024: "100.000",
           start: "2024",
@@ -108,7 +109,7 @@ export const useBalance = () => {
         },
         {
           project: "DeSJuS CEBRAP",
-          type: <Trans i18nKey='balance.research' />,
+          type: t("balance.research"),
           totalAmount: "200.000",
           amount2024: "200.000",
           start: "2024",
@@ -116,7 +117,7 @@ export const useBalance = () => {
         },
         {
           project: "FundoAgbara",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "900.000",
           amount2024: "300.000",
           start: "2024",
@@ -133,7 +134,7 @@ export const useBalance = () => {
         },
         {
           project: "Centro de Análise de Liberdade e do Autoritarismo LAUT",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "319.899",
           amount2024: "159.949",
           start: "2024",
@@ -141,7 +142,7 @@ export const useBalance = () => {
         },
         {
           project: "Instituto Identidade do Brasil (IDBR)",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "200.000",
           amount2024: "200.000",
           start: "2024",
@@ -149,7 +150,7 @@ export const useBalance = () => {
         },
         {
           project: "Instituto Igarapé",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "400.000",
           amount2024: "400.000",
           start: "2024",
@@ -157,7 +158,7 @@ export const useBalance = () => {
         },
         {
           project: "More In Common",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "200.000",
           amount2024: "100.000",
           start: "2024",
@@ -183,7 +184,7 @@ export const useBalance = () => {
         },
         {
           project: "IDIS",
-          type: <Trans i18nKey='balance.association' />,
+          type: t("balance.association"),
           totalAmount: "50.000",
           amount2024: "50.000",
           start: "2024",
@@ -191,7 +192,7 @@ export const useBalance = () => {
         },
         {
           project: "SITAWI Finanças do Bem",
-          type: <Trans i18nKey='balance.research' />,
+          type: t("balance.research"),
           totalAmount: "25.000",
           amount2024: "25.000",
           start: "2024",
@@ -217,7 +218,7 @@ export const useBalance = () => {
         },
         {
           project: "Coalizão pelo Impacto (ICE)",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "1.650.000",
           amount2024: "525.000",
           start: "2023",
@@ -226,7 +227,7 @@ export const useBalance = () => {
         },
         {
           project: "Data Privacy",
-          type: <Trans i18nKey='balance.event' />,
+          type: t("balance.event"),
           totalAmount: "35.000",
           amount2024: "35.000",
           start: "2024",
@@ -234,7 +235,7 @@ export const useBalance = () => {
         },
         {
           project: "Yunus",
-          type: <Trans i18nKey='balance.event' />,
+          type: t("balance.event"),
           totalAmount: "150.000",
           amount2024: "150.000",
           start: "2024",
@@ -242,7 +243,7 @@ export const useBalance = () => {
         },
         {
           project: "Desenvola e Não Me Enrola",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "200.000",
           amount2024: "200.000",
           start: "2024",
@@ -250,7 +251,7 @@ export const useBalance = () => {
         },
         {
           project: "Instituto Mol",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "75.000",
           amount2024: "75.000",
           start: "2024",
@@ -258,7 +259,7 @@ export const useBalance = () => {
         },
         {
           project: "Pró-Saber",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "1.395.505",
           amount2024: "464.930",
           start: "2023",
@@ -266,7 +267,7 @@ export const useBalance = () => {
         },
         {
           project: "Nexo Jornal",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "150.000",
           amount2024: "150.000",
           start: "2024",
@@ -274,7 +275,7 @@ export const useBalance = () => {
         },
         {
           project: "Uerê",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "195.691",
           amount2024: "72.090",
           start: "2024",
@@ -290,7 +291,7 @@ export const useBalance = () => {
         },
         {
           project: "InstitutoAsta",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "50.000",
           amount2024: "50.000",
           start: "2024",
@@ -298,7 +299,7 @@ export const useBalance = () => {
         },
         {
           project: "Mamo Filmes",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "50.000",
           amount2024: "50.000",
           start: "2024",
@@ -307,7 +308,7 @@ export const useBalance = () => {
         },
         {
           project: "Maria Sem Vergonha",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "150.000",
           amount2024: "",
           start: "2023",
@@ -316,7 +317,7 @@ export const useBalance = () => {
         },
         {
           project: "Maria Farinha Filmes",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "150.000",
           amount2024: "",
           start: "2022",
@@ -325,7 +326,7 @@ export const useBalance = () => {
         },
         {
           project: "Caliandra",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "1.714.545",
           amount2024: "",
           start: "2022",
@@ -334,7 +335,7 @@ export const useBalance = () => {
         },
         {
           project: "Stanford Social Innovation",
-          type: <Trans i18nKey='balance.supProject' />,
+          type: t("balance.supProject"),
           totalAmount: "180.000",
           amount2024: "180.000",
           start: "2024",
@@ -345,11 +346,11 @@ export const useBalance = () => {
       ],
     },
     {
-      category: <Trans i18nKey='bejaLabs.title' />,
+      category: t("bejaLabs.title"),
       rows: [
         {
           project: "Ashoka Brasil",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "1.800.000",
           amount2024: "600.000",
           start: "2024",
@@ -357,7 +358,7 @@ export const useBalance = () => {
         },
         {
           project: "InstitutoToriba",
-          type: <Trans i18nKey='balance.mutualAnualFunding' />,
+          type: t("balance.mutualAnualFunding"),
           totalAmount: "2.500.000",
           amount2024: "500.000",
           start: "2024",
@@ -366,7 +367,7 @@ export const useBalance = () => {
       ],
     },
     {
-      category: <Trans i18nKey='balance.filantropando' />,
+      category: t("balance.filantropando"),
       rows: [
         {
           project: "Filantropando",
@@ -379,7 +380,7 @@ export const useBalance = () => {
       ],
     },
     {
-      category: <Trans i18nKey='balance.impactInvestment' />,
+      category: t("balance.impactInvestment"),
       rows: [
         {
           project: "AssociaçãoTrê",
@@ -426,7 +427,7 @@ export const useBalance = () => {
       ],
     },
     {
-      category: <Trans i18nKey='balance.consulting' />,
+      category: t("balance.consulting"),
       rows: [
         {
           project: "Bemtevi eTHP",
