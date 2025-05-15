@@ -1,7 +1,11 @@
-import { Trans } from "react-i18next";
-
 const Bush = "/assets/folhas.png";
+import { useContext } from "react";
+import { Trans } from "react-i18next";
+import { GlobalContext } from "../../context/GlobalContext";
+
 const ManifestSection = () => {
+  const { language } = useContext(GlobalContext);
+
   return (
     <div className='relative flex flex-col items-center gap-12 w-full bg-porcelain overflow-hidden pb-40'>
       <div className={"z-10 mx-0 w-full"}>
@@ -14,7 +18,7 @@ const ManifestSection = () => {
           <p>
             (O)
             <br />
-            Desde 2021
+            <Trans i18nKey='manifest.since' />
           </p>
         </div>
 
@@ -28,7 +32,9 @@ const ManifestSection = () => {
             </h1>
 
             <p className='text-sm leading-[160%] tablet:text-2xl tablet:leading-10'>
-              <Trans i18nKey='manifest.text' />
+              <>
+                <Trans i18nKey='manifest.text' />
+              </>
             </p>
           </div>
         </div>

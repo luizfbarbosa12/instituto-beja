@@ -176,7 +176,7 @@ const CMESection = () => {
           <div ref={targetRef1} className='h-60 relative'>
             <motion.div
               style={{ height: heightAnimation1 }}
-              className='absolute top-10 w-[1px] bg-bourdeaux rounded origin-top bg-hot-coral'
+              className='absolute top-10 w-[1px] rounded origin-top bg-hot-coral'
             >
               <div
                 style={{

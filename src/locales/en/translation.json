@@ -1,7 +1,4 @@
 {
-  "images": {
-    "pelaDemocracia": "/assets/engPelaDemocracia2.svg"
-  },
   "firstSection": {
     "title": "Annual Report 2024",
     "download": "Download the Annual Report 2024 in PDF here.",
@@ -69,7 +66,8 @@
   },
   "manifest": {
     "title": "Beja Manifest",
-    "text": " To change the world, you need will. <br /> Resources. Questions. <br /> And someone to put it all together. <br /> But go further: listen. Exchange. <br /> Evolve. Innovate. <br /> Bring a different kind of air into the system. <br /> Help it breathe. <br /> Don't let it conform. <br /> See beyond the status quo. <br /> Have the freedom and security to <br /> bring a new point of view. <br /> Don't be tied down. <br /> And tie up loose ends. <br /> Bring together those who want to do it, <br /> those who have resources, those who have criticisms and <br /> oxygenate everything so that the joint solution can flourish. <br /> Let it be the agent of renewal. <br /> Let's all learn from nature:  <br /> nothing grows without O2. <br /> Life needs air. <br /> And philanthropy needs fresh air. <br /> That's why Beja was born: <br /> articulate new possibilities for philanthropy <br /> oxygenating processes, spaces and relationships.<br /> <br />Beja. Oxygenating philanthropy since 2021."
+    "since": "Since 2021",
+    "text": "To change the world, you need will. <br /> Resources. Questions. <br /> And someone to put it all together. <br /> But go further: listen. Exchange. <br /> Evolve. Innovate. <br /> Bring a different kind of air into the system. <br /> Help it breathe. <br /> Don't let it conform. <br /> See beyond the status quo. <br /> Have the freedom and security to <br /> bring a new point of view. <br /> Don't be tied down. <br /> And tie up loose ends. <br /> Bring together those who want to do it, <br /> those who have resources, those who have criticisms and <br /> oxygenate everything so that the joint solution can flourish. <br /> Let it be the agent of renewal. <br /> Let's all learn from nature:  <br /> nothing grows without O2. <br /> Life needs air. <br /> And philanthropy needs fresh air. <br /> That's why Beja was born: <br /> articulate new possibilities for philanthropy <br /> oxygenating processes, spaces and relationships.<br /> <br />Beja. Oxygenating philanthropy since 2021."
   },
   "missionValue": {
     "card1": {
@@ -349,9 +347,6 @@
       "subtitle": "Access here"
     }
   },
-  "footer": {
-    "copyright": "Since 2021"
-  },
   "finalSection": {
     "title": "Investment and Impact",
     "p1": "The <strong>Beja Institute</strong> is firmly committed to promoting positive and sustainable social and environmental change. To this end, we dedicate part of our resources to impact investments, an approach that goes beyond traditional financial returns. Our focus is on generating tangible benefits for society and the environment, showing in practice how to reconcile financial profitability with positive benefits.",
@@ -378,5 +373,6 @@
     "filantropando": "Philanthropy",
     "impactInvestment": "Impact Investment",
     "consulting": "consulting"
-  }
+  },
+  "footer": { "copyright": "Since 2021" }
 }

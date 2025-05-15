@@ -1,7 +1,4 @@
 {
-  "images": {
-    "pelaDemocracia": "src/assets/engPelaDemocracia2.svg"
-  },
   "firstSection": {
     "title": "Relatório Anual 2024",
     "download": "Faça Download do Relatório Anual 2024 em PDF aqui.",
@@ -69,6 +66,7 @@
   },
   "manifest": {
     "title": "Manifesto Beja",
+    "since": "Desde 2021",
     "text": " Para mudar o mundo, é preciso vontade.<br />Recursos. Questionamentos.<br />E quem junte tudo isso.<br />Mas vá além: escute. <br />Troque. Evolua. Inove.<br />Traga um ar diferente para o sistema.<br />Ajude ele a respirar.<br />Que não se conforme.<br />Veja além do status quo.<br />Tenha liberdade e segurança <br />para trazer um novo ponto de vista.<br />Não tenha amarras.<br />E amarre as pontas soltas.<br />Junte quem quer fazer, quem tem recurso,<br />quem tem críticas e oxigena tudo, <br />para que a solução conjunta possa florescer.<br />Que seja o agente da renovação.<br />Aprendamos todos com a natureza: <br />nada cresce sem O2.<br />A vida precisa de ar.<br />E a filantropia, de novos ares.<br />Para isso nasceu o Beja: <br />articular novas possibilidades para a filantropia, <br /> oxigenando processos, espaços e relações. <br /> <br />Beja. Oxigenando a filantropia desde 2021."
   },
   "missionValue": {
@@ -249,7 +247,6 @@
         "siteCallback": "Acessar site Centro de Mudanças Exponenciais"
       }
     },
-
     "systemOrchestrating": {
       "title": "Orquestradores de Sistema no Brasil",
       "subtitle": "Os Orquestradores de Sistemas selecionados são:",
@@ -345,9 +342,6 @@
       "subtitle": "Acesse aqui"
     }
   },
-  "footer": {
-    "copyright": "Desde 2021"
-  },
   "finalSection": {
     "title": "Investimento de Impacto",
     "p1": "O <strong>Instituto Beja</strong> está firmemente comprometido com a promoção de mudanças sociais e ambientais positivas e sustentáveis. Para isso, dedicamos parte de nossos recursos aos investimentos de impacto, uma abordagem que vai além do retorno financeiro tradicional. Nosso foco é gerar benefícios tangíveis para a sociedade e o meio ambiente, mostrando na prática como conciliar rentabilidade financeira com benefícios positivos.",
@@ -374,5 +368,6 @@
     "filantropando": "filantropando",
     "impactInvestment": "Investimento de Impacto",
     "consulting": "Consultoria"
-  }
+  },
+  "footer": { "copyright": "Desde 2021" }
 }

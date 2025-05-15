@@ -3,9 +3,12 @@ import { NoticeColumn } from "../ui/NoticeColumn";
 import { ArrowRightLink } from "../ui/ArrowRightLink";
 import { NoticeContainer } from "../ui/NoticeContainer";
 import { Trans } from "react-i18next";
-
+import { useContext } from "react";
+import { GlobalContext } from "../../context/GlobalContext";
 const Image = "/assets/Ilustracao-8.png";
+
 const ChangeTheorySection = () => {
+  const { language } = useContext(GlobalContext);
   return (
     <Wrapper className={"pt-60 max-640:pt-15"}>
       <div className='flex flex-col items-end gap-16 relative max-640:gap-8'>

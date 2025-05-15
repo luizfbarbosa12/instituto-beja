@@ -6,6 +6,8 @@ export const GlobalContext = React.createContext("");
 export const GlobalStorage = ({ children }) => {
   const [language, setLanguage] = useState(false);
 
+  console.log(language);
+
   return (
     <GlobalContext.Provider
       value={{

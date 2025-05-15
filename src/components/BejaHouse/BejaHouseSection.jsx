@@ -4,8 +4,12 @@ import { NoticeColumn } from "../ui/NoticeColumn";
 import ImageSlider from "../Animations/ImageSlider";
 import { NoticeContainer } from "../ui/NoticeContainer";
 import { Trans } from "react-i18next";
+import { useContext } from "react";
+import { GlobalContext } from "../../context/GlobalContext";
 
 const BejaHouseSection = () => {
+  const { language } = useContext(GlobalContext);
+
   return (
     <div className='flex flex-col relative rounded-[70px]'>
       <img
