@@ -1,4 +1,7 @@
 {
+  "images": {
+    "pelaDemocracia": "src/assets/engPelaDemocracia2.svg"
+  },
   "firstSection": {
     "title": "Relatório Anual 2024",
     "download": "Faça Download do Relatório Anual 2024 em PDF aqui.",
@@ -344,5 +347,21 @@
   },
   "footer": {
     "copyright": "Desde 2021"
+  },
+  "balance": {
+    "balance": "Balanço",
+    "project": "Projeto",
+    "totalContribuintion": "TOTAL DO <br/>APORTE EM R$",
+    "2024totalContribuintion": "TOTAL 2024  <br/> EM R$",
+    "start": "Começo",
+    "conclusion": "Conclusão",
+    "association": "Associação",
+    "mutualAnualFunding": "Apoio Plurianual",
+    "supProject": "Projeto Apoiado",
+    "research": "Pesquisa",
+    "event": "Evento",
+    "filantropando": "filantropando",
+    "impactInvestment": "Investimento de Impacto",
+    "consulting": "Consultoria"
   }
 }

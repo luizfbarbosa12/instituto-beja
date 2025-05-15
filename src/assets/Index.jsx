@@ -1,3 +1,8 @@
+import ForDemocracy from "./SubCards/ForDemocracy";
+import FilantropandoCard from "./SubCards/Filantropando";
+import EquidadeGeneroCard from "./SubCards/EquidadeGenero";
+import JusticaRacialCard from "./SubCards/JusticaRacial";
+
 export const Images = {
   Logos: {
     IElogo: "/assets/IElogo.svg",
@@ -61,15 +66,15 @@ export const Images = {
     FullClouds: "/assets/FullClouds.svg",
   },
   Secoes: {
-    JusticaRacial: "/assets/JusticaRacial.svg",
+    JusticaRacial: <JusticaRacialCard />,
     PelaDemocracia: "/assets/PelaDemocracia.svg",
-    EquidadeGenero: "/assets/EquidadeGenero.svg",
-    PelaDemocracia2: "/assets/PelaDemocracia2.svg",
+    EquidadeGenero: <EquidadeGeneroCard />,
+    PelaDemocracia2: <ForDemocracy />,
     AliancaAdvocacy: "/assets/AliancaAdvocacy.svg",
     PazJusticaImage: "/assets/PazJusticaImage.png",
     MovimentoDoacao: "/assets/MovimentoDoacao.svg",
     FomeZeroAdvocacy: "/assets/FomeZeroAdvocacy.png",
-    FilantropiaSubCard: "/assets/FilantropiaSubCard.svg",
+    FilantropiaSubCard: <FilantropandoCard />,
   },
   Filantropando: {
     FilantropandoCCF: "/assets/FilantropandoCCF.svg",
@@ -96,6 +101,7 @@ export const Images = {
     CentroME: "/assets/LogoCME.svg",
     CMEWheel: "/assets/CMEWheel.svg",
     CMEGrafico: "/assets/CMEGrafico.svg",
+    EngCmeGrafico: "/assets/engCmeGraphic.png",
     CmeMiniWheel1: "/assets/CmeMiniWheel1.svg",
     CmeMiniWheel2: "/assets/CmeMiniWheel2.svg",
     CmeMiniWheel3: "/assets/CmeMiniWheel3.svg",

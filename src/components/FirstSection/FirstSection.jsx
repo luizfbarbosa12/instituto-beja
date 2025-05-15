@@ -1,6 +1,7 @@
 import * as Icon from "@phosphor-icons/react";
-import { memo } from "react";
+import { memo, useContext } from "react";
 import { useTranslation } from "react-i18next";
+import { GlobalContext } from "../../context/GlobalContext";
 
 const GoldGlobe = "/assets/cutedGoldGlobe.webp";
 
@@ -26,6 +27,14 @@ function DownloadButton() {
 const FirstSection = () => {
   const { t, i18n } = useTranslation();
 
+  const { setLanguage } = useContext(GlobalContext);
+
+  const onClick = () => {
+    setLanguage((prev) => !prev);
+
+    i18n.changeLanguage(i18n.language === "en" ? "pt" : "en");
+  };
+
   return (
     <div className='bg-bourdeaux w-full flex flex-col min-h-screen relative overflow-hidden'>
       <div className='flex w-full justify-between px-8 tablet:px-10 pt-15 tablet:pt-4'>
@@ -34,9 +43,7 @@ const FirstSection = () => {
         </p>
 
         <button
-          onClick={() =>
-            i18n.changeLanguage(i18n.language === "en" ? "pt" : "en")
-          }
+          onClick={onClick}
           className='size-10 bg-rose rounded-full flex-center flex-col gap-1 font-bold'
         >
           {i18n.language === "en" ? "EN" : "PT"}
