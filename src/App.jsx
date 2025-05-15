@@ -48,11 +48,9 @@ const App = () => {
     };
   }, []);
 
-  console.log(balance);
-
   return (
     <GlobalStorage>
-      {/* <FirstSection />
+      <FirstSection />
       <FounderLetter />
       <FoundLetterToContextTransition />
       <RebrandingSection />
@@ -67,10 +65,10 @@ const App = () => {
       <KnowledgeSection />
       <BejaLabs />
       <PhilanthropySection />
-      <FinalSection /> */}
+      <FinalSection />
       <BalancoTable data={balance} />
-      {/* <Expediente />
-      <Footer /> */}
+      <Expediente />
+      <Footer />
     </GlobalStorage>
   );
 };
