@@ -2,13 +2,13 @@ import { Trans } from "react-i18next";
 
 const BalancoTable = ({ data }) => {
   return (
-    <div className='py-12 px-4 sm:px-24'>
-      <div className='flex flex-col sm:flex-row justify-between items-end mb-8'>
+    <div className='py-12 px-32 max-1280:px-16 max-950:px-8 max-640:px-5'>
+      <div className='flex justify-between gap-5 items-end max-950:flex-col max-950:items-start max-640:gap-0  mb-8'>
         <h1 className='text-3xl sm:text-6xl'>
           <Trans i18nKey='balance.balance' />
         </h1>
 
-        <div className='w-full sm:w-[650px] mt-4 sm:mt-0'>
+        <div className='w-full mt-4 sm:mt-0'>
           <div className='overflow-x-auto'>
             <table className='w-full border-collapse'>
               <thead>

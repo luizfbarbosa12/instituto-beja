@@ -1,42 +1,70 @@
 import { HorizontalScrollCarousel } from "./HorizontalScrollCarousel";
+import { calcClamp } from "@/data/Utils";
+import { t } from "i18next";
+import { Trans } from "react-i18next";
+import ImageSlider from "../Animations/ImageSlider";
+import TextBlock from "../ui/TextBlock";
+import { Images } from "./../../assets/Index";
 
 const FinalSection = () => {
   return (
-    <>
-    <div className="py-12 px-4 sm:px-6 md:px-16 max-w-2xl sm:max-w-4xl md:max-w-7xl mx-auto">
-      <h1 className="font-serif text-left mb-6 sm:mb-8 md:mb-16 text-4xl sm:text-5xl md:text-[96px]">
-        Investimento de Impacto
-      </h1>
+    <div className='flex flex-col bg-porcelain'>
+      <img
+        src={Images.Filantropando.FilantropandoBanner}
+        alt={t("philanthropy.bannerAlt")}
+        className='w-full'
+      />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 md:gap-16 md:pl-70">
-        <div className="space-y-4 sm:space-y-6">
-          <p className="text-base sm:text-lg leading-relaxed">
-            <span className="font-bold">O Instituto Beja</span> está firmemente comprometido com a promoção de mudanças sociais e ambientais positivas e sustentáveis. Para isso, dedicamos parte de nossos recursos aos investimentos de impacto, uma abordagem que vai além do retorno financeiro tradicional. Nosso foco é gerar benefícios tangíveis para a sociedade e o meio ambiente, mostrando na prática como conciliar rentabilidade financeira com benefícios positivos.
-          </p>
+      <div className='flex flex-col justify-start gap-15 w-full py-15 pb-30 px-32 max-1280:px-16 max-1280:gap-14 max-896:px-8 max-896:gap-12 max-640:px-5 max-640:gap-4 max-640:py-10 max-640:pb-15'>
+        <h1
+          className='editorial'
+          style={{ fontSize: `clamp(${calcClamp(28, 96)})` }}
+        >
+          <Trans i18nKey='finalSection.title' />
+        </h1>
 
-          <p className="text-base sm:text-lg leading-relaxed">
-            Recentemente, decidimos compartilhar nossa carteira de investimentos, com o objetivo de inspirar o ecossistema filantrópico a seguir um caminho semelhante. A iniciativa busca demonstrar o potencial transformador dessa estratégia, ao combinar resultados econômicos com soluções sociais e ambientais.
-          </p>
+        <div className='w-full flex justify-end'>
+          <TextBlock
+            firstBlock={[
+              {
+                key: "first-0",
+                content: (
+                  <>
+                    <p>
+                      <Trans i18nKey='finalSection.p1' />
+                    </p>
+                    <p>
+                      <Trans i18nKey='finalSection.p2' />
+                    </p>
+                    <p>
+                      <Trans i18nKey='finalSection.p3' />
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+            secondBlock={[
+              {
+                key: "second-0",
+                content: (
+                  <>
+                    <p>
+                      <Trans i18nKey='finalSection.p4' />
+                    </p>
 
-          <p className="text-base sm:text-lg leading-relaxed">
-            Além das doações, o <span className="font-bold">Instituto Beja</span> adota uma estratégia diversificada de alocamento dos recursos enquanto não destinados diretamente à filantropia. Investimos em uma variedade de instrumentos financeiros que garantem a manutenção dos recursos, promovem rentabilidade e maximizam o benefício em áreas-chave, alinhadas às causas que apoiamos.
-          </p>
+                    <p>
+                      <Trans i18nKey='finalSection.p5' />
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+          />
         </div>
 
-        <div className="space-y-4 sm:space-y-6">
-          <p className="text-base sm:text-lg leading-relaxed">
-            Investimos em fundos de investimento direcionados às áreas de tecnologia, meio ambiente e educação, que buscam tanto retorno financeiro quanto impacto social e ambiental. Adicionalmente, engajamo-nos em debêntures que apoiam iniciativas alinhadas à nossa missão, incentivando soluções inovadoras e sustentáveis. Destacamos nosso papel como garantidores de fundos de empréstimo voltados para mulheres empreendedoras no Norte e Nordeste do Brasil. Essa iniciativa viabiliza acesso a linhas de créditos antes inacessíveis, proporcionando autonomia financeira e promovendo equidade de gênero, justiça social e racial. Os recursos garantidos são utilizados apenas em caso de inadimplência, criando um mecanismo eficaz e inovador de apoio. Além disso, adotamos abordagens de blended finance, integrando capital concessional com capital retornável, escalando o alcance e a eficácia de nossas ações.
-          </p>
-
-          <p className="text-base sm:text-lg leading-relaxed">
-            Ao compartilhar nossa abordagem, buscamos inspirar outras fundações e institutos a adotarem estratégias que conciliem impacto social e ambiental com a rentabilidade financeira.
-          </p>
-        </div>
+        <HorizontalScrollCarousel />
       </div>
     </div>
-
-    <HorizontalScrollCarousel />
-  </>
   );
 };
 

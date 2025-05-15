@@ -352,6 +352,17 @@
   "footer": {
     "copyright": "Since 2021"
   },
+  "finalSection": {
+    "title": "Investment and Impact",
+    "p1": "The <strong>Beja Institute</strong> is firmly committed to promoting positive and sustainable social and environmental change. To this end, we dedicate part of our resources to impact investments, an approach that goes beyond traditional financial returns. Our focus is on generating tangible benefits for society and the environment, showing in practice how to reconcile financial profitability with positive benefits.",
+    "p2": "We recently decided to share our investment portfolio, with the aim of inspiring the philanthropic ecosystem to follow a similar path. The initiative seeks to demonstrate the transformative potential of this strategy, by combining economic results with social and environmental solutions.",
+    "p3": "In addition to donations, the <strong>Beja Institute</strong> adopts a diversified strategy for allocating resources that are not directly earmarked for philanthropy. We invest in a variety of financial instruments that guarantee the maintenance of resources, promote profitability and maximize benefit in key areas aligned with the causes we support.",
+    "p4": "We invest in investment funds in the areas of technology, the environment and education, which seek both financial returns and social and environmental impact. In addition, we engage in debentures that support initiatives aligned with our mission, encouraging innovative and sustainable solutions. We highlight our role as guarantors of loan funds aimed at women entrepreneurs in the North and Northeast of Brazil. This initiative enables access to previously inaccessible credit lines, providing financial autonomy and promoting gender equity, social and racial justice. The guaranteed funds are only used in the event of default, creating an effective and innovative support mechanism. In addition, we have adopted blended finance approaches, integrating concessional capital with returnable capital, scaling the reach and effectiveness of our actions.",
+    "p5": "By sharing our approach, we aim to inspire other foundations and institutes to adopt strategies that reconcile social and environmental impact with financial profitability.",
+    "card1": "With the motto of generating economic, community and environmental value in every investment, this venture capital fund identifies entrepreneurs who seek to build companies at the service of society. It prioritizes businesses with cultures that incorporate best practices for all their stakeholders, creating more sustainable and inclusive models.",
+    "card2": "With a mission to fight poverty and climate change, the organization develops innovative, self-sustaining models that meet the needs of low- and middle-income communities. Its programs provide affordable products and services, connect markets for local goods and create sustainable income opportunities, promoting impact on local economic ecosystems.",
+    "card3": "A partner committed to democratizing positive impact investment, the organization makes it possible for anyone to contribute to the growth of businesses in the North and Northeast of Brazil. Through its RENOVA platform, based on direct collective loans, multiple investors can allocate resources directly to the businesses they most identify with."
+  },
   "balance": {
     "balance": "Balance",
     "project": "Project",

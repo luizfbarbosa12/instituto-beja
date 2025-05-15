@@ -15,7 +15,7 @@ const BejaHouseSection = () => {
       />
 
       <Wrapper>
-        <div className='flex flex-col gap-6 text-bourdeaux tablet:gap-16 pt-5 tablet:pt-20 pb-5 tablet:pb-60'>
+        <div className='flex flex-col gap-6 text-bourdeaux tablet:gap-16 pt-5 tablet:pt-20 pb-5 tablet:pb-60 max-640:gap-0 max-640:pb-15'>
           <h1 className='editorial text-[28px] leading-[65px] tablet:text-8xl tablet:leading-none'>
             <Trans i18nKey='bejaHouse.title' />
           </h1>
