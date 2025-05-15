@@ -5,21 +5,16 @@ import { Images } from "../../assets/Index";
 import { motion, useScroll, useTransform } from "framer-motion";
 import AnimatedHorizontalScroll from "./../ui/AnimatedHorizontalScroll";
 import CMEScrollTriggerList from "../ScrollTriggerCard/CMEScrollTriggerList/CMEScrollTriggerList.jsx";
-import {
-  AEPIE,
-  cmeActionList,
-  CMEPartners,
-  OSList,
-  VTCME,
-} from "../../data/cmeData";
-
 import { ArrowRightLink } from "../ui/ArrowRightLink.js";
 import { NoticeContainer } from "../ui/NoticeContainer.js";
 import { NoticeColumn } from "../ui/NoticeColumn.js";
 import { Trans } from "react-i18next";
 import { GlobalContext } from "../../context/GlobalContext.jsx";
+import { useCmeData } from "../../hooks/useCmeData.jsx";
 
 const CMESection = () => {
+  const { AEPIE, VTCME, getCMEPartners, cmeActionList, OSList } = useCmeData();
+
   const targetRef1 = useRef(null);
 
   const { language } = useContext(GlobalContext);
@@ -370,7 +365,7 @@ const CMESection = () => {
       </div>
 
       <div className='w-full px-32 max-1280:px-16 max-896:px-8 max-640:px-0'>
-        <CMEScrollTriggerList arr={CMEPartners} />
+        <CMEScrollTriggerList arr={getCMEPartners()} />
       </div>
     </div>
   );

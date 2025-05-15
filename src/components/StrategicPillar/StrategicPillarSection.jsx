@@ -19,13 +19,13 @@ const StrategicPillarSection = () => {
 
           <div className='flex flex-col tablet:flex-row items-start justify-end gap-12 tablet:gap-[9rem]'>
             {language ? (
-              <img src={Pillars} alt='Pilares Estratégicos' />
-            ) : (
               <img
                 src={engStrategicPillar}
                 alt='Strategic Pillars'
                 className='max-w-[532px] max-h-[572px]'
               />
+            ) : (
+              <img src={Pillars} alt='Pilares Estratégicos' />
             )}
             <p className='tablet:max-w-[29.5rem] text-base'>
               <Trans i18nKey='strategicPillar.p1' />

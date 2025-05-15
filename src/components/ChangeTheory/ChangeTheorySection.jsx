@@ -1,11 +1,11 @@
+import { useContext } from "react";
 import Wrapper from "../ui/Wrapper";
+import { Trans } from "react-i18next";
+const Image = "/assets/Ilustracao-8.png";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import { ArrowRightLink } from "../ui/ArrowRightLink";
 import { NoticeContainer } from "../ui/NoticeContainer";
-import { Trans } from "react-i18next";
-import { useContext } from "react";
 import { GlobalContext } from "../../context/GlobalContext";
-const Image = "/assets/Ilustracao-8.png";
 
 const ChangeTheorySection = () => {
   const { language } = useContext(GlobalContext);

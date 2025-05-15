@@ -1,16 +1,16 @@
-import { motion } from "framer-motion";
 import MVCard from "./MVCard";
+import { useContext } from "react";
 import Wrapper from "../ui/Wrapper";
 import { Trans } from "react-i18next";
-import { useContext } from "react";
-import { GlobalContext } from "./../../context/GlobalContext";
-
-const Clouds = "/assets/ilustracao-nuvens.png";
-const Mountains = "/assets/Ilustracao-1.webp";
+import { motion } from "framer-motion";
 const ProudHand = "/assets/Ilustracao-4.png";
+const Mountains = "/assets/Ilustracao-1.webp";
+const Clouds = "/assets/ilustracao-nuvens.png";
+import { GlobalContext } from "../../context/GlobalContext";
 
 const MissionValueSection = () => {
   const { language } = useContext(GlobalContext);
+
   return (
     <div className='relative not-tablet:pt-20 tablet:pt-40'>
       <img src={Clouds} alt='Cloud image' className='absolute z-10 right-0' />

@@ -1,10 +1,10 @@
+import { useContext } from "react";
 import Wrapper from "../ui/Wrapper";
+import { Trans } from "react-i18next";
 import { Images } from "../../assets/Index";
 import { NoticeColumn } from "../ui/NoticeColumn";
 import ImageSlider from "../Animations/ImageSlider";
 import { NoticeContainer } from "../ui/NoticeContainer";
-import { Trans } from "react-i18next";
-import { useContext } from "react";
 import { GlobalContext } from "../../context/GlobalContext";
 
 const BejaHouseSection = () => {
