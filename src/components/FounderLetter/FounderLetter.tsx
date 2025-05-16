@@ -110,17 +110,16 @@ const FounderLetter = () => {
         gsap.fromTo(
           ".beja-logo",
           {
-            top: "18rem",
+            top: "2rem",
             rotate: "-90deg",
           },
           {
             top: "90%",
             rotate: "270deg",
-            delay: 1,
             scrollTrigger: {
               trigger: ".letter",
-              start: "top 30%",
-              end: "top 0%",
+              start: "top 80%",
+              end: "bottom top",
               scrub: 2,
             },
           },
@@ -187,16 +186,16 @@ const FounderLetter = () => {
         gsap.fromTo(
           ".beja-logo",
           {
-            bottom: "78%",
+            top: "2rem",
             rotate: "-90deg",
           },
           {
-            bottom: "2.5rem",
+            top: "90%",
             rotate: "270deg",
             scrollTrigger: {
               trigger: ".letter",
-              start: "top 30%",
-              end: "top 0%",
+              start: "top 80%",
+              end: "bottom top",
               scrub: 2,
             },
           },
