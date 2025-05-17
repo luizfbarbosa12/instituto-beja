@@ -170,7 +170,57 @@ html.lenis body {
   --scale-diff: calc(var(--max-ts) - var(--min-ts));
   --vp-diff: calc(var(--max-vp) - var(--min-vp));
 
-  /* Calculate the viewport unit multiplier */
+  .swiper-button-next,
+.swiper-button-prev {
+  color: #b39567 !important;
+  background: rgba(255,255,255,0.85);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  color: #b39567 !important;
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  text-shadow: none !important;
+  border: none !important;
+}
+
+/* Remove color property from button itself to avoid override issues */
+.swiper-button-next,
+.swiper-button-prev {
+  /* color: #b39567 !important; */
+  background: rgba(255,255,255,0.85);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  z-index: 10;
+  pointer-events: auto;
+}
+
+
+.swiper-button-disabled {
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* Ensure arrows are above content */
+.swiper {
+  position: relative;
+}
+
   --vi-multiplier: calc((var(--max) - var(--min)) / var(--vp-diff));
 
   /* Calculate the base offset */
