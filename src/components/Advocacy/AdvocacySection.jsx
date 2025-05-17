@@ -630,7 +630,7 @@ const AdvocacySection = () => {
                   <img
                     src={Images.Secoes.PazJusticaImage}
                     alt={t("advocacy.sections.pactoPelaDemocracia.image.alt")}
-                    className='size-40 max-lg:size-32 max-sm:size-20'
+                    className='shrink-0 size-25 max-[880px]:size-20'
                   />
                 </>
               ),
