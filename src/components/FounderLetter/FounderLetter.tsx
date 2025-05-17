@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { useRef } from "react";
+import ReactMarkdown from "react-markdown";
 import { useGSAP } from "@gsap/react";
 import { useTranslation } from "react-i18next";
 const nuvens = "/assets/ilustracao-6-5.webp";
@@ -232,7 +233,9 @@ const FounderLetter = () => {
             </h1>
             <div className='letter-text text-sm leading-[160%] tablet:text-base flex flex-col gap-8 tablet:w-2/3 not-tablet:pb-50'>
               {paragraphs.map((text, index) => (
-                <p key={index}>{text}</p>
+                <div className="mb-4" key={index}>
+                  <ReactMarkdown>{text}</ReactMarkdown>
+                </div>
               ))}
               <p className='flex flex-col'>
                 {t("letter.signature")}

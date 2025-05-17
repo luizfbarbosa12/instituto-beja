@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { useRef } from "react";
+import ReactMarkdown from "react-markdown";
 import { useGSAP } from "@gsap/react";
 import { SectionTitle } from "../ui/SectionTitle";
 import { NoticeColumn } from "../ui/NoticeColumn";
@@ -76,18 +77,18 @@ export function FoundLetterToContextTransition() {
           <NoticeContainer className='max-w-250 self-end'>
             <NoticeColumn>
               <p>
-                <Trans i18nKey='context.block1.0' />
+                <ReactMarkdown>{t('context.block1.0')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block1.1' />
+                <ReactMarkdown>{t('context.block1.1')}</ReactMarkdown>
               </p>
             </NoticeColumn>
             <NoticeColumn>
               <p>
-                <Trans i18nKey='context.block1.2' />
+                <ReactMarkdown>{t('context.block1.2')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block1.2' />
+                <ReactMarkdown>{t('context.block1.2')}</ReactMarkdown>
               </p>
             </NoticeColumn>
           </NoticeContainer>
@@ -109,27 +110,27 @@ export function FoundLetterToContextTransition() {
           <NoticeContainer className='desktop:-mt-12 max-w-250 self-end'>
             <NoticeColumn>
               <p>
-                <Trans i18nKey='context.block2.0' />
+                <ReactMarkdown>{t('context.block2.0')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.1' />
+                <ReactMarkdown>{t('context.block2.1')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.2' />
+                <ReactMarkdown>{t('context.block2.2')}</ReactMarkdown>
               </p>
             </NoticeColumn>
             <NoticeColumn>
               <p>
-                <Trans i18nKey='context.block2.3' />
+                <ReactMarkdown>{t('context.block2.3')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.4' />
+                <ReactMarkdown>{t('context.block2.4')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.5' />
+                <ReactMarkdown>{t('context.block2.5')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.6' />
+                <ReactMarkdown>{t('context.block2.6')}</ReactMarkdown>
               </p>
               <p>
                 <Trans i18nKey='context.block2.7' />
