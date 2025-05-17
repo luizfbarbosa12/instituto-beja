@@ -51,7 +51,7 @@ const TopicListWithSub = ({ title, list }) => {
                     key={index}
                   >
                     <div className='size-3 mx-2 rounded-full border border-retro-ochre shrink-0 max-768:size-2' />
-                    <p>{item2}</p>
+                    <p dangerouslySetInnerHTML={{ __html: item2 }} />
                   </li>
                 ))}
               </ul>
