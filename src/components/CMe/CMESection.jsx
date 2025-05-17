@@ -134,9 +134,8 @@ const CMESection = () => {
                       fontSize: `clamp(${calcClamp(12, 24)})`,
                       lineHeight: `clamp(${calcClamp(12, 24)})`,
                     }}
-                  >
-                    {item}
-                  </p>
+                    dangerouslySetInnerHTML={{ __html: item }}
+                  />
                 </div>
               ))}
             </ul>
