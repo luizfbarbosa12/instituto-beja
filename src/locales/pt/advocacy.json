@@ -216,10 +216,8 @@
       "mcd": {
         "title": "Associação",
         "subtitle": "Vigência - 2024",
-        "block1": [
-          "<strong>O Movimento por uma Cultura de Doação (MCD) é uma rede aberta e democrática, composta por pessoas e organizações que, desde 2012, se mobilizam voluntariamente com o propósito de enraizar a prática da doação como um valor essencial à cultura brasileira.</strong> Dessa maneira, promove o altruísmo e a solidariedade. Por meio de campanhas colaborativas, produção de conhecimento e monitoramento do cenário de doação no Brasil, o <strong>MCD</strong> se engaja na construção de agendas estratégicas, fortalecendo a atuação do setor filantrópico.",
-          "Por meio de iniciativas como o <strong>Monitor de Doação</strong> e a produção de diretrizes e conhecimento especializado, o <strong>MCD</strong> busca ampliar a conscientização pública. Assim, fomenta uma sociedade mais generosa, solidária e participativa no apoio a causas sociais."
-        ]
+        "block1": "<strong>O Movimento por uma Cultura de Doação (MCD) é uma rede aberta e democrática, composta por pessoas e organizações que, desde 2012, se mobilizam voluntariamente com o propósito de enraizar a prática da doação como um valor essencial à cultura brasileira.</strong> Dessa maneira, promove o altruísmo e a solidariedade. Por meio de campanhas colaborativas, produção de conhecimento e monitoramento do cenário de doação no Brasil, o <strong>MCD</strong> se engaja na construção de agendas estratégicas, fortalecendo a atuação do setor filantrópico.",
+        "block2": "Por meio de iniciativas como o <strong>Monitor de Doação</strong> e a produção de diretrizes e conhecimento especializado, o <strong>MCD</strong> busca ampliar a conscientização pública. Assim, fomenta uma sociedade mais generosa, solidária e participativa no apoio a causas sociais."
       }
     }
   }

@@ -812,31 +812,27 @@ const AdvocacySection = () => {
         partnerName={"Movimento por uma Cultura de Doação (MCD)"}
       >
         <TextBlock
-          firstBlock={[
-            {
-              key: "first-0",
-              content: (
-                <>
-                  <p>
-                    <Trans i18nKey='advocacy.sections.mcd.block1.0' />
-                  </p>
-                </>
-              ),
-            },
-          ]}
-          secondBlock={[
-            {
-              key: "second-0",
-              content: (
-                <>
-                  <p>
-                    <Trans i18nKey='advocacy.sections.mcd.block1.' />
-                  </p>
-                </>
-              ),
-            },
-          ]}
-        />
+  firstBlock={[
+    {
+      key: "first-0",
+      content: (
+        <p>
+          <Trans i18nKey='advocacy.sections.mcd.block1' />
+        </p>
+      ),
+    },
+  ]}
+  secondBlock={[
+    {
+      key: "second-0",
+      content: (
+        <p>
+          <Trans i18nKey='advocacy.sections.mcd.block2' />
+        </p>
+      ),
+    },
+  ]}
+/>
       </PartnerSection>
     </div>
   );
