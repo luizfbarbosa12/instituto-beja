@@ -100,7 +100,7 @@ const PESTCard = ({
                   lineHeight: `clamp(${calcClamp(12 * 1.5, 32 * 1.5)})`,
                 }}
               >
-                {item}
+                <span dangerouslySetInnerHTML={{ __html: item }} />
               </li>
             ))}
           </ul>

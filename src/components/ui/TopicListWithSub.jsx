@@ -34,7 +34,7 @@ const TopicListWithSub = ({ title, list }) => {
                   lineHeight: `clamp(${calcClamp(12 * 1.5, 28 * 1.5)})`,
                 }}
               >
-                {item1.title}
+                <span dangerouslySetInnerHTML={{ __html: item1.title }} />
               </li>
 
               <ul

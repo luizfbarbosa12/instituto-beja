@@ -88,7 +88,7 @@ const BejaLabs = () => {
           list={t("bejaLabs.sections.ashoka.topicList.list1.topics", {
             returnObjects: true,
           })}
-          decimal={true}
+          decimal={false}
         />
       </PartnerSection>
 

@@ -34,7 +34,7 @@ const AdvocacySection = () => {
           />
 
           <h1 className='editorial text-5xl max-w-225 leading-15 text-center text-porcelain max-1025:w-full max-768:text-4xl max-768:leading-12 max-640:text-lg max-640:leading-normal'>
-            {t("advocacy.title")}
+            <Trans i18nKey="advocacy.title" />
           </h1>
         </div>
 

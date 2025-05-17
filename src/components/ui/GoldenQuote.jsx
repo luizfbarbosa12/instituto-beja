@@ -8,9 +8,8 @@ const GoldenQuote = ({ text, autor }) => {
           fontSize: `clamp(${calcClamp(16, 32)})`,
           lineHeight: `clamp(${calcClamp(24 * 1.1, 48 * 1.3)})`,
         }}
-      >
-        &quot;{text}&quot;
-      </p>
+        dangerouslySetInnerHTML={{ __html: text }}
+      />
 
       <cite
         style={{
