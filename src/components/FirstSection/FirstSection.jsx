@@ -37,17 +37,28 @@ const FirstSection = () => {
 
   return (
     <div className='bg-bourdeaux w-full flex flex-col min-h-screen relative overflow-hidden'>
-      <div className='flex w-full justify-between px-8 tablet:px-10 pt-15 tablet:pt-4'>
+      <div className='flex w-full justify-between px-8 tablet:px-10 pt-0 tablet:pt-2'>
         <p className='mt-4 tablet:mt-0 editorial text-porcelain text-2xl leading-[100%] tablet:text-4xl tablet:max-w-75 max-w-50 tablet:leading-14'>
           {t("firstSection.title")}
         </p>
 
-        <button
-          onClick={onClick}
-          className='size-10 bg-rose rounded-full flex-center flex-col gap-1 font-bold'
-        >
-          {i18n.language === "en" ? "EN" : "PT"}
-        </button>
+        <div className="flex gap-2 items-center">
+  <button
+    onClick={() => { setLanguage(false); i18n.changeLanguage("pt"); }}
+    className={`size-10 rounded-full flex items-center justify-center transition-all duration-150 ${i18n.language === "pt" ? "bg-rose text-white font-bold ring-2 ring-rose" : "bg-porcelain text-bourdeaux"}`}
+    aria-current={i18n.language === "pt"}
+  >
+    PT
+  </button>
+  <span className="text-bourdeaux font-bold">|</span>
+  <button
+    onClick={() => { setLanguage(true); i18n.changeLanguage("en"); }}
+    className={`size-10 rounded-full flex items-center justify-center transition-all duration-150 ${i18n.language === "en" ? "bg-rose text-white font-bold ring-2 ring-rose" : "bg-porcelain text-bourdeaux"}`}
+    aria-current={i18n.language === "en"}
+  >
+    EN
+  </button>
+</div>
       </div>
 
       <div className='relative w-full h-[64vh] left-0 tablet:h-[40vh] flex not-tablet:mt-16 '>
