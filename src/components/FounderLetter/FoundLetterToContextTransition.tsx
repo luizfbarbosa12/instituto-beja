@@ -59,7 +59,7 @@ export function FoundLetterToContextTransition() {
         <p className='max-w-68 text-3xl leading-[160%] tablet:text-6xl tablet:max-w-[1084px] mx-7 tablet:mx-32 flex flex-col gap-8 text-porcelain'>
           {t("context.invite.0")} <br className='hidden tablet:inline' />
           {t("context.invite.1")} <br className='hidden tablet:inline' />{" "}
-          {t("context.invite.2")}
+          <ReactMarkdown>{t("context.invite.2")}</ReactMarkdown>
         </p>
       </div>
       <div
