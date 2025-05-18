@@ -44,19 +44,29 @@ const FirstSection = () => {
           {t("firstSection.title")}
         </p>
 
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-0.5 items-center ml-2">
   <button
     onClick={() => { setLanguage(false); i18n.changeLanguage("pt"); }}
-    className={`size-10 rounded-full flex items-center justify-center transition-all duration-150 ${i18n.language === "pt" ? "bg-[#B39567] text-white font-bold ring-2 ring-[#B39567]" : "bg-porcelain text-bourdeaux"}`}
+    className={`px-2 py-1 text-lg font-normal transition-all duration-150
+      ${i18n.language === "pt" ? "text-[#B39567]" : "text-white"}
+      hover:text-[#B39567]
+      bg-transparent border-none outline-none shadow-none focus:outline-none focus:text-[#B39567]`
+    }
     aria-current={i18n.language === "pt"}
+    style={{ background: 'none', boxShadow: 'none' }}
   >
     PT
   </button>
   <span className="text-bourdeaux font-bold">|</span>
   <button
     onClick={() => { setLanguage(true); i18n.changeLanguage("en"); }}
-    className={`size-10 rounded-full flex items-center justify-center transition-all duration-150 ${i18n.language === "en" ? "bg-[#B39567] text-white font-bold ring-2 ring-[#B39567]" : "bg-porcelain text-bourdeaux"}`}
+    className={`px-2 py-1 text-lg font-normal transition-all duration-150
+      ${i18n.language === "en" ? "text-[#B39567]" : "text-white"}
+      hover:text-[#B39567]
+      bg-transparent border-none outline-none shadow-none focus:outline-none focus:text-[#B39567]`
+    }
     aria-current={i18n.language === "en"}
+    style={{ background: 'none', boxShadow: 'none' }}
   >
     EN
   </button>
