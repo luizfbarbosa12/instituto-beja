@@ -51,6 +51,14 @@ const Footer = () => {
             className='w-12 h-12 md:w-16 md:h-16 max-380:absolute max-380:right-0'
           />
         </div>
+        <div className="w-full flex justify-center mt-10">
+          <img
+            src="/assets/CC_BY-NC-SA.svg"
+            alt="Creative Commons CC BY NC SA"
+            className="h-8 md:h-10"
+            style={{ maxWidth: '220px', width: 'auto' }}
+          />
+        </div>
       </div>
     </div>
   );
