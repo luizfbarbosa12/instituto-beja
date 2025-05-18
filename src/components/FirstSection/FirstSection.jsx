@@ -3,6 +3,7 @@ import { memo, useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { GlobalContext } from "../../context/GlobalContext";
 import LogoHoverEffect from "./LogoHoverEffect";
+import VisitInstitutoBejaLink from "./VisitInstitutoBejaLink";
 
 const GoldGlobe = "/assets/cutedGoldGlobe.webp";
 
@@ -77,6 +78,9 @@ const FirstSection = () => {
         />
       </div>
       <DownloadButton />
+      <div className="pointer-events-auto z-40 flex absolute left-8 tablet:left-10 bottom-8 tablet:bottom-15">
+        <VisitInstitutoBejaLink />
+      </div>
     </div>
   );
 };
