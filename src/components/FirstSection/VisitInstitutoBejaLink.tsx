@@ -14,7 +14,7 @@ export default function VisitInstitutoBejaLink() {
       <span className="h-8 w-8 flex items-center justify-center">
         <Globe className="size-7 tablet:size-8 text-porcelain group-hover:text-rose transition-colors duration-200" strokeWidth={2.1} />
       </span>
-      <span className="text-base leading-[100%] text-porcelain font-bold whitespace-nowrap group-hover:text-rose transition-colors duration-200">
+      <span className="text-base leading-[100%] text-porcelain font-bold whitespace-nowrap group-hover:text-rose transition-colors duration-200 pl-2">
         {t("firstSection.visitInstituto")}
       </span>
     </a>
