@@ -47,7 +47,7 @@ const FirstSection = () => {
         <div className="flex gap-2 items-center">
   <button
     onClick={() => { setLanguage(false); i18n.changeLanguage("pt"); }}
-    className={`size-10 rounded-full flex items-center justify-center transition-all duration-150 ${i18n.language === "pt" ? "bg-rose text-white font-bold ring-2 ring-rose" : "bg-porcelain text-bourdeaux"}`}
+    className={`size-10 rounded-full flex items-center justify-center transition-all duration-150 ${i18n.language === "pt" ? "bg-[#B39567] text-white font-bold ring-2 ring-[#B39567]" : "bg-porcelain text-bourdeaux"}`}
     aria-current={i18n.language === "pt"}
   >
     PT
@@ -55,7 +55,7 @@ const FirstSection = () => {
   <span className="text-bourdeaux font-bold">|</span>
   <button
     onClick={() => { setLanguage(true); i18n.changeLanguage("en"); }}
-    className={`size-10 rounded-full flex items-center justify-center transition-all duration-150 ${i18n.language === "en" ? "bg-rose text-white font-bold ring-2 ring-rose" : "bg-porcelain text-bourdeaux"}`}
+    className={`size-10 rounded-full flex items-center justify-center transition-all duration-150 ${i18n.language === "en" ? "bg-[#B39567] text-white font-bold ring-2 ring-[#B39567]" : "bg-porcelain text-bourdeaux"}`}
     aria-current={i18n.language === "en"}
   >
     EN
