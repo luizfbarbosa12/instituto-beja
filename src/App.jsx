@@ -26,6 +26,7 @@ import {
 } from "./components/Index";
 import "./config/i18n";
 import { GlobalStorage } from "./context/GlobalContext";
+import ScrollDotsNav from "./components/ScrollDotsNav";
 
 const App = () => {
   gsap.registerPlugin(useGSAP);
@@ -49,25 +50,26 @@ const App = () => {
 
   return (
     <GlobalStorage>
-      <FirstSection />
-      <FounderLetter />
-      <FoundLetterToContextTransition />
-      <RebrandingSection />
-      <ManifestSection />
-      <MissionValueSection />
-      <BejaHouseSection />
-      <ChangeTheorySection />
-      <StrategicPillarSection />
-      <InteractionEcosystem />
-      <CMESection />
-      <AdvocacySection />
-      <KnowledgeSection />
-      <BejaLabs />
-      <PhilanthropySection />
-      <FinalSection />
-      <BalancoTable />
-      <Expediente />
-      <Footer />
+      <ScrollDotsNav />
+      <div id="first-section"><FirstSection /></div>
+      <div id="founder-letter"><FounderLetter /></div>
+      <div id="found-letter-to-context-transition"><FoundLetterToContextTransition /></div>
+      <div id="rebranding-section"><RebrandingSection /></div>
+      <div id="manifest-section"><ManifestSection /></div>
+      <div id="mission-value-section"><MissionValueSection /></div>
+      <div id="beja-house-section"><BejaHouseSection /></div>
+      <div id="change-theory-section"><ChangeTheorySection /></div>
+      <div id="strategic-pillar-section"><StrategicPillarSection /></div>
+      <div id="interaction-ecosystem"><InteractionEcosystem /></div>
+      <div id="cme-section"><CMESection /></div>
+      <div id="advocacy-section"><AdvocacySection /></div>
+      <div id="knowledge-section"><KnowledgeSection /></div>
+      <div id="beja-labs"><BejaLabs /></div>
+      <div id="philanthropy-section"><PhilanthropySection /></div>
+      <div id="final-section"><FinalSection /></div>
+      <div id="balanco-table"><BalancoTable /></div>
+      <div id="expediente"><Expediente /></div>
+      <div id="footer"><Footer /></div>
     </GlobalStorage>
   );
 };
