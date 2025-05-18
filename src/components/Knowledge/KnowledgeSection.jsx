@@ -927,7 +927,7 @@ const KnowledgeSection = () => {
                     title={<Trans i18nKey='knowledge.extra.knowSite' />}
                     subtitle={<Trans i18nKey='knowledge.extra.accessSite' />}
                     link={
-                      "https://relatorio20212022.pactopelademocracia.org.br/"
+                      "https://iagora.org/"
                     }
                   />
                 </>

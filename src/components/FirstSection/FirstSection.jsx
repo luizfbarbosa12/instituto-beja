@@ -73,11 +73,11 @@ const FirstSection = () => {
 </div>
       </div>
 
-      <div className='relative w-full h-[64vh] left-0 tablet:h-[40vh] flex not-tablet:mt-16 '>
+      <div className='relative w-full h-[64vh] left-0 tablet:h-[40vh] flex not-tablet:mt-16 p-0 m-0'>
         <LogoHoverEffect
           src='/assets/LOGO-16.png'
           alt={t("firstSection.logoAlt")}
-          className='absolute top-0 w-full z-10 -mt-8 max-w-290'
+          className='absolute top-0 left-0 z-10 -mt-8 max-w-290 p-0 m-0'
         />
         <img
           src={GoldGlobe}
