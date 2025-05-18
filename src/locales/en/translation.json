@@ -1,4 +1,26 @@
 {
+  "nav": {
+    "sections": {
+      "firstSection": "Home",
+      "founderLetter": "Letter from the Founder",
+      "foundLetterToContextTransition": "Welcome",
+      "rebranding": "Rebranding",
+      "manifest": "Manifesto",
+      "missionValue": "Mission & Values",
+      "bejaHouse": "Casa Beja",
+      "changeTheory": "Theory of Change",
+      "strategicPillar": "Strategic Pillars",
+      "interactionEcosystem": "Ecosystem",
+      "cme": "CMe",
+      "advocacy": "Advocacy",
+      "knowledge": "Knowledge",
+      "bejaLabs": "Beja Labs",
+      "philanthropy": "Philanthropy",
+      "finalSection": "Impact & Investment",
+      "balancoTable": "Balance Sheet",
+      "expediente": "Credits"
+    }
+  },
   "firstSection": {
     "title": "Annual Report 2024",
     "download": "Download the Annual Report 2024 in PDF here.",

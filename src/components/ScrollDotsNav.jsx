@@ -1,29 +1,31 @@
 import React, { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 // Define the sections in order as in App.jsx
 const SECTIONS = [
-  { id: 'first-section', label: ' ' },
-  { id: 'founder-letter', label: ' ' },
-  { id: 'found-letter-to-context-transition', label: ' ' },
-  { id: 'rebranding-section', label: ' ' },
-  { id: 'manifest-section', label: ' ' },
-  { id: 'mission-value-section', label: ' ' },
-  { id: 'beja-house-section', label: ' ' },
-  { id: 'change-theory-section', label: ' ' },
-  { id: 'strategic-pillar-section', label: ' ' },
-  { id: 'interaction-ecosystem', label: ' ' },
-  { id: 'cme-section', label: ' ' },
-  { id: 'advocacy-section', label: ' ' },
-  { id: 'knowledge-section', label: ' ' },
-  { id: 'beja-labs', label: ' ' },
-  { id: 'philanthropy-section', label: ' ' },
-  { id: 'final-section', label: ' ' },
-  { id: 'balanco-table', label: ' ' },
-  { id: 'expediente', label: ' ' },
+  { id: 'first-section', label: 'nav.sections.firstSection' },
+  { id: 'founder-letter', label: 'nav.sections.founderLetter' },
+  { id: 'found-letter-to-context-transition', label: 'nav.sections.foundLetterToContextTransition' },
+  { id: 'rebranding-section', label: 'nav.sections.rebranding' },
+  { id: 'manifest-section', label: 'nav.sections.manifest' },
+  { id: 'mission-value-section', label: 'nav.sections.missionValue' },
+  { id: 'beja-house-section', label: 'nav.sections.bejaHouse' },
+  { id: 'change-theory-section', label: 'nav.sections.changeTheory' },
+  { id: 'strategic-pillar-section', label: 'nav.sections.strategicPillar' },
+  { id: 'interaction-ecosystem', label: 'nav.sections.interactionEcosystem' },
+  { id: 'cme-section', label: 'nav.sections.cme' },
+  { id: 'advocacy-section', label: 'nav.sections.advocacy' },
+  { id: 'knowledge-section', label: 'nav.sections.knowledge' },
+  { id: 'beja-labs', label: 'nav.sections.bejaLabs' },
+  { id: 'philanthropy-section', label: 'nav.sections.philanthropy' },
+  { id: 'final-section', label: 'nav.sections.finalSection' },
+  { id: 'balanco-table', label: 'nav.sections.balancoTable' },
+  { id: 'expediente', label: 'nav.sections.expediente' },
 ];
 
 function ScrollDotsNav() {
   const [activeIdx, setActiveIdx] = useState(0);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -54,16 +56,28 @@ function ScrollDotsNav() {
   return (
     <div className="fixed top-1/2 right-6 z-50 -translate-y-1/2 flex flex-col gap-2 items-center">
       {SECTIONS.map((section, idx) => (
-        <button
-          key={section.id}
-          aria-label={`Go to section ${idx + 1}`}
-          className={`w-4 h-4 rounded-full border-2 transition-all duration-200
-            ${idx === activeIdx
-              ? 'bg-[#b39567] border-[#b39567] scale-125 shadow-lg'
-              : 'bg-porcelain border-[1.5px] border-[#b39567] opacity-80'}
-          `}
-          onClick={() => handleDotClick(idx)}
-        />
+        <div key={section.id} className="relative flex items-center">
+          <button
+            aria-label={t(section.label)}
+            className={`w-4 h-4 rounded-full border-2 transition-all duration-200
+              ${idx === activeIdx
+                ? 'bg-[#b39567] border-[#b39567] scale-125 shadow-lg'
+                : 'bg-porcelain border-[1.5px] border-[#b39567] opacity-80'}
+            `}
+            onClick={() => handleDotClick(idx)}
+            onMouseEnter={e => e.currentTarget.parentElement.querySelector('.dot-tooltip').style.opacity = 1}
+            onMouseLeave={e => e.currentTarget.parentElement.querySelector('.dot-tooltip').style.opacity = 0}
+          />
+          <span
+            className={
+              `dot-tooltip pointer-events-none absolute right-7 top-1/2 -translate-y-1/2 bg-[#b39567] text-white text-xs py-1 rounded shadow-lg whitespace-nowrap opacity-0 transition-opacity duration-200 flex justify-center items-center ` +
+              ((t(section.label).length <= 5) ? 'px-2 min-w-0 text-center' : 'px-3 min-w-[80px] text-right')
+            }
+            style={{zIndex: 99, maxWidth: 200}}
+          >
+            {t(section.label)}
+          </span>
+        </div>
       ))}
     </div>
   );
