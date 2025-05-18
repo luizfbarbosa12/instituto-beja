@@ -13,15 +13,15 @@ function DownloadButton() {
     <a
       href={t("firstSection.downloadUrl")}
       download
-      className='absolute bottom-20 not-tablet:mr-15 tablet:bottom-1/5 flex items-center justify-self-end gap-2 tablet:gap-4 z-10 px-8'
+      className="absolute bottom-20 not-tablet:mr-15 tablet:bottom-1/5 flex items-center gap-2 tablet:gap-4 z-10 px-0 py-0 group w-fit"
+      style={{ textDecoration: "none" }}
     >
-      <div className='h-8 w-8 tablet:h-10 tablet:w-10 rounded-full bg-rose p-2 flex-center'>
-        <Icon.ArrowDown className='size-8 tablet:*:size-10' />
-      </div>
-
-      <p className='text-base leading-[100%] text-rose'>
+      <span className="h-8 w-8 flex items-center justify-center rounded-full bg-rose/80 group-hover:bg-rose transition-colors duration-200">
+        <Icon.ArrowDown className="size-7 tablet:size-8 text-porcelain group-hover:text-rose transition-colors duration-200" />
+      </span>
+      <span className="text-base leading-[100%] text-porcelain font-bold whitespace-nowrap group-hover:text-rose transition-colors duration-200">
         {t("firstSection.download")}
-      </p>
+      </span>
     </a>
   );
 }
@@ -77,9 +77,11 @@ const FirstSection = () => {
           className='absolute h-[60vh] w-auto max-w-fit top-2 -right-40 tablet:-right-22 tablet:h-[80vh]'
         />
       </div>
-      <DownloadButton />
-      <div className="pointer-events-auto z-40 flex absolute left-8 tablet:left-10 bottom-8 tablet:bottom-15">
-        <VisitInstitutoBejaLink />
+      <div className="flex flex-col items-start gap-4 z-30 absolute left-8 tablet:left-10 bottom-20 tablet:bottom-24">
+        <DownloadButton />
+        <div className="mt-60">
+          <VisitInstitutoBejaLink />
+        </div>
       </div>
     </div>
   );

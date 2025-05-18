@@ -12,9 +12,9 @@ export default function VisitInstitutoBejaLink() {
       style={{ textDecoration: "none" }}
     >
       <span className="h-8 w-8 flex items-center justify-center">
-        <Globe className="size-7 tablet:size-8 text-rose group-hover:text-gold transition-colors duration-200" strokeWidth={2.1} />
+        <Globe className="size-7 tablet:size-8 text-porcelain group-hover:text-rose transition-colors duration-200" strokeWidth={2.1} />
       </span>
-      <span className="text-base leading-[100%] text-rose font-bold whitespace-nowrap">
+      <span className="text-base leading-[100%] text-porcelain font-bold whitespace-nowrap group-hover:text-rose transition-colors duration-200">
         {t("firstSection.visitInstituto")}
       </span>
     </a>
