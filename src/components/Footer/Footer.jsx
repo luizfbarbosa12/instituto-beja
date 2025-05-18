@@ -48,19 +48,12 @@ const Footer = () => {
           </div>
 
           <img
-            src='/assets/logo-desenho-beja-branco.svg'
+            src='assets/logo-desenho-beja-branco.svg'
             alt='Instituto Beja'
             className='w-32 h-32 md:w-48 md:h-48 max-380:absolute max-380:right-0'
           />
         </div>
-        <div className="w-full flex justify-center mt-10">
-          <img
-            src="/assets/CC_BY-NC-SA.svg"
-            alt="Creative Commons CC BY NC SA"
-            className="h-8 md:h-10"
-            style={{ maxWidth: '220px', width: 'auto' }}
-          />
-        </div>
+        
       </div>
     </div>
   );
