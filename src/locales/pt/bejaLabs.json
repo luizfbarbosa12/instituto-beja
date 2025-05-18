@@ -11,7 +11,7 @@
       "ashoka": {
         "title": "Supported Event",
         "subtitle": "Vigência - 2024 a 2026",
-        "partnerName": "Lab Nova Longevidade Ashoka / Itaú Viver Mais / Instituto Beja",
+        "partnerName": "Lab Nova Longevidade<br>Ashoka | Itaú Viver Mais | Instituto Beja",
         "blocks": {
           "block1": {
             "fs": {
@@ -66,7 +66,7 @@
           },
           "block2": {
             "fs": {
-              "p1": "Para ampliar o alcance e engajamento, foi lançado um site exclusivo contendo insights detalhados, um mapa interativo e relatórios disponíveis para <i>download</i>."
+              "p1": "Para ampliar o alcance e engajamento, foi lançado um site exclusivo contendo <i>insights</i> detalhados, um mapa interativo e relatórios disponíveis para <i>download</i>."
             },
             "ss": {}
           },
@@ -95,7 +95,7 @@
             ]
           },
           "list2": {
-            "title": "O tema educação emergiu relacionado à:",
+            "title": "",
             "topics": [
               "Entre Outubro e Dezembro de 2024, o site registrou 942 novos usuários, gerando 2,9 mil de pageviews.",
               "Até 2 de janeiro de 2025, 134 <i>downloads</i> do relatório foram realizados.",
@@ -152,7 +152,7 @@
             "topics": [
               "Entrevistas estratégicas: realizadas com representantes de órgãos públicos, setor privado, academia e iniciativas sociais. Entre os participantes estão a Secretaria Nacional de Direitos da Pessoa Idosa, Grupo RD Saúde, Talento Sênior e Fórum Gerações e Futuro do Trabalho, entre outros.",
               "Conexões com organizações relevantes: parcerias estabelecidas com instituições como SESG, Sanofi, Insper, FGV EAESP, MedSênior, Sírio Libanês, Catalyst 2030, BID, ThinkOlga, Ministério Público de Pernambuco, entre outros.",
-              "Colaboração com empreendedores da rede Ashoka: engajamento com empreendedores que atuam com longevidade, incluindo Gabriela Agustini (Olahi), João Souza (Facela), João Paulo Nogueira (Cuidador de Confiança), Sérgio Serapião (Labora), Karen Woreman (Museu da Pessoa), entre outros."
+              "Colaboração com empreendedores da rede Ashoka: engajamento com empreendedores que atuam com longevidade, incluindo Gabriela Agustini (Olabi), João Souza (Fa.vela), João Paulo Nogueira (Cuidador de Confiança), Sérgio Serapião (Labora), Karen Woreman (Museu da Pessoa), entre outros."
             ]
           },
           "list2": {
