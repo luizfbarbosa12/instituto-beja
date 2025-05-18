@@ -13,7 +13,7 @@ function DownloadButton() {
     <a
       href={t("firstSection.downloadUrl")}
       download
-      className="absolute bottom-20 not-tablet:mr-15 tablet:bottom-1/5 flex items-center gap-2 tablet:gap-4 z-10 px-0 py-0 group w-fit"
+      className="absolute bottom-12 tablet:bottom-10 not-tablet:mr-15 tablet:bottom-1/5 flex items-center gap-2 tablet:gap-4 z-10 px-0 py-0 group w-fit"
       style={{ textDecoration: "none" }}
     >
       <span className="h-8 w-8 flex items-center justify-center rounded-full bg-porcelain group-hover:bg-[#B39567] transition-colors duration-200">
@@ -45,51 +45,51 @@ const FirstSection = () => {
         </p>
 
         <div className="flex gap-0.5 items-center ml-2">
-  <button
-    onClick={() => { setLanguage(false); i18n.changeLanguage("pt"); }}
-    className={`px-2 py-1 text-lg font-normal transition-all duration-150
-      ${i18n.language === "pt" ? "text-[#B39567]" : "text-white"}
-      hover:text-[#B39567]
-      bg-transparent border-none outline-none shadow-none focus:outline-none focus:text-[#B39567]`
-    }
-    aria-current={i18n.language === "pt"}
-    style={{ background: 'none', boxShadow: 'none' }}
-  >
-    PT
-  </button>
-  <span className="text-bourdeaux font-bold">|</span>
-  <button
-    onClick={() => { setLanguage(true); i18n.changeLanguage("en"); }}
-    className={`px-2 py-1 text-lg font-normal transition-all duration-150
-      ${i18n.language === "en" ? "text-[#B39567]" : "text-white"}
-      hover:text-[#B39567]
-      bg-transparent border-none outline-none shadow-none focus:outline-none focus:text-[#B39567]`
-    }
-    aria-current={i18n.language === "en"}
-    style={{ background: 'none', boxShadow: 'none' }}
-  >
-    EN
-  </button>
-</div>
+          <button
+            onClick={() => { setLanguage(false); i18n.changeLanguage("pt"); }}
+            className={`px-2 py-1 text-lg font-normal transition-all duration-150
+              ${i18n.language === "pt" ? "text-[#B39567]" : "text-white"}
+              hover:text-[#B39567]
+              bg-transparent border-none outline-none shadow-none focus:outline-none focus:text-[#B39567]`
+            }
+            aria-current={i18n.language === "pt"}
+            style={{ background: 'none', boxShadow: 'none' }}
+          >
+            PT
+          </button>
+          <span className="text-bourdeaux font-bold">|</span>
+          <button
+            onClick={() => { setLanguage(true); i18n.changeLanguage("en"); }}
+            className={`px-2 py-1 text-lg font-normal transition-all duration-150
+              ${i18n.language === "en" ? "text-[#B39567]" : "text-white"}
+              hover:text-[#B39567]
+              bg-transparent border-none outline-none shadow-none focus:outline-none focus:text-[#B39567]`
+            }
+            aria-current={i18n.language === "en"}
+            style={{ background: 'none', boxShadow: 'none' }}
+          >
+            EN
+          </button>
+        </div>
       </div>
 
       <div className='relative w-full h-[64vh] left-0 tablet:h-[40vh] flex not-tablet:mt-16 p-0 m-0'>
         <LogoHoverEffect
           src='/assets/LOGO-16.png'
           alt={t("firstSection.logoAlt")}
-          className='absolute top-0 left-0 z-10 -mt-8 max-w-290 p-0 m-0'
+          className='absolute left-1/2 top-1/5 -translate-x-1/2 z-10 max-w-[440px] tablet:-mt-8 tablet:max-w-290 p-0 m-0'
         />
         <img
           src={GoldGlobe}
           fetchPriority='high'
           loading='eager'
           alt={t("firstSection.globeAlt")}
-          className='absolute h-[60vh] w-auto max-w-fit top-2 -right-40 tablet:-right-22 tablet:h-[80vh]'
+          className='absolute h-[60vh] w-auto max-w-fit top-32 -right-40 tablet:-right-22 tablet:h-[80vh]'
         />
       </div>
       <div className="flex flex-col items-start gap-4 z-30 absolute left-8 tablet:left-10 bottom-20 tablet:bottom-24">
         <DownloadButton />
-        <div className="mt-60">
+        <div className="mt-72 tablet:mt-60">
           <VisitInstitutoBejaLink />
         </div>
       </div>
