@@ -16,10 +16,10 @@ function DownloadButton() {
       className="absolute bottom-20 not-tablet:mr-15 tablet:bottom-1/5 flex items-center gap-2 tablet:gap-4 z-10 px-0 py-0 group w-fit"
       style={{ textDecoration: "none" }}
     >
-      <span className="h-8 w-8 flex items-center justify-center rounded-full bg-porcelain group-hover:bg-rose transition-colors duration-200">
-        <Icon.ArrowDown className="size-7 tablet:size-8 text-[#210704] group-hover:text-porcelain transition-colors duration-200" />
+      <span className="h-8 w-8 flex items-center justify-center rounded-full bg-porcelain group-hover:bg-[#B39567] transition-colors duration-200">
+        <Icon.ArrowDown className="size-7 tablet:size-8 text-[#210704] group-hover:text-[#210704] transition-colors duration-200" />
       </span>
-      <span className="text-base leading-[100%] text-porcelain font-bold whitespace-nowrap group-hover:text-rose transition-colors duration-200">
+      <span className="text-base leading-[100%] text-porcelain font-bold whitespace-nowrap group-hover:text-[#B39567] transition-colors duration-200">
         {t("firstSection.download")}
       </span>
     </a>
