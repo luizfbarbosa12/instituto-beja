@@ -1,6 +1,7 @@
 import gsap from "gsap";
 import Lenis from "lenis";
 import { useEffect } from "react";
+import { useSEO } from "@/hooks/useSEO";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import BejaLabs from "./components/BejaLabs/BejaLabs";
@@ -29,6 +30,19 @@ import { GlobalStorage } from "./context/GlobalContext";
 import ScrollDotsNav from "./components/ScrollDotsNav";
 
 const App = () => {
+  // SEO global (ajuste conforme necessário, apenas metadados)
+  useSEO({
+    title: "Relatório Beja 2024 | Instituto Beja",
+    description: "Relatório de demonstração do exercício de 2024 do Instituto Beja.",
+    keywords: "Instituto Beja, Beja Labs, Filantropia, Advocacy, Conhecimento, Educação, Impacto Social, Inovação, Transformação, Crianças, Jovens, Comunidade, Brasil, Relatório, Propósito, Missão, Educação Transformadora, Juventude, Sociedade, Philanthropy, Advocacy, Knowledge, Education, Social Impact, Innovation, Transformation, Children, Youth, Community, Brazil, Report, Purpose, Mission, Transformative Education, Society, Social Change",
+    ogTitle: "Relatório Beja 2024 | Instituto Beja",
+    ogDescription: "Relatório de demonstração do exercício de 2024 do Instituto Beja.",
+    ogImage: "https://institutobeja.com/favicon.ico",
+    twitterTitle: "Relatório Beja 2024 | Instituto Beja",
+    twitterDescription: "Relatório de demonstração do exercício de 2024 do Instituto Beja.",
+    twitterImage: "https://institutobeja.com/favicon.ico",
+    lang: "pt"
+  });
   gsap.registerPlugin(useGSAP);
   gsap.registerPlugin(ScrollTrigger);
 
