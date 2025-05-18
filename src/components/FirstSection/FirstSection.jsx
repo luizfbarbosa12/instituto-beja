@@ -2,6 +2,7 @@ import * as Icon from "@phosphor-icons/react";
 import { memo, useContext } from "react";
 import { useTranslation } from "react-i18next";
 import { GlobalContext } from "../../context/GlobalContext";
+import LogoHoverEffect from "./LogoHoverEffect";
 
 const GoldGlobe = "/assets/cutedGoldGlobe.webp";
 
@@ -62,7 +63,7 @@ const FirstSection = () => {
       </div>
 
       <div className='relative w-full h-[64vh] left-0 tablet:h-[40vh] flex not-tablet:mt-16 '>
-        <img
+        <LogoHoverEffect
           src='/assets/LOGO-16.png'
           alt={t("firstSection.logoAlt")}
           className='absolute top-0 w-full z-10 -mt-8 max-w-290'
