@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import AnimatedFooterLogo from './AnimatedFooterLogo';
 
 const Footer = () => {
   const [t] = useTranslation();
@@ -11,7 +12,7 @@ const Footer = () => {
             href="https://www.institutobeja.org"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-serif text-base hover:text-[#FFD700] transition-colors"
+            className="hover:text-[#FFD700] transition-colors"
           >
             institutobeja.org
           </a>
@@ -41,15 +42,15 @@ const Footer = () => {
               href='mailto:contato@institutobeja.org'
               className='hover:text-[#FFD700] transition-colors flex items-center gap-2'
             >
-              <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="inline w-6 h-6"><path d="M12 13.065c-.321 0-.637-.098-.902-.283L.01 4.434C.04 4.423.07 4.413.1 4.402c.225-.08.466-.123.71-.123h22.38c.244 0 .485.043.71.123.03.011.06.021.09.032l-11.09 8.348c-.265.185-.581.283-.902.283zm12-8.063v13.996c0 .552-.448 1-1 1H1c-.552 0-1-.448-1-1V5.002c0-.229.079-.44.209-.609l10.818 8.137c.564.424 1.368.424 1.932 0l10.818-8.137c.13.169.209.38.209.609z"/></svg>
-              Email
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="inline w-6 h-6"><rect x="3" y="6" width="18" height="12" rx="3" stroke="currentColor" strokeWidth="1.5" fill="none"/><path d="M3 7l9 7 9-7" stroke="currentColor" strokeWidth="1.5" fill="none"/></svg>
+              <span title="Enviar email">Email</span>
             </a>
           </div>
 
           <img
             src='/assets/logo-desenho-beja-branco.svg'
             alt='Instituto Beja'
-            className='w-12 h-12 md:w-16 md:h-16 max-380:absolute max-380:right-0'
+            className='w-32 h-32 md:w-48 md:h-48 max-380:absolute max-380:right-0'
           />
         </div>
         <div className="w-full flex justify-center mt-10">
