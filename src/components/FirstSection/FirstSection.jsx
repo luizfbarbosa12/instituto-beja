@@ -38,7 +38,7 @@ const FirstSection = () => {
   return (
     <div className='bg-bourdeaux w-full flex flex-col min-h-screen relative overflow-hidden'>
       <div className='flex w-full justify-between px-8 tablet:px-10 pt-0 tablet:pt-2'>
-        <p className='mt-4 tablet:mt-0 editorial text-porcelain text-2xl leading-[100%] tablet:text-4xl tablet:max-w-75 max-w-50 tablet:leading-14'>
+        <p className='mt-4 tablet:mt-0 editorial text-porcelain text-xl leading-[100%] tablet:text-2xl tablet:max-w-75 max-w-50 tablet:leading-10 whitespace-nowrap'>
           {t("firstSection.title")}
         </p>
 
