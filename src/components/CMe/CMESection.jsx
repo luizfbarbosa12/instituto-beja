@@ -226,7 +226,7 @@ const CMESection = () => {
           style={{ fontSize: `clamp(${calcClamp(24, 48)})` }}
           className={`text-cyan font-bold w-full`}
         >
-          <Trans i18nKey='cme.transformationVision.title' />,
+          <Trans i18nKey='cme.transformationVision.title' />
         </h1>
 
         <AnimatedHorizontalScroll map={VTCMEmap} />
@@ -240,7 +240,7 @@ const CMESection = () => {
           }}
           className={`text-cyan font-bold w-full`}
         >
-          <Trans i18nKey='cme.exponentialJourney.title' />,
+          <Trans i18nKey='cme.exponentialJourney.title' />
         </h1>
 
         <div className='flex flex-col gap-30 w-[66rem] max-[1325px]:w-full'>
@@ -251,11 +251,11 @@ const CMESection = () => {
                 content: (
                   <>
                     <p>
-                      <Trans i18nKey='cme.exponentialJourney.p1' />,
+                      <Trans i18nKey='cme.exponentialJourney.p1' />
                     </p>
 
                     <p>
-                      <Trans i18nKey='cme.exponentialJourney.p2' />,
+                      <Trans i18nKey='cme.exponentialJourney.p2' />
                     </p>
                   </>
                 ),
