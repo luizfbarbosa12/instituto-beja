@@ -62,7 +62,7 @@ const CMESection = () => {
 
   return (
     <div className='flex flex-col bg-peach w-full gap-50 pb-50 max-1280:gap-25 max-768:gap-20'>
-      <div className='flex w-full items-center relative py-32 min-h-screen px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:justify-center max-768:items-start overflow-hidden'>
+      <div className='flex w-full items-center relative py-0 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:justify-center max-768:items-start overflow-hidden'>
         <img
           src={Images.CME.CentroME}
           alt='Centro de mudanças exponencias'
@@ -70,13 +70,13 @@ const CMESection = () => {
             width: `clamp(${calcClamp(291, 582)})`,
             height: `clamp(${calcClamp(54, 108)})`,
           }}
-          className='max-768:relative max-768:-right-55 max-640:-right-52.5 max-460:-right-50 max-420:-right-45 max-380:-right-40 max-360:-right-36'
+          className='block m-0 p-0 max-768:relative max-768:-right-55 max-640:-right-52.5 max-460:-right-50 max-420:-right-45 max-380:-right-40 max-360:-right-36'
         />
 
         <img
           src={Images.CME.CMEWheel}
           alt='Roda CME'
-          className='relative -right-35 max-1280:-right-15 max-1080:-right-0 max-768:top-60 max-768:right-10 max-640:right-20 max-460:right-25'
+          className='block m-0 p-0 relative -right-35 max-1280:-right-15 max-1080:-right-0 max-768:top-60 max-768:right-10 max-640:right-20 max-460:right-25'
           style={{
             width: `clamp(${calcClamp(851, 1171)})`,
             height: `clamp(${calcClamp(771, 1062)})`,
@@ -84,7 +84,7 @@ const CMESection = () => {
         />
       </div>
 
-      <div className='flex flex-col items-end w-full gap-15 pt-20 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:gap-5'>
+      <div className='flex flex-col items-end w-full gap-15 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:gap-5'>
         <h1
           style={{ fontSize: `clamp(${calcClamp(32, 64)})` }}
           className='text-hot-coral editorial w-full'
@@ -303,9 +303,9 @@ const CMESection = () => {
         </h1>
 
         {language ? (
-          <img src={Images.CME.EngCmeGrafico} alt='CME Graphic (EN)' />
+          <img src={Images.CME.CMEGrafico} alt='CME Grafico' />
         ) : (
-          <img src={Images.CME.CMEGrafico} alt='Gráfico CME (PT)' />
+          <img src={Images.CME.EngCmeGrafico} alt='CME Grafico' />
         )}
       </div>
 
