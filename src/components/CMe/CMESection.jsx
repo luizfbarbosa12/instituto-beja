@@ -303,9 +303,9 @@ const CMESection = () => {
         </h1>
 
         {language ? (
-          <img src={Images.CME.CMEGrafico} alt='CME Grafico' />
+          <img src={Images.CME.EngCmeGrafico} alt='CME Graphic (EN)' />
         ) : (
-          <img src={Images.CME.EngCmeGrafico} alt='CME Grafico' />
+          <img src={Images.CME.CMEGrafico} alt='Gráfico CME (PT)' />
         )}
       </div>
 

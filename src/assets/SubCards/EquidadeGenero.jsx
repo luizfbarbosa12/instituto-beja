@@ -9,14 +9,14 @@ const EquidadeGeneroCard = () => {
     <>
       {language ? (
         <img
-          src={"/assets/EquidadeGenero.svg"}
-          alt={"Sub card"}
+          src={"/assets/engEquidadeGenero.svg"}
+          alt={"Gender Equity Subcard (EN)"}
           className='h-6 w-fit max-sm:h-3'
         />
       ) : (
         <img
-          src={"/assets/engEquidadeGenero.svg"}
-          alt={"Sub card"}
+          src={"/assets/EquidadeGenero.svg"}
+          alt={"Subcartão Equidade de Gênero (PT)"}
           className='h-6 w-fit max-sm:h-3'
         />
       )}
