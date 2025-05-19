@@ -9,13 +9,13 @@
         "blocks": {
           "block1": {
             "fs": {
-              "p1": "A <strong>PIPA</strong> é uma organização criada para democratizar o acesso ao investimento social privado e à filantropia no Brasil. Sua missão é ser uma ponte eficaz entre financiadores e coletivos, movimentos e organizações de base situados em favelas e periferias, historicamente excluídos dos centros de poder. Por meio de diagnósticos, ferramentas e ações, a PIPA trabalha para assegurar que esses recursos cheguem aos territórios de maneira ampla e equitativa, considerando as dimensões de raça, gênero e classe."
+              "p1": "A <strong>PIPA</strong> é uma organização criada para democratizar o acesso ao investimento social privado e à filantropia no Brasil. Sua missão é ser uma ponte eficaz entre financiadores e coletivos, movimentos e organizações de base situados em favelas e periferias, historicamente excluídos dos centros de poder. Por meio de diagnósticos, ferramentas e ações, a <strong>PIPA</strong> trabalha para assegurar que esses recursos cheguem aos territórios de maneira ampla e equitativa, considerando as dimensões de raça, gênero e classe."
             },
             "ss": {}
           },
           "block2": {
             "fs": {
-              "p1": "\"As periferias tem respostas\"",
+              "p1": "As periferias têm respostas.",
               "p2": "— PIPA"
             },
             "ss": {
@@ -129,19 +129,19 @@
           "quote1": {
             "cite": "Raissa Ventura, Pesquisadora",
             "quote": [
-              "“Nossa proposta é nos formar e formar uma rede de pessoas que possam vir a pensar a filantropia do ponto de vista da nossa caixa de ferramentas, que é a teoria política e a filosofia política.”"
+              "Nossa proposta é nos formar e formar uma rede de pessoas que possam vir a pensar a filantropia do ponto de vista da nossa caixa de ferramentas, que é a teoria política e a filosofia política."
             ]
           },
           "quote2": {
             "cite": "Raissa Ventura, Pesquisadora",
             "quote": [
-              "“Pensar, imaginar, qual filantropia queremos para uma sociedade democrática e profundamente desigual. Em que, obviamente, o estado não é capaz de responder a todas as demandas sociais.”"
+              "Pensar, imaginar, qual filantropia queremos para uma sociedade democrática e profundamente desigual. Em que, obviamente, o estado não é capaz de responder a todas as demandas sociais."
             ]
           },
           "quote3": {
             "cite": "Raissa Ventura, Pesquisadora",
             "quote": [
-              "“É preciso entender o que a filantropia está ou não financiando. Entendemos a filantropia como um lugar onde o estado não está chegando, onde o estado não está fazendo o seu papel como, por exemplo, arte e alta cultura. Mas e quando a filantropia começa a financiar movimentos de direita e extrema direita? E quando a filantropia começa a ocupar o lugar do estado?”"
+              "É preciso entender o que a filantropia está ou não financiando. Entendemos a filantropia como um lugar onde o estado não está chegando, onde o estado não está fazendo o seu papel como, por exemplo, arte e alta cultura. Mas e quando a filantropia começa a financiar movimentos de direita e extrema direita? E quando a filantropia começa a ocupar o lugar do estado?"
             ]
           }
         },
@@ -206,13 +206,13 @@
           "quote1": {
             "cite": "ALINE ODARA, Diretora Executiva",
             "quote": [
-              "“A gente recebe muito esse tipo de questionamento de outros doadores: 'Ah! Mas outros Institutos já fazem pesquisa, porque vocês querem fazer também?' Mas não bastam dois institutos de pessoas negras, isso não representa tudo. Institutos de pessoas brancas têm aos montes.”"
+              "A gente recebe muito esse tipo de questionamento de outros doadores: 'Ah! Mas outros Institutos já fazem pesquisa, porque vocês querem fazer também?' Mas não bastam dois institutos de pessoas negras, isso não representa tudo. Institutos de pessoas brancas têm aos montes."
             ]
           },
           "quote2": {
             "cite": "ALINE ODARA, Diretora Executiva",
             "quote": [
-              "“Mulheres negras produzindo conhecimento e salvaguardando a nossa memória também é um importante instrumento emancipatório. As soluções são produzidas por mulheres negras há muito tempo.”"
+              "Mulheres negras produzindo conhecimento e salvaguardando a nossa memória também é um importante instrumento emancipatório. As soluções são produzidas por mulheres negras há muito tempo."
             ]
           }
         },
@@ -445,13 +445,13 @@
           "quote1": {
             "cite": "RAIANE RIBEIRO, Coordenadora",
             "quote": [
-              "\"Mulheres estão sempre fazendo a diferença, mas a gente também precisa da participação dos homens.\""
+              "Mulheres estão sempre fazendo a diferença, mas a gente também precisa da participação dos homens."
             ]
           },
           "quote2": {
             "cite": "RAIANE RIBEIRO, Coordenadora",
             "quote": [
-              "\"Joice Kelly chegou ao CRIA e quase não falava nada, apenas chorava. Ela teve uma infância muito difícil, sem carinho e afeto, sem brincadeiras e, dentro do CRIA, ela conheceu a técnica de massagem de bebês Shantala. Ela se apropriou da técnica e vem atuando com muita confiança nessa área. Depois de aprender a Shantala, ela deu um abraço em seu pai pela primeira vez! Além da Shantala, ela também se interessa pelas plantas medicinais e por isso foi apelidada de a curandeira do CRIA\""
+              "Joice Kelly chegou ao CRIA e quase não falava nada, apenas chorava. Ela teve uma infância muito difícil, sem carinho e afeto, sem brincadeiras e, dentro do CRIA, ela conheceu a técnica de massagem de bebês Shantala. Ela se apropriou da técnica e vem atuando com muita confiança nessa área. Depois de aprender a Shantala, ela deu um abraço em seu pai pela primeira vez! Além da Shantala, ela também se interessa pelas plantas medicinais e por isso foi apelidada de a curandeira do CRIA"
             ]
           }
         },
