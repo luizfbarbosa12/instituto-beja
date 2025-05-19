@@ -51,7 +51,7 @@ const ChangeTheorySection = () => {
       <img
         src={Image}
         alt='Ilustração'
-        className='relative h-86 tablet:h-[42rem] -translate-x-1/2 tablet:translate-x-1/2 pt-8 pb-6 tablet:pt-25 tablet:pb-25 '
+        className='relative h-86 tablet:h-[42rem] mx-auto block tablet:-translate-x-1/2 pt-8 pb-6 tablet:pt-25 tablet:pb-25 '
       />
     </Wrapper>
   );

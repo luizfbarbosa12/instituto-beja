@@ -56,11 +56,11 @@ export function FoundLetterToContextTransition() {
   return (
     <>
       <div className='bg-retro-ochre pb-58 flex-1 editorial flex items-start pt-30 justify-start text-left relative'>
-        <p className='max-w-68 text-3xl leading-[160%] tablet:text-6xl tablet:max-w-[1084px] mx-7 tablet:mx-32 flex flex-col gap-8 text-porcelain'>
-          {t("context.invite.0")} <br className='hidden tablet:inline' />
-          {t("context.invite.1")} <br className='hidden tablet:inline' />{" "}
-          <ReactMarkdown>{t("context.invite.2")}</ReactMarkdown>
-        </p>
+        <div className='max-w-68 text-3xl leading-[160%] tablet:text-6xl tablet:max-w-[1084px] mx-7 tablet:mx-32 text-porcelain'>
+  <ReactMarkdown>
+    {t('context.invite', { returnObjects: true }).join('\n')}
+  </ReactMarkdown>
+</div>
       </div>
       <div
         className='flex flex-col overflow-hidden relative bg-retro-ochre'
