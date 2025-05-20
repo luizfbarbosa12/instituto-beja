@@ -249,7 +249,10 @@ const PhilanthropySection = () => {
               components: { i: <i /> },
             },
             t("philanthropy.axis.1.texts.1"),
-            t("philanthropy.axis.1.texts.2"),
+            {
+              i18nKey: "philanthropy.axis.1.texts.2",
+              components: { strong: <strong /> },
+            },
           ]}
           data={secondCardList}
         />
