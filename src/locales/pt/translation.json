@@ -220,15 +220,15 @@
       ]
     },
     "ecosystem": {
-      "description": "O <strong>Centro para Mudanças Exponenciais (CMe)</strong> é concebido como um ecossistema onde financiadores, pensadores, especialistas e mentores se reúnem para apoiar <strong>Orquestradores de Sistema</strong> que estão em uma jornada para promover mudanças em larga escala. Esses orquestradores conectam pontos entre atores da sociedade civil, governo e setor privado, alinham incentivos em direção a um novo paradigma e constroem redes aproveitando tecnologias de ponta. As iniciativas de transformação em escala são complexas – elas se estendem por longos períodos, e os <strong>Orquestradores de Sistema</strong> precisam antecipar e superar uma série de obstáculos ao longo do caminho.\n\nO <strong>Centro para Mudanças Exponenciais (CMe)</strong> oferece o suporte certo no momento certo. Para isso, o <strong>Centro para Mudanças Exponenciais (CMe)</strong> irá:",
+      "description": "O <strong>CMe</strong> é concebido como um ecossistema onde <strong>financiadores</strong>, <strong>pensadores</strong>, <strong>especialistas</strong> e <strong>mentores</strong> se reúnem para apoiar <strong>Orquestradores de Sistema</strong> que estão em uma jornada para promover mudanças em larga escala. Esses orquestradores conectam pontos entre atores da <strong>sociedade civil</strong>, <strong>governo</strong> e <strong>setor privado</strong>, alinham incentivos em direção a um <strong>novo paradigma</strong> e constroem redes aproveitando <strong>tecnologias de ponta</strong>. As <strong>iniciativas de transformação em escala</strong> são complexas – elas se estendem por longos períodos, e os <strong>Orquestradores de Sistema</strong> precisam antecipar e superar uma série de obstáculos ao longo do caminho.\n\nO <strong>CMe</strong> oferece o suporte certo no momento certo. Para isso, o <strong>CMe</strong> irá:",
       "list": {
-        "title": "Como o <strong>Centro para Mudanças Exponenciais (CMe)</strong> apoia os <strong>Orquestradores de Sistema</strong>:",
+        "title": "Como o <strong>CMe</strong> apoia os <strong>Orquestradores de Sistema</strong>:",
         "list": [
-          "Curar conhecimento prático e aberto para compartilhar ideias, experiências, métodos, práticas e ferramentas que respondem ao porquê, o quê e o como da <strong>mudança exponencial</strong>;",
-          "Facilitar o design aprofundado e a prototipagem de novas tecnologias digitais e explorar diferentes caminhos para induzir <strong>mudanças exponenciais</strong>;",
-          "Orquestrar aportes financeiros irrestritos de diversos financiadores para redesenhar abordagens e prototipar novas ideias e sua implementação;",
-          "Ampliar a capacidade e a confiança de lideranças de mudança no Brasil e em outros países do Sul Global, por meio da criação de espaços seguros e do fortalecimento de suas competências e autoconfiança iniciais do <strong>Centro para Mudanças Exponenciais (CMe)</strong>;",
-          "Curar uma rede de mentores experientes no Brasil e em outros países do Sul Global para oferecer insights pragmáticos sobre desafios complexos, quando forem mais necessários."
+          "Curar <strong>conhecimento prático e aberto</strong> para compartilhar ideias, experiências, métodos, práticas e ferramentas que respondem ao <strong>porquê</strong>, <strong>o quê</strong> e <strong>o como</strong> da <strong>mudança exponencial</strong>;",
+          "Facilitar o <strong>design aprofundado</strong> e a <strong>prototipagem</strong> de <strong>novas tecnologias digitais</strong> e explorar diferentes caminhos para induzir <strong>mudanças exponenciais</strong>;",
+          "Orquestrar <strong>aportes financeiros irrestritos</strong> de diversos financiadores para <strong>redesenhar abordagens</strong> e <strong>prototipar novas ideias</strong> e sua implementação;",
+          "Ampliar a <strong>capacidade</strong> e a <strong>confiança</strong> de <strong>lideranças de mudança</strong> no Brasil e em outros países do <strong>Sul Global</strong>, por meio da criação de <strong>espaços seguros</strong> e do fortalecimento de suas <strong>competências</strong> e <strong>autoconfiança iniciais</strong> do <strong>CMe</strong>;",
+          "Curar uma <strong>rede de mentores experientes</strong> no Brasil e em outros países do <strong>Sul Global</strong> para oferecer <strong>insights pragmáticos</strong> sobre <strong>desafios complexos</strong>, quando forem mais necessários."
         ]
       }
     },
@@ -387,7 +387,7 @@
     "p5": "Ao compartilhar nossa abordagem, buscamos inspirar outras fundações e institutos a adotarem estratégias que conciliem impacto social e ambiental com a rentabilidade financeira.",
     "card1": "Com o lema de gerar valor econômico, comunitário e ambiental em cada investimento, este fundo de capital de risco identifica empreendedores que buscam construir empresas a serviço da sociedade. Ele prioriza negócios com culturas que incorporam as melhores práticas para todos os seus stakeholders, criando modelos mais sustentáveis e inclusivos.",
     "card2": "Com a missão de combater a pobreza e as mudanças climáticas, a organização desenvolve modelos inovadores e autossustentáveis que atendem às necessidades de comunidades de baixa e média renda. Seus programas fornecem produtos e serviços acessíveis, conectam mercados para mercadorias locais e criam oportunidades de renda sustentável, promovendo impacto nos ecossistemas econômicos locais.",
-    "card3": "Parceira comprometida com a democratização do investimento de impacto positivo, a organização torna possível que qualquer pessoa contribua para o crescimento de negócios no Norte e Nordeste do Brasil. Por meio de sua plataforma RENOVA, baseada em empréstimos coletivos diretos, múltiplos investidores podem alocar recursos diretamente nos negócios com os quais mais se identificam."
+    "card3": "Parceira comprometida com a democratização do investimento de impacto positivo, a organização torna possível que qualquer pessoa contribua para o crescimento de negócios no Norte e Nordeste do Brasil. Por meio de sua plataforma <strong>Trê-MOVA</strong>, baseada em empréstimos coletivos diretos, múltiplos investidores podem alocar recursos diretamente nos negócios com os quais mais se identificam."
   },
   "balance": {
     "balance": "Balanço",

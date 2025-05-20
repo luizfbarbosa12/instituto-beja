@@ -218,6 +218,19 @@
         "Selected the first group of System Orchestrators and began their exponential change journeys."
       ]
     },
+    "ecosystem": {
+      "description": "The <strong>Centre for Exponential Change (CMe)</strong> is envisioned as an ecosystem where funders, thinkers, experts and mentors come together to support <strong>System Orchestrators</strong> who are on a journey to create change at scale. They connect dots between actors across civil society, government and the private sector, align incentives towards a new paradigm and build networks leveraging leading-edge technologies. Endeavours to create change at scale are complex – they extend over a long period of time and <strong>System Orchestrators</strong> need to anticipate and overcome a series of hurdles along the way. <strong>CMe</strong> offers System Orchestrators the right support at the right time. To this end, <strong>CMe</strong> will:",
+      "list": {
+        "title": "How the <strong>Centre for Exponential Change (CMe)</strong> supports <strong>System Orchestrators</strong>:",
+        "list": [
+          "Curate <strong>practical open knowledge</strong> to share ideas, experiences, methods, practices, and tools that answer the why, what, and how of <strong>exponential change</strong>;",
+          "Facilitate <strong>deep design</strong> and <strong>prototyping</strong> of <strong>new digital technologies</strong> and discover different ways to induce <strong>exponential change</strong>;",
+          "Orchestrate <strong>unrestricted grants</strong> by various funders to <strong>redesign</strong> their approach, and prototype new ideas and their implementation;",
+          "Amplify capability and confidence of change leaders from Brazil with those from the <strong>Global South</strong> by curating safe spaces for them and nurturing their capabilities and self-efficacy;",
+          "Curate an <strong>experienced mentors network</strong> from Brazil and across other <strong>Global South</strong> countries for pragmatic insights on complex challenges at the right time."
+        ]
+      }
+    },
     "strategic": {
       "initial": "Our Strategy",
       "title": "Support Network",

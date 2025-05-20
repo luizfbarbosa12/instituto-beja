@@ -185,45 +185,6 @@ const CMESection = () => {
         </div>
       </div>
 
-      <NoticeContainer className='max-w-250 self-end'>
-        <NoticeColumn>
-          <p>
-            <Trans i18nKey='cme.ecosystem.description' />
-          </p>
-        </NoticeColumn>
-      </NoticeContainer>
-      <div className='flex flex-col gap-30 w-[66rem] max-[1325px]:w-full'>
-        <div className='flex flex-col gap-8'>
-          <div className='flex flex-col gap-2'>
-            <div
-              style={{ width: `clamp(${calcClamp(220, 580)})` }}
-              className='h-0.5 bg-hot-coral'
-            />
-            <h1
-              className='font-bold text-hot-coral'
-              style={{ fontSize: `clamp(${calcClamp(16, 32)})` }}
-            >
-              <Trans i18nKey='cme.ecosystem.list.title' />
-            </h1>
-          </div>
-          <ul className='flex flex-col gap-8 list-disc'>
-            {t('cme.ecosystem.list.list', { returnObjects: true }).map((item, index) => (
-              <div key={index} className='flex gap-4 items-center'>
-                <div className='rounded-full size-4 bg-hot-coral max-768:size-3' />
-                <p
-                  className='marker:text-hot-coral marker:text-5xl w-4/5'
-                  style={{
-                    fontSize: `clamp(${calcClamp(12, 24)})`,
-                    lineHeight: `clamp(${calcClamp(12, 24)})`,
-                  }}
-                  dangerouslySetInnerHTML={{ __html: item }}
-                />
-              </div>
-            ))}
-          </ul>
-        </div>
-      </div>
-
       <div className='flex-center px-64 max-1366:px-32 max-950:px-16 max-896:px-8 max-640:px-5'>
         <div className='flex flex-col items-center p-30 relative border-4 border-hot-coral w-full rounded-3xl max-768:p-15 max-640:rounded-2xl max-640:border-3 max-640:px-10 max-380:px-8'>
           <p
