@@ -12,7 +12,7 @@ import GoldenQuoteSlider from "./../ui/GoldenQuoteSlider";
 import { PortfolioSectionVentTransition } from "./../PortfolioSection/PortfolioSectionVentTransition";
 
 const BejaLabs = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
@@ -109,6 +109,15 @@ const BejaLabs = () => {
                 <>
                   <p>
                     <Trans i18nKey='bejaLabs.sections.ecosystemMap.blocks.block1.fs.p1' />
+<br />
+<a
+  href="https://labnovalongevidade.org"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-2 text-ocre-700 hover:bg-ocre-100 hover:text-ocre-900 font-semibold transition-colors px-3 py-1 rounded"
+>
+  Clique aqui para acessar este conteúdo em nosso site exclusivo.
+</a>
                   </p>
                 </>
               ),
@@ -140,6 +149,17 @@ const BejaLabs = () => {
                   <>
                     <p>
                       <Trans i18nKey='bejaLabs.sections.ecosystemMap.blocks.block2.fs.p1' />
+<br />
+<a
+  href="https://labnovalongevidade.org"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-2 text-ocre-700 hover:bg-ocre-100 hover:text-ocre-900 transition-colors px-3 py-1 rounded"
+>
+  {i18n.language === "en"
+    ? (<><b>Click here</b> to access this exclusive content.</>)
+    : (<><b>Clique aqui</b> para acessar este conteúdo em nosso site exclusivo.</>)}
+</a>
                     </p>
                   </>
                 ),
