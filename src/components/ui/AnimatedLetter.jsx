@@ -9,6 +9,10 @@ import i18n from "../../config/i18n";
 gsap.registerPlugin(ScrollTrigger);
 
 const AnimatedLetter = ({ text }) => {
+  // Split paragraphs
+  const firstParagraph = text[0];
+  const animatedParagraphs = text.slice(1);
+  
   const letterContainerRef = useRef(null);
 
   useEffect(() => {
@@ -183,16 +187,16 @@ const AnimatedLetter = ({ text }) => {
         gsap.fromTo(
           ".beja-logo",
           {
-            bottom: "65%",
+            top: "2rem",
             rotate: "-90deg",
           },
           {
-            bottom: "2.5rem",
+            top: "90%",
             rotate: "270deg",
             scrollTrigger: {
               trigger: ".letter",
-              start: "top 30%",
-              end: "top 0%",
+              start: "top 80%",
+              end: "bottom top",
               scrub: 2,
             },
           },
@@ -226,8 +230,20 @@ const AnimatedLetter = ({ text }) => {
           </p>
         </div>
 
+        {/* First paragraph always visible */}
+        <div className='letter-text-initial text-sm leading-[160%] flex flex-col gap-8 w-[70%] max-768:w-full'>
+          <p
+            style={{
+              fontSize: `clamp(${calcClamp(14, 30)})`,
+              lineHeight: `clamp(${calcClamp(14 * 1.3, 32 * 1.3)})`,
+            }}
+          >
+            {firstParagraph}
+          </p>
+        </div>
+        {/* Animated paragraphs */}
         <div className='letter-text text-sm leading-[160%] flex flex-col gap-8 w-[70%] max-768:w-full'>
-          {text.map((item, index) => (
+          {animatedParagraphs.map((item, index) => (
             <p
               style={{
                 fontSize: `clamp(${calcClamp(14, 30)})`,
@@ -239,15 +255,16 @@ const AnimatedLetter = ({ text }) => {
             </p>
           ))}
         </div>
-
         <img
           src={"/assets/logo-desenho-beja.svg"}
           alt='Logo da Beja'
           style={{
             width: `clamp(${calcClamp(43, 146)})`,
             height: `clamp(${calcClamp(43, 146)})`,
+            top: '2rem', // initial value for GSAP
+            right: '2rem',
           }}
-          className='beja-logo absolute bottom-10 right-8 '
+          className='beja-logo absolute right-8'
         />
       </div>
     </div>
