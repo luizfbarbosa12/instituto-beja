@@ -1,5 +1,6 @@
 import { List } from "../ui/List";
 import { ListItem } from "../ui/List/ListItem";
+import LongevityLabBox from "./LongevityLabBox";
 
 const seeding = "/assets/folhas.png";
 const map = "/assets/img_2.png";
@@ -64,6 +65,7 @@ export function PortfolioMap() {
           contendo <em>insights</em> detalhados, um mapa interativo e relatórios
           disponíveis para download.
         </p>
+        <LongevityLabBox />
         <List title='Plataformas de engajamento:'>
           <ListItem>
             Entre outubro e dezembro de 2024, o site registrou 942 novos
