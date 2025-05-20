@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 export const GlobalContext = React.createContext("");
 
 export const GlobalStorage = ({ children }) => {
-  const [language, setLanguage] = useState(false);
+  const [language, setLanguage] = useState('pt');
 
   console.log(language);
 

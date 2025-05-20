@@ -227,7 +227,7 @@ const KnowledgeSection = () => {
         sectionImg={Images.Ilustracoes.Clouds}
         sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={<Trans i18nKey='knowledge.sections.fjles.title' />}
-        partnerImg={[Images.Logos.PipaLogo]}
+        partnerImg={[Images.Logos.FundacaoJoseLuizLogo]}
         subtitle={<Trans i18nKey='knowledge.sections.fjles.subtitle' />}
         partnerName={<Trans i18nKey='knowledge.sections.fjles.partnerName' />}
         subCards={[Images.Secoes.FilantropiaSubCard]}

@@ -302,10 +302,10 @@ const CMESection = () => {
           <Trans i18nKey='cme.exponentialJourney.title2' />
         </h1>
 
-        {language ? (
-          <img src={Images.CME.CMEGrafico} alt='CME Grafico' />
+        {language === 'pt' ? (
+          <img src={Images.CME.CMEGrafico} alt='CME Gráfico' />
         ) : (
-          <img src={Images.CME.EngCmeGrafico} alt='CME Grafico' />
+          <img src={Images.CME.EngCmeGrafico} alt='CME Chart' />
         )}
       </div>
 
