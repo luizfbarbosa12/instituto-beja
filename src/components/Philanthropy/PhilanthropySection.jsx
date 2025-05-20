@@ -216,7 +216,7 @@ const PhilanthropySection = () => {
       <div
         ref={axisContainer}
         style={{ gap: `clamp(${calcClamp(30, 120)})` }}
-        className='flex flex-col gap-30 py-40 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:py-20 max-640:py-15'
+        className='flex flex-col gap-30 py-8 px-32 max-1280:px-12 max-896:px-6 max-640:px-3 max-768:py-6 max-640:py-4'
       >
         <h1
           style={{

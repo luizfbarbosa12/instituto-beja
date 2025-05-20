@@ -15,7 +15,7 @@ const BejaLabs = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
+    <div className='flex flex-col items-end w-full overflow-hidden pb-16'>
       <PortfolioSectionVentTransition />
 
       <AnimatedLetter
