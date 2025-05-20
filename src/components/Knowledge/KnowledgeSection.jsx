@@ -72,10 +72,11 @@ const KnowledgeSection = () => {
                     <div className='flex flex-col w-full'>
                       <p
                         style={{
-                          fontSize: `clamp(${calcClamp(12, 32)})`,
-                          lineHeight: `clamp(${calcClamp(12 * 1.2, 32 * 1.2)})`,
+                          fontSize: `clamp(${calcClamp(18, 40)})`,
+                          lineHeight: `clamp(${calcClamp(18 * 1.2, 40 * 1.2)})`,
+                          fontWeight: 600,
                         }}
-                        className='w-full editorial text-start text-retro-ochre '
+                        className='w-full editorial text-start text-retro-ochre'
                       >
                         <Trans i18nKey='knowledge.sections.pipa.blocks.block2.fs.p1' />
                       </p>

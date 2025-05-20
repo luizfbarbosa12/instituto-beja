@@ -325,7 +325,6 @@ const CMESection = () => {
                         }
                       >
                         <Trans i18nKey='cme.exponentialJourney.extra.siteCallback' />
-                        ,
                       </ArrowRightLink>
                     </div>
                   </>

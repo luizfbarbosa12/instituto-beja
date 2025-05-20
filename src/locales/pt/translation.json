@@ -67,7 +67,7 @@
       "Com base nessas experiências e aprendizados, o **Beja** estruturou sua atuação em três pilares estratégicos interligados, que operaram de maneira sinérgica, permitindo que o conhecimento gerado, as articulações realizadas e as vivências práticas se retroalimentassem. Esta abordagem integrada fortaleceu o aprendizado contínuo e aprofundou o impacto das ações, consolidando ainda mais a atuação do **Instituto**.",
       "O desenvolvimento institucional também se refletiu no estabelecimento de novas parcerias e na expansão das conexões com o Sul Global, fundamentadas em confiança, compromisso e colaboração.",
       "Essa rede fortalece iniciativas duradouras, promovendo um ciclo contínuo de trocas de experiências, essenciais para sustentar o crescimento e a relevância do **Beja** no cenário filantrópico.",
-      "Como reflexo dessa evolução, nosso manifesto, agora consolidado e exposto na entrada da **Casa Beja**, em São Paulo, expressa os objetivos do **Instituto** e convida à reimaginação da filantropia, promovendo as mudanças que desejamos ver no mundo, começando por nós mesmos. Na cadência dessa reimaginação, desenvolvemos uma nova identidade visual, que simboliza o engajamento da sociedade civil, do setor privado e do governo, além do desejo de movimento constante, dinâmico e atento às transformações do campo social.",
+      "Como reflexo dessa evolução, nosso manifesto, agora consolidado e exposto na entrada da **Casa Beja**, em São Paulo (SP), expressa os objetivos do **Instituto** e convida à reimaginação da filantropia, promovendo as mudanças que desejamos ver no mundo, começando por nós mesmos. Na cadência dessa reimaginação, desenvolvemos uma nova identidade visual, que simboliza o engajamento da sociedade civil, do setor privado e do governo, além do desejo de movimento constante, dinâmico e atento às transformações do campo social.",
       "A nova configuração do **Beja** demonstrou a evolução natural de uma organização jovem, mas já reconhecida por sua capacidade de impulsionar transformações significativas. Com apenas três anos de existência, o **Beja** é reconhecido por sua posição como articulador e catalisador de mudanças, aprofundando diálogos e parcerias estratégicas com atores do ecossistema filantrópico.",
       "**O que permanece inalterado é o propósito essencial que deu origem ao **Beja**: contribuir para uma sociedade mais justa e equitativa, por meio do uso estratégico e eficiente de recursos filantrópicos, visando sempre seu efeito multiplicador.** Esse compromisso segue orientando cada passo, agora fortalecido por uma estrutura mais robusta e uma visão ainda mais clara sobre como gerar impacto sistêmico.",
       "Convidamos você a explorar este solo fértil, repleto de ideias e estratégias renovadas. Esperamos que esta leitura te inspire a respirar novos ares."
@@ -95,7 +95,7 @@
   "missionValue": {
     "card1": {
       "title": "Missão",
-      "text": "Se tornar um Instituto de referência no ecossistema de filantropia, reconhecido por realizar, inspirar e catalisar uma filantropia inovadora, colaborativa e eficaz para destravar alavancas potencializadoras, trazendo impacto real em problemas sistêmicos."
+      "text": "Se tornar um Instituto de referência no ecossistema de filantropia reconhecido por realizar, inspirar e catalisar uma filantropia inovadora, colaborativa e eficaz para destravar alavancas potencializadoras, trazendo impacto real em problemas sistêmicos."
     },
     "card2": {
       "title": "Visão",
@@ -103,13 +103,13 @@
     },
     "card3": {
       "title": "Valores",
-      "text": "O respeito, a escuta, a empatia, o pertencimento, o acolhimento, a resiliência, a responsabilidade, o sonho, o afeto, a curiosidade e a inovação, atuando em todas essas frentes, interseccionadas com o protagonismo pessoal, mediante o desenvolvimento de autoconsciência e autoconfiança."
+      "text": "O respeito, a escuta, a empatia, o pertencimento, o acolhimento, a resiliência, a responsabilidade, o sonho, o afeto, a curiosidade e a inovação, atuando em todas essas frentes interseccionadas com o protagonismo pessoal mediante o desenvolvimento de autoconsciência e autoconfiança."
     }
   },
   "bejaHouse": {
     "title": "Casa Beja",
-    "p1": "Com alegria apresentamos a <strong>Casa Beja</strong>, a nova morada dos nossos valores. Inaugurada em novembro de 2024, na cidade de São Paulo, a <strong>Casa Beja</strong> vai muito além de um simples escritório, assim como a sede no Rio de Janeiro, é um ambiente vivo onde ideias se encontram, parcerias florescem e soluções sistêmicas ganham forma. É aqui que buscamos conectar indivíduos e comunidades, semear a cultura da filantropia e inspirar ações coletivas que constroem um futuro mais solidário e sustentável.",
-    "p2": "Com grande honra, incubamos o hub Brasil do <strong>Centro para Mudanças Exponenciais</strong>, reafirmando nosso compromisso com a inovação e com o impacto social. Este espaço é ponto de convergência entre sociedade civil, setor privado e governo, unindo forças para criar colaborações que impulsionam soluções e transformam realidades sociais de maneira eficaz e inclusiva.",
+    "p1": "Com alegria apresentamos a <strong>Casa Beja</strong>, a nova morada dos nossos valores. Inaugurada em novembro de 2024, na cidade de São Paulo (SP), a <strong>Casa Beja</strong> vai muito além de um simples escritório, assim como a sede no Rio de Janeiro (RJ), é um ambiente vivo onde ideias se encontram, parcerias florescem e soluções sistêmicas ganham forma. É aqui que buscamos conectar indivíduos e comunidades, semear a cultura da filantropia e inspirar ações coletivas que constroem um futuro mais solidário e sustentável.",
+    "p2": "Com grande honra, incubamos o <i>hub</i> Brasil do <strong>Centro para Mudanças Exponenciais (CMe)</strong>, reafirmando nosso compromisso com a inovação e com o impacto social. Este espaço é ponto de convergência entre sociedade civil, setor privado e governo, unindo forças para criar colaborações que impulsionam soluções e transformam realidades sociais de maneira eficaz e inclusiva.",
     "p3": "<strong>A Casa Beja</strong> simboliza <strong>movimento, relações e articulação -</strong> refletindo a essência do nosso logo, que ilustra a dinâmica constante entre pilares e a busca por equilíbrio nas relações humanas.",
     "final": "Bem-vindo(a) à <strong>Casa Beja</strong>!"
   },
@@ -160,7 +160,7 @@
       "card3": {
         "title": "Beja Labs / Laboratórios",
         "subtitle": "Incubadora de projetos filantrópicos e de impacto escaláveis, replicáveis e mensuráveis",
-        "text": "O objetivo deste pilar dedicado à experimentação conjunta, é desenvolver e apoiar projetos filantrópicos com múltiplos atores e seus diferentes policapitais, voltados a promover transformações profundas e relevantes no Brasil. Essa atuação é viabilizada pelo suporte à medição de impacto, pela sistematização de práticas que possibilitam a replicação de iniciativas bem-sucedidas e pela incorporação de novas tecnologias para ampliar a escala das ações. As experiências e aprendizados decorrentes desses laboratórios também devem contribuir para discussões e pesquisas relativos ao pilar de conhecimento, além de oferecer subsídios a pleitos do pilar de advocacy.",
+        "text": "O objetivo deste pilar dedicado à experimentação conjunta, é desenvolver e apoiar projetos filantrópicos com múltiplos atores e seus diferentes policapitais, voltados a promover transformações profundas e relevantes no Brasil. Essa atuação é viabilizada pelo suporte à medição de impacto, pela sistematização de práticas que possibilitam a replicação de iniciativas bem sucedidas e pela incorporação de novas tecnologias para ampliar a escala das ações. As experiências e aprendizados decorrentes desses laboratórios também devem contribuir para discussões e pesquisas relativos ao pilar de conhecimento, além de oferecer subsídios a pleitos do pilar de advocacy.",
         "list": [
           "Ambiente de colaboração e aprendizagem",
           "Acelerar, medir e escalar modelos",
@@ -213,7 +213,7 @@
       "title": "AÇÕES CENTRAIS DO CMe EM 2024",
       "list": [
         "Formalizou uma parceria global com o <strong>Centre for Exponential Change (C4EC)</strong>;",
-        "Construiu e lançou o <strong>Centro para Mudanças Exponenciais (CMe)</strong> em São Paulo, em novembro;",
+        "Construiu e lançou o <strong>Centro para Mudanças Exponenciais (CMe)</strong> em São Paulo (SP), em Novembro;",
         "Realizou diálogos profundos com financiadores e especialistas durante o <strong>Filantropando</strong> e, posteriormente, no CMe;",
         "Engajou Orquestradores de Sistemas no Brasil para selecionar as jornadas iniciais do <strong>CMe</strong>;",
         "Selecionou o primeiro grupo de Orquestradores de Sistemas e iniciou suas jornadas de <strong>mudança exponencial</strong>."
@@ -286,8 +286,8 @@
     "systemOrchestrating": {
       "title": "Orquestradores de Sistema no Brasil",
       "subtitle": "Os Orquestradores de Sistemas selecionados são:",
-      "p1": "Em 2024, anunciamos três <strong>Orquestradores de Sistemas</strong> com os quais vamos coconstruir jornadas rumo à mudança exponencial. A escolha desses Orquestradores foi recebida com reconhecimento e apoio pelo <strong>Conselho Consultivo Global</strong> do <strong>Centre for Exponential Change</strong>, composto por <strong>Nilekani Philanthropies, Skoll Foundation, Waverley Street Foundation, New Profit</strong> e <strong>Instituto Beja.</strong>",
-      "p2": "Estamos entusiasmados com essas jornadas de aprendizado, reimaginação e <i><strong>design</strong></i> para promover mudanças exponenciais.",
+      "p1": "Em 2024, anunciamos três <strong>Orquestradores de Sistemas</strong> com os quais vamos coconstruir jornadas rumo à mudança exponencial. A escolha desses Orquestradores foi recebida com reconhecimento e apoio pelo <strong>Conselho Consultivo Global</strong> do <strong>Centre for Exponential Change (C4EC)</strong>, composto por <strong>Nilekani Philanthropies, Skoll Foundation, Waverley Street Foundation, New Profit</strong> e <strong>Instituto Beja.</strong>",
+      "p2": "Estamos entusiasmados com essas jornadas de aprendizado, reimaginação e <i>design</i> para promover mudanças exponenciais.",
       "cards": {
         "title": "a",
         "card1": {
@@ -367,7 +367,7 @@
         "title": "Como eu não pensei nisso antes? O que mais é preciso apreender?",
         "subtitle": "Tecnologia a serviço de quem?",
         "texts": [
-          "As Big Techs ditam as regras sobre pensamentos e conexões em redes, sob uma perspectiva desumanizadora. A disparidade nas abordagens para regulamentar a ética digital expõe disputas de influência e lacunas de representatividade cultural, perpetuando desigualdades no acesso e educação digital.",
+          "As <i>Big Techs</i> ditam as regras sobre pensamentos e conexões em redes, sob uma perspectiva desumanizadora. A disparidade nas abordagens para regulamentar a ética digital expõe disputas de influência e lacunas de representatividade cultural, perpetuando desigualdades no acesso e educação digital.",
           "A interação entre filantropia e tecnologia enfrenta desafios de desigualdade. O que chamávamos de 'futurismo' agora exige desconstruir visões de futuro descontextualizadas, vazias de realidades humanas diversas. Tecnologias digitais não são neutras - moldam percepções, relações e dinâmicas de poder.",
           "Em contextos de governança e direitos humanos, as tecnologias transformam subjetividades e experiências. Diante da crítica insuficiente ao status quo que homogeneiza culturas a partir do Norte Global, questiona-se: como reumanizar a tecnologia e inovação em meio a mudanças exponenciais?"
         ]

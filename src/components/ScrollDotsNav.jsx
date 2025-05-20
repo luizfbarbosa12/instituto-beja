@@ -59,7 +59,7 @@ function ScrollDotsNav() {
         <div key={section.id} className="relative flex items-center">
           <button
             aria-label={t(section.label)}
-            className={`w-4 h-4 rounded-full border-2 transition-all duration-200
+            className={`w-4 h-4 rounded-full border-2 transition-all duration-200 shadow-[0_1.5px_4px_0_rgba(179,149,103,0.25)]
               ${idx === activeIdx
                 ? 'bg-[#b39567] border-[#b39567] scale-125 shadow-lg'
                 : 'bg-transparent border-[#b39567] opacity-80'}

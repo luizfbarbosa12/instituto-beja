@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { Trans } from 'react-i18next';
 import { calcClamp } from "../../data/Utils";
 import PhilanthropyCard from "./PhilanthropyCard";
 import { motion, useScroll, useTransform } from "framer-motion";
@@ -97,9 +98,17 @@ const Axle = ({ axle, title, subtitle, text, data }) => {
                 fontSize: `clamp(${calcClamp(12, 16)})`,
               }}
             >
-              {text.map((item, index) => (
-                <p key={index}>{item}</p>
-              ))}
+              {text.map((item, index) => {
+  // Render the first text of axis 1 (index 0 when axis is 1) with <Trans> for HTML support
+  if (item && typeof item === 'object' && item.i18nKey && item.components) {
+    return (
+      <p key={index}>
+        <Trans i18nKey={item.i18nKey} components={item.components} />
+      </p>
+    );
+  }
+  return <p key={index}>{item}</p>;
+})}
             </div>
           </div>
         </div>

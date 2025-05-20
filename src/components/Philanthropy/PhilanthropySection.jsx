@@ -158,7 +158,7 @@ const PhilanthropySection = () => {
               <Trans i18nKey={"philanthropy.phrases.0"} />
             </p>
             <p className='editorial'>
-              <Trans i18nKey={"philanthropy.phrases.1"} />
+              <Trans i18nKey={"philanthropy.phrases.1"} components={{ i: <i /> }} />
             </p>
             <p className='editorial'>
               <Trans i18nKey={"philanthropy.phrases.2"} />
@@ -244,7 +244,10 @@ const PhilanthropySection = () => {
           title={t("philanthropy.axis.1.title")}
           subtitle={t("philanthropy.axis.1.subtitle")}
           text={[
-            t("philanthropy.axis.1.texts.0"),
+            {
+              i18nKey: "philanthropy.axis.1.texts.0",
+              components: { i: <i /> },
+            },
             t("philanthropy.axis.1.texts.1"),
             t("philanthropy.axis.1.texts.2"),
           ]}
