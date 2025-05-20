@@ -7,7 +7,7 @@ const FilantropandoCard = () => {
   useEffect(() => {}, [language]);
   return (
     <>
-      {language ? (
+      {language === 'en' ? (
         <img
           src={"/assets/engFilantropiaSubCard.svg"}
           alt={"Philanthropy Subcard (EN)"}

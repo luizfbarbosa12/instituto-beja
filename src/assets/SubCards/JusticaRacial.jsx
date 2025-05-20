@@ -7,7 +7,7 @@ const JusticaRacialCard = () => {
   useEffect(() => {}, [language]);
   return (
     <>
-      {language ? (
+      {language === 'en' ? (
         <img
           src={"/assets/engJusticaRacial.svg"}
           alt={"Racial Justice Subcard (EN)"}

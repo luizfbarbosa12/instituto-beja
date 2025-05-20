@@ -7,7 +7,7 @@ const EquidadeGeneroCard = () => {
   useEffect(() => {}, [language]);
   return (
     <>
-      {language ? (
+      {language === 'en' ? (
         <img
           src={"/assets/engEquidadeGenero.svg"}
           alt={"Gender Equity Subcard (EN)"}

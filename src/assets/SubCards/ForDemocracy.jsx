@@ -7,7 +7,7 @@ const ForDemocracy = () => {
   useEffect(() => {}, [language]);
   return (
     <>
-      {language ? (
+      {language === 'en' ? (
         <img
           src={"/assets/engPelaDemocracia2.svg"}
           alt={"For Democracy Subcard (EN)"}
