@@ -62,7 +62,7 @@ function ScrollDotsNav() {
             className={`w-4 h-4 rounded-full border-2 transition-all duration-200
               ${idx === activeIdx
                 ? 'bg-[#b39567] border-[#b39567] scale-125 shadow-lg'
-                : 'bg-porcelain border-[1.5px] border-[#b39567] opacity-80'}
+                : 'bg-transparent border-[#b39567] opacity-80'}
             `}
             onClick={() => handleDotClick(idx)}
             onMouseEnter={e => e.currentTarget.parentElement.querySelector('.dot-tooltip').style.opacity = 1}
