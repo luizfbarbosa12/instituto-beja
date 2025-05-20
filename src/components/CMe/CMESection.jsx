@@ -12,7 +12,10 @@ import { Trans } from "react-i18next";
 import { GlobalContext } from "../../context/GlobalContext.jsx";
 import { useCmeData } from "../../hooks/useCmeData.jsx";
 
+import { useTranslation } from "react-i18next";
+
 const CMESection = () => {
+  const { t, i18n } = useTranslation();
   const { AEPIE, VTCME, getCMEPartners, cmeActionList, OSList } = useCmeData();
 
   const targetRef1 = useRef(null);
@@ -140,6 +143,84 @@ const CMESection = () => {
               ))}
             </ul>
           </div>
+
+          <NoticeContainer className='max-w-250 self-end'>
+            <NoticeColumn>
+              <p>
+                <Trans i18nKey='cme.ecosystem.description' />
+              </p>
+            </NoticeColumn>
+          </NoticeContainer>
+          <div className='flex flex-col gap-30 w-[66rem] max-[1325px]:w-full'>
+            <div className='flex flex-col gap-8'>
+              <div className='flex flex-col gap-2'>
+                <div
+                  style={{ width: `clamp(${calcClamp(220, 580)})` }}
+                  className='h-0.5 bg-hot-coral'
+                />
+                <h1
+                  className='font-bold text-hot-coral'
+                  style={{ fontSize: `clamp(${calcClamp(16, 32)})` }}
+                >
+                  <Trans i18nKey='cme.ecosystem.list.title' />
+                </h1>
+              </div>
+              <ul className='flex flex-col gap-8 list-disc'>
+                {t('cme.ecosystem.list.list', { returnObjects: true }).map((item, index) => (
+                  <div key={index} className='flex gap-4 items-center'>
+                    <div className='rounded-full size-4 bg-hot-coral max-768:size-3' />
+                    <p
+                      className='marker:text-hot-coral marker:text-5xl w-4/5'
+                      style={{
+                        fontSize: `clamp(${calcClamp(12, 24)})`,
+                        lineHeight: `clamp(${calcClamp(12, 24)})`,
+                      }}
+                      dangerouslySetInnerHTML={{ __html: item }}
+                    />
+                  </div>
+                ))}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <NoticeContainer className='max-w-250 self-end'>
+        <NoticeColumn>
+          <p>
+            <Trans i18nKey='cme.ecosystem.description' />
+          </p>
+        </NoticeColumn>
+      </NoticeContainer>
+      <div className='flex flex-col gap-30 w-[66rem] max-[1325px]:w-full'>
+        <div className='flex flex-col gap-8'>
+          <div className='flex flex-col gap-2'>
+            <div
+              style={{ width: `clamp(${calcClamp(220, 580)})` }}
+              className='h-0.5 bg-hot-coral'
+            />
+            <h1
+              className='font-bold text-hot-coral'
+              style={{ fontSize: `clamp(${calcClamp(16, 32)})` }}
+            >
+              <Trans i18nKey='cme.ecosystem.list.title' />
+            </h1>
+          </div>
+          <ul className='flex flex-col gap-8 list-disc'>
+            {t('cme.ecosystem.list.list', { returnObjects: true }).map((item, index) => (
+              <div key={index} className='flex gap-4 items-center'>
+                <div className='rounded-full size-4 bg-hot-coral max-768:size-3' />
+                <p
+                  className='marker:text-hot-coral marker:text-5xl w-4/5'
+                  style={{
+                    fontSize: `clamp(${calcClamp(12, 24)})`,
+                    lineHeight: `clamp(${calcClamp(12, 24)})`,
+                  }}
+                  dangerouslySetInnerHTML={{ __html: item }}
+                />
+              </div>
+            ))}
+          </ul>
         </div>
       </div>
 

@@ -219,6 +219,19 @@
         "Selecionou o primeiro grupo de Orquestradores de Sistemas e iniciou suas jornadas de <strong>mudança exponencial</strong>."
       ]
     },
+    "ecosystem": {
+      "description": "O <strong>Centro para Mudanças Exponenciais (CMe)</strong> é concebido como um ecossistema onde financiadores, pensadores, especialistas e mentores se reúnem para apoiar <strong>Orquestradores de Sistema</strong> que estão em uma jornada para promover mudanças em larga escala. Esses orquestradores conectam pontos entre atores da sociedade civil, governo e setor privado, alinham incentivos em direção a um novo paradigma e constroem redes aproveitando tecnologias de ponta. As iniciativas de transformação em escala são complexas – elas se estendem por longos períodos, e os <strong>Orquestradores de Sistema</strong> precisam antecipar e superar uma série de obstáculos ao longo do caminho.\n\nO <strong>Centro para Mudanças Exponenciais (CMe)</strong> oferece o suporte certo no momento certo. Para isso, o <strong>Centro para Mudanças Exponenciais (CMe)</strong> irá:",
+      "list": {
+        "title": "Como o <strong>Centro para Mudanças Exponenciais (CMe)</strong> apoia os <strong>Orquestradores de Sistema</strong>:",
+        "list": [
+          "Curar conhecimento prático e aberto para compartilhar ideias, experiências, métodos, práticas e ferramentas que respondem ao porquê, o quê e o como da <strong>mudança exponencial</strong>;",
+          "Facilitar o design aprofundado e a prototipagem de novas tecnologias digitais e explorar diferentes caminhos para induzir <strong>mudanças exponenciais</strong>;",
+          "Orquestrar aportes financeiros irrestritos de diversos financiadores para redesenhar abordagens e prototipar novas ideias e sua implementação;",
+          "Ampliar a capacidade e a confiança de lideranças de mudança no Brasil e em outros países do Sul Global, por meio da criação de espaços seguros e do fortalecimento de suas competências e autoconfiança iniciais do <strong>Centro para Mudanças Exponenciais (CMe)</strong>;",
+          "Curar uma rede de mentores experientes no Brasil e em outros países do Sul Global para oferecer insights pragmáticos sobre desafios complexos, quando forem mais necessários."
+        ]
+      }
+    },
     "strategic": {
       "initial": "Nossa estratégia",
       "title": "Rede de Apoio",
