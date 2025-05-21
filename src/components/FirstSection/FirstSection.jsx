@@ -5,7 +5,7 @@ import { GlobalContext } from "../../context/GlobalContext";
 import LogoHoverEffect from "./LogoHoverEffect";
 import VisitInstitutoBejaLink from "./VisitInstitutoBejaLink";
 
-const GoldGlobe = "/assets/cutedGoldGlobe.webp";
+const GoldGlobe = "/assets/BEJA_GloboAnimation_2.gif";
 
 function DownloadButton() {
   const [t] = useTranslation();
@@ -79,12 +79,15 @@ const FirstSection = () => {
           alt={t("firstSection.logoAlt")}
           className='absolute left-1/2 top-1/5 -translate-x-1/2 z-10 max-w-[440px] tablet:-mt-8 tablet:max-w-290 p-0 m-0'
         />
-        <img
-          src={GoldGlobe}
-          fetchPriority='high'
-          loading='eager'
-          alt={t("firstSection.globeAlt")}
+        <video
+          src="/assets/BEJA_GloboAnimation_2.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          poster="/assets/BEJA_GloboAnimation_2.gif"
           className='absolute h-[60vh] w-auto max-w-fit top-32 -right-40 tablet:-right-22 tablet:h-[80vh]'
+          aria-label={t("firstSection.globeAlt")}
         />
       </div>
       <div className="flex flex-col items-start gap-4 z-30 absolute left-8 tablet:left-10 bottom-20 tablet:bottom-24">
