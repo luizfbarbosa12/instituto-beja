@@ -104,7 +104,7 @@ export function PortfolioNarratives() {
               Diálogos Intergeracionais e Agentes Por Toda a Vida.
             </ListSubItem>
             <ListSubItem>
-              Piloto aplicado em um Centro de Convivência para Idosos em Ibiúna,
+              Piloto aplicado em um Centro de Convivência para Idosos em Ibiúna (SP),
               com planejamento para replicação em Maranguape (CE).
             </ListSubItem>
           </div>

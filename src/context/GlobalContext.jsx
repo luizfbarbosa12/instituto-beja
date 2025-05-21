@@ -22,6 +22,10 @@ export const GlobalStorage = ({ children }) => {
 
   // When context language is changed via setLanguage, change i18next as well
   const setLanguage = (lng) => {
+    if (typeof lng !== 'string') {
+      console.warn('setLanguage called with non-string:', lng);
+      return;
+    }
     i18next.changeLanguage(lng);
     setLanguageState(lng);
   };
