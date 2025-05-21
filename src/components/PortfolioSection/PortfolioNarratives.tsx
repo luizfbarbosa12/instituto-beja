@@ -22,7 +22,7 @@ export function PortfolioNarratives() {
       <img
         src={illustration}
         alt='sementes'
-        className='w-1/2 -translate-x-10'
+        className='w-16 max-w-[64px] h-auto -translate-x-10'
       />
       <div className='ml-55 flex flex-col px-32 gap-8 mt-16'>
         <h3 className='font-serif text-6xl leading-[100%]'>

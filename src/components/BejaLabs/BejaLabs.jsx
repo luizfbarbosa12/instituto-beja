@@ -222,7 +222,7 @@ const BejaLabs = () => {
         sectionImg={Images.Ilustracoes.Bush}
         sectionImgStyle={{ w: 30, maxW: 100, h: 30, maxH: 90 }}
         topImg={Images.Ilustracoes.Bush}
-        topImgStyle={{ w: 221, maxW: 751, h: 193, maxH: 659 }}
+        topImgStyle={{ w: 48, maxW: 64, h: 48, maxH: 64 }}
         topImgCss={"-left-40"}
       >
         <div className='flex flex-col gap-4'>
@@ -284,7 +284,7 @@ const BejaLabs = () => {
         sectionImg={Images.Ilustracoes.Bush}
         sectionImgStyle={{ w: 30, maxW: 100, h: 30, maxH: 90 }}
         topImg={Images.BejaLabs.Globe}
-        topImgStyle={{ w: 221, maxW: 751, h: 193, maxH: 659 }}
+        topImgStyle={{ w: 48, maxW: 64, h: 48, maxH: 64 }}
         topImgCss={"-left-20"}
       >
         <TextBlock

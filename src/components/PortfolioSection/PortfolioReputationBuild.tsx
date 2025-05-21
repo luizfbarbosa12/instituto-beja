@@ -14,7 +14,7 @@ export function PortfolioReputationBuild() {
           className='h-10'
         />
       </div>
-      <img src={seeding} alt='sementes' className='w-1/2 -translate-x-10' />
+      <img src={seeding} alt='sementes' className='w-16 max-w-[64px] h-auto -translate-x-10' />
       <div className='ml-55 flex flex-col px-32 gap-8 mt-16'>
         <h3 className='font-serif text-6xl leading-[100%]'>
           ​​Construção de reputação do Lab Nova Longevidade para o ecossistema
