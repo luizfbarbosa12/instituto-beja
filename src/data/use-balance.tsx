@@ -126,7 +126,7 @@ export const useBalance = () => {
         },
         {
           project: "CEDEC & IEA USP",
-          type: "Evento",
+          type: "Event",
           totalAmount: "129.032",
           amount2024: "129.032",
           start: "2024",
@@ -168,7 +168,7 @@ export const useBalance = () => {
         },
         {
           project: "CRIA IThe Human Project",
-          type: "Apoio institucional",
+          type: "Institutional Suppor",
           totalAmount: "2.000.000",
           amount2024: "400.000",
           start: "2022",
@@ -202,7 +202,7 @@ export const useBalance = () => {
         },
         {
           project: "Praça Atahualpa",
-          type: "Projeto autoral",
+          type: "Supported Project",
           totalAmount: "2.184.106",
           amount2024: "454.913",
           start: "2022",
@@ -210,7 +210,7 @@ export const useBalance = () => {
         },
         {
           project: "Instituto Mar Adentro",
-          type: "Projeto",
+          type: "Supported Project",
           totalAmount: "834.958",
           amount2024: "200.733",
           start: "2023",
@@ -283,7 +283,7 @@ export const useBalance = () => {
         },
         {
           project: "Aliança OCDE/IELS",
-          type: "Pesquisa Apoiada",
+          type: "Research",
           totalAmount: "1.950.000",
           amount2024: "150.000",
           start: "2022",
@@ -371,7 +371,7 @@ export const useBalance = () => {
       rows: [
         {
           project: "Filantropando",
-          type: "Projeto autoral",
+          type: "Supported Project",
           totalAmount: "1.557.055",
           amount2024: "1.557.055",
           start: "2024",
@@ -402,7 +402,7 @@ export const useBalance = () => {
         },
         {
           project: "Positive Ventures",
-          type: "FIDC Investimento de Impacto",
+          type: "FIDC Impact Investing",
           totalAmount: "416.983",
           amount2024: "416.983",
           start: "-",
@@ -410,7 +410,7 @@ export const useBalance = () => {
         },
         {
           project: "Bemtevi Investimento Social",
-          type: "Investimento de Impacto",
+          type: " Impact Investin",
           totalAmount: "1.000.000",
           amount2024: "1.000.000",
           start: "-",
@@ -418,7 +418,7 @@ export const useBalance = () => {
         },
         {
           project: "Yunus Negocios Sociais",
-          type: "FIDC Investimento de Impacto",
+          type: "FIDC Impact Investing",
           totalAmount: "969.342",
           amount2024: "969.342",
           start: "-",

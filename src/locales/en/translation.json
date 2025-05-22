@@ -353,9 +353,9 @@
     ],
     "bubblesAlt": "Bubbles",
     "phrases": [
-      "It's time to make room for new agendas.",
-      "It's time to deconstruct, relearn and co-create.",
-      "It's time to oxygenate the philanthropy ecosystem."
+      "It's time to make room <br />for new agendas.",
+      "It's time to deconstruct, <br />relearn and co-create.",
+      "It's time to oxygenate <br />the philanthropy ecosystem."
     ],
     "ccfAlt": "Connecting commitment and future",
     "goodActionsAlt": "Filantropando good actions",
@@ -385,7 +385,7 @@
         "subtitle": "How could I not have thought of this before? What else do I need to learn?",
         "texts": [
           "Looking to the future, already present in ancestral practices, invites us to embrace significant changes and adopt values that reflect a more diverse and comprehensive understanding of society's needs. This axis challenges the perpetuation of dominant narratives, instigating the creation of a multiplicity of perspectives that reimagines history as our history.",
-          "This movement highlights themes that are often invisible, which require greater attention and in-depth study, and proposes a decentralization of decision-making. By moving from an individual perspective to a shared vision of responsibilities, we are invited to welcome the discomfort that accompanies collective change. This requires: understanding the power dynamics that shape social and economic relations, the courage to take risks, break paradigms and expand references; and building a more equitable representation."
+          "This movement highlights themes that are often invisible, which require greater attention and in-depth study, and proposes a decentralization of decision-making. By moving from an individual perspective to a shared vision of responsibilities, we are invited to welcome the discomfort that accompanies collective change. This requires: understanding the power dynamics that shape social and economic relations, the courage to take risks, break paradigms and expand references and building a more equitable representation."
         ]
       },
       {
@@ -395,7 +395,7 @@
         "texts": [
           "Big Tech has dictated the rules on how we articulate thoughts and connections in networks, often from a dehumanizing perspective. The race to and the disparity between different approaches to regulating the ethical basis of digital technologies around the world expose disputes over influence, as well as gaps in cultural and social representation. They also perpetuate inequalities in digital access and education.",
           "Philanthropy's interaction with technological tools confronts the challenges of this inequality head-on. What we once called “futurism” requires the deconstruction of ideas of a decontextualized future, empty of people and their dynamic and diverse realities.",
-          "Digital technologies are not neutral. They shape our perception of ourselves, the world and how we relate to it. They also transform power dynamics, subjectivities and human experiences, especially in contexts of governance, human rights and gender politics. If we are still debating the lack of a solid critique of the <i>status quo</i> that homogenizes countries and cultures from the point of view of organizations in the Global North, the question arises: how can we simplify and rehumanize technology and innovation, with exponential changes?"
+          "Digital technologies are not neutral. They shape our perception of ourselves, the world and how we relate to it. They also transform power dynamics, subjectivities and human experiences, especially in contexts of governance, human rights and gender politics. If we are still debating the lack of a solid critique of the <i>status quo</i> that homogenizes countries and cultures from the point of view of organizations in the Global North, the question arises: <strong>how can we simplify and rehumanize technology and innovation, with exponential changes?</strong>"
         ]
       }
     ],
