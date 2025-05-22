@@ -88,7 +88,7 @@ export function FoundLetterToContextTransition() {
                 <ReactMarkdown>{t('context.block1.2')}</ReactMarkdown>
               </p>
               <p>
-                <ReactMarkdown>{t('context.block1.2')}</ReactMarkdown>
+                <ReactMarkdown>{t('context.block1.3')}</ReactMarkdown>
               </p>
             </NoticeColumn>
           </NoticeContainer>
