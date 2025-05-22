@@ -238,6 +238,25 @@
       "p2": "Enable exponential change with System Orchestrators using Societal Thinking",
       "p3": "Create impact at societal scale"
     },
+    "transformationVision": {
+      "title": "CMe's Transformation Vision",
+      "card1": {
+        "title": "NEW PARADIGMS",
+        "text": "Collaboratively drive new mental models of exponential entrepreneurs, strengthening and supporting the viability of their solutions to systemic problems, to generate exponential and global impact."
+      },
+      "card2": {
+        "title": "LEVERAGING SHARED CAPABILITIES",
+        "text": "In this age, digital technologies such as Digital Public Goods and Digital Public Infrastructure in the form of platforms, protocols and Artificial Intelligence (AI) plays a crucial role in achieving impact at scale. Shared open resources such as knowledge, tools, data and networks enable faster capacity building and effective services for the most vulnerable and historically marginalized communities."
+      },
+      "card3": {
+        "title": "CO-CREATING WITH SOCIETAL ACTORS",
+        "text": "Enabling an environment where actors across Brazil – from civil society, academia, policy to private sector and foundations can come together to develop scalable solutions. They can achieve this through innovation and by leveraging existing capabilities and resources of the system."
+      },
+      "card4": {
+        "title": "GLOBAL COLLABORATIVE ECOSYSTEM",
+        "text": "Build a global collaborative ecosystem by connecting Brazilian System Orchestrators with international partners, networks, and resources, fostering cross-border learning and innovation for exponential change."
+      }
+    },
     "orchestrating": {
       "title": "Orchestrating the Ecosystem for Exponential Change",
       "card1": {
@@ -281,8 +300,8 @@
     "exponentialJourney": {
       "title": "Journey Toward Exponential Change",
       "title2": "Journey of a Systems Orchestrator",
-      "p1": "At CMe, we walk side by side with <strong>System Orchestrators</strong> to <strong>deepen understanding of their grand missions</strong>, asking questions and exploring answers through the Societal Thinking Model, systematically, to build adoption networks and innovation ecosystems powered by cutting-edge digital technologies.",
-      "p2": "Together, we embark on a journey to <strong>Learn, Reimagine, Design, Build, Validate, Coordinate and Mobilize</strong> to achieve scale with agility and sustainability.",
+      "p1": "At <strong>CMe</strong>, we co-travel with System Orchestrators to unpack their big quests by asking questions and exploring answers using the Societal Thinking Model systematically to build adoption networks, innovation ecosystems leveraging leading edge digital technologies.",
+      "p2": "Together, we embark on a journey to <strong>Learn</strong>, <atrong>Reimagine</strong>, <strong>Design</strong>, <strong>Build</strong>, <strong>Validate</strong>, <strong>Coordinate</strong> and <strong>Mobilize</strong> for scale, with speed, sustainably.",
       "extra": {
         "siteTitle": "Learn more about the Centre for Exponential Change",
         "siteCallback": "Visit Centre for Exponential Change website"

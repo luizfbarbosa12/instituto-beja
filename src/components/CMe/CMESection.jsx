@@ -252,17 +252,7 @@ const CMESection = () => {
           </p>
         </div>
       </div>
-
-      <div className='flex flex-col w-full px-32 max-1280:px-16 max-896:px-8 max-768:px-5'>
-        <CMEScrollTriggerList
-          arr={AEPIE}
-          title={<Trans i18nKey='cme.orchestrating.title' />}
-          paddingTop={
-            "pt-90 max-1280:pt-80 max-360:pt-60 max-460:pt-55 max-950:pt-60"
-          }
-        />
-      </div>
-
+      
       <div className='px-32 max-1280:px-16 max-896:px-8 max-640:px-5'>
         <h1
           style={{ fontSize: `clamp(${calcClamp(24, 48)})` }}
@@ -274,7 +264,17 @@ const CMESection = () => {
         <AnimatedHorizontalScroll map={VTCMEmap} />
       </div>
 
-      <div className='flex flex-col items-end w-full gap-15 pt-20 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:gap-5'>
+      <div className='flex flex-col w-full px-32 max-1280:px-16 max-896:px-8 max-768:px-5'>
+        <CMEScrollTriggerList
+          arr={AEPIE}
+          title={<Trans i18nKey='cme.orchestrating.title' />}
+          paddingTop={
+            "pt-90 max-1280:pt-80 max-360:pt-60 max-460:pt-55 max-950:pt-60"
+          }
+        />
+      </div>
+
+         <div className='flex flex-col items-end w-full gap-15 pt-20 px-32 max-1280:px-16 max-896:px-8 max-640:px-5 max-768:gap-5'>
         <h1
           style={{
             fontSize: `clamp(${calcClamp(24, 48)})`,
