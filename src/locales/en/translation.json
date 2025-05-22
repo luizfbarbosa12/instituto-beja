@@ -209,19 +209,19 @@
     "p2": "In Brazil, CMe serves as an <strong>ecosystem builder</strong>, connecting civil society, the private sector and government to promote systemic transformations within the country's unique context. CMe's approach values <strong>collective action</strong> and strategic use of <strong>digital technologies</strong> which, when carefully designed with safety and inclusion in mind, can address current challenges with speed, scale and sustainability.",
     "p3": "CMe has a multi-sectoral committee of ambassadors including <strong>Jéssica Silva, Cristiano Franco, Luca Cavalcanti, Saulo Barreto, Sheila Pires, Silvana Bahia, Thiago Rached, Cristiane Sultani, Sanjay Purohit and Célia Cruz</strong>.",
     "list": {
-      "title": "CMe'S KEY ACTIONS IN 2024",
+      "title": "WHAT CMe DID IN 2024:",
       "list": [
-        "Formalized a global partnership with the Centre for Exponential Change (C4EC);",
-        "Built and launched the Centre for Exponential Change (CMe) in São Paulo in November;",
-        "Held deep dialogues with funders and experts during Filantropando and later at CMe;",
-        "Engaged System Orchestrators in Brazil to select CMe's initial journeys;",
-        "Selected the first group of System Orchestrators and began their exponential change journeys."
+        "Formalized a global partnership with the <strong>Centre for Exponential Change (C4EC)</strong>;",
+        "Built and launched the <strong>Centre for Exponential Change (CMe)</strong> in São Paulo in November;",
+        "Held deep dialogues with funders and experts during <strong>Filantropando</strong> and later at <strong>CMe</strong>;",
+        "Engaged with System Orchestrators in Brazil to select the initial journeys through <strong>CMe</strong>;",
+        "Selected the first set of System Orchestrators and initiated their journey of exponential change."
       ]
     },
     "ecosystem": {
       "description": "The <strong>Centre for Exponential Change (CMe)</strong> is envisioned as an ecosystem where funders, thinkers, experts and mentors come together to support <strong>System Orchestrators</strong> who are on a journey to create change at scale. They connect dots between actors across civil society, government and the private sector, align incentives towards a new paradigm and build networks leveraging leading-edge technologies. Endeavours to create change at scale are complex – they extend over a long period of time and <strong>System Orchestrators</strong> need to anticipate and overcome a series of hurdles along the way. <strong>CMe</strong> offers System Orchestrators the right support at the right time. To this end, <strong>CMe</strong> will:",
       "list": {
-        "title": "How the <strong>Centre for Exponential Change (CMe)</strong> supports <strong>System Orchestrators</strong>:",
+        "title": "Towards this, <strong>CMe</strong> will:",
         "list": [
           "Curate <strong>practical open knowledge</strong> to share ideas, experiences, methods, practices, and tools that answer the why, what, and how of <strong>exponential change</strong>;",
           "Facilitate <strong>deep design</strong> and <strong>prototyping</strong> of <strong>new digital technologies</strong> and discover different ways to induce <strong>exponential change</strong>;",
@@ -243,19 +243,19 @@
       "card1": {
         "title": "Catalyzing network effects",
         "text": [
-          "<p>Expanding the efforts of System Orchestrators in Brazil by building pathways that leverage the strengths of diverse local and global actors and collaborators to address social challenges in our context.</p>"
+          "<p>Amplifying the efforts of System Orchestrators from Brazil by building pathways to leverage the strengths of multiple local and global stakeholders and collaborators to solve social challenges in our context.</p>"
         ]
       },
       "card2": {
         "title": "Leveraging shared capabilities",
         "text": [
-          "<p>In our current era, digital technologies like Digital Public Goods and Digital Public Infrastructures - in the form of platforms, protocols and Artificial Intelligence (AI) - play an essential role in generating impact at scale. Open and shared resources like knowledge, tools, data and networks accelerate capability development and delivery of effective services to vulnerable and historically marginalized communities.</p>"
+          "<p>In this age, digital technologies such as <strong>Digital Public Goods</strong> and <strong>Digital Public Infrastructure</strong> in the form of platforms, protocols and <strong>Artificial Intelligence (AI)</strong> plays a crucial role in achieving impact at scale. Shared open resources such as knowledge, tools, data and networks enable faster capacity building and effective services for the most vulnerable and historically marginalized communities.</p>"
         ]
       },
       "card3": {
         "title": "Co-creating with societal actors",
         "text": [
-          "<p>Creating an environment where actors from different sectors in Brazil - from civil society, academia and the public sector to private sector and foundations - can come together to develop scalable solutions. This happens through innovation and strategic use of existing system capabilities and resources.</p>"
+          "<p>Enabling an environment where actors across Brazil – from civil society, academia, policy to private sector and foundations can come together to develop scalable  solutions. They can achieve this through innovation and by leveraging existing capabilities and resources of the system.</p>"
         ]
       }
     },
@@ -266,12 +266,12 @@
         "text": "Collaboratively drive new mental models of exponential entrepreneurs, strengthening and supporting the viability of their solutions to systemic problems, to generate exponential and global impact."
       },
       "card2": {
-        "title": "NETWORK EFFECT",
-        "text": "Understand the actors and barriers we need to move to catalyze and strengthen the ecosystem that unlocks these entrepreneurs' agenda."
+        "title": "LEVERAGING SHARED CAPABILITIES",
+        "text": "In this age, digital technologies such as Digital Public Goods and Digital Public Infrastructure in the form of platforms, protocols and Artificial Intelligence (AI) plays a crucial role in achieving impact at scale. Shared open resources such as knowledge, tools, data and networks enable faster capacity building and effective services for the most vulnerable and historically marginalized communities."
       },
       "card3": {
-        "title": "LOCAL IMPACT ECOSYSTEM (INFRASTRUCTURE) WITH TECHNOLOGY",
-        "text": "Create ethical infrastructure following responsible protocols to support the Brazilian ecosystem (SOs, networks, regulation, academia, foundations) in making the best choices regarding technologies, prototypes, funding and large-scale implementation."
+        "title": "CO-CREATING WITH SOCIETAL ACTORS",
+        "text": "Enabling an environment where actors across Brazil – from civil society, academia, policy to private sector and foundations can come together to develop scalable solutions. They can achieve this through innovation and by leveraging existing capabilities and resources of the system."
       },
       "card4": {
         "title": "GLOBAL COLLABORATIVE ECOSYSTEM",
