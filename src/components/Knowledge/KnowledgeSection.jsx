@@ -1105,6 +1105,21 @@ const KnowledgeSection = () => {
           ]}
         />
 
+        <div className="w-full flex flex-col items-center my-4">
+          <h2
+            className="editorial text-retro-ochre text-center"
+            style={{
+              fontSize: `clamp(${calcClamp(24, 36)})`,
+              lineHeight: `clamp(${calcClamp(28, 48)})`,
+              fontWeight: 700,
+              letterSpacing: '0.01em',
+              marginBottom: '0.5rem',
+            }}
+          >
+            <Trans i18nKey="knowledge.sections.maradentro.episodesTitle" />
+          </h2>
+        </div>
+
         <TextBlock
           firstBlock={[
             {
