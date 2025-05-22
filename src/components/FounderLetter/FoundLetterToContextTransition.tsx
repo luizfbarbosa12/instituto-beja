@@ -57,9 +57,11 @@ export function FoundLetterToContextTransition() {
     <>
       <div className='bg-retro-ochre pb-58 flex-1 editorial flex items-start pt-30 justify-start text-left relative'>
         <div className='max-w-68 text-3xl leading-[160%] tablet:text-6xl tablet:max-w-[1084px] mx-7 tablet:mx-32 text-porcelain'>
-  <ReactMarkdown>
-    {t('context.invite', { returnObjects: true }).join('\n')}
-  </ReactMarkdown>
+  {(() => {
+    const invite = t('context.invite', { returnObjects: true });
+    const inviteText = Array.isArray(invite) ? invite.join('\n') : String(invite);
+    return <ReactMarkdown>{inviteText}</ReactMarkdown>;
+  })()}
 </div>
       </div>
       <div
@@ -132,9 +134,7 @@ export function FoundLetterToContextTransition() {
               <p>
                 <ReactMarkdown>{t('context.block2.6')}</ReactMarkdown>
               </p>
-              <p>
-                <Trans i18nKey='context.block2.7' />
-              </p>
+
             </NoticeColumn>
           </NoticeContainer>
         </div>
