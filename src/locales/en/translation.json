@@ -242,20 +242,20 @@
     "transformationVision": {
       "title": "CMe's Transformation Vision",
       "card1": {
-        "title": "NEW PARADIGMS",
-        "text": "Collaboratively drive new mental models of exponential entrepreneurs, strengthening and supporting the viability of their solutions to systemic problems, to generate exponential and global impact."
+        "title": "ENABLING INNOVATIVE NEW PARADIGMS",
+        "text": "System Orchestrators, our Journey Partners, reimagine and shape a new paradigm - an innovative way of thinking and doing that enables impact at scale. This includes envisioning an alternative future, challenging prevailing mindsets, and innovating ideas that shift the understanding, responsibilities and actions of key actors."
       },
       "card2": {
-        "title": "LEVERAGING SHARED CAPABILITIES",
-        "text": "In this age, digital technologies such as Digital Public Goods and Digital Public Infrastructure in the form of platforms, protocols and Artificial Intelligence (AI) plays a crucial role in achieving impact at scale. Shared open resources such as knowledge, tools, data and networks enable faster capacity building and effective services for the most vulnerable and historically marginalized communities."
+        "title": "IGNITING RAPID COLLECTIVE ACTION",
+        "text": "We need all hands on deck to enable exponential change. Different actors share their expertise and resources, as well as, ensure communities are integrated as active participants in change-making. This unlocks coordinated and sustained action towards shared goals."
       },
       "card3": {
-        "title": "CO-CREATING WITH SOCIETAL ACTORS",
-        "text": "Enabling an environment where actors across Brazil – from civil society, academia, policy to private sector and foundations can come together to develop scalable solutions. They can achieve this through innovation and by leveraging existing capabilities and resources of the system."
+        "title": "TECHNOLOGY FOR INCLUSION AT SCALE",
+        "text": "Brazil has become a benchmark in the Global South for ethical and responsible use of technology, especially Al, to drive transformation. This has been made possible by setting robust standards and policies that guide actors to make informed decisions that ensure no community faces unintended consequences."
       },
       "card4": {
-        "title": "GLOBAL COLLABORATIVE ECOSYSTEM",
-        "text": "Build a global collaborative ecosystem by connecting Brazilian System Orchestrators with international partners, networks, and resources, fostering cross-border learning and innovation for exponential change."
+        "title": "SHARING GLOBAL SOUTH IDEAS, WORLDWIDE",
+        "text": "There is an abundance of knowledge and wisdom in the Global South - both indigenous and emerging - especially around responding to exponential challenges with exponential change. It has been curated and amplified across the world so that it can be used and built upon, by many societies, as relevant, in their respective contexts."
       }
     },
     "orchestrating": {
@@ -279,25 +279,7 @@
         ]
       }
     },
-    "transformationVision": {
-      "title": "CMe's Transformation Vision",
-      "card1": {
-        "title": "NEW PARADIGMS",
-        "text": "Collaboratively drive new mental models of exponential entrepreneurs, strengthening and supporting the viability of their solutions to systemic problems, to generate exponential and global impact."
-      },
-      "card2": {
-        "title": "LEVERAGING SHARED CAPABILITIES",
-        "text": "In this age, digital technologies such as Digital Public Goods and Digital Public Infrastructure in the form of platforms, protocols and Artificial Intelligence (AI) plays a crucial role in achieving impact at scale. Shared open resources such as knowledge, tools, data and networks enable faster capacity building and effective services for the most vulnerable and historically marginalized communities."
-      },
-      "card3": {
-        "title": "CO-CREATING WITH SOCIETAL ACTORS",
-        "text": "Enabling an environment where actors across Brazil – from civil society, academia, policy to private sector and foundations can come together to develop scalable solutions. They can achieve this through innovation and by leveraging existing capabilities and resources of the system."
-      },
-      "card4": {
-        "title": "GLOBAL COLLABORATIVE ECOSYSTEM",
-        "text": "Create a large collaborative network that responds quickly to major social and environmental problems with solutions that can be accelerated using responsible technologies and global exchange."
-      }
-    },
+
     "exponentialJourney": {
       "title": "Journey Toward Exponential Change",
       "title2": "TYPICAL SYSTEM ORCHESTRATOR JOURNEY",
