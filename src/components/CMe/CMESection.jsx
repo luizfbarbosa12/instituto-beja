@@ -309,24 +309,46 @@ const CMESection = () => {
                 content: (
                   <>
                     <div className='flex flex-col gap-1'>
-                      <h1
-                        style={{
-                          fontSize: `clamp(${calcClamp(14, 24)})`,
-                          lineHeight: `clamp(${calcClamp(14 * 1.3, 24 * 1.3)})`,
-                        }}
-                        className={`text-cyan font-bold`}
-                      >
-                        <Trans i18nKey='cme.exponentialJourney.extra.siteTitle' />
-                      </h1>
+  <h1
+    style={{
+      fontSize: `clamp(${calcClamp(14, 24)})`,
+      lineHeight: `clamp(${calcClamp(14 * 1.3, 24 * 1.3)})`,
+    }}
+    className={`text-cyan font-bold`}
+  >
+    <Trans i18nKey='cme.exponentialJourney.extra.siteTitle' />
+  </h1>
 
-                      <ArrowRightLink
-                        href={
-                          "https://centreforexponentialchange.org/pt-br/brazil/"
-                        }
-                      >
-                        <Trans i18nKey='cme.exponentialJourney.extra.siteCallback' />
-                      </ArrowRightLink>
-                    </div>
+  <ArrowRightLink
+  href={
+    i18n.language === 'en'
+      ? 'https://centreforexponentialchange.org/'
+      : 'https://centreforexponentialchange.org/pt-br/brazil/'
+  }
+>
+  <Trans i18nKey='cme.exponentialJourney.extra.siteCallback' />
+</ArrowRightLink>
+</div>
+
+<div className='flex flex-col gap-1'>
+  <h1
+    style={{
+      fontSize: `clamp(${calcClamp(14, 24)})`,
+      lineHeight: `clamp(${calcClamp(14 * 1.3, 24 * 1.3)})`,
+    }}
+    className={`text-cyan font-bold`}
+  >
+    <Trans i18nKey='cme.exponentialJourney.extra.societalTitle' />
+  </h1>
+
+  <ArrowRightLink
+    href={
+      "https://societalthinking.org"
+    }
+  >
+    <Trans i18nKey='cme.exponentialJourney.extra.societalCallback' />
+  </ArrowRightLink>
+</div>
                   </>
                 ),
               },

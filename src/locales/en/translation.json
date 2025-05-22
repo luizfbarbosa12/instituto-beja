@@ -299,12 +299,14 @@
     },
     "exponentialJourney": {
       "title": "Journey Toward Exponential Change",
-      "title2": "Journey of a Systems Orchestrator",
+      "title2": "TYPICAL SYSTEM ORCHESTRATOR JOURNEY",
       "p1": "At <strong>CMe</strong>, we co-travel with System Orchestrators to unpack their big quests by asking questions and exploring answers using the Societal Thinking Model systematically to build adoption networks, innovation ecosystems leveraging leading edge digital technologies.",
-      "p2": "Together, we embark on a journey to <strong>Learn</strong>, <atrong>Reimagine</strong>, <strong>Design</strong>, <strong>Build</strong>, <strong>Validate</strong>, <strong>Coordinate</strong> and <strong>Mobilize</strong> for scale, with speed, sustainably.",
+      "p2": "Together, we embark on a journey to <strong>Learn</strong>, <strong>Reimagine</strong>, <strong>Design</strong>, <strong>Build</strong>, <strong>Validate</strong>, <strong>Coordinate</strong> and <strong>Mobilize</strong> for scale, with speed, sustainably.",
       "extra": {
-        "siteTitle": "Learn more about the Centre for Exponential Change",
-        "siteCallback": "Visit Centre for Exponential Change website"
+        "siteTitle": "Learn more about the C4EC",
+        "siteCallback": "Visit Centre for Exponential Change website",
+        "societalTitle": "Learn more about Societal Thinking:",
+        "societalCallback": "Visit the Societal Thinking website"
       }
     },
     "systemOrchestrating": {
@@ -316,26 +318,26 @@
         "card1": {
           "title": "Desenrola e não me enrola",
           "text": [
-            "<p>Develops community journalism and anti-racist media education in favelas and urban peripheries to build information ecosystems that combat digital and information inequalities.</p>",
-            "<strong>Created in 2013 by residents of the peripheries, their work decentralizes knowledge production and drives civic engagement, creating innovative solutions to confront disinformation, digital segregation and media exclusion.</strong>",
+            "<p>Developing community journalism and anti-racist and media education in favelas and urban peripheries, to build information ecosystems to combat digital and information inequalities.</p>",
+            "<strong>Created in 2013 by residents of the peripheries, their work decentralizes the production of knowledge and drives civic engagement, creating innovative solutions to tackle disinformation, digital segregation and media exclusion.</strong>",
             "<p>By developing scalable technologies that enable media education, employment opportunities and access to better quality information, <strong>Desenrola</strong> plays a vital role in promoting inclusive information ecosystems that reduce inequalities and strengthen democracy.</p>"
           ]
         },
         "card2": {
           "title": "MapBiomas",
           "text": [
-            "<p>Reveals transformations of Brazilian territory through science with precision, speed and quality, making knowledge about land cover and land use accessible to pursue conservation and sustainable management of natural resources and financially block illegal deforestation and land use practices as climate change combat.</p>",
-            "<strong>Since 2015, MapBiomas has been transforming how we monitor land cover and use in Brazil. With a network of NGOs, universities and tech startups, it uses artificial intelligence and cloud processing to generate open, updated data on deforestation, water and fires since 1985.</strong>",
-            "<p>The platform is open, scalable and replicable in different countries and contexts, allowing integration of new partners and scientific community contributions. It generates accessible, accurate knowledge about territorial transformations to drive conservation, sustainable natural resource management and climate change combat.</p>"
+            "<p>To reveal the transformations of Brazilian territory through science, with precision, agility and quality, and to make knowledge about land cover and land use accessible, in order to seek conservation and sustainable management of natural resources and to financially block illegal practices of deforestation and illegal land use, as a way of combating climate change.</p>",
+            "<strong>Since 2015, MapBiomas has been transforming the way we monitor land cover and land use in Brazil. With a network of NGOs, universities and technology startups, it uses artificial intelligence and cloud processing to generate open and up-to-date data on deforestation, water and fires, since 1985.</strong>",
+            "<p>The platform is open, scalable and replicable in different countries and contexts, allowing for the integration of new partners and the contribution of the scientific community. It generates accessible and accurate knowledge about land transformations to boost conservation, the sustainable management of natural resources and the fight against climate change.</p>"
           ]
         },
         "card3": {
           "title": "Serenas",
           "text": [
             "<strong>\"How can technology help us build a Brazil that's safe for women and girls in an ethical, responsible and effective way?\"</strong>",
-            "<p>A journey that complements the work of an organization born so girls and women can be free, choose and dream without limits, exercising their rights to dignity, respect and equality in a discrimination-free world.</p>",
-            "<p><strong>Serenas is a nonprofit that since 2021 has supported governments in building and implementing educational policies to prevent violence against girls and women, plus qualifying public services for humanized, intersectoral and effective care for survivors of sexual and domestic violence</strong></p>",
-            "<p>Like <strong>Serenas</strong>, we believe transformation requires deep work changing values and social norms that sustain violence through educating new generations and those working with victims, ensuring adequate, respectful care.</p>"
+            "<p>A journey that adds to the work of an organization that was born so that girls and women can be free to choose and dream without limits, exercising their rights to dignity, respect and equality in a world without discrimination.</p>",
+            "<p><strong>Serenas is a non-profit organization that, since 2021, has been supporting government in the construction and implementation of educational policies to prevent violence against girls and women, as well as the qualification of public services for humanized, intersectoral and effective care for survivors of sexual and domestic violence.</strong></p>",
+            "<p>Like <strong>Serenas</strong>, we believe that transformation requires profound work to change the values and social norms that sustain violence, and this can be done by educating the younger generations and those who work with victims, guaranteeing adequate and respectful care.</p>"
           ]
         }
       }
