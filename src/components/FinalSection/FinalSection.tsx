@@ -2,7 +2,6 @@ import { HorizontalScrollCarousel } from "./HorizontalScrollCarousel";
 import { calcClamp } from "@/data/Utils";
 import { t } from "i18next";
 import { Trans } from "react-i18next";
-import ImageSlider from "../Animations/ImageSlider";
 import TextBlock from "../ui/TextBlock";
 import { Images } from "./../../assets/Index";
 
