@@ -56,18 +56,7 @@ export const useCmeData = () => {
 
   const getCMEPartners = () => {
     return [
-      {
-        bgColor: "bg-[#FFCBC4]",
-        img: DesenrolaLogo,
-        title: {
-          color: "text-hot-coral",
-          name: t("cme.systemOrchestrating.cards.card1.title"),
-        },
-        text: t("cme.systemOrchestrating.cards.card1.text", {
-          returnObjects: true,
-        }),
-      },
-      {
+       {
         bgColor: "bg-porcelain",
         img: MapBiomasLogo,
         title: {
@@ -86,6 +75,17 @@ export const useCmeData = () => {
           name: t("cme.systemOrchestrating.cards.card3.title"),
         },
         text: t("cme.systemOrchestrating.cards.card3.text", {
+          returnObjects: true,
+        }),
+      },
+      {
+        bgColor: "bg-[#FFCBC4]",
+        img: DesenrolaLogo,
+        title: {
+          color: "text-hot-coral",
+          name: t("cme.systemOrchestrating.cards.card1.title"),
+        },
+        text: t("cme.systemOrchestrating.cards.card1.text", {
           returnObjects: true,
         }),
       },
