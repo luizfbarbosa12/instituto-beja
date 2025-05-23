@@ -8,11 +8,6 @@ const FinalSection = () => {
   const { t } = useTranslation();
   return (
     <div className='flex flex-col bg-porcelain'>
-      <img
-        src={Images.Filantropando.FilantropandoBanner}
-        alt={t("philanthropy.bannerAlt")}
-        className='w-full'
-      />
 
       <div className='flex flex-col justify-start gap-15 w-full py-15 pb-30 px-32 max-1280:px-16 max-1280:gap-14 max-896:px-8 max-896:gap-12 max-640:px-5 max-640:gap-4 max-640:py-10 max-640:pb-15'>
         <h1
