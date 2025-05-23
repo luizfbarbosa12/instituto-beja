@@ -110,15 +110,6 @@ const BejaLabs = () => {
                   <>
                     <p>
                       <Trans i18nKey='bejaLabs.sections.ecosystemMap.blocks.block1.fs.p1' />
-                      <br />
-                      <a
-                        href="https://labnovalongevidade.org"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-block mt-2 text-ocre-700 hover:bg-ocre-100 hover:text-ocre-900 transition-colors px-3 py-1 rounded"
-                      >
-                        <Trans i18nKey="bejaLabs.sections.ecosystemMap.blocks.block1.fs.link" components={[<b key="b" />]} />
-                      </a>
                     </p>
                   </>
                 ),
