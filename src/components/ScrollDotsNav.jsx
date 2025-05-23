@@ -17,7 +17,7 @@ const SECTIONS = [
   { id: 'advocacy-section', label: 'nav.sections.advocacy' },
   { id: 'knowledge-section', label: 'nav.sections.knowledge' },
   { id: 'beja-labs', label: 'nav.sections.bejaLabs' },
-  { id: 'philanthropy-section', label: 'nav.sections.philanthropy' },
+  { id: 'philanthropy-section', label: 'Filantropando' },
   { id: 'final-section', label: 'nav.sections.finalSection' },
   { id: 'balanco-table', label: 'nav.sections.balancoTable' },
   { id: 'expediente', label: 'nav.sections.expediente' },
