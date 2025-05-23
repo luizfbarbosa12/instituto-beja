@@ -107,17 +107,17 @@ const BejaLabs = () => {
               key: "first-0",
               content: (
                 <>
-                  <p>
+                  <p className='mb-0'>
                     <Trans i18nKey='bejaLabs.sections.ecosystemMap.blocks.block1.fs.p1' />
-<br />
-<a
-  href="https://labnovalongevidade.org"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="inline-block mt-2 text-ocre-700 hover:bg-ocre-100 hover:text-ocre-900 font-semibold transition-colors px-3 py-1 rounded"
->
-  Clique aqui para acessar este conteúdo em nosso site exclusivo.
-</a>
+                    <br />
+                    <a
+                      href="https://labnovalongevidade.org"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-2 mb-0 text-ocre-700 hover:bg-ocre-100 hover:text-ocre-900 transition-colors px-3 py-1 rounded"
+                    >
+                      <Trans i18nKey="bejaLabs.sections.ecosystemMap.blocks.block1.fs.link" components={[<b key="b" />]} />
+                    </a>
                   </p>
                 </>
               ),
@@ -156,9 +156,7 @@ const BejaLabs = () => {
   rel="noopener noreferrer"
   className="inline-block mt-2 text-ocre-700 hover:bg-ocre-100 hover:text-ocre-900 transition-colors px-3 py-1 rounded"
 >
-  {i18n.language === "en"
-    ? (<><b>Click here</b> to access this exclusive content.</>)
-    : (<><b>Clique aqui</b> para acessar este conteúdo em nosso site exclusivo.</>)}
+  <Trans i18nKey="bejaLabs.sections.ecosystemMap.blocks.block1.fs.link" components={[<b key="b" />]} />
 </a>
                     </p>
                   </>
