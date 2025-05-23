@@ -431,7 +431,7 @@ export const useBalance = () => {
       rows: [
         {
           project: "Bemtevi eTHP",
-          type: "Jornada do Amadurecimento",
+          type: "Development journey",
           totalAmount: "100.000",
           amount2024: "7.000",
           start: "2023",
@@ -439,7 +439,7 @@ export const useBalance = () => {
         },
         {
           project: "Quintessa",
-          type: "Aceleração de negócios de impacto social",
+          type: "Social enterprise acceleration",
           totalAmount: "1.282.000",
           amount2024: "",
           start: "2022",
