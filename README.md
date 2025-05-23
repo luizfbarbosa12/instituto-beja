@@ -5,10 +5,11 @@ This document provides a comprehensive technical overview of the Instituto Beja 
 ## Core Architecture & Design
 
 *   **Application Type:** Single-Page Application (SPA).
-*   **Primary Structure:** The application is architected as a long-scrolling page, with distinct content sections rendered sequentially. Navigation is primarily achieved through scrolling.
+*   **Primary Structure:** The application is architected as a long-scrolling page, with distinct content sections rendered sequentially.
+*   **Section Navigation:** A fixed vertical dot navigation (`ScrollDotsNav`) enables users to jump to major sections of the report. Each dot is linked to a section anchor and displays an internationalized tooltip using i18n. Smooth scrolling is used for navigation, preserving SPA behavior.
 *   **Component Modularity:** The UI is built using a modular component-based approach, with components categorized into thematic sections, reusable UI elements (Shadcn/UI), and animated components (Magic UI).
 *   **Performance Focus:** Implements lazy loading for section components (`React.lazy()`) and viewport-based rendering (`react-scan`) to optimize initial load times and runtime performance.
-*   **Internationalization (i18n):** Supports multiple languages through `i18next` and `react-i18next`, with translation files located in `src/locales/`.
+*   **Internationalization (i18n):** Supports multiple languages through `i18next` and `react-i18next`, with translation files located in `src/locales/`. All navigation and section labels are internationalized.
 *   **Responsive Design:** Utilizes Tailwind CSS for a utility-first approach to styling, ensuring adaptability across various screen sizes.
 
 ## Technology Stack
@@ -31,6 +32,8 @@ This document provides a comprehensive technical overview of the Instituto Beja 
     *   `lucide-react` (for SVG icons).
     *   `embla-carousel-react`, `swiper` (for carousel/slider functionality).
     *   `class-variance-authority`, `clsx`, `tailwind-merge` (for managing CSS classes).
+    *   `ScrollDotsNav` (custom, for section navigation with i18n tooltips).
+    *   `Magic UI` and `Shadcn/UI` for animated and styled components.
 *   **Performance Utilities:**
     *   `React.lazy()` (for component code-splitting).
     *   `react-scan` (for viewport-based component rendering).
@@ -44,13 +47,14 @@ Key directories and their purposes:
 
 *   **`public/`**: Contains static assets that are directly copied to the build output's root (e.g., `favicon.ico`, `robots.txt`).
 *   **`src/`**: Houses all application source code.
-    *   **`App.jsx`**: The root React component that defines the overall page layout and composition of sections.
+    *   **`App.jsx`**: The root React component that defines the overall page layout and composition of sections. Integrates the `ScrollDotsNav` navigation component.
     *   **`main.jsx`**: The main entry point for the React application; initializes React DOM and global configurations.
     *   **`main.css`**: Main stylesheet including Tailwind CSS directives and global custom styles.
     *   **`assets/`**: Project-specific static assets (images, fonts) imported by components.
     *   **`components/`**: Contains all React components.
         *   **`ui/`**: Shadcn/UI components added to the project.
         *   **`magicui/`**: Magic UI components.
+        *   **`ScrollDotsNav.jsx`**: Implements the vertical dot navigation for section jumping with i18n tooltips.
         *   *Thematic Directories* (e.g., `Knowledge/`, `Philanthropy/`): Custom components representing major sections of the application.
         *   **`Index.js`**: Centralizes component exports, often implementing lazy loading.
     *   **`config/`**: Application-level configurations (e.g., `i18n.js` for internationalization setup).
