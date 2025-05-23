@@ -101,44 +101,46 @@ const BejaLabs = () => {
         topImg={Images.BejaLabs.MapeamentoBrasil}
         topImgStyle={{ w: 320, maxW: 1491, h: 320, maxH: 1155 }}
       >
-        <TextBlock
-          firstBlock={[
-            {
-              key: "first-0",
-              content: (
-                <>
-                  <p className='mb-0'>
-                    <Trans i18nKey='bejaLabs.sections.ecosystemMap.blocks.block1.fs.p1' />
-                    <br />
-                    <a
-                      href="https://labnovalongevidade.org"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-block mt-2 mb-0 text-ocre-700 hover:bg-ocre-100 hover:text-ocre-900 transition-colors px-3 py-1 rounded"
-                    >
-                      <Trans i18nKey="bejaLabs.sections.ecosystemMap.blocks.block1.fs.link" components={[<b key="b" />]} />
-                    </a>
-                  </p>
-                </>
-              ),
-            },
-          ]}
-          secondBlock={[
-            {
-              key: "second-0",
-              content: <></>,
-            },
-          ]}
-        />
+        <div className='flex flex-col gap-4'>
+          <TextBlock
+            firstBlock={[
+              {
+                key: "first-0",
+                content: (
+                  <>
+                    <p>
+                      <Trans i18nKey='bejaLabs.sections.ecosystemMap.blocks.block1.fs.p1' />
+                      <br />
+                      <a
+                        href="https://labnovalongevidade.org"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-block mt-2 text-ocre-700 hover:bg-ocre-100 hover:text-ocre-900 transition-colors px-3 py-1 rounded"
+                      >
+                        <Trans i18nKey="bejaLabs.sections.ecosystemMap.blocks.block1.fs.link" components={[<b key="b" />]} />
+                      </a>
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+            secondBlock={[
+              {
+                key: "second-0",
+                content: <></>,
+              },
+            ]}
+          />
 
-        <TopicList
-          title={
-            <Trans i18nKey='bejaLabs.sections.ecosystemMap.topicList.list1.title' />
-          }
-          list={t("bejaLabs.sections.ecosystemMap.topicList.list1.topics", {
-            returnObjects: true,
-          })}
-        />
+          <TopicList
+            title={
+              <Trans i18nKey='bejaLabs.sections.ecosystemMap.topicList.list1.title' />
+            }
+            list={t("bejaLabs.sections.ecosystemMap.topicList.list1.topics", {
+              returnObjects: true,
+            })}
+          />
+        </div>
 
         <div className='flex flex-col gap-4'>
           <TextBlock
