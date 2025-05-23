@@ -12,6 +12,7 @@ import knowledgeEN from "../locales/en/knowledge.json";
 import schedulePT from "../locales/pt/schedule.json";
 import scheduleEN from "../locales/en/schedule.json";
 
+// Ensure we have a deep clone of objects to avoid reference issues
 const pt = {
   ...translationPT,
   ...advocacyPT,
@@ -37,6 +38,8 @@ i18n.use(initReactI18next).init({
   interpolation: {
     escapeValue: false,
   },
+  debug: process.env.NODE_ENV === 'development',
+  load: 'currentOnly'
 });
 
 export default i18n;

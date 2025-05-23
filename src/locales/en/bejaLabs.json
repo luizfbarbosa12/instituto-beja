@@ -110,9 +110,9 @@
             "topics": [
               "Formal Education",
               "Capability of Information and Decision",
-              "Lifelong Learning",
+              "Long term knowledge building",
               "Geriatrics and Gerontology Training",
-              "Health Education",
+              "Education for health",
               "Education for Longevity"
             ]
           }
@@ -278,7 +278,7 @@
           },
           "block3": {
             "fs": {
-              "p1": "To find answers and stimulate reflection, the <strong>Lab</strong> works in three main dimensions: SELF (individual), ECOSYSTEMS and INSTITUTIONS."
+              "p1": "To find answers and stimulate reflection, the <strong>Lab</strong> works in three main dimensions: <strong>SELF</strong> (individual), <strong>ECOSYSTEMS</strong> and <strong>INSTITUTIONS</strong>."
             },
             "ss": {}
           },
