@@ -4,6 +4,8 @@ import { calcClamp } from "./../../../data/Utils";
 import useMediaQuery from "./../../../hooks/useMediaQuery";
 import { cn } from "./../../../lib/utils";
 
+import { useTranslation, Trans } from "react-i18next";
+
 const PESTCard = ({
   cssOverride,
   idx,
@@ -17,6 +19,8 @@ const PESTCard = ({
   const mdScreen = useMediaQuery("(max-width:900px)");
 
   const cardScale = useTransform(targetProgress, range, [1, targetScale]);
+
+  const { t } = useTranslation();
 
   return (
     <motion.div
@@ -53,7 +57,7 @@ const PESTCard = ({
             lineHeight: `clamp(${calcClamp(20 * 1.3, 48 * 1.3)})`,
           }}
         >
-          {data.title}
+          <Trans i18nKey={data.titleKey} />
         </h1>
 
         <motion.div
@@ -67,10 +71,10 @@ const PESTCard = ({
               lineHeight: `clamp(${calcClamp(14 * 1.3, 28 * 1.3)})`,
             }}
           >
-            {data.subtitle}
+            <Trans i18nKey={data.subtitleKey} />
           </p>
 
-          <motion.p
+          <motion.div
             layout
             className='w-full leading-6 z-10'
             style={{
@@ -78,8 +82,8 @@ const PESTCard = ({
               lineHeight: `clamp(${calcClamp(12 * 1.3, 16 * 1.3)})`,
             }}
           >
-            {data.text}
-          </motion.p>
+            <Trans i18nKey={data.textKey} />
+          </motion.div>
         </motion.div>
 
         <div className='flex flex-col gap-7 w-full editorial'>
@@ -89,18 +93,18 @@ const PESTCard = ({
           />
 
           <ul
-            style={{ "--tw-marker-color": data.lineColor }}
+            style={{ '--tw-marker-color': data.lineColor }}
             className={`flex flex-col gap-2 list-disc list-inside w-fit z-10`}
           >
-            {data.list.map((item, index) => (
+            {t(data.listKey, { returnObjects: true }).map((item, idx) => (
               <li
-                key={index}
+                key={idx}
                 style={{
                   fontSize: `clamp(${calcClamp(12, 28)})`,
                   lineHeight: `clamp(${calcClamp(12 * 1.5, 32 * 1.5)})`,
                 }}
               >
-                {item}
+                <span dangerouslySetInnerHTML={{ __html: item }} />
               </li>
             ))}
           </ul>

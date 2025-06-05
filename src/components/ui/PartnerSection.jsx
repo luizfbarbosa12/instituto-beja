@@ -27,15 +27,23 @@ const PartnerSection = ({
       />
 
       <div className='flex flex-col gap-18 w-full max-w-250 max-[1325px]:w-full max-640:gap-8'>
-        <h1
-          style={{
-            fontSize: `clamp(${calcClamp(24, 64)})`,
-            lineHeight: `clamp(${calcClamp(24 * 1.3, 64 * 1.3)})`,
-          }}
-          className='editorial flex-wrap w-full leading-20 max-[1100px]:w-full max-md:leading-15 max-sm:leading-7'
-        >
-          {partnerName}
-        </h1>
+        {String(partnerName).includes("Ashoka | Itaú Viver Mais | Instituto Beja") ? (
+  <h1
+    className="editorial flex-wrap w-full leading-20 max-[1100px]:w-full max-md:leading-15 max-sm:leading-7 text-[0.5rem] md:text-[0.65rem]"
+    style={{ lineHeight: `clamp(${calcClamp(20, 34)})` }}
+    dangerouslySetInnerHTML={{ __html: partnerName }}
+  />
+) : (
+  <h1
+    style={{
+      fontSize: `clamp(${calcClamp(24, 64)})`,
+      lineHeight: `clamp(${calcClamp(24 * 1.3, 64 * 1.3)})`,
+    }}
+    className='editorial flex-wrap w-full leading-20 max-[1100px]:w-full max-md:leading-15 max-sm:leading-7'
+  >
+    {partnerName}
+  </h1>
+) }
 
         {children}
       </div>

@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { useRef } from "react";
+import ReactMarkdown from "react-markdown";
 import { useGSAP } from "@gsap/react";
 import { SectionTitle } from "../ui/SectionTitle";
 import { NoticeColumn } from "../ui/NoticeColumn";
@@ -55,11 +56,13 @@ export function FoundLetterToContextTransition() {
   return (
     <>
       <div className='bg-retro-ochre pb-58 flex-1 editorial flex items-start pt-30 justify-start text-left relative'>
-        <p className='max-w-68 text-3xl leading-[160%] tablet:text-6xl tablet:max-w-[1084px] mx-7 tablet:mx-32 flex flex-col gap-8 text-porcelain'>
-          {t("context.invite.0")} <br className='hidden tablet:inline' />
-          {t("context.invite.1")} <br className='hidden tablet:inline' />{" "}
-          {t("context.invite.2")}
-        </p>
+        <div className='max-w-68 text-3xl leading-[160%] tablet:text-6xl tablet:max-w-[1084px] mx-7 tablet:mx-32 text-porcelain'>
+  {(() => {
+    const invite = t('context.invite', { returnObjects: true });
+    const inviteText = Array.isArray(invite) ? invite.join('\n') : String(invite);
+    return <ReactMarkdown>{inviteText}</ReactMarkdown>;
+  })()}
+</div>
       </div>
       <div
         className='flex flex-col overflow-hidden relative bg-retro-ochre'
@@ -76,18 +79,18 @@ export function FoundLetterToContextTransition() {
           <NoticeContainer className='max-w-250 self-end'>
             <NoticeColumn>
               <p>
-                <Trans i18nKey='context.block1.0' />
+                <ReactMarkdown>{t('context.block1.0')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block1.1' />
+                <ReactMarkdown>{t('context.block1.1')}</ReactMarkdown>
               </p>
             </NoticeColumn>
             <NoticeColumn>
               <p>
-                <Trans i18nKey='context.block1.2' />
+                <ReactMarkdown>{t('context.block1.2')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block1.2' />
+                <ReactMarkdown>{t('context.block1.3')}</ReactMarkdown>
               </p>
             </NoticeColumn>
           </NoticeContainer>
@@ -109,31 +112,29 @@ export function FoundLetterToContextTransition() {
           <NoticeContainer className='desktop:-mt-12 max-w-250 self-end'>
             <NoticeColumn>
               <p>
-                <Trans i18nKey='context.block2.0' />
+                <ReactMarkdown>{t('context.block2.0')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.1' />
+                <ReactMarkdown>{t('context.block2.1')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.2' />
+                <ReactMarkdown>{t('context.block2.2')}</ReactMarkdown>
               </p>
             </NoticeColumn>
             <NoticeColumn>
               <p>
-                <Trans i18nKey='context.block2.3' />
+                <ReactMarkdown>{t('context.block2.3')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.4' />
+                <ReactMarkdown>{t('context.block2.4')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.5' />
+                <ReactMarkdown>{t('context.block2.5')}</ReactMarkdown>
               </p>
               <p>
-                <Trans i18nKey='context.block2.6' />
+                <ReactMarkdown>{t('context.block2.6')}</ReactMarkdown>
               </p>
-              <p>
-                <Trans i18nKey='context.block2.7' />
-              </p>
+
             </NoticeColumn>
           </NoticeContainer>
         </div>

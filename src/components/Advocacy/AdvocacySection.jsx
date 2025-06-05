@@ -34,7 +34,7 @@ const AdvocacySection = () => {
           />
 
           <h1 className='editorial text-5xl max-w-225 leading-15 text-center text-porcelain max-1025:w-full max-768:text-4xl max-768:leading-12 max-640:text-lg max-640:leading-normal'>
-            {t("advocacy.title")}
+            <Trans i18nKey="advocacy.title" />
           </h1>
         </div>
 
@@ -630,7 +630,7 @@ const AdvocacySection = () => {
                   <img
                     src={Images.Secoes.PazJusticaImage}
                     alt={t("advocacy.sections.pactoPelaDemocracia.image.alt")}
-                    className='size-40 max-lg:size-32 max-sm:size-20'
+                    className='shrink-0 size-25 max-[880px]:size-20'
                   />
                 </>
               ),
@@ -812,31 +812,27 @@ const AdvocacySection = () => {
         partnerName={"Movimento por uma Cultura de Doação (MCD)"}
       >
         <TextBlock
-          firstBlock={[
-            {
-              key: "first-0",
-              content: (
-                <>
-                  <p>
-                    <Trans i18nKey='advocacy.sections.mcd.block1.0' />
-                  </p>
-                </>
-              ),
-            },
-          ]}
-          secondBlock={[
-            {
-              key: "second-0",
-              content: (
-                <>
-                  <p>
-                    <Trans i18nKey='advocacy.sections.mcd.block1.' />
-                  </p>
-                </>
-              ),
-            },
-          ]}
-        />
+  firstBlock={[
+    {
+      key: "first-0",
+      content: (
+        <p>
+          <Trans i18nKey='advocacy.sections.mcd.block1' />
+        </p>
+      ),
+    },
+  ]}
+  secondBlock={[
+    {
+      key: "second-0",
+      content: (
+        <p>
+          <Trans i18nKey='advocacy.sections.mcd.block2' />
+        </p>
+      ),
+    },
+  ]}
+/>
       </PartnerSection>
     </div>
   );

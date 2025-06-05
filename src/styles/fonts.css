@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Helvetica";
-  src: url("/fonts/Helvetica.ttf") format("truetype");
+  src: url("../fonts/Helvetica.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
   font-family: "Helvetica";
-  src: url("/fonts/Helvetica-Bold.ttf") format("truetype");
+  src: url("../fonts/Helvetica-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -16,7 +16,7 @@
 
 @font-face {
   font-family: "PP Editorial New";
-  src: url("/fonts/PPEditorialNew-Regular.otf") format("opentype");
+  src: url("../fonts/PPEditorialNew-Regular.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -24,7 +24,7 @@
 
 @font-face {
   font-family: "PP Editorial New";
-  src: url("/fonts/PPEditorialNew-Italic.otf") format("opentype");
+  src: url("../fonts/PPEditorialNew-Italic.otf") format("opentype");
   font-weight: normal;
   font-style: italic;
   font-display: swap;

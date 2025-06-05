@@ -31,7 +31,7 @@ export function KnowledgeSectionHorizontalScrollCarousel() {
               className='top-0 bg-transparent border border-gray-300 rounded-3xl w-[320px] tablet:w-[630px] p-4 tablet:p-16 shadow-sm flex-shrink-0'
             >
               <h3 className='text-base leading-relaxed tablet:text-3xl font-serif mb-4'>
-                {fase.title}
+                <span dangerouslySetInnerHTML={{ __html: fase.title }} />
               </h3>
               <p className='text-xs leading-relaxed tablet:text-base text-bourdeaux'>
                 {fase.description}

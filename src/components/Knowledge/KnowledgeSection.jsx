@@ -72,10 +72,11 @@ const KnowledgeSection = () => {
                     <div className='flex flex-col w-full'>
                       <p
                         style={{
-                          fontSize: `clamp(${calcClamp(12, 32)})`,
-                          lineHeight: `clamp(${calcClamp(12 * 1.2, 32 * 1.2)})`,
+                          fontSize: `clamp(${calcClamp(18, 40)})`,
+                          lineHeight: `clamp(${calcClamp(18 * 1.2, 40 * 1.2)})`,
+                          fontWeight: 600,
                         }}
-                        className='w-full editorial text-start text-retro-ochre '
+                        className='w-full editorial text-start text-retro-ochre'
                       >
                         <Trans i18nKey='knowledge.sections.pipa.blocks.block2.fs.p1' />
                       </p>
@@ -227,7 +228,7 @@ const KnowledgeSection = () => {
         sectionImg={Images.Ilustracoes.Clouds}
         sectionImgStyle={{ w: 48, maxW: 158, h: 15, maxH: 60 }}
         title={<Trans i18nKey='knowledge.sections.fjles.title' />}
-        partnerImg={[Images.Logos.PipaLogo]}
+        partnerImg={[Images.Logos.FundacaoJoseLuizLogo]}
         subtitle={<Trans i18nKey='knowledge.sections.fjles.subtitle' />}
         partnerName={<Trans i18nKey='knowledge.sections.fjles.partnerName' />}
         subCards={[Images.Secoes.FilantropiaSubCard]}
@@ -927,7 +928,7 @@ const KnowledgeSection = () => {
                     title={<Trans i18nKey='knowledge.extra.knowSite' />}
                     subtitle={<Trans i18nKey='knowledge.extra.accessSite' />}
                     link={
-                      "https://relatorio20212022.pactopelademocracia.org.br/"
+                      "https://iagora.org/"
                     }
                   />
                 </>
@@ -1103,6 +1104,21 @@ const KnowledgeSection = () => {
             },
           ]}
         />
+
+        <div className="w-full flex flex-col items-center my-4">
+          <h2
+            className="editorial text-retro-ochre text-center"
+            style={{
+              fontSize: `clamp(${calcClamp(24, 36)})`,
+              lineHeight: `clamp(${calcClamp(28, 48)})`,
+              fontWeight: 700,
+              letterSpacing: '0.01em',
+              marginBottom: '0.5rem',
+            }}
+          >
+            <Trans i18nKey="knowledge.sections.maradentro.episodesTitle" />
+          </h2>
+        </div>
 
         <TextBlock
           firstBlock={[

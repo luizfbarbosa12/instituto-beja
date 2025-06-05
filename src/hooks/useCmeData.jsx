@@ -67,7 +67,7 @@ export const useCmeData = () => {
           returnObjects: true,
         }),
       },
-      {
+       {
         bgColor: "bg-porcelain",
         img: MapBiomasLogo,
         title: {

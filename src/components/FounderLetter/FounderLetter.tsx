@@ -1,5 +1,6 @@
 import gsap from "gsap";
 import { useRef } from "react";
+import ReactMarkdown from "react-markdown";
 import { useGSAP } from "@gsap/react";
 import { useTranslation } from "react-i18next";
 const nuvens = "/assets/ilustracao-6-5.webp";
@@ -110,17 +111,16 @@ const FounderLetter = () => {
         gsap.fromTo(
           ".beja-logo",
           {
-            top: "18rem",
+            top: "2rem",
             rotate: "-90deg",
           },
           {
             top: "90%",
             rotate: "270deg",
-            delay: 1,
             scrollTrigger: {
               trigger: ".letter",
-              start: "top 30%",
-              end: "top 0%",
+              start: "top 80%",
+              end: "bottom top",
               scrub: 2,
             },
           },
@@ -187,16 +187,16 @@ const FounderLetter = () => {
         gsap.fromTo(
           ".beja-logo",
           {
-            bottom: "78%",
+            top: "2rem",
             rotate: "-90deg",
           },
           {
-            bottom: "2.5rem",
+            top: "90%",
             rotate: "270deg",
             scrollTrigger: {
               trigger: ".letter",
-              start: "top 30%",
-              end: "top 0%",
+              start: "top 80%",
+              end: "bottom top",
               scrub: 2,
             },
           },
@@ -233,7 +233,9 @@ const FounderLetter = () => {
             </h1>
             <div className='letter-text text-sm leading-[160%] tablet:text-base flex flex-col gap-8 tablet:w-2/3 not-tablet:pb-50'>
               {paragraphs.map((text, index) => (
-                <p key={index}>{text}</p>
+                <div className="mb-4" key={index}>
+                  <ReactMarkdown>{text}</ReactMarkdown>
+                </div>
               ))}
               <p className='flex flex-col'>
                 {t("letter.signature")}

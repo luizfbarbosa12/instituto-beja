@@ -1,7 +1,31 @@
 {
+  "nav": {
+    "sections": {
+      "firstSection": "Início",
+      "founderLetter": "Carta da Fundadora",
+      "foundLetterToContextTransition": "Apresentação",
+      "rebranding": "Rebranding",
+      "manifest": "Manifesto",
+      "missionValue": "Missão e Valores",
+      "bejaHouse": "Casa Beja",
+      "changeTheory": "Teoria da Mudança",
+      "strategicPillar": "Pilares Estratégicos",
+      "interactionEcosystem": "Ecossistema",
+      "cme": "CMe",
+      "advocacy": "Advocacy",
+      "knowledge": "Conhecimento",
+      "bejaLabs": "Beja Labs",
+      "philanthropy": "Filantropia",
+
+      "finalSection": "Impacto & Investimento",
+      "balancoTable": "Balanço",
+      "expediente": "Expediente"
+    }
+  },
   "firstSection": {
     "title": "Relatório Anual 2024",
-    "download": "Faça Download do Relatório Anual 2024 em PDF aqui.",
+    "download": "Download do Relatório Anual 2024",
+    "visitInstituto": "Visite o site do Instituto",
     "downloadUrl": "/BEJA_Relatorio-PT.pdf",
     "logoAlt": "Logo da Beja",
     "globeAlt": "Globo dourado"
@@ -11,68 +35,68 @@
     "cloudsAlt": "imagem de nuvens douradas no fundo",
     "since": "Desde 2021",
     "paragraphs": [
-      "Estamos vivendo um profundo momento de transição geracional não só humana mas também planetária. As notícias diárias sobre conflitos nos consomem e nos afetam. Já sabemos que apesar de muitos passos dados, ainda estamos devendo a lição de casa sobre questões como justiça racial, o caminho sem volta dos avanços tecnológicos, o enfraquecimento da democracia, e a urgente necessidade de adaptação climática para simples sobrevivência. Ainda assim, temos sido lentos na mudança de rumos e, arrisco a dizer, muitas vezes até passivos.",
+      "Estamos vivendo um profundo momento de transição geracional não só humana mas também planetária. As notícias diárias sobre conflitos nos consomem e nos afetam. Já sabemos que apesar de muitos passos dados, ainda estamos devendo a lição de casa sobre questões como justiça racial, o caminho sem volta dos avanços tecnológicos, o enfraquecimento da democracia e a urgente necessidade de adaptação climática para simples sobrevivência. Ainda assim, temos sido lentos na mudança de rumos e, arrisco a dizer, muitas vezes até passivos.",
       "A fórmula não é complexa: o que está em vigor não funciona mais; não alcançamos nossos resultados e a desigualdade só aumenta. A tão falada policrise nos assola e exige que usemos nosso policapital. Contudo, mais do que isso, exige que o nosso policapital esteja à disposição da coletividade.",
       "Tenho insistido em falar da coletivização das nossas individualidades como filantropos para promover de forma mais acelerada o objetivo que tanto almejamos; uma sociedade mais justa e uma vida coletiva mais digna. E isso exige colaboração.",
-      "Nesses três anos de vida do Instituto Beja, amadurecemos. O que só ocorreu porque experimentamos. Nascemos com o espírito de colaborar “stricto sensu”, o que significa participar ativamente, cooperar, construir junto com nossos pares e outros atores. E somente em 2024, conseguimos vislumbrar este tão desejado caminho de coconstrução, atingindo um objetivo ainda maior, com parcerias globais em favorecimento do Sul Global.",
+      "Nesses três anos de vida do Instituto Beja, amadurecemos. O que só ocorreu porque experimentamos. Nascemos com o espírito de colaborar *stricto sensu*, o que significa participar ativamente, cooperar, construir junto com nossos pares e outros atores. E somente em 2024, conseguimos vislumbrar este tão desejado caminho de coconstrução, atingindo um objetivo ainda maior, com parcerias globais em favorecimento do Sul Global.",
       "Entendo, porém, que estamos só no começo e precisamos de reforço. Para cocriar, é necessário desapego. E desapego só é possível com o sentimento de amor. Se a filantropia significa amor à humanidade - e eu acrescentaria amor ao Planeta também -, atualizando as nossas necessidades e o termo ao presente momento, desejo que esse seja o meu legado de vida. E que o Instituto Beja possa sempre inspirar o ecossistema a desapegar, a tomar riscos e a inovar a serviço da sociedade.",
       "Também estamos na era da nova longevidade e sendo provocados a nos reinventar em prol de nós próprios e o que nos atinge individualmente também é o que forma o coletivo. Por isso, os nossos anseios individuais nunca podem se sobressair à nossa missão social.",
       "O presente relatório saiu do forno porque cooperamos. E isso é música para nossos ouvidos. Espero que vocês o recebam com a mente e com o coração abertos. Esse relatório pode e deve ser interpretado como um convite para mudarmos juntos os ponteiros das nossas entregas, com uma visão integrada e consolidada do nosso contexto territorial e global.",
       "Todos os nossos pares podem participar dos nossos Laboratórios e do Centro para Mudanças Exponenciais (CMe), explicados um a um no decorrer desse documento, das mais variadas formas. As Casas Beja tanto do Rio quanto de SP também estão com as portas abertas para cada uma das experiências de colaboração."
     ],
-    "signature": "With gratitude,",
+    "signature": "Com gratidão,",
     "author": "Cristiane Sultani",
     "logoAlt": "Logo da Beja",
     "bikeAlt": "pessoa numa bicicleta em dourado"
   },
   "context": {
     "invite": [
-      "Neste relatório anual,",
-      "convidamos você a explorar",
-      "as ações do Instituto Beja em 2024."
+      "Neste relatório anual,  ",
+      "convidamos você a explorar  ",
+      "as ações do **Instituto Beja** em 2024."
     ],
     "title": "Contexto",
     "subtitle": "Este documento sintetiza as investigações, interações, descobertas e reflexões coletivas ao longo dos três anos que nos inspiram diariamente a desafiar modelos ultrapassados para a prática de uma filantropia que gostamos de denominar como “oxigenada”.",
     "block1": [
-      "Em 2024, o Beja dedicou-se a entender profundamente os preceitos e processos que revitalizam o solo sobre o qual o setor da filantropia se fundamenta e se reinventa. O ano foi marcado pela necessidade de agilidade e objetividade em nossa adaptação e atuação frente às demandas de responsabilidade social. Implementamos a evolução da Teoria de Mudança, revisada em 2023, assumindo os riscos e desafios necessários para remodelar nossas práticas em um ambiente onde curiosidade, empatia, transparência e responsabilidade continuam sendo valores fundamentais da governança.",
-      "Fiel à missão de repensar paradigmas na filantropia, o Beja seguiu promovendo encontros, diálogos e pesquisas, utilizando ferramentas cada vez mais sofisticadas para prototipar novas visões e práticas. Esse compromisso com a inovação permitiu avanços significativos na forma como o Instituto constrói conhecimento e influência no setor.",
-      "Nesse contexto de evolução e crescimento, uma das principais transformações foi a adoção de um novo modelo de governança, mais participativo e plural, com a substituição da figura vertical de um Diretor Executivo por um Comitê Executivo horizontal. Nesse caso, o Comitê foi composto por profissionais de trajetórias diversas, internos e externos. Esse grupo assumiu o compromisso de enfrentar desafios sistêmicos, reforçando os valores de inovação e colaboração que definem o Instituto Beja, em conjunto com a Presidente do nosso Conselho de Administração, que também tem um assento.",
+      "Em 2024, o **Beja** dedicou-se a entender profundamente os preceitos e processos que revitalizam o solo sobre o qual o setor da filantropia se fundamenta e se reinventa. O ano foi marcado pela necessidade de agilidade e objetividade em nossa adaptação e atuação frente às demandas de responsabilidade social. Implementamos a evolução da Teoria de Mudança, revisada em 2023, assumindo os riscos e desafios necessários para remodelar nossas práticas em um ambiente onde curiosidade, empatia, transparência e responsabilidade continuam sendo valores fundamentais da governança.",
+      "Fiel à missão de repensar paradigmas na filantropia, o **Beja** seguiu promovendo encontros, diálogos e pesquisas, utilizando ferramentas cada vez mais sofisticadas para prototipar novas visões e práticas. Esse compromisso com a inovação permitiu avanços significativos na forma como o **Instituto** constrói conhecimento e influência no setor.",
+      "Nesse contexto de evolução e crescimento, uma das principais transformações foi a adoção de um novo modelo de governança, mais participativo e plural, com a substituição da figura vertical de um Diretor Executivo por um Comitê Executivo horizontal. Nesse caso, o Comitê foi composto por profissionais de trajetórias diversas, internos e externos. Esse grupo assumiu o compromisso de enfrentar desafios sistêmicos, reforçando os valores de inovação e colaboração que definem o **Instituto Beja**, em conjunto com a Presidente do nosso Conselho de Administração, que também tem um assento.",
       "O processo contínuo de atualização estratégica foi impulsionado pela habilidade que a própria fundadora tem em articular ações conjuntas, ampliando o alcance e a influência das iniciativas apoiadas. Como resultado, muitos processos foram catalisados e os impactos potencializados, acelerando mudanças sistêmicas e fortalecendo uma agenda de inovação social relevante."
     ],
     "block2": [
-      "Além dessa mudança estrutural, outro avanço fundamental foi o aprofundamento da abordagem de policapital de todo o Comitê Executivo e da própria equipe. Composto por diferentes formas de capital - financeiro, social, intelectual, empresarial e político - o policapital pode ser provocado mediante o uso da empatia e da escuta, que são outros dois valores vitais do Beja, para fortalecer a sustentabilidade e autonomia das iniciativas apoiadas. Entender profundamente as demandas dos parceiros é um dos nossos principais mecanismos de financiamento e, com isso, podemos aplicar os variados recursos da melhor forma.",
-      "Com base nessas experiências e aprendizados, o Beja estruturou sua atuação em três pilares estratégicos interligados, que operaram de maneira sinérgica, permitindo que o conhecimento gerado, as articulações realizadas e as vivências práticas se retroalimentassem. Esta abordagem integrada fortaleceu o aprendizado contínuo e aprofundou o impacto das ações, consolidando ainda mais a atuação do Instituto.",
+      "Além dessa mudança estrutural, outro avanço fundamental foi o aprofundamento da abordagem de policapital de todo o Comitê Executivo e da própria equipe. Composto por diferentes formas de capital - financeiro, social, intelectual, empresarial e político - o policapital pode ser provocado mediante o uso da empatia e da escuta, que são outros dois valores vitais do **Beja**, para fortalecer a sustentabilidade e autonomia das iniciativas apoiadas. Entender profundamente as demandas dos parceiros é um dos nossos principais mecanismos de financiamento e, com isso, podemos aplicar os variados recursos da melhor forma.",
+      "Com base nessas experiências e aprendizados, o **Beja** estruturou sua atuação em três pilares estratégicos interligados, que operaram de maneira sinérgica, permitindo que o conhecimento gerado, as articulações realizadas e as vivências práticas se retroalimentassem. Esta abordagem integrada fortaleceu o aprendizado contínuo e aprofundou o impacto das ações, consolidando ainda mais a atuação do **Instituto**.",
       "O desenvolvimento institucional também se refletiu no estabelecimento de novas parcerias e na expansão das conexões com o Sul Global, fundamentadas em confiança, compromisso e colaboração.",
-      "Essa rede fortalece iniciativas duradouras, promovendo um ciclo contínuo de trocas de experiências, essenciais para sustentar o crescimento e a relevância do Beja no cenário filantrópico.",
-      "Como reflexo dessa evolução, nosso manifesto, agora consolidado e exposto na entrada da Casa Beja, em São Paulo, expressa os objetivos do Instituto e convida à reimaginação da filantropia, promovendo as mudanças que desejamos ver no mundo, começando por nós mesmos. Na cadência dessa reimaginação, desenvolvemos uma nova identidade visual, que simboliza o engajamento da sociedade civil, do setor privado e do governo, além do desejo de movimento constante, dinâmico e atento às transformações do campo social.",
-      "A nova configuração do Beja demonstrou a evolução natural de uma organização jovem, mas já reconhecida por sua capacidade de impulsionar transformações significativas. Com apenas três anos de existência, o Beja é reconhecido por sua posição como articulador e catalisador de mudanças, aprofundando diálogos e parcerias estratégicas com atores do ecossistema filantrópico.",
-      "<strong>O que permanece inalterado é o propósito essencial que deu origem ao Beja: contribuir para uma sociedade mais justa e equitativa, por meio do uso estratégico e eficiente de recursos filantrópicos, visando sempre seu efeito multiplicador.</strong> Esse compromisso segue orientando cada passo, agora fortalecido por uma estrutura mais robusta e uma visão ainda mais clara sobre como gerar impacto sistêmico.",
+      "Essa rede fortalece iniciativas duradouras, promovendo um ciclo contínuo de trocas de experiências, essenciais para sustentar o crescimento e a relevância do **Beja** no cenário filantrópico.",
+      "Como reflexo dessa evolução, nosso manifesto, agora consolidado e exposto na entrada da **Casa Beja**, em São Paulo (SP), expressa os objetivos do **Instituto** e convida à reimaginação da filantropia, promovendo as mudanças que desejamos ver no mundo, começando por nós mesmos. Na cadência dessa reimaginação, desenvolvemos uma nova identidade visual, que simboliza o engajamento da sociedade civil, do setor privado e do governo, além do desejo de movimento constante, dinâmico e atento às transformações do campo social.",
+      "A nova configuração do **Beja** demonstrou a evolução natural de uma organização jovem, mas já reconhecida por sua capacidade de impulsionar transformações significativas. Com apenas três anos de existência, o **Beja** é reconhecido por sua posição como articulador e catalisador de mudanças, aprofundando diálogos e parcerias estratégicas com atores do ecossistema filantrópico.",
+      "**O que permanece inalterado é o propósito essencial que deu origem ao **Beja**: contribuir para uma sociedade mais justa e equitativa, por meio do uso estratégico e eficiente de recursos filantrópicos, visando sempre seu efeito multiplicador.** Esse compromisso segue orientando cada passo, agora fortalecido por uma estrutura mais robusta e uma visão ainda mais clara sobre como gerar impacto sistêmico.",
       "Convidamos você a explorar este solo fértil, repleto de ideias e estratégias renovadas. Esperamos que esta leitura te inspire a respirar novos ares."
     ]
   },
   "rebranding": {
     "logoAlt": "Logo da Beja",
     "block1": [
-      "Desenvolver o rebranding do <strong>Instituto Beja</strong> representou mais do que um desafio criativo – foi um mergulho para repensar a forma como nos apresentamos ao mundo. Liderado pela agência <strong>AKQA</strong>, esse processo teve como objetivo criar um espaço visual e narrativo que não apenas inspirasse, mas também convidasse à ação – articulando possibilidades, conectando pessoas e provocando mudanças reais.",
+      "Desenvolver o <i>rebranding</i> do <strong>Instituto Beja</strong> representou mais do que um desafio criativo – foi um mergulho para repensar a forma como nos apresentamos ao mundo. Liderado pela agência <strong>AKQA</strong>, esse processo teve como objetivo criar um espaço visual e narrativo que não apenas inspirasse, mas também convidasse à ação – articulando possibilidades, conectando pessoas e provocando mudanças reais.",
       "Guiado pela missão de promover impacto no campo da filantropia, o <strong>Instituto Beja</strong> atua como um organismo vivo, fluido, abrangente e diverso que estimula e promove ambientes para conexões e transformações. Nossa essência está na pluralidade das vozes que nos compõem e nas relações que cultivamos. O desafio consistiu em manter essa riqueza, enquanto criávamos uma comunicação clara, objetiva e capaz de refletir nossa força e autenticidade."
     ],
     "key": "A palavra-chave deste rebranding foi oxigenar.",
     "block2": [
-      "Nosso foco estava em revitalizar a marca, explorando caminhos criativos para contar quem somos e o que nos torna únicos. Em um processo colaborativo, envolvendo diálogos com nossa equipe, parceiros e comunidades que fazem parte do Beja, escutamos histórias, exploramos simbolismos e traduzimos ideias em uma identidade visual e verbal alinhada ao nosso propósito.",
-      "O coração deste trabalho está sintetizado em nosso manifesto: articular novas possibilidades para a filantropia, oxigenando os meios, os espaços e as relações. É com essa visão que traduzimos o Beja agora, por meio de palavras e ações, sempre movidos pelo desejo de estimular e assistir a uma transformação social profunda. Acreditamos que mudar o mundo exige escuta ativa, troca de saberes, inovação e a capacidade de amarrar pontas soltas, sempre com a colaboração no centro de cada processo.",
-      "Mais do que uma nova representação visual, o rebranding reafirma quem somos e aquilo em que acreditamos. Nosso novo logotipo simboliza movimento, intersecção e conexão, ilustrando a essência do Instituto como articulador de uma filantropia colaborativa."
+      "Nosso foco estava em revitalizar a marca, explorando caminhos criativos para contar quem somos e o que nos torna únicos. Em um processo colaborativo, envolvendo diálogos com nossa equipe, parceiros e comunidades que fazem parte do <strong>Beja</strong>, escutamos histórias, exploramos simbolismos e traduzimos ideias em uma identidade visual e verbal alinhada ao nosso propósito.",
+      "O coração deste trabalho está sintetizado em nosso manifesto: articular novas possibilidades para a filantropia, oxigenando os meios, os espaços e as relações. É com essa visão que traduzimos o <strong>Beja</strong> agora, por meio de palavras e ações, sempre movidos pelo desejo de estimular e assistir a uma transformação social profunda. Acreditamos que mudar o mundo exige escuta ativa, troca de saberes, inovação e a capacidade de amarrar pontas soltas, sempre com a colaboração no centro de cada processo.",
+      "Mais do que uma nova representação visual, o rebranding reafirma quem somos e aquilo em que acreditamos. Nosso novo logotipo simboliza movimento, intersecção e conexão, ilustrando a essência do <strong>Instituto</strong> como articulador de uma filantropia colaborativa."
     ],
-    "final": "É o Beja de sempre, agora mais maduro, com uma nova linguagem para transformar o futuro que já começou."
+    "final": "É o <strong>Beja</strong> de sempre, agora mais maduro, com uma nova linguagem para transformar o futuro que já começou."
   },
   "manifest": {
     "title": "Manifesto Beja",
     "since": "Desde 2021",
-    "text": " Para mudar o mundo, é preciso vontade.<br />Recursos. Questionamentos.<br />E quem junte tudo isso.<br />Mas vá além: escute. <br />Troque. Evolua. Inove.<br />Traga um ar diferente para o sistema.<br />Ajude ele a respirar.<br />Que não se conforme.<br />Veja além do status quo.<br />Tenha liberdade e segurança <br />para trazer um novo ponto de vista.<br />Não tenha amarras.<br />E amarre as pontas soltas.<br />Junte quem quer fazer, quem tem recurso,<br />quem tem críticas e oxigena tudo, <br />para que a solução conjunta possa florescer.<br />Que seja o agente da renovação.<br />Aprendamos todos com a natureza: <br />nada cresce sem O2.<br />A vida precisa de ar.<br />E a filantropia, de novos ares.<br />Para isso nasceu o Beja: <br />articular novas possibilidades para a filantropia, <br /> oxigenando processos, espaços e relações. <br /> <br />Beja. Oxigenando a filantropia desde 2021."
+    "text": " Para mudar o mundo, é preciso vontade.<br />Recursos. Questionamentos.<br />E quem junte tudo isso.<br />Mas vá além: escute. <br />Troque. Evolua. Inove.<br />Traga um ar diferente para o sistema.<br />Ajude ele a respirar.<br />Que não se conforme.<br />Veja além do <i>status quo</i>.<br />Tenha liberdade e segurança <br />para trazer um novo ponto de vista.<br />Não tenha amarras.<br />E amarre as pontas soltas.<br />Junte quem quer fazer, quem tem recurso,<br />quem tem críticas e oxigena tudo, <br />para que a solução conjunta possa florescer.<br />Que seja o agente da renovação.<br />Aprendamos todos com a natureza: <br />nada cresce sem O2.<br />A vida precisa de ar.<br />E a filantropia, de novos ares.<br />Para isso nasceu o Beja: <br />articular novas possibilidades para a filantropia, <br /> oxigenando processos, espaços e relações. <br /> <br />Beja. Oxigenando a filantropia desde 2021."
   },
   "missionValue": {
     "card1": {
       "title": "Missão",
-      "text": "Se tornar um Instituto de referência no ecossistema de filantropia, reconhecido por realizar, inspirar e catalisar uma filantropia inovadora, colaborativa e eficaz para destravar alavancas potencializadoras, trazendo impacto real em problemas sistêmicos."
+      "text": "Se tornar um Instituto de referência no ecossistema de filantropia reconhecido por realizar, inspirar e catalisar uma filantropia inovadora, colaborativa e eficaz para destravar alavancas potencializadoras, trazendo impacto real em problemas sistêmicos."
     },
     "card2": {
       "title": "Visão",
@@ -80,28 +104,28 @@
     },
     "card3": {
       "title": "Valores",
-      "text": "O respeito, a escuta, a empatia, o pertencimento, o acolhimento, a resiliência, a responsabilidade, o sonho, o afeto, a curiosidade e a inovação, atuando em todas essas frentes, interseccionadas com o protagonismo pessoal, mediante o desenvolvimento de autoconsciência e autoconfiança."
+      "text": "O respeito, a escuta, a empatia, o pertencimento, o acolhimento, a resiliência, a responsabilidade, o sonho, o afeto, a curiosidade e a inovação, atuando em todas essas frentes interseccionadas com o protagonismo pessoal mediante o desenvolvimento de autoconsciência e autoconfiança."
     }
   },
   "bejaHouse": {
     "title": "Casa Beja",
-    "p1": "Com alegria apresentamos a <strong>Casa Beja</strong>, a nova morada dos nossos valores. Inaugurada em novembro de 2024, na cidade de São Paulo, a <strong>Casa Beja</strong> vai muito além de um simples escritório, assim como a sede no Rio de Janeiro, é um ambiente vivo onde ideias se encontram, parcerias florescem e soluções sistêmicas ganham forma. É aqui que buscamos conectar indivíduos e comunidades, semear a cultura da filantropia e inspirar ações coletivas que constroem um futuro mais solidário e sustentável.",
-    "p2": "Com grande honra, incubamos o hub Brasil do <strong>Centro para Mudanças Exponenciais</strong>, reafirmando nosso compromisso com a inovação e com o impacto social. Este espaço é ponto de convergência entre sociedade civil, setor privado e governo, unindo forças para criar colaborações que impulsionam soluções e transformam realidades sociais de maneira eficaz e inclusiva.",
+    "p1": "Com alegria apresentamos a <strong>Casa Beja</strong>, a nova morada dos nossos valores. Inaugurada em novembro de 2024, na cidade de São Paulo (SP), a <strong>Casa Beja</strong> vai muito além de um simples escritório, assim como a sede no Rio de Janeiro (RJ), é um ambiente vivo onde ideias se encontram, parcerias florescem e soluções sistêmicas ganham forma. É aqui que buscamos conectar indivíduos e comunidades, semear a cultura da filantropia e inspirar ações coletivas que constroem um futuro mais solidário e sustentável.",
+    "p2": "Com grande honra, incubamos o <i>hub</i> Brasil do <strong>Centro para Mudanças Exponenciais (CMe)</strong>, reafirmando nosso compromisso com a inovação e com o impacto social. Este espaço é ponto de convergência entre sociedade civil, setor privado e governo, unindo forças para criar colaborações que impulsionam soluções e transformam realidades sociais de maneira eficaz e inclusiva.",
     "p3": "<strong>A Casa Beja</strong> simboliza <strong>movimento, relações e articulação -</strong> refletindo a essência do nosso logo, que ilustra a dinâmica constante entre pilares e a busca por equilíbrio nas relações humanas.",
-    "final": "Bem-vindo(a) à Casa Beja!"
+    "final": "Bem-vindo(a) à <strong>Casa Beja</strong>!"
   },
   "changeTheory": {
     "title": "Evolução da Teoria da Mudança",
     "block": {
       "block1": {
-        "p1": "Para tangibilizar nossa proposta de influenciar o campo da filantropia, direcionamos esforços a alguns temas prioritários, com vistas a gerar inovações e maximizar impactos. Ao definir as áreas focais, reafirmamos a vocação do Instituto e destacamos a permeabilidade dessas pautas como poderoso estímulo para deslocar o status quo.",
+        "p1": "Para tangibilizar nossa proposta de influenciar o campo da filantropia, direcionamos esforços a alguns temas prioritários, com vistas a gerar inovações e maximizar impactos. Ao definir as áreas focais, reafirmamos a vocação do <strong>Instituto</strong> e destacamos a permeabilidade dessas pautas como poderoso estímulo para deslocar o <i>status quo</i>.",
         "p2": "À medida que nosso processo de evolução se desenha, desejamos tornar essa permeabilidade estimulante, visível e aplicável, para que seja possível às temáticas prioritárias demonstrarem seus potenciais de transformação, sem necessidade de disputa ou mediação."
       }
     },
     "quotes": {
       "quote1": {
         "cite": "Cristiane Sultani, Fundadora e Presidente",
-        "text": "O capital filantrópico é um capital de risco. O Beja toma grandes riscos em prol da aprendizagem. Pois sem experimentação não há inovação."
+        "text": "\"O capital filantrópico é um capital de risco. O Beja toma grandes riscos em prol da aprendizagem. Pois sem experimentação não há inovação.\""
       }
     },
     "extra": {
@@ -111,7 +135,7 @@
   },
   "strategicPillar": {
     "title": "Pilares Estratégicos",
-    "p1": "Nossos três pilares estratégicos – <strong>Advocacy, Conhecimento e Laboratórios</strong> – são as forças motrizes que orientaram nossas ações ao longo de 2024. Funcionaram como lentes de estudos, práticas e experimentações, sustentando as reflexões do Beja sobre os modos de fazer diferente. Sem restringir abordagens, esses pilares condensam instrumentos para nossos exercícios de ação e inovação.",
+    "p1": "Nossos três pilares estratégicos – <strong>Advocacy, Conhecimento e Laboratórios</strong> – são as forças motrizes que orientaram nossas ações ao longo de 2024. Funcionaram como lentes de estudos, práticas e experimentações, sustentando as reflexões do <strong>Beja</strong> sobre os modos de fazer diferente. Sem restringir abordagens, esses pilares condensam instrumentos para nossos exercícios de ação e inovação.",
     "card": {
       "card1": {
         "title": "Advocacy",
@@ -119,8 +143,8 @@
         "text": "A estratégia de advocacy busca impulsionar mudanças sistêmicas na filantropia por meio da mobilização e articulação de diferentes atores do ecossistema. Para isso, combinamos apoio e coordenação de iniciativas de advocacy com ações estratégicas de engajamento da sociedade civil. Além disso, promovemos espaços de troca e colaboração que fortalecem a atuação conjunta, incentivando a construção de soluções coletivas para desafios estruturais do setor.",
         "list": [
           "Apoio e coordenação de ações de advocacy",
-          "Eventos e ações de engajamento de stakeholders e sociedade civil",
-          "Articulação de atores do ecossistema para atuação conjunto"
+          "Eventos e ações de engajamento de <i>stakeholders</i> e sociedade civil",
+          "Articulação de atores do ecossistema para atuação conjunta"
         ]
       },
       "card2": {
@@ -137,7 +161,7 @@
       "card3": {
         "title": "Beja Labs / Laboratórios",
         "subtitle": "Incubadora de projetos filantrópicos e de impacto escaláveis, replicáveis e mensuráveis",
-        "text": "O objetivo deste pilar dedicado à experimentação conjunta, é desenvolver e apoiar projetos filantrópicos com múltiplos atores e seus diferentes policapitais, voltados a promover transformações profundas e relevantes no Brasil. Essa atuação é viabilizada pelo suporte à medição de impacto, pela sistematização de práticas que possibilitam a replicação de iniciativas bem-sucedidas e pela incorporação de novas tecnologias para ampliar a escala das ações. As experiências e aprendizados decorrentes desses laboratórios também devem contribuir para discussões e pesquisas relativos ao pilar de conhecimento, além de oferecer subsídios a pleitos do pilar de advocacy.",
+        "text": "O objetivo deste pilar dedicado à experimentação conjunta, é desenvolver e apoiar projetos filantrópicos com múltiplos atores e seus diferentes policapitais, voltados a promover transformações profundas e relevantes no Brasil. Essa atuação é viabilizada pelo suporte à medição de impacto, pela sistematização de práticas que possibilitam a replicação de iniciativas bem sucedidas e pela incorporação de novas tecnologias para ampliar a escala das ações. As experiências e aprendizados decorrentes desses laboratórios também devem contribuir para discussões e pesquisas relativos ao pilar de conhecimento, além de oferecer subsídios a pleitos do pilar de advocacy.",
         "list": [
           "Ambiente de colaboração e aprendizagem",
           "Acelerar, medir e escalar modelos",
@@ -183,18 +207,31 @@
   "cme": {
     "asset": "/assets/LogoCME.svg",
     "title": "Centro para Mudanças Exponenciais (CMe)",
-    "p1": " Em 2024, inauguramos o <strong>Centro para Mudanças Exponenciais (CMe)</strong>, uma cocriação brasileira com o <strong>Centre for Exponential Change (C4EC)</strong>. O C4EC é uma rede global de apoio que reacende a imaginação e capacita <strong>Orquestradores de Sistemas</strong>, que catalisam mudanças exponenciais positivas na construção de uma sociedade melhor. Cofundamos o C4EC junto com a <strong> Nilekani Philanthropies (Índia), New Profit (EUA), Skoll Foundation (Global), Waverley Street Foundation (Global) e Yellowwoods (África do Sul). </strong>",
-    "p2": " No Brasil, o CMe atua como um <strong>articulador de ecossistemas</strong>, conectando a sociedade civil, o setor privado e o governo para promover transformações sistêmicas dentro do contexto único do país. A abordagem do CMe valoriza a <strong>ação coletiva</strong>e o uso estratégico de <strong>tecnologias digitais</strong>, que, quando desenhadas com cuidado, segurança e inclusão, podem enfrentar os desafios atuais com velocidade, escala e sustentabilidade.",
-    "p3": " O CMe conta com um comitê multissetorial de embaixadoras e embaixadores, composto por <strong> Jéssica Silva, Cristiano Franco, Luca Cavalcanti, Saulo Barreto, Sheila Pires, Silvana Bahia, Thiago Rached, Cristiane Sultani, Sanjay Purohit e Célia Cruz. </strong>",
+    "p1": " Em 2024, inauguramos o <strong>Centro para Mudanças Exponenciais (CMe)</strong>, uma cocriação brasileira com o <strong>Centre for Exponential Change (C4EC)</strong>. O <strong>C4EC</strong> é uma rede global de apoio que reacende a imaginação e capacita <strong>Orquestradores de Sistemas</strong>, que catalisam mudanças exponenciais positivas na construção de uma sociedade melhor. Cofundamos o <strong>C4EC</strong> junto com a <strong> Nilekani Philanthropies (Índia), New Profit (EUA), Skoll Foundation (Global), Waverley Street Foundation (Global) e Yellowwoods (África do Sul). </strong>",
+    "p2": " No Brasil, o <strong>CMe</strong> atua como um <strong>articulador de ecossistemas</strong>, conectando a sociedade civil, o setor privado e o governo para promover transformações sistêmicas dentro do contexto único do país. A abordagem do <strong>CMe</strong> valoriza a <strong>ação coletiva</strong> e o uso estratégico de <strong>tecnologias digitais</strong>, que, quando desenhadas com cuidado, segurança e inclusão, podem enfrentar os desafios atuais com velocidade, escala e sustentabilidade.",
+    "p3": " O <strong>CMe</strong> conta com um comitê multissetorial de embaixadoras e embaixadores, composto por <strong> Jéssica Silva, Cristiano Franco, Luca Cavalcanti, Saulo Barreto, Sheila Pires, Silvana Bahia, Thiago Rached, Cristiane Sultani, Sanjay Purohit e Célia Cruz. </strong>",
     "list": {
       "title": "AÇÕES CENTRAIS DO CMe EM 2024",
       "list": [
-        "Formalizou uma parceria global com o Centre for Exponential Change (C4EC);",
-        "Construiu e lançou o Centro para Mudanças Exponenciais (CMe) em São Paulo, em novembro;",
-        "Realizou diálogos profundos com financiadores e especialistas durante o Filantropando e, posteriormente, no CMe;",
-        "Engajou Orquestradores de Sistemas no Brasil para selecionar as jornadas iniciais do CMe;",
-        "Selecionou o primeiro grupo de Orquestradores de Sistemas e iniciou suas jornadas de mudança exponencial."
+        "Formalizou uma parceria global com o <strong>Centre for Exponential Change (C4EC)</strong>;",
+        "Construiu e lançou o <strong>Centro para Mudanças Exponenciais (CMe)</strong> em São Paulo (SP), em Novembro;",
+        "Realizou diálogos profundos com financiadores e especialistas durante o <strong>Filantropando</strong> e, posteriormente, no <strong>CMe</strong>;",
+        "Engajou Orquestradores de Sistemas no Brasil para selecionar as jornadas iniciais do <strong>CMe</strong>;",
+        "Selecionou o primeiro grupo de Orquestradores de Sistemas e iniciou suas jornadas de <strong>mudança exponencial</strong>."
       ]
+    },
+    "ecosystem": {
+      "description": "O <strong>CMe</strong> é concebido como um ecossistema onde <strong>financiadores</strong>, <strong>pensadores</strong>, <strong>especialistas</strong> e <strong>mentores</strong> se reúnem para apoiar <strong>Orquestradores de Sistema</strong> que estão em uma jornada para promover mudanças em larga escala. Esses orquestradores conectam pontos entre atores da <strong>sociedade civil</strong>, <strong>governo</strong> e <strong>setor privado</strong>, alinham incentivos em direção a um <strong>novo paradigma</strong> e constroem redes aproveitando <strong>tecnologias de ponta</strong>. As <strong>iniciativas de transformação em escala</strong> são complexas – elas se estendem por longos períodos, e os <strong>Orquestradores de Sistema</strong> precisam antecipar e superar uma série de obstáculos ao longo do caminho.\n\nO <strong>CMe</strong> oferece o suporte certo no momento certo. Para isso, o <strong>CMe</strong> irá:",
+      "list": {
+        "title": "Como o <strong>CMe</strong> apoia os <strong>Orquestradores de Sistema</strong>:",
+        "list": [
+          "Curar <strong>conhecimento prático e aberto</strong> para compartilhar ideias, experiências, métodos, práticas e ferramentas que respondem ao <strong>porquê</strong>, <strong>o quê</strong> e <strong>o como</strong> da <strong>mudança exponencial</strong>;",
+          "Facilitar o <strong>design aprofundado</strong> e a <strong>prototipagem</strong> de <strong>novas tecnologias digitais</strong> e explorar diferentes caminhos para induzir <strong>mudanças exponenciais</strong>;",
+          "Orquestrar <strong>aportes financeiros irrestritos</strong> de diversos financiadores para <strong>redesenhar abordagens</strong> e <strong>prototipar novas ideias</strong> e sua implementação;",
+          "Ampliar a <strong>capacidade</strong> e a <strong>confiança</strong> de <strong>lideranças de mudança</strong> no Brasil e em outros países do <strong>Sul Global</strong>, por meio da criação de <strong>espaços seguros</strong> e do fortalecimento de suas <strong>competências</strong> e <strong>autoconfiança iniciais</strong> do <strong>CMe</strong>;",
+          "Curar uma <strong>rede de mentores experientes</strong> no Brasil e em outros países do <strong>Sul Global</strong> para oferecer <strong>insights pragmáticos</strong> sobre <strong>desafios complexos</strong>, quando forem mais necessários."
+        ]
+      }
     },
     "strategic": {
       "initial": "Nossa estratégia",
@@ -206,7 +243,7 @@
     "orchestrating": {
       "title": "Orquestrando o Ecossistema para a Mudança Exponencial",
       "card1": {
-        "text": "Ampliando os esforços de Orquestradores de Sistemas no Brasil por meio da construção de caminhos que potencializam as forças de diversos atores e colaboradoras locais e globais para enfrentar os desafios sociais do nosso contexto.",
+        "text": "Ampliando os esforços de Orquestradores de Sistemas no Brasil por meio da construção de caminhos que potencializam as forças de diversos atores e colaboradores locais e globais para enfrentar os desafios sociais do nosso contexto.",
         "title": "Catalisando efeitos de rede"
       },
       "card2": {
@@ -222,36 +259,38 @@
       "title": "Visão de transformação do CMe",
       "card1": {
         "title": "NOVOS PARADIGMAS",
-        "text": "Impulsionar, colaborativamente novos modelos mentais de empreendedores exponenciais, fortalecendo e apoiando a viabilidade de suas soluções para problemas sistêmicos, de forma a gerarem impacto exponencial e global."
+        "text": "Os Orquestradores de Sistemas, nossos parceiros de jornada, reimaginam e moldam um novo paradigma - uma abordagem inovadora de pensar e agir que possibilita impacto em escala. Isso inclui vislumbrar futuros alternativos, desafiar mentalidades predominantes e inovar ideias que transformam o entendimento, as responsabilidades e as ações dos principais atores."
       },
       "card2": {
-        "title": "NETWORK EFFECT",
-        "text": "Entender os atores e as barreiras que precisamos mover para catalisar e fortalecer o ecossistema que destrava a agenda destes empreendedores."
+        "title": "IMPULSIONANDO AÇÃO COLETIVA RÁPIDA",
+        "text": "Para viabilizar mudanças exponenciais, é necessário o engajamento de todos os setores. Diferentes atores compartilham conhecimentos e recursos, além de garantir que as comunidades estejam integradas como participantes ativas nos processos de transformação. Isso libera ação coordenada e contínua em direção a objetivos comuns."
       },
       "card3": {
-        "title": "ECOSSISTEMA LOCAL DE IMPACTO (INFRA-ESTRUTURA) COM TECNOLOGIA",
-        "text": "Criar uma infraestrutura ética que siga protocolos responsáveis para apoiar o ecossistema brasileiro (SOs, network, regulação, academia, fundações) a fazer as melhores escolhas em relação às tecnologias, protótipos, financiamento e implementação em larga escala."
+        "title": "TECNOLOGIA PARA INCLUSÃO EM ESCALA",
+        "text": "O Brasil tem se destacado como referência no Sul Global pelo uso ético e responsável da tecnologia - especialmente da inteligência artificial - para promover transformações. Esse avanço foi viabilizado por meio do estabelecimento de padrões e políticas robustas que orientam os atores a tomarem decisões informadas, assegurando que nenhuma comunidade enfrente consequências indesejadas."
       },
       "card4": {
-        "title": "ECOSSISTEMA LOCAL DE IMPACTO (INFRA-ESTRUTURA) COM TECNOLOGIA",
-        "text": "Criar uma grande rede colaborativa que responda rapidamente aos grandes problemas sociais e ambientais com soluções que podem ser aceleradas com o uso de tecnologias responsáveis e trocando globalmente."
+        "title": "COMPARTILHANDO IDEIAS DO SUL GLOBAL COM O MUNDO",
+        "text": "Há uma abundância de saberes e conhecimentos no Sul Global - tanto tradicionais quanto emergentes - especialmente no que diz respeito a responder a desafios exponenciais com mudanças exponenciais. Esse acervo tem sido sistematizado e amplificado globalmente para que possa ser utilizado e aprimorado por diversas sociedades, conforme o contexto de cada uma."
       }
     },
     "exponentialJourney": {
       "title": "Jornada Rumo à Mudança Exponencial",
       "title2": "Jornada de um Orquestrador de sistema",
-      "p1": "No CMe, caminhamos lado a lado com <strong>Orquestradores de Sistemas</strong> para <strong> aprofundar a compreensão de suas grandes missões </strong>, fazendo perguntas e explorando respostas por meio do Modelo de Pensamento Societal, de forma sistemática, para construir redes de adoção e ecossistemas de inovação alavancados por tecnologias digitais de ponta.",
+      "p1": "No <strong>CMe</strong>, caminhamos lado a lado com <strong>Orquestradores de Sistemas</strong> para <strong> aprofundar a compreensão de suas grandes missões</strong>, fazendo perguntas e explorando respostas por meio do Modelo de Pensamento Societal, de forma sistemática, para construir redes de adoção e ecossistemas de inovação alavancados por tecnologias digitais de ponta.",
       "p2": " Juntos, embarcamos em uma jornada para <strong> Aprender, Reimaginar, Projetar, Construir, Validar, Coordenar e Mobilizar </strong> para alcançar escala com agilidade e sustentabilidade.",
       "extra": {
-        "siteTitle": "Conheça mais sobre o Centro de Mudanças Exponenciais",
-        "siteCallback": "Acessar site Centro de Mudanças Exponenciais"
+        "siteTitle": "Saiba mais sobre o CMe e C4EC",
+        "siteCallback": "Acessar site Centro para Mudanças Exponenciais",
+        "societalTitle": "Saiba mais sobre Pensamento Societal:",
+        "societalCallback": "Visite o site Pensamento Societal"
       }
     },
     "systemOrchestrating": {
       "title": "Orquestradores de Sistema no Brasil",
       "subtitle": "Os Orquestradores de Sistemas selecionados são:",
-      "p1": "Em 2024, anunciamos três <strong>Orquestradores de Sistemas</strong> com os quais vamos coconstruir jornadas rumo à mudança exponencial. A escolha desses Orquestradores foi recebida com reconhecimento e apoio pelo <strong>Conselho Consultivo Global</strong> do <strong>Centre for Exponential Change</strong>, composto por <strong>Nilekani Philanthropies, Skoll Foundation, Waverley Street Foundation, New Profit</strong> e <strong>Instituto Beja.</strong>",
-      "p2": "Estamos entusiasmados com essas jornadas de aprendizado, reimaginação e design para promover mudanças exponenciais.",
+      "p1": "Em 2024, anunciamos três <strong>Orquestradores de Sistemas</strong> com os quais vamos coconstruir jornadas rumo à mudança exponencial. A escolha desses Orquestradores foi recebida com reconhecimento e apoio pelo <strong>Conselho Consultivo Global</strong> do <strong>Centre for Exponential Change (C4EC)</strong>, composto por <strong>Nilekani Philanthropies, Skoll Foundation, Waverley Street Foundation, New Profit</strong> e <strong>Instituto Beja.</strong>",
+      "p2": "Estamos entusiasmados com essas jornadas de aprendizado, reimaginação e <i>design</i> para promover mudanças exponenciais.",
       "cards": {
         "title": "a",
         "card1": {
@@ -275,7 +314,7 @@
           "text": [
             "<strong>&quot;Como a tecnologia pode nos ajudar a construir um Brasil seguro para mulheres e meninas de forma ética, responsável e efetiva?&quot;</strong>",
             "<p>Uma jornada que se soma ao trabalho de uma organização que nasceu para que meninas e mulheres possam ser livres, escolher e sonhar sem limites, exercendo seus direitos à dignidade, respeito e igualdade em um mundo sem discriminação.</p>",
-            "<p><strong>A Serenas</strong> é uma organização sem fins lucrativos que, desde 2021, apoia governos na construção e implementação de políticas educacionais de prevenção de violências contra meninas e mulheres, além da qualificação dos serviços públicos para um atendimento humanizado, intersetorial e efetivo a sobreviventes de violência sexual e doméstica.</p>",
+            "<p><strong>A Serenas é uma organização sem fins lucrativos que, desde 2021, apoia governos na construção e implementação de políticas educacionais de prevenção de violências contra meninas e mulheres, além da qualificação dos serviços públicos para um atendimento humanizado, intersetorial e efetivo a sobreviventes de violência sexual e doméstica.</strong></p>",
             "<p>Como a <strong>Serenas</strong>, acreditamos que a transformação exige um trabalho profundo de mudança dos valores e normas sociais que sustentam as violências e isso se dá através da educação das novas gerações e daqueles que atuam no atendimento de vítimas, garantindo um atendimento adequado e respeitoso.</p>"
           ]
         }
@@ -291,9 +330,9 @@
     ],
     "bubblesAlt": "Bolinhas",
     "phrases": [
-      "É hora de abrir espaço para novas agendas.",
-      "É hora de desconstruir, reaprender e cocriar.",
-      "É hora de oxigenar o ecossistema da filantropia."
+      "É hora de abrir espaço <br>para novas agendas.",
+      "É hora de desconstruir, <br>reaprender e cocriar.",
+      "É hora de oxigenar <br>o ecossistema da filantropia."
     ],
     "ccfAlt": "Conectando compromisso e futuro",
     "goodActionsAlt": "Filantropando boas ações",
@@ -323,7 +362,7 @@
         "subtitle": "Como eu não pensei nisso antes? O que mais é preciso apreender?",
         "texts": [
           "O olhar para o futuro, já presente nas práticas ancestrais, nos convida a abraçar mudanças significativas e adotar valores que refletem uma compreensão mais diversa e abrangente das necessidades da sociedade. Este eixo desafia a perpetuação de narrativas dominantes, instigando a criação de uma multiplicidade de perspectivas que reimagina a história como nossa história.",
-          "Esse movimento destaca temas frequentemente invisibilizados, que demandam maior atenção e aprofundamento, e propõe uma descentralização da tomada de decisão. Ao sair de uma perspectiva individual para uma visão compartilhada de responsabilidades, somos convidados a acolher o desconforto que acompanha as mudanças coletivas. Isso exige: compreender as dinâmicas de poder que moldam as relações sociais e econômicas; coragem para assumir riscos; romper paradigmas e expandir referências e construção de uma representatividade mais equitativa."
+          "Esse movimento destaca temas frequentemente invisibilizados, que demandam maior atenção e aprofundamento, e propõe uma descentralização da tomada de decisão. Ao sair de uma perspectiva individual para uma visão compartilhada de responsabilidades, somos convidados a acolher o desconforto que acompanha as mudanças coletivas. Isso exige: compreender as dinâmicas de poder que moldam as relações sociais e econômicas, coragem para assumir riscos; romper paradigmas e expandir referências e construção de uma representatividade mais equitativa."
         ]
       },
       {
@@ -331,9 +370,9 @@
         "title": "Como eu não pensei nisso antes? O que mais é preciso apreender?",
         "subtitle": "Tecnologia a serviço de quem?",
         "texts": [
-          "As Big Techs ditam as regras sobre pensamentos e conexões em redes, sob uma perspectiva desumanizadora. A disparidade nas abordagens para regulamentar a ética digital expõe disputas de influência e lacunas de representatividade cultural, perpetuando desigualdades no acesso e educação digital.",
+          "As <i>Big Techs</i> ditam as regras sobre pensamentos e conexões em redes, sob uma perspectiva desumanizadora. A disparidade nas abordagens para regulamentar a ética digital expõe disputas de influência e lacunas de representatividade cultural, perpetuando desigualdades no acesso e educação digital.",
           "A interação entre filantropia e tecnologia enfrenta desafios de desigualdade. O que chamávamos de 'futurismo' agora exige desconstruir visões de futuro descontextualizadas, vazias de realidades humanas diversas. Tecnologias digitais não são neutras - moldam percepções, relações e dinâmicas de poder.",
-          "Em contextos de governança e direitos humanos, as tecnologias transformam subjetividades e experiências. Diante da crítica insuficiente ao status quo que homogeneiza culturas a partir do Norte Global, questiona-se: como reumanizar a tecnologia e inovação em meio a mudanças exponenciais?"
+          "Em contextos de governança e direitos humanos, as tecnologias transformam subjetividades e experiências. Diante da crítica insuficiente ao status quo que homogeneiza culturas a partir do Norte Global, questiona-se: <strong>como reumanizar a tecnologia e inovação em meio a mudanças exponenciais?</strong>"
         ]
       }
     ],
@@ -351,7 +390,7 @@
     "p5": "Ao compartilhar nossa abordagem, buscamos inspirar outras fundações e institutos a adotarem estratégias que conciliem impacto social e ambiental com a rentabilidade financeira.",
     "card1": "Com o lema de gerar valor econômico, comunitário e ambiental em cada investimento, este fundo de capital de risco identifica empreendedores que buscam construir empresas a serviço da sociedade. Ele prioriza negócios com culturas que incorporam as melhores práticas para todos os seus stakeholders, criando modelos mais sustentáveis e inclusivos.",
     "card2": "Com a missão de combater a pobreza e as mudanças climáticas, a organização desenvolve modelos inovadores e autossustentáveis que atendem às necessidades de comunidades de baixa e média renda. Seus programas fornecem produtos e serviços acessíveis, conectam mercados para mercadorias locais e criam oportunidades de renda sustentável, promovendo impacto nos ecossistemas econômicos locais.",
-    "card3": "Parceira comprometida com a democratização do investimento de impacto positivo, a organização torna possível que qualquer pessoa contribua para o crescimento de negócios no Norte e Nordeste do Brasil. Por meio de sua plataforma RENOVA, baseada em empréstimos coletivos diretos, múltiplos investidores podem alocar recursos diretamente nos negócios com os quais mais se identificam."
+    "card3": "Parceira comprometida com a democratização do investimento de impacto positivo, a organização torna possível que qualquer pessoa contribua para o crescimento de negócios no Norte e Nordeste do Brasil. Por meio de sua plataforma <strong>Trê-MOVA</strong>, baseada em empréstimos coletivos diretos, múltiplos investidores podem alocar recursos diretamente nos negócios com os quais mais se identificam."
   },
   "balance": {
     "balance": "Balanço",

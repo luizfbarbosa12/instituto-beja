@@ -47,17 +47,32 @@ const PartnerCard = ({
         </h1>
 
         <div className='flex gap-4'>
-          {partnerImg?.map((item, index) => (
-            <img
-              key={index}
-              src={item}
-              alt='Pela democracia'
-              style={{
-                width: `clamp(${calcClamp(86, 128)})`,
-                height: `clamp(${calcClamp(62, 80)})`,
-              }}
-            />
-          ))}
+          {partnerImg?.map((item, index) => {
+            const isIgapare = typeof item === 'string' && item.includes('IgapareLogo.svg');
+            const width = isIgapare ? calcClamp(160, 220) : calcClamp(86, 128);
+            // Para Igapare, remover clamp de altura e limitar altura máxima
+            const height = isIgapare ? undefined : `clamp(${calcClamp(62, 80)})`;
+            const style = isIgapare
+              ? {
+                  width: `clamp(${width})`,
+                  maxHeight: '80px', // limita altura máxima
+                  objectFit: 'contain',
+                  display: 'block',
+                  margin: '0 auto',
+                }
+              : {
+                  width: `clamp(${width})`,
+                  height: height,
+                };
+            return (
+              <img
+                key={index}
+                src={item}
+                alt='Pela democracia'
+                style={style}
+              />
+            );
+          })}
         </div>
 
         <div className='w-1/2 h-[1px] bg-gold' />

@@ -7,7 +7,7 @@ import { EcosystemSocialOrganizations } from "./EcosystemSocialOrganizations";
 export default function InteractionEcosystem() {
   const [t] = useTranslation();
   return (
-    <div className='py-6 md:py-20 lg:py-[320px] bg-porcelain'>
+    <div className='py-6 md:py-20 lg:py-[40px] bg-porcelain'>
       <div className='px-4 md:px-8 lg:px-[132px] flex flex-col gap-4 md:gap-8 lg:gap-14'>
         <h2 className='font-serif text-bourdeaux text-3xl md:text-5xl lg:text-8xl leading-tight md:leading-snug lg:leading-[130px]'>
           {t("interactionEcosystem.title")}
@@ -17,7 +17,7 @@ export default function InteractionEcosystem() {
         </p>
       </div>
 
-      <div className='mt-14 tablet:mt-[120px]'>
+      <div className='mt-8 tablet:mt-[20px]'>
         <EcosystemCapitalProviders />
         <EcosystemIntermediates />
         <EcosystemSocialOrganizations />

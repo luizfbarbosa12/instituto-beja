@@ -34,7 +34,7 @@ const TopicList = ({ title, list, decimal }) => {
               className={`${decimal === true ? "list-decimal marker:text-3xl max-896:marker:text-2xl max-768:marker:text-xl max-640:marker:text-lg" : "list-disc marker:text-5xl max-896:marker:text-4xl max-768:marker:text-3xl max-640:marker:text-2xl"} editorial marker:text-retro-ochre`}
               key={index}
             >
-              {item}
+              <span dangerouslySetInnerHTML={{ __html: item }} />
             </li>
           ))}
         </ul>

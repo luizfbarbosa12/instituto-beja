@@ -9,20 +9,7 @@ const ManifestSection = () => {
   return (
     <div className='relative flex flex-col items-center gap-12 w-full bg-porcelain overflow-hidden pb-40'>
       <div className={"z-10 mx-0 w-full"}>
-        <div className='flex justify-between [&>p]:leading-none editorial text-2xl pb-7 mx-6'>
-          <p>
-            www.
-            <br />
-            institutobeja.org
-          </p>
-          <p>
-            (O)
-            <br />
-            <Trans i18nKey='manifest.since' />
-          </p>
-        </div>
-
-        <div className='flex w-full flex-center tablet:w-full z-10'>
+           <div className='flex w-full flex-center tablet:w-full z-10'>
           <div
             style={{ backgroundImage: "url('/assets/ManifestBg.png')" }}
             className='flex items-center bg-size-[auto_100%] bg-position-[70%_50%] bg-no-repeat py-48 flex-col justify-center h-full w-full px-6 gap-5 tablet:gap-12 text-porcelain'

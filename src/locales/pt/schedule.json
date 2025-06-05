@@ -1,6 +1,6 @@
 {
   "schedule": {
-    "copyright": "Desde 2021",
+
     "title": "Expediente",
     "subtitle": "Relatório <0 /> Anual 2024",
     "beja": "INSTITUTO BEJA",
@@ -19,7 +19,7 @@
       },
       {
         "text": "Diretora do CMe:",
-        "authors": ["Celia Cruz"]
+        "authors": ["Célia Cruz"]
       },
       {
         "text": "Diretor de Advocacy e Conhecimento:",
@@ -98,7 +98,7 @@
       {
         "text": "Comitê Executivo:",
         "authors": [
-          "Celia Cruz",
+          "Célia Cruz",
           "Carolina Aranha",
           "Graciela Selaimen",
           "Marcio Black",
@@ -125,10 +125,6 @@
       {
         "text": "Tradução:",
         "authors": ["Nathan Baroukh"]
-      },
-      {
-        "text": "UX writing, Design, Diagramação, Desenvolvimento website:",
-        "authors": ["Rede Afeta"]
       }
     ]
   }

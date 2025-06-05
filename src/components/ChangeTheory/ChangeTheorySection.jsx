@@ -26,18 +26,15 @@ const ChangeTheorySection = () => {
             </p>
           </div>
 
-          <NoticeContainer>
-            <NoticeColumn>
-              <p className='text-base'>
-                <Trans i18nKey='changeTheory.block.block1.p1' />
-              </p>
-            </NoticeColumn>
-            <NoticeColumn>
-              <p>
-                <Trans i18nKey='changeTheory.block.block1.p2' />
-              </p>
-            </NoticeColumn>
-          </NoticeContainer>
+          {/* Parágrafos exibidos verticalmente e com o mesmo tamanho de fonte em todos os dispositivos */}
+          <div className="flex flex-col gap-4 w-full">
+            <p className="text-base leading-relaxed">
+              <Trans i18nKey='changeTheory.block.block1.p1' />
+            </p>
+            <p className="text-base leading-relaxed">
+              <Trans i18nKey='changeTheory.block.block1.p2' />
+            </p>
+          </div>
 
           <div className='flex flex-col gap-2'>
             <p className='text-gold font-serif text-sm leading-relaxed tablet:text-2xl w-full max-w-[43.75rem] tablet:leading-10'>
@@ -54,7 +51,7 @@ const ChangeTheorySection = () => {
       <img
         src={Image}
         alt='Ilustração'
-        className='relative h-86 tablet:h-[42rem] -translate-x-1/2 tablet:translate-x-1/2 pt-8 pb-6 tablet:pt-25 tablet:pb-25 '
+        className='relative h-86 tablet:h-[42rem] mx-auto block tablet:-translate-x-1/2 pt-8 pb-6 tablet:pt-25 tablet:pb-25 '
       />
     </Wrapper>
   );

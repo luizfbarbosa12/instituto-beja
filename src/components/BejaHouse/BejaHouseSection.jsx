@@ -24,21 +24,18 @@ const BejaHouseSection = () => {
             <Trans i18nKey='bejaHouse.title' />
           </h1>
 
-          <NoticeContainer className='max-w-[980px] self-end'>
-            <NoticeColumn>
-              <p>
-                <Trans i18nKey='bejaHouse.p1' />
-              </p>
-            </NoticeColumn>
-            <NoticeColumn>
-              <p>
-                <Trans i18nKey='bejaHouse.p2' />
-              </p>
-              <p>
-                <Trans i18nKey='bejaHouse.p3' />
-              </p>
-            </NoticeColumn>
-          </NoticeContainer>
+          {/* Parágrafos exibidos verticalmente e com o mesmo tamanho de fonte em todos os dispositivos */}
+          <div className="flex flex-col gap-4 w-full max-w-[980px] self-end">
+            <p className="text-base leading-relaxed text-bourdeaux">
+              <Trans i18nKey='bejaHouse.p1' />
+            </p>
+            <p className="text-base leading-relaxed text-bourdeaux">
+              <Trans i18nKey='bejaHouse.p2' />
+            </p>
+            <p className="text-base leading-relaxed text-bourdeaux">
+              <Trans i18nKey='bejaHouse.p3' />
+            </p>
+          </div>
         </div>
       </Wrapper>
 

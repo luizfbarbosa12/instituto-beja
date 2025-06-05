@@ -7,16 +7,16 @@ const JusticaRacialCard = () => {
   useEffect(() => {}, [language]);
   return (
     <>
-      {language ? (
+      {language === 'en' ? (
         <img
-          src={"/assets/JusticaRacial.svg"}
-          alt={"Sub card"}
+          src={"/assets/engJusticaRacial.svg"}
+          alt={"Racial Justice Subcard (EN)"}
           className='h-6 w-fit max-sm:h-3'
         />
       ) : (
         <img
-          src={"/assets/engJusticaRacial.svg"}
-          alt={"Sub card"}
+          src={"/assets/JusticaRacial.svg"}
+          alt={"Subcartão Justiça Racial (PT)"}
           className='h-6 w-fit max-sm:h-3'
         />
       )}

@@ -1,6 +1,6 @@
 {
   "schedule": {
-    "copyright": "Since 2021",
+
     "title": "Schedule",
     "subtitle": "Annual <0 /> Report 2024",
     "beja": "INSTITUTO BEJA",
@@ -19,7 +19,7 @@
       },
       {
         "text": "CMe Director:",
-        "authors": ["Celia Cruz"]
+        "authors": ["Célia Cruz"]
       },
       {
         "text": "Advocacy and Knowledge Director:",
@@ -103,7 +103,7 @@
       {
         "text": "Executive Committee:",
         "authors": [
-          "Celia Cruz",
+          "Célia Cruz",
           "Carolina Aranha",
           "Graciela Selaimen",
           "Marcio Black",
@@ -130,10 +130,6 @@
       {
         "text": "Translation:",
         "authors": ["Nathan Baroukh"]
-      },
-      {
-        "text": "UX writing, Design, Layout and Web Development:",
-        "authors": ["Rede Afeta\\"]
       }
     ]
   }

@@ -7,16 +7,16 @@ const ForDemocracy = () => {
   useEffect(() => {}, [language]);
   return (
     <>
-      {language ? (
+      {language === 'en' ? (
         <img
-          src={"/assets/PelaDemocracia2.svg"}
-          alt={"Sub card"}
+          src={"/assets/engPelaDemocracia2.svg"}
+          alt={"For Democracy Subcard (EN)"}
           className='h-6 w-fit max-sm:h-3'
         />
       ) : (
         <img
-          src={"/assets/engPelaDemocracia2.svg"}
-          alt={"Sub card"}
+          src={"/assets/PelaDemocracia2.svg"}
+          alt={"Subcartão Pela Democracia (PT)"}
           className='h-6 w-fit max-sm:h-3'
         />
       )}

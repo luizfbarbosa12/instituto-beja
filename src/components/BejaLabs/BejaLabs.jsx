@@ -12,10 +12,10 @@ import GoldenQuoteSlider from "./../ui/GoldenQuoteSlider";
 import { PortfolioSectionVentTransition } from "./../PortfolioSection/PortfolioSectionVentTransition";
 
 const BejaLabs = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
-    <div className='flex flex-col items-end w-full overflow-hidden pb-90'>
+    <div className='flex flex-col items-end w-full overflow-hidden pb-16'>
       <PortfolioSectionVentTransition />
 
       <AnimatedLetter
@@ -88,7 +88,7 @@ const BejaLabs = () => {
           list={t("bejaLabs.sections.ashoka.topicList.list1.topics", {
             returnObjects: true,
           })}
-          decimal={true}
+          decimal={false}
         />
       </PartnerSection>
 
@@ -101,35 +101,37 @@ const BejaLabs = () => {
         topImg={Images.BejaLabs.MapeamentoBrasil}
         topImgStyle={{ w: 320, maxW: 1491, h: 320, maxH: 1155 }}
       >
-        <TextBlock
-          firstBlock={[
-            {
-              key: "first-0",
-              content: (
-                <>
-                  <p>
-                    <Trans i18nKey='bejaLabs.sections.ecosystemMap.blocks.block1.fs.p1' />
-                  </p>
-                </>
-              ),
-            },
-          ]}
-          secondBlock={[
-            {
-              key: "second-0",
-              content: <></>,
-            },
-          ]}
-        />
+        <div className='flex flex-col gap-4'>
+          <TextBlock
+            firstBlock={[
+              {
+                key: "first-0",
+                content: (
+                  <>
+                    <p>
+                      <Trans i18nKey='bejaLabs.sections.ecosystemMap.blocks.block1.fs.p1' />
+                    </p>
+                  </>
+                ),
+              },
+            ]}
+            secondBlock={[
+              {
+                key: "second-0",
+                content: <></>,
+              },
+            ]}
+          />
 
-        <TopicList
-          title={
-            <Trans i18nKey='bejaLabs.sections.ecosystemMap.topicList.list1.title' />
-          }
-          list={t("bejaLabs.sections.ecosystemMap.topicList.list1.topics", {
-            returnObjects: true,
-          })}
-        />
+          <TopicList
+            title={
+              <Trans i18nKey='bejaLabs.sections.ecosystemMap.topicList.list1.title' />
+            }
+            list={t("bejaLabs.sections.ecosystemMap.topicList.list1.topics", {
+              returnObjects: true,
+            })}
+          />
+        </div>
 
         <div className='flex flex-col gap-4'>
           <TextBlock
@@ -140,6 +142,15 @@ const BejaLabs = () => {
                   <>
                     <p>
                       <Trans i18nKey='bejaLabs.sections.ecosystemMap.blocks.block2.fs.p1' />
+<br />
+<a
+  href="https://labnovalongevidade.org"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block mt-2 text-ocre-700 hover:bg-ocre-100 hover:text-ocre-900 transition-colors px-3 py-1 rounded"
+>
+  <Trans i18nKey="bejaLabs.sections.ecosystemMap.blocks.block1.fs.link" components={[<b key="b" />]} />
+</a>
                     </p>
                   </>
                 ),
@@ -202,7 +213,7 @@ const BejaLabs = () => {
         sectionImg={Images.Ilustracoes.Bush}
         sectionImgStyle={{ w: 30, maxW: 100, h: 30, maxH: 90 }}
         topImg={Images.Ilustracoes.Bush}
-        topImgStyle={{ w: 221, maxW: 751, h: 193, maxH: 659 }}
+        topImgStyle={{ w: 48, maxW: 64, h: 48, maxH: 64 }}
         topImgCss={"-left-40"}
       >
         <div className='flex flex-col gap-4'>
@@ -264,7 +275,7 @@ const BejaLabs = () => {
         sectionImg={Images.Ilustracoes.Bush}
         sectionImgStyle={{ w: 30, maxW: 100, h: 30, maxH: 90 }}
         topImg={Images.BejaLabs.Globe}
-        topImgStyle={{ w: 221, maxW: 751, h: 193, maxH: 659 }}
+        topImgStyle={{ w: 48, maxW: 64, h: 48, maxH: 64 }}
         topImgCss={"-left-20"}
       >
         <TextBlock

@@ -15,16 +15,14 @@ const Expediente = () => {
       <div className='flex justify-between relative z-20'>
         <div>
           <p className='text-sm font-serif'>
-            www.
-            <br />
-            institutobeja.org
+
+
           </p>
         </div>
         <div className='text-right'>
           <p className='text-sm font-serif'>
-            (O)
-            <br />
-            <Trans i18nKey='schedule.copyright' />
+
+
           </p>
         </div>
       </div>
